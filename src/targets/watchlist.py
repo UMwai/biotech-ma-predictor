@@ -92,10 +92,10 @@ class AcquisitionTarget:
     # Basic info
     ticker: str
     name: str
+    therapeutic_area: str
     description: str = ""
 
     # Therapeutic focus
-    therapeutic_area: str
     therapeutic_areas_list: List[str] = field(default_factory=list)
     lead_asset: str = ""
     lead_asset_indication: str = ""

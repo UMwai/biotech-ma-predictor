@@ -26,6 +26,8 @@ Typical Usage:
 
 from .dcf_model import DrugDCF, DrugValuation
 from .assumptions import (
+    ClinicalPhase,
+    TherapeuticArea,
     PROBABILITY_OF_SUCCESS,
     DISCOUNT_RATES,
     REVENUE_CURVES,
@@ -36,6 +38,7 @@ from .assumptions import (
 from .drug_revenue import (
     RevenueProjector,
     RevenueCurveType,
+    IndicationCategory,
     IndicationTAM,
     project_standard_curve,
     project_blockbuster_curve,
@@ -56,9 +59,14 @@ __all__ = [
     'DrugCandidate',
     'PortfolioSummary',
 
+    # Enums
+    'ClinicalPhase',
+    'TherapeuticArea',
+    'RevenueCurveType',
+    'IndicationCategory',
+
     # Revenue projection
     'RevenueProjector',
-    'RevenueCurveType',
     'IndicationTAM',
     'project_standard_curve',
     'project_blockbuster_curve',
