@@ -275,12 +275,15 @@ class PipelineGapAnalysis:
         phase_risk_adjusted_value = defaultdict(float)
 
         for asset in acquirer.pipeline:
-            phase_counts[asset.phase.value] += 1
+            # Handle both string and enum phases
+            phase_key = asset.phase.value if hasattr(asset.phase, 'value') else asset.phase
+            phase_counts[phase_key] += 1
 
             # Risk-adjusted NPV
-            prob_success = self.phase_success_rates.get(asset.phase, 0.5)
+            phase_enum = asset.phase if hasattr(asset.phase, 'value') else ClinicalPhase(asset.phase)
+            prob_success = self.phase_success_rates.get(phase_enum, 0.5)
             risk_adj_value = asset.peak_sales_estimate * prob_success
-            phase_risk_adjusted_value[asset.phase.value] += risk_adj_value
+            phase_risk_adjusted_value[phase_key] += risk_adj_value
 
         # Identify phase gaps
         gaps = []

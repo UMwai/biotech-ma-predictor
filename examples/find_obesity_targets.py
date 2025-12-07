@@ -57,34 +57,12 @@ def main():
         exclude_preclinical_only=True
     )
 
-    # Custom ranking weights - emphasize scientific differentiation
-    print("Setting up custom ranking weights...")
-    weights = RankingWeights(
-        # Emphasize science and innovation
-        scientific_differentiation=0.16,
-        pipeline_quality=0.12,
-        therapeutic_area=0.10,
+    # Use default ranking weights (optimized for biotech M&A)
+    print("Using default ranking weights...")
 
-        # Strategic factors
-        strategic_acquirer_fit=0.11,
-        acquisition_tension=0.10,
-
-        # Clinical and financial
-        clinical_stage=0.10,
-        cash_runway=0.08,
-        data_catalyst_timing=0.08,
-
-        # Other factors
-        market_cap_fit=0.05,
-        financial_distress=0.03,
-        competitive_landscape=0.03,
-        deal_structure_feasibility=0.03
-    )
-
-    # Initialize identifier with custom settings
+    # Initialize identifier with custom screening criteria
     identifier = TargetIdentifier(
-        screening_criteria=criteria,
-        ranking_weights=weights
+        screening_criteria=criteria
     )
 
     # Generate sample watchlist (in production, use real data)

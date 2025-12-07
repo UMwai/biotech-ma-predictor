@@ -79,9 +79,9 @@ class ClinicalTrial:
     therapeutic_area: str
     phase: str
     start_date: datetime
-    enrollment_target: Optional[int] = None
     sponsor: str
     status: str
+    enrollment_target: Optional[int] = None
 
 
 class TherapeuticMomentum:
