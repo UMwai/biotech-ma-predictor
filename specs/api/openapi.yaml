@@ -1,0 +1,2593 @@
+openapi: 3.0.3
+info:
+  title: Biotech M&A Predictor API
+  version: 1.0.0
+  description: |
+    API for accessing biotech M&A predictions, company intelligence, and market signals.
+
+    This API serves institutional clients (hedge funds, PE firms, investment banks) with:
+    - Real-time M&A probability scores and rankings
+    - Comprehensive company profiles and drug pipeline data
+    - Historical signal tracking and analysis
+    - Automated report generation and delivery
+    - Configurable alerts for market events
+
+    ## Authentication
+    All requests require an API key passed in the `X-API-Key` header.
+
+    ## Rate Limiting
+    - Standard tier: 100 requests/minute
+    - Premium tier: 500 requests/minute
+    - Enterprise tier: Custom limits
+
+    Rate limit information is returned in response headers:
+    - `X-RateLimit-Limit`: Maximum requests per window
+    - `X-RateLimit-Remaining`: Remaining requests in current window
+    - `X-RateLimit-Reset`: Unix timestamp when the window resets
+
+  contact:
+    name: API Support
+    email: api-support@biotechma.io
+  license:
+    name: Proprietary
+
+servers:
+  - url: https://api.biotechma.io/v1
+    description: Production server
+  - url: https://api-staging.biotechma.io/v1
+    description: Staging server
+
+security:
+  - ApiKeyAuth: []
+
+tags:
+  - name: Companies
+    description: Company profiles, signals, and pipeline data
+  - name: Predictions
+    description: M&A predictions and target-acquirer matching
+  - name: Reports
+    description: Generated reports and digests
+  - name: Alerts
+    description: Alert configuration and history
+  - name: Webhooks
+    description: Webhook registration and management
+
+paths:
+  /companies:
+    get:
+      tags:
+        - Companies
+      summary: List all tracked companies
+      description: |
+        Retrieve a paginated list of all biotech companies being tracked by the system.
+        Supports filtering by various criteria including market cap, stage, and M&A score.
+      operationId: listCompanies
+      parameters:
+        - name: page
+          in: query
+          description: Page number for pagination
+          schema:
+            type: integer
+            default: 1
+            minimum: 1
+        - name: limit
+          in: query
+          description: Number of results per page
+          schema:
+            type: integer
+            default: 50
+            minimum: 1
+            maximum: 100
+        - name: min_ma_score
+          in: query
+          description: Minimum M&A score (0-100)
+          schema:
+            type: number
+            format: float
+            minimum: 0
+            maximum: 100
+        - name: max_ma_score
+          in: query
+          description: Maximum M&A score (0-100)
+          schema:
+            type: number
+            format: float
+            minimum: 0
+            maximum: 100
+        - name: min_market_cap
+          in: query
+          description: Minimum market capitalization in millions USD
+          schema:
+            type: number
+            format: float
+            minimum: 0
+        - name: max_market_cap
+          in: query
+          description: Maximum market capitalization in millions USD
+          schema:
+            type: number
+            format: float
+            minimum: 0
+        - name: stage
+          in: query
+          description: Development stage filter
+          schema:
+            type: string
+            enum: [preclinical, phase1, phase2, phase3, commercial]
+        - name: therapeutic_area
+          in: query
+          description: Filter by therapeutic area
+          schema:
+            type: string
+            example: oncology
+        - name: sort_by
+          in: query
+          description: Field to sort results by
+          schema:
+            type: string
+            enum: [ma_score, market_cap, ticker, company_name, recent_activity]
+            default: ma_score
+        - name: order
+          in: query
+          description: Sort order
+          schema:
+            type: string
+            enum: [asc, desc]
+            default: desc
+      responses:
+        '200':
+          description: Successful response
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/CompanySummary'
+                  pagination:
+                    $ref: '#/components/schemas/Pagination'
+              example:
+                data:
+                  - ticker: "ABCD"
+                    company_name: "ABC Therapeutics Inc."
+                    market_cap: 450.5
+                    ma_score: 78.3
+                    ma_score_change_7d: 5.2
+                    stage: "phase2"
+                    therapeutic_areas: ["oncology", "immunology"]
+                    last_updated: "2024-01-15T14:30:00Z"
+                  - ticker: "XYZT"
+                    company_name: "XYZ Biopharma"
+                    market_cap: 320.8
+                    ma_score: 72.1
+                    ma_score_change_7d: -2.1
+                    stage: "phase3"
+                    therapeutic_areas: ["neurology"]
+                    last_updated: "2024-01-15T14:25:00Z"
+                pagination:
+                  page: 1
+                  limit: 50
+                  total_results: 234
+                  total_pages: 5
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /companies/{ticker}:
+    get:
+      tags:
+        - Companies
+      summary: Get company profile with M&A score
+      description: |
+        Retrieve detailed profile for a specific company including current M&A score,
+        financial metrics, pipeline overview, and recent signal activity.
+      operationId: getCompanyProfile
+      parameters:
+        - name: ticker
+          in: path
+          required: true
+          description: Stock ticker symbol
+          schema:
+            type: string
+            example: "ABCD"
+      responses:
+        '200':
+          description: Successful response
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CompanyProfile'
+              example:
+                ticker: "ABCD"
+                company_name: "ABC Therapeutics Inc."
+                description: "Clinical-stage biopharmaceutical company focused on oncology therapeutics"
+                founded_year: 2015
+                headquarters: "Boston, MA"
+                employees: 145
+                financials:
+                  market_cap: 450.5
+                  enterprise_value: 425.3
+                  cash_position: 85.2
+                  burn_rate: 12.5
+                  runway_months: 6.8
+                  revenue_ttm: 2.1
+                  stock_price: 15.25
+                  stock_change_1d: -0.5
+                  stock_change_5d: 2.3
+                  stock_change_30d: -8.7
+                ma_analysis:
+                  ma_score: 78.3
+                  ma_score_change_7d: 5.2
+                  ma_score_change_30d: 12.8
+                  acquisition_probability: "High"
+                  target_type: "Platform"
+                  key_signals:
+                    - type: "financial_stress"
+                      severity: "high"
+                      description: "Cash runway below 9 months"
+                      detected_at: "2024-01-10T09:15:00Z"
+                    - type: "executive_departure"
+                      severity: "medium"
+                      description: "CFO resignation announced"
+                      detected_at: "2024-01-08T16:30:00Z"
+                    - type: "trial_success"
+                      severity: "medium"
+                      description: "Phase 2 trial met primary endpoint"
+                      detected_at: "2024-01-05T08:00:00Z"
+                  recent_score_history:
+                    - date: "2024-01-15"
+                      score: 78.3
+                    - date: "2024-01-08"
+                      score: 73.1
+                    - date: "2024-01-01"
+                      score: 65.5
+                pipeline_summary:
+                  total_programs: 4
+                  phase_breakdown:
+                    preclinical: 1
+                    phase1: 1
+                    phase2: 2
+                    phase3: 0
+                  lead_programs:
+                    - name: "ABC-101"
+                      indication: "Non-small cell lung cancer"
+                      stage: "phase2"
+                      status: "Active"
+                    - name: "ABC-202"
+                      indication: "Melanoma"
+                      stage: "phase2"
+                      status: "Active"
+                partnerships:
+                  active_collaborations: 2
+                  recent_deals:
+                    - partner: "Big Pharma Corp"
+                      type: "Research collaboration"
+                      announced_date: "2023-06-15"
+                last_updated: "2024-01-15T14:30:00Z"
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /companies/{ticker}/signals:
+    get:
+      tags:
+        - Companies
+      summary: Get signal history
+      description: |
+        Retrieve historical signals detected for a specific company.
+        Signals include financial events, executive changes, clinical milestones,
+        regulatory actions, and market activities.
+      operationId: getCompanySignals
+      parameters:
+        - name: ticker
+          in: path
+          required: true
+          description: Stock ticker symbol
+          schema:
+            type: string
+            example: "ABCD"
+        - name: start_date
+          in: query
+          description: Start date for signal history (ISO 8601)
+          schema:
+            type: string
+            format: date
+            example: "2024-01-01"
+        - name: end_date
+          in: query
+          description: End date for signal history (ISO 8601)
+          schema:
+            type: string
+            format: date
+            example: "2024-01-31"
+        - name: signal_type
+          in: query
+          description: Filter by signal type
+          schema:
+            type: string
+            enum:
+              - financial_stress
+              - executive_departure
+              - executive_hire
+              - trial_success
+              - trial_failure
+              - regulatory_approval
+              - regulatory_setback
+              - partnership
+              - acquisition_rumor
+              - stock_volatility
+              - analyst_downgrade
+              - analyst_upgrade
+        - name: severity
+          in: query
+          description: Filter by severity level
+          schema:
+            type: string
+            enum: [low, medium, high, critical]
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+            minimum: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 50
+            minimum: 1
+            maximum: 100
+      responses:
+        '200':
+          description: Successful response
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ticker:
+                    type: string
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Signal'
+                  pagination:
+                    $ref: '#/components/schemas/Pagination'
+              example:
+                ticker: "ABCD"
+                data:
+                  - signal_id: "sig_12345"
+                    type: "financial_stress"
+                    severity: "high"
+                    title: "Cash runway below 9 months"
+                    description: "Company's current cash position and burn rate indicate runway of approximately 6.8 months"
+                    detected_at: "2024-01-10T09:15:00Z"
+                    source: "financial_analysis"
+                    impact_on_ma_score: 8.5
+                    metadata:
+                      cash_position: 85.2
+                      burn_rate: 12.5
+                      runway_months: 6.8
+                  - signal_id: "sig_12344"
+                    type: "executive_departure"
+                    severity: "medium"
+                    title: "CFO resignation"
+                    description: "Chief Financial Officer announced resignation, effective in 30 days"
+                    detected_at: "2024-01-08T16:30:00Z"
+                    source: "sec_filing"
+                    impact_on_ma_score: 4.2
+                    metadata:
+                      executive_name: "John Smith"
+                      position: "CFO"
+                      effective_date: "2024-02-08"
+                pagination:
+                  page: 1
+                  limit: 50
+                  total_results: 127
+                  total_pages: 3
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /companies/{ticker}/pipeline:
+    get:
+      tags:
+        - Companies
+      summary: Get drug pipeline details
+      description: |
+        Retrieve detailed information about a company's drug development pipeline,
+        including all programs, clinical trial status, indications, and mechanisms.
+      operationId: getCompanyPipeline
+      parameters:
+        - name: ticker
+          in: path
+          required: true
+          description: Stock ticker symbol
+          schema:
+            type: string
+            example: "ABCD"
+      responses:
+        '200':
+          description: Successful response
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ticker:
+                    type: string
+                  company_name:
+                    type: string
+                  total_programs:
+                    type: integer
+                  programs:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/PipelineProgram'
+                  last_updated:
+                    type: string
+                    format: date-time
+              example:
+                ticker: "ABCD"
+                company_name: "ABC Therapeutics Inc."
+                total_programs: 4
+                programs:
+                  - program_id: "prog_001"
+                    drug_name: "ABC-101"
+                    generic_name: "abcitinib"
+                    mechanism: "Selective TKI"
+                    therapeutic_area: "Oncology"
+                    indication: "Non-small cell lung cancer (NSCLC)"
+                    stage: "phase2"
+                    status: "Active"
+                    trial_name: "TRIUMPH-2"
+                    estimated_completion: "2024-Q3"
+                    patient_enrollment: 180
+                    primary_endpoint: "Overall response rate (ORR)"
+                    recent_milestone:
+                      date: "2024-01-05"
+                      event: "Interim analysis met futility threshold"
+                    strategic_value: "Lead asset, potential best-in-class"
+                  - program_id: "prog_002"
+                    drug_name: "ABC-202"
+                    generic_name: "abcimab"
+                    mechanism: "Monoclonal antibody"
+                    therapeutic_area: "Oncology"
+                    indication: "Melanoma"
+                    stage: "phase2"
+                    status: "Active"
+                    trial_name: "ADVANCE-MEL"
+                    estimated_completion: "2024-Q4"
+                    patient_enrollment: 120
+                    primary_endpoint: "Progression-free survival (PFS)"
+                    strategic_value: "Platform expansion opportunity"
+                last_updated: "2024-01-15T14:30:00Z"
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /predictions/watchlist:
+    get:
+      tags:
+        - Predictions
+      summary: Get current M&A watchlist
+      description: |
+        Retrieve the current M&A watchlist with companies ranked by acquisition probability.
+        This is the primary endpoint for identifying high-probability acquisition targets.
+      operationId: getWatchlist
+      parameters:
+        - name: min_score
+          in: query
+          description: Minimum M&A score threshold
+          schema:
+            type: number
+            format: float
+            default: 60.0
+            minimum: 0
+            maximum: 100
+        - name: limit
+          in: query
+          description: Number of companies to return
+          schema:
+            type: integer
+            default: 25
+            minimum: 1
+            maximum: 100
+      responses:
+        '200':
+          description: Successful response
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  generated_at:
+                    type: string
+                    format: date-time
+                  watchlist:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/WatchlistEntry'
+              example:
+                generated_at: "2024-01-15T15:00:00Z"
+                watchlist:
+                  - rank: 1
+                    ticker: "ABCD"
+                    company_name: "ABC Therapeutics Inc."
+                    ma_score: 78.3
+                    ma_score_change_7d: 5.2
+                    acquisition_probability: "High"
+                    market_cap: 450.5
+                    key_catalysts:
+                      - "Cash runway below 9 months"
+                      - "CFO departure"
+                      - "Phase 2 trial success in lead program"
+                    predicted_timeline: "3-6 months"
+                    top_potential_acquirers:
+                      - ticker: "BIGP"
+                        company_name: "Big Pharma Corp"
+                        match_score: 85.2
+                      - ticker: "MEGA"
+                        company_name: "Mega Biopharma"
+                        match_score: 78.9
+                  - rank: 2
+                    ticker: "XYZT"
+                    company_name: "XYZ Biopharma"
+                    ma_score: 72.1
+                    ma_score_change_7d: -2.1
+                    acquisition_probability: "High"
+                    market_cap: 320.8
+                    key_catalysts:
+                      - "Recent analyst downgrades"
+                      - "Regulatory setback in EU"
+                    predicted_timeline: "6-12 months"
+                    top_potential_acquirers:
+                      - ticker: "GIANT"
+                        company_name: "Giant Pharma Inc"
+                        match_score: 82.1
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /predictions/top:
+    get:
+      tags:
+        - Predictions
+      summary: Get top N acquisition candidates
+      description: |
+        Retrieve the top acquisition candidates with detailed scoring and rationale.
+        Similar to watchlist but with more detailed analysis.
+      operationId: getTopCandidates
+      parameters:
+        - name: limit
+          in: query
+          description: Number of top candidates to return
+          schema:
+            type: integer
+            default: 10
+            minimum: 1
+            maximum: 50
+        - name: therapeutic_area
+          in: query
+          description: Filter by therapeutic area
+          schema:
+            type: string
+        - name: max_market_cap
+          in: query
+          description: Maximum market cap in millions USD
+          schema:
+            type: number
+            format: float
+      responses:
+        '200':
+          description: Successful response
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  generated_at:
+                    type: string
+                    format: date-time
+                  candidates:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/AcquisitionCandidate'
+              example:
+                generated_at: "2024-01-15T15:00:00Z"
+                candidates:
+                  - ticker: "ABCD"
+                    company_name: "ABC Therapeutics Inc."
+                    ma_score: 78.3
+                    market_cap: 450.5
+                    scoring_breakdown:
+                      financial_stress: 35.0
+                      pipeline_value: 25.5
+                      market_dynamics: 10.3
+                      corporate_activity: 7.5
+                    acquisition_rationale: "Strong phase 2 data in oncology, but limited cash runway creates urgency for strategic transaction"
+                    strategic_fit:
+                      - acquirer_profile: "Large cap pharma seeking oncology expansion"
+                        fit_score: 88.5
+                      - acquirer_profile: "Mid-cap biotech with commercial infrastructure"
+                        fit_score: 72.3
+                    valuation_estimate:
+                      base_case: 650.0
+                      bull_case: 850.0
+                      bear_case: 500.0
+                      premium_to_current: 44.4
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /predictions/{ticker}/acquirers:
+    get:
+      tags:
+        - Predictions
+      summary: Get potential acquirers for target
+      description: |
+        For a given target company, retrieve a ranked list of potential acquirers
+        with strategic fit scores and acquisition rationale.
+      operationId: getPotentialAcquirers
+      parameters:
+        - name: ticker
+          in: path
+          required: true
+          description: Target company ticker symbol
+          schema:
+            type: string
+            example: "ABCD"
+        - name: limit
+          in: query
+          description: Number of potential acquirers to return
+          schema:
+            type: integer
+            default: 10
+            minimum: 1
+            maximum: 50
+      responses:
+        '200':
+          description: Successful response
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  target:
+                    type: object
+                    properties:
+                      ticker:
+                        type: string
+                      company_name:
+                        type: string
+                      market_cap:
+                        type: number
+                      ma_score:
+                        type: number
+                  potential_acquirers:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/PotentialAcquirer'
+                  generated_at:
+                    type: string
+                    format: date-time
+              example:
+                target:
+                  ticker: "ABCD"
+                  company_name: "ABC Therapeutics Inc."
+                  market_cap: 450.5
+                  ma_score: 78.3
+                potential_acquirers:
+                  - rank: 1
+                    ticker: "BIGP"
+                    company_name: "Big Pharma Corp"
+                    match_score: 85.2
+                    market_cap: 125000.0
+                    strategic_rationale: "Portfolio gap in NSCLC, recent divestiture generated $3B in capital, strong track record in oncology M&A"
+                    fit_factors:
+                      therapeutic_alignment: 95.0
+                      pipeline_complementarity: 88.0
+                      financial_capacity: 98.0
+                      geographic_synergy: 75.0
+                      cultural_fit: 72.0
+                    estimated_offer_range:
+                      low: 600.0
+                      high: 900.0
+                      premium_percentage: "33-100%"
+                    acquisition_likelihood: "High"
+                    historical_deal_activity:
+                      deals_last_5y: 8
+                      avg_deal_size: 850.0
+                      therapeutic_focus: ["oncology", "immunology"]
+                  - rank: 2
+                    ticker: "MEGA"
+                    company_name: "Mega Biopharma"
+                    match_score: 78.9
+                    market_cap: 45000.0
+                    strategic_rationale: "Expanding oncology franchise, ABC-101 complements existing checkpoint inhibitor portfolio"
+                    fit_factors:
+                      therapeutic_alignment: 92.0
+                      pipeline_complementarity: 85.0
+                      financial_capacity: 82.0
+                      geographic_synergy: 68.0
+                      cultural_fit: 80.0
+                    estimated_offer_range:
+                      low: 550.0
+                      high: 750.0
+                      premium_percentage: "22-67%"
+                    acquisition_likelihood: "Medium-High"
+                    historical_deal_activity:
+                      deals_last_5y: 4
+                      avg_deal_size: 420.0
+                      therapeutic_focus: ["oncology", "rare disease"]
+                generated_at: "2024-01-15T15:00:00Z"
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /predictions/matches:
+    get:
+      tags:
+        - Predictions
+      summary: Get all target-acquirer pairings
+      description: |
+        Retrieve all potential target-acquirer pairings with match scores above threshold.
+        Useful for market-wide M&A opportunity analysis.
+      operationId: getMatches
+      parameters:
+        - name: min_match_score
+          in: query
+          description: Minimum match score threshold
+          schema:
+            type: number
+            format: float
+            default: 70.0
+            minimum: 0
+            maximum: 100
+        - name: target_ticker
+          in: query
+          description: Filter by specific target company
+          schema:
+            type: string
+        - name: acquirer_ticker
+          in: query
+          description: Filter by specific acquirer company
+          schema:
+            type: string
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+            minimum: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 50
+            minimum: 1
+            maximum: 100
+      responses:
+        '200':
+          description: Successful response
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/TargetAcquirerMatch'
+                  pagination:
+                    $ref: '#/components/schemas/Pagination'
+                  generated_at:
+                    type: string
+                    format: date-time
+              example:
+                data:
+                  - match_id: "match_001"
+                    target:
+                      ticker: "ABCD"
+                      company_name: "ABC Therapeutics Inc."
+                      market_cap: 450.5
+                      ma_score: 78.3
+                    acquirer:
+                      ticker: "BIGP"
+                      company_name: "Big Pharma Corp"
+                      market_cap: 125000.0
+                    match_score: 85.2
+                    deal_probability: "High"
+                    estimated_timeline: "3-6 months"
+                    strategic_thesis: "BIGP seeking to fill NSCLC gap after patent expiration, ABC-101 Phase 2 data de-risks asset"
+                    estimated_valuation: 750.0
+                    premium_percentage: 66.7
+                pagination:
+                  page: 1
+                  limit: 50
+                  total_results: 156
+                  total_pages: 4
+                generated_at: "2024-01-15T15:00:00Z"
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /reports:
+    get:
+      tags:
+        - Reports
+      summary: List available reports
+      description: |
+        Retrieve a list of all available reports including daily digests,
+        weekly watchlists, and custom generated reports.
+      operationId: listReports
+      parameters:
+        - name: report_type
+          in: query
+          description: Filter by report type
+          schema:
+            type: string
+            enum: [daily_digest, weekly_watchlist, custom, signal_alert, deal_analysis]
+        - name: start_date
+          in: query
+          description: Filter reports from this date onwards
+          schema:
+            type: string
+            format: date
+        - name: end_date
+          in: query
+          description: Filter reports up to this date
+          schema:
+            type: string
+            format: date
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+            minimum: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+            minimum: 1
+            maximum: 100
+      responses:
+        '200':
+          description: Successful response
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/ReportSummary'
+                  pagination:
+                    $ref: '#/components/schemas/Pagination'
+              example:
+                data:
+                  - report_id: "rpt_20240115_digest"
+                    report_type: "daily_digest"
+                    title: "Daily M&A Digest - January 15, 2024"
+                    generated_at: "2024-01-15T06:00:00Z"
+                    summary: "5 new signals detected, 2 companies moved to high-probability watchlist"
+                    download_url: "https://api.biotechma.io/v1/reports/rpt_20240115_digest/download"
+                  - report_id: "rpt_20240114_watchlist"
+                    report_type: "weekly_watchlist"
+                    title: "Weekly M&A Watchlist - Week of January 14, 2024"
+                    generated_at: "2024-01-14T06:00:00Z"
+                    summary: "25 companies on high-probability watchlist, 8 new target-acquirer pairings identified"
+                    download_url: "https://api.biotechma.io/v1/reports/rpt_20240114_watchlist/download"
+                pagination:
+                  page: 1
+                  limit: 20
+                  total_results: 145
+                  total_pages: 8
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /reports/{report_id}:
+    get:
+      tags:
+        - Reports
+      summary: Get specific report
+      description: |
+        Retrieve the full content of a specific report by its ID.
+      operationId: getReport
+      parameters:
+        - name: report_id
+          in: path
+          required: true
+          description: Unique report identifier
+          schema:
+            type: string
+            example: "rpt_20240115_digest"
+        - name: format
+          in: query
+          description: Report format
+          schema:
+            type: string
+            enum: [json, pdf, html]
+            default: json
+      responses:
+        '200':
+          description: Successful response
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Report'
+            application/pdf:
+              schema:
+                type: string
+                format: binary
+            text/html:
+              schema:
+                type: string
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /reports/generate:
+    post:
+      tags:
+        - Reports
+      summary: Generate on-demand report
+      description: |
+        Generate a custom report based on specified parameters.
+        Report generation is asynchronous; check status via returned report_id.
+      operationId: generateReport
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ReportRequest'
+            example:
+              report_type: "custom"
+              title: "Q1 2024 Oncology M&A Analysis"
+              parameters:
+                therapeutic_areas: ["oncology"]
+                min_ma_score: 65.0
+                max_market_cap: 2000.0
+                include_sections:
+                  - "executive_summary"
+                  - "top_targets"
+                  - "acquirer_analysis"
+                  - "deal_predictions"
+                format: "pdf"
+      responses:
+        '202':
+          description: Report generation accepted
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  report_id:
+                    type: string
+                    description: Unique identifier for the generated report
+                  status:
+                    type: string
+                    enum: [queued, processing, completed, failed]
+                  estimated_completion:
+                    type: string
+                    format: date-time
+                  status_url:
+                    type: string
+                    description: URL to check report status
+              example:
+                report_id: "rpt_custom_78945"
+                status: "queued"
+                estimated_completion: "2024-01-15T15:05:00Z"
+                status_url: "https://api.biotechma.io/v1/reports/rpt_custom_78945"
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /reports/daily-digest:
+    get:
+      tags:
+        - Reports
+      summary: Get latest daily digest
+      description: |
+        Retrieve the most recent daily digest report containing overnight signals,
+        score changes, and market updates.
+      operationId: getDailyDigest
+      parameters:
+        - name: date
+          in: query
+          description: Specific date for digest (defaults to latest)
+          schema:
+            type: string
+            format: date
+            example: "2024-01-15"
+      responses:
+        '200':
+          description: Successful response
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DailyDigest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /reports/weekly-watchlist:
+    get:
+      tags:
+        - Reports
+      summary: Get latest weekly watchlist
+      description: |
+        Retrieve the most recent weekly watchlist report with comprehensive
+        M&A predictions and target-acquirer analysis.
+      operationId: getWeeklyWatchlist
+      parameters:
+        - name: week_ending
+          in: query
+          description: Week ending date (defaults to latest)
+          schema:
+            type: string
+            format: date
+            example: "2024-01-14"
+      responses:
+        '200':
+          description: Successful response
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WeeklyWatchlist'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /alerts:
+    get:
+      tags:
+        - Alerts
+      summary: List configured alerts
+      description: |
+        Retrieve all alerts configured for the authenticated user/organization.
+      operationId: listAlerts
+      parameters:
+        - name: status
+          in: query
+          description: Filter by alert status
+          schema:
+            type: string
+            enum: [active, paused, expired]
+        - name: alert_type
+          in: query
+          description: Filter by alert type
+          schema:
+            type: string
+            enum: [ma_score_threshold, signal_detected, report_published, watchlist_change]
+      responses:
+        '200':
+          description: Successful response
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  alerts:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Alert'
+              example:
+                alerts:
+                  - alert_id: "alert_001"
+                    alert_type: "ma_score_threshold"
+                    status: "active"
+                    name: "High M&A Score Alert"
+                    description: "Alert when any company crosses 75 M&A score"
+                    conditions:
+                      threshold: 75.0
+                      direction: "above"
+                    notification_channels: ["email", "webhook"]
+                    created_at: "2024-01-01T10:00:00Z"
+                    last_triggered: "2024-01-15T09:30:00Z"
+                    trigger_count: 12
+                  - alert_id: "alert_002"
+                    alert_type: "signal_detected"
+                    status: "active"
+                    name: "Financial Stress Signal"
+                    description: "Alert on high-severity financial stress signals"
+                    conditions:
+                      signal_types: ["financial_stress"]
+                      severity: "high"
+                      tickers: ["ABCD", "XYZT"]
+                    notification_channels: ["email", "sms", "webhook"]
+                    created_at: "2024-01-05T14:00:00Z"
+                    last_triggered: "2024-01-10T09:15:00Z"
+                    trigger_count: 3
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+    post:
+      tags:
+        - Alerts
+      summary: Create new alert
+      description: |
+        Configure a new alert based on specified conditions and notification preferences.
+      operationId: createAlert
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AlertRequest'
+            example:
+              alert_type: "ma_score_threshold"
+              name: "Oncology High Score Alert"
+              description: "Alert when oncology companies exceed M&A score of 80"
+              conditions:
+                min_ma_score: 80.0
+                therapeutic_areas: ["oncology"]
+              notification_channels: ["email", "webhook"]
+              notification_config:
+                email_addresses: ["analyst@hedgefund.com"]
+                webhook_url: "https://hedgefund.com/webhooks/ma-alerts"
+      responses:
+        '201':
+          description: Alert created successfully
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Alert'
+              example:
+                alert_id: "alert_003"
+                alert_type: "ma_score_threshold"
+                status: "active"
+                name: "Oncology High Score Alert"
+                description: "Alert when oncology companies exceed M&A score of 80"
+                conditions:
+                  min_ma_score: 80.0
+                  therapeutic_areas: ["oncology"]
+                notification_channels: ["email", "webhook"]
+                created_at: "2024-01-15T15:30:00Z"
+                last_triggered: null
+                trigger_count: 0
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /alerts/{alert_id}:
+    delete:
+      tags:
+        - Alerts
+      summary: Remove alert
+      description: |
+        Delete a configured alert by its ID.
+      operationId: deleteAlert
+      parameters:
+        - name: alert_id
+          in: path
+          required: true
+          description: Unique alert identifier
+          schema:
+            type: string
+            example: "alert_001"
+      responses:
+        '204':
+          description: Alert deleted successfully
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /alerts/history:
+    get:
+      tags:
+        - Alerts
+      summary: Get triggered alert history
+      description: |
+        Retrieve historical record of all triggered alerts with details about
+        what conditions were met and when.
+      operationId: getAlertHistory
+      parameters:
+        - name: alert_id
+          in: query
+          description: Filter by specific alert ID
+          schema:
+            type: string
+        - name: start_date
+          in: query
+          description: Filter from this date onwards
+          schema:
+            type: string
+            format: date-time
+        - name: end_date
+          in: query
+          description: Filter up to this date
+          schema:
+            type: string
+            format: date-time
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+            minimum: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 50
+            minimum: 1
+            maximum: 100
+      responses:
+        '200':
+          description: Successful response
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/AlertTrigger'
+                  pagination:
+                    $ref: '#/components/schemas/Pagination'
+              example:
+                data:
+                  - trigger_id: "trg_12345"
+                    alert_id: "alert_001"
+                    alert_name: "High M&A Score Alert"
+                    triggered_at: "2024-01-15T09:30:00Z"
+                    trigger_reason: "ABCD M&A score increased to 78.3 (above threshold of 75.0)"
+                    related_entity:
+                      type: "company"
+                      ticker: "ABCD"
+                      company_name: "ABC Therapeutics Inc."
+                    notification_sent: true
+                    notification_channels: ["email", "webhook"]
+                  - trigger_id: "trg_12344"
+                    alert_id: "alert_002"
+                    alert_name: "Financial Stress Signal"
+                    triggered_at: "2024-01-10T09:15:00Z"
+                    trigger_reason: "High-severity financial_stress signal detected for ABCD"
+                    related_entity:
+                      type: "signal"
+                      signal_id: "sig_12345"
+                      ticker: "ABCD"
+                    notification_sent: true
+                    notification_channels: ["email", "sms", "webhook"]
+                pagination:
+                  page: 1
+                  limit: 50
+                  total_results: 89
+                  total_pages: 2
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /webhooks:
+    post:
+      tags:
+        - Webhooks
+      summary: Register webhook endpoint
+      description: |
+        Register a webhook URL to receive real-time notifications for events
+        such as new signals, M&A score changes, and report availability.
+      operationId: createWebhook
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WebhookRequest'
+            example:
+              url: "https://hedgefund.com/webhooks/biotech-ma"
+              events:
+                - "signal.detected"
+                - "score.changed"
+                - "report.published"
+              secret: "whsec_a8f4b2c9d1e5f6g7h8i9j0k1l2m3n4o5"
+              description: "Main webhook for M&A alerts"
+      responses:
+        '201':
+          description: Webhook registered successfully
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Webhook'
+              example:
+                webhook_id: "wh_001"
+                url: "https://hedgefund.com/webhooks/biotech-ma"
+                events:
+                  - "signal.detected"
+                  - "score.changed"
+                  - "report.published"
+                status: "active"
+                description: "Main webhook for M&A alerts"
+                created_at: "2024-01-15T15:45:00Z"
+                last_delivery: null
+                delivery_success_rate: null
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /webhooks/{webhook_id}:
+    delete:
+      tags:
+        - Webhooks
+      summary: Remove webhook
+      description: |
+        Unregister a webhook endpoint by its ID.
+      operationId: deleteWebhook
+      parameters:
+        - name: webhook_id
+          in: path
+          required: true
+          description: Unique webhook identifier
+          schema:
+            type: string
+            example: "wh_001"
+      responses:
+        '204':
+          description: Webhook deleted successfully
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+      description: API key for authentication. Contact support to obtain your key.
+
+  headers:
+    X-RateLimit-Limit:
+      description: Maximum number of requests allowed in the current time window
+      schema:
+        type: integer
+        example: 100
+    X-RateLimit-Remaining:
+      description: Number of requests remaining in the current time window
+      schema:
+        type: integer
+        example: 95
+    X-RateLimit-Reset:
+      description: Unix timestamp when the rate limit window resets
+      schema:
+        type: integer
+        example: 1705329600
+
+  schemas:
+    CompanySummary:
+      type: object
+      required:
+        - ticker
+        - company_name
+        - market_cap
+        - ma_score
+        - last_updated
+      properties:
+        ticker:
+          type: string
+          description: Stock ticker symbol
+          example: "ABCD"
+        company_name:
+          type: string
+          description: Full company name
+          example: "ABC Therapeutics Inc."
+        market_cap:
+          type: number
+          format: float
+          description: Market capitalization in millions USD
+          example: 450.5
+        ma_score:
+          type: number
+          format: float
+          description: Current M&A probability score (0-100)
+          example: 78.3
+        ma_score_change_7d:
+          type: number
+          format: float
+          description: Change in M&A score over last 7 days
+          example: 5.2
+        stage:
+          type: string
+          description: Primary development stage
+          enum: [preclinical, phase1, phase2, phase3, commercial]
+          example: "phase2"
+        therapeutic_areas:
+          type: array
+          items:
+            type: string
+          description: Primary therapeutic focus areas
+          example: ["oncology", "immunology"]
+        last_updated:
+          type: string
+          format: date-time
+          description: When this data was last updated
+          example: "2024-01-15T14:30:00Z"
+
+    CompanyProfile:
+      type: object
+      required:
+        - ticker
+        - company_name
+        - financials
+        - ma_analysis
+        - last_updated
+      properties:
+        ticker:
+          type: string
+          example: "ABCD"
+        company_name:
+          type: string
+          example: "ABC Therapeutics Inc."
+        description:
+          type: string
+          example: "Clinical-stage biopharmaceutical company focused on oncology therapeutics"
+        founded_year:
+          type: integer
+          example: 2015
+        headquarters:
+          type: string
+          example: "Boston, MA"
+        employees:
+          type: integer
+          example: 145
+        financials:
+          type: object
+          properties:
+            market_cap:
+              type: number
+              format: float
+              description: Market cap in millions USD
+            enterprise_value:
+              type: number
+              format: float
+              description: Enterprise value in millions USD
+            cash_position:
+              type: number
+              format: float
+              description: Cash and equivalents in millions USD
+            burn_rate:
+              type: number
+              format: float
+              description: Monthly cash burn in millions USD
+            runway_months:
+              type: number
+              format: float
+              description: Estimated cash runway in months
+            revenue_ttm:
+              type: number
+              format: float
+              description: Trailing twelve month revenue in millions USD
+            stock_price:
+              type: number
+              format: float
+              description: Current stock price
+            stock_change_1d:
+              type: number
+              format: float
+              description: 1-day stock price change percentage
+            stock_change_5d:
+              type: number
+              format: float
+              description: 5-day stock price change percentage
+            stock_change_30d:
+              type: number
+              format: float
+              description: 30-day stock price change percentage
+        ma_analysis:
+          type: object
+          properties:
+            ma_score:
+              type: number
+              format: float
+              description: Current M&A score (0-100)
+            ma_score_change_7d:
+              type: number
+              format: float
+            ma_score_change_30d:
+              type: number
+              format: float
+            acquisition_probability:
+              type: string
+              enum: [Low, Medium, Medium-High, High, Critical]
+            target_type:
+              type: string
+              description: Type of acquisition target
+              example: "Platform"
+            key_signals:
+              type: array
+              items:
+                $ref: '#/components/schemas/SignalSummary'
+            recent_score_history:
+              type: array
+              items:
+                type: object
+                properties:
+                  date:
+                    type: string
+                    format: date
+                  score:
+                    type: number
+                    format: float
+        pipeline_summary:
+          type: object
+          properties:
+            total_programs:
+              type: integer
+            phase_breakdown:
+              type: object
+              additionalProperties:
+                type: integer
+            lead_programs:
+              type: array
+              items:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  indication:
+                    type: string
+                  stage:
+                    type: string
+                  status:
+                    type: string
+        partnerships:
+          type: object
+          properties:
+            active_collaborations:
+              type: integer
+            recent_deals:
+              type: array
+              items:
+                type: object
+                properties:
+                  partner:
+                    type: string
+                  type:
+                    type: string
+                  announced_date:
+                    type: string
+                    format: date
+        last_updated:
+          type: string
+          format: date-time
+
+    Signal:
+      type: object
+      required:
+        - signal_id
+        - type
+        - severity
+        - title
+        - detected_at
+      properties:
+        signal_id:
+          type: string
+          example: "sig_12345"
+        type:
+          type: string
+          enum:
+            - financial_stress
+            - executive_departure
+            - executive_hire
+            - trial_success
+            - trial_failure
+            - regulatory_approval
+            - regulatory_setback
+            - partnership
+            - acquisition_rumor
+            - stock_volatility
+            - analyst_downgrade
+            - analyst_upgrade
+          example: "financial_stress"
+        severity:
+          type: string
+          enum: [low, medium, high, critical]
+          example: "high"
+        title:
+          type: string
+          example: "Cash runway below 9 months"
+        description:
+          type: string
+          example: "Company's current cash position and burn rate indicate runway of approximately 6.8 months"
+        detected_at:
+          type: string
+          format: date-time
+          example: "2024-01-10T09:15:00Z"
+        source:
+          type: string
+          description: Source of the signal
+          example: "financial_analysis"
+        impact_on_ma_score:
+          type: number
+          format: float
+          description: Impact this signal had on M&A score
+          example: 8.5
+        metadata:
+          type: object
+          description: Additional signal-specific data
+          additionalProperties: true
+
+    SignalSummary:
+      type: object
+      properties:
+        type:
+          type: string
+        severity:
+          type: string
+        description:
+          type: string
+        detected_at:
+          type: string
+          format: date-time
+
+    PipelineProgram:
+      type: object
+      properties:
+        program_id:
+          type: string
+          example: "prog_001"
+        drug_name:
+          type: string
+          example: "ABC-101"
+        generic_name:
+          type: string
+          example: "abcitinib"
+        mechanism:
+          type: string
+          example: "Selective TKI"
+        therapeutic_area:
+          type: string
+          example: "Oncology"
+        indication:
+          type: string
+          example: "Non-small cell lung cancer (NSCLC)"
+        stage:
+          type: string
+          enum: [preclinical, phase1, phase2, phase3, approved]
+          example: "phase2"
+        status:
+          type: string
+          enum: [Active, On hold, Terminated, Completed]
+          example: "Active"
+        trial_name:
+          type: string
+          example: "TRIUMPH-2"
+        estimated_completion:
+          type: string
+          example: "2024-Q3"
+        patient_enrollment:
+          type: integer
+          example: 180
+        primary_endpoint:
+          type: string
+          example: "Overall response rate (ORR)"
+        recent_milestone:
+          type: object
+          properties:
+            date:
+              type: string
+              format: date
+            event:
+              type: string
+        strategic_value:
+          type: string
+          description: Strategic value assessment
+          example: "Lead asset, potential best-in-class"
+
+    WatchlistEntry:
+      type: object
+      properties:
+        rank:
+          type: integer
+          description: Ranking on watchlist
+          example: 1
+        ticker:
+          type: string
+          example: "ABCD"
+        company_name:
+          type: string
+          example: "ABC Therapeutics Inc."
+        ma_score:
+          type: number
+          format: float
+          example: 78.3
+        ma_score_change_7d:
+          type: number
+          format: float
+          example: 5.2
+        acquisition_probability:
+          type: string
+          enum: [Low, Medium, Medium-High, High, Critical]
+          example: "High"
+        market_cap:
+          type: number
+          format: float
+          example: 450.5
+        key_catalysts:
+          type: array
+          items:
+            type: string
+          example: ["Cash runway below 9 months", "CFO departure"]
+        predicted_timeline:
+          type: string
+          description: Estimated timeline for potential acquisition
+          example: "3-6 months"
+        top_potential_acquirers:
+          type: array
+          items:
+            type: object
+            properties:
+              ticker:
+                type: string
+              company_name:
+                type: string
+              match_score:
+                type: number
+                format: float
+
+    AcquisitionCandidate:
+      type: object
+      properties:
+        ticker:
+          type: string
+        company_name:
+          type: string
+        ma_score:
+          type: number
+          format: float
+        market_cap:
+          type: number
+          format: float
+        scoring_breakdown:
+          type: object
+          description: Breakdown of M&A score components
+          properties:
+            financial_stress:
+              type: number
+              format: float
+            pipeline_value:
+              type: number
+              format: float
+            market_dynamics:
+              type: number
+              format: float
+            corporate_activity:
+              type: number
+              format: float
+        acquisition_rationale:
+          type: string
+          description: Thesis for why this is an acquisition candidate
+        strategic_fit:
+          type: array
+          items:
+            type: object
+            properties:
+              acquirer_profile:
+                type: string
+              fit_score:
+                type: number
+                format: float
+        valuation_estimate:
+          type: object
+          properties:
+            base_case:
+              type: number
+              format: float
+              description: Base case valuation in millions USD
+            bull_case:
+              type: number
+              format: float
+            bear_case:
+              type: number
+              format: float
+            premium_to_current:
+              type: number
+              format: float
+              description: Premium percentage to current market cap
+
+    PotentialAcquirer:
+      type: object
+      properties:
+        rank:
+          type: integer
+        ticker:
+          type: string
+        company_name:
+          type: string
+        match_score:
+          type: number
+          format: float
+          description: Strategic fit score (0-100)
+        market_cap:
+          type: number
+          format: float
+        strategic_rationale:
+          type: string
+          description: Why this acquirer makes sense
+        fit_factors:
+          type: object
+          description: Breakdown of strategic fit components
+          properties:
+            therapeutic_alignment:
+              type: number
+              format: float
+            pipeline_complementarity:
+              type: number
+              format: float
+            financial_capacity:
+              type: number
+              format: float
+            geographic_synergy:
+              type: number
+              format: float
+            cultural_fit:
+              type: number
+              format: float
+        estimated_offer_range:
+          type: object
+          properties:
+            low:
+              type: number
+              format: float
+              description: Low end valuation in millions USD
+            high:
+              type: number
+              format: float
+              description: High end valuation in millions USD
+            premium_percentage:
+              type: string
+              example: "33-100%"
+        acquisition_likelihood:
+          type: string
+          enum: [Low, Medium, Medium-High, High]
+        historical_deal_activity:
+          type: object
+          properties:
+            deals_last_5y:
+              type: integer
+            avg_deal_size:
+              type: number
+              format: float
+            therapeutic_focus:
+              type: array
+              items:
+                type: string
+
+    TargetAcquirerMatch:
+      type: object
+      properties:
+        match_id:
+          type: string
+        target:
+          type: object
+          properties:
+            ticker:
+              type: string
+            company_name:
+              type: string
+            market_cap:
+              type: number
+              format: float
+            ma_score:
+              type: number
+              format: float
+        acquirer:
+          type: object
+          properties:
+            ticker:
+              type: string
+            company_name:
+              type: string
+            market_cap:
+              type: number
+              format: float
+        match_score:
+          type: number
+          format: float
+          description: Overall match quality score (0-100)
+        deal_probability:
+          type: string
+          enum: [Low, Medium, Medium-High, High]
+        estimated_timeline:
+          type: string
+          example: "3-6 months"
+        strategic_thesis:
+          type: string
+          description: Why this pairing makes strategic sense
+        estimated_valuation:
+          type: number
+          format: float
+          description: Estimated acquisition price in millions USD
+        premium_percentage:
+          type: number
+          format: float
+          description: Premium over current market cap
+
+    ReportSummary:
+      type: object
+      properties:
+        report_id:
+          type: string
+          example: "rpt_20240115_digest"
+        report_type:
+          type: string
+          enum: [daily_digest, weekly_watchlist, custom, signal_alert, deal_analysis]
+        title:
+          type: string
+          example: "Daily M&A Digest - January 15, 2024"
+        generated_at:
+          type: string
+          format: date-time
+        summary:
+          type: string
+          description: Brief summary of report contents
+        download_url:
+          type: string
+          format: uri
+          description: URL to download the report
+
+    Report:
+      type: object
+      properties:
+        report_id:
+          type: string
+        report_type:
+          type: string
+        title:
+          type: string
+        generated_at:
+          type: string
+          format: date-time
+        content:
+          type: object
+          description: Report content structure varies by report type
+          additionalProperties: true
+
+    ReportRequest:
+      type: object
+      required:
+        - report_type
+      properties:
+        report_type:
+          type: string
+          enum: [custom, signal_alert, deal_analysis]
+        title:
+          type: string
+          description: Custom report title
+        parameters:
+          type: object
+          description: Report generation parameters
+          properties:
+            therapeutic_areas:
+              type: array
+              items:
+                type: string
+            min_ma_score:
+              type: number
+              format: float
+            max_market_cap:
+              type: number
+              format: float
+            tickers:
+              type: array
+              items:
+                type: string
+            include_sections:
+              type: array
+              items:
+                type: string
+                enum: [executive_summary, top_targets, acquirer_analysis, deal_predictions, signal_analysis, financial_analysis]
+            format:
+              type: string
+              enum: [json, pdf, html]
+              default: pdf
+
+    DailyDigest:
+      type: object
+      properties:
+        report_id:
+          type: string
+        date:
+          type: string
+          format: date
+        generated_at:
+          type: string
+          format: date-time
+        summary:
+          type: object
+          properties:
+            new_signals:
+              type: integer
+            score_changes:
+              type: integer
+            watchlist_additions:
+              type: integer
+        top_signals:
+          type: array
+          items:
+            $ref: '#/components/schemas/Signal'
+        major_score_changes:
+          type: array
+          items:
+            type: object
+            properties:
+              ticker:
+                type: string
+              company_name:
+                type: string
+              old_score:
+                type: number
+                format: float
+              new_score:
+                type: number
+                format: float
+              change:
+                type: number
+                format: float
+        market_overview:
+          type: object
+          description: Overall market trends and insights
+
+    WeeklyWatchlist:
+      type: object
+      properties:
+        report_id:
+          type: string
+        week_ending:
+          type: string
+          format: date
+        generated_at:
+          type: string
+          format: date-time
+        executive_summary:
+          type: string
+        watchlist:
+          type: array
+          items:
+            $ref: '#/components/schemas/WatchlistEntry'
+        new_additions:
+          type: array
+          items:
+            type: string
+            description: Tickers of companies newly added to watchlist
+        removed:
+          type: array
+          items:
+            type: string
+            description: Tickers of companies removed from watchlist
+        top_matches:
+          type: array
+          items:
+            $ref: '#/components/schemas/TargetAcquirerMatch'
+        market_insights:
+          type: string
+          description: Weekly market analysis and trends
+
+    Alert:
+      type: object
+      required:
+        - alert_id
+        - alert_type
+        - status
+      properties:
+        alert_id:
+          type: string
+          example: "alert_001"
+        alert_type:
+          type: string
+          enum: [ma_score_threshold, signal_detected, report_published, watchlist_change]
+        status:
+          type: string
+          enum: [active, paused, expired]
+        name:
+          type: string
+          description: User-defined alert name
+        description:
+          type: string
+          description: Alert description
+        conditions:
+          type: object
+          description: Alert triggering conditions (varies by alert type)
+          additionalProperties: true
+        notification_channels:
+          type: array
+          items:
+            type: string
+            enum: [email, sms, webhook, slack]
+        created_at:
+          type: string
+          format: date-time
+        last_triggered:
+          type: string
+          format: date-time
+          nullable: true
+        trigger_count:
+          type: integer
+          description: Number of times alert has been triggered
+
+    AlertRequest:
+      type: object
+      required:
+        - alert_type
+        - name
+        - conditions
+        - notification_channels
+      properties:
+        alert_type:
+          type: string
+          enum: [ma_score_threshold, signal_detected, report_published, watchlist_change]
+        name:
+          type: string
+          description: User-defined alert name
+        description:
+          type: string
+          description: Optional alert description
+        conditions:
+          type: object
+          description: Alert triggering conditions
+          additionalProperties: true
+        notification_channels:
+          type: array
+          items:
+            type: string
+            enum: [email, sms, webhook, slack]
+        notification_config:
+          type: object
+          description: Channel-specific configuration
+          properties:
+            email_addresses:
+              type: array
+              items:
+                type: string
+                format: email
+            phone_numbers:
+              type: array
+              items:
+                type: string
+            webhook_url:
+              type: string
+              format: uri
+            slack_channel:
+              type: string
+
+    AlertTrigger:
+      type: object
+      properties:
+        trigger_id:
+          type: string
+        alert_id:
+          type: string
+        alert_name:
+          type: string
+        triggered_at:
+          type: string
+          format: date-time
+        trigger_reason:
+          type: string
+          description: Human-readable explanation of why alert triggered
+        related_entity:
+          type: object
+          description: Entity that caused the trigger (company, signal, etc.)
+          properties:
+            type:
+              type: string
+              enum: [company, signal, report, watchlist]
+            ticker:
+              type: string
+              nullable: true
+            company_name:
+              type: string
+              nullable: true
+          additionalProperties: true
+        notification_sent:
+          type: boolean
+        notification_channels:
+          type: array
+          items:
+            type: string
+
+    Webhook:
+      type: object
+      properties:
+        webhook_id:
+          type: string
+          example: "wh_001"
+        url:
+          type: string
+          format: uri
+          description: Webhook endpoint URL
+        events:
+          type: array
+          items:
+            type: string
+            enum:
+              - signal.detected
+              - score.changed
+              - report.published
+              - watchlist.updated
+              - alert.triggered
+          description: Events that trigger this webhook
+        status:
+          type: string
+          enum: [active, inactive, failed]
+        description:
+          type: string
+          nullable: true
+        created_at:
+          type: string
+          format: date-time
+        last_delivery:
+          type: string
+          format: date-time
+          nullable: true
+        delivery_success_rate:
+          type: number
+          format: float
+          nullable: true
+          description: Percentage of successful deliveries (0-100)
+
+    WebhookRequest:
+      type: object
+      required:
+        - url
+        - events
+      properties:
+        url:
+          type: string
+          format: uri
+          description: Webhook endpoint URL (must be HTTPS)
+        events:
+          type: array
+          items:
+            type: string
+            enum:
+              - signal.detected
+              - score.changed
+              - report.published
+              - watchlist.updated
+              - alert.triggered
+          description: Events that should trigger this webhook
+          minItems: 1
+        secret:
+          type: string
+          description: Optional secret for webhook signature verification
+        description:
+          type: string
+          description: Optional description of webhook purpose
+
+    Pagination:
+      type: object
+      properties:
+        page:
+          type: integer
+          description: Current page number
+          example: 1
+        limit:
+          type: integer
+          description: Results per page
+          example: 50
+        total_results:
+          type: integer
+          description: Total number of results
+          example: 234
+        total_pages:
+          type: integer
+          description: Total number of pages
+          example: 5
+
+    Error:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          description: Error type
+          example: "invalid_request"
+        message:
+          type: string
+          description: Human-readable error message
+          example: "Invalid ticker symbol provided"
+        details:
+          type: object
+          description: Additional error details
+          additionalProperties: true
+        request_id:
+          type: string
+          description: Unique request identifier for support
+          example: "req_abc123xyz"
+
+  responses:
+    BadRequest:
+      description: Bad request - invalid parameters
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error: "invalid_request"
+            message: "Invalid parameter: min_ma_score must be between 0 and 100"
+            request_id: "req_abc123xyz"
+
+    Unauthorized:
+      description: Unauthorized - invalid or missing API key
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error: "unauthorized"
+            message: "Invalid API key provided"
+            request_id: "req_abc123xyz"
+
+    NotFound:
+      description: Resource not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error: "not_found"
+            message: "Company with ticker 'INVALID' not found"
+            request_id: "req_abc123xyz"
+
+    TooManyRequests:
+      description: Rate limit exceeded
+      headers:
+        X-RateLimit-Limit:
+          $ref: '#/components/headers/X-RateLimit-Limit'
+        X-RateLimit-Remaining:
+          schema:
+            type: integer
+            example: 0
+        X-RateLimit-Reset:
+          $ref: '#/components/headers/X-RateLimit-Reset'
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error: "rate_limit_exceeded"
+            message: "Rate limit exceeded. Limit resets in 45 seconds."
+            details:
+              limit: 100
+              window: "1 minute"
+              reset_at: 1705329600
+            request_id: "req_abc123xyz"
+
+    InternalServerError:
+      description: Internal server error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error: "internal_error"
+            message: "An unexpected error occurred. Please try again later."
+            request_id: "req_abc123xyz"

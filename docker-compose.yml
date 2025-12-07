@@ -1,0 +1,119 @@
+version: '3.8'
+
+services:
+  # Main application
+  app:
+    build: .
+    container_name: biotech-ma-predictor
+    depends_on:
+      - postgres
+      - rabbitmq
+      - redis
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=biotech_ma
+      - POSTGRES_USER=biotech
+      - POSTGRES_PASSWORD=biotech_secret
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_PORT=5672
+      - RABBITMQ_USER=biotech
+      - RABBITMQ_PASSWORD=biotech_secret
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    volumes:
+      - ./config:/app/config
+      - ./logs:/app/logs
+    restart: unless-stopped
+
+  # API Server
+  api:
+    build: .
+    container_name: biotech-ma-api
+    command: uvicorn src.api.app:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+      - redis
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=biotech_ma
+      - POSTGRES_USER=biotech
+      - POSTGRES_PASSWORD=biotech_secret
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    restart: unless-stopped
+
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: biotech-ma-postgres
+    environment:
+      - POSTGRES_DB=biotech_ma
+      - POSTGRES_USER=biotech
+      - POSTGRES_PASSWORD=biotech_secret
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+
+  # TimescaleDB for time-series data
+  timescaledb:
+    image: timescale/timescaledb:latest-pg15
+    container_name: biotech-ma-timescale
+    environment:
+      - POSTGRES_DB=biotech_timeseries
+      - POSTGRES_USER=biotech
+      - POSTGRES_PASSWORD=biotech_secret
+    volumes:
+      - timescale_data:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    restart: unless-stopped
+
+  # RabbitMQ Message Broker
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: biotech-ma-rabbitmq
+    environment:
+      - RABBITMQ_DEFAULT_USER=biotech
+      - RABBITMQ_DEFAULT_PASS=biotech_secret
+      - RABBITMQ_DEFAULT_VHOST=biotech
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"  # Management UI
+    restart: unless-stopped
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: biotech-ma-redis
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+  # Streamlit Dashboard (optional)
+  dashboard:
+    build: .
+    container_name: biotech-ma-dashboard
+    command: streamlit run src/dashboard/app.py --server.port 8501
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
+    environment:
+      - API_URL=http://api:8000
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  timescale_data:
+  rabbitmq_data:
+  redis_data:
