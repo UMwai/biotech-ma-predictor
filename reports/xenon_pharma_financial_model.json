@@ -1,0 +1,293 @@
+{
+  "company": {
+    "name": "Xenon Pharmaceuticals Inc.",
+    "ticker": "XENE",
+    "exchange": "NASDAQ",
+    "sector": "Biotechnology",
+    "focus": "CNS/Neuroscience - Ion Channel Therapeutics",
+    "headquarters": "Vancouver, Canada",
+    "founded": 1996,
+    "employees_estimate": 200
+  },
+  "financial_snapshot": {
+    "as_of_date": "2025-Q1",
+    "market_cap_usd": 2800000000,
+    "cash_and_equivalents_usd": 691100000,
+    "total_debt_usd": 0,
+    "shares_outstanding": 68000000,
+    "stock_price_usd": 41.18,
+    "52_week_high": 52.00,
+    "52_week_low": 28.00,
+    "cash_runway_months": 24,
+    "runway_extends_to": "2027"
+  },
+  "pipeline": {
+    "lead_asset": {
+      "name": "Azetukalner",
+      "code": "XEN1101",
+      "mechanism": "Kv7 Potassium Channel Opener",
+      "stage": "Phase 3",
+      "indications": [
+        {
+          "name": "Focal Onset Seizures (FOS)",
+          "stage": "Phase 3",
+          "trials": ["X-TOLE2", "X-TOLE3"],
+          "patients_per_trial": 360,
+          "doses": ["15mg", "25mg"],
+          "data_readout": "Q1 2026",
+          "probability_of_success": 0.55,
+          "peak_sales_estimate_usd": 1500000000,
+          "addressable_patients_us": 1200000
+        },
+        {
+          "name": "Primary Generalized Tonic-Clonic Seizures (PGTCS)",
+          "stage": "Phase 3",
+          "trial": "X-ACKT",
+          "dose": "25mg",
+          "probability_of_success": 0.50,
+          "peak_sales_estimate_usd": 500000000,
+          "addressable_patients_us": 300000
+        },
+        {
+          "name": "Major Depressive Disorder (MDD)",
+          "stage": "Phase 3 initiating",
+          "trial": "X-NOVA3",
+          "initiation": "Mid-2025",
+          "probability_of_success": 0.35,
+          "peak_sales_estimate_usd": 2000000000,
+          "addressable_patients_us": 17000000
+        },
+        {
+          "name": "Bipolar Depression (BPD)",
+          "stage": "Phase 3 initiating",
+          "initiation": "Mid-2025",
+          "probability_of_success": 0.35,
+          "peak_sales_estimate_usd": 800000000,
+          "addressable_patients_us": 2800000
+        }
+      ],
+      "ole_data_48_months": {
+        "seizure_reduction_percent": 90.9,
+        "seizure_free_1_year_percent": 38,
+        "presented_at": "AES 2025",
+        "date": "2025-12-05"
+      },
+      "differentiation": {
+        "novel_mechanism": true,
+        "first_in_class": true,
+        "dosing": "Once daily oral",
+        "competitive_advantage": "Novel Kv7 mechanism vs traditional sodium channel blockers"
+      }
+    },
+    "other_assets": [
+      {
+        "name": "XEN496",
+        "mechanism": "Kv7 opener (ezogabine formulation)",
+        "indication": "KCNQ2-DEE",
+        "status": "DISCONTINUED - resources shifted to XEN1101 pediatric development"
+      },
+      {
+        "name": "NBI-921352 (partnered with Neurocrine)",
+        "mechanism": "Selective Nav1.6 sodium channel inhibitor",
+        "indication": "Epilepsy",
+        "stage": "Phase 1",
+        "partner": "Neurocrine Biosciences",
+        "economics": "Royalties on sales"
+      }
+    ]
+  },
+  "dcf_valuation_model": {
+    "discount_rate": 0.10,
+    "terminal_growth_rate": 0.02,
+    "tax_rate": 0.21,
+    "assumptions": {
+      "fos_approval_year": 2027,
+      "mdd_approval_year": 2029,
+      "years_to_peak_sales": 5,
+      "patent_life_years": 12,
+      "gross_margin": 0.85,
+      "sg_and_a_as_pct_revenue": 0.30,
+      "r_and_d_ongoing_pct": 0.15
+    },
+    "azetukalner_revenue_forecast": {
+      "2026": {"fos": 0, "pgtcs": 0, "mdd": 0, "bpd": 0, "total": 0, "note": "Pre-approval"},
+      "2027": {"fos": 150000000, "pgtcs": 0, "mdd": 0, "bpd": 0, "total": 150000000, "note": "FOS launch"},
+      "2028": {"fos": 450000000, "pgtcs": 50000000, "mdd": 0, "bpd": 0, "total": 500000000, "note": "FOS ramp + PGTCS launch"},
+      "2029": {"fos": 750000000, "pgtcs": 150000000, "mdd": 100000000, "bpd": 0, "total": 1000000000, "note": "MDD launch"},
+      "2030": {"fos": 1000000000, "pgtcs": 300000000, "mdd": 400000000, "bpd": 100000000, "total": 1800000000, "note": "BPD launch"},
+      "2031": {"fos": 1200000000, "pgtcs": 400000000, "mdd": 800000000, "bpd": 250000000, "total": 2650000000, "note": "Ramp"},
+      "2032": {"fos": 1400000000, "pgtcs": 450000000, "mdd": 1200000000, "bpd": 400000000, "total": 3450000000, "note": "Near peak"},
+      "2033": {"fos": 1500000000, "pgtcs": 500000000, "mdd": 1600000000, "bpd": 600000000, "total": 4200000000, "note": "Peak"},
+      "2034": {"fos": 1450000000, "pgtcs": 480000000, "mdd": 1800000000, "bpd": 700000000, "total": 4430000000, "note": "Peak MDD"},
+      "2035": {"fos": 1350000000, "pgtcs": 450000000, "mdd": 2000000000, "bpd": 800000000, "total": 4600000000, "note": "Peak total"}
+    },
+    "expense_forecast": {
+      "2025": {
+        "r_and_d": 200000000,
+        "sg_and_a": 50000000,
+        "total_opex": 250000000,
+        "note": "Phase 3 completion costs"
+      },
+      "2026": {
+        "r_and_d": 180000000,
+        "sg_and_a": 100000000,
+        "total_opex": 280000000,
+        "note": "Pre-launch buildup"
+      },
+      "2027": {
+        "r_and_d": 150000000,
+        "sg_and_a": 200000000,
+        "total_opex": 350000000,
+        "note": "FOS launch SG&A"
+      },
+      "2028": {
+        "r_and_d": 130000000,
+        "sg_and_a": 250000000,
+        "total_opex": 380000000,
+        "note": "Multi-indication launch"
+      },
+      "2029": {
+        "r_and_d": 120000000,
+        "sg_and_a": 300000000,
+        "total_opex": 420000000,
+        "note": "MDD launch"
+      },
+      "2030": {
+        "r_and_d": 150000000,
+        "sg_and_a": 450000000,
+        "total_opex": 600000000,
+        "note": "Full commercial ops"
+      }
+    },
+    "risk_adjusted_npv": {
+      "fos_indication": {
+        "unadjusted_npv": 4500000000,
+        "pos": 0.55,
+        "risk_adjusted_npv": 2475000000
+      },
+      "pgtcs_indication": {
+        "unadjusted_npv": 1200000000,
+        "pos": 0.50,
+        "risk_adjusted_npv": 600000000
+      },
+      "mdd_indication": {
+        "unadjusted_npv": 6000000000,
+        "pos": 0.35,
+        "risk_adjusted_npv": 2100000000
+      },
+      "bpd_indication": {
+        "unadjusted_npv": 2000000000,
+        "pos": 0.35,
+        "risk_adjusted_npv": 700000000
+      },
+      "total_pipeline_ranpv": 5875000000,
+      "plus_cash": 691100000,
+      "less_burn_to_approval": -500000000,
+      "enterprise_value": 6066100000,
+      "implied_share_price": 89.21
+    }
+  },
+  "ma_score_analysis": {
+    "total_score": 81,
+    "factors": {
+      "pipeline_value": {"score": 88, "weight": 0.15, "rationale": "Phase 3 lead asset with strong OLE data"},
+      "clinical_differentiation": {"score": 92, "weight": 0.12, "rationale": "First-in-class Kv7 mechanism"},
+      "therapeutic_momentum": {"score": 75, "weight": 0.10, "rationale": "CNS active but not as hot as obesity"},
+      "patent_position": {"score": 80, "weight": 0.08, "rationale": "Strong IP around Kv7 modulation"},
+      "cash_runway": {"score": 85, "weight": 0.10, "rationale": "Funded into 2027, covers approval"},
+      "insider_signals": {"score": 70, "weight": 0.08, "rationale": "Neutral insider activity"},
+      "competitive_tension": {"score": 78, "weight": 0.10, "rationale": "Multiple CNS acquirers interested"},
+      "antitrust_risk": {"score": 95, "weight": 0.05, "rationale": "Low - no dominant player in this space"},
+      "strategic_fit": {"score": 85, "weight": 0.10, "rationale": "Strong fit for CNS-focused pharma"},
+      "regulatory_pathway": {"score": 82, "weight": 0.05, "rationale": "Clear path, FDA engaged"},
+      "pipeline_gap_alignment": {"score": 80, "weight": 0.05, "rationale": "Fills epilepsy gaps for several acquirers"},
+      "premium_likelihood": {"score": 75, "weight": 0.02, "rationale": "Moderate competition for asset"}
+    }
+  },
+  "potential_acquirers": [
+    {
+      "name": "UCB",
+      "ticker": "UCB.BR",
+      "fit_score": 88,
+      "rationale": "Epilepsy specialist (Briviact, Keppra), needs new MOA",
+      "financial_capacity": "Strong",
+      "strategic_need": "High - faces Keppra genericization",
+      "estimated_offer_range": {"low": 5000000000, "high": 8000000000}
+    },
+    {
+      "name": "Jazz Pharmaceuticals",
+      "ticker": "JAZZ",
+      "fit_score": 85,
+      "rationale": "CNS focus (Epidiolex), expanding epilepsy",
+      "financial_capacity": "Moderate",
+      "strategic_need": "High - pipeline thin",
+      "estimated_offer_range": {"low": 4500000000, "high": 7000000000}
+    },
+    {
+      "name": "Biogen",
+      "ticker": "BIIB",
+      "fit_score": 78,
+      "rationale": "CNS pivot away from AD, needs diversification",
+      "financial_capacity": "Strong",
+      "strategic_need": "Moderate",
+      "estimated_offer_range": {"low": 5000000000, "high": 9000000000}
+    },
+    {
+      "name": "Johnson & Johnson",
+      "ticker": "JNJ",
+      "fit_score": 75,
+      "rationale": "Neuroscience unit, recent Intra-Cellular acquisition",
+      "financial_capacity": "Very Strong",
+      "strategic_need": "Low-Moderate",
+      "estimated_offer_range": {"low": 6000000000, "high": 10000000000}
+    },
+    {
+      "name": "Lundbeck",
+      "ticker": "HLUN-A.CO",
+      "fit_score": 82,
+      "rationale": "CNS specialist, MDD synergy",
+      "financial_capacity": "Moderate",
+      "strategic_need": "High",
+      "estimated_offer_range": {"low": 4000000000, "high": 6500000000}
+    }
+  ],
+  "deal_probability": {
+    "probability_12_months": 0.35,
+    "probability_24_months": 0.55,
+    "most_likely_timing": "Post Phase 3 FOS data (Q1-Q2 2026)",
+    "catalyst_triggers": [
+      "Positive X-TOLE2 Phase 3 data",
+      "FDA acceptance of NDA",
+      "Competitive bidding if MDD data positive"
+    ],
+    "estimated_deal_value": {
+      "floor": 4500000000,
+      "base_case": 6500000000,
+      "bull_case": 10000000000
+    },
+    "premium_to_current": {
+      "floor_premium_pct": 60,
+      "base_premium_pct": 130,
+      "bull_premium_pct": 260
+    }
+  },
+  "key_risks": [
+    "Phase 3 FOS trial failure",
+    "MDD indication has lower PoS (35%)",
+    "Kv7 class safety concerns (historical ezogabine issues)",
+    "Competition from other novel AEDs",
+    "Commercial execution risk"
+  ],
+  "key_catalysts": [
+    {"event": "X-TOLE2 Phase 3 topline data", "timing": "Q1 2026", "impact": "High"},
+    {"event": "X-TOLE3 Phase 3 topline data", "timing": "Q2 2026", "impact": "High"},
+    {"event": "X-NOVA3 MDD Phase 3 initiation", "timing": "Mid-2025", "impact": "Medium"},
+    {"event": "NDA filing (FOS)", "timing": "Q3-Q4 2026", "impact": "High"},
+    {"event": "FDA approval (FOS)", "timing": "2027", "impact": "Very High"}
+  ],
+  "sources": [
+    "https://www.globenewswire.com/news-release/2025/12/05/3200741/33485/en/Xenon-Showcases-New-48-Month-Azetukalner-OLE-Study-Data-in-Epilepsy-at-AES-2025.html",
+    "https://investor.xenon-pharma.com/news-releases/news-release-details/xenon-pharmaceuticals-reports-first-quarter-2024-financial",
+    "https://www.xenon-pharma.com/product-pipeline/"
+  ]
+}

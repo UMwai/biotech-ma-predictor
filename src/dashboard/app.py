@@ -384,16 +384,21 @@ def render_signal_feed():
         days = st.slider("Days Back", 1, 30, 7)
 
     # Signal feed
-    signals = [
-        {"time": "10:32 AM", "ticker": "ACAD", "type": "Clinical Trial", "impact": "High",
-         "message": "Phase 3 CLARITY trial met primary endpoint for ACP-101"},
-        {"time": "9:15 AM", "ticker": "MRNA", "type": "Insider Activity", "impact": "Medium",
-         "message": "CFO purchased 10,000 shares at $98.50"},
-        {"time": "8:45 AM", "ticker": "SGEN", "type": "Regulatory", "impact": "High",
-         "message": "FDA granted priority review for Padcev sNDA"},
-        {"time": "Yesterday", "ticker": "IONS", "type": "Patent/IP", "impact": "Medium",
-         "message": "New patent granted for antisense platform technology"},
-    ]
+    signal_data = fetch_signals(days=days)
+    if signal_data and "signals" in signal_data:
+        raw_signals = signal_data["signals"]
+        # Map to display format
+        signals = []
+        for s in raw_signals:
+            signals.append({
+                "time": s.get("event_date", "N/A"),
+                "ticker": "N/A", # API needs to return ticker or we fetch. Assuming signal object has it for now or we skip.
+                "type": s.get("signal_type", "Unknown"),
+                "impact": s.get("severity", "Medium").title(),
+                "message": s.get("title", ""),
+            })
+    else:
+        signals = []
 
     for signal in signals:
         impact_color = {"High": "🔴", "Medium": "🟡", "Low": "🟢"}[signal["impact"]]

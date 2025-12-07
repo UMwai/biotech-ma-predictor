@@ -1,0 +1,302 @@
+{
+  "generated_at": "2025-12-07",
+  "methodology": "Composite scoring based on therapeutic momentum, clinical differentiation, competitive tension, and DCF valuation",
+  "sources": [
+    "https://www.nasdaq.com/articles/should-you-buy-vktx-stock-amid-renewed-ma-speculations",
+    "https://xtalks.com/pharma-and-biotech-mas-in-2025-roundup-4105/",
+    "https://www.alpha-sense.com/blog/trends/biotech-pharma-m-and-a-2025-outlook/",
+    "https://www.genengnews.com/industry-news/top-10-takeover-targets-of-2025/"
+  ],
+  "market_context": {
+    "total_ma_value_ytd": 49000000000,
+    "pharma_cash_reserves": 1000000000000,
+    "hot_areas": ["obesity_glp1", "oncology_adc", "radiopharmaceuticals", "autoimmune", "cns"]
+  },
+  "watchlist": [
+    {
+      "rank": 1,
+      "ticker": "VKTX",
+      "name": "Viking Therapeutics",
+      "therapeutic_area": "Obesity/GLP-1",
+      "lead_asset": "VK2735 (dual GLP-1/GIP agonist)",
+      "stage": "Phase 3",
+      "market_cap_usd": 6500000000,
+      "cash_position_usd": 715000000,
+      "ma_score": 92,
+      "scores": {
+        "pipeline_value": 95,
+        "clinical_differentiation": 90,
+        "therapeutic_momentum": 98,
+        "competitive_tension": 88,
+        "financial_health": 85,
+        "strategic_fit": 90
+      },
+      "key_catalyst": "VANQUISH-1 Phase 3 data (4,650 patients enrolled)",
+      "estimated_deal_value": {
+        "low": 7000000000,
+        "mid": 12000000000,
+        "high": 20000000000
+      },
+      "likely_acquirers": [
+        {"name": "Pfizer", "fit_score": 92, "rationale": "Needs GLP-1 after Metsera, Morgan Stanley advising"},
+        {"name": "Eli Lilly", "fit_score": 78, "rationale": "Defensive play to protect Zepbound"},
+        {"name": "Amgen", "fit_score": 75, "rationale": "Obesity pipeline gap"}
+      ],
+      "deal_probability_12mo": 0.65,
+      "signals": ["Pfizer Morgan Stanley advisor rumor", "Phase 3 enrollment complete ahead of schedule", "Stock at 3-month high on M&A speculation"]
+    },
+    {
+      "rank": 2,
+      "ticker": "GPCR",
+      "name": "Structure Therapeutics",
+      "therapeutic_area": "Obesity/GLP-1",
+      "lead_asset": "GSBR-1290 (oral GLP-1R agonist)",
+      "stage": "Phase 2",
+      "market_cap_usd": 2800000000,
+      "cash_position_usd": 450000000,
+      "ma_score": 88,
+      "scores": {
+        "pipeline_value": 85,
+        "clinical_differentiation": 95,
+        "therapeutic_momentum": 98,
+        "competitive_tension": 82,
+        "financial_health": 80,
+        "strategic_fit": 88
+      },
+      "key_catalyst": "Phase 2b data readout",
+      "estimated_deal_value": {
+        "low": 4000000000,
+        "mid": 6000000000,
+        "high": 9000000000
+      },
+      "likely_acquirers": [
+        {"name": "Roche", "fit_score": 88, "rationale": "Oral delivery differentiation, already acquired 89bio"},
+        {"name": "AstraZeneca", "fit_score": 82, "rationale": "Metabolic pipeline expansion"},
+        {"name": "Novo Nordisk", "fit_score": 70, "rationale": "Oral to complement Wegovy, antitrust risk"}
+      ],
+      "deal_probability_12mo": 0.55,
+      "signals": ["Oral delivery = clinical differentiation", "Post-IPO investor interest surge"]
+    },
+    {
+      "rank": 3,
+      "ticker": "TERN",
+      "name": "Terns Pharmaceuticals",
+      "therapeutic_area": "Obesity/GLP-1",
+      "lead_asset": "TERN-601 (oral GLP-1R agonist)",
+      "stage": "Phase 1",
+      "market_cap_usd": 850000000,
+      "cash_position_usd": 280000000,
+      "ma_score": 78,
+      "scores": {
+        "pipeline_value": 70,
+        "clinical_differentiation": 88,
+        "therapeutic_momentum": 98,
+        "competitive_tension": 72,
+        "financial_health": 75,
+        "strategic_fit": 80
+      },
+      "key_catalyst": "Phase 1 data triggered acquisition rumblings",
+      "estimated_deal_value": {
+        "low": 1500000000,
+        "mid": 2500000000,
+        "high": 4000000000
+      },
+      "likely_acquirers": [
+        {"name": "Merck", "fit_score": 80, "rationale": "GLP-1 pipeline gap"},
+        {"name": "Bristol Myers Squibb", "fit_score": 75, "rationale": "Metabolic expansion"}
+      ],
+      "deal_probability_12mo": 0.40,
+      "signals": ["Positive Phase 1 data", "Oral GLP-1 differentiation"]
+    },
+    {
+      "rank": 4,
+      "ticker": "ADCT",
+      "name": "ADC Therapeutics",
+      "therapeutic_area": "Oncology/ADC",
+      "lead_asset": "Zynlonta (loncastuximab tesirine)",
+      "stage": "Approved",
+      "market_cap_usd": 1200000000,
+      "cash_position_usd": 320000000,
+      "ma_score": 76,
+      "scores": {
+        "pipeline_value": 80,
+        "clinical_differentiation": 75,
+        "therapeutic_momentum": 85,
+        "competitive_tension": 70,
+        "financial_health": 72,
+        "strategic_fit": 78
+      },
+      "key_catalyst": "AACR 2025 presentation, ADC platform value",
+      "estimated_deal_value": {
+        "low": 2000000000,
+        "mid": 3500000000,
+        "high": 5000000000
+      },
+      "likely_acquirers": [
+        {"name": "AbbVie", "fit_score": 82, "rationale": "ADC platform expansion"},
+        {"name": "Gilead", "fit_score": 78, "rationale": "Oncology diversification"}
+      ],
+      "deal_probability_12mo": 0.45,
+      "signals": ["ADC therapeutic momentum high", "Approved product reduces risk"]
+    },
+    {
+      "rank": 5,
+      "ticker": "ANAB",
+      "name": "AnaptysBio",
+      "therapeutic_area": "Immunology",
+      "lead_asset": "Rosnilimab (anti-PD-1 agonist)",
+      "stage": "Phase 2/3",
+      "market_cap_usd": 1800000000,
+      "cash_position_usd": 400000000,
+      "ma_score": 74,
+      "scores": {
+        "pipeline_value": 78,
+        "clinical_differentiation": 80,
+        "therapeutic_momentum": 75,
+        "competitive_tension": 68,
+        "financial_health": 78,
+        "strategic_fit": 72
+      },
+      "key_catalyst": "Differentiated PD-1 agonist mechanism",
+      "estimated_deal_value": {
+        "low": 2500000000,
+        "mid": 4000000000,
+        "high": 6000000000
+      },
+      "likely_acquirers": [
+        {"name": "Bristol Myers Squibb", "fit_score": 80, "rationale": "I-O expansion"},
+        {"name": "Merck", "fit_score": 76, "rationale": "Keytruda franchise extension"}
+      ],
+      "deal_probability_12mo": 0.35,
+      "signals": ["Differentiated mechanism in crowded space"]
+    },
+    {
+      "rank": 6,
+      "ticker": "VERA",
+      "name": "Vera Therapeutics",
+      "therapeutic_area": "Nephrology",
+      "lead_asset": "Atacicept (IgA nephropathy)",
+      "stage": "Phase 3",
+      "market_cap_usd": 2200000000,
+      "cash_position_usd": 380000000,
+      "ma_score": 73,
+      "scores": {
+        "pipeline_value": 82,
+        "clinical_differentiation": 78,
+        "therapeutic_momentum": 70,
+        "competitive_tension": 65,
+        "financial_health": 76,
+        "strategic_fit": 72
+      },
+      "key_catalyst": "Phase 3 ORIGIN data",
+      "estimated_deal_value": {
+        "low": 3000000000,
+        "mid": 5000000000,
+        "high": 7000000000
+      },
+      "likely_acquirers": [
+        {"name": "Novartis", "fit_score": 78, "rationale": "Nephrology franchise"},
+        {"name": "AstraZeneca", "fit_score": 72, "rationale": "Rare disease expansion"}
+      ],
+      "deal_probability_12mo": 0.40,
+      "signals": ["Large unmet need in IgA nephropathy"]
+    },
+    {
+      "rank": 7,
+      "ticker": "IMVT",
+      "name": "Immunovant",
+      "therapeutic_area": "Autoimmune",
+      "lead_asset": "Batoclimab (FcRn inhibitor)",
+      "stage": "Phase 3",
+      "market_cap_usd": 3500000000,
+      "cash_position_usd": 600000000,
+      "ma_score": 72,
+      "scores": {
+        "pipeline_value": 80,
+        "clinical_differentiation": 72,
+        "therapeutic_momentum": 75,
+        "competitive_tension": 68,
+        "financial_health": 82,
+        "strategic_fit": 70
+      },
+      "key_catalyst": "Multiple Phase 3 readouts",
+      "estimated_deal_value": {
+        "low": 5000000000,
+        "mid": 8000000000,
+        "high": 12000000000
+      },
+      "likely_acquirers": [
+        {"name": "Roche", "fit_score": 75, "rationale": "FcRn platform value"},
+        {"name": "Johnson & Johnson", "fit_score": 72, "rationale": "Autoimmune expansion"}
+      ],
+      "deal_probability_12mo": 0.35,
+      "signals": ["Roivant subsidiary with multiple shots on goal"]
+    },
+    {
+      "rank": 8,
+      "ticker": "RXRX",
+      "name": "Recursion Pharmaceuticals",
+      "therapeutic_area": "AI Drug Discovery",
+      "lead_asset": "REC-994 (cerebral cavernous malformation)",
+      "stage": "Phase 2/3",
+      "market_cap_usd": 2500000000,
+      "cash_position_usd": 500000000,
+      "ma_score": 70,
+      "scores": {
+        "pipeline_value": 65,
+        "clinical_differentiation": 90,
+        "therapeutic_momentum": 80,
+        "competitive_tension": 62,
+        "financial_health": 75,
+        "strategic_fit": 68
+      },
+      "key_catalyst": "AI platform + Nvidia partnership",
+      "estimated_deal_value": {
+        "low": 4000000000,
+        "mid": 6000000000,
+        "high": 10000000000
+      },
+      "likely_acquirers": [
+        {"name": "Alphabet/Verily", "fit_score": 82, "rationale": "AI synergy"},
+        {"name": "Roche", "fit_score": 70, "rationale": "Digital health integration"}
+      ],
+      "deal_probability_12mo": 0.30,
+      "signals": ["Tech acquirer interest", "Platform value beyond pipeline"]
+    }
+  ],
+  "recent_completed_deals_2025": [
+    {
+      "target": "Metsera",
+      "acquirer": "Pfizer",
+      "value_usd": 10000000000,
+      "therapeutic_area": "Obesity/GLP-1",
+      "stage_at_acquisition": "Phase 3",
+      "premium_to_prior": 2.0,
+      "completion_date": "2025-11-13"
+    },
+    {
+      "target": "89bio",
+      "acquirer": "Roche",
+      "value_usd": 3500000000,
+      "therapeutic_area": "Metabolic/MASH",
+      "stage_at_acquisition": "Phase 3",
+      "completion_date": "2025"
+    },
+    {
+      "target": "Merus",
+      "acquirer": "Genmab",
+      "value_usd": 8000000000,
+      "therapeutic_area": "Oncology",
+      "stage_at_acquisition": "Phase 2/3",
+      "completion_date": "2025"
+    },
+    {
+      "target": "Intra-Cellular Therapies",
+      "acquirer": "Johnson & Johnson",
+      "value_usd": 14100000000,
+      "therapeutic_area": "CNS",
+      "stage_at_acquisition": "Approved",
+      "completion_date": "2025"
+    }
+  ]
+}
