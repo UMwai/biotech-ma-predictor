@@ -1,0 +1,348 @@
+# Prefect Project Configuration
+# Biotech M&A Predictor Orchestration
+
+name: biotech-ma-predictor
+description: >
+  Orchestration platform for biotech M&A prediction system.
+  Manages data ingestion, signal processing, scoring, matching, and reporting workflows.
+
+# Prefect version
+prefect-version: 2.14.0
+
+# ============================================================================
+# DEPLOYMENT CONFIGURATIONS
+# ============================================================================
+
+# Default deployment configuration
+deployments:
+  # ============================================================================
+  # DATA INGESTION DEPLOYMENTS
+  # ============================================================================
+
+  - name: sec-filings-daily
+    entrypoint: src/orchestration/flows.py:ingest_sec_filings
+    description: Daily ingestion of SEC EDGAR filings (Form 4, 13F, 8-K)
+    version: 1.0.0
+    tags:
+      - data-ingestion
+      - etl
+      - sec
+      - edgar
+    schedule:
+      cron: "0 12 * * 1-5"  # 12:00 UTC = 7:00 AM ET (weekdays)
+      timezone: UTC
+    work_pool:
+      name: biotech-ma-pool
+      work_queue_name: data-ingestion
+    parameters:
+      filing_types:
+        - "4"
+        - "13F"
+        - "8-K"
+    concurrency_limit: 1
+
+  - name: clinical-trials-daily
+    entrypoint: src/orchestration/flows.py:ingest_clinical_trials
+    description: Daily ingestion of ClinicalTrials.gov updates
+    version: 1.0.0
+    tags:
+      - data-ingestion
+      - etl
+      - clinical-trials
+    schedule:
+      cron: "0 13 * * *"  # 13:00 UTC = 8:00 AM ET
+      timezone: UTC
+    work_pool:
+      name: biotech-ma-pool
+      work_queue_name: data-ingestion
+    concurrency_limit: 1
+
+  - name: fda-data-daily
+    entrypoint: src/orchestration/flows.py:ingest_fda_data
+    description: Daily ingestion of FDA approvals and regulatory letters
+    version: 1.0.0
+    tags:
+      - data-ingestion
+      - etl
+      - fda
+      - regulatory
+    schedule:
+      cron: "0 14 * * *"  # 14:00 UTC = 9:00 AM ET
+      timezone: UTC
+    work_pool:
+      name: biotech-ma-pool
+      work_queue_name: data-ingestion
+    parameters:
+      approval_types:
+        - "NDA"
+        - "BLA"
+        - "ANDA"
+    concurrency_limit: 1
+
+  - name: financial-data-daily
+    entrypoint: src/orchestration/flows.py:ingest_financial_data
+    description: Daily ingestion of financial market data
+    version: 1.0.0
+    tags:
+      - data-ingestion
+      - etl
+      - market-data
+      - financial
+    schedule:
+      cron: "0 22 * * 1-5"  # 22:00 UTC = 5:00 PM ET (weekdays)
+      timezone: UTC
+    work_pool:
+      name: biotech-ma-pool
+      work_queue_name: data-ingestion
+    concurrency_limit: 1
+
+  # ============================================================================
+  # PROCESSING DEPLOYMENTS
+  # ============================================================================
+
+  - name: process-signals-periodic
+    entrypoint: src/orchestration/flows.py:process_signals
+    description: Periodic signal aggregation and event publishing
+    version: 1.0.0
+    tags:
+      - processing
+      - analytics
+      - signals
+      - events
+    schedule:
+      cron: "0 */4 * * *"  # Every 4 hours
+      timezone: UTC
+    work_pool:
+      name: biotech-ma-pool
+      work_queue_name: processing
+    parameters:
+      signal_sources:
+        - "sec"
+        - "fda"
+        - "clinical_trials"
+        - "market_data"
+    concurrency_limit: 2
+
+  - name: update-scores-twice-daily
+    entrypoint: src/orchestration/flows.py:update_company_scores
+    description: Calculate and update M&A attractiveness scores
+    version: 1.0.0
+    tags:
+      - processing
+      - analytics
+      - scoring
+    schedule:
+      cron: "0 9,17 * * *"  # 09:00 and 17:00 UTC
+      timezone: UTC
+    work_pool:
+      name: biotech-ma-pool
+      work_queue_name: processing
+    parameters:
+      min_signal_count: 1
+    concurrency_limit: 2
+
+  - name: match-acquirers-daily
+    entrypoint: src/orchestration/flows.py:match_acquirers
+    description: Match potential acquirers with high-scoring targets
+    version: 1.0.0
+    tags:
+      - processing
+      - analytics
+      - matching
+      - recommendations
+    schedule:
+      cron: "0 23 * * *"  # 23:00 UTC = 6:00 PM ET
+      timezone: UTC
+    work_pool:
+      name: biotech-ma-pool
+      work_queue_name: processing
+    parameters:
+      min_target_score: 60.0
+      min_match_score: 50.0
+    concurrency_limit: 1
+
+  # ============================================================================
+  # REPORTING DEPLOYMENTS
+  # ============================================================================
+
+  - name: daily-digest-morning
+    entrypoint: src/orchestration/flows.py:generate_daily_digest
+    description: Generate and send daily M&A digest report
+    version: 1.0.0
+    tags:
+      - reporting
+      - notifications
+      - digest
+      - daily
+    schedule:
+      cron: "0 11 * * 1-5"  # 11:00 UTC = 6:00 AM ET (weekdays)
+      timezone: UTC
+    work_pool:
+      name: biotech-ma-pool
+      work_queue_name: reporting
+    parameters:
+      recipients:
+        - "team@example.com"
+    concurrency_limit: 1
+
+  - name: weekly-watchlist-monday
+    entrypoint: src/orchestration/flows.py:generate_weekly_watchlist
+    description: Generate and send weekly ranked watchlist
+    version: 1.0.0
+    tags:
+      - reporting
+      - notifications
+      - watchlist
+      - weekly
+    schedule:
+      cron: "0 12 * * 1"  # 12:00 UTC on Mondays = 7:00 AM ET
+      timezone: UTC
+    work_pool:
+      name: biotech-ma-pool
+      work_queue_name: reporting
+    parameters:
+      recipients:
+        - "team@example.com"
+      top_n: 50
+    concurrency_limit: 1
+
+  - name: alert-report-event-driven
+    entrypoint: src/orchestration/flows.py:generate_alert_report
+    description: Generate alert reports for significant score changes (event-driven)
+    version: 1.0.0
+    tags:
+      - reporting
+      - notifications
+      - alert
+      - event-driven
+    # No schedule - triggered by events
+    work_pool:
+      name: biotech-ma-pool
+      work_queue_name: alerts
+    parameters:
+      recipients:
+        - "alerts@example.com"
+    concurrency_limit: 3
+
+# ============================================================================
+# BUILD CONFIGURATION
+# ============================================================================
+
+build: null  # No custom build steps required
+
+# ============================================================================
+# PUSH CONFIGURATION
+# ============================================================================
+
+push: null  # Using local storage, no push required
+
+# ============================================================================
+# PULL CONFIGURATION
+# ============================================================================
+
+pull:
+  - prefect.deployments.steps.set_working_directory:
+      directory: /Users/waiyang/Desktop/repo/biotech-ma-predictor
+
+# ============================================================================
+# ENVIRONMENT VARIABLES
+# ============================================================================
+
+# Environment variables for all deployments
+env:
+  PYTHONPATH: "${PYTHONPATH}:/Users/waiyang/Desktop/repo/biotech-ma-predictor"
+  PREFECT_LOGGING_LEVEL: "INFO"
+  PREFECT_API_URL: "${PREFECT_API_URL:-http://localhost:4200/api}"
+
+  # Application-specific environment variables
+  APP_ENV: "${APP_ENV:-production}"
+  LOG_LEVEL: "${LOG_LEVEL:-INFO}"
+
+  # Data source configurations
+  SEC_EDGAR_API_URL: "${SEC_EDGAR_API_URL}"
+  CLINICAL_TRIALS_API_URL: "${CLINICAL_TRIALS_API_URL}"
+  FDA_API_URL: "${FDA_API_URL}"
+  MARKET_DATA_API_KEY: "${MARKET_DATA_API_KEY}"
+
+  # Database configurations
+  DATABASE_URL: "${DATABASE_URL}"
+  DATA_LAKE_PATH: "${DATA_LAKE_PATH}"
+
+  # Notification configurations
+  SMTP_HOST: "${SMTP_HOST}"
+  SMTP_PORT: "${SMTP_PORT}"
+  SMTP_USER: "${SMTP_USER}"
+  SMTP_PASSWORD: "${SMTP_PASSWORD}"
+  SLACK_WEBHOOK_URL: "${SLACK_WEBHOOK_URL}"
+
+  # Cache configurations
+  REDIS_URL: "${REDIS_URL}"
+
+# ============================================================================
+# WORK POOLS
+# ============================================================================
+
+# Work pool configuration
+# Note: Work pools must be created separately using Prefect CLI or UI
+# Command: prefect work-pool create biotech-ma-pool --type process
+
+# ============================================================================
+# INFRASTRUCTURE
+# ============================================================================
+
+# Default infrastructure settings for deployments
+infrastructure:
+  type: process
+  env:
+    PYTHONUNBUFFERED: "1"
+  working_dir: /Users/waiyang/Desktop/repo/biotech-ma-predictor
+  stream_output: true
+
+# ============================================================================
+# STORAGE
+# ============================================================================
+
+# Storage configuration for flow code
+storage: null  # Using local file system
+
+# ============================================================================
+# CONCURRENCY LIMITS
+# ============================================================================
+
+# Global concurrency limits (optional)
+# These can be set via Prefect UI or CLI:
+# prefect concurrency-limit create data-ingestion 2
+# prefect concurrency-limit create processing 3
+# prefect concurrency-limit create reporting 2
+
+# ============================================================================
+# NOTIFICATIONS
+# ============================================================================
+
+# Notification configurations (set via Prefect UI or automation)
+# Examples:
+# - Flow run failures -> Slack/Email
+# - Flow run success -> Log only
+# - Long-running flows -> Slack alert after 1 hour
+
+# ============================================================================
+# METADATA
+# ============================================================================
+
+metadata:
+  project: biotech-ma-predictor
+  team: data-science
+  owner: analytics-team
+  version: 1.0.0
+  created: 2024-01-15
+  updated: 2024-01-15
+
+  # Links to documentation and resources
+  documentation: https://docs.example.com/biotech-ma-predictor
+  repository: https://github.com/example/biotech-ma-predictor
+
+  # Contacts
+  contacts:
+    technical_lead: tech-lead@example.com
+    product_owner: product@example.com
+    on_call: oncall@example.com
