@@ -184,83 +184,68 @@ async def get_ma_watchlist(
     Returns companies above the score threshold, ranked by M&A score.
     Includes score trends, top signals, and component breakdown.
     """
-    # TODO: Implement actual database query
-    # Mock response
-    mock_watchlist = [
-        WatchlistItem(
-            rank=1,
-            ticker="WXYZ",
-            name="XYZ Biotech",
-            ma_score=85.0,
-            score_change_7d=5.2,
-            score_change_30d=12.5,
-            market_cap_usd=800000000.0,
-            runway_quarters=3.5,
-            top_signals=[
-                "Cash runway below 1 year",
-                "Phase 3 trial success",
-                "CFO sold 50% of holdings",
-            ],
-            score_components={
-                "pipeline": 9.0,
-                "patent": 7.5,
-                "financial": 9.5,
-                "insider": 8.0,
-                "strategic_fit": 8.5,
-                "regulatory": 7.5,
-            },
-            last_updated=datetime.utcnow(),
-        ),
-        WatchlistItem(
-            rank=2,
-            ticker="ABCD",
-            name="ABC Therapeutics",
-            ma_score=72.5,
-            score_change_7d=-2.0,
-            score_change_30d=3.5,
-            market_cap_usd=1500000000.0,
-            runway_quarters=8.3,
-            top_signals=[
-                "Positive Phase 2 data",
-                "New Corp Dev VP hired",
-                "Patent expiring in 3 years",
-            ],
-            score_components={
-                "pipeline": 8.5,
-                "patent": 7.0,
-                "financial": 6.5,
-                "insider": 7.5,
-                "strategic_fit": 8.0,
-                "regulatory": 7.0,
-            },
-            last_updated=datetime.utcnow(),
-        ),
-    ]
+    from src.database.client import DatabaseClient
+    from src.api.routes.companies import company_to_dict  # Helper if needed, or manual mapping
 
-    # Apply filters
-    filtered = [item for item in mock_watchlist if item.ma_score >= min_score]
+    async with DatabaseClient() as db:
+        # Get latest scores
+        scores = await db.scores.get_by_score_range(min_score=min_score)
+        
+        # Filter and sort
+        items = []
+        for score in scores:
+            company = await db.companies.get_by_id(score.company_id)
+            if not company:
+                continue
+                
+            # Get specific signals for this company if needed to populate "top_signals"
+            # For efficiency in list view, might want to fetch these in bulk or simplify
+            signals = await db.signals.get_by_company(score.company_id, limit=3)
+            top_signal_titles = [s.title for s in signals]
+
+            # Calculate score changes (mocked for now or fetched if history exists)
+            # Logic for changes 7d/30d would go here.
+            
+            items.append(WatchlistItem(
+                rank=0, # Updated later
+                ticker=company.ticker,
+                name=company.name,
+                ma_score=score.total_score,
+                score_change_7d=0.0, # Placeholder
+                score_change_30d=0.0, # Placeholder
+                market_cap_usd=company.market_cap_usd,
+                runway_quarters=company.runway_quarters,
+                top_signals=top_signal_titles,
+                score_components={
+                    "pipeline": score.pipeline_score,
+                    "patent": score.patent_score,
+                    "financial": score.financial_score,
+                    "insider": score.insider_score,
+                    "strategic_fit": score.strategic_fit_score,
+                    "regulatory": score.regulatory_score,
+                },
+                last_updated=score.score_date,
+            ))
 
     # Sort
     if sort_by == "ma_score":
-        filtered.sort(key=lambda x: x.ma_score, reverse=True)
+        items.sort(key=lambda x: x.ma_score, reverse=True)
     elif sort_by == "score_change_7d":
-        filtered.sort(
-            key=lambda x: x.score_change_7d if x.score_change_7d else 0, reverse=True
-        )
+        items.sort(key=lambda x: x.score_change_7d or 0, reverse=True)
     elif sort_by == "score_change_30d":
-        filtered.sort(
-            key=lambda x: x.score_change_30d if x.score_change_30d else 0, reverse=True
-        )
+        items.sort(key=lambda x: x.score_change_30d or 0, reverse=True)
+    elif sort_by == "market_cap":
+         items.sort(key=lambda x: x.market_cap_usd, reverse=True)
 
     # Update ranks
-    for i, item in enumerate(filtered, 1):
+    for i, item in enumerate(items, 1):
         item.rank = i
 
     # Paginate
-    total = len(filtered)
+    total = len(items)
     start = pagination.offset
     end = start + pagination.limit
-    page_items = filtered[start:end]
+    page_items = items[start:end]
 
     return WatchlistResponse(
         watchlist=page_items,

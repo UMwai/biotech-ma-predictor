@@ -30,6 +30,7 @@ from src.database.repositories import (
     ReportRepository,
     AlertRepository,
 )
+from src.database.client import DatabaseClient
 
 __all__ = [
     # Connection management
@@ -55,4 +56,6 @@ __all__ = [
     "ScoreRepository",
     "ReportRepository",
     "AlertRepository",
+    # Client
+    "DatabaseClient",
 ]

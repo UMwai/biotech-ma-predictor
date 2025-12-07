@@ -338,7 +338,7 @@ def ingest_financial_data(
         # If no tickers provided, get all active companies
         if not tickers:
             run_logger.info("Fetching tickers for active companies")
-            from src.storage.database import DatabaseClient
+            from src.database.client import DatabaseClient
 
             db = DatabaseClient()
             companies = db.get_companies(status="active")
@@ -741,7 +741,7 @@ def generate_daily_digest(
         )
 
         # Get recent significant changes (last 24 hours)
-        from src.storage.database import DatabaseClient
+        from src.database.client import DatabaseClient
 
         db = DatabaseClient()
         recent_changes = db.get_score_changes(

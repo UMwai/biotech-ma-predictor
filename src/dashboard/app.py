@@ -199,17 +199,28 @@ def render_dashboard():
 
     with col1:
         st.subheader("Top M&A Candidates")
-        # Sample data - would come from API
-        df = pd.DataFrame({
-            'Company': ['ACAD', 'MRNA', 'SGEN', 'IONS', 'ALNY'],
-            'Score': [92, 88, 85, 82, 79],
-            'Change': [5, -2, 3, 0, 8],
-        })
-        fig = px.bar(
-            df, x='Company', y='Score',
-            color='Score',
-            color_continuous_scale=['#27ae60', '#f39c12', '#e74c3c'],
-        )
+        st.subheader("Top M&A Candidates")
+        watchlist_data = fetch_watchlist()
+        if watchlist_data and "watchlist" in watchlist_data:
+            top_items = watchlist_data["watchlist"][:5] # Top 5
+            df = pd.DataFrame([
+                {
+                    'Company': item.get('ticker'),
+                    'Score': item.get('ma_score'),
+                } for item in top_items
+            ])
+        else:
+             df = pd.DataFrame(columns=['Company', 'Score'])
+             
+        if not df.empty:
+            fig = px.bar(
+                df, x='Company', y='Score',
+                color='Score',
+                color_continuous_scale=['#27ae60', '#f39c12', '#e74c3c'],
+            )
+        else:
+            fig = go.Figure()
+            fig.add_annotation(text="No data available", showarrow=False)
         fig.update_layout(height=350)
         st.plotly_chart(fig, use_container_width=True)
 
@@ -258,16 +269,28 @@ def render_watchlist():
     with col3:
         sort_by = st.selectbox("Sort By", ["Score", "Score Change", "Market Cap"])
 
-    # Sample watchlist data
-    watchlist = pd.DataFrame({
-        'Rank': range(1, 11),
-        'Ticker': ['ACAD', 'MRNA', 'SGEN', 'IONS', 'ALNY', 'BMRN', 'NBIX', 'SRPT', 'VRTX', 'REGN'],
-        'Company': ['ACADIA Pharma', 'Moderna', 'Seagen', 'Ionis', 'Alnylam', 'BioMarin', 'Neurocrine', 'Sarepta', 'Vertex', 'Regeneron'],
-        'M&A Score': [92, 88, 85, 82, 79, 77, 75, 73, 71, 68],
-        'Change (7d)': [5, -2, 3, 0, 8, -1, 4, 2, -3, 1],
-        'Market Cap ($B)': [4.2, 52.1, 31.2, 8.4, 26.3, 14.5, 12.8, 11.2, 85.4, 78.2],
-        'Top Acquirer': ['PFE', 'GSK', 'MRK', 'BMY', 'JNJ', 'RHHBY', 'NVS', 'PFE', 'AZN', 'SNY'],
-    })
+    # Fetch watchlist data
+    data = fetch_watchlist()
+    if data and "watchlist" in data:
+        items = data["watchlist"]
+        # Convert API response to DataFrame
+        watchlist = pd.DataFrame([
+            {
+                'Rank': item.get('rank'),
+                'Ticker': item.get('ticker'),
+                'Company': item.get('name'),
+                'M&A Score': item.get('ma_score'),
+                'Change (7d)': item.get('score_change_7d'),
+                'Market Cap ($B)': (item.get('market_cap_usd', 0) or 0) / 1e9,
+                'Top Acquirer': 'N/A' # Placeholder until matching API integrated
+            } for item in items
+        ])
+    else:
+        # Fallback to empty
+        watchlist = pd.DataFrame(columns=[
+            'Rank', 'Ticker', 'Company', 'M&A Score', 
+            'Change (7d)', 'Market Cap ($B)', 'Top Acquirer'
+        ])
 
     st.dataframe(
         watchlist,
