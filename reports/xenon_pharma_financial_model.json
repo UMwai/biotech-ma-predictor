@@ -15,10 +15,10 @@
     "market_cap_usd": 3480000000,
     "cash_and_equivalents_usd": 691100000,
     "total_debt_usd": 0,
-    "shares_outstanding": 68000000,
-    "stock_price_usd": 51.18,
-    "52_week_high": 55.00,
-    "52_week_low": 28.00,
+    "shares_outstanding": 77300000,
+    "stock_price_usd": 45.01,
+    "52_week_high": 45.09,
+    "52_week_low": 26.74,
     "cash_runway_months": 24,
     "runway_extends_to": "2027"
   },
@@ -184,8 +184,8 @@
       "total_pipeline_ranpv": 5875000000,
       "plus_cash": 691100000,
       "less_burn_to_approval": -500000000,
-      "enterprise_value": 6066100000,
-      "implied_share_price": 89.21
+      "enterprise_value": 5724000000,
+      "implied_share_price": 69.80
     }
   },
   "ma_score_analysis": {

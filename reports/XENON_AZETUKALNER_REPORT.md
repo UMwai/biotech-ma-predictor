@@ -13,8 +13,8 @@
 |--------|-------|
 | **Ticker** | XENE (NASDAQ) |
 | **Market Cap** | $3.48B |
-| **Stock Price** | $51.18 |
-| **Shares Outstanding** | 68.0M |
+| **Stock Price** | $45.01 |
+| **Shares Outstanding** | 77.3M |
 | **Cash Position** | $691.1M |
 | **Cash Runway** | Into 2027 |
 | **Lead Asset** | Azetukalner (XEN1101) |
@@ -334,12 +334,12 @@
 | (-) Working Capital Reserve | ($0.100B) |
 | **Enterprise Value** | **$5.724B** |
 | | |
-| Shares Outstanding | 68.0M |
-| Diluted Shares (options/RSUs) | 72.5M |
-| **Implied Share Price (Basic)** | **$84.18** |
-| **Implied Share Price (Diluted)** | **$78.95** |
-| Current Price | $51.18 |
-| **Upside to Fair Value** | **54-65%** |
+| Shares Outstanding | 77.3M |
+| Diluted Shares (options/RSUs) | 82.0M |
+| **Implied Share Price (Basic)** | **$74.05** |
+| **Implied Share Price (Diluted)** | **$69.80** |
+| Current Price | $45.01 |
+| **Upside to Fair Value** | **55-65%** |
 
 ### Sensitivity Analysis - Fair Value Per Share
 
@@ -347,21 +347,21 @@
 
 | FOS PoS | Fair Value | Upside |
 |---------|------------|--------|
-| 45% | $71.20 | 39% |
-| 50% | $76.06 | 49% |
-| **55% (Base)** | **$78.95** | **54%** |
-| 60% | $84.83 | 66% |
-| 65% | $89.72 | 75% |
+| 45% | $62.50 | 39% |
+| 50% | $66.15 | 47% |
+| **55% (Base)** | **$69.80** | **55%** |
+| 60% | $73.45 | 63% |
+| 65% | $77.10 | 71% |
 
 **Discount Rate Sensitivity:**
 
 | WACC | Fair Value | Upside |
 |------|------------|--------|
-| 8% | $96.50 | 89% |
-| 9% | $87.20 | 70% |
-| **10% (Base)** | **$78.95** | **54%** |
-| 11% | $71.60 | 40% |
-| 12% | $65.10 | 27% |
+| 8% | $85.20 | 89% |
+| 9% | $77.00 | 71% |
+| **10% (Base)** | **$69.80** | **55%** |
+| 11% | $63.40 | 41% |
+| 12% | $57.80 | 28% |
 
 ---
 
@@ -444,7 +444,7 @@
 - Strong OLE data (90.9% seizure reduction)
 - MDD indication could be transformational ($2B+ peak)
 - Multiple strategic acquirers interested
-- Current valuation ($3.48B) still below rNPV ($5.9B)
+- Current valuation ($3.48B) still below rNPV ($5.7B) - 55-65% upside
 
 ### Bear Case
 - Phase 3 failure risk remains significant
