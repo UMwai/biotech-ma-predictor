@@ -1,0 +1,14 @@
+# Copy this file to terraform.tfvars and fill in your values
+# DO NOT commit terraform.tfvars to git (it's in .gitignore)
+
+project_id         = "triple-course-480814-e4"
+region             = "us-central1"
+environment        = "dev"
+notification_email = "aivestorlab@gmail.com"
+budget_amount      = 200
+
+# Cost-conscious defaults
+enable_database    = false      # Set true when ready for Cloud SQL
+db_tier           = "db-f1-micro"  # Smallest tier
+container_cpu     = "1"
+container_memory  = "512Mi"

@@ -77,3 +77,20 @@ reports/output/
 *.pem
 *.key
 credentials.json
+service-account*.json
+
+# Terraform
+terraform/.terraform/
+terraform/**/.terraform/
+terraform/*.tfstate
+terraform/**/*.tfstate
+terraform/*.tfstate.*
+terraform/**/*.tfstate.*
+terraform/*.tfvars
+terraform/**/*.tfvars
+!terraform/**/*.tfvars.example
+terraform/.terraform.lock.hcl
+terraform/**/.terraform.lock.hcl
+terraform/crash.log
+terraform/**/crash.log
+*.tfplan
