@@ -1,0 +1,59 @@
+name: Deploy via Cloud Build
+
+# This workflow triggers Cloud Build which has 120 free min/day
+# Much cheaper than using GitHub Actions minutes directly
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'Dockerfile'
+      - 'requirements.txt'
+      - 'cloudbuild.yaml'
+  workflow_dispatch:
+
+env:
+  PROJECT_ID: triple-course-480814-e4
+  REGION: us-central1
+
+jobs:
+  trigger-cloud-build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
+          service_account: ${{ secrets.WIF_SERVICE_ACCOUNT }}
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Trigger Cloud Build
+        run: |
+          echo "Submitting build to Cloud Build..."
+          gcloud builds submit \
+            --config cloudbuild.yaml \
+            --region ${{ env.REGION }} \
+            --project ${{ env.PROJECT_ID }} \
+            --substitutions SHORT_SHA=${{ github.sha }} \
+            --async \
+            .
+
+          echo "Build submitted! Cloud Build will handle the rest."
+          echo "View build: https://console.cloud.google.com/cloud-build/builds?project=${{ env.PROJECT_ID }}"
+
+      - name: Summary
+        run: |
+          echo "## Build Triggered" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Cloud Build is now building and deploying your application." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "[View build in Cloud Console](https://console.cloud.google.com/cloud-build/builds?project=${{ env.PROJECT_ID }})" >> $GITHUB_STEP_SUMMARY
