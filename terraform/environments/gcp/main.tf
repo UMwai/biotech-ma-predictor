@@ -404,29 +404,27 @@ resource "google_secret_manager_secret_version" "database_url" {
 }
 
 # =============================================================================
-# CLOUD BUILD - DISABLED (using GitHub Actions instead for free minutes)
+# CLOUD BUILD - Auto-deploy on push (FREE 120 min/day)
 # =============================================================================
 
-# Cloud Build trigger commented out - we use GitHub Actions + GCP self-hosted runner
-# for the hybrid approach that uses free GitHub minutes first, then GCP spot instances
-#
-# resource "google_cloudbuild_trigger" "deploy" {
-#   name        = "${var.app_name}-deploy"
-#   description = "Deploy ${var.app_name} on push to main"
-#
-#   github {
-#     owner = "UMwai"
-#     name  = "biotech-ma-predictor"
-#
-#     push {
-#       branch = "^main$"
-#     }
-#   }
-#
-#   filename = "cloudbuild.yaml"
-#   included_files = ["src/**", "Dockerfile", "requirements.txt"]
-#   depends_on = [google_project_service.apis]
-# }
+resource "google_cloudbuild_trigger" "deploy" {
+  name        = "${var.app_name}-deploy"
+  description = "Auto-deploy ${var.app_name} on push to main"
+  location    = var.region
+  project     = var.project_id
+
+  repository_event_config {
+    repository = "projects/${var.project_id}/locations/${var.region}/connections/github-connection/repositories/${var.app_name}"
+    push {
+      branch = "^main$"
+    }
+  }
+
+  filename       = "cloudbuild.yaml"
+  included_files = ["src/**", "Dockerfile", "requirements.txt", "cloudbuild.yaml"]
+
+  depends_on = [google_project_service.apis]
+}
 
 # =============================================================================
 # GITHUB SELF-HOSTED RUNNER (OPTIONAL - disabled by default to save costs)

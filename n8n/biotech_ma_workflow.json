@@ -1,0 +1,214 @@
+{
+  "name": "Biotech M&A Intelligence Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 6
+            }
+          ]
+        }
+      },
+      "id": "schedule-trigger",
+      "name": "Every 6 Hours",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&company=&dateb=&owner=include&count=40&output=atom",
+        "options": {}
+      },
+      "id": "sec-8k-filings",
+      "name": "SEC 8-K Filings",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [300, -200]
+    },
+    {
+      "parameters": {
+        "url": "https://api.fda.gov/drug/drugsfda.json?search=submissions.submission_type:ORIG&limit=20&sort=submissions.submission_status_date:desc",
+        "options": {}
+      },
+      "id": "fda-approvals",
+      "name": "FDA Drug Approvals",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [300, 0]
+    },
+    {
+      "parameters": {
+        "url": "https://clinicaltrials.gov/api/v2/studies?filter.overallStatus=ACTIVE_NOT_RECRUITING&filter.phase=PHASE3&pageSize=50&sort=LastUpdatePostDate:desc",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "clinical-trials",
+      "name": "Phase 3 Trials Near Completion",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [300, 200]
+    },
+    {
+      "parameters": {
+        "url": "https://newsapi.org/v2/everything?q=(biotech OR pharmaceutical) AND (acquisition OR merger OR M%26A OR buyout)&language=en&sortBy=publishedAt&pageSize=20",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {}
+      },
+      "id": "biotech-news",
+      "name": "Biotech M&A News",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [300, 400],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "newsapi-key",
+          "name": "NewsAPI Key"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Process and filter SEC filings for biotech/pharma M&A signals\nconst items = $input.all();\nconst biotechKeywords = ['acquisition', 'merger', 'agreement', 'tender offer', 'material definitive agreement', 'biotech', 'pharmaceutical', 'therapeutics'];\n\nconst filtered = [];\nfor (const item of items) {\n  const content = JSON.stringify(item.json).toLowerCase();\n  if (biotechKeywords.some(kw => content.includes(kw))) {\n    filtered.push(item);\n  }\n}\n\nreturn filtered.slice(0, 10);"
+      },
+      "id": "filter-sec",
+      "name": "Filter SEC for M&A",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [550, -200]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Extract upcoming Phase 3 readouts\nconst items = $input.all();\nconst results = [];\n\nfor (const item of items) {\n  const studies = item.json.studies || [];\n  for (const study of studies) {\n    const protocol = study.protocolSection || {};\n    const id = protocol.identificationModule || {};\n    const status = protocol.statusModule || {};\n    const design = protocol.designModule || {};\n    const sponsor = protocol.sponsorCollaboratorsModule || {};\n    \n    results.push({\n      nctId: id.nctId,\n      title: id.briefTitle,\n      sponsor: sponsor.leadSponsor?.name,\n      phase: design.phases?.join(', '),\n      completionDate: status.primaryCompletionDateStruct?.date,\n      status: status.overallStatus,\n      conditions: protocol.conditionsModule?.conditions\n    });\n  }\n}\n\nreturn results.map(r => ({ json: r }));"
+      },
+      "id": "parse-trials",
+      "name": "Parse Trial Data",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [550, 200]
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "mergeByFields": {
+          "values": []
+        },
+        "options": {}
+      },
+      "id": "merge-all",
+      "name": "Merge All Data",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3,
+      "position": [800, 100]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Build Discord embed message\nconst allData = $input.all();\n\nconst secFilings = allData.filter(i => i.json.source === 'sec').slice(0, 5);\nconst fdaNews = allData.filter(i => i.json.source === 'fda').slice(0, 5);\nconst trials = allData.filter(i => i.json.nctId).slice(0, 5);\nconst news = allData.filter(i => i.json.source === 'news').slice(0, 5);\n\nconst embed = {\n  embeds: [\n    {\n      title: '📊 Biotech Intelligence Update',\n      color: 3447003,\n      timestamp: new Date().toISOString(),\n      fields: []\n    }\n  ]\n};\n\nif (secFilings.length > 0) {\n  embed.embeds[0].fields.push({\n    name: '📄 SEC Filings (M&A Related)',\n    value: secFilings.map(f => `• ${f.json.title || 'Filing'}`).join('\\n').slice(0, 1024) || 'None',\n    inline: false\n  });\n}\n\nif (fdaNews.length > 0) {\n  embed.embeds[0].fields.push({\n    name: '💊 FDA Updates',\n    value: fdaNews.map(f => `• ${f.json.openfda?.brand_name?.[0] || f.json.products?.[0]?.brand_name || 'Drug'}`).join('\\n').slice(0, 1024) || 'None',\n    inline: false\n  });\n}\n\nif (trials.length > 0) {\n  embed.embeds[0].fields.push({\n    name: '🔬 Upcoming Phase 3 Readouts',\n    value: trials.map(t => `• **${t.json.sponsor}**: ${t.json.title?.slice(0, 50)}... (${t.json.completionDate || 'TBD'})`).join('\\n').slice(0, 1024) || 'None',\n    inline: false\n  });\n}\n\nif (news.length > 0) {\n  embed.embeds[0].fields.push({\n    name: '📰 M&A News',\n    value: news.map(n => `• [${n.json.title?.slice(0, 60)}...](${n.json.url})`).join('\\n').slice(0, 1024) || 'None',\n    inline: false\n  });\n}\n\nreturn [{ json: embed }];"
+      },
+      "id": "build-discord-message",
+      "name": "Build Discord Message",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1050, 100]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.DISCORD_WEBHOOK_URL}}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "options": {}
+      },
+      "id": "discord-webhook",
+      "name": "Send to Discord",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1300, 100]
+    },
+    {
+      "parameters": {
+        "url": "https://biopharmcatalyst.com/calendars/fda-calendar",
+        "options": {}
+      },
+      "id": "fda-calendar",
+      "name": "FDA Calendar (PDUFA Dates)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [300, 600]
+    }
+  ],
+  "connections": {
+    "Every 6 Hours": {
+      "main": [
+        [
+          { "node": "SEC 8-K Filings", "type": "main", "index": 0 },
+          { "node": "FDA Drug Approvals", "type": "main", "index": 0 },
+          { "node": "Phase 3 Trials Near Completion", "type": "main", "index": 0 },
+          { "node": "Biotech M&A News", "type": "main", "index": 0 },
+          { "node": "FDA Calendar (PDUFA Dates)", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "SEC 8-K Filings": {
+      "main": [
+        [{ "node": "Filter SEC for M&A", "type": "main", "index": 0 }]
+      ]
+    },
+    "Filter SEC for M&A": {
+      "main": [
+        [{ "node": "Merge All Data", "type": "main", "index": 0 }]
+      ]
+    },
+    "FDA Drug Approvals": {
+      "main": [
+        [{ "node": "Merge All Data", "type": "main", "index": 0 }]
+      ]
+    },
+    "Phase 3 Trials Near Completion": {
+      "main": [
+        [{ "node": "Parse Trial Data", "type": "main", "index": 0 }]
+      ]
+    },
+    "Parse Trial Data": {
+      "main": [
+        [{ "node": "Merge All Data", "type": "main", "index": 0 }]
+      ]
+    },
+    "Biotech M&A News": {
+      "main": [
+        [{ "node": "Merge All Data", "type": "main", "index": 0 }]
+      ]
+    },
+    "FDA Calendar (PDUFA Dates)": {
+      "main": [
+        [{ "node": "Merge All Data", "type": "main", "index": 0 }]
+      ]
+    },
+    "Merge All Data": {
+      "main": [
+        [{ "node": "Build Discord Message", "type": "main", "index": 0 }]
+      ]
+    },
+    "Build Discord Message": {
+      "main": [
+        [{ "node": "Send to Discord", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": ["biotech", "m&a", "discord"],
+  "triggerCount": 1
+}
