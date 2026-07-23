@@ -94,6 +94,45 @@ cp config/config.template.env config/.env
 python -m src.main
 ```
 
+## Market-Wide Research Evaluation
+
+Build the current U.S.-listed drug/biotech universe and evaluate all ingested
+marketed and active clinical assets:
+
+```bash
+python3 scripts/evaluate_market.py --as-of YYYY-MM-DD
+```
+
+The command uses current Nasdaq/SEC identifiers, FDA Orange Book data,
+currently marketed BLA products from Drugs@FDA, and active industry-sponsored
+ClinicalTrials.gov records. It writes:
+
+- `output/market_evaluation/companies.csv` — every listed company in scope;
+- `output/market_evaluation/assets.csv` — every evaluated marketed or clinical asset;
+- `output/market_evaluation/unmatched_owners.csv` — entity-resolution backlog;
+- `output/market_evaluation/manifest.json` — coverage, versions, and known gaps; and
+- `output/market_evaluation/summary.md` — ranked review tables.
+
+These are transparent cross-sectional research scores, not calibrated M&A
+probabilities. Re-run with `--offline` to reproduce results from cached raw
+payloads or `--refresh` to fetch a new market snapshot. See the
+[market research model card](docs/MARKET_RESEARCH_MODEL_CARD.md) for intended
+use, score semantics, evidence status, and promotion gates.
+
+Build the historical SEC transaction-candidate ledger separately:
+
+```bash
+python3 scripts/build_deal_labels.py \
+  --start-date 2018-01-01 \
+  --end-date YYYY-MM-DD
+```
+
+This produces an auditable Schedule 14D-9/DEFM14A adjudication queue under
+`output/historical_deal_candidates/`, plus annual historical reporting-company
+risk sets built from contemporaneous 10-K/20-F/40-F filers. It intentionally
+marks every row ineligible for model training until target role, change of
+control, and the first public announcement timestamp have been reviewed.
+
 ## Configuration
 
 See `config/config.template.env` for required environment variables:

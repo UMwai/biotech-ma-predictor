@@ -71,6 +71,8 @@ config/.env
 logs/
 *.log
 reports/output/
+data/*.db
+data/market_evaluation/raw/
 .DS_Store
 
 # Secrets
