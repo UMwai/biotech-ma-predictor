@@ -1,12 +1,14 @@
 {
   "archetype_counts": {
+    "distressed_or_structured_target": 1,
     "failure_watch": 1,
-    "ma_candidate_risk_unscreened": 150,
+    "ma_candidate_risk_unscreened": 149,
     "neutral_monitor": 609
   },
   "companies": 760,
-  "company_specific_risk_evidence": 1,
-  "generated_at": "2026-07-28T08:03:47+00:00",
+  "company_specific_risk_evidence": 2,
+  "generated_at": "2026-07-28T08:20:03+00:00",
+  "historical_marker_matches": 3,
   "interpretation": "Dual-axis research triage; neither axis is a calibrated probability.",
-  "schema_version": "strategic-diligence-matrix-v1"
+  "schema_version": "strategic-diligence-matrix-v2"
 }

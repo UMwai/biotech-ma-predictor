@@ -2,7 +2,7 @@
 
 ## Decision contract
 
-The strategic pipeline preserves three different questions:
+The strategic pipeline preserves five different questions:
 
 1. **M&A attractiveness:** Does the company have financeable, strategically
    useful assets that deserve acquisition review?
@@ -11,6 +11,10 @@ The strategic pipeline preserves three different questions:
    partnership, or capital delivery?
 3. **Leadership role-accountability risk:** Did those events occur within the
    functional remit and tenure of the leadership team?
+4. **Delivery upside:** How much observable asset progress exists, independent
+   of current company-specific risk coverage?
+5. **Historical precedent:** Which point-in-time execution marker has the
+   closest observable feature fingerprint?
 
 These axes are not interchangeable. Execution distress can increase the chance
 of an asset sale while simultaneously reducing the attractiveness of a clean
@@ -96,9 +100,13 @@ Transaction structure follows the archetype:
 
 ## Current coverage
 
-The matrix joins all 760 companies in the current market evaluator. Execution
-and leadership evidence is initially populated only for the verified Capricor
-case. Other rows remain unscreened until the broader collectors are built.
+The matrix joins all 760 companies in the current market evaluator. The
+execution and leadership ledgers are initially populated only for the verified
+Capricor case; the negative historical-marker library adds sourced Amylyx
+downside evidence. Other rows remain unscreened until the broader collectors
+are built. Every row now has an asset-progress upside proxy and explicit
+risk-coverage grade. A high upside score on an unscreened row is not a
+management-quality finding.
 
 The current output must not be presented as a complete market-wide leadership
 ranking.
@@ -109,6 +117,7 @@ ranking.
 python3 scripts/evaluate_market.py
 python3 scripts/evaluate_study_integrity.py
 python3 scripts/evaluate_execution_risk.py
+python3 scripts/build_execution_scorecard.py
 python3 scripts/build_strategic_matrix.py
 ```
 

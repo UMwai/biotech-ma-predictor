@@ -39,6 +39,11 @@ def parse_args() -> argparse.Namespace:
         default=ROOT / "output" / "execution_risk" / "companies.csv",
     )
     parser.add_argument(
+        "--execution-scorecard",
+        type=Path,
+        default=ROOT / "output" / "execution_scorecard" / "companies.csv",
+    )
+    parser.add_argument(
         "--output-dir",
         type=Path,
         default=ROOT / "output" / "strategic_matrix",
@@ -80,21 +85,22 @@ def _table(lines: list[str], title: str, rows: list[StrategicDiligenceRow]) -> N
         [
             f"## {title}",
             "",
-            "| Ticker | Company | M&A score/rank | Integrity | Execution | Leadership | Archetype |",
-            "|---|---|---:|---:|---:|---:|---|",
+            "| Ticker | Company | M&A score/rank | Upside | Downside | Balance | Closest marker | Archetype |",
+            "|---|---|---:|---:|---:|---:|---|---|",
         ]
     )
     if not rows:
         lines.append(
-            "| — | No companies currently meet this rule | — | — | — | — | — |"
+            "| — | No companies currently meet this rule | — | — | — | — | — | — |"
         )
     for row in rows:
         lines.append(
             f"| {row.ticker} | {row.company_name} | "
             f"{row.ma_research_score:.2f} / {row.ma_rank} | "
-            f"{row.integrity_diligence_score:.2f} | "
-            f"{row.execution_risk_score:.2f} | "
-            f"{row.leadership_risk_score:.2f} | "
+            f"{row.delivery_upside_score:.2f} | "
+            f"{row.combined_diligence_risk:.2f} | "
+            f"{row.execution_balance_score:.2f} | "
+            f"{row.closest_marker_id or 'no reliable match'} | "
             f"{row.strategic_archetype} |"
         )
     lines.append("")
@@ -145,9 +151,11 @@ def write_summary(
         [
             "## Current coverage constraint",
             "",
-            "The market evaluator covers the broad listed universe, but company-specific",
-            "execution evidence is currently populated only for the verified Capricor case.",
-            "All other `limited_no_detected_signals` rows are unscreened—not cleared.",
+            "The market evaluator covers the broad listed universe, but sourced",
+            "company-specific downside evidence currently covers only the verified",
+            "Capricor ledger and Amylyx historical-marker cases.",
+            "All other risk-unscreened rows are unscreened—not cleared. Delivery-upside",
+            "scores are asset-progress proxies and do not establish management quality.",
             "",
             "## Decision rules",
             "",
@@ -168,6 +176,7 @@ def main() -> int:
         read_csv(args.market_companies),
         read_csv(args.integrity_companies),
         read_csv(args.execution_companies),
+        read_csv(args.execution_scorecard),
     )
     generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     args.output_dir.mkdir(parents=True, exist_ok=True)
@@ -175,11 +184,14 @@ def main() -> int:
     write_summary(args.output_dir / "summary.md", generated_at, matrix)
     counts = Counter(row.strategic_archetype for row in matrix)
     manifest = {
-        "schema_version": "strategic-diligence-matrix-v1",
+        "schema_version": "strategic-diligence-matrix-v2",
         "generated_at": generated_at,
         "companies": len(matrix),
         "company_specific_risk_evidence": sum(
             row.risk_coverage == "company_specific_evidence" for row in matrix
+        ),
+        "historical_marker_matches": sum(
+            bool(row.closest_marker_id) for row in matrix
         ),
         "archetype_counts": dict(sorted(counts.items())),
         "interpretation": (

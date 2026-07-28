@@ -119,6 +119,23 @@ payloads or `--refresh` to fetch a new market snapshot. See the
 [market research model card](docs/MARKET_RESEARCH_MODEL_CARD.md) for intended
 use, score semantics, evidence status, and promotion gates.
 
+Build the execution scorecard after the market, integrity, and execution-risk
+evaluations:
+
+```bash
+python3 scripts/evaluate_study_integrity.py
+python3 scripts/evaluate_execution_risk.py
+python3 scripts/build_execution_scorecard.py
+python3 scripts/build_strategic_matrix.py
+```
+
+This gives every market company separate delivery-upside, sourced execution
+downside, evidence-coverage, and historical-marker similarity fields. Capricor,
+past biotech failures, successful remediation, approvals, and later
+acquisitions are encoded as point-in-time precedents. Later outcomes remain
+validation labels and cannot enter the earlier score. See the
+[execution scorecard model card](docs/EXECUTION_SCORECARD_MODEL_CARD.md).
+
 Build the historical SEC transaction-candidate ledger separately:
 
 ```bash

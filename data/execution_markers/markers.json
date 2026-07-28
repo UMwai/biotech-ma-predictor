@@ -1,0 +1,141 @@
+{
+  "schema_version": "historical-execution-markers-v1",
+  "as_of": "2026-07-28",
+  "interpretation": "Point-in-time execution precedents. Anchor tags are scoring features; later outcomes are validation labels and must not enter the anchor fingerprint.",
+  "markers": [
+    {
+      "marker_id": "capr-2026-regulatory-statistical-governance",
+      "company_name": "Capricor Therapeutics, Inc.",
+      "historical_ticker": "CAPR",
+      "polarity": "downside",
+      "archetype": "regulatory_and_statistical_governance_watch",
+      "anchor_date": "2026-07-27",
+      "anchor_tags": [
+        "regulatory_failure",
+        "missed_prespecified_endpoint",
+        "statistical_governance",
+        "inspection_pending"
+      ],
+      "anchor_source_url": "https://www.fda.gov/media/193839/download?attachment",
+      "anchor_evidence_summary": "FDA briefing materials said HOPE-3 missed prespecified efficacy endpoints, described unresolved effectiveness concerns, and reported an ongoing BIMO inspection with preliminary statistical-governance concerns.",
+      "outcome_date": "",
+      "outcome_class": "pending",
+      "outcome_source_url": "",
+      "outcome_summary": "The July 29, 2026 advisory-committee meeting and subsequent regulatory outcome had not occurred as of this marker snapshot."
+    },
+    {
+      "marker_id": "amlx-2024-confirmatory-failure-withdrawal",
+      "company_name": "Amylyx Pharmaceuticals, Inc.",
+      "historical_ticker": "AMLX",
+      "polarity": "downside",
+      "archetype": "confirmatory_failure_and_product_withdrawal",
+      "anchor_date": "2024-04-04",
+      "anchor_tags": [
+        "missed_prespecified_endpoint",
+        "confirmatory_failure",
+        "product_withdrawal"
+      ],
+      "anchor_source_url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312524086609/d780895dex991.htm",
+      "anchor_evidence_summary": "Amylyx began voluntarily discontinuing RELYVRIO after PHOENIX failed to confirm clinical benefit and announced a workforce reduction.",
+      "outcome_date": "2024-04-04",
+      "outcome_class": "withdrawal_and_restructuring",
+      "outcome_source_url": "https://www.sec.gov/Archives/edgar/data/1658551/000095017025031309/amlx-20241231.htm",
+      "outcome_summary": "RELYVRIO was withdrawn from the U.S. and Canadian markets and the company restructured."
+    },
+    {
+      "marker_id": "atnx-2021-crl-to-distress",
+      "company_name": "Athenex, Inc.",
+      "historical_ticker": "ATNX",
+      "polarity": "downside",
+      "archetype": "safety_endpoint_crl_to_capital_distress",
+      "anchor_date": "2021-03-01",
+      "anchor_tags": [
+        "regulatory_failure",
+        "safety_concern",
+        "endpoint_uncertainty"
+      ],
+      "anchor_source_url": "https://www.sec.gov/Archives/edgar/data/1300699/000119312521062270/d137872dex992.htm",
+      "anchor_evidence_summary": "FDA issued a Complete Response Letter for oral paclitaxel plus encequidar, citing safety risk and uncertainty in the primary endpoint result.",
+      "outcome_date": "2023-05-14",
+      "outcome_class": "bankruptcy_and_asset_sale",
+      "outcome_source_url": "https://www.sec.gov/Archives/edgar/data/1300699/000119312523188536/d520119d8k.htm",
+      "outcome_summary": "Athenex entered Chapter 11 and sold its Orascovery assets through the bankruptcy process."
+    },
+    {
+      "marker_id": "sesn-2021-multidomain-crl",
+      "company_name": "Sesen Bio, Inc.",
+      "historical_ticker": "SESN",
+      "polarity": "downside",
+      "archetype": "multidomain_crl_to_program_abandonment",
+      "anchor_date": "2021-08-13",
+      "anchor_tags": [
+        "regulatory_failure",
+        "clinical_statistical_deficiency",
+        "manufacturing_quality"
+      ],
+      "anchor_source_url": "https://www.sec.gov/Archives/edgar/data/1485003/000110465921105208/tm2125142d1_ex99-1.htm",
+      "anchor_evidence_summary": "FDA issued a Complete Response Letter for Vicineum requiring additional clinical and statistical analyses and raising CMC, inspection, and product-quality issues.",
+      "outcome_date": "2022-07-15",
+      "outcome_class": "program_abandonment_and_reverse_merger",
+      "outcome_source_url": "https://www.sec.gov/Archives/edgar/data/1485003/000148500323000090/sesn-20221231.htm",
+      "outcome_summary": "Sesen paused further Vicineum development, pursued strategic alternatives, and later entered a reverse-merger process."
+    },
+    {
+      "marker_id": "vrna-2024-approval-to-acquisition",
+      "company_name": "Verona Pharma plc",
+      "historical_ticker": "VRNA",
+      "polarity": "upside",
+      "archetype": "differentiated_approval_to_strategic_acquisition",
+      "anchor_date": "2024-06-26",
+      "anchor_tags": [
+        "regulatory_approval",
+        "first_in_class",
+        "differentiated_asset"
+      ],
+      "anchor_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217389Orig1s000Approv.pdf",
+      "anchor_evidence_summary": "FDA approved Ohtuvayre, a differentiated inhaled COPD therapy developed by Verona Pharma.",
+      "outcome_date": "2025-10-07",
+      "outcome_class": "strategic_acquisition",
+      "outcome_source_url": "https://www.sec.gov/Archives/edgar/data/1657312/000110465925097318/tm2528100d1_8k.htm",
+      "outcome_summary": "Merck completed its acquisition of Verona Pharma after announcing an approximately $10 billion transaction."
+    },
+    {
+      "marker_id": "prvb-2022-remediation-approval-acquisition",
+      "company_name": "Provention Bio, Inc.",
+      "historical_ticker": "PRVB",
+      "polarity": "upside",
+      "archetype": "successful_remediation_to_first_in_class_acquisition",
+      "anchor_date": "2022-11-17",
+      "anchor_tags": [
+        "regulatory_approval",
+        "first_in_class",
+        "successful_remediation"
+      ],
+      "anchor_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/761183Orig1s000ltr.pdf",
+      "anchor_evidence_summary": "FDA approved TZIELD after the sponsor addressed issues from an earlier review cycle.",
+      "outcome_date": "2023-04-27",
+      "outcome_class": "strategic_acquisition",
+      "outcome_source_url": "https://www.sec.gov/Archives/edgar/data/1121404/000119312523120451/d468918dex991.htm",
+      "outcome_summary": "Sanofi completed its acquisition of Provention Bio and cited TZIELD as the strategic asset."
+    },
+    {
+      "marker_id": "mdgl-2024-first-mash-approval",
+      "company_name": "Madrigal Pharmaceuticals, Inc.",
+      "historical_ticker": "MDGL",
+      "polarity": "upside",
+      "archetype": "first_in_class_regulatory_delivery",
+      "anchor_date": "2024-03-14",
+      "anchor_tags": [
+        "regulatory_approval",
+        "first_in_class",
+        "accelerated_approval"
+      ],
+      "anchor_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/217785Orig1s000ltr.pdf",
+      "anchor_evidence_summary": "FDA granted accelerated approval to Rezdiffra, the first approved treatment for adults with noncirrhotic NASH with moderate-to-advanced fibrosis.",
+      "outcome_date": "",
+      "outcome_class": "independent_commercial_execution_pending",
+      "outcome_source_url": "",
+      "outcome_summary": "The marker is a positive regulatory-delivery control; no acquisition outcome is encoded."
+    }
+  ]
+}

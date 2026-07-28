@@ -20,6 +20,15 @@ class StrategicDiligenceRow:
     integrity_diligence_score: float
     execution_risk_score: float
     leadership_risk_score: float
+    delivery_upside_score: float
+    positive_marker_evidence_score: float
+    negative_marker_evidence_score: float
+    execution_balance_score: float
+    execution_outlook: str
+    evidence_coverage_score: float
+    closest_marker_id: str
+    closest_marker_polarity: str
+    marker_similarity: float
     combined_diligence_risk: float
     risk_coverage: str
     confirmed_misconduct_count: int
@@ -132,6 +141,7 @@ def build_strategic_diligence_matrix(
     market_rows: Iterable[dict[str, Any]],
     integrity_rows: Iterable[dict[str, Any]],
     execution_rows: Iterable[dict[str, Any]],
+    scorecard_rows: Iterable[dict[str, Any]] = (),
 ) -> list[StrategicDiligenceRow]:
     market = list(market_rows)
     integrity_by_ticker = {
@@ -139,6 +149,9 @@ def build_strategic_diligence_matrix(
     }
     execution_by_ticker = {
         str(row.get("ticker", "")).upper(): row for row in execution_rows
+    }
+    scorecard_by_ticker = {
+        str(row.get("ticker", "")).upper(): row for row in scorecard_rows
     }
     ranked = sorted(
         market,
@@ -153,11 +166,25 @@ def build_strategic_diligence_matrix(
         ticker = str(market_row.get("ticker", "")).upper()
         integrity = integrity_by_ticker.get(ticker)
         execution = execution_by_ticker.get(ticker)
+        scorecard = scorecard_by_ticker.get(ticker)
         integrity_score = _number(integrity, "diligence_score")
         execution_score = _number(execution, "execution_risk_score")
         leadership_score = _number(execution, "leadership_risk_score")
-        combined_risk = max(integrity_score, execution_score, leadership_score)
-        has_risk_evidence = bool(integrity or execution)
+        combined_risk = max(
+            integrity_score,
+            execution_score,
+            leadership_score,
+            _number(scorecard, "execution_downside_score"),
+        )
+        has_risk_evidence = bool(
+            integrity
+            or execution
+            or (
+                scorecard
+                and scorecard.get("evidence_coverage")
+                == "company_specific_evidence"
+            )
+        )
         archetype, structure, rule = _classify(
             _number(market_row, "research_score"),
             combined_risk,
@@ -168,6 +195,17 @@ def build_strategic_diligence_matrix(
         if integrity and not drivers:
             drivers = [
                 f"integrity categories: {', '.join(_list_value(integrity, 'categories'))}"
+            ]
+        if (
+            scorecard
+            and _number(scorecard, "negative_marker_evidence_score") > 0
+            and not drivers
+        ):
+            drivers = [
+                "historical marker evidence: "
+                + ", ".join(
+                    _list_value(scorecard, "active_company_marker_ids")
+                )
             ]
         results.append(
             StrategicDiligenceRow(
@@ -182,11 +220,40 @@ def build_strategic_diligence_matrix(
                 integrity_diligence_score=integrity_score,
                 execution_risk_score=execution_score,
                 leadership_risk_score=leadership_score,
+                delivery_upside_score=_number(
+                    scorecard, "delivery_upside_score"
+                ),
+                positive_marker_evidence_score=_number(
+                    scorecard, "positive_marker_evidence_score"
+                ),
+                negative_marker_evidence_score=_number(
+                    scorecard, "negative_marker_evidence_score"
+                ),
+                execution_balance_score=_number(
+                    scorecard, "execution_balance_score"
+                ),
+                execution_outlook=str(
+                    (scorecard or {}).get("execution_outlook", "")
+                ),
+                evidence_coverage_score=_number(
+                    scorecard, "evidence_coverage_score"
+                ),
+                closest_marker_id=str(
+                    (scorecard or {}).get("closest_marker_id", "")
+                ),
+                closest_marker_polarity=str(
+                    (scorecard or {}).get("closest_marker_polarity", "")
+                ),
+                marker_similarity=_number(scorecard, "marker_similarity"),
                 combined_diligence_risk=combined_risk,
                 risk_coverage=(
-                    "company_specific_evidence"
-                    if has_risk_evidence
-                    else "limited_no_detected_signals"
+                    str(scorecard.get("evidence_coverage"))
+                    if scorecard and scorecard.get("evidence_coverage")
+                    else (
+                        "company_specific_evidence"
+                        if has_risk_evidence
+                        else "limited_no_detected_signals"
+                    )
                 ),
                 confirmed_misconduct_count=_integer(
                     integrity, "confirmed_misconduct_count"
