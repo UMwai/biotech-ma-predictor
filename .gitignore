@@ -73,6 +73,7 @@ logs/
 reports/output/
 data/*.db
 data/market_evaluation/raw/
+data/study_integrity/raw/
 .DS_Store
 
 # Secrets

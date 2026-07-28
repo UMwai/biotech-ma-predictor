@@ -1,0 +1,12 @@
+{
+  "evidence_as_of": "2026-07-28",
+  "generated_at": "2026-07-28T07:49:06+00:00",
+  "interpretation": "Diligence triage only; not a probability or finding of fraud.",
+  "ledger": {
+    "companies": 1,
+    "confirmed_misconduct_rows": 0,
+    "rows": 6
+  },
+  "schema_version": "study-integrity-output-v1",
+  "source_file": "/home/umwai/biotech-ma-predictor/data/study_integrity/evidence.json"
+}
