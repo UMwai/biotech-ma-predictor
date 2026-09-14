@@ -1,0 +1,22 @@
+{
+  "schema_version": "panel-financial-evidence-validation-v1",
+  "checked_at": "2026-09-08T18:05:15.935443+00:00",
+  "records": 33,
+  "issuers": 23,
+  "pdf_backed_records": 14,
+  "browser_only_records": 19,
+  "reported_fact_count": 132,
+  "record_file_sha256": "0377939ec2410c46cc5ff3e60d01a51e04edb582edd35870e9c97cada5f38a73",
+  "checks": [
+    "actual review receipt hash and exact metadata binding",
+    "actual archived PDF signature/hash/byte count",
+    "actual extracted source page hash and row containment",
+    "annual duration",
+    "publication date plus 36h proxy arithmetic",
+    "reported financial unit multiplication",
+    "nonempty statement page or explicit table locator"
+  ],
+  "issues": [],
+  "status": "passed",
+  "scope": "Financial source integrity only; does not approve sample outcomes, model training, model quality, or live capital."
+}

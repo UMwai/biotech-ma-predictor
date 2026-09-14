@@ -1,0 +1,3 @@
+-r requirements-dev.in
+# Optional supervised baseline fitting; never needed to browse local research.
+scikit-learn==1.8.0

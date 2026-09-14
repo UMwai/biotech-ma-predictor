@@ -1,0 +1,18 @@
+{
+  "cik": 1807901,
+  "evidence_paraphrase": "Confidential discussions since 2018 included drug assets and partnerships. A 2020 proposed program collaboration included a 19.9 percent equity investment, not target control. Earlier program acquisition proposals and licensing discussions were not whole-company acquisitions. At January 1 there was no definitive whole-company agreement. The first Merck private whole-company proposal came February 7, 2021; negotiations increased consideration to 60 dollars cash. The parties executed February 24 at approximately 10:45 p.m. Eastern and publicly announced February 25 before Nasdaq trading. The tender commenced March 4.",
+  "full_background_section_review_complete": true,
+  "independent_human_review": false,
+  "observation_at": "2021-01-01T00:00:00+00:00",
+  "original_source_sha256": null,
+  "pending_public_definitive_control_transaction_at_observation": false,
+  "primary_source_uri": "https://www.sec.gov/Archives/edgar/data/1807901/000119312521069722/d112288dsc14d9.htm",
+  "raw_bytes_archived": false,
+  "reviewed_at": "2026-09-08T18:23:26.321520+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "risk_set_eligible": true,
+  "schema_version": "reviewed-pending-transaction-baseline-v1",
+  "scope": "Agent review of the complete designated merger-background section, including private/public sequencing; not an exhaustive independent world-news or legal audit. Retrospective baseline adjudication is never a pre-observation model feature.",
+  "source_locator": "Background of the Offer and the Merger, printed pages 15-22, entire section; browser lines 531-660",
+  "ticker": "PAND"
+}

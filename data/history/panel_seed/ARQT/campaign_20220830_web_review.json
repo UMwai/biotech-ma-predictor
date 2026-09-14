@@ -1,0 +1,35 @@
+{
+  "access_limitations": [
+    "Direct Multivu and PRNewswire HTML requests returned403 and were not repeated. The archived bytes are the actual successful web-tool response, not publisherHTML.",
+    "Source is a currently retrievable copy of an original dated issuer release, not an immutable capture made in2022."
+  ],
+  "archive_linkage": "The designated issuer archive points to the Multivu campaign landing page; the original PRNewswire issuer release repeats that exact Multivu URL, date, title and issuer identity.",
+  "censoring_event": false,
+  "extracted_body_sha256": "d6dd9b4181b346375182319ee5f69b1507c21b508db44db9cb0af91a752b82ca",
+  "extraction_selector": "web-tool-lines:475-526",
+  "first_public_announcement_at": null,
+  "full_body_read": true,
+  "independent_human_review": false,
+  "intended_use": "Supplement the otherwise complete2022 Arcutis baseline body inventory if the assembler explicitly supports honest web-tool text captures.",
+  "issuer": {
+    "cik": "1787306",
+    "name": "Arcutis Biotherapeutics, Inc.",
+    "ticker": "ARQT"
+  },
+  "original_publisher_html_archived": false,
+  "qualified_target_control_event": false,
+  "retrieved_at": "2026-09-08T18:03:15+00:00",
+  "review_reason": "Read the complete issuer-authored release from campaign announcement through author boilerplate, forward-looking statements, contacts and source attribution. It describes a psoriasis education campaign, patient/dermatologist quotations, symptom impact and treatment awareness. It announces no sale of Arcutis control, delisting or cessation of business.",
+  "reviewed_at": "2026-09-08T18:03:55.137190+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "schema_version": "issuer-release-web-review-v1",
+  "source_bytes": 33882,
+  "source_content_format": "web_tool_extracted_text_response",
+  "source_publication_date": "2022-08-30",
+  "source_relative_path": "raw_sources/prnewswire_20220830_web_tool_capture.json",
+  "source_sha256": "c780c7a7fac28c1f0846aadbf4feab4bfb5485f1671ddfe3aeba501d896753e3",
+  "source_url": "https://www.prnewswire.com/news-releases/new-campaign-from-arcutis-aims-to-expose-the-impact-of-psoriasis-on-physical-mental-and-emotional-wellbeing-301614726.html",
+  "timestamp_precision": "date",
+  "title": "New Campaign from Arcutis Aims to Expose the Impact of Psoriasis on Physical, Mental, and Emotional Wellbeing",
+  "training_allowed": false
+}

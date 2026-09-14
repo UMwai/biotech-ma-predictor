@@ -1,0 +1,2386 @@
+{
+  "all_selected_bodies_archived": true,
+  "archive_complete": true,
+  "body_receipts": [
+    {
+      "archive_page": 21,
+      "archive_year": 2019,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2019-11-26",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-the-piper-jaffray-healthcare-conference/",
+      "retrieved_at": "2026-09-08T18:11:49.561335+00:00",
+      "review_status": "pending",
+      "source_bytes": 173687,
+      "source_relative_path": "raw_sources/df3ae32d7d986f56d2c64d27b1a2598aaa3f74f0c229bdaf57b0dd75a088783a.html",
+      "source_sha256": "df3ae32d7d986f56d2c64d27b1a2598aaa3f74f0c229bdaf57b0dd75a088783a",
+      "title": "Crinetics Pharmaceuticals to Participate in the Piper Jaffray Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-the-piper-jaffray-healthcare-conference/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2019,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2019-11-12",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-third-quarter-2019-financial-results-and-provides-corporate-update/",
+      "retrieved_at": "2026-09-08T18:11:49.534584+00:00",
+      "review_status": "pending",
+      "source_bytes": 201040,
+      "source_relative_path": "raw_sources/df5ea5ecc357ff9c24472050cab783d5c6af9db194224331efef3775ed42d6e7.html",
+      "source_sha256": "df5ea5ecc357ff9c24472050cab783d5c6af9db194224331efef3775ed42d6e7",
+      "title": "Crinetics Pharmaceuticals Reports Third Quarter 2019 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-third-quarter-2019-financial-results-and-provides-corporate-update/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2019,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2019-09-25",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-cantor-global-healthcare-conference/",
+      "retrieved_at": "2026-09-08T18:11:49.589310+00:00",
+      "review_status": "pending",
+      "source_bytes": 174293,
+      "source_relative_path": "raw_sources/d747e1f8482210f182a859917af1aedce53ae7d545652d2e50f32497ff609e56.html",
+      "source_sha256": "d747e1f8482210f182a859917af1aedce53ae7d545652d2e50f32497ff609e56",
+      "title": "Crinetics Pharmaceuticals to Participate in Cantor Global Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-cantor-global-healthcare-conference/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2019,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2019-09-03",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-present-at-h-c-wainwright-global-investment-conference/",
+      "retrieved_at": "2026-09-08T18:11:50.378610+00:00",
+      "review_status": "pending",
+      "source_bytes": 174177,
+      "source_relative_path": "raw_sources/0805e74c98fb65566123a8301e94c3ef52cb781b774e84e2e532bba65782b7a1.html",
+      "source_sha256": "0805e74c98fb65566123a8301e94c3ef52cb781b774e84e2e532bba65782b7a1",
+      "title": "Crinetics Pharmaceuticals to Present at H.C. Wainwright Global Investment Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-present-at-h-c-wainwright-global-investment-conference/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2019,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2019-08-13",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/2019-second-quarter-financial-results-and-corporate-update/",
+      "retrieved_at": "2026-09-08T18:11:50.336879+00:00",
+      "review_status": "pending",
+      "source_bytes": 180103,
+      "source_relative_path": "raw_sources/a9618a4a5087e2c01248bb535d5f1c4ad44e6a5fe5a20ec6a3b9899103556fa5.html",
+      "source_sha256": "a9618a4a5087e2c01248bb535d5f1c4ad44e6a5fe5a20ec6a3b9899103556fa5",
+      "title": "Crinetics Pharmaceuticals Reports Second Quarter 2019 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/2019-second-quarter-financial-results-and-corporate-update/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2019,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2019-07-29",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/crinetics-final-nih-grant-congenital-hyperinsulinism/",
+      "retrieved_at": "2026-09-08T18:11:50.408925+00:00",
+      "review_status": "pending",
+      "source_bytes": 176455,
+      "source_relative_path": "raw_sources/07939aaecd269a55ce23547a66228db90854046a3295b8b5bfbcd6ddf7901dbd.html",
+      "source_sha256": "07939aaecd269a55ce23547a66228db90854046a3295b8b5bfbcd6ddf7901dbd",
+      "title": "Crinetics Pharmaceuticals to Receive Final Award of SBIR Grant from NIH for Congenital Hyperinsulinism",
+      "url": "https://crinetics.com/press-releases/crinetics-final-nih-grant-congenital-hyperinsulinism/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2019,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2019-07-16",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/stephanie-okey-appointed-to-board-of-directors/",
+      "retrieved_at": "2026-09-08T18:11:50.740654+00:00",
+      "review_status": "pending",
+      "source_bytes": 174674,
+      "source_relative_path": "raw_sources/22dc1baaf03aa78165fc6a2cb50b0096c617369a75e918f194dd33136fcb6932.html",
+      "source_sha256": "22dc1baaf03aa78165fc6a2cb50b0096c617369a75e918f194dd33136fcb6932",
+      "title": "Crinetics Pharmaceuticals Appoints Stephanie Okey to Board of Directors",
+      "url": "https://crinetics.com/press-releases/stephanie-okey-appointed-to-board-of-directors/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2019-05-21",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/phase1-study-treatment-neuroendocrine-tumors/",
+      "retrieved_at": "2026-09-08T18:11:51.188500+00:00",
+      "review_status": "pending",
+      "source_bytes": 177312,
+      "source_relative_path": "raw_sources/0c3533bc3a554e4ea082d88031545f2690ef776d1847144a4d5dd233d547b20f.html",
+      "source_sha256": "0c3533bc3a554e4ea082d88031545f2690ef776d1847144a4d5dd233d547b20f",
+      "title": "Crinetics Pharmaceuticals Initiates Phase 1 Study of CRN01941 for the Treatment of Neuroendocrine Tumors",
+      "url": "https://crinetics.com/press-releases/phase1-study-treatment-neuroendocrine-tumors/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2019-05-13",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/crinetics-1st-quarter-2019-finance-corporate-update/",
+      "retrieved_at": "2026-09-08T18:11:51.190482+00:00",
+      "review_status": "pending",
+      "source_bytes": 177588,
+      "source_relative_path": "raw_sources/37ca46c48b6fc7ae04369e267a8fa72789b2375a406998582669a88d5a2e5476.html",
+      "source_sha256": "37ca46c48b6fc7ae04369e267a8fa72789b2375a406998582669a88d5a2e5476",
+      "title": "Crinetics Pharmaceuticals Reports First Quarter 2019 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-1st-quarter-2019-finance-corporate-update/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2019-03-19",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/patients-dosed-in-phase-2-clinical-trials-acromegaly/",
+      "retrieved_at": "2026-09-08T18:11:51.620298+00:00",
+      "review_status": "pending",
+      "source_bytes": 179636,
+      "source_relative_path": "raw_sources/2400454c5818bca241b179087b4ffa3d953a30f61305da97587a50fb52399ddf.html",
+      "source_sha256": "2400454c5818bca241b179087b4ffa3d953a30f61305da97587a50fb52399ddf",
+      "title": "Crinetics Pharmaceuticals Doses First Patients in Phase 2 Clinical Trials of CRN00808 for Acromegaly",
+      "url": "https://crinetics.com/press-releases/patients-dosed-in-phase-2-clinical-trials-acromegaly/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2019-03-18",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/gina-ford-named-vp-corporate-strategy/",
+      "retrieved_at": "2026-09-08T18:11:51.621450+00:00",
+      "review_status": "pending",
+      "source_bytes": 174226,
+      "source_relative_path": "raw_sources/f0026979a9254157beb4d349740a3ac2c7ffc9b40ad297a46134f08b4873bb84.html",
+      "source_sha256": "f0026979a9254157beb4d349740a3ac2c7ffc9b40ad297a46134f08b4873bb84",
+      "title": "Crinetics Pharmaceuticals Appoints Gina Ford, RPh, MBA, as Vice President, Corporate Strategy and Commercial Planning",
+      "url": "https://crinetics.com/press-releases/gina-ford-named-vp-corporate-strategy/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2019-03-14",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/crinetics-announces-upcoming-presentations-endo2019/",
+      "retrieved_at": "2026-09-08T18:11:52.027428+00:00",
+      "review_status": "pending",
+      "source_bytes": 175090,
+      "source_relative_path": "raw_sources/1303b8ce3d35840e17fdfac40374c6c5e694fb0b9fa3aacaec7b615ebe0717c5.html",
+      "source_sha256": "1303b8ce3d35840e17fdfac40374c6c5e694fb0b9fa3aacaec7b615ebe0717c5",
+      "title": "Crinetics Pharmaceuticals Announces Upcoming Presentations at ENDO2019",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-upcoming-presentations-endo2019/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2019-03-13",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/2018-final-quarter-financial-corporate-update/",
+      "retrieved_at": "2026-09-08T18:11:52.509254+00:00",
+      "review_status": "pending",
+      "source_bytes": 183076,
+      "source_relative_path": "raw_sources/30a0a08b218a3cc28ca377f1ae491705bd5efe848ec563cba2939e05a97cade8.html",
+      "source_sha256": "30a0a08b218a3cc28ca377f1ae491705bd5efe848ec563cba2939e05a97cade8",
+      "title": "Crinetics Pharmaceuticals Reports Fourth Quarter and Full Year 2018 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/2018-final-quarter-financial-corporate-update/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2019-02-21",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/2019-svb-leerink-global-healthcare-conference/",
+      "retrieved_at": "2026-09-08T18:11:52.514253+00:00",
+      "review_status": "pending",
+      "source_bytes": 172579,
+      "source_relative_path": "raw_sources/6c2e3ed43f6f26c1f80ba5d21d971bc67538c197bdde888b75d965ffca5dbfc8.html",
+      "source_sha256": "6c2e3ed43f6f26c1f80ba5d21d971bc67538c197bdde888b75d965ffca5dbfc8",
+      "title": "Crinetics Pharmaceuticals to Present at SVB Leerink Global Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/2019-svb-leerink-global-healthcare-conference/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2019-01-02",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/crinetics-2019-jp-morgan-healthcare-conference/",
+      "retrieved_at": "2026-09-08T18:11:52.857002+00:00",
+      "review_status": "pending",
+      "source_bytes": 172955,
+      "source_relative_path": "raw_sources/17022a8094e8a122bc6d41636feb546e2b07787165c80ba292d242f728400cae.html",
+      "source_sha256": "17022a8094e8a122bc6d41636feb546e2b07787165c80ba292d242f728400cae",
+      "title": "Crinetics Pharmaceuticals to Present at J.P. Morgan Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-2019-jp-morgan-healthcare-conference/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2018,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2018-11-03",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/2018-3rd-quarter-financial-results-corporate-update/",
+      "retrieved_at": "2026-09-08T18:11:53.433331+00:00",
+      "review_status": "pending",
+      "source_bytes": 183129,
+      "source_relative_path": "raw_sources/55a8ed94fae51058bb0fcac7796f074fd26788aa06f63b4092a146e6ee5d7484.html",
+      "source_sha256": "55a8ed94fae51058bb0fcac7796f074fd26788aa06f63b4092a146e6ee5d7484",
+      "title": "Crinetics Pharmaceuticals Reports Third Quarter 2018 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/2018-3rd-quarter-financial-results-corporate-update/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2018,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2018-09-26",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/2018-leerink-partners-rare-disease-oncology/",
+      "retrieved_at": "2026-09-08T18:11:53.458080+00:00",
+      "review_status": "pending",
+      "source_bytes": 173036,
+      "source_relative_path": "raw_sources/a1e790bbfed924d927509b7ecb916455e38db44774a4a12ef6dced3b4500bb2c.html",
+      "source_sha256": "a1e790bbfed924d927509b7ecb916455e38db44774a4a12ef6dced3b4500bb2c",
+      "title": "Crinetics Pharmaceuticals to Present at Leerink Partners Roundtable Series: Rare Disease & Oncology",
+      "url": "https://crinetics.com/press-releases/2018-leerink-partners-rare-disease-oncology/"
+    },
+    {
+      "archive_page": 23,
+      "archive_year": 2018,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2018-08-30",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/2018-corporate-update-second-quarter-financial-results/",
+      "retrieved_at": "2026-09-08T18:11:53.687566+00:00",
+      "review_status": "pending",
+      "source_bytes": 173150,
+      "source_relative_path": "raw_sources/ab451fe712960bfa184f1218efea24f9115b0eb5deb15563c0a366d0027f959d.html",
+      "source_sha256": "ab451fe712960bfa184f1218efea24f9115b0eb5deb15563c0a366d0027f959d",
+      "title": "Crinetics Pharmaceuticals Reports Second Quarter 2018 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/2018-corporate-update-second-quarter-financial-results/"
+    },
+    {
+      "archive_page": 23,
+      "archive_year": 2018,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2018-07-20",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/crinetics-closes-initial-public-offering/",
+      "retrieved_at": "2026-09-08T18:11:54.178820+00:00",
+      "review_status": "pending",
+      "source_bytes": 177907,
+      "source_relative_path": "raw_sources/bbb08890b6d2c4089bc50d3d79a9603bcae064eeb5688ea24e6adbe19fb394f8.html",
+      "source_sha256": "bbb08890b6d2c4089bc50d3d79a9603bcae064eeb5688ea24e6adbe19fb394f8",
+      "title": "Crinetics Pharmaceuticals Announces Closing of Initial Public Offering and Exercise in Full of the Underwriters\u2019 Option to Purchase Additional Shares",
+      "url": "https://crinetics.com/press-releases/crinetics-closes-initial-public-offering/"
+    },
+    {
+      "archive_page": 23,
+      "archive_year": 2018,
+      "content_type": "text/html; charset=UTF-8",
+      "date": "2018-07-17",
+      "http_status": 200,
+      "resolved_url": "https://crinetics.com/press-releases/crinetics-announces-pricing-initial-public-offering/",
+      "retrieved_at": "2026-09-08T18:11:54.274966+00:00",
+      "review_status": "pending",
+      "source_bytes": 175836,
+      "source_relative_path": "raw_sources/ba48e5db2e6b0cbe50706b8d6c07c3dbc589e89d343f4117f8f38574e2806b08.html",
+      "source_sha256": "ba48e5db2e6b0cbe50706b8d6c07c3dbc589e89d343f4117f8f38574e2806b08",
+      "title": "Crinetics Pharmaceuticals Announces Pricing of Initial Public Offering",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-pricing-initial-public-offering/"
+    }
+  ],
+  "body_review_complete": false,
+  "errors": [],
+  "inventory": [
+    {
+      "archive_page": 1,
+      "archive_year": 2026,
+      "date": "2026-08-03",
+      "title": "Crinetics Pharmaceuticals Reports Second Quarter 2026 Financial Results and Provides Business Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-second-quarter-2026-financial-results-and-provides-business-update/"
+    },
+    {
+      "archive_page": 1,
+      "archive_year": 2026,
+      "date": "2026-07-06",
+      "title": "Vertex to Acquire Crinetics Pharmaceuticals",
+      "url": "https://crinetics.com/press-releases/vertex-to-acquire-crinetics-pharmaceuticals/"
+    },
+    {
+      "archive_page": 1,
+      "archive_year": 2026,
+      "date": "2026-06-30",
+      "title": "Crinetics Pharmaceuticals to Report Second Quarter 2026 Financial Results on August 4, 2026",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-report-second-quarter-2026-financial-results-on-august-4-2026/"
+    },
+    {
+      "archive_page": 1,
+      "archive_year": 2026,
+      "date": "2026-06-14",
+      "title": "Crinetics Presents Full Results From Phase 2 Trial of Atumelnant in Congenital Adrenal Hyperplasia (CAH) in Oral Presentation at ENDO 2026",
+      "url": "https://crinetics.com/press-releases/crinetics-presents-full-results-from-phase-2-trial-of-atumelnant-in-congenital-adrenal-hyperplasia-cah-in-oral-presentation-at-endo-2026/"
+    },
+    {
+      "archive_page": 1,
+      "archive_year": 2026,
+      "date": "2026-06-14",
+      "title": "Crinetics Presents Long Term Data at ENDO 2026 Confirming PALSONIFY\u2122 (paltusotine) Provides Durable, Consistent Acromegaly Control",
+      "url": "https://crinetics.com/press-releases/crinetics-presents-long-term-data-at-endo-2026-confirming-palsonify-paltusotine-provides-durable-consistent-acromegaly-control/"
+    },
+    {
+      "archive_page": 1,
+      "archive_year": 2026,
+      "date": "2026-06-02",
+      "title": "Crinetics and Leading Patient Groups Launch \u2018Everyday Advocacy\u2019 Initiative to Empower People Across Endocrine Disease Communities",
+      "url": "https://crinetics.com/press-releases/crinetics-and-leading-patient-groups-launch-everyday-advocacy-initiative-to-empower-people-across-endocrine-disease-communities/"
+    },
+    {
+      "archive_page": 1,
+      "archive_year": 2026,
+      "date": "2026-06-02",
+      "title": "Crinetics\u2019 Paradigm-Shifting Portfolio and Pipeline on Display at ENDO 2026 with Six Presentations",
+      "url": "https://crinetics.com/press-releases/crinetics-paradigm-shifting-portfolio-and-pipeline-on-display-at-endo-2026-with-six-presentations/"
+    },
+    {
+      "archive_page": 1,
+      "archive_year": 2026,
+      "date": "2026-05-22",
+      "title": "Crinetics Pharmaceuticals to Participate in Jefferies Global Healthcare Conference 2026",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-jefferies-global-healthcare-conference-2026/"
+    },
+    {
+      "archive_page": 1,
+      "archive_year": 2026,
+      "date": "2026-05-07",
+      "title": "Crinetics Pharmaceuticals Reports First Quarter 2026 Financial Results and Provides Business Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-first-quarter-2026-financial-results-and-provides-business-update/"
+    },
+    {
+      "archive_page": 1,
+      "archive_year": 2026,
+      "date": "2026-04-27",
+      "title": "Crinetics Pharmaceuticals Announces the European Commission Approval of PALSONIFY\u00ae (Paltusotine) for the Treatment of Acromegaly in Adults",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-the-european-commission-approval-of-palsonify-paltusotine-for-the-treatment-of-acromegaly-in-adults/"
+    },
+    {
+      "archive_page": 2,
+      "archive_year": 2026,
+      "date": "2026-04-08",
+      "title": "Crinetics Pharmaceuticals to Report First Quarter 2026 Financial Results on May 7, 2026",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-report-first-quarter-2026-financial-results-on-may-7-2026/"
+    },
+    {
+      "archive_page": 2,
+      "archive_year": 2026,
+      "date": "2026-03-26",
+      "title": "Crinetics Pharmaceuticals Announces Submission of Marketing Authorization Application in Brazil for Palsonify\u2122 (Paltusotine) in Acromegaly",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-submission-of-marketing-authorization-application-in-brazil-for-palsonify-paltusotine-in-acromegaly/"
+    },
+    {
+      "archive_page": 2,
+      "archive_year": 2026,
+      "date": "2026-02-26",
+      "title": "Crinetics Pharmaceuticals Reports Fourth Quarter and Full Year 2025 Financial Results and Provides Business Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-fourth-quarter-and-full-year-2025-financial-results-and-provides-business-update/"
+    },
+    {
+      "archive_page": 2,
+      "archive_year": 2026,
+      "date": "2026-02-05",
+      "title": "Crinetics Pharmaceuticals to Participate in Two Upcoming Investor Conferences in March",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-two-upcoming-investor-conferences-in-march/"
+    },
+    {
+      "archive_page": 2,
+      "archive_year": 2026,
+      "date": "2026-01-26",
+      "title": "Crinetics Pharmaceuticals to Report Fourth Quarter and Full Year 2025 Financial Results on February 26, 2026",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-report-fourth-quarter-and-full-year-2025-financial-results-on-february-26-2026/"
+    },
+    {
+      "archive_page": 2,
+      "archive_year": 2026,
+      "date": "2026-01-22",
+      "title": "Crinetics Initiates Phase 2/3 Pediatric Trial Evaluating Atumelnant in Congenital Adrenal Hyperplasia (CAH)",
+      "url": "https://crinetics.com/press-releases/crinetics-initiates-phase-2-3-pediatric-trial-evaluating-atumelnant-in-congenital-adrenal-hyperplasia-cah/"
+    },
+    {
+      "archive_page": 2,
+      "archive_year": 2026,
+      "date": "2026-01-12",
+      "title": "Crinetics Pharmaceuticals Announces January 2026 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-january-2026-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 2,
+      "archive_year": 2026,
+      "date": "2026-01-06",
+      "title": "Crinetics Pharmaceuticals Announces Pricing of Public Offering of Common Stock",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-pricing-of-public-offering-of-common-stock-2/"
+    },
+    {
+      "archive_page": 2,
+      "archive_year": 2026,
+      "date": "2026-01-05",
+      "title": "Crinetics Pharmaceuticals Announces Proposed Public Offering of Common Stock",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-proposed-public-offering-of-common-stock-4/"
+    },
+    {
+      "archive_page": 2,
+      "archive_year": 2026,
+      "date": "2026-01-05",
+      "title": "Crinetics Announces Strong PALSONIFY Launch Execution and Positive Results for Concurrent Androstenedione Lowering and Glucocorticoid Dose Reduction in Phase 2 Trial of Atumelnant for Congenital Adrenal Hyperplasia",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-strong-palsonify-launch-execution-and-positive-results-for-concurrent-androstenedione-lowering-and-glucocorticoid-dose-reduction-in-phase-2-trial-of-atumelnant-for-congenital-adren/"
+    },
+    {
+      "archive_page": 3,
+      "archive_year": 2026,
+      "date": "2026-01-04",
+      "title": "Crinetics Pharmaceuticals to Provide PALSONIFY Business Update and Announce Topline Results from Fourth Cohort of Phase 2 Trial of Atumelnant in Congenital Adrenal Hyperplasia",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-provide-palsonify-business-update-and-announce-topline-results-from-fourth-cohort-of-phase-2-trial-of-atumelnant-in-congenital-adrenal-hyperplasia/"
+    },
+    {
+      "archive_page": 3,
+      "archive_year": 2025,
+      "date": "2025-12-18",
+      "title": "Crinetics Pharmaceuticals to Participate in The 44th Annual J.P. Morgan Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-the-44th-annual-j-p-morgan-healthcare-conference-2/"
+    },
+    {
+      "archive_page": 3,
+      "archive_year": 2025,
+      "date": "2025-12-18",
+      "title": "Crinetics Pharmaceuticals to Participate in The 44th Annual J.P. Morgan Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-the-44th-annual-j-p-morgan-healthcare-conference/"
+    },
+    {
+      "archive_page": 3,
+      "archive_year": 2025,
+      "date": "2025-12-11",
+      "title": "Crinetics Announces First Patient Dosed in Pivotal Adult Trial of Atumelnant in Congenital Adrenal Hyperplasia (CAH)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-first-patient-dosed-in-pivotal-adult-trial-of-atumelnant-in-congenital-adrenal-hyperplasia-cah/"
+    },
+    {
+      "archive_page": 3,
+      "archive_year": 2025,
+      "date": "2025-12-10",
+      "title": "Crinetics Pharmaceuticals Announces December 2025 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-december-2025-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 3,
+      "archive_year": 2025,
+      "date": "2025-12-03",
+      "title": "Crinetics Announces First Patient Dosed in Phase 1/2 Trial Evaluating CRN09682 for the Treatment of Neuroendocrine Tumors and Other Somatostatin Receptor 2-Expressing Tumors",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-first-patient-dosed-in-phase-1-2-trial-evaluating-crn09682-for-the-treatment-of-neuroendocrine-tumors-and-other-somatostatin-receptor-2-expressing-tumors/"
+    },
+    {
+      "archive_page": 3,
+      "archive_year": 2025,
+      "date": "2025-11-20",
+      "title": "Crinetics Announces First Patient Randomized in Pivotal Phase 3 CAREFNDR Trial Evaluating Paltusotine in Carcinoid Syndrome",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-first-patient-randomized-in-pivotal-phase-3-carefndr-trial-evaluating-paltusotine-in-carcinoid-syndrome/"
+    },
+    {
+      "archive_page": 3,
+      "archive_year": 2025,
+      "date": "2025-11-10",
+      "title": "Crinetics Pharmaceuticals Announces November 2025 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-november-2025-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 3,
+      "archive_year": 2025,
+      "date": "2025-11-06",
+      "title": "Crinetics Pharmaceuticals Reports Third Quarter 2025 Financial Results and Provides Business Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-third-quarter-2025-financial-results-and-provides-business-update/"
+    },
+    {
+      "archive_page": 3,
+      "archive_year": 2025,
+      "date": "2025-10-23",
+      "title": "Crinetics to Highlight Neuroendocrine Tumor Research Progress at the 2025 North American Neuroendocrine Tumor Society Annual Meeting",
+      "url": "https://crinetics.com/press-releases/crinetics-to-highlight-neuroendocrine-tumor-research-progress-at-the-2025-north-american-neuroendocrine-tumor-society-annual-meeting/"
+    },
+    {
+      "archive_page": 4,
+      "archive_year": 2025,
+      "date": "2025-10-10",
+      "title": "Crinetics Pharmaceuticals Announces October 2025 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-october-2025-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 4,
+      "archive_year": 2025,
+      "date": "2025-10-06",
+      "title": "Crinetics Pharmaceuticals to Report Third Quarter 2025 Financial Results on November 6, 2025",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-report-third-quarter-2025-financial-results-on-november-6-2025/"
+    },
+    {
+      "archive_page": 4,
+      "archive_year": 2025,
+      "date": "2025-09-25",
+      "title": "Crinetics Announces FDA Approval of PALSONIFY\u2122 (paltusotine) for the Treatment of Acromegaly in Adults",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-fda-approval-of-palsonify-paltusotine-for-the-treatment-of-acromegaly-in-adults/"
+    },
+    {
+      "archive_page": 4,
+      "archive_year": 2025,
+      "date": "2025-09-10",
+      "title": "Crinetics Pharmaceuticals Announces September 2025 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-september-2025-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 4,
+      "archive_year": 2025,
+      "date": "2025-08-21",
+      "title": "Crinetics Receives FDA Orphan Drug Designation for Atumelnant in the Treatment of Congenital Adrenal Hyperplasia (CAH)",
+      "url": "https://crinetics.com/press-releases/crinetics-receives-fda-orphan-drug-designation-for-atumelnant-in-the-treatment-of-congenital-adrenal-hyperplasia-cah/"
+    },
+    {
+      "archive_page": 4,
+      "archive_year": 2025,
+      "date": "2025-08-11",
+      "title": "Crinetics Pharmaceuticals Announces August 2025 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-august-2025-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 4,
+      "archive_year": 2025,
+      "date": "2025-08-07",
+      "title": "Crinetics Pharmaceuticals Reports Second Quarter 2025 Financial Results and Provides Business Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-second-quarter-2025-financial-results-and-provides-business-update/"
+    },
+    {
+      "archive_page": 4,
+      "archive_year": 2025,
+      "date": "2025-07-13",
+      "title": "Crinetics to Present New Long-Term Data Demonstrating Durable Control of Once-Daily, Oral PALSONIFY\u2122 (Paltusotine) in Acromegaly at ENDO 2025",
+      "url": "https://crinetics.com/press-releases/crinetics-to-present-new-long-term-data-demonstrating-durable-control-of-once-daily-oral-palsonify-paltusotine-in-acromegaly-at-endo-2025/"
+    },
+    {
+      "archive_page": 4,
+      "archive_year": 2025,
+      "date": "2025-07-11",
+      "title": "Crinetics Pharmaceuticals to Report Second Quarter 2025 Financial Results on August 7, 2025",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-report-second-quarter-2025-financial-results-on-august-7-2025/"
+    },
+    {
+      "archive_page": 4,
+      "archive_year": 2025,
+      "date": "2025-07-10",
+      "title": "Crinetics Pharmaceuticals Announces July 2025 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-july-2025-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 5,
+      "archive_year": 2025,
+      "date": "2025-06-30",
+      "title": "Crinetics to Showcase the Next Generation of Endocrinology Innovation at ENDO 2025 with Eight Presentations From its Deep Pipeline",
+      "url": "https://crinetics.com/press-releases/crinetics-to-showcase-the-next-generation-of-endocrinology-innovation-at-endo-2025-with-eight-presentations-from-its-deep-pipeline/"
+    },
+    {
+      "archive_page": 5,
+      "archive_year": 2025,
+      "date": "2025-06-16",
+      "title": "Crinetics Pharmaceuticals to Host R&D Day on June 26, 2025",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-host-rd-day-on-june-26-2025/"
+    },
+    {
+      "archive_page": 5,
+      "archive_year": 2025,
+      "date": "2025-06-10",
+      "title": "Crinetics Pharmaceuticals Announces June 2025 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-june-2025-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 5,
+      "archive_year": 2025,
+      "date": "2025-05-23",
+      "title": "Crinetics Pharmaceuticals to Participate in the Jefferies Global Healthcare Conference 2025",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-the-jefferies-global-healthcare-conference-2025-2/"
+    },
+    {
+      "archive_page": 5,
+      "archive_year": 2025,
+      "date": "2025-05-15",
+      "title": "Crinetics to Present New Research on Paltusotine, Atumelnant and Unmet Needs in Acromegaly Treatment at the American Association of Clinical Endocrinology Annual Meeting 2025",
+      "url": "https://crinetics.com/press-releases/crinetics-to-present-new-research-on-paltusotine-atumelnant-and-unmet-needs-in-acromegaly-treatment-at-the-american-association-of-clinical-endocrinology-annual-meeting-2025/"
+    },
+    {
+      "archive_page": 5,
+      "archive_year": 2025,
+      "date": "2025-05-12",
+      "title": "Crinetics Pharmaceuticals Announces May 2025 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-may-2025-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 5,
+      "archive_year": 2025,
+      "date": "2025-05-08",
+      "title": "Crinetics Pharmaceuticals Reports First Quarter 2025 Financial Results and Provides Business Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-first-quarter-2025-financial-results-and-provides-business-update/"
+    },
+    {
+      "archive_page": 5,
+      "archive_year": 2025,
+      "date": "2025-04-10",
+      "title": "Crinetics Pharmaceuticals Announces April 2025 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-april-2025-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 5,
+      "archive_year": 2025,
+      "date": "2025-03-27",
+      "title": "Crinetics Pharmaceuticals Announces European Medicines Agency (EMA) Validation of Marketing Authorization Application (MAA) and Orphan Drug Designation (ODD) for Paltusotine in Acromegaly",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-european-medicines-agency-ema-validation-of-marketing-authorization-application-maa-and-orphan-drug-designation-odd-for-paltusotine-in-acromegaly/"
+    },
+    {
+      "archive_page": 5,
+      "archive_year": 2025,
+      "date": "2025-03-10",
+      "title": "Crinetics Pharmaceuticals Announces March 2025 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-march-2025-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 6,
+      "archive_year": 2025,
+      "date": "2025-02-27",
+      "title": "Crinetics Pharmaceuticals Reports Fourth Quarter and Full Year 2024 Financial Results and Provides Business Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-fourth-quarter-and-full-year-2024-financial-results-and-provides-business-update/"
+    },
+    {
+      "archive_page": 6,
+      "archive_year": 2025,
+      "date": "2025-02-24",
+      "title": "Crinetics Pharmaceuticals Appoints Tobin Schilke as Chief Financial Officer",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-appoints-tobin-schilke-as-chief-financial-officer/"
+    },
+    {
+      "archive_page": 6,
+      "archive_year": 2025,
+      "date": "2025-02-20",
+      "title": "Crinetics Pharmaceuticals to Participate in Two Upcoming March Investor Conferences",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-two-upcoming-march-investor-conferences/"
+    },
+    {
+      "archive_page": 6,
+      "archive_year": 2025,
+      "date": "2025-02-10",
+      "title": "Crinetics Announces February 2025 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-february-2025-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 6,
+      "archive_year": 2025,
+      "date": "2025-01-10",
+      "title": "Crinetics Announces January 2025 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-january-2025-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 6,
+      "archive_year": 2025,
+      "date": "2025-01-10",
+      "title": "Crinetics Announces Positive Topline Results From Phase 2 Trial of Atumelnant in Congenital Adrenal Hyperplasia (CAH)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-positive-topline-results-from-phase-2-trial-of-atumelnant-in-congenital-adrenal-hyperplasia-cah/"
+    },
+    {
+      "archive_page": 6,
+      "archive_year": 2025,
+      "date": "2025-01-06",
+      "title": "Crinetics Pharmaceuticals to Participate in the 43rd Annual J.P. Morgan Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-the-43rd-annual-j-p-morgan-healthcare-conference/"
+    },
+    {
+      "archive_page": 6,
+      "archive_year": 2024,
+      "date": "2024-12-16",
+      "title": "Crinetics Pharmaceuticals Appoints Isabel Kalofonos as Chief Commercial Officer",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-appoints-isabel-kalofonos-as-chief-commercial-officer/"
+    },
+    {
+      "archive_page": 6,
+      "archive_year": 2024,
+      "date": "2024-12-10",
+      "title": "Crinetics Announces December 2024 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-december-2024-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 6,
+      "archive_year": 2024,
+      "date": "2024-12-09",
+      "title": "Crinetics Announces FDA Acceptance of New Drug Application for Paltusotine for Adult Patients with Acromegaly",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-fda-acceptance-of-new-drug-application-for-paltusotine-for-adult-patients-with-acromegaly/"
+    },
+    {
+      "archive_page": 7,
+      "archive_year": 2024,
+      "date": "2024-11-15",
+      "title": "Crinetics Pharmaceuticals to Participate in Three Upcoming December Investor Conferences",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-three-upcoming-december-investor-conferences/"
+    },
+    {
+      "archive_page": 7,
+      "archive_year": 2024,
+      "date": "2024-11-12",
+      "title": "Crinetics Pharmaceuticals to Showcase Pipeline Advancements with Neuroendocrine Tumor Candidates at The North American Neuroendocrine Tumor Society (NANETS) Annual Meeting",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-showcase-pipeline-advancements-with-neuroendocrine-tumor-candidates-at-the-north-american-neuroendocrine-tumor-society-nanets-annual-meeting/"
+    },
+    {
+      "archive_page": 7,
+      "archive_year": 2024,
+      "date": "2024-11-12",
+      "title": "Crinetics Pharmaceuticals Reports Third Quarter 2024 Financial Results and Provides Business Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-third-quarter-2024-financial-results-and-provides-business-update/"
+    },
+    {
+      "archive_page": 7,
+      "archive_year": 2024,
+      "date": "2024-11-11",
+      "title": "Crinetics Announces November 2024 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-november-2024-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 7,
+      "archive_year": 2024,
+      "date": "2024-10-10",
+      "title": "Crinetics Announces October 2024 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-october-2024-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 7,
+      "archive_year": 2024,
+      "date": "2024-10-08",
+      "title": "Crinetics Pharmaceuticals Announces Pricing of Upsized Public Offering of Common Stock",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-pricing-of-upsized-public-offering-of-common-stock/"
+    },
+    {
+      "archive_page": 7,
+      "archive_year": 2024,
+      "date": "2024-10-08",
+      "title": "Crinetics Pharmaceuticals Announces Proposed Public Offering of Common Stock",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-proposed-public-offering-of-common-stock-3/"
+    },
+    {
+      "archive_page": 7,
+      "archive_year": 2024,
+      "date": "2024-09-26",
+      "title": "Crinetics Submits New Drug Application for Paltusotine for the Treatment of Acromegaly",
+      "url": "https://crinetics.com/press-releases/crinetics-submits-new-drug-application-for-paltusotine-for-the-treatment-of-acromegaly/"
+    },
+    {
+      "archive_page": 7,
+      "archive_year": 2024,
+      "date": "2024-09-10",
+      "title": "Crinetics Announces September 2024 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-september-2024-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 7,
+      "archive_year": 2024,
+      "date": "2024-08-29",
+      "title": "Crinetics Pharmaceuticals to Participate in Two Upcoming Investor Conferences",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-two-upcoming-investor-conferences/"
+    },
+    {
+      "archive_page": 8,
+      "archive_year": 2024,
+      "date": "2024-08-12",
+      "title": "Crinetics Announces August 2024 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/https-crinetics-com-crinetics-announces-august-2024-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 8,
+      "archive_year": 2024,
+      "date": "2024-08-08",
+      "title": "Crinetics Pharmaceuticals Reports Second Quarter 2024 Financial Results and Provides Business Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-second-quarter-2024-financial-results-and-provides-business-update/"
+    },
+    {
+      "archive_page": 8,
+      "archive_year": 2024,
+      "date": "2024-08-08",
+      "title": "Crinetics Launches ACRO/TRUTH Educational Initiative to Raise Awareness of Acromegaly Treatment Challenges",
+      "url": "https://crinetics.com/press-releases/crinetics-launches-acro-truth-educational-initiative-to-raise-awareness-of-acromegaly-treatment-challenges/"
+    },
+    {
+      "archive_page": 8,
+      "archive_year": 2024,
+      "date": "2024-07-10",
+      "title": "Crinetics Announces July 2024 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-july-2024-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 8,
+      "archive_year": 2024,
+      "date": "2024-06-18",
+      "title": "EY Announces Scott Struthers, Ph.D., CEO and Founder of Crinetics Pharmaceuticals, as an Entrepreneur Of The Year\u00ae 2024 Pacific Southwest Award Winner",
+      "url": "https://crinetics.com/press-releases/ey-announces-scott-struthers-ph-d-ceo-and-founder-of-crinetics-pharmaceuticals-as-an-entrepreneur-of-the-year-2024-pacific-southwest-award-winner/"
+    },
+    {
+      "archive_page": 8,
+      "archive_year": 2024,
+      "date": "2024-06-10",
+      "title": "Crinetics Announces June 2024 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-june-2024-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 8,
+      "archive_year": 2024,
+      "date": "2024-06-03",
+      "title": "Crinetics Announces Positive Initial Findings at ENDO 2024 for Atumelnant in Two Ongoing, Open-Label Studies for the Treatment of Congenital Adrenal Hyperplasia (CAH) and ACTH-Dependent Cushing\u2019s Syndrome (ADCS)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-positive-initial-findings-at-endo-2024-for-atumelnant-in-two-ongoing-open-label-studies-for-the-treatment-of-congenital-adrenal-hyperplasia-cah-and-acth-dependent-cushing/"
+    },
+    {
+      "archive_page": 8,
+      "archive_year": 2024,
+      "date": "2024-06-03",
+      "title": "Crinetics Presents New Data at ENDO 2024 that Increases that Increases Body of Evidence Positioning Once-Daily, Oral Paltusotine as Potential First-Choice Treatment Option for Acromegaly",
+      "url": "https://crinetics.com/press-releases/crinetics-presents-new-data-at-endo-2024-that-increases-that-increases-body-of-evidence-positioning-once-daily-oral-paltusotine-as-potential-first-choice-treatment-option-for-acromegaly/"
+    },
+    {
+      "archive_page": 8,
+      "archive_year": 2024,
+      "date": "2024-05-30",
+      "title": "Crinetics Pharmaceuticals Appoints Robert M. Cuddihy, M.D., as Senior Vice President of Medical Affairs",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-appoints-robert-m-cuddihy-m-d-as-senior-vice-president-of-medical-affairs/"
+    },
+    {
+      "archive_page": 8,
+      "archive_year": 2024,
+      "date": "2024-05-22",
+      "title": "Crinetics Pharmaceuticals Announces Early Release of ENDO 2024 Late-Breaking Abstracts",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-early-release-of-endo-2024-late-breaking-abstracts/"
+    },
+    {
+      "archive_page": 9,
+      "archive_year": 2024,
+      "date": "2024-05-10",
+      "title": "Crinetics Announces May 2024 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-may-2024-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 9,
+      "archive_year": 2024,
+      "date": "2024-05-09",
+      "title": "Crinetics Pharmaceuticals Reports First Quarter 2024 Financial Results and Provides Business Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-first-quarter-2024-financial-results-and-provides-business-update/"
+    },
+    {
+      "archive_page": 9,
+      "archive_year": 2024,
+      "date": "2024-05-08",
+      "title": "Crinetics Pharmaceuticals to Present Advancements from Atumelnant (CRN04894) and Paltusotine Development Programs at ENDO 2024",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-present-advancements-from-atumelnant-crn04894-and-paltusotine-development-programs-at-endo-2024/"
+    },
+    {
+      "archive_page": 9,
+      "archive_year": 2024,
+      "date": "2024-04-11",
+      "title": "Crinetics Announces April 2024 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-april-2024-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 9,
+      "archive_year": 2024,
+      "date": "2024-03-19",
+      "title": "Crinetics\u2019 Once-Daily Oral Paltusotine Achieved the Primary and All Secondary Endpoints in the Phase 3 PATHFNDR-2 Study in Acromegaly Patients",
+      "url": "https://crinetics.com/press-releases/crinetics-once-daily-oral-paltusotine-achieved-the-primary-and-all-secondary-endpoints-in-the-phase-3-pathfndr-2-study-in-acromegaly-patients/"
+    },
+    {
+      "archive_page": 9,
+      "archive_year": 2024,
+      "date": "2024-03-12",
+      "title": "Crinetics Announces Topline Results from Phase 2 Trial of Paltusotine for the Treatment of Carcinoid Syndrome",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-topline-results-from-phase-2-trial-of-paltusotine-for-the-treatment-of-carcinoid-syndrome/"
+    },
+    {
+      "archive_page": 9,
+      "archive_year": 2024,
+      "date": "2024-03-11",
+      "title": "Crinetics Announces March 2024 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-march-2024-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 9,
+      "archive_year": 2024,
+      "date": "2024-02-28",
+      "title": "Crinetics Pharmaceuticals Reports Fourth Quarter and Full Year 2023 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-fourth-quarter-and-full-year-2023-financial-results-and-provides-corporate-update/"
+    },
+    {
+      "archive_page": 9,
+      "archive_year": 2024,
+      "date": "2024-02-28",
+      "title": "Crinetics Pharmaceuticals Announces Oversubscribed $350 Million Private Placement",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-oversubscribed-350-million-private-placement/"
+    },
+    {
+      "archive_page": 9,
+      "archive_year": 2024,
+      "date": "2024-02-12",
+      "title": "Crinetics Announces February 2024 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-february-2024-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 10,
+      "archive_year": 2024,
+      "date": "2024-01-10",
+      "title": "Crinetics Announces January 2024 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-january-2024-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 10,
+      "archive_year": 2024,
+      "date": "2024-01-03",
+      "title": "Crinetics Pharmaceuticals to Participate in the 42nd Annual J.P. Morgan Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-the-42nd-annual-j-p-morgan-healthcare-conference/"
+    },
+    {
+      "archive_page": 10,
+      "archive_year": 2023,
+      "date": "2023-12-18",
+      "title": "Crinetics Announces Positive Initial Findings from Ongoing Open-Label Phase 2 Study of Paltusotine for the Treatment of Carcinoid Syndrome",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-positive-initial-findings-from-ongoing-open-label-phase-2-study-of-paltusotine-for-the-treatment-of-carcinoid-syndrome/"
+    },
+    {
+      "archive_page": 10,
+      "archive_year": 2023,
+      "date": "2023-12-11",
+      "title": "Crinetics Announces December 2023 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-december-2023-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 10,
+      "archive_year": 2023,
+      "date": "2023-11-21",
+      "title": "Crinetics Pharmaceuticals to Participate in Upcoming Investor Conferences",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-upcoming-investor-conferences/"
+    },
+    {
+      "archive_page": 10,
+      "archive_year": 2023,
+      "date": "2023-11-10",
+      "title": "Crinetics Announces November 2023 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-november-2023-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 10,
+      "archive_year": 2023,
+      "date": "2023-11-07",
+      "title": "Crinetics Pharmaceuticals Reports Third Quarter 2023 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-third-quarter-2023-financial-results-and-provides-corporate-update/"
+    },
+    {
+      "archive_page": 10,
+      "archive_year": 2023,
+      "date": "2023-10-10",
+      "title": "Crinetics Announces October 2023 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-october-2023-inducement-grants/"
+    },
+    {
+      "archive_page": 10,
+      "archive_year": 2023,
+      "date": "2023-09-20",
+      "title": "Crinetics Pharmaceuticals to Participate in the Cantor Global Healthcare Conference 2023",
+      "url": "https://crinetics.com/press-releases/crinetics-to-participate-in-the-2023-cantor-global-healthcare-conference/"
+    },
+    {
+      "archive_page": 10,
+      "archive_year": 2023,
+      "date": "2023-09-12",
+      "title": "Crinetics Pharmaceuticals Announces Pricing of Upsized Public Offering of Common Stock",
+      "url": "https://crinetics.com/press-releases/crinetics-pricing-of-upsized-public-offering-of-common-stock/"
+    },
+    {
+      "archive_page": 11,
+      "archive_year": 2023,
+      "date": "2023-09-11",
+      "title": "Crinetics Pharmaceuticals Announces Proposed Public Offering of Common Stock",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-proposed-public-stock-offering-sep-2023/"
+    },
+    {
+      "archive_page": 11,
+      "archive_year": 2023,
+      "date": "2023-09-10",
+      "title": "Crinetics\u2019 Once-Daily Oral Paltusotine Achieved the Primary and All Secondary Endpoints in the Phase 3 PATHFNDR-1 Study Evaluating Treatment of Patients with Acromegaly",
+      "url": "https://crinetics.com/press-releases/crinetics-paltusotine-achieved-primary-and-secondary-endpoints-in-phase-3-pathfndr-1-acromegaly-study/"
+    },
+    {
+      "archive_page": 11,
+      "archive_year": 2023,
+      "date": "2023-09-09",
+      "title": "Crinetics Announces September 2023 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-september-2023-inducement-grants/"
+    },
+    {
+      "archive_page": 11,
+      "archive_year": 2023,
+      "date": "2023-08-10",
+      "title": "Crinetics Announces August 2023 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-august-2023-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 11,
+      "archive_year": 2023,
+      "date": "2023-08-08",
+      "title": "Crinetics Pharmaceuticals Reports Second Quarter 2023 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-reports-second-quarter-2023-financial-results-and-provides-corporate-update/"
+    },
+    {
+      "archive_page": 11,
+      "archive_year": 2023,
+      "date": "2023-07-31",
+      "title": "Crinetics Hosting Key Opinion Leader Webinar to Discuss the Current Treatment Landscape and Unmet Need in Acromegaly",
+      "url": "https://crinetics.com/press-releases/crinetics-hosting-kol-webinar-on-acromegaly-treatment-landscape-and-unmet-need/"
+    },
+    {
+      "archive_page": 11,
+      "archive_year": 2023,
+      "date": "2023-07-10",
+      "title": "Crinetics Announces July 2023 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-july-2023-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 11,
+      "archive_year": 2023,
+      "date": "2023-06-21",
+      "title": "New Data Demonstrating Stable Biochemical and Symptom Levels with Two-Years of Oral Paltusotine Administration Presented at ENDO 2023",
+      "url": "https://crinetics.com/press-releases/data-demonstrating-stable-biochemical-and-symptom-levels-with-two-years-of-oral-paltusotine-presented-at-endo-2023/"
+    },
+    {
+      "archive_page": 11,
+      "archive_year": 2023,
+      "date": "2023-06-12",
+      "title": "Crinetics Announces June 2023 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-june-2023-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 11,
+      "archive_year": 2023,
+      "date": "2023-06-09",
+      "title": "Crinetics to Highlight Broad Pipeline at ENDO 2023",
+      "url": "https://crinetics.com/press-releases/crinetics-to-highlight-broad-pipeline-at-endo-2023/"
+    },
+    {
+      "archive_page": 12,
+      "archive_year": 2023,
+      "date": "2023-05-10",
+      "title": "Crinetics Announces May 2023 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-may-2023-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 12,
+      "archive_year": 2023,
+      "date": "2023-05-04",
+      "title": "Crinetics Pharmaceuticals Reports First Quarter 2023 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-reports-first-quarter-2023-financial-results-and-provides-corporate-update/"
+    },
+    {
+      "archive_page": 12,
+      "archive_year": 2023,
+      "date": "2023-04-09",
+      "title": "Crinetics Announces April 2023 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-april-2023-inducement-grants-under-nasdaq-listing-rule-5635c4-2/"
+    },
+    {
+      "archive_page": 12,
+      "archive_year": 2023,
+      "date": "2023-03-10",
+      "title": "Crinetics Announces March 2023 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-march-2023-inducement-grants-under-nasdaq-listing-rule-5635c4-2/"
+    },
+    {
+      "archive_page": 12,
+      "archive_year": 2023,
+      "date": "2023-02-28",
+      "title": "Crinetics Reports Fourth Quarter and Full Year 2022 Financial Results",
+      "url": "https://crinetics.com/press-releases/crinetics-reports-fourth-quarter-and-full-year-2022-financial-results/"
+    },
+    {
+      "archive_page": 12,
+      "archive_year": 2023,
+      "date": "2023-02-10",
+      "title": "Crinetics Announces February 2023 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-february-2023-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 12,
+      "archive_year": 2023,
+      "date": "2023-02-10",
+      "title": "Crinetics Pharmaceuticals to Participate in the SVB Securities Global Biopharma Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-to-participate-in-svb-global-biopharma-conference-2023/"
+    },
+    {
+      "archive_page": 12,
+      "archive_year": 2023,
+      "date": "2023-01-10",
+      "title": "Crinetics Announces January 2023 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-january-2023-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 12,
+      "archive_year": 2023,
+      "date": "2023-01-09",
+      "title": "Crinetics Pharmaceuticals to Present Corporate and Clinical Update at 41st Annual J.P. Morgan Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-present-corporate-and-clinical-update-at-41st-annual-j-p-morgan-healthcare-conference/"
+    },
+    {
+      "archive_page": 12,
+      "archive_year": 2022,
+      "date": "2022-12-12",
+      "title": "Crinetics Announces December 2022 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-december-2022-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 13,
+      "archive_year": 2022,
+      "date": "2022-11-28",
+      "title": "Crinetics Pharmaceuticals Provides Update on CRN04777 Program",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-provides-update-on-crn04777-program/"
+    },
+    {
+      "archive_page": 13,
+      "archive_year": 2022,
+      "date": "2022-11-22",
+      "title": "Crinetics Pharmaceuticals to Participate in the 5th Annual Evercore ISI HealthCONx Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-the-5th-annual-evercore-isi-healthconx-conference/"
+    },
+    {
+      "archive_page": 13,
+      "archive_year": 2022,
+      "date": "2022-11-14",
+      "title": "Crinetics Pharmaceuticals Reports Third Quarter 2022 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-third-quarter-2022-financial-results-and-provides-corporate-update/"
+    },
+    {
+      "archive_page": 13,
+      "archive_year": 2022,
+      "date": "2022-11-10",
+      "title": "Crinetics Announces November 2022 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-november-2022-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 13,
+      "archive_year": 2022,
+      "date": "2022-10-13",
+      "title": "Enrollment Completed in Phase 3 PATHFNDR-1 Study Evaluating Oral Paltusotine for the Treatment of Acromegaly",
+      "url": "https://crinetics.com/press-releases/pathfndr1-enrollment-complete-paltusotine-acromegaly/"
+    },
+    {
+      "archive_page": 13,
+      "archive_year": 2022,
+      "date": "2022-10-10",
+      "title": "Crinetics Announces October 2022 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-october-2022-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 13,
+      "archive_year": 2022,
+      "date": "2022-10-06",
+      "title": "Innovation Passport Granted for CRN04777 for the Treatment of Congenital Hyperinsulinism",
+      "url": "https://crinetics.com/press-releases/innovation-passport-congenital-hyperinsulinism/"
+    },
+    {
+      "archive_page": 13,
+      "archive_year": 2022,
+      "date": "2022-10-03",
+      "title": "Crinetics Pharmaceuticals Appoints Dana Pizzuti, M.D. as Chief Development Officer",
+      "url": "https://crinetics.com/press-releases/crinetics-appoints-dana-pizzuti-chief-development-officer/"
+    },
+    {
+      "archive_page": 13,
+      "archive_year": 2022,
+      "date": "2022-09-12",
+      "title": "Crinetics Announces September 2022 Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-092022-inducement-grants-nasdaq-5635c4/"
+    },
+    {
+      "archive_page": 13,
+      "archive_year": 2022,
+      "date": "2022-09-08",
+      "title": "Crinetics Pharmaceuticals to Participate in the H.C. Wainwright 24th Annual Global Investment Conference",
+      "url": "https://crinetics.com/press-releases/hc-wainwright-24th-annual-investment-conference/"
+    },
+    {
+      "archive_page": 14,
+      "archive_year": 2022,
+      "date": "2022-09-06",
+      "title": "New Long-Term Safety and Efficacy Data Presented with Paltusotine in Participants Living with Acromegaly",
+      "url": "https://crinetics.com/press-releases/two-year-data-from-advance-ole-study-presented-at-cbem/"
+    },
+    {
+      "archive_page": 14,
+      "archive_year": 2022,
+      "date": "2022-09-02",
+      "title": "New Long-Term Safety and Efficacy Data for Paltusotine to be Presented at CBEM",
+      "url": "https://crinetics.com/press-releases/long-term-safety-efficacy-data-paltusotine-cbem/"
+    },
+    {
+      "archive_page": 14,
+      "archive_year": 2022,
+      "date": "2022-08-12",
+      "title": "Crinetics Pharmaceuticals Reports Second Quarter 2022 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-reports-second-quarter-2022-financial-results-and-provides-corporate-update/"
+    },
+    {
+      "archive_page": 14,
+      "archive_year": 2022,
+      "date": "2022-08-10",
+      "title": "Crinetics Pharmaceuticals Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-august-2022-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 14,
+      "archive_year": 2022,
+      "date": "2022-07-12",
+      "title": "Crinetics Pharmaceuticals Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/july-2022-inducement-grants/"
+    },
+    {
+      "archive_page": 14,
+      "archive_year": 2022,
+      "date": "2022-07-12",
+      "title": "Additional Analyses of CRN04894 Preclinical and Phase 1 Results to be Presented at the 10th International Congress of Neuroendocrinology",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-presenting-crn04894-preclinical-and-phase-1-at-icn2022/"
+    },
+    {
+      "archive_page": 14,
+      "archive_year": 2022,
+      "date": "2022-06-10",
+      "title": "Crinetics Pharmaceuticals Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/june-2022-inducement-grants/"
+    },
+    {
+      "archive_page": 14,
+      "archive_year": 2022,
+      "date": "2022-06-08",
+      "title": "Crinetics Presents Clinical and Research Results at ENDO 2022",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-endo2022/"
+    },
+    {
+      "archive_page": 14,
+      "archive_year": 2022,
+      "date": "2022-06-07",
+      "title": "Crinetics Pharmaceuticals to Participate in the JMP Securities Life Sciences Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-to-present-at-jmp-live-sciences-2022/"
+    },
+    {
+      "archive_page": 14,
+      "archive_year": 2022,
+      "date": "2022-05-25",
+      "title": "Crinetics Reports Top-line CRN04894 MAD Results from Phase 1 Study",
+      "url": "https://crinetics.com/press-releases/crinetics-reports-topline-crn04894-phase-1-mad-results/"
+    },
+    {
+      "archive_page": 15,
+      "archive_year": 2022,
+      "date": "2022-05-12",
+      "title": "Crinetics Pharmaceuticals Reports First Quarter 2022 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-first-quarter-2022-financial-results-and-provides-corporate-update/"
+    },
+    {
+      "archive_page": 15,
+      "archive_year": 2022,
+      "date": "2022-05-10",
+      "title": "Crinetics Pharmaceuticals Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-inducement-grants-under-nasdaq-listing-rule-5635c4/"
+    },
+    {
+      "archive_page": 15,
+      "archive_year": 2022,
+      "date": "2022-04-18",
+      "title": "Crinetics Pharmaceuticals Announces Closing of Underwritten Common Stock Offering",
+      "url": "https://crinetics.com/press-releases/crinetics-closes-underwritten-public-offering-04182022/"
+    },
+    {
+      "archive_page": 15,
+      "archive_year": 2022,
+      "date": "2022-04-13",
+      "title": "Crinetics Pharmaceuticals Announces Pricing of Underwritten Common Stock Offering",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-pricing-of-underwritten-common-stock-offering-april-2022/"
+    },
+    {
+      "archive_page": 15,
+      "archive_year": 2022,
+      "date": "2022-04-11",
+      "title": "Crinetics Pharmaceuticals Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/april-2022-inducement-grants/"
+    },
+    {
+      "archive_page": 15,
+      "archive_year": 2022,
+      "date": "2022-03-30",
+      "title": "Crinetics Reports Positive Top-Line Results from CRN04777 Phase 1 MAD Cohorts",
+      "url": "https://crinetics.com/press-releases/crinetics-positive-topline-crn04777-phase-1-mad-study/"
+    },
+    {
+      "archive_page": 15,
+      "archive_year": 2022,
+      "date": "2022-03-30",
+      "title": "Crinetics Pharmaceuticals Reports Fourth Quarter and Full Year 2021 Financial Results",
+      "url": "https://crinetics.com/press-releases/crinetics-reports-fourth-quarter-year-end-2021-financial-results/"
+    },
+    {
+      "archive_page": 15,
+      "archive_year": 2022,
+      "date": "2022-03-21",
+      "title": "Crinetics Pharmaceuticals Appoints Chris Robillard as Chief Business Officer",
+      "url": "https://crinetics.com/press-releases/crinetics-chief-business-officer-chris-robillard/"
+    },
+    {
+      "archive_page": 15,
+      "archive_year": 2022,
+      "date": "2022-03-14",
+      "title": "Crinetics Pharmaceuticals Appoints Caren Deardorf to Board of Directors",
+      "url": "https://crinetics.com/press-releases/crinetics-appoints-caren-deardorf-boardofdirectors/"
+    },
+    {
+      "archive_page": 15,
+      "archive_year": 2022,
+      "date": "2022-03-10",
+      "title": "Crinetics Pharmaceuticals Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-inducement-grants-2022-0310/"
+    },
+    {
+      "archive_page": 16,
+      "archive_year": 2022,
+      "date": "2022-03-01",
+      "title": "Crinetics Pharmaceuticals Expands Executive Team with Appointment of James Hassard as Chief Commercial Officer",
+      "url": "https://crinetics.com/press-releases/crinetics-appoints-james-hassard-chief-commercial-officer/"
+    },
+    {
+      "archive_page": 16,
+      "archive_year": 2022,
+      "date": "2022-02-28",
+      "title": "Crinetics Pharmaceuticals and Sanwa Kagaku Kenkyusho Enter into Exclusive Licensing Agreement for the Development and Commercialization of Paltusotine in Japan",
+      "url": "https://crinetics.com/press-releases/crinetics-skk-partner-paltusotine-deveopment-japan/"
+    },
+    {
+      "archive_page": 16,
+      "archive_year": 2022,
+      "date": "2022-02-09",
+      "title": "Crinetics Pharmaceuticals to Participate in SVB Leerink Global Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-present-at-svb-leerink-healthcare-conference/"
+    },
+    {
+      "archive_page": 16,
+      "archive_year": 2022,
+      "date": "2022-02-01",
+      "title": "Crinetics Pharmaceuticals Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://crinetics.com/press-releases/crinetics-inducement-grants-020122/"
+    },
+    {
+      "archive_page": 16,
+      "archive_year": 2022,
+      "date": "2022-01-12",
+      "title": "Crinetics Pharmaceuticals to Present Corporate and Clinical Update at 40th Annual J.P. Morgan Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/presents-at-annual-jpmorgan-healthcare-conference-2022/"
+    },
+    {
+      "archive_page": 16,
+      "archive_year": 2022,
+      "date": "2022-01-05",
+      "title": "Crinetics Pharmaceuticals Adds Board Member with Global Rare Disease Expertise with Appointment of Rog\u00e9rio Vivaldi Coelho, M.D., M.B.A.",
+      "url": "https://crinetics.com/press-releases/rare-disease-expert-vivaldi-joins-crinetics-board/"
+    },
+    {
+      "archive_page": 16,
+      "archive_year": 2021,
+      "date": "2021-11-18",
+      "title": "Crinetics Pharmaceuticals to Present at the 4th Annual Evercore ISI HealthCONx Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-presents-at-evercore-isi-healthconx-111821/"
+    },
+    {
+      "archive_page": 16,
+      "archive_year": 2021,
+      "date": "2021-11-08",
+      "title": "Crinetics Pharmaceuticals Presenting New Data from Open Label Extension Trial of Paltusotine in Acromegaly at the Society for Endocrinology BES Congress",
+      "url": "https://crinetics.com/press-releases/crinetics-presents-acromegal-ole-results-110821/"
+    },
+    {
+      "archive_page": 16,
+      "archive_year": 2021,
+      "date": "2021-11-05",
+      "title": "Crinetics Pharmaceuticals Reports Third Quarter 2021 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-crnx-q3-2021-financial-update/"
+    },
+    {
+      "archive_page": 16,
+      "archive_year": 2021,
+      "date": "2021-10-25",
+      "title": "Crinetics Pharmaceuticals Announces Closing of Public Offering of Common Stock",
+      "url": "https://crinetics.com/press-releases/crinetics-closes-common-stock-public-offering-102521/"
+    },
+    {
+      "archive_page": 17,
+      "archive_year": 2021,
+      "date": "2021-10-21",
+      "title": "Crinetics Pharmaceuticals Announces Pricing of Public Offering of Common Stock",
+      "url": "https://crinetics.com/press-releases/crinetics-prices-public-offering-102121/"
+    },
+    {
+      "archive_page": 17,
+      "archive_year": 2021,
+      "date": "2021-10-20",
+      "title": "Crinetics Pharmaceuticals Announces Proposed Public Offering of Common Stock",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-proposed-public-offering-102021/"
+    },
+    {
+      "archive_page": 17,
+      "archive_year": 2021,
+      "date": "2021-10-18",
+      "title": "Radionetics Oncology Emerges from Crinetics Pharmaceuticals with a Platform and Deep Pipeline of Nonpeptide Targeted Radiopharmaceutical Drug Candidates for Precision Oncology",
+      "url": "https://crinetics.com/press-releases/radionetics-radiopharmaceuticals-crnx-pipeline/"
+    },
+    {
+      "archive_page": 17,
+      "archive_year": 2021,
+      "date": "2021-09-27",
+      "title": "Crinetics Pharmaceuticals Unveils Parathyroid Hormone Receptor Antagonist Program at ASBMR",
+      "url": "https://crinetics.com/press-releases/crinetics-unveils-parathyroid-hormone-receptor-antagonist-program-at-asbmr/"
+    },
+    {
+      "archive_page": 17,
+      "archive_year": 2021,
+      "date": "2021-09-15",
+      "title": "CRN04777 Demonstrates Pharmacologic Proof-of-Concept with Strong Dose-dependent Suppression of Insulin Secretion in Phase 1 Single Ascending Dose Study",
+      "url": "https://crinetics.com/press-releases/crn04777-demonstrates-dose-dependent-supression-of-insulin-secretion-phase1-sad-study/"
+    },
+    {
+      "archive_page": 17,
+      "archive_year": 2021,
+      "date": "2021-09-07",
+      "title": "Crinetics Pharmaceuticals to Participate in September Investor Conferences",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-september-investor-conferences/"
+    },
+    {
+      "archive_page": 17,
+      "archive_year": 2021,
+      "date": "2021-09-02",
+      "title": "Crinetics Appoints Jeff Knight as Chief Operating Officer",
+      "url": "https://crinetics.com/press-releases/crinetics-appoints-jeff-knight-as-chief-operating-officer/"
+    },
+    {
+      "archive_page": 17,
+      "archive_year": 2021,
+      "date": "2021-08-10",
+      "title": "Crinetics' Second Quarter 2021 Financial Results and Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-second-quarter-2021-financial-results-corporate-update/"
+    },
+    {
+      "archive_page": 17,
+      "archive_year": 2021,
+      "date": "2021-08-10",
+      "title": "CRN04894, Demonstrates Pharmacologic Proof-of-Concept with Strong Dose-Dependent Cortisol Suppression in Phase 1 Single Ascending Dose Study",
+      "url": "https://crinetics.com/press-releases/crn04894-demonstrates-pharmacologic-proof-of-concept/"
+    },
+    {
+      "archive_page": 17,
+      "archive_year": 2021,
+      "date": "2021-07-29",
+      "title": "Crinetics Pharmaceuticals Announces $15.0 Million Private Placement with Frazier Healthcare Partners",
+      "url": "https://crinetics.com/press-releases/15-million-frazier-healthcare-partners/"
+    },
+    {
+      "archive_page": 18,
+      "archive_year": 2021,
+      "date": "2021-06-28",
+      "title": "Crinetics Announces Dosing of First Patient in Phase 3 PATHFNDR-1 Study Evaluating Oral Paltusotine for the Treatment of Acromegaly",
+      "url": "https://crinetics.com/press-releases/first-patient-pathfndr1-paltusotine-phase-3-study/"
+    },
+    {
+      "archive_page": 18,
+      "archive_year": 2021,
+      "date": "2021-06-16",
+      "title": "Crinetics Pharmaceuticals Appoints Garlan Adams as General Counsel",
+      "url": "https://crinetics.com/press-releases/crinetics-appoints-garlan-adams-as-general-counsel/"
+    },
+    {
+      "archive_page": 18,
+      "archive_year": 2021,
+      "date": "2021-05-06",
+      "title": "First Quarter 2021 Financial Results and Corporate Update",
+      "url": "https://crinetics.com/press-releases/quarter-1-2021-financial-results-corporate-update/"
+    },
+    {
+      "archive_page": 18,
+      "archive_year": 2021,
+      "date": "2021-04-12",
+      "title": "Crinetics Announces Closing of Common Stock Offering",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-closing-of-common-stock-offering/"
+    },
+    {
+      "archive_page": 18,
+      "archive_year": 2021,
+      "date": "2021-04-07",
+      "title": "Crinetics Announces Pricing of Common Stock Offering",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-pricing-of-common-stock-offering/"
+    },
+    {
+      "archive_page": 18,
+      "archive_year": 2021,
+      "date": "2021-03-30",
+      "title": "2021 Clinical Plans, 4th Quarter, and 2020 Financial Results",
+      "url": "https://crinetics.com/press-releases/2021-clinical-plans-4th-quarter-2020-financial-results/"
+    },
+    {
+      "archive_page": 18,
+      "archive_year": 2021,
+      "date": "2021-03-24",
+      "title": "Webcast: 2021 Clinical Plans and Fourth Quarter and Full Year 2020 Financial Results",
+      "url": "https://crinetics.com/press-releases/webcast-clinical-plans-fourth-quarter-2020-financial-results/"
+    },
+    {
+      "archive_page": 18,
+      "archive_year": 2021,
+      "date": "2021-03-22",
+      "title": "Crinetics Pharmaceuticals Pipeline Progress on Display at ENDO 2021",
+      "url": "https://crinetics.com/press-releases/pipeline-progress-endo-2021/"
+    },
+    {
+      "archive_page": 18,
+      "archive_year": 2021,
+      "date": "2021-03-12",
+      "title": "ENDO 2021 Presentations Showcase Three Clinical Programs",
+      "url": "https://crinetics.com/press-releases/endo-2021-presentations-showcase-three-clinical-programs/"
+    },
+    {
+      "archive_page": 18,
+      "archive_year": 2021,
+      "date": "2021-02-04",
+      "title": "Lead ACTH Antagonist CRN04894 (Cushing's, CAH) Enters Phase 1 Study",
+      "url": "https://crinetics.com/press-releases/lead-acth-antagonist-crn04894-enters-phase1-study/"
+    },
+    {
+      "archive_page": 19,
+      "archive_year": 2021,
+      "date": "2021-02-03",
+      "title": "CRN04777 (Congenital Hyperinsulinism) Advances to Phase 1 Study",
+      "url": "https://crinetics.com/press-releases/crn04777-congenital-hyperinsulinism-phase1-study/"
+    },
+    {
+      "archive_page": 19,
+      "archive_year": 2021,
+      "date": "2021-01-06",
+      "title": "Crinetics Announces 2021 Plans at J.P. Morgan Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-2021-plans-jp-morgan-conference/"
+    },
+    {
+      "archive_page": 19,
+      "archive_year": 2020,
+      "date": "2020-11-23",
+      "title": "Crinetics Pharmaceuticals to Participate in December Investor Conferences",
+      "url": "https://crinetics.com/press-releases/crinetics-december-investor-conferences/"
+    },
+    {
+      "archive_page": 19,
+      "archive_year": 2020,
+      "date": "2020-11-16",
+      "title": "Crinetics Pharmaceuticals Appoints Acromegaly Expert, Peter Trainer, Vice President of Clinical Endocrinology",
+      "url": "https://crinetics.com/press-releases/acromegaly-expert-peter-trainer-vp-clinical-endocrinology/"
+    },
+    {
+      "archive_page": 19,
+      "archive_year": 2020,
+      "date": "2020-11-13",
+      "title": "Crinetics Hosting Key Opinion Leader Meeting Focusing on Oral Paltusotine for Treatment of Acromegaly",
+      "url": "https://crinetics.com/press-releases/key-opinion-leaders-on-oral-paltusotine-acromegaly/"
+    },
+    {
+      "archive_page": 19,
+      "archive_year": 2020,
+      "date": "2020-11-06",
+      "title": "Third Quarter 2020 Financial Results and Corporate Update",
+      "url": "https://crinetics.com/press-releases/third-quarter-2020-financial-results-and-corporate-update/"
+    },
+    {
+      "archive_page": 19,
+      "archive_year": 2020,
+      "date": "2020-10-26",
+      "title": "ACROBAT Edge Study of Paltusotine in Acromegaly Met Endpoint",
+      "url": "https://crinetics.com/press-releases/acrobat-edge-study-of-paltusotine-in-acromegaly-met-endpoint/"
+    },
+    {
+      "archive_page": 19,
+      "archive_year": 2020,
+      "date": "2020-09-21",
+      "title": "Crinetics Pharmaceuticals Receives Rare Pediatric Disease Designation from FDA for CRN04777 for the Treatment of Congenital Hyperinsulinism",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-receives-rare-pediatric-disease-designation-from-fda-for-crn04777-for-the-treatment-of-congenital-hyperinsulinism/"
+    },
+    {
+      "archive_page": 19,
+      "archive_year": 2020,
+      "date": "2020-09-04",
+      "title": "New Data from Paltusotine and ACTH Antagonist Development Programs- European Congress of Endocrinology",
+      "url": "https://crinetics.com/press-releases/new-data-paltusotine-acth-antagonist-development-programs/"
+    },
+    {
+      "archive_page": 19,
+      "archive_year": 2020,
+      "date": "2020-09-03",
+      "title": "Crinetics Pharmaceuticals Appoints Rare Disease Executive, Camille L. Bedrosian, M.D., to Board of Directors",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-appoints-rare-disease-executive-camille-l-bedrosian-m-d-to-board-of-directors/"
+    },
+    {
+      "archive_page": 20,
+      "archive_year": 2020,
+      "date": "2020-09-03",
+      "title": "Crinetics Pharmaceuticals to Participate in September Investor Conferences",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-september-investor-conferences/"
+    },
+    {
+      "archive_page": 20,
+      "archive_year": 2020,
+      "date": "2020-08-07",
+      "title": "Crinetics Pharmaceuticals Reports Second Quarter 2020 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-second-quarter-2020-financial-results-and-provides-corporate-update/"
+    },
+    {
+      "archive_page": 20,
+      "archive_year": 2020,
+      "date": "2020-07-08",
+      "title": "FDA Grants Crinetics Pharmaceuticals (CRNX) Orphan Drug Designation - Paltusotine for the Treatment of Acromegaly",
+      "url": "https://crinetics.com/press-releases/fda-grants-crinetics-pharmaceuticals-crnx-orphan-drug-designation-paltusotine-for-the-treatment-of-acromegaly/"
+    },
+    {
+      "archive_page": 20,
+      "archive_year": 2020,
+      "date": "2020-06-11",
+      "title": "Crinetics Confirms Completion - Half of Enrolled Patients in Ongoing Phase 2 ACROBAT Edge Clinical Trial for Paltusotine",
+      "url": "https://crinetics.com/press-releases/crinetics-confirms-completion-half-enrolled-patients-ongoing-phase-2-acrobat-edge-clinical-trial-paltusotine-acromegaly/"
+    },
+    {
+      "archive_page": 20,
+      "archive_year": 2020,
+      "date": "2020-05-27",
+      "title": "Crinetics (CRNX) appointments Adriana Cabr\u00e9, MBA - VP of HR",
+      "url": "https://crinetics.com/press-releases/crinetics-crnx-appointments-adriana-cabre-mba-vp-of-hr/"
+    },
+    {
+      "archive_page": 20,
+      "archive_year": 2020,
+      "date": "2020-05-08",
+      "title": "Crinetics Pharmaceuticals Reports First Quarter 2020 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-first-quarter-2020-financial-results-and-provides-corporate-update/"
+    },
+    {
+      "archive_page": 20,
+      "archive_year": 2020,
+      "date": "2020-04-17",
+      "title": "Crinetics Pharmaceuticals Announces Closing of Public Offering of Common Stock, Including Full Exercise of Underwriters\u2019 Option to Purchase Additional Shares",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-closing-of-public-offering-of-common-stock-including-full-exercise-of-underwriters-option-to-purchase-additional-shares/"
+    },
+    {
+      "archive_page": 20,
+      "archive_year": 2020,
+      "date": "2020-04-15",
+      "title": "Crinetics Pharmaceuticals Announces Pricing of Public Offering of Common Stock",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-pricing-of-public-offering-of-common-stock/"
+    },
+    {
+      "archive_page": 20,
+      "archive_year": 2020,
+      "date": "2020-04-14",
+      "title": "Crinetics Pharmaceuticals Announces Proposed Public Offering of Common Stock",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-proposed-public-offering-of-common-stock/"
+    },
+    {
+      "archive_page": 20,
+      "archive_year": 2020,
+      "date": "2020-04-06",
+      "title": "Crinetics Pharmaceuticals Reports Positive Interim Results for the ACROBAT Edge Phase 2 Trial of Paltusotine (CRN00808) in Acromegaly Patients and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-positive-interim-results-for-the-acrobat-edge-phase-2-trial-of-paltusotine-crn00808-in-acromegaly-patients-and-provides-corporate-update/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2020,
+      "date": "2020-03-09",
+      "title": "Crinetics Pharmaceuticals Reports Fourth Quarter and Full Year 2019 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-fourth-quarter-and-full-year-2019-financial-results-and-provides-corporate-update/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2020,
+      "date": "2020-02-19",
+      "title": "Crinetics Pharmaceuticals to Participate in SVB Leerink Global Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-svb-leerink-global-healthcare-conference/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2020,
+      "date": "2020-01-08",
+      "title": "Crinetics Pharmaceuticals to Present at J.P. Morgan Healthcare Conference 2020",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-present-at-j-p-morgan-healthcare-conference-2/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2019,
+      "date": "2019-11-26",
+      "title": "Crinetics Pharmaceuticals to Participate in the Piper Jaffray Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-the-piper-jaffray-healthcare-conference/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2019,
+      "date": "2019-11-12",
+      "title": "Crinetics Pharmaceuticals Reports Third Quarter 2019 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-reports-third-quarter-2019-financial-results-and-provides-corporate-update/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2019,
+      "date": "2019-09-25",
+      "title": "Crinetics Pharmaceuticals to Participate in Cantor Global Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-participate-in-cantor-global-healthcare-conference/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2019,
+      "date": "2019-09-03",
+      "title": "Crinetics Pharmaceuticals to Present at H.C. Wainwright Global Investment Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-present-at-h-c-wainwright-global-investment-conference/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2019,
+      "date": "2019-08-13",
+      "title": "Crinetics Pharmaceuticals Reports Second Quarter 2019 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/2019-second-quarter-financial-results-and-corporate-update/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2019,
+      "date": "2019-07-29",
+      "title": "Crinetics Pharmaceuticals to Receive Final Award of SBIR Grant from NIH for Congenital Hyperinsulinism",
+      "url": "https://crinetics.com/press-releases/crinetics-final-nih-grant-congenital-hyperinsulinism/"
+    },
+    {
+      "archive_page": 21,
+      "archive_year": 2019,
+      "date": "2019-07-16",
+      "title": "Crinetics Pharmaceuticals Appoints Stephanie Okey to Board of Directors",
+      "url": "https://crinetics.com/press-releases/stephanie-okey-appointed-to-board-of-directors/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "date": "2019-05-21",
+      "title": "Crinetics Pharmaceuticals Initiates Phase 1 Study of CRN01941 for the Treatment of Neuroendocrine Tumors",
+      "url": "https://crinetics.com/press-releases/phase1-study-treatment-neuroendocrine-tumors/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "date": "2019-05-13",
+      "title": "Crinetics Pharmaceuticals Reports First Quarter 2019 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/crinetics-1st-quarter-2019-finance-corporate-update/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "date": "2019-03-19",
+      "title": "Crinetics Pharmaceuticals Doses First Patients in Phase 2 Clinical Trials of CRN00808 for Acromegaly",
+      "url": "https://crinetics.com/press-releases/patients-dosed-in-phase-2-clinical-trials-acromegaly/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "date": "2019-03-18",
+      "title": "Crinetics Pharmaceuticals Appoints Gina Ford, RPh, MBA, as Vice President, Corporate Strategy and Commercial Planning",
+      "url": "https://crinetics.com/press-releases/gina-ford-named-vp-corporate-strategy/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "date": "2019-03-14",
+      "title": "Crinetics Pharmaceuticals Announces Upcoming Presentations at ENDO2019",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-upcoming-presentations-endo2019/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "date": "2019-03-13",
+      "title": "Crinetics Pharmaceuticals Reports Fourth Quarter and Full Year 2018 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/2018-final-quarter-financial-corporate-update/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "date": "2019-02-21",
+      "title": "Crinetics Pharmaceuticals to Present at SVB Leerink Global Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/2019-svb-leerink-global-healthcare-conference/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2019,
+      "date": "2019-01-02",
+      "title": "Crinetics Pharmaceuticals to Present at J.P. Morgan Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-2019-jp-morgan-healthcare-conference/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2018,
+      "date": "2018-11-03",
+      "title": "Crinetics Pharmaceuticals Reports Third Quarter 2018 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/2018-3rd-quarter-financial-results-corporate-update/"
+    },
+    {
+      "archive_page": 22,
+      "archive_year": 2018,
+      "date": "2018-09-26",
+      "title": "Crinetics Pharmaceuticals to Present at Leerink Partners Roundtable Series: Rare Disease & Oncology",
+      "url": "https://crinetics.com/press-releases/2018-leerink-partners-rare-disease-oncology/"
+    },
+    {
+      "archive_page": 23,
+      "archive_year": 2018,
+      "date": "2018-08-30",
+      "title": "Crinetics Pharmaceuticals Reports Second Quarter 2018 Financial Results and Provides Corporate Update",
+      "url": "https://crinetics.com/press-releases/2018-corporate-update-second-quarter-financial-results/"
+    },
+    {
+      "archive_page": 23,
+      "archive_year": 2018,
+      "date": "2018-07-20",
+      "title": "Crinetics Pharmaceuticals Announces Closing of Initial Public Offering and Exercise in Full of the Underwriters\u2019 Option to Purchase Additional Shares",
+      "url": "https://crinetics.com/press-releases/crinetics-closes-initial-public-offering/"
+    },
+    {
+      "archive_page": 23,
+      "archive_year": 2018,
+      "date": "2018-07-17",
+      "title": "Crinetics Pharmaceuticals Announces Pricing of Initial Public Offering",
+      "url": "https://crinetics.com/press-releases/crinetics-announces-pricing-initial-public-offering/"
+    },
+    {
+      "archive_page": 23,
+      "archive_year": 2018,
+      "date": "2018-06-21",
+      "title": "Crinetics Pharmaceuticals Awarded up to $3.2 Million in SBIR Grants for Congenital Hyperinsulinism and Acromegaly",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-awarded-up-to-3-2-million-in-sbir-grants-for-congenital-hyperinsulinism-and-acromegaly/"
+    },
+    {
+      "archive_page": 23,
+      "archive_year": 2018,
+      "date": "2018-06-18",
+      "title": "Crinetics Pharmaceuticals Appoints Alan Krasner, M.D., as Chief Medical Officer",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-appoints-alan-krasner-m-d-as-chief-medical-officer/"
+    },
+    {
+      "archive_page": 23,
+      "archive_year": 2018,
+      "date": "2018-03-13",
+      "title": "Top News: Crinetics raises $63.5 million in new funds and adds to BOD",
+      "url": "https://crinetics.com/press-releases/top-news-crinetics-raises-63-5-million-in-new-funds-and-adds-to-bod/"
+    },
+    {
+      "archive_page": 23,
+      "archive_year": 2018,
+      "date": "2018-03-13",
+      "title": "Crinetics Pharmaceuticals Completes $63.5 Million Series B Financing",
+      "url": "https://crinetics.com/press-releases/crinetics-completes-635-million-series-b-financing/"
+    },
+    {
+      "archive_page": 23,
+      "archive_year": 2018,
+      "date": "2018-03-12",
+      "title": "Crinetics Pharmaceuticals Announces Upcoming Presentations at ENDO 2018",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-announces-upcoming-presentations-at-endo-2018/"
+    },
+    {
+      "archive_page": 23,
+      "archive_year": 2018,
+      "date": "2018-03-07",
+      "title": "Crinetics Pharmaceuticals to Present at Cowen and Company 38th Annual Health Care Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-present-at-cowen-and-company-38th-annual-health-care-conference/"
+    },
+    {
+      "archive_page": 23,
+      "archive_year": 2018,
+      "date": "2018-01-04",
+      "title": "Crinetics Pharmaceuticals Appoints Marc Wilson as Chief Financial Officer",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-appoints-marc-wilson-as-chief-financial-officer/"
+    },
+    {
+      "archive_page": 24,
+      "archive_year": 2018,
+      "date": "2018-01-02",
+      "title": "Crinetics Pharmaceuticals to Present at J.P. Morgan Healthcare Conference",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-to-present-at-j-p-morgan-healthcare-conference/"
+    },
+    {
+      "archive_page": 24,
+      "archive_year": 2017,
+      "date": "2017-11-14",
+      "title": "Crinetics CEO Talks with Pituitary World News About the Importance of Patient Advocacy in Developing New Medicines",
+      "url": "https://crinetics.com/press-releases/crinetics-ceo-talks-with-pituitary-world-news-about-the-importance-of-patient-advocacy-in-developing-new-medicines/"
+    },
+    {
+      "archive_page": 24,
+      "archive_year": 2017,
+      "date": "2017-10-26",
+      "title": "Crinetics Pharmaceuticals Initiates Phase 1 Study of Lead Candidate CRN00808 for Acromegaly",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-initiates-phase-1-study-of-lead-candidate-crn00808-for-acromegaly/"
+    },
+    {
+      "archive_page": 24,
+      "archive_year": 2017,
+      "date": "2017-09-06",
+      "title": "Crinetics Pharmaceuticals Awarded Two SBIR Grants to Develop New Therapeutics for Congenital Hyperinsulinism and Cushing\u2019s Disease",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-awarded-two-sbir-grants-to-develop-new-therapeutics-for-congenital-hyperinsulinism-and-cushings-disease/"
+    },
+    {
+      "archive_page": 24,
+      "archive_year": 2017,
+      "date": "2017-07-13",
+      "title": "Crinetics Pharmaceuticals Awarded $2.8 Million SBIR Grant to Support Development of Acromegaly Drug Candidate CRN00808",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-awarded-2-8-million-sbir-grant-to-support-development-of-acromegaly-drug-candidate-crn00808/"
+    },
+    {
+      "archive_page": 24,
+      "archive_year": 2016,
+      "date": "2016-11-10",
+      "title": "Crinetics Pharmaceuticals Appoints Anne Klibanski, M.D. to Scientific Advisory Board",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-appoints-anne-klibanski-m-d-to-scientific-advisory-board/"
+    },
+    {
+      "archive_page": 24,
+      "archive_year": 2016,
+      "date": "2016-06-06",
+      "title": "Crinetics Pharmaceuticals Appoints Ajay Madan as Vice President, Development",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-appoints-ajay-madan-as-vice-president-development/"
+    },
+    {
+      "archive_page": 24,
+      "archive_year": 2015,
+      "date": "2015-11-02",
+      "title": "The San Diego Union-Tribune: Crinetics raises $40 Million",
+      "url": "https://crinetics.com/press-releases/the-san-diego-union-tribune-crinetics-raises-40-million/"
+    },
+    {
+      "archive_page": 24,
+      "archive_year": 2015,
+      "date": "2015-11-02",
+      "title": "Crinetics Pharmaceuticals Completes $40 Million Series A Financing",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-completes-40-million-series-a-financing/"
+    },
+    {
+      "archive_page": 24,
+      "archive_year": 2015,
+      "date": "2015-04-27",
+      "title": "Crinetics Pharmaceuticals Appoints Matt Fust, M.B.A., David Clemons, M.D., and John Wallen, Ph.D., J.D. as Corporate, Clinical, and Legal Advisers",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-appoints-matt-fust-m-b-a-david-clemons-m-d-and-john-wallen-ph-d-j-d-as-corporate-clinical-and-legal-advisers/"
+    },
+    {
+      "archive_page": 25,
+      "archive_year": 2015,
+      "date": "2015-04-27",
+      "title": "Crinetics Pharmaceuticals Awarded NIH Fast-Track Grant to Develop Somatostatin Receptor Agonist Drugs for Chronic Pain",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-awarded-nih-fast-track-grant-to-develop-somatostatin-receptor-agonist-drugs-for-chronic-pain/"
+    },
+    {
+      "archive_page": 25,
+      "archive_year": 2015,
+      "date": "2015-01-28",
+      "title": "Crinetics Pharmaceuticals Awarded $1.5MM NIH Phase-II SBIR Grant to Develop Kisspeptin Receptor Antagonists for PCOS and Other Women\u2019s Health Diseases",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-awarded-1-5mm-nih-phase-ii-sbir-grant-to-develop-kisspeptin-receptor-antagonists-for-pcos-and-other-womens-health-diseases/"
+    },
+    {
+      "archive_page": 25,
+      "archive_year": 2014,
+      "date": "2014-04-28",
+      "title": "Crinetics Pharmaceuticals Awarded NIH Phase-I SBIR Grant to Develop Somatostatin Receptor Agonist Drugs for Ophthalmic Diseases",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-awarded-nih-phase-i-sbir-grant-to-develop-somatostatin-receptor-agonist-drugs-for-ophthalmic-diseases/"
+    },
+    {
+      "archive_page": 25,
+      "archive_year": 2013,
+      "date": "2013-09-13",
+      "title": "Crinetics Pharmaceuticals Awarded NIH Phase-II SBIR Grant to Develop Drugs for Pituitary Tumors",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-awarded-nih-phase-ii-sbir-grant-to-develop-drugs-for-pituitary-tumors/"
+    },
+    {
+      "archive_page": 25,
+      "archive_year": 2009,
+      "date": "2009-02-07",
+      "title": "Crinetics Pharmaceuticals Awarded National Institutes of Health Small Business Innovative Research Grant to Develop GPCR Biosensors for Drug Discovery",
+      "url": "https://crinetics.com/press-releases/crinetics-pharmaceuticals-awarded-national-institutes-of-health-small-business-innovative-research-grant-to-develop-gpcr-biosensors-for-drug-discovery/"
+    }
+  ],
+  "issuer": "CRNX",
+  "outcome_labels_assigned": 0,
+  "pages": [
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=2",
+      "page": 1,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:15.489354+00:00",
+      "source_bytes": 204388,
+      "source_relative_path": "raw_sources/15c6d59d2ee970c8a36876ab8929f537de3ca5ecc6cdf03aeb07b7938058239c.html",
+      "source_sha256": "15c6d59d2ee970c8a36876ab8929f537de3ca5ecc6cdf03aeb07b7938058239c",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=3",
+      "page": 2,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/2/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:16.270854+00:00",
+      "source_bytes": 205323,
+      "source_relative_path": "raw_sources/ff1cebb046ec0075712d9f1d9fa720f03e4adbbdcc1eeb04807dc1865d694996.html",
+      "source_sha256": "ff1cebb046ec0075712d9f1d9fa720f03e4adbbdcc1eeb04807dc1865d694996",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=2"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=4",
+      "page": 3,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/3/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:16.961545+00:00",
+      "source_bytes": 205673,
+      "source_relative_path": "raw_sources/5d5b4b6bbe0c8085916c03448ae7eef7ddf4c1444234121ed822f385ca3d3103.html",
+      "source_sha256": "5d5b4b6bbe0c8085916c03448ae7eef7ddf4c1444234121ed822f385ca3d3103",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=3"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=5",
+      "page": 4,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/4/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:18.228144+00:00",
+      "source_bytes": 205154,
+      "source_relative_path": "raw_sources/a3930bf8eb6ae4f6a342eff663b3ee979cda4a14492b0f1a2d0b3eb88954346a.html",
+      "source_sha256": "a3930bf8eb6ae4f6a342eff663b3ee979cda4a14492b0f1a2d0b3eb88954346a",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=4"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=6",
+      "page": 5,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/5/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:19.574482+00:00",
+      "source_bytes": 205400,
+      "source_relative_path": "raw_sources/3158e45aa2171d8209d52a2b12544aac20152dbecdd73975957f1bf6131288c3.html",
+      "source_sha256": "3158e45aa2171d8209d52a2b12544aac20152dbecdd73975957f1bf6131288c3",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=5"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=7",
+      "page": 6,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/6/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:20.788460+00:00",
+      "source_bytes": 204827,
+      "source_relative_path": "raw_sources/2e360b18251eb4d1cc0f87ca88c9adab37c682660e706a682cc43a2c6657ebfe.html",
+      "source_sha256": "2e360b18251eb4d1cc0f87ca88c9adab37c682660e706a682cc43a2c6657ebfe",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=6"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=8",
+      "page": 7,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/7/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:22.132083+00:00",
+      "source_bytes": 204872,
+      "source_relative_path": "raw_sources/4d71aebd0fdde29ec736cbd4c00b117dcd17652ca7f1c346af64d14dfe9441b2.html",
+      "source_sha256": "4d71aebd0fdde29ec736cbd4c00b117dcd17652ca7f1c346af64d14dfe9441b2",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=7"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=9",
+      "page": 8,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/8/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:23.238633+00:00",
+      "source_bytes": 205566,
+      "source_relative_path": "raw_sources/2ed8c17c15dfc35b98c7e27ec354ec938a15993fc3d3a1581182a95541e4f309.html",
+      "source_sha256": "2ed8c17c15dfc35b98c7e27ec354ec938a15993fc3d3a1581182a95541e4f309",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=8"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=10",
+      "page": 9,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/9/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:24.361685+00:00",
+      "source_bytes": 205034,
+      "source_relative_path": "raw_sources/a99be43886180ac25fe4f6c85de2db91576c30392609ba5799522b3f0f8e8ba8.html",
+      "source_sha256": "a99be43886180ac25fe4f6c85de2db91576c30392609ba5799522b3f0f8e8ba8",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=9"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=11",
+      "page": 10,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/10/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:25.546549+00:00",
+      "source_bytes": 204697,
+      "source_relative_path": "raw_sources/f64082490f79f106532b0bcd460163d18d7790d5156edaa8b9b60341786fd7bf.html",
+      "source_sha256": "f64082490f79f106532b0bcd460163d18d7790d5156edaa8b9b60341786fd7bf",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=10"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=12",
+      "page": 11,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/11/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:26.660034+00:00",
+      "source_bytes": 204595,
+      "source_relative_path": "raw_sources/6a50831b5421b4a484b60fe3cbb59ccd0074d5e4e47997a99aa552286d4a48c5.html",
+      "source_sha256": "6a50831b5421b4a484b60fe3cbb59ccd0074d5e4e47997a99aa552286d4a48c5",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=11"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=13",
+      "page": 12,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/12/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:27.967736+00:00",
+      "source_bytes": 204592,
+      "source_relative_path": "raw_sources/1d96dce7a9d1815983016fde4710cdd706989a188c415e28ea34d27b161e3dfe.html",
+      "source_sha256": "1d96dce7a9d1815983016fde4710cdd706989a188c415e28ea34d27b161e3dfe",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=12"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=14",
+      "page": 13,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/13/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:29.080642+00:00",
+      "source_bytes": 204305,
+      "source_relative_path": "raw_sources/56ef860c5cabf1811d970d8f2e73ed9fceeea8e638e2b6ed5a9848c28b84737a.html",
+      "source_sha256": "56ef860c5cabf1811d970d8f2e73ed9fceeea8e638e2b6ed5a9848c28b84737a",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=13"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=15",
+      "page": 14,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/14/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:30.288570+00:00",
+      "source_bytes": 204012,
+      "source_relative_path": "raw_sources/33bcd5a5cada04dd5c201ec7029d86cd6574780800dfa54c3f2532bbc0fee6fa.html",
+      "source_sha256": "33bcd5a5cada04dd5c201ec7029d86cd6574780800dfa54c3f2532bbc0fee6fa",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=14"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=16",
+      "page": 15,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/15/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:31.695022+00:00",
+      "source_bytes": 204151,
+      "source_relative_path": "raw_sources/50cf62808bfb39abb159c8c93d6fc2085510ae4446d633878edcd1144e1c8513.html",
+      "source_sha256": "50cf62808bfb39abb159c8c93d6fc2085510ae4446d633878edcd1144e1c8513",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=15"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=17",
+      "page": 16,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/16/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:32.932277+00:00",
+      "source_bytes": 204188,
+      "source_relative_path": "raw_sources/38805673bc2d172a8ff8e331d7b7a37f92f049d5f4c93f796370a7443cdc7cb4.html",
+      "source_sha256": "38805673bc2d172a8ff8e331d7b7a37f92f049d5f4c93f796370a7443cdc7cb4",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=16"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=18",
+      "page": 17,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/17/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:34.307261+00:00",
+      "source_bytes": 204198,
+      "source_relative_path": "raw_sources/ced5f6c2b97e1fd162164cf1f686b24b24345ab65d7837f47033079950a032b8.html",
+      "source_sha256": "ced5f6c2b97e1fd162164cf1f686b24b24345ab65d7837f47033079950a032b8",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=17"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=19",
+      "page": 18,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/18/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:35.413605+00:00",
+      "source_bytes": 203727,
+      "source_relative_path": "raw_sources/f6c5ed26ae1eb39bdb4a3b2d1841238b32911f5da4b0e53a4ff761f5b5d6415a.html",
+      "source_sha256": "f6c5ed26ae1eb39bdb4a3b2d1841238b32911f5da4b0e53a4ff761f5b5d6415a",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=18"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=20",
+      "page": 19,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/19/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:36.541541+00:00",
+      "source_bytes": 204265,
+      "source_relative_path": "raw_sources/7dd7bb44849d69a364b29da32e454018b2d5f1be2dd868f5b4c59cc07cdb697e.html",
+      "source_sha256": "7dd7bb44849d69a364b29da32e454018b2d5f1be2dd868f5b4c59cc07cdb697e",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=19"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=21",
+      "page": 20,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/20/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:37.816161+00:00",
+      "source_bytes": 205157,
+      "source_relative_path": "raw_sources/29613a27355cdfefc33080ba2064a46a316bb94c16e2cb7153b3c4de5fe1ce43.html",
+      "source_sha256": "29613a27355cdfefc33080ba2064a46a316bb94c16e2cb7153b3c4de5fe1ce43",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=20"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=22",
+      "page": 21,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/21/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:38.910547+00:00",
+      "source_bytes": 204498,
+      "source_relative_path": "raw_sources/2d6cbd2dfd6c0d616f8a47ef5bea5fe6b88a3997feececf53e57532bbcfc9a9a.html",
+      "source_sha256": "2d6cbd2dfd6c0d616f8a47ef5bea5fe6b88a3997feececf53e57532bbcfc9a9a",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=21"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=23",
+      "page": 22,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/22/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:40.244081+00:00",
+      "source_bytes": 203936,
+      "source_relative_path": "raw_sources/1c34634c4853eb2a45f3db7165957cb88ce785d891a1a78b781cf789f165ab6a.html",
+      "source_sha256": "1c34634c4853eb2a45f3db7165957cb88ce785d891a1a78b781cf789f165ab6a",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=22"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=24",
+      "page": 23,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/23/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:41.494855+00:00",
+      "source_bytes": 204294,
+      "source_relative_path": "raw_sources/e64b277d48643205547cf35a525cac2751bc0efdade45e233812f98ef41122d3.html",
+      "source_sha256": "e64b277d48643205547cf35a525cac2751bc0efdade45e233812f98ef41122d3",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=23"
+    },
+    {
+      "entry_count": 10,
+      "http_status": 200,
+      "next_url": "https://crinetics.com/news-events/?filter=press-releases&paged=25",
+      "page": 24,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/24/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:42.648251+00:00",
+      "source_bytes": 204876,
+      "source_relative_path": "raw_sources/1e234f6453a2963afda83d7b3f656af3d4510b7200b10c05755ee24976e45e1e.html",
+      "source_sha256": "1e234f6453a2963afda83d7b3f656af3d4510b7200b10c05755ee24976e45e1e",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=24"
+    },
+    {
+      "entry_count": 5,
+      "http_status": 200,
+      "next_url": null,
+      "page": 25,
+      "per_page": 10,
+      "resolved_url": "https://crinetics.com/news-events/page/25/?filter=press-releases",
+      "retrieved_at": "2026-09-08T17:21:43.004646+00:00",
+      "source_bytes": 199410,
+      "source_relative_path": "raw_sources/1e814e8f66c69ab2a6c5b65cdb41e69fe5f02f775b65eca899dcff835e2de97e.html",
+      "source_sha256": "1e814e8f66c69ab2a6c5b65cdb41e69fe5f02f775b65eca899dcff835e2de97e",
+      "total_pages": 25,
+      "url": "https://crinetics.com/news-events/?filter=press-releases&paged=25"
+    }
+  ],
+  "requested_body_range": {
+    "end_date": "2019-12-31",
+    "start_date": "2018-07-17"
+  },
+  "schema_version": "collected-issuer-archive-v1",
+  "scope": "Current designated issuer archive, not an exhaustive regulatory/event census.",
+  "training_allowed": false
+}

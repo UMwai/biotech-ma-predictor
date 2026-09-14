@@ -1,0 +1,268 @@
+{
+  "created_at": "2026-09-13T16:14:51.280425+00:00",
+  "source_ledger_sha256": "1c4a09c86e3036c2716978c85dcadbda1d75b0ccaf9e2a2c4d45d1468ac84961",
+  "records": [
+    {
+      "ticker": "FREQ",
+      "cik": 1703647,
+      "candidate": {
+        "accession_number": "0000950170-22-003655",
+        "candidate_SEC_document_uris": [
+          "https://www.sec.gov/Archives/edgar/data/1703647/000095017022003655/freq-20211231.htm"
+        ],
+        "document_name": "freq-20211231.htm",
+        "filing_date": "2022-03-15",
+        "form": "10-K"
+      },
+      "receipt": {
+        "ticker": "FREQ",
+        "kind": "sec_annual",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1703647/000095017022003655/freq-20211231.htm",
+        "publication_discovery": "2022-03-15",
+        "retrieved_at": "2026-09-13T16:07:16.976603+00:00",
+        "original_bytes_archived": true,
+        "source_complete": false,
+        "http_status": 200,
+        "effective_url": "https://www.sec.gov/Archives/edgar/data/1703647/000095017022003655/freq-20211231.htm",
+        "content_type": "text/html",
+        "status": "archived",
+        "raw_relative_path": "raw_controls_b/3614fa2e715b8ab4846956c70404206d813808f1e849f3fe1697504b713365b5.html",
+        "raw_sha256": "3614fa2e715b8ab4846956c70404206d813808f1e849f3fe1697504b713365b5",
+        "byte_count": 3760623,
+        "body_format": "html",
+        "reused_from": "controls_b_probes.json"
+      },
+      "negative_label": null,
+      "original_filing_subject_identity_review_complete": false
+    },
+    {
+      "ticker": "AVDL",
+      "cik": 1012477,
+      "candidate": {
+        "accession_number": "0001012477-22-000004",
+        "candidate_SEC_document_uris": [
+          "https://www.sec.gov/Archives/edgar/data/1012477/000101247722000004/avdl-20211231.htm"
+        ],
+        "document_name": "avdl-20211231.htm",
+        "filing_date": "2022-03-16",
+        "form": "10-K"
+      },
+      "receipt": {
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1012477/000101247722000004/avdl-20211231.htm",
+        "retrieved_at": "2026-09-13T16:14:46.929750+00:00",
+        "status": "archived",
+        "http_status": 200,
+        "effective_url": "https://www.sec.gov/Archives/edgar/data/1012477/000101247722000004/avdl-20211231.htm",
+        "content_type": "text/html",
+        "raw_sha256": "067fdf29a94249475714d95e4ecb0442c6e6a73d11d056b299014caa1841b7aa",
+        "byte_count": 2617472,
+        "raw_relative_path": "raw_controls_b_sec/067fdf29a94249475714d95e4ecb0442c6e6a73d11d056b299014caa1841b7aa.htm"
+      },
+      "negative_label": null,
+      "original_filing_subject_identity_review_complete": false
+    },
+    {
+      "ticker": "HARP",
+      "cik": 1708493,
+      "candidate": {
+        "accession_number": "0000950170-22-003375",
+        "candidate_SEC_document_uris": [
+          "https://www.sec.gov/Archives/edgar/data/1708493/000095017022003375/harp-20211231.htm"
+        ],
+        "document_name": "harp-20211231.htm",
+        "filing_date": "2022-03-10",
+        "form": "10-K"
+      },
+      "receipt": {
+        "ticker": "HARP",
+        "kind": "sec_annual",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1708493/000095017022003375/harp-20211231.htm",
+        "publication_discovery": "2022-03-10",
+        "retrieved_at": "2026-09-13T16:07:16.977697+00:00",
+        "original_bytes_archived": true,
+        "source_complete": false,
+        "http_status": 200,
+        "effective_url": "https://www.sec.gov/Archives/edgar/data/1708493/000095017022003375/harp-20211231.htm",
+        "content_type": "text/html",
+        "status": "archived",
+        "raw_relative_path": "raw_controls_b/63347c9ed948bda909a12b711ee151816d0615fe7b8c64ca390266eaeec4244b.html",
+        "raw_sha256": "63347c9ed948bda909a12b711ee151816d0615fe7b8c64ca390266eaeec4244b",
+        "byte_count": 4017042,
+        "body_format": "html",
+        "reused_from": "controls_b_probes.json"
+      },
+      "negative_label": null,
+      "original_filing_subject_identity_review_complete": false
+    },
+    {
+      "ticker": "FULC",
+      "cik": 1680581,
+      "candidate": {
+        "accession_number": "0000950170-22-002727",
+        "candidate_SEC_document_uris": [
+          "https://www.sec.gov/Archives/edgar/data/1680581/000095017022002727/fulc-20211231.htm"
+        ],
+        "document_name": "fulc-20211231.htm",
+        "filing_date": "2022-03-03",
+        "form": "10-K"
+      },
+      "receipt": {
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1680581/000095017022002727/fulc-20211231.htm",
+        "retrieved_at": "2026-09-13T16:14:47.979895+00:00",
+        "status": "archived",
+        "http_status": 200,
+        "effective_url": "https://www.sec.gov/Archives/edgar/data/1680581/000095017022002727/fulc-20211231.htm",
+        "content_type": "text/html",
+        "raw_sha256": "528ac79c3b778cc2ad5be96a7f2c6c298b61c0e9fac2caac907c7d2b8152e0a7",
+        "byte_count": 3560101,
+        "raw_relative_path": "raw_controls_b_sec/528ac79c3b778cc2ad5be96a7f2c6c298b61c0e9fac2caac907c7d2b8152e0a7.htm"
+      },
+      "negative_label": null,
+      "original_filing_subject_identity_review_complete": false
+    },
+    {
+      "ticker": "CNCE",
+      "cik": 1367920,
+      "candidate": {
+        "accession_number": "0001367920-22-000018",
+        "candidate_SEC_document_uris": [
+          "https://www.sec.gov/Archives/edgar/data/1367920/000136792022000018/cnce-20211231.htm"
+        ],
+        "document_name": "cnce-20211231.htm",
+        "filing_date": "2022-03-03",
+        "form": "10-K"
+      },
+      "receipt": {
+        "ticker": "CNCE",
+        "kind": "sec_annual",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1367920/000136792022000018/cnce-20211231.htm",
+        "publication_discovery": "2022-03-03",
+        "retrieved_at": "2026-09-13T16:07:17.318890+00:00",
+        "original_bytes_archived": true,
+        "source_complete": false,
+        "http_status": 200,
+        "effective_url": "https://www.sec.gov/Archives/edgar/data/1367920/000136792022000018/cnce-20211231.htm",
+        "content_type": "text/html",
+        "status": "archived",
+        "raw_relative_path": "raw_controls_b/bfe8b78a76d6e00975db9daf326487fe173674cd3477700602dd2b616aa15663.html",
+        "raw_sha256": "bfe8b78a76d6e00975db9daf326487fe173674cd3477700602dd2b616aa15663",
+        "byte_count": 1940437,
+        "body_format": "html",
+        "reused_from": "controls_b_probes.json"
+      },
+      "negative_label": null,
+      "original_filing_subject_identity_review_complete": false
+    },
+    {
+      "ticker": "KALA",
+      "cik": 1479419,
+      "candidate": {
+        "accession_number": "0001558370-22-004624",
+        "candidate_SEC_document_uris": [
+          "https://www.sec.gov/Archives/edgar/data/1479419/000155837022004624/kala-20211231x10k.htm"
+        ],
+        "document_name": "kala-20211231x10k.htm",
+        "filing_date": "2022-03-29",
+        "form": "10-K"
+      },
+      "receipt": {
+        "ticker": "KALA",
+        "kind": "sec_annual",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1479419/000155837022004624/kala-20211231x10k.htm",
+        "publication_discovery": "2022-03-29",
+        "retrieved_at": "2026-09-13T16:07:17.492727+00:00",
+        "original_bytes_archived": true,
+        "source_complete": false,
+        "http_status": 200,
+        "effective_url": "https://www.sec.gov/Archives/edgar/data/1479419/000155837022004624/kala-20211231x10k.htm",
+        "content_type": "text/html",
+        "status": "archived",
+        "raw_relative_path": "raw_controls_b/90927737d19d8683cf94eac2da6d4c37abec9cd145192aff3383f967ebb95011.html",
+        "raw_sha256": "90927737d19d8683cf94eac2da6d4c37abec9cd145192aff3383f967ebb95011",
+        "byte_count": 2946101,
+        "body_format": "html",
+        "reused_from": "controls_b_probes.json"
+      },
+      "negative_label": null,
+      "original_filing_subject_identity_review_complete": false
+    },
+    {
+      "ticker": "KALV",
+      "cik": 1348911,
+      "candidate": {
+        "accession_number": "0001564590-21-036441",
+        "candidate_SEC_document_uris": [
+          "https://www.sec.gov/Archives/edgar/data/1348911/000156459021036441/kalv-10k_20210430.htm"
+        ],
+        "document_name": "kalv-10k_20210430.htm",
+        "filing_date": "2021-07-13",
+        "form": "10-K"
+      },
+      "receipt": {
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1348911/000156459021036441/kalv-10k_20210430.htm",
+        "retrieved_at": "2026-09-13T16:14:49.030000+00:00",
+        "status": "archived",
+        "http_status": 200,
+        "effective_url": "https://www.sec.gov/Archives/edgar/data/1348911/000156459021036441/kalv-10k_20210430.htm",
+        "content_type": "text/html",
+        "raw_sha256": "517b4f0e1d14069f02533ac6806873aa62598049aea9a09524fecb1abda4c90e",
+        "byte_count": 2551036,
+        "raw_relative_path": "raw_controls_b_sec/517b4f0e1d14069f02533ac6806873aa62598049aea9a09524fecb1abda4c90e.htm"
+      },
+      "negative_label": null,
+      "original_filing_subject_identity_review_complete": false
+    },
+    {
+      "ticker": "KNSA",
+      "cik": 1730430,
+      "candidate": {
+        "accession_number": "0001558370-22-001932",
+        "candidate_SEC_document_uris": [
+          "https://www.sec.gov/Archives/edgar/data/1730430/000155837022001932/knsa-20211231x10k.htm"
+        ],
+        "document_name": "knsa-20211231x10k.htm",
+        "filing_date": "2022-02-24",
+        "form": "10-K"
+      },
+      "receipt": {
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1730430/000155837022001932/knsa-20211231x10k.htm",
+        "retrieved_at": "2026-09-13T16:14:50.080134+00:00",
+        "status": "archived",
+        "http_status": 200,
+        "effective_url": "https://www.sec.gov/Archives/edgar/data/1730430/000155837022001932/knsa-20211231x10k.htm",
+        "content_type": "text/html",
+        "raw_sha256": "f49e037cdfda010be6b307e4f339a64a34719e8cc5f0dce7e364c5d7d35fdaf9",
+        "byte_count": 3319315,
+        "raw_relative_path": "raw_controls_b_sec/f49e037cdfda010be6b307e4f339a64a34719e8cc5f0dce7e364c5d7d35fdaf9.htm"
+      },
+      "negative_label": null,
+      "original_filing_subject_identity_review_complete": false
+    },
+    {
+      "ticker": "KRYS",
+      "cik": 1711279,
+      "candidate": {
+        "accession_number": "0001711279-22-000004",
+        "candidate_SEC_document_uris": [
+          "https://www.sec.gov/Archives/edgar/data/1711279/000171127922000004/krys-20211231.htm"
+        ],
+        "document_name": "krys-20211231.htm",
+        "filing_date": "2022-02-28",
+        "form": "10-K"
+      },
+      "receipt": {
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1711279/000171127922000004/krys-20211231.htm",
+        "retrieved_at": "2026-09-13T16:14:51.130278+00:00",
+        "status": "archived",
+        "http_status": 200,
+        "effective_url": "https://www.sec.gov/Archives/edgar/data/1711279/000171127922000004/krys-20211231.htm",
+        "content_type": "text/html",
+        "raw_sha256": "7f8e6bdb86ca2c9e1b4a8ac917f5add5f62205c719b9f7f446cd66ea9d34595b",
+        "byte_count": 1576115,
+        "raw_relative_path": "raw_controls_b_sec/7f8e6bdb86ca2c9e1b4a8ac917f5add5f62205c719b9f7f446cd66ea9d34595b.htm"
+      },
+      "negative_label": null,
+      "original_filing_subject_identity_review_complete": false
+    }
+  ]
+}

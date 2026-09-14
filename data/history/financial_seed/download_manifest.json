@@ -1,0 +1,135 @@
+{
+  "scope": "Original issuer annual-report documents mirrored by AnnualReports; publication date must be independently established. No SEC programmatic requests.",
+  "sources": [
+    {
+      "ticker": "DRNA",
+      "fiscal_year": 2020,
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_DRNA_2020.pdf",
+      "attempted_at": "2026-09-08T14:00:53.620412+00:00",
+      "final_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_DRNA_2020.pdf",
+      "retrieved_at": "2026-09-08T14:00:53.871254+00:00",
+      "bytes": 1567304,
+      "sha256": "8f517ebdd79f74abd65af770e7c59e27e46812d33c716438fef757d5d9fac78b",
+      "content_type": "application/pdf",
+      "local_path": "data/history/financial_seed/raw/DRNA_2020.pdf",
+      "status": "downloaded"
+    },
+    {
+      "ticker": "MYOK",
+      "fiscal_year": 2019,
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_MYOK_2019.pdf",
+      "attempted_at": "2026-09-08T14:00:53.620836+00:00",
+      "final_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_MYOK_2019.pdf",
+      "retrieved_at": "2026-09-08T14:00:53.847461+00:00",
+      "bytes": 988035,
+      "sha256": "29c67d0a14b76538d51a85acb6b3edea2dbdd3e8274c7f9267a1b057d2a6097e",
+      "content_type": "application/pdf",
+      "local_path": "data/history/financial_seed/raw/MYOK_2019.pdf",
+      "status": "downloaded"
+    },
+    {
+      "ticker": "CNST",
+      "fiscal_year": 2019,
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CNST_2019.pdf",
+      "attempted_at": "2026-09-08T14:00:53.621252+00:00",
+      "status": "failed",
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
+    },
+    {
+      "ticker": "TBIO",
+      "fiscal_year": 2019,
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/NASDAQ_TBIO_2019.pdf",
+      "attempted_at": "2026-09-08T14:00:53.774011+00:00",
+      "final_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/NASDAQ_TBIO_2019.pdf",
+      "retrieved_at": "2026-09-08T14:00:53.989156+00:00",
+      "bytes": 2082243,
+      "sha256": "e949dceacc14adacb69e53a067f810fa2b3d556600936b3ebeafbc61969c2dd2",
+      "content_type": "application/pdf",
+      "local_path": "data/history/financial_seed/raw/TBIO_2019.pdf",
+      "status": "downloaded"
+    },
+    {
+      "ticker": "XLRN",
+      "fiscal_year": 2018,
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_XLRN_2018.pdf",
+      "attempted_at": "2026-09-08T14:00:53.849034+00:00",
+      "final_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_XLRN_2018.pdf",
+      "retrieved_at": "2026-09-08T14:00:54.088602+00:00",
+      "bytes": 1714965,
+      "sha256": "703aa261d4959d3b6c4442aba0a421192bdeddc803ca79ca35553f1f2033830f",
+      "content_type": "application/pdf",
+      "local_path": "data/history/financial_seed/raw/XLRN_2018.pdf",
+      "status": "downloaded"
+    },
+    {
+      "ticker": "MNTA",
+      "fiscal_year": 2019,
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_MNTA_2019.pdf",
+      "attempted_at": "2026-09-08T14:00:53.873118+00:00",
+      "final_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_MNTA_2019.pdf",
+      "retrieved_at": "2026-09-08T14:00:54.110414+00:00",
+      "bytes": 1076238,
+      "sha256": "2c752b1bf6714052f82ee743b3cf00cf18c9e8bdd1b5084556614b3497fb39a0",
+      "content_type": "application/pdf",
+      "local_path": "data/history/financial_seed/raw/MNTA_2019.pdf",
+      "status": "downloaded"
+    },
+    {
+      "ticker": "PTLA",
+      "fiscal_year": 2019,
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_PTLA_2019.pdf",
+      "attempted_at": "2026-09-08T14:00:53.991096+00:00",
+      "status": "failed",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "ticker": "TSRO",
+      "fiscal_year": 2017,
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_TSRO_2017.pdf",
+      "attempted_at": "2026-09-08T14:00:54.091023+00:00",
+      "status": "failed",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "ticker": "LOXO",
+      "fiscal_year": 2017,
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_LOXO_2017.pdf",
+      "attempted_at": "2026-09-08T14:00:54.095109+00:00",
+      "status": "failed",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "ticker": "ARRY",
+      "fiscal_year": 2018,
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_ARRY_2018.pdf",
+      "attempted_at": "2026-09-08T14:00:54.112147+00:00",
+      "status": "failed",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "ticker": "ARQL",
+      "fiscal_year": 2018,
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_ARQL_2018.pdf",
+      "attempted_at": "2026-09-08T14:00:54.229229+00:00",
+      "status": "failed",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "ticker": "DERM",
+      "fiscal_year": 2018,
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_DERM_2018.pdf",
+      "attempted_at": "2026-09-08T14:00:54.235940+00:00",
+      "status": "failed",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "ticker": "ARQL",
+      "fiscal_year": 2018,
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_ARQL_2018.pdf",
+      "attempted_at": "2026-09-08T14:05:13.279364+00:00",
+      "retry_after_prior_rate_limit": true,
+      "status": "failed",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    }
+  ]
+}

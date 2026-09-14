@@ -1,0 +1,12 @@
+{
+  "url": "https://efts.sec.gov/LATEST/search-index?ciks=0001787306&dateRange=custom&startdt=2021-01-01&enddt=2021-12-31&from=0&size=100",
+  "retrieved_at": "2026-09-08T19:50:25.578472+00:00",
+  "path": "ARQT_efts_2021_04cf699595e06df92662887ef8277ddba0fab9e2e936c19463c96ec34d88b258.json",
+  "sha256": "04cf699595e06df92662887ef8277ddba0fab9e2e936c19463c96ec34d88b258",
+  "size_bytes": 69831,
+  "total": {
+    "value": 118,
+    "relation": "eq"
+  },
+  "returned": 100
+}

@@ -1,0 +1,944 @@
+{
+  "cik": 1447028,
+  "end_date": "2022-03-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:54:04.886009+00:00",
+      "returned": 13,
+      "source_bytes": 10306,
+      "source_relative_path": "raw_sources/4f4da7918a5e77118ec993b0b1e1d884f050f27121c03791a61d128ee815139d.json",
+      "source_sha256": "4f4da7918a5e77118ec993b0b1e1d884f050f27121c03791a61d128ee815139d",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001447028&dateRange=custom&startdt=2022-01-01&enddt=2022-03-31&from=0&size=100",
+      "total": 13
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001447028-22-000019",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702822000019/abus-20211231.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "abus-20211231.htm",
+      "filed_date": "2022-03-03",
+      "form": "10-K",
+      "id": "0001447028-22-000019:abus-20211231.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-22-000019:abus-20211231.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-22-000019",
+          "biz_locations": [
+            "Warminster, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2022-03-03",
+          "file_description": "10-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "22709660"
+          ],
+          "form": "10-K",
+          "inc_states": [
+            "A1"
+          ],
+          "items": [],
+          "period_ending": "2021-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1646265600000,
+          "0001447028-22-000019:abus-20211231.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-22-001596",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184322001596/f8k_030222.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_030222.htm",
+      "filed_date": "2022-03-03",
+      "form": "8-K",
+      "id": "0001171843-22-001596:f8k_030222.htm",
+      "items": [
+        "2.02",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-22-001596:f8k_030222.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-22-001596",
+          "biz_locations": [
+            "Warminster, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2022-03-03",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22706752"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "A1"
+          ],
+          "items": [
+            "2.02",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2022-03-03",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1646265600000,
+          "0001171843-22-001596:f8k_030222.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-030110",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000110465922030110/tm224554d2_8k.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "tm224554d2_8k.htm",
+      "filed_date": "2022-03-03",
+      "form": "8-K",
+      "id": "0001104659-22-030110:tm224554d2_8k.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-22-030110:tm224554d2_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-030110",
+          "biz_locations": [
+            "Warminster, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2022-03-03",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22710380"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "A1"
+          ],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2022-03-03",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1646265600000,
+          "0001104659-22-030110:tm224554d2_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-030106",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000110465922030106/tm224554-1_424b5.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "tm224554-1_424b5.htm",
+      "filed_date": "2022-03-03",
+      "form": "424B5",
+      "id": "0001104659-22-030106:tm224554-1_424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-030106:tm224554-1_424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-030106",
+          "biz_locations": [
+            "Warminster, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2022-03-03",
+          "file_description": "424B5",
+          "file_num": [
+            "333-260782"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "22710352"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "A1"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1646265600000,
+          "0001104659-22-030106:tm224554-1_424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-22-001419",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184322001419/f8k_022822.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_022822.htm",
+      "filed_date": "2022-02-28",
+      "form": "8-K",
+      "id": "0001171843-22-001419:f8k_022822.htm",
+      "items": [
+        "8.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-22-001419:f8k_022822.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-22-001419",
+          "biz_locations": [
+            "Warminster, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2022-02-28",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22683791"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "A1"
+          ],
+          "items": [
+            "8.01"
+          ],
+          "period_ending": "2022-02-28",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1646006400000,
+          "0001171843-22-001419:f8k_022822.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000902664-22-001628",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000090266422001628/p22-0718sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1493215/000090266422001628/p22-0718sc13ga.htm"
+      ],
+      "ciks": [
+        "0001447028",
+        "0001493215"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)",
+        "RTW INVESTMENTS, LP  (CIK 0001493215)"
+      ],
+      "document_name": "p22-0718sc13ga.htm",
+      "filed_date": "2022-02-14",
+      "form": "SC 13G/A",
+      "id": "0000902664-22-001628:p22-0718sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000902664-22-001628:p22-0718sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000902664-22-001628",
+          "biz_locations": [
+            "Warminster, PA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "PA",
+            "NY"
+          ],
+          "ciks": [
+            "0001447028",
+            "0001493215"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)",
+            "RTW INVESTMENTS, LP  (CIK 0001493215)"
+          ],
+          "file_date": "2022-02-14",
+          "file_description": "ARBUTUS BIOPHARMA CORPORATION",
+          "file_num": [
+            "005-85963"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22626279"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "A1",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644796800000,
+          "0000902664-22-001628:p22-0718sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-22-000411",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184322000411/f8k_012222.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_012222.htm",
+      "filed_date": "2022-01-24",
+      "form": "8-K",
+      "id": "0001171843-22-000411:f8k_012222.htm",
+      "items": [
+        "2.02",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-22-000411:f8k_012222.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-22-000411",
+          "biz_locations": [
+            "Warminster, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2022-01-24",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22547551"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "A1"
+          ],
+          "items": [
+            "2.02",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2022-01-24",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1642982400000,
+          "0001171843-22-000411:f8k_012222.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-22-000012",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1780495/000144702822000012/wf-form4_164271931496383.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702822000012/wf-form4_164271931496383.xml"
+      ],
+      "ciks": [
+        "0001780495",
+        "0001447028"
+      ],
+      "display_names": [
+        "Collier William H.  (CIK 0001780495)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_164271931496383.xml",
+      "filed_date": "2022-01-20",
+      "form": "4",
+      "id": "0001447028-22-000012:wf-form4_164271931496383.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-22-000012:wf-form4_164271931496383.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-22-000012",
+          "biz_locations": [
+            "",
+            "Warminster, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001780495",
+            "0001447028"
+          ],
+          "display_names": [
+            "Collier William H.  (CIK 0001780495)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2022-01-20",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22543392"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "A1"
+          ],
+          "items": [],
+          "period_ending": "2022-01-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1642636800000,
+          "0001447028-22-000012:wf-form4_164271931496383.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-22-000011",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1237401/000144702822000011/wf-form4_164271929611191.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702822000011/wf-form4_164271929611191.xml"
+      ],
+      "ciks": [
+        "0001237401",
+        "0001447028"
+      ],
+      "display_names": [
+        "HASTINGS DAVID C  (CIK 0001237401)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_164271929611191.xml",
+      "filed_date": "2022-01-20",
+      "form": "4",
+      "id": "0001447028-22-000011:wf-form4_164271929611191.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-22-000011:wf-form4_164271929611191.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-22-000011",
+          "biz_locations": [
+            "",
+            "Warminster, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001237401",
+            "0001447028"
+          ],
+          "display_names": [
+            "HASTINGS DAVID C  (CIK 0001237401)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2022-01-20",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22543391"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "A1"
+          ],
+          "items": [],
+          "period_ending": "2022-01-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1642636800000,
+          "0001447028-22-000011:wf-form4_164271929611191.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-22-000010",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1669530/000144702822000010/wf-form4_164271927133471.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702822000010/wf-form4_164271927133471.xml"
+      ],
+      "ciks": [
+        "0001669530",
+        "0001447028"
+      ],
+      "display_names": [
+        "Howard Elizabeth  (CIK 0001669530)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_164271927133471.xml",
+      "filed_date": "2022-01-20",
+      "form": "4",
+      "id": "0001447028-22-000010:wf-form4_164271927133471.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-22-000010:wf-form4_164271927133471.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-22-000010",
+          "biz_locations": [
+            "",
+            "Warminster, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001669530",
+            "0001447028"
+          ],
+          "display_names": [
+            "Howard Elizabeth  (CIK 0001669530)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2022-01-20",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22543388"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "A1"
+          ],
+          "items": [],
+          "period_ending": "2022-01-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1642636800000,
+          "0001447028-22-000010:wf-form4_164271927133471.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-22-000009",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1635324/000144702822000009/wf-form4_164271925075900.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702822000009/wf-form4_164271925075900.xml"
+      ],
+      "ciks": [
+        "0001635324",
+        "0001447028"
+      ],
+      "display_names": [
+        "Sofia Michael J.  (CIK 0001635324)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_164271925075900.xml",
+      "filed_date": "2022-01-20",
+      "form": "4",
+      "id": "0001447028-22-000009:wf-form4_164271925075900.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-22-000009:wf-form4_164271925075900.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-22-000009",
+          "biz_locations": [
+            "",
+            "Warminster, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001635324",
+            "0001447028"
+          ],
+          "display_names": [
+            "Sofia Michael J.  (CIK 0001635324)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2022-01-20",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22543385"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "A1"
+          ],
+          "items": [],
+          "period_ending": "2022-01-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1642636800000,
+          "0001447028-22-000009:wf-form4_164271925075900.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-22-000008",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1755014/000144702822000008/wf-form4_164271923431244.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702822000008/wf-form4_164271923431244.xml"
+      ],
+      "ciks": [
+        "0001755014",
+        "0001447028"
+      ],
+      "display_names": [
+        "Picchio Gaston  (CIK 0001755014)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_164271923431244.xml",
+      "filed_date": "2022-01-20",
+      "form": "4",
+      "id": "0001447028-22-000008:wf-form4_164271923431244.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-22-000008:wf-form4_164271923431244.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-22-000008",
+          "biz_locations": [
+            "",
+            "Warminster, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001755014",
+            "0001447028"
+          ],
+          "display_names": [
+            "Picchio Gaston  (CIK 0001755014)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2022-01-20",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22543380"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "A1"
+          ],
+          "items": [],
+          "period_ending": "2022-01-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1642636800000,
+          "0001447028-22-000008:wf-form4_164271923431244.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-22-000007",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1635326/000144702822000007/wf-form4_164271921610822.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702822000007/wf-form4_164271921610822.xml"
+      ],
+      "ciks": [
+        "0001635326",
+        "0001447028"
+      ],
+      "display_names": [
+        "McElhaugh Michael J.  (CIK 0001635326)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_164271921610822.xml",
+      "filed_date": "2022-01-20",
+      "form": "4",
+      "id": "0001447028-22-000007:wf-form4_164271921610822.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-22-000007:wf-form4_164271921610822.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-22-000007",
+          "biz_locations": [
+            "",
+            "Warminster, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001635326",
+            "0001447028"
+          ],
+          "display_names": [
+            "McElhaugh Michael J.  (CIK 0001635326)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2022-01-20",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22543379"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "A1"
+          ],
+          "items": [],
+          "period_ending": "2022-01-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1642636800000,
+          "0001447028-22-000007:wf-form4_164271921610822.xml"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2022-01-01",
+  "ticker": "ABUS",
+  "total": 13
+}

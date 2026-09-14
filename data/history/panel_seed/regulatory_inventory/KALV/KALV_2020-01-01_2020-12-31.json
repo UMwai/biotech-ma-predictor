@@ -1,0 +1,3340 @@
+{
+  "cik": 1348911,
+  "end_date": "2020-12-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:54:38.694791+00:00",
+      "returned": 47,
+      "source_bytes": 33454,
+      "source_relative_path": "raw_sources/8fa8d8f279631a269b9dd17d7c9b6b7dadf50fd51887de71a0c9f42a12829ae6.json",
+      "source_sha256": "8fa8d8f279631a269b9dd17d7c9b6b7dadf50fd51887de71a0c9f42a12829ae6",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001348911&dateRange=custom&startdt=2020-01-01&enddt=2020-12-31&from=0&size=100",
+      "total": 47
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001564590-20-057668",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156459020057668/kalv-8k_20201218.htm"
+      ],
+      "ciks": [
+        "0001348911"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "kalv-8k_20201218.htm",
+      "filed_date": "2020-12-18",
+      "form": "8-K",
+      "id": "0001564590-20-057668:kalv-8k_20201218.htm",
+      "items": [
+        "5.02"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-057668:kalv-8k_20201218.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-057668",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-12-18",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201400652"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.02"
+          ],
+          "period_ending": "2020-12-16",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1608249600000,
+          "0001564590-20-057668:kalv-8k_20201218.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-064489",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1691102/000120919120064489/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120064489/doc4.xml"
+      ],
+      "ciks": [
+        "0001691102",
+        "0001348911"
+      ],
+      "display_names": [
+        "Yea Christopher  (CIK 0001691102)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-18",
+      "form": "4",
+      "id": "0001209191-20-064489:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-064489:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-064489",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001691102",
+            "0001348911"
+          ],
+          "display_names": [
+            "Yea Christopher  (CIK 0001691102)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-12-18",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201401873"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-16",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1608249600000,
+          "0001209191-20-064489:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-064483",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1777800/000120919120064483/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120064483/doc4.xml"
+      ],
+      "ciks": [
+        "0001777800",
+        "0001348911"
+      ],
+      "display_names": [
+        "Smith Michael David  (CIK 0001777800)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-18",
+      "form": "4",
+      "id": "0001209191-20-064483:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-064483:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-064483",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001777800",
+            "0001348911"
+          ],
+          "display_names": [
+            "Smith Michael David  (CIK 0001777800)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-12-18",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201401854"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-16",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1608249600000,
+          "0001209191-20-064483:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-064479",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1366244/000120919120064479/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120064479/doc4.xml"
+      ],
+      "ciks": [
+        "0001366244",
+        "0001348911"
+      ],
+      "display_names": [
+        "Palleiko Benjamin L  (CIK 0001366244)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-18",
+      "form": "4",
+      "id": "0001209191-20-064479:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-064479:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-064479",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001366244",
+            "0001348911"
+          ],
+          "display_names": [
+            "Palleiko Benjamin L  (CIK 0001366244)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-12-18",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201401837"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-16",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1608249600000,
+          "0001209191-20-064479:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-064476",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1576103/000120919120064476/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120064476/doc4.xml"
+      ],
+      "ciks": [
+        "0001576103",
+        "0001348911"
+      ],
+      "display_names": [
+        "Maetzel Andreas  (CIK 0001576103)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-18",
+      "form": "4",
+      "id": "0001209191-20-064476:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-064476:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-064476",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001576103",
+            "0001348911"
+          ],
+          "display_names": [
+            "Maetzel Andreas  (CIK 0001576103)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-12-18",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201401830"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-16",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1608249600000,
+          "0001209191-20-064476:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-064473",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1691090/000120919120064473/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120064473/doc4.xml"
+      ],
+      "ciks": [
+        "0001691090",
+        "0001348911"
+      ],
+      "display_names": [
+        "Feener Edward P.  (CIK 0001691090)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-18",
+      "form": "4",
+      "id": "0001209191-20-064473:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-064473:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-064473",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001691090",
+            "0001348911"
+          ],
+          "display_names": [
+            "Feener Edward P.  (CIK 0001691090)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-12-18",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201401820"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-16",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1608249600000,
+          "0001209191-20-064473:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-064471",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1690920/000120919120064471/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120064471/doc4.xml"
+      ],
+      "ciks": [
+        "0001690920",
+        "0001348911"
+      ],
+      "display_names": [
+        "Crockett Thomas Andrew  (CIK 0001690920)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-18",
+      "form": "4",
+      "id": "0001209191-20-064471:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-064471:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-064471",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001690920",
+            "0001348911"
+          ],
+          "display_names": [
+            "Crockett Thomas Andrew  (CIK 0001690920)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-12-18",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201401811"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-16",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1608249600000,
+          "0001209191-20-064471:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-056733",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156459020056733/kalv-8k_20201210.htm"
+      ],
+      "ciks": [
+        "0001348911"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "kalv-8k_20201210.htm",
+      "filed_date": "2020-12-10",
+      "form": "8-K",
+      "id": "0001564590-20-056733:kalv-8k_20201210.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-056733:kalv-8k_20201210.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-056733",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-12-10",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201380955"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-12-10",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1607558400000,
+          "0001564590-20-056733:kalv-8k_20201210.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-056718",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156459020056718/kalv-10q_20201031.htm"
+      ],
+      "ciks": [
+        "0001348911"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "kalv-10q_20201031.htm",
+      "filed_date": "2020-12-10",
+      "form": "10-Q",
+      "id": "0001564590-20-056718:kalv-10q_20201031.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-056718:kalv-10q_20201031.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-056718",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-12-10",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "201380609"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-31",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1607558400000,
+          "0001564590-20-056718:kalv-10q_20201031.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-055742",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156459020055742/kalv-8k_20201125.htm"
+      ],
+      "ciks": [
+        "0001348911"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "kalv-8k_20201125.htm",
+      "filed_date": "2020-12-01",
+      "form": "8-K",
+      "id": "0001564590-20-055742:kalv-8k_20201125.htm",
+      "items": [
+        "3.01",
+        "8.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-055742:kalv-8k_20201125.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-055742",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-12-01",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201361016"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "3.01",
+            "8.01"
+          ],
+          "period_ending": "2020-11-25",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1606780800000,
+          "0001564590-20-055742:kalv-8k_20201125.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-293720",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000119312520293720/d41366d8k.htm"
+      ],
+      "ciks": [
+        "0001348911"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "d41366d8k.htm",
+      "filed_date": "2020-11-16",
+      "form": "8-K",
+      "id": "0001193125-20-293720:d41366d8k.htm",
+      "items": [
+        "8.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-20-293720:d41366d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-293720",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-11-16",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201313565"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01"
+          ],
+          "period_ending": "2020-11-16",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1605484800000,
+          "0001193125-20-293720:d41366d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-056919",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1691090/000120919120056919/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120056919/doc4.xml"
+      ],
+      "ciks": [
+        "0001691090",
+        "0001348911"
+      ],
+      "display_names": [
+        "Feener Edward P.  (CIK 0001691090)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-11-04",
+      "form": "4",
+      "id": "0001209191-20-056919:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-056919:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-056919",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001691090",
+            "0001348911"
+          ],
+          "display_names": [
+            "Feener Edward P.  (CIK 0001691090)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-11-04",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201287468"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-11-02",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1604448000000,
+          "0001209191-20-056919:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-056790",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1397906/000120919120056790/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120056790/doc4.xml"
+      ],
+      "ciks": [
+        "0001397906",
+        "0001348911"
+      ],
+      "display_names": [
+        "Cha Albert  (CIK 0001397906)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-11-03",
+      "form": "4",
+      "id": "0001209191-20-056790:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-056790:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-056790",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001397906",
+            "0001348911"
+          ],
+          "display_names": [
+            "Cha Albert  (CIK 0001397906)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-11-03",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201284883"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-30",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1604361600000,
+          "0001209191-20-056790:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-056468",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1691102/000120919120056468/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120056468/doc4.xml"
+      ],
+      "ciks": [
+        "0001691102",
+        "0001348911"
+      ],
+      "display_names": [
+        "Yea Christopher  (CIK 0001691102)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-11-02",
+      "form": "4",
+      "id": "0001209191-20-056468:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-056468:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-056468",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001691102",
+            "0001348911"
+          ],
+          "display_names": [
+            "Yea Christopher  (CIK 0001691102)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-11-02",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201281671"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-29",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1604275200000,
+          "0001209191-20-056468:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-055590",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1691102/000120919120055590/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120055590/doc4.xml"
+      ],
+      "ciks": [
+        "0001691102",
+        "0001348911"
+      ],
+      "display_names": [
+        "Yea Christopher  (CIK 0001691102)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-22",
+      "form": "4",
+      "id": "0001209191-20-055590:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-055590:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-055590",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001691102",
+            "0001348911"
+          ],
+          "display_names": [
+            "Yea Christopher  (CIK 0001691102)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-10-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201255573"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1603324800000,
+          "0001209191-20-055590:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-055589",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1691090/000120919120055589/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120055589/doc4.xml"
+      ],
+      "ciks": [
+        "0001691090",
+        "0001348911"
+      ],
+      "display_names": [
+        "Feener Edward P.  (CIK 0001691090)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-22",
+      "form": "4",
+      "id": "0001209191-20-055589:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-055589:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-055589",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001691090",
+            "0001348911"
+          ],
+          "display_names": [
+            "Feener Edward P.  (CIK 0001691090)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-10-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201255569"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1603324800000,
+          "0001209191-20-055589:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-055588",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1690920/000120919120055588/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120055588/doc4.xml"
+      ],
+      "ciks": [
+        "0001690920",
+        "0001348911"
+      ],
+      "display_names": [
+        "Crockett Thomas Andrew  (CIK 0001690920)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-22",
+      "form": "4",
+      "id": "0001209191-20-055588:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-055588:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-055588",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001690920",
+            "0001348911"
+          ],
+          "display_names": [
+            "Crockett Thomas Andrew  (CIK 0001690920)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-10-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201255567"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1603324800000,
+          "0001209191-20-055588:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-055365",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1691102/000120919120055365/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120055365/doc4.xml"
+      ],
+      "ciks": [
+        "0001691102",
+        "0001348911"
+      ],
+      "display_names": [
+        "Yea Christopher  (CIK 0001691102)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-20",
+      "form": "4",
+      "id": "0001209191-20-055365:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-055365:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-055365",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001691102",
+            "0001348911"
+          ],
+          "display_names": [
+            "Yea Christopher  (CIK 0001691102)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-10-20",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201248006"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-16",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1603152000000,
+          "0001209191-20-055365:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-055363",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1691090/000120919120055363/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120055363/doc4.xml"
+      ],
+      "ciks": [
+        "0001691090",
+        "0001348911"
+      ],
+      "display_names": [
+        "Feener Edward P.  (CIK 0001691090)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-20",
+      "form": "4",
+      "id": "0001209191-20-055363:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-055363:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-055363",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001691090",
+            "0001348911"
+          ],
+          "display_names": [
+            "Feener Edward P.  (CIK 0001691090)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-10-20",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201247998"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-16",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1603152000000,
+          "0001209191-20-055363:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-055362",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1690920/000120919120055362/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120055362/doc4.xml"
+      ],
+      "ciks": [
+        "0001690920",
+        "0001348911"
+      ],
+      "display_names": [
+        "Crockett Thomas Andrew  (CIK 0001690920)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-20",
+      "form": "4",
+      "id": "0001209191-20-055362:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-055362:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-055362",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001690920",
+            "0001348911"
+          ],
+          "display_names": [
+            "Crockett Thomas Andrew  (CIK 0001690920)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-10-20",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201247992"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-04-29",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1603152000000,
+          "0001209191-20-055362:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-045741",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156459020045741/kalv-8k_20201001.htm"
+      ],
+      "ciks": [
+        "0001348911"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "kalv-8k_20201001.htm",
+      "filed_date": "2020-10-02",
+      "form": "8-K",
+      "id": "0001564590-20-045741:kalv-8k_20201001.htm",
+      "items": [
+        "5.07"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-045741:kalv-8k_20201001.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-045741",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-10-02",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201220173"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.07"
+          ],
+          "period_ending": "2020-10-01",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1601596800000,
+          "0001564590-20-045741:kalv-8k_20201001.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-053399",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1306267/000120919120053399/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120053399/doc4.xml"
+      ],
+      "ciks": [
+        "0001306267",
+        "0001348911"
+      ],
+      "display_names": [
+        "Unkart Edward W  (CIK 0001306267)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-02",
+      "form": "4",
+      "id": "0001209191-20-053399:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-053399:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-053399",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001306267",
+            "0001348911"
+          ],
+          "display_names": [
+            "Unkart Edward W  (CIK 0001306267)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-10-02",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201222057"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601596800000,
+          "0001209191-20-053399:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-053398",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1640073/000120919120053398/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120053398/doc4.xml"
+      ],
+      "ciks": [
+        "0001640073",
+        "0001348911"
+      ],
+      "display_names": [
+        "Edwards Martin  (CIK 0001640073)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-02",
+      "form": "4",
+      "id": "0001209191-20-053398:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-053398:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-053398",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001640073",
+            "0001348911"
+          ],
+          "display_names": [
+            "Edwards Martin  (CIK 0001640073)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-10-02",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201222056"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601596800000,
+          "0001209191-20-053398:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-053397",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1318485/000120919120053397/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120053397/doc4.xml"
+      ],
+      "ciks": [
+        "0001318485",
+        "0001348911"
+      ],
+      "display_names": [
+        "SOLAND DANIEL B  (CIK 0001318485)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-02",
+      "form": "4",
+      "id": "0001209191-20-053397:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-053397:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-053397",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001318485",
+            "0001348911"
+          ],
+          "display_names": [
+            "SOLAND DANIEL B  (CIK 0001318485)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-10-02",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201222054"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601596800000,
+          "0001209191-20-053397:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-053396",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1318485/000120919120053396/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120053396/doc4.xml"
+      ],
+      "ciks": [
+        "0001318485",
+        "0001348911"
+      ],
+      "display_names": [
+        "SOLAND DANIEL B  (CIK 0001318485)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-02",
+      "form": "4",
+      "id": "0001209191-20-053396:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-053396:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-053396",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001318485",
+            "0001348911"
+          ],
+          "display_names": [
+            "SOLAND DANIEL B  (CIK 0001318485)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-10-02",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201222053"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601596800000,
+          "0001209191-20-053396:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-053395",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1298146/000120919120053395/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120053395/doc4.xml"
+      ],
+      "ciks": [
+        "0001298146",
+        "0001348911"
+      ],
+      "display_names": [
+        "Pereira Brian JG  (CIK 0001298146)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-02",
+      "form": "4",
+      "id": "0001209191-20-053395:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-053395:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-053395",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001298146",
+            "0001348911"
+          ],
+          "display_names": [
+            "Pereira Brian JG  (CIK 0001298146)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-10-02",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201222051"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601596800000,
+          "0001209191-20-053395:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-053394",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1207833/000120919120053394/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120053394/doc4.xml"
+      ],
+      "ciks": [
+        "0001207833",
+        "0001348911"
+      ],
+      "display_names": [
+        "ORONSKY ARNOLD L  (CIK 0001207833)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-02",
+      "form": "4",
+      "id": "0001209191-20-053394:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-053394:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-053394",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001207833",
+            "0001348911"
+          ],
+          "display_names": [
+            "ORONSKY ARNOLD L  (CIK 0001207833)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-10-02",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201222050"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601596800000,
+          "0001209191-20-053394:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-053393",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1397906/000120919120053393/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000120919120053393/doc4.xml"
+      ],
+      "ciks": [
+        "0001397906",
+        "0001348911"
+      ],
+      "display_names": [
+        "Cha Albert  (CIK 0001397906)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-02",
+      "form": "4",
+      "id": "0001209191-20-053393:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-053393:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-053393",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001397906",
+            "0001348911"
+          ],
+          "display_names": [
+            "Cha Albert  (CIK 0001397906)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-10-02",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201222040"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601596800000,
+          "0001209191-20-053393:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-043423",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156459020043423/kalv-8k_20200904.htm"
+      ],
+      "ciks": [
+        "0001348911"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "kalv-8k_20200904.htm",
+      "filed_date": "2020-09-14",
+      "form": "8-K",
+      "id": "0001564590-20-043423:kalv-8k_20200904.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-043423:kalv-8k_20200904.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-043423",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-09-14",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201173472"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-09-14",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1600041600000,
+          "0001564590-20-043423:kalv-8k_20200904.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-043418",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156459020043418/kalv-10q_20200731.htm"
+      ],
+      "ciks": [
+        "0001348911"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "kalv-10q_20200731.htm",
+      "filed_date": "2020-09-14",
+      "form": "10-Q",
+      "id": "0001564590-20-043418:kalv-10q_20200731.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-043418:kalv-10q_20200731.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-043418",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-09-14",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "201173316"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-07-31",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1600041600000,
+          "0001564590-20-043418:kalv-10q_20200731.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-229923",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000119312520229923/d949051ddef14a.htm"
+      ],
+      "ciks": [
+        "0001348911"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "d949051ddef14a.htm",
+      "filed_date": "2020-08-25",
+      "form": "DEF 14A",
+      "id": "0001193125-20-229923:d949051ddef14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-20-229923:d949051ddef14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-229923",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-08-25",
+          "file_description": "DEF 14A",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "DEF 14A",
+          "film_num": [
+            "201132447"
+          ],
+          "form": "DEF 14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-01",
+          "root_forms": [
+            "DEF 14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1598313600000,
+          "0001193125-20-229923:d949051ddef14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-031523",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156459020031523/kalv-8k_20200701.htm"
+      ],
+      "ciks": [
+        "0001348911"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "kalv-8k_20200701.htm",
+      "filed_date": "2020-07-01",
+      "form": "8-K",
+      "id": "0001564590-20-031523:kalv-8k_20200701.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-031523:kalv-8k_20200701.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-031523",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-07-01",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201006307"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-07-01",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1593561600000,
+          "0001564590-20-031523:kalv-8k_20200701.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-031501",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156459020031501/kalv-10k_20200430.htm"
+      ],
+      "ciks": [
+        "0001348911"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "kalv-10k_20200430.htm",
+      "filed_date": "2020-07-01",
+      "form": "10-K",
+      "id": "0001564590-20-031501:kalv-10k_20200430.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-031501:kalv-10k_20200430.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-031501",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-07-01",
+          "file_description": "10-K",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "201005539"
+          ],
+          "form": "10-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-04-30",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1593561600000,
+          "0001564590-20-031501:kalv-10k_20200430.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-029018",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156459020029018/kalv-8k_20200611.htm"
+      ],
+      "ciks": [
+        "0001348911"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "kalv-8k_20200611.htm",
+      "filed_date": "2020-06-11",
+      "form": "8-K",
+      "id": "0001564590-20-029018:kalv-8k_20200611.htm",
+      "items": [
+        "5.03",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-029018:kalv-8k_20200611.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-029018",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-06-11",
+          "file_description": "KALV-2020-06-11-8-K",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20957341"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.03",
+            "9.01"
+          ],
+          "period_ending": "2020-06-10",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1591833600000,
+          "0001564590-20-029018:kalv-8k_20200611.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000315066-20-001437",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000031506620001437/filing.txt",
+        "https://www.sec.gov/Archives/edgar/data/315066/000031506620001437/filing.txt"
+      ],
+      "ciks": [
+        "0001348911",
+        "0000315066"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "document_name": "filing.txt",
+      "filed_date": "2020-04-10",
+      "form": "SC 13G/A",
+      "id": "0000315066-20-001437:filing.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000315066-20-001437:filing.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000315066-20-001437",
+          "biz_locations": [
+            "Cambridge, MA",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911",
+            "0000315066"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)",
+            "FMR LLC  (CIK 0000315066)"
+          ],
+          "file_date": "2020-04-10",
+          "file_description": null,
+          "file_num": [
+            "005-88797"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20786577"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "0000"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1586476800000,
+          "0000315066-20-001437:filing.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-082504",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000119312520082504/d901839dsc13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/1778253/000119312520082504/d901839dsc13g.htm"
+      ],
+      "ciks": [
+        "0001348911",
+        "0001778253"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)",
+        "Ikarian Capital, LLC  (CIK 0001778253)"
+      ],
+      "document_name": "d901839dsc13g.htm",
+      "filed_date": "2020-03-23",
+      "form": "SC 13G",
+      "id": "0001193125-20-082504:d901839dsc13g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-20-082504:d901839dsc13g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-082504",
+          "biz_locations": [
+            "Cambridge, MA",
+            "Dallas, TX"
+          ],
+          "biz_states": [
+            "MA",
+            "TX"
+          ],
+          "ciks": [
+            "0001348911",
+            "0001778253"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)",
+            "Ikarian Capital, LLC  (CIK 0001778253)"
+          ],
+          "file_date": "2020-03-23",
+          "file_description": "SC 13G",
+          "file_num": [
+            "005-88797"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "20735191"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1584921600000,
+          "0001193125-20-082504:d901839dsc13g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-009778",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156459020009778/kalv-s8.htm"
+      ],
+      "ciks": [
+        "0001348911"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "kalv-s8.htm",
+      "filed_date": "2020-03-10",
+      "form": "S-8",
+      "id": "0001564590-20-009778:kalv-s8.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-009778:kalv-s8.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-009778",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-03-10",
+          "file_description": "S-8",
+          "file_num": [
+            "333-237059"
+          ],
+          "file_type": "S-8",
+          "film_num": [
+            "20702297"
+          ],
+          "form": "S-8",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1583798400000,
+          "0001564590-20-009778:kalv-s8.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-009764",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156459020009764/kalv-8k_20200310.htm"
+      ],
+      "ciks": [
+        "0001348911"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "kalv-8k_20200310.htm",
+      "filed_date": "2020-03-10",
+      "form": "8-K",
+      "id": "0001564590-20-009764:kalv-8k_20200310.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-009764:kalv-8k_20200310.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-009764",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-03-10",
+          "file_description": "KALV-Q3-1.31.20-8K",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20701911"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-03-10",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1583798400000,
+          "0001564590-20-009764:kalv-8k_20200310.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-009752",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156459020009752/kalv-10q_20200131.htm"
+      ],
+      "ciks": [
+        "0001348911"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "kalv-10q_20200131.htm",
+      "filed_date": "2020-03-10",
+      "form": "10-Q",
+      "id": "0001564590-20-009752:kalv-10q_20200131.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-009752:kalv-10q_20200131.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-009752",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-03-10",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "20701746"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-01-31",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1583798400000,
+          "0001564590-20-009752:kalv-10q_20200131.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-021718",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000110465920021718/tm207544d2_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1602264/000110465920021718/tm207544d2_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001348911",
+        "0001602264"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)",
+        "Venrock Healthcare Capital Partners II, L.P.  (CIK 0001602264)"
+      ],
+      "document_name": "tm207544d2_sc13ga.htm",
+      "filed_date": "2020-02-14",
+      "form": "SC 13G/A",
+      "id": "0001104659-20-021718:tm207544d2_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-021718:tm207544d2_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-021718",
+          "biz_locations": [
+            "Cambridge, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001348911",
+            "0001602264"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)",
+            "Venrock Healthcare Capital Partners II, L.P.  (CIK 0001602264)"
+          ],
+          "file_date": "2020-02-14",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-88797"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20619616"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581638400000,
+          "0001104659-20-021718:tm207544d2_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001213900-20-003600",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000121390020003600/sc13g0220a1vivoven6_kalvista.htm",
+        "https://www.sec.gov/Archives/edgar/data/1469547/000121390020003600/sc13g0220a1vivoven6_kalvista.htm"
+      ],
+      "ciks": [
+        "0001348911",
+        "0001469547"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)",
+        "Vivo Ventures VI, LLC  (CIK 0001469547)"
+      ],
+      "document_name": "sc13g0220a1vivoven6_kalvista.htm",
+      "filed_date": "2020-02-13",
+      "form": "SC 13G/A",
+      "id": "0001213900-20-003600:sc13g0220a1vivoven6_kalvista.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001213900-20-003600:sc13g0220a1vivoven6_kalvista.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001213900-20-003600",
+          "biz_locations": [
+            "Cambridge, MA",
+            "Palo Alto, CA"
+          ],
+          "biz_states": [
+            "MA",
+            "CA"
+          ],
+          "ciks": [
+            "0001348911",
+            "0001469547"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)",
+            "Vivo Ventures VI, LLC  (CIK 0001469547)"
+          ],
+          "file_date": "2020-02-13",
+          "file_description": "AMENDMENT NO. 1 TO SCHEDULE 13G",
+          "file_num": [
+            "005-88797"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20611101"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "CA"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581552000000,
+          "0001213900-20-003600:sc13g0220a1vivoven6_kalvista.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000199",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000119380520000199/e619363_sc13ga-kalvista.htm",
+        "https://www.sec.gov/Archives/edgar/data/1352546/000119380520000199/e619363_sc13ga-kalvista.htm"
+      ],
+      "ciks": [
+        "0001348911",
+        "0001352546"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)",
+        "Flynn James E  (CIK 0001352546)"
+      ],
+      "document_name": "e619363_sc13ga-kalvista.htm",
+      "filed_date": "2020-02-13",
+      "form": "SC 13G/A",
+      "id": "0001193805-20-000199:e619363_sc13ga-kalvista.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000199:e619363_sc13ga-kalvista.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000199",
+          "biz_locations": [
+            "Cambridge, MA",
+            ""
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911",
+            "0001352546"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)",
+            "Flynn James E  (CIK 0001352546)"
+          ],
+          "file_date": "2020-02-13",
+          "file_description": null,
+          "file_num": [
+            "005-88797"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20608490"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            ""
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581552000000,
+          "0001193805-20-000199:e619363_sc13ga-kalvista.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001567619-20-002454",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1691102/000156761920002454/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156761920002454/doc1.xml"
+      ],
+      "ciks": [
+        "0001691102",
+        "0001348911"
+      ],
+      "display_names": [
+        "Yea Christopher  (CIK 0001691102)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc1.xml",
+      "filed_date": "2020-02-07",
+      "form": "4",
+      "id": "0001567619-20-002454:doc1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001567619-20-002454:doc1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001567619-20-002454",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001691102",
+            "0001348911"
+          ],
+          "display_names": [
+            "Yea Christopher  (CIK 0001691102)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-02-07",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20588433"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-02-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1581033600000,
+          "0001567619-20-002454:doc1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001567619-20-002453",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1691090/000156761920002453/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156761920002453/doc1.xml"
+      ],
+      "ciks": [
+        "0001691090",
+        "0001348911"
+      ],
+      "display_names": [
+        "Feener Edward P.  (CIK 0001691090)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc1.xml",
+      "filed_date": "2020-02-07",
+      "form": "4",
+      "id": "0001567619-20-002453:doc1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001567619-20-002453:doc1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001567619-20-002453",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001691090",
+            "0001348911"
+          ],
+          "display_names": [
+            "Feener Edward P.  (CIK 0001691090)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-02-07",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20588424"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-02-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1581033600000,
+          "0001567619-20-002453:doc1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001567619-20-002452",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1690920/000156761920002452/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1348911/000156761920002452/doc1.xml"
+      ],
+      "ciks": [
+        "0001690920",
+        "0001348911"
+      ],
+      "display_names": [
+        "Crockett Thomas Andrew  (CIK 0001690920)",
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+      ],
+      "document_name": "doc1.xml",
+      "filed_date": "2020-02-07",
+      "form": "4",
+      "id": "0001567619-20-002452:doc1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001567619-20-002452:doc1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001567619-20-002452",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001690920",
+            "0001348911"
+          ],
+          "display_names": [
+            "Crockett Thomas Andrew  (CIK 0001690920)",
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)"
+          ],
+          "file_date": "2020-02-07",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-36830"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20588398"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-02-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1581033600000,
+          "0001567619-20-002452:doc1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000315066-20-001058",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000031506620001058/filing.txt",
+        "https://www.sec.gov/Archives/edgar/data/315066/000031506620001058/filing.txt"
+      ],
+      "ciks": [
+        "0001348911",
+        "0000315066"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "document_name": "filing.txt",
+      "filed_date": "2020-02-07",
+      "form": "SC 13G",
+      "id": "0000315066-20-001058:filing.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000315066-20-001058:filing.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000315066-20-001058",
+          "biz_locations": [
+            "Cambridge, MA",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911",
+            "0000315066"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)",
+            "FMR LLC  (CIK 0000315066)"
+          ],
+          "file_date": "2020-02-07",
+          "file_description": null,
+          "file_num": [
+            "005-88797"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "20585782"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "0000"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581033600000,
+          "0000315066-20-001058:filing.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0001580642-20-000514",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1348911/000158064220000514/kalvistapharma13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1442891/000158064220000514/kalvistapharma13ga.htm"
+      ],
+      "ciks": [
+        "0001348911",
+        "0001442891"
+      ],
+      "display_names": [
+        "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)",
+        "EVENTIDE ASSET MANAGEMENT, LLC  (CIK 0001442891)"
+      ],
+      "document_name": "kalvistapharma13ga.htm",
+      "filed_date": "2020-02-04",
+      "form": "SC 13G/A",
+      "id": "0001580642-20-000514:kalvistapharma13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001580642-20-000514:kalvistapharma13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001580642-20-000514",
+          "biz_locations": [
+            "Cambridge, MA",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001348911",
+            "0001442891"
+          ],
+          "display_names": [
+            "KalVista Pharmaceuticals, Inc.  (KALV)  (CIK 0001348911)",
+            "EVENTIDE ASSET MANAGEMENT, LLC  (CIK 0001442891)"
+          ],
+          "file_date": "2020-02-04",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-88797"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20573528"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1580774400000,
+          "0001580642-20-000514:kalvistapharma13ga.htm"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2020-01-01",
+  "ticker": "KALV",
+  "total": 47
+}

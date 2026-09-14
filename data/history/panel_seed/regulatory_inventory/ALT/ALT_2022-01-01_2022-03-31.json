@@ -1,0 +1,1814 @@
+{
+  "cik": 1326190,
+  "end_date": "2022-03-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:53:44.042509+00:00",
+      "returned": 25,
+      "source_bytes": 19335,
+      "source_relative_path": "raw_sources/28d00f760c6133807664bb79f82fe8c997ac204506fd519e4bd0dc3d149b4ee0.json",
+      "source_sha256": "28d00f760c6133807664bb79f82fe8c997ac204506fd519e4bd0dc3d149b4ee0",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001326190&dateRange=custom&startdt=2022-01-01&enddt=2022-03-31&from=0&size=100",
+      "total": 25
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001104659-22-041223",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1515813/000110465922041223/tm2211105-1_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922041223/tm2211105-1_4seq1.xml"
+      ],
+      "ciks": [
+        "0001515813",
+        "0001326190"
+      ],
+      "display_names": [
+        "Garg Vipin K  (CIK 0001515813)",
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "tm2211105-1_4seq1.xml",
+      "filed_date": "2022-03-31",
+      "form": "4",
+      "id": "0001104659-22-041223:tm2211105-1_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-041223:tm2211105-1_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-041223",
+          "biz_locations": [
+            "",
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001515813",
+            "0001326190"
+          ],
+          "display_names": [
+            "Garg Vipin K  (CIK 0001515813)",
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-03-31",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-32587"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22794998"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-03-30",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1648684800000,
+          "0001104659-22-041223:tm2211105-1_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001214659-22-004324",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326190/000121465922004324/e315221sc13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/1191935/000121465922004324/e315221sc13g.htm"
+      ],
+      "ciks": [
+        "0001326190",
+        "0001191935"
+      ],
+      "display_names": [
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+        "TANG CAPITAL PARTNERS LP  (CIK 0001191935)"
+      ],
+      "document_name": "e315221sc13g.htm",
+      "filed_date": "2022-03-24",
+      "form": "SC 13G",
+      "id": "0001214659-22-004324:e315221sc13g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001214659-22-004324:e315221sc13g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001214659-22-004324",
+          "biz_locations": [
+            "Gaithersburg, MD",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "MD",
+            "CA"
+          ],
+          "ciks": [
+            "0001326190",
+            "0001191935"
+          ],
+          "display_names": [
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+            "TANG CAPITAL PARTNERS LP  (CIK 0001191935)"
+          ],
+          "file_date": "2022-03-24",
+          "file_description": null,
+          "file_num": [
+            "005-80900"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "22766497"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1648080000000,
+          "0001214659-22-004324:e315221sc13g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-22-003659",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326190/000155837022003659/alt-20211231x10k.htm"
+      ],
+      "ciks": [
+        "0001326190"
+      ],
+      "display_names": [
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "alt-20211231x10k.htm",
+      "filed_date": "2022-03-15",
+      "form": "10-K",
+      "id": "0001558370-22-003659:alt-20211231x10k.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-22-003659:alt-20211231x10k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-22-003659",
+          "biz_locations": [
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001326190"
+          ],
+          "display_names": [
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-03-15",
+          "file_description": "10-K",
+          "file_num": [
+            "001-32587"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "22741095"
+          ],
+          "form": "10-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1647302400000,
+          "0001558370-22-003659:alt-20211231x10k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-22-003610",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326190/000155837022003610/alt-20220315x8k.htm"
+      ],
+      "ciks": [
+        "0001326190"
+      ],
+      "display_names": [
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "alt-20220315x8k.htm",
+      "filed_date": "2022-03-15",
+      "form": "8-K",
+      "id": "0001558370-22-003610:alt-20220315x8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001558370-22-003610:alt-20220315x8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-22-003610",
+          "biz_locations": [
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001326190"
+          ],
+          "display_names": [
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-03-15",
+          "file_description": "8-K",
+          "file_num": [
+            "001-32587"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22739090"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2022-03-15",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1647302400000,
+          "0001558370-22-003610:alt-20220315x8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-033957",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922033957/tm229203d1_s8.htm"
+      ],
+      "ciks": [
+        "0001326190"
+      ],
+      "display_names": [
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "tm229203d1_s8.htm",
+      "filed_date": "2022-03-15",
+      "form": "S-8",
+      "id": "0001104659-22-033957:tm229203d1_s8.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-033957:tm229203d1_s8.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-033957",
+          "biz_locations": [
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001326190"
+          ],
+          "display_names": [
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-03-15",
+          "file_description": "FORM S-8",
+          "file_num": [
+            "333-263569"
+          ],
+          "file_type": "S-8",
+          "film_num": [
+            "22741455"
+          ],
+          "form": "S-8",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1647302400000,
+          "0001104659-22-033957:tm229203d1_s8.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-029462",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1787762/000110465922029462/tm228203-1_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922029462/tm228203-1_4seq1.xml"
+      ],
+      "ciks": [
+        "0001787762",
+        "0001326190"
+      ],
+      "display_names": [
+        "Harris Matthew Scott  (CIK 0001787762)",
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "tm228203-1_4seq1.xml",
+      "filed_date": "2022-03-02",
+      "form": "4",
+      "id": "0001104659-22-029462:tm228203-1_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-029462:tm228203-1_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-029462",
+          "biz_locations": [
+            "",
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001787762",
+            "0001326190"
+          ],
+          "display_names": [
+            "Harris Matthew Scott  (CIK 0001787762)",
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-03-02",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-32587"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22705831"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-02-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1646179200000,
+          "0001104659-22-029462:tm228203-1_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-028856",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1515813/000110465922028856/tm228070d1_4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922028856/tm228070d1_4.xml"
+      ],
+      "ciks": [
+        "0001515813",
+        "0001326190"
+      ],
+      "display_names": [
+        "Garg Vipin K  (CIK 0001515813)",
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "tm228070d1_4.xml",
+      "filed_date": "2022-03-01",
+      "form": "4",
+      "id": "0001104659-22-028856:tm228070d1_4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-028856:tm228070d1_4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-028856",
+          "biz_locations": [
+            "",
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001515813",
+            "0001326190"
+          ],
+          "display_names": [
+            "Garg Vipin K  (CIK 0001515813)",
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-03-01",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-32587"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22700521"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-02-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1646092800000,
+          "0001104659-22-028856:tm228070d1_4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-024420",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1428764/000110465922024420/tm226968-1_4a.xml",
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922024420/tm226968-1_4a.xml"
+      ],
+      "ciks": [
+        "0001428764",
+        "0001326190"
+      ],
+      "display_names": [
+        "Drutz David  (CIK 0001428764)",
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "tm226968-1_4a.xml",
+      "filed_date": "2022-02-16",
+      "form": "4/A",
+      "id": "0001104659-22-024420:tm226968-1_4a.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-024420:tm226968-1_4a.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-024420",
+          "biz_locations": [
+            "",
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001428764",
+            "0001326190"
+          ],
+          "display_names": [
+            "Drutz David  (CIK 0001428764)",
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-02-16",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-32587"
+          ],
+          "file_type": "4/A",
+          "film_num": [
+            "22645429"
+          ],
+          "form": "4/A",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-01-25",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1644969600000,
+          "0001104659-22-024420:tm226968-1_4a.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001178913-22-000596",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326190/000117891322000596/zk2227289.htm",
+        "https://www.sec.gov/Archives/edgar/data/1496201/000117891322000596/zk2227289.htm"
+      ],
+      "ciks": [
+        "0001326190",
+        "0001496201"
+      ],
+      "display_names": [
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+        "SPHERA FUNDS MANAGEMENT LTD.  (CIK 0001496201)"
+      ],
+      "document_name": "zk2227289.htm",
+      "filed_date": "2022-02-14",
+      "form": "SC 13G/A",
+      "id": "0001178913-22-000596:zk2227289.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001178913-22-000596:zk2227289.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001178913-22-000596",
+          "biz_locations": [
+            "Gaithersburg, MD",
+            "Tel Aviv, L3"
+          ],
+          "biz_states": [
+            "MD",
+            "L3"
+          ],
+          "ciks": [
+            "0001326190",
+            "0001496201"
+          ],
+          "display_names": [
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+            "SPHERA FUNDS MANAGEMENT LTD.  (CIK 0001496201)"
+          ],
+          "file_date": "2022-02-14",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-80900"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22624619"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "L3"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644796800000,
+          "0001178913-22-000596:zk2227289.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-023082",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1409939/000110465922023082/tm226690d1_5.xml",
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922023082/tm226690d1_5.xml"
+      ],
+      "ciks": [
+        "0001409939",
+        "0001326190"
+      ],
+      "display_names": [
+        "GILL JOHN  (CIK 0001409939)",
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "tm226690d1_5.xml",
+      "filed_date": "2022-02-14",
+      "form": "5",
+      "id": "0001104659-22-023082:tm226690d1_5.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-023082:tm226690d1_5.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-023082",
+          "biz_locations": [
+            "",
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001409939",
+            "0001326190"
+          ],
+          "display_names": [
+            "GILL JOHN  (CIK 0001409939)",
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-02-14",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-32587"
+          ],
+          "file_type": "5",
+          "film_num": [
+            "22634220"
+          ],
+          "form": "5",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-12-31",
+          "root_forms": [
+            "5"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1644796800000,
+          "0001104659-22-023082:tm226690d1_5.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-022895",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922022895/tm226174d15_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1602264/000110465922022895/tm226174d15_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001326190",
+        "0001602264"
+      ],
+      "display_names": [
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+        "Venrock Healthcare Capital Partners II, L.P.  (CIK 0001602264)"
+      ],
+      "document_name": "tm226174d15_sc13ga.htm",
+      "filed_date": "2022-02-14",
+      "form": "SC 13G/A",
+      "id": "0001104659-22-022895:tm226174d15_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-022895:tm226174d15_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-022895",
+          "biz_locations": [
+            "Gaithersburg, MD",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MD",
+            "NY"
+          ],
+          "ciks": [
+            "0001326190",
+            "0001602264"
+          ],
+          "display_names": [
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+            "Venrock Healthcare Capital Partners II, L.P.  (CIK 0001602264)"
+          ],
+          "file_date": "2022-02-14",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-80900"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22632458"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644796800000,
+          "0001104659-22-022895:tm226174d15_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-022804",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922022804/tm224436d4_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1263508/000110465922022804/tm224436d4_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001326190",
+        "0001263508"
+      ],
+      "display_names": [
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+        "BAKER BROS. ADVISORS LP  (CIK 0001263508)"
+      ],
+      "document_name": "tm224436d4_sc13ga.htm",
+      "filed_date": "2022-02-14",
+      "form": "SC 13G/A",
+      "id": "0001104659-22-022804:tm224436d4_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-022804:tm224436d4_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-022804",
+          "biz_locations": [
+            "Gaithersburg, MD",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MD",
+            "NY"
+          ],
+          "ciks": [
+            "0001326190",
+            "0001263508"
+          ],
+          "display_names": [
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+            "BAKER BROS. ADVISORS LP  (CIK 0001263508)"
+          ],
+          "file_date": "2022-02-14",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-80900"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22632015"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644796800000,
+          "0001104659-22-022804:tm224436d4_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000930413-22-000207",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326190/000093041322000207/c103001_sc13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/939222/000093041322000207/c103001_sc13g.htm"
+      ],
+      "ciks": [
+        "0001326190",
+        "0000939222"
+      ],
+      "display_names": [
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+        "TEACHERS ADVISORS, LLC  (CIK 0000939222)"
+      ],
+      "document_name": "c103001_sc13g.htm",
+      "filed_date": "2022-02-11",
+      "form": "SC 13G",
+      "id": "0000930413-22-000207:c103001_sc13g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000930413-22-000207:c103001_sc13g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000930413-22-000207",
+          "biz_locations": [
+            "Gaithersburg, MD",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MD",
+            "NY"
+          ],
+          "ciks": [
+            "0001326190",
+            "0000939222"
+          ],
+          "display_names": [
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+            "TEACHERS ADVISORS, LLC  (CIK 0000939222)"
+          ],
+          "file_date": "2022-02-11",
+          "file_description": null,
+          "file_num": [
+            "005-80900"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "22619563"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644537600000,
+          "0000930413-22-000207:c103001_sc13g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000930413-22-000206",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326190/000093041322000206/c103000_sc13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/887793/000093041322000206/c103000_sc13g.htm"
+      ],
+      "ciks": [
+        "0001326190",
+        "0000887793"
+      ],
+      "display_names": [
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+        "TIAA CREF INVESTMENT MANAGEMENT LLC  (CIK 0000887793)"
+      ],
+      "document_name": "c103000_sc13g.htm",
+      "filed_date": "2022-02-11",
+      "form": "SC 13G",
+      "id": "0000930413-22-000206:c103000_sc13g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000930413-22-000206:c103000_sc13g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000930413-22-000206",
+          "biz_locations": [
+            "Gaithersburg, MD",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MD",
+            "NY"
+          ],
+          "ciks": [
+            "0001326190",
+            "0000887793"
+          ],
+          "display_names": [
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+            "TIAA CREF INVESTMENT MANAGEMENT LLC  (CIK 0000887793)"
+          ],
+          "file_date": "2022-02-11",
+          "file_description": null,
+          "file_num": [
+            "005-80900"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "22619558"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644537600000,
+          "0000930413-22-000206:c103000_sc13g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000093751-22-000173",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326190/000009375122000173/ALTIMMUNE_INC.txt",
+        "https://www.sec.gov/Archives/edgar/data/93751/000009375122000173/ALTIMMUNE_INC.txt"
+      ],
+      "ciks": [
+        "0001326190",
+        "0000093751"
+      ],
+      "display_names": [
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+        "STATE STREET CORP  (STT, STT-PG)  (CIK 0000093751)"
+      ],
+      "document_name": "ALTIMMUNE_INC.txt",
+      "filed_date": "2022-02-11",
+      "form": "SC 13G/A",
+      "id": "0000093751-22-000173:ALTIMMUNE_INC.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000093751-22-000173:ALTIMMUNE_INC.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000093751-22-000173",
+          "biz_locations": [
+            "Gaithersburg, MD",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MD",
+            "MA"
+          ],
+          "ciks": [
+            "0001326190",
+            "0000093751"
+          ],
+          "display_names": [
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+            "STATE STREET CORP  (STT, STT-PG)  (CIK 0000093751)"
+          ],
+          "file_date": "2022-02-11",
+          "file_description": null,
+          "file_num": [
+            "005-80900"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22616744"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "MA"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6022"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644537600000,
+          "0000093751-22-000173:ALTIMMUNE_INC.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0000834237-22-007317",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326190/000083423722007317/us02155h2004_020422.txt",
+        "https://www.sec.gov/Archives/edgar/data/1364742/000083423722007317/us02155h2004_020422.txt"
+      ],
+      "ciks": [
+        "0001326190",
+        "0001364742"
+      ],
+      "display_names": [
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+        "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+      ],
+      "document_name": "us02155h2004_020422.txt",
+      "filed_date": "2022-02-04",
+      "form": "SC 13G",
+      "id": "0000834237-22-007317:us02155h2004_020422.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000834237-22-007317:us02155h2004_020422.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000834237-22-007317",
+          "biz_locations": [
+            "Gaithersburg, MD",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MD",
+            "NY"
+          ],
+          "ciks": [
+            "0001326190",
+            "0001364742"
+          ],
+          "display_names": [
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+            "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+          ],
+          "file_date": "2022-02-04",
+          "file_description": null,
+          "file_num": [
+            "005-80900"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "22593544"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6211"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1643932800000,
+          "0000834237-22-007317:us02155h2004_020422.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-011519",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1787762/000110465922011519/tm225504-3_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922011519/tm225504-3_4seq1.xml"
+      ],
+      "ciks": [
+        "0001787762",
+        "0001326190"
+      ],
+      "display_names": [
+        "Harris Matthew Scott  (CIK 0001787762)",
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "tm225504-3_4seq1.xml",
+      "filed_date": "2022-02-03",
+      "form": "4",
+      "id": "0001104659-22-011519:tm225504-3_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-011519:tm225504-3_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-011519",
+          "biz_locations": [
+            "",
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001787762",
+            "0001326190"
+          ],
+          "display_names": [
+            "Harris Matthew Scott  (CIK 0001787762)",
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-02-03",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-32587"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22590430"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-01-31",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1643846400000,
+          "0001104659-22-011519:tm225504-3_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-011518",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1515813/000110465922011518/tm225504-2_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922011518/tm225504-2_4seq1.xml"
+      ],
+      "ciks": [
+        "0001515813",
+        "0001326190"
+      ],
+      "display_names": [
+        "Garg Vipin K  (CIK 0001515813)",
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "tm225504-2_4seq1.xml",
+      "filed_date": "2022-02-03",
+      "form": "4",
+      "id": "0001104659-22-011518:tm225504-2_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-011518:tm225504-2_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-011518",
+          "biz_locations": [
+            "",
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001515813",
+            "0001326190"
+          ],
+          "display_names": [
+            "Garg Vipin K  (CIK 0001515813)",
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-02-03",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-32587"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22590429"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-01-31",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1643846400000,
+          "0001104659-22-011518:tm225504-2_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-011517",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1705905/000110465922011517/tm225504-1_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922011517/tm225504-1_4seq1.xml"
+      ],
+      "ciks": [
+        "0001705905",
+        "0001326190"
+      ],
+      "display_names": [
+        "Roberts M Scot  (CIK 0001705905)",
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "tm225504-1_4seq1.xml",
+      "filed_date": "2022-02-03",
+      "form": "4",
+      "id": "0001104659-22-011517:tm225504-1_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-011517:tm225504-1_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-011517",
+          "biz_locations": [
+            "",
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001705905",
+            "0001326190"
+          ],
+          "display_names": [
+            "Roberts M Scot  (CIK 0001705905)",
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-02-03",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-32587"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22590427"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-01-31",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1643846400000,
+          "0001104659-22-011517:tm225504-1_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-009882",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1515813/000110465922009882/tm224965-1_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922009882/tm224965-1_4seq1.xml"
+      ],
+      "ciks": [
+        "0001515813",
+        "0001326190"
+      ],
+      "display_names": [
+        "Garg Vipin K  (CIK 0001515813)",
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "tm224965-1_4seq1.xml",
+      "filed_date": "2022-01-31",
+      "form": "4",
+      "id": "0001104659-22-009882:tm224965-1_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-009882:tm224965-1_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-009882",
+          "biz_locations": [
+            "",
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001515813",
+            "0001326190"
+          ],
+          "display_names": [
+            "Garg Vipin K  (CIK 0001515813)",
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-01-31",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-32587"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22576033"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-01-30",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1643587200000,
+          "0001104659-22-009882:tm224965-1_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-007911",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1428764/000110465922007911/tm224587-1_4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922007911/tm224587-1_4.xml"
+      ],
+      "ciks": [
+        "0001428764",
+        "0001326190"
+      ],
+      "display_names": [
+        "Drutz David  (CIK 0001428764)",
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "tm224587-1_4.xml",
+      "filed_date": "2022-01-26",
+      "form": "4",
+      "id": "0001104659-22-007911:tm224587-1_4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-007911:tm224587-1_4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-007911",
+          "biz_locations": [
+            "",
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001428764",
+            "0001326190"
+          ],
+          "display_names": [
+            "Drutz David  (CIK 0001428764)",
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-01-26",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-32587"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22559235"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-01-25",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1643155200000,
+          "0001104659-22-007911:tm224587-1_4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-000629",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1515806/000110465922000629/tm2136680-3_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922000629/tm2136680-3_4seq1.xml"
+      ],
+      "ciks": [
+        "0001515806",
+        "0001326190"
+      ],
+      "display_names": [
+        "Eisenstadt Richard I  (CIK 0001515806)",
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "tm2136680-3_4seq1.xml",
+      "filed_date": "2022-01-04",
+      "form": "4",
+      "id": "0001104659-22-000629:tm2136680-3_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-000629:tm2136680-3_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-000629",
+          "biz_locations": [
+            "",
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001515806",
+            "0001326190"
+          ],
+          "display_names": [
+            "Eisenstadt Richard I  (CIK 0001515806)",
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-01-04",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-32587"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22504001"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-12-31",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1641254400000,
+          "0001104659-22-000629:tm2136680-3_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-000626",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1515806/000110465922000626/tm2136680-2_3seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922000626/tm2136680-2_3seq1.xml"
+      ],
+      "ciks": [
+        "0001515806",
+        "0001326190"
+      ],
+      "display_names": [
+        "Eisenstadt Richard I  (CIK 0001515806)",
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "tm2136680-2_3seq1.xml",
+      "filed_date": "2022-01-04",
+      "form": "3",
+      "id": "0001104659-22-000626:tm2136680-2_3seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-000626:tm2136680-2_3seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-000626",
+          "biz_locations": [
+            "",
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001515806",
+            "0001326190"
+          ],
+          "display_names": [
+            "Eisenstadt Richard I  (CIK 0001515806)",
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-01-04",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-32587"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "22503990"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-12-31",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1641254400000,
+          "0001104659-22-000626:tm2136680-2_3seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-000547",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1515813/000110465922000547/tm2136680d1_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1326190/000110465922000547/tm2136680d1_4seq1.xml"
+      ],
+      "ciks": [
+        "0001515813",
+        "0001326190"
+      ],
+      "display_names": [
+        "Garg Vipin K  (CIK 0001515813)",
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+      ],
+      "document_name": "tm2136680d1_4seq1.xml",
+      "filed_date": "2022-01-03",
+      "form": "4",
+      "id": "0001104659-22-000547:tm2136680d1_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-000547:tm2136680d1_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-000547",
+          "biz_locations": [
+            "",
+            "Gaithersburg, MD"
+          ],
+          "biz_states": [
+            "MD"
+          ],
+          "ciks": [
+            "0001515813",
+            "0001326190"
+          ],
+          "display_names": [
+            "Garg Vipin K  (CIK 0001515813)",
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)"
+          ],
+          "file_date": "2022-01-03",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-32587"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22503473"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-12-30",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1641168000000,
+          "0001104659-22-000547:tm2136680d1_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000919574-22-000004",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326190/000091957422000004/d9127902_13-g.htm",
+        "https://www.sec.gov/Archives/edgar/data/1791827/000091957422000004/d9127902_13-g.htm"
+      ],
+      "ciks": [
+        "0001326190",
+        "0001791827"
+      ],
+      "display_names": [
+        "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+        "Avidity Partners Management LP  (CIK 0001791827)"
+      ],
+      "document_name": "d9127902_13-g.htm",
+      "filed_date": "2022-01-03",
+      "form": "SC 13G",
+      "id": "0000919574-22-000004:d9127902_13-g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000919574-22-000004:d9127902_13-g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000919574-22-000004",
+          "biz_locations": [
+            "Gaithersburg, MD",
+            "Dallas, TX"
+          ],
+          "biz_states": [
+            "MD",
+            "TX"
+          ],
+          "ciks": [
+            "0001326190",
+            "0001791827"
+          ],
+          "display_names": [
+            "Altimmune, Inc.  (ALT)  (CIK 0001326190)",
+            "Avidity Partners Management LP  (CIK 0001791827)"
+          ],
+          "file_date": "2022-01-03",
+          "file_description": null,
+          "file_num": [
+            "005-80900"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "22501202"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1641168000000,
+          "0000919574-22-000004:d9127902_13-g.htm"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2022-01-01",
+  "ticker": "ALT",
+  "total": 25
+}

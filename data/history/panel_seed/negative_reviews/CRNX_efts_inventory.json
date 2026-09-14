@@ -1,0 +1,18 @@
+{
+  "schema_version": "efts-current-inventory-discovery-v1",
+  "ticker": "CRNX",
+  "cik": 1658247,
+  "start_date": "2020-01-01",
+  "end_date": "2022-03-31",
+  "receipts": [
+    {
+      "source_url": "https://efts.sec.gov/LATEST/search-index?ciks=0001658247&dateRange=custom&startdt=2020-01-01&enddt=2022-03-31&from=0&size=100",
+      "retrieved_at": "2026-09-08T19:49:16.897332+00:00",
+      "zero_padded_cik": "0001658247",
+      "failure": "HTTP Error 500: Internal Server Error"
+    }
+  ],
+  "hits": [],
+  "returned_hit_count": 0,
+  "complete": false
+}

@@ -1,0 +1,116 @@
+{
+  "approved_membership_valid_from": "2020-09-30T00:00:00+00:00",
+  "as_known_at_observation_verified": false,
+  "cohort_entry_at": "2020-12-21T00:00:00+00:00",
+  "cohort_selection_changed": false,
+  "document_filer_cik": 1557142,
+  "evidence_paraphrase": "The FY2020 issuer filing describes the transfer of the same KDMN common stock from NYSE, effective after trading October 23, 2020, to Nasdaq, where trading actually commenced October 26. The October 13 issuer release says KDMN is retained. The original September 2021 proxy separately reports the same common stock's historical trading range over the 52 weeks ending September 2, 2021, covering September 30-December 30, 2020. The exchange changes within the reviewed security interval.",
+  "exchange_segment_note": "October 24-25 were the intervening weekend; the filing describes a listing transfer of the same common stock, not a security replacement. Nasdaq remains the exchange at cohort entry and observation.",
+  "historical_exchange_segments": [
+    {
+      "boundary_precision": "date",
+      "end_basis": "Close of trading on October 23 per issuer disclosure; no exact acceptance or execution timestamp asserted.",
+      "end_date_inclusive": "2020-10-23",
+      "exchange": "NYSE",
+      "start_date": "2020-09-30",
+      "ticker": "KDMN"
+    },
+    {
+      "boundary_precision": "date",
+      "end_date_inclusive": "2020-12-30",
+      "exchange": "Nasdaq",
+      "start_basis": "Actual trading commencement stated in FY2020 Item 5.",
+      "start_date": "2020-10-26",
+      "ticker": "KDMN"
+    }
+  ],
+  "historical_identity_reconstruction": true,
+  "immutable_document_uri": "https://www.sec.gov/Archives/edgar/data/1557142/000155714221000022/kdmn-20201231x10k.htm",
+  "independent_human_review": false,
+  "issuer": {
+    "cik": 1557142,
+    "company_name": "Kadmon Holdings, Inc.",
+    "ticker": "KDMN"
+  },
+  "labels_or_outcome_clocks_changed": false,
+  "limitations": [
+    "Actual review and capture occurred in September 2026; this is retrospective identity adjudication, not a contemporaneous archived review.",
+    "The archived bytes are the actual web-tool representation, not original SEC HTML. Immutable accession-specific SEC URLs identify the original disclosures.",
+    "The interval establishes reviewed common-security identity and exchange history; it does not assert uninterrupted executable liquidity, complete corporate-action coverage or daily absence of trading halts.",
+    "Post-observation filing text is used only to reconstruct historical security identity. No offer prices, acquisition terms or later financial disclosures are market-feature values."
+  ],
+  "original_publisher_bytes_archived": false,
+  "original_source_sha256": null,
+  "preserved_membership_valid_until": "2021-09-21T00:00:00+00:00",
+  "primary_source_uri": "https://www.sec.gov/Archives/edgar/data/1557142/000155714221000022/kdmn-20201231x10k.htm",
+  "prior_membership_review": {
+    "source_bytes": 3036,
+    "source_relative_path": "positive_reviews/listing_lookback_20260913/KDMN_membership_review_prior_e669769d1dcf88e560b6d8ed414d860d11bd2f3b3fe47a024a8bb70301a8378a.json",
+    "source_sha256": "e669769d1dcf88e560b6d8ed414d860d11bd2f3b3fe47a024a8bb70301a8378a",
+    "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/KDMN_membership_review_prior_e669769d1dcf88e560b6d8ed414d860d11bd2f3b3fe47a024a8bb70301a8378a.json"
+  },
+  "publication_date": null,
+  "publication_time_limitation": "Document dateline/signature was reviewed; an independently accessible filing-index publication or acceptance time was not obtained. No publication clock is backdated from this review.",
+  "publication_timestamp_precision": "unverified",
+  "raw_download_probe": {
+    "source_bytes": 322,
+    "source_relative_path": "positive_reviews/listing_lookback_20260913/KDMN_raw_probe.json",
+    "source_sha256": "2aad3fb6474a86fad655f0b0e0ac56c158f3034b0064e7c72bf6567cfa1edf84",
+    "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/KDMN_raw_probe.json"
+  },
+  "requested_lookback_end_date": "2020-12-30",
+  "requested_lookback_start_date": "2020-09-30",
+  "review_scope": "Retrospective same-issuer common-equity listing and ticker identity for the bounded market-feature lookback, using explicit historical trading disclosures. Not a new outcome or pending-transaction review.",
+  "reviewed_at": "2026-09-13T16:15:03.687486+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "schema_version": "reviewed-listing-lookback-v1",
+  "source_captures": [
+    {
+      "original_publisher_bytes_archived": false,
+      "original_source_sha256": null,
+      "retrieval_timestamp_basis": "Conservative current-session capture upper bound; exact HTTP retrieval time not exposed by web tool.",
+      "retrieved_at": "2026-09-13T16:13:05Z",
+      "source_bytes": 32916,
+      "source_content_format": "browser_extract",
+      "source_relative_path": "positive_reviews/listing_lookback_20260913/listing_KDMN_discovery_20260913_capture.json",
+      "source_sha256": "bd42248d721073bd9da8718aeed6f199745afcc3d5ced19692e5b480aa392ef4",
+      "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/listing_KDMN_discovery_20260913_capture.json",
+      "transport_representation": "web_tool_extracted_text_response"
+    },
+    {
+      "original_publisher_bytes_archived": false,
+      "original_source_sha256": null,
+      "retrieval_timestamp_basis": "Conservative current-session capture upper bound; exact HTTP retrieval time not exposed by web tool.",
+      "retrieved_at": "2026-09-13T16:13:05Z",
+      "source_bytes": 30984,
+      "source_content_format": "browser_extract",
+      "source_relative_path": "positive_reviews/listing_lookback_20260913/listing_final_KDMN_capture.json",
+      "source_sha256": "39e38d03463f518b33241421f36fe1176241956123b751f3b08e4e19003e285f",
+      "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/listing_final_KDMN_capture.json",
+      "transport_representation": "web_tool_extracted_text_response"
+    },
+    {
+      "original_publisher_bytes_archived": false,
+      "original_source_sha256": null,
+      "retrieval_timestamp_basis": "Conservative current-session capture upper bound; exact HTTP retrieval time not exposed by web tool.",
+      "retrieved_at": "2026-09-13T16:13:05Z",
+      "source_bytes": 33575,
+      "source_content_format": "browser_extract",
+      "source_relative_path": "positive_reviews/listing_lookback_20260913/listing_document_dates_20260913_capture.json",
+      "source_sha256": "1ab24b2a247f3568607675cfac8260d634c41985fca6b3f7a420c4fff954119a",
+      "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/listing_document_dates_20260913_capture.json",
+      "transport_representation": "web_tool_extracted_text_response"
+    }
+  ],
+  "source_content_format": "browser_extract",
+  "source_document_date": "2021-03-04",
+  "source_document_date_basis": "FY2020 Form 10-K signature date March 4, 2021, indexed original SEC source text; separate SEC index filing/acceptance date unavailable",
+  "source_document_date_precision": "date",
+  "source_locator": "FY2020 Form 10-K Part II Item 5 Market Information, printed page 52, original-source indexed excerpt; September 2021 preliminary proxy page 44, browser line 1382; October 13, 2020 issuer release opening",
+  "source_sha256_kind": "source_review_receipt",
+  "subject_cik": 1557142,
+  "supplemental_primary_source_uris": [
+    "https://www.sec.gov/Archives/edgar/data/1557142/000114036121031968/ny20000668x1_prem14a.htm",
+    "https://www.sec.gov/Archives/edgar/data/1557142/000155714220000067/kdmn-20201013xex99_1.htm"
+  ]
+}

@@ -1,8 +1,18 @@
 # Market Research Evaluator Model Card
 
-**Model version:** `market-research-0.1.0`
+**Model version:** `market-research-0.2.0`
 **Status:** Heuristic research baseline
 **Probability output:** None
+
+## Local snapshot controls
+
+The local evaluator records immutable raw payloads, retrieval receipts, output
+hashes, and actual source ages. The default freshness limit is seven days;
+`--allow-stale` explicitly permits cached research without changing source dates.
+Clinical aggregates with record updates after `--as-of` are quarantined before
+scoring. These controls do not reconstruct historical ownership or source state:
+`historical_replay_available` remains false. The local dashboard distinguishes
+source retrieval freshness from scoring cutoff and report generation time.
 
 ## Intended use
 

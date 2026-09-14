@@ -96,7 +96,7 @@ def _table(lines: list[str], title: str, rows: list[StrategicDiligenceRow]) -> N
     for row in rows:
         lines.append(
             f"| {row.ticker} | {row.company_name} | "
-            f"{row.ma_research_score:.2f} / {row.ma_rank} | "
+            f"{row.ma_research_score:.2f} / {row.ma_rank if row.ma_rank is not None else 'excluded'} | "
             f"{row.delivery_upside_score:.2f} | "
             f"{row.combined_diligence_risk:.2f} | "
             f"{row.execution_balance_score:.2f} | "
@@ -139,6 +139,8 @@ def write_summary(
         "# Biotech Strategic Matrix",
         "",
         f"**Generated:** {generated_at}",
+        f"**Prediction risk set:** {sum(row.risk_set_eligible for row in rows)} eligible; "
+        f"{sum(not row.risk_set_eligible for row in rows)} excluded and retained for diligence only.",
         "",
         "> M&A attractiveness and execution risk are independent axes. A distressed",
         "> company can create an asset opportunity without being a sound whole-company target.",
@@ -184,9 +186,11 @@ def main() -> int:
     write_summary(args.output_dir / "summary.md", generated_at, matrix)
     counts = Counter(row.strategic_archetype for row in matrix)
     manifest = {
-        "schema_version": "strategic-diligence-matrix-v2",
+        "schema_version": "strategic-diligence-matrix-v3",
         "generated_at": generated_at,
         "companies": len(matrix),
+        "prediction_risk_set_eligible": sum(row.risk_set_eligible for row in matrix),
+        "prediction_risk_set_excluded": sum(not row.risk_set_eligible for row in matrix),
         "company_specific_risk_evidence": sum(
             row.risk_coverage == "company_specific_evidence" for row in matrix
         ),

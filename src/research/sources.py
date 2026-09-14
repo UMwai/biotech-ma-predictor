@@ -7,6 +7,8 @@ import hashlib
 import io
 import json
 import logging
+import math
+import os
 import time
 import urllib.parse
 import urllib.error
@@ -16,6 +18,7 @@ from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable, Optional
+from uuid import uuid4
 
 from src.research.models import PublicCompany
 
@@ -61,18 +64,169 @@ def parse_fda_date(value: str) -> Optional[date]:
     return None
 
 
-class HttpCache:
-    """Small append-friendly HTTP cache that records raw payload hashes."""
+class CacheIntegrityError(ValueError):
+    """A cached payload does not match its recorded identity."""
 
-    def __init__(self, root: Path, user_agent: str, offline: bool = False):
+
+class StaleSourceError(ValueError):
+    """Source retrieval age is unacceptable for the requested run."""
+
+
+def is_sec_url(url: str) -> bool:
+    """Match SEC hosts, including subdomains, without matching lookalike domains."""
+    host = (urllib.parse.urlsplit(url).hostname or "").lower().rstrip(".")
+    return host == "sec.gov" or host.endswith(".sec.gov")
+
+
+class _NoSECRedirects(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if is_sec_url(newurl):
+            raise PermissionError("SEC network access is disabled during public-only refresh")
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+
+class HttpCache:
+    """Hash-checked cache with immutable blobs and retrieval receipts.
+
+    Legacy ``.bin``/``.meta.json`` entries remain readable. Their original
+    retrieval timestamps are preserved; filesystem mtimes are never evidence
+    of freshness. Reads archive legacy entries without pretending to retrieve
+    them again. ``allow_stale`` permits inspection, not a fresh-data claim.
+    """
+
+    def __init__(
+        self, root: Path, user_agent: str, offline: bool = False, *,
+        max_age_days: Optional[float] = None, allow_stale: bool = False,
+        now: Optional[datetime] = None,
+    ):
+        if max_age_days is not None and (
+            not math.isfinite(max_age_days) or max_age_days < 0
+        ):
+            raise ValueError("max_age_days must be finite and nonnegative")
         self.root = root
         self.root.mkdir(parents=True, exist_ok=True)
         self.user_agent = user_agent
         self.offline = offline
+        self.max_age_days = max_age_days
+        self.allow_stale = allow_stale
+        self.now = now
+        if self.now is not None and self.now.tzinfo is None:
+            raise ValueError("now must include a timezone")
+        self.source_snapshots: dict[str, dict[str, Any]] = {}
 
     def _path(self, cache_key: str, suffix: str) -> Path:
         safe = "".join(ch if ch.isalnum() or ch in "-_" else "_" for ch in cache_key)
         return self.root / f"{safe}.{suffix}"
+
+    def _safe_relative_path(self, value: str) -> Path:
+        path = (self.root / value).resolve()
+        if not path.is_relative_to(self.root.resolve()):
+            raise CacheIntegrityError("Snapshot path escapes cache directory")
+        return path
+
+    @staticmethod
+    def _immutable_write(path: Path, payload: bytes) -> None:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            with path.open("xb") as handle:
+                handle.write(payload)
+        except FileExistsError:
+            if path.read_bytes() != payload:
+                raise CacheIntegrityError(f"Immutable cache artifact changed: {path}")
+
+    def _archive(
+        self, cache_key: str, payload: bytes, metadata: dict[str, Any]
+    ) -> dict[str, Any]:
+        """Keep each retrieval receipt, including the entry being refreshed."""
+        digest = hashlib.sha256(payload).hexdigest()
+        metadata = {
+            **metadata, "cache_key": cache_key, "schema_version": 2,
+            "sha256": digest, "bytes": len(payload),
+            "blob_path": f"blobs/{digest}.bin",
+        }
+        metadata.pop("snapshot_path", None)
+        metadata.pop("snapshot_sha256", None)
+        receipt = (json.dumps(metadata, indent=2, sort_keys=True) + "\n").encode()
+        receipt_hash = hashlib.sha256(receipt).hexdigest()
+        snapshot_path = f"snapshots/{receipt_hash}.json"
+        self._immutable_write(self.root / metadata["blob_path"], payload)
+        self._immutable_write(self.root / snapshot_path, receipt)
+        return {
+            **metadata, "snapshot_path": snapshot_path,
+            "snapshot_sha256": receipt_hash,
+        }
+
+    def _read_cached(
+        self, url: str, cache_key: str, *, require_url_match: bool = True
+    ) -> tuple[bytes, dict[str, Any]]:
+        payload = self._path(cache_key, "bin").read_bytes()
+        metadata_path = self._path(cache_key, "meta.json")
+        try:
+            metadata = json.loads(metadata_path.read_text()) if metadata_path.exists() else {}
+        except (ValueError, OSError) as exc:
+            raise CacheIntegrityError(f"Invalid cache metadata: {cache_key}") from exc
+        if not isinstance(metadata, dict):
+            raise CacheIntegrityError(f"Invalid cache metadata: {cache_key}")
+        digest = hashlib.sha256(payload).hexdigest()
+        if "sha256" in metadata and metadata["sha256"] != digest:
+            raise CacheIntegrityError(f"Payload SHA-256 mismatch: {cache_key}")
+        if "bytes" in metadata and metadata["bytes"] != len(payload):
+            raise CacheIntegrityError(f"Payload size mismatch: {cache_key}")
+        if require_url_match and metadata.get("url") and metadata["url"] != url:
+            raise CacheIntegrityError(f"Cache key belongs to a different URL: {cache_key}")
+        if metadata.get("snapshot_path"):
+            try:
+                receipt = self._safe_relative_path(metadata["snapshot_path"]).read_bytes()
+                expected = {k: v for k, v in metadata.items()
+                            if k not in ("snapshot_path", "snapshot_sha256")}
+                if (hashlib.sha256(receipt).hexdigest() != metadata.get("snapshot_sha256")
+                        or json.loads(receipt) != expected):
+                    raise CacheIntegrityError(f"Snapshot receipt mismatch: {cache_key}")
+                blob = self._safe_relative_path(metadata["blob_path"]).read_bytes()
+                if hashlib.sha256(blob).hexdigest() != digest:
+                    raise CacheIntegrityError(f"Immutable blob mismatch: {cache_key}")
+            except (OSError, KeyError, TypeError, json.JSONDecodeError) as exc:
+                raise CacheIntegrityError(f"Invalid snapshot: {cache_key}") from exc
+        metadata.setdefault("integrity_status", "verified" if metadata.get("sha256") else "legacy_unverified")
+        metadata.setdefault("url", url)
+        metadata.setdefault("retrieved_at", None)
+        metadata.setdefault("origin", "legacy_cache")
+        return payload, self._archive(cache_key, payload, metadata)
+
+    def _record_source(self, cache_key: str, metadata: dict[str, Any]) -> None:
+        retrieved_at = metadata.get("retrieved_at")
+        age_days = None
+        freshness = "unknown"
+        try:
+            retrieved = datetime.fromisoformat(retrieved_at.replace("Z", "+00:00"))
+            if retrieved.tzinfo is not None:
+                age_days = ((self.now or datetime.now(timezone.utc)) - retrieved).total_seconds() / 86400
+                freshness = "future" if age_days < -1 / 86400 else "fresh"
+                if self.max_age_days is not None and age_days > self.max_age_days:
+                    freshness = "stale"
+        except (AttributeError, TypeError, ValueError):
+            pass
+        self.source_snapshots[cache_key] = {
+            **metadata, "age_days": round(age_days, 6) if age_days is not None else None,
+            "freshness": freshness, "max_age_days": self.max_age_days,
+        }
+        if self.max_age_days is not None and freshness != "fresh" and not self.allow_stale:
+            raise StaleSourceError(
+                f"Source {cache_key} is {freshness} (retrieved_at={retrieved_at}); "
+                "refresh it or explicitly allow stale research"
+            )
+
+    @staticmethod
+    def _atomic_write(path: Path, payload: bytes) -> None:
+        temporary = path.with_name(f".{path.name}.{uuid4().hex}.tmp")
+        try:
+            temporary.write_bytes(payload)
+            os.replace(temporary, path)
+        finally:
+            temporary.unlink(missing_ok=True)
+
+    def _open_response(self, request: urllib.request.Request, timeout: int):
+        return urllib.request.urlopen(request, timeout=timeout)
 
     def get_bytes(
         self,
@@ -86,11 +240,18 @@ class HttpCache:
     ) -> bytes:
         if max_attempts < 1:
             raise ValueError("max_attempts must be positive")
+        if self.offline and refresh:
+            raise ValueError("offline and refresh cannot both be enabled")
         payload_path = self._path(cache_key, "bin")
         if payload_path.exists() and (self.offline or not refresh):
-            return payload_path.read_bytes()
+            payload, metadata = self._read_cached(url, cache_key)
+            self._record_source(cache_key, metadata)
+            return payload
         if self.offline:
             raise FileNotFoundError(f"Offline cache miss: {payload_path}")
+        if payload_path.exists():
+            # Archive and verify the old observation before replacing latest.
+            self._read_cached(url, cache_key, require_url_match=False)
 
         request_headers = {
             "User-Agent": self.user_agent,
@@ -101,7 +262,7 @@ class HttpCache:
         response_headers: dict[str, str] = {}
         for attempt in range(1, max_attempts + 1):
             try:
-                with urllib.request.urlopen(request, timeout=timeout) as response:
+                with self._open_response(request, timeout) as response:
                     payload = response.read()
                     response_headers = dict(response.headers.items())
                 break
@@ -132,21 +293,94 @@ class HttpCache:
                 )
                 time.sleep(delay)
 
-        payload_path.write_bytes(payload)
         metadata = {
             "url": url,
             "retrieved_at": utc_now_iso(),
             "sha256": hashlib.sha256(payload).hexdigest(),
             "bytes": len(payload),
             "response_headers": response_headers,
+            "integrity_status": "verified",
+            "origin": "http_retrieval",
         }
-        self._path(cache_key, "meta.json").write_text(
-            json.dumps(metadata, indent=2) + "\n"
-        )
+        metadata = self._archive(cache_key, payload, metadata)
+        self._atomic_write(payload_path, payload)
+        self._atomic_write(self._path(cache_key, "meta.json"),
+                           (json.dumps(metadata, indent=2) + "\n").encode())
+        self._record_source(cache_key, metadata)
         return payload
 
     def get_json(self, url: str, cache_key: str, **kwargs: Any) -> dict[str, Any]:
         return json.loads(self.get_bytes(url, cache_key, **kwargs))
+
+
+class PublicRefreshCache(HttpCache):
+    """Refresh non-SEC inputs while retaining verified, dated SEC observations.
+
+    SEC requests are always cache-only, regardless of the caller's refresh flag.
+    Only SEC sources permit stale reads. Public sources retrieved on the current
+    UTC day may be reused; this never changes their original retrieval receipt.
+    """
+
+    def __init__(self, root: Path, user_agent: str, *, max_age_days: float = 7,
+                 now: Optional[datetime] = None):
+        super().__init__(root, user_agent, max_age_days=max_age_days, now=now)
+        self.sec_cache = HttpCache(root, user_agent, offline=True,
+                                   max_age_days=max_age_days, allow_stale=True, now=now)
+
+    def _open_response(self, request: urllib.request.Request, timeout: int):
+        if is_sec_url(request.full_url):
+            raise PermissionError("SEC network access is disabled during public-only refresh")
+        return urllib.request.build_opener(_NoSECRedirects()).open(request, timeout=timeout)
+
+    def get_bytes(self, url: str, cache_key: str, *, refresh: bool = False,
+                  **kwargs: Any) -> bytes:
+        if is_sec_url(url):
+            # A metadata-free legacy payload cannot establish the SEC input's
+            # identity. Do not silently bless it or fetch a replacement.
+            metadata_path = self._path(cache_key, "meta.json")
+            if not metadata_path.is_file():
+                raise FileNotFoundError(f"SEC cache metadata missing: {metadata_path}")
+            try:
+                metadata = json.loads(metadata_path.read_text())
+            except (ValueError, OSError) as exc:
+                raise CacheIntegrityError(f"Invalid SEC cache metadata: {cache_key}") from exc
+            if (not isinstance(metadata, dict) or metadata.get("url") != url
+                    or not metadata.get("sha256")
+                    or metadata.get("integrity_status", "verified") != "verified"):
+                raise CacheIntegrityError(f"Unverified SEC cache identity: {cache_key}")
+            payload = self.sec_cache.get_bytes(url, cache_key, refresh=False, **kwargs)
+            self.source_snapshots[cache_key] = {
+                **self.sec_cache.source_snapshots[cache_key],
+                "retrieval_policy": "cache_only", "stale_allowed": True,
+            }
+            return payload
+
+        if refresh and self._path(cache_key, "bin").exists():
+            # A changed paginated query needs its own retrieval. Verify the
+            # prior entry before replacement, even when the URL has changed.
+            payload, metadata = self._read_cached(url, cache_key, require_url_match=False)
+            retrieved = None
+            try:
+                retrieved = datetime.fromisoformat(metadata["retrieved_at"].replace("Z", "+00:00"))
+            except (AttributeError, TypeError, ValueError):
+                pass
+            now = self.now or datetime.now(timezone.utc)
+            if (metadata.get("url") == url and metadata.get("integrity_status") == "verified"
+                    and retrieved is not None and retrieved.tzinfo is not None
+                    and retrieved.astimezone(timezone.utc).date() == now.astimezone(timezone.utc).date()
+                    and retrieved <= now):
+                try:
+                    self._record_source(cache_key, metadata)
+                except StaleSourceError:
+                    pass
+                else:
+                    self.source_snapshots[cache_key]["retrieval_policy"] = "same_day_cache"
+                    self.source_snapshots[cache_key]["stale_allowed"] = False
+                    return payload
+        payload = super().get_bytes(url, cache_key, refresh=refresh, **kwargs)
+        self.source_snapshots[cache_key]["retrieval_policy"] = "public_refresh"
+        self.source_snapshots[cache_key]["stale_allowed"] = False
+        return payload
 
 
 def fetch_public_biotech_universe(

@@ -1,0 +1,3 @@
+# Supported local research desk. Legacy integrations are optional/unsupported.
+fastapi==0.133.1
+uvicorn==0.41.0

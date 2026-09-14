@@ -1,0 +1,4372 @@
+{
+  "cik": 1479419,
+  "end_date": "2021-12-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:54:35.519769+00:00",
+      "returned": 61,
+      "source_bytes": 43665,
+      "source_relative_path": "raw_sources/276b9adaef676436b97099781841ece12a749f4373299e021c4f359a3525f8a1.json",
+      "source_sha256": "276b9adaef676436b97099781841ece12a749f4373299e021c4f359a3525f8a1",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001479419&dateRange=custom&startdt=2021-01-01&enddt=2021-12-31&from=0&size=100",
+      "total": 61
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001558370-21-016940",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021016940/kala-20211216x8k.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "kala-20211216x8k.htm",
+      "filed_date": "2021-12-20",
+      "form": "8-K",
+      "id": "0001558370-21-016940:kala-20211216x8k.htm",
+      "items": [
+        "5.02"
+      ],
+      "source_hit": {
+        "_id": "0001558370-21-016940:kala-20211216x8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-016940",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-12-20",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211505268"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.02"
+          ],
+          "period_ending": "2021-12-16",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1639958400000,
+          "0001558370-21-016940:kala-20211216x8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001479419-21-000001",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000147941921000001/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2021-11-29",
+      "form": "D",
+      "id": "0001479419-21-000001:primary_doc.xml",
+      "items": [
+        "06B"
+      ],
+      "source_hit": {
+        "_id": "0001479419-21-000001:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001479419-21-000001",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-11-29",
+          "file_description": null,
+          "file_num": [
+            "021-422740"
+          ],
+          "file_type": "D",
+          "film_num": [
+            "211456416"
+          ],
+          "form": "D",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "06B"
+          ],
+          "period_ending": null,
+          "root_forms": [
+            "D"
+          ],
+          "schema_version": "X0708",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslFormDX01"
+        },
+        "sort": [
+          1638144000000,
+          "0001479419-21-000001:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-341260",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000119312521341260/d268836dsc13d.htm",
+        "https://www.sec.gov/Archives/edgar/data/1895515/000119312521341260/d268836dsc13d.htm"
+      ],
+      "ciks": [
+        "0001479419",
+        "0001895515"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+        "Lagunita, LLC  (CIK 0001895515)"
+      ],
+      "document_name": "d268836dsc13d.htm",
+      "filed_date": "2021-11-26",
+      "form": "SC 13D",
+      "id": "0001193125-21-341260:d268836dsc13d.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-341260:d268836dsc13d.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-341260",
+          "biz_locations": [
+            "Watertown, MA",
+            "Menlo Park, CA"
+          ],
+          "biz_states": [
+            "MA",
+            "CA"
+          ],
+          "ciks": [
+            "0001479419",
+            "0001895515"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+            "Lagunita, LLC  (CIK 0001895515)"
+          ],
+          "file_date": "2021-11-26",
+          "file_description": "SC 13D",
+          "file_num": [
+            "005-90054"
+          ],
+          "file_type": "SC 13D",
+          "film_num": [
+            "211451992"
+          ],
+          "form": "SC 13D",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1637884800000,
+          "0001193125-21-341260:d268836dsc13d.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-341259",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000119312521341259/d268836dsc13d.htm",
+        "https://www.sec.gov/Archives/edgar/data/1895516/000119312521341259/d268836dsc13d.htm"
+      ],
+      "ciks": [
+        "0001479419",
+        "0001895516"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+        "Lagunita Biosciences, LLC  (CIK 0001895516)"
+      ],
+      "document_name": "d268836dsc13d.htm",
+      "filed_date": "2021-11-26",
+      "form": "SC 13D",
+      "id": "0001193125-21-341259:d268836dsc13d.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-341259:d268836dsc13d.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-341259",
+          "biz_locations": [
+            "Watertown, MA",
+            "Menlo Park, CA"
+          ],
+          "biz_states": [
+            "MA",
+            "CA"
+          ],
+          "ciks": [
+            "0001479419",
+            "0001895516"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+            "Lagunita Biosciences, LLC  (CIK 0001895516)"
+          ],
+          "file_date": "2021-11-26",
+          "file_description": "SC 13D",
+          "file_num": [
+            "005-90054"
+          ],
+          "file_type": "SC 13D",
+          "film_num": [
+            "211451988"
+          ],
+          "form": "SC 13D",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1637884800000,
+          "0001193125-21-341259:d268836dsc13d.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-340198",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000119312521340198/d268836dsc13d.htm",
+        "https://www.sec.gov/Archives/edgar/data/1614869/000119312521340198/d268836dsc13d.htm"
+      ],
+      "ciks": [
+        "0001479419",
+        "0001614869"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+        "Blumenkranz Mark S.  (CIK 0001614869)"
+      ],
+      "document_name": "d268836dsc13d.htm",
+      "filed_date": "2021-11-24",
+      "form": "SC 13D",
+      "id": "0001193125-21-340198:d268836dsc13d.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-340198:d268836dsc13d.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-340198",
+          "biz_locations": [
+            "Watertown, MA",
+            ""
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419",
+            "0001614869"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+            "Blumenkranz Mark S.  (CIK 0001614869)"
+          ],
+          "file_date": "2021-11-24",
+          "file_description": "SC 13D",
+          "file_num": [
+            "005-90054"
+          ],
+          "file_type": "SC 13D",
+          "film_num": [
+            "211445132"
+          ],
+          "form": "SC 13D",
+          "inc_states": [
+            "DE",
+            ""
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1637712000000,
+          "0001193125-21-340198:d268836dsc13d.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-005280",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1893729/000141588921005280/form4-11172021_051142.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921005280/form4-11172021_051142.xml"
+      ],
+      "ciks": [
+        "0001893729",
+        "0001479419"
+      ],
+      "display_names": [
+        "Kharabi Darius  (CIK 0001893729)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-11172021_051142.xml",
+      "filed_date": "2021-11-17",
+      "form": "4",
+      "id": "0001415889-21-005280:form4-11172021_051142.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-005280:form4-11172021_051142.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-005280",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001893729",
+            "0001479419"
+          ],
+          "display_names": [
+            "Kharabi Darius  (CIK 0001893729)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-11-17",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211422244"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-15",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1637107200000,
+          "0001415889-21-005280:form4-11172021_051142.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-005279",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1893729/000141588921005279/form3-11172021_051144.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921005279/form3-11172021_051144.xml"
+      ],
+      "ciks": [
+        "0001893729",
+        "0001479419"
+      ],
+      "display_names": [
+        "Kharabi Darius  (CIK 0001893729)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form3-11172021_051144.xml",
+      "filed_date": "2021-11-17",
+      "form": "3",
+      "id": "0001415889-21-005279:form3-11172021_051144.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-005279:form3-11172021_051144.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-005279",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001893729",
+            "0001479419"
+          ],
+          "display_names": [
+            "Kharabi Darius  (CIK 0001893729)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-11-17",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "211422241"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-15",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1637107200000,
+          "0001415889-21-005279:form3-11172021_051144.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-005278",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1614869/000141588921005278/form4-11172021_051141.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921005278/form4-11172021_051141.xml"
+      ],
+      "ciks": [
+        "0001614869",
+        "0001479419"
+      ],
+      "display_names": [
+        "Blumenkranz Mark S.  (CIK 0001614869)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-11172021_051141.xml",
+      "filed_date": "2021-11-17",
+      "form": "4",
+      "id": "0001415889-21-005278:form4-11172021_051141.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-005278:form4-11172021_051141.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-005278",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001614869",
+            "0001479419"
+          ],
+          "display_names": [
+            "Blumenkranz Mark S.  (CIK 0001614869)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-11-17",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211422239"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-15",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1637107200000,
+          "0001415889-21-005278:form4-11172021_051141.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-005277",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1614869/000141588921005277/form3-11172021_041157.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921005277/form3-11172021_041157.xml"
+      ],
+      "ciks": [
+        "0001614869",
+        "0001479419"
+      ],
+      "display_names": [
+        "Blumenkranz Mark S.  (CIK 0001614869)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form3-11172021_041157.xml",
+      "filed_date": "2021-11-17",
+      "form": "3",
+      "id": "0001415889-21-005277:form3-11172021_041157.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-005277:form3-11172021_041157.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-005277",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001614869",
+            "0001479419"
+          ],
+          "display_names": [
+            "Blumenkranz Mark S.  (CIK 0001614869)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-11-17",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "211422223"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-15",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1637107200000,
+          "0001415889-21-005277:form3-11172021_041157.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-21-015987",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021015987/kala-20210930x10q.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "kala-20210930x10q.htm",
+      "filed_date": "2021-11-15",
+      "form": "10-Q",
+      "id": "0001558370-21-015987:kala-20210930x10q.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-21-015987:kala-20210930x10q.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-015987",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-11-15",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "211410960"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-09-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1636934400000,
+          "0001558370-21-015987:kala-20210930x10q.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-21-015885",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021015885/kala-20211112x8k.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "kala-20211112x8k.htm",
+      "filed_date": "2021-11-15",
+      "form": "8-K",
+      "id": "0001558370-21-015885:kala-20211112x8k.htm",
+      "items": [
+        "1.01",
+        "1.02",
+        "2.01",
+        "2.02",
+        "3.02",
+        "5.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001558370-21-015885:kala-20211112x8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-015885",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-11-15",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211406690"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "1.01",
+            "1.02",
+            "2.01",
+            "2.02",
+            "3.02",
+            "5.02",
+            "9.01"
+          ],
+          "period_ending": "2021-11-12",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1636934400000,
+          "0001558370-21-015885:kala-20211112x8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-005014",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1710697/000141588921005014/form4-10282021_051044.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921005014/form4-10282021_051044.xml"
+      ],
+      "ciks": [
+        "0001710697",
+        "0001479419"
+      ],
+      "display_names": [
+        "Chen Hongming  (CIK 0001710697)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-10282021_051044.xml",
+      "filed_date": "2021-10-28",
+      "form": "4",
+      "id": "0001415889-21-005014:form4-10282021_051044.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-005014:form4-10282021_051044.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-005014",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001710697",
+            "0001479419"
+          ],
+          "display_names": [
+            "Chen Hongming  (CIK 0001710697)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-10-28",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211360088"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-10-26",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1635379200000,
+          "0001415889-21-005014:form4-10282021_051044.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-005013",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1646300/000141588921005013/form4-10282021_051025.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921005013/form4-10282021_051025.xml"
+      ],
+      "ciks": [
+        "0001646300",
+        "0001479419"
+      ],
+      "display_names": [
+        "Trachtenberg Eric  (CIK 0001646300)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-10282021_051025.xml",
+      "filed_date": "2021-10-28",
+      "form": "4",
+      "id": "0001415889-21-005013:form4-10282021_051025.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-005013:form4-10282021_051025.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-005013",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001646300",
+            "0001479419"
+          ],
+          "display_names": [
+            "Trachtenberg Eric  (CIK 0001646300)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-10-28",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211360086"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-10-26",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1635379200000,
+          "0001415889-21-005013:form4-10282021_051025.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-005012",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1710969/000141588921005012/form4-10282021_051034.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921005012/form4-10282021_051034.xml"
+      ],
+      "ciks": [
+        "0001710969",
+        "0001479419"
+      ],
+      "display_names": [
+        "Reumuth Mary  (CIK 0001710969)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-10282021_051034.xml",
+      "filed_date": "2021-10-28",
+      "form": "4",
+      "id": "0001415889-21-005012:form4-10282021_051034.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-005012:form4-10282021_051034.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-005012",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001710969",
+            "0001479419"
+          ],
+          "display_names": [
+            "Reumuth Mary  (CIK 0001710969)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-10-28",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211360085"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-10-26",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1635379200000,
+          "0001415889-21-005012:form4-10282021_051034.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-005011",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1605767/000141588921005011/form4-10282021_051035.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921005011/form4-10282021_051035.xml"
+      ],
+      "ciks": [
+        "0001605767",
+        "0001479419"
+      ],
+      "display_names": [
+        "Bazemore Todd  (CIK 0001605767)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-10282021_051035.xml",
+      "filed_date": "2021-10-28",
+      "form": "4",
+      "id": "0001415889-21-005011:form4-10282021_051035.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-005011:form4-10282021_051035.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-005011",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001605767",
+            "0001479419"
+          ],
+          "display_names": [
+            "Bazemore Todd  (CIK 0001605767)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-10-28",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211360079"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-10-26",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1635379200000,
+          "0001415889-21-005011:form4-10282021_051035.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-005010",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1298079/000141588921005010/form4-10282021_051041.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921005010/form4-10282021_051041.xml"
+      ],
+      "ciks": [
+        "0001298079",
+        "0001479419"
+      ],
+      "display_names": [
+        "Brazzell Romulus K  (CIK 0001298079)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-10282021_051041.xml",
+      "filed_date": "2021-10-28",
+      "form": "4",
+      "id": "0001415889-21-005010:form4-10282021_051041.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-005010:form4-10282021_051041.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-005010",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001298079",
+            "0001479419"
+          ],
+          "display_names": [
+            "Brazzell Romulus K  (CIK 0001298079)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-10-28",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211360077"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-10-26",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1635379200000,
+          "0001415889-21-005010:form4-10282021_051041.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-005009",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1415537/000141588921005009/form4-10282021_051046.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921005009/form4-10282021_051046.xml"
+      ],
+      "ciks": [
+        "0001415537",
+        "0001479419"
+      ],
+      "display_names": [
+        "Iwicki Mark T  (CIK 0001415537)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-10282021_051046.xml",
+      "filed_date": "2021-10-28",
+      "form": "4",
+      "id": "0001415889-21-005009:form4-10282021_051046.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-005009:form4-10282021_051046.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-005009",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001415537",
+            "0001479419"
+          ],
+          "display_names": [
+            "Iwicki Mark T  (CIK 0001415537)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-10-28",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211360076"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-10-26",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1635379200000,
+          "0001415889-21-005009:form4-10282021_051046.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-21-131067",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000110465921131067/tm2131295d1_sc13da.htm",
+        "https://www.sec.gov/Archives/edgar/data/1346824/000110465921131067/tm2131295d1_sc13da.htm"
+      ],
+      "ciks": [
+        "0001479419",
+        "0001346824"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+        "RA CAPITAL MANAGEMENT, L.P.  (CIK 0001346824)"
+      ],
+      "document_name": "tm2131295d1_sc13da.htm",
+      "filed_date": "2021-10-28",
+      "form": "SC 13D/A",
+      "id": "0001104659-21-131067:tm2131295d1_sc13da.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-21-131067:tm2131295d1_sc13da.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-21-131067",
+          "biz_locations": [
+            "Watertown, MA",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419",
+            "0001346824"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+            "RA CAPITAL MANAGEMENT, L.P.  (CIK 0001346824)"
+          ],
+          "file_date": "2021-10-28",
+          "file_description": "SC 13D/A",
+          "file_num": [
+            "005-90054"
+          ],
+          "file_type": "SC 13D/A",
+          "film_num": [
+            "211358629"
+          ],
+          "form": "SC 13D/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1635379200000,
+          "0001104659-21-131067:tm2131295d1_sc13da.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-004907",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1489533/000141588921004907/form4-10192021_011033.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921004907/form4-10192021_011033.xml"
+      ],
+      "ciks": [
+        "0001489533",
+        "0001479419"
+      ],
+      "display_names": [
+        "Myers C. Daniel  (CIK 0001489533)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-10192021_011033.xml",
+      "filed_date": "2021-10-19",
+      "form": "4",
+      "id": "0001415889-21-004907:form4-10192021_011033.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-004907:form4-10192021_011033.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-004907",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001489533",
+            "0001479419"
+          ],
+          "display_names": [
+            "Myers C. Daniel  (CIK 0001489533)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-10-19",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211331011"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-10-15",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1634601600000,
+          "0001415889-21-004907:form4-10192021_011033.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-004906",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1489533/000141588921004906/form3-10192021_011049.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921004906/form3-10192021_011049.xml"
+      ],
+      "ciks": [
+        "0001489533",
+        "0001479419"
+      ],
+      "display_names": [
+        "Myers C. Daniel  (CIK 0001489533)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form3-10192021_011049.xml",
+      "filed_date": "2021-10-19",
+      "form": "3",
+      "id": "0001415889-21-004906:form3-10192021_011049.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-004906:form3-10192021_011049.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-004906",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001489533",
+            "0001479419"
+          ],
+          "display_names": [
+            "Myers C. Daniel  (CIK 0001489533)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-10-19",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "211330988"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-10-15",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1634601600000,
+          "0001415889-21-004906:form3-10192021_011049.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-21-013248",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021013248/kala-20211014x8k.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "kala-20211014x8k.htm",
+      "filed_date": "2021-10-18",
+      "form": "8-K",
+      "id": "0001558370-21-013248:kala-20211014x8k.htm",
+      "items": [
+        "5.02"
+      ],
+      "source_hit": {
+        "_id": "0001558370-21-013248:kala-20211014x8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-013248",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-10-18",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211327368"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.02"
+          ],
+          "period_ending": "2021-10-14",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1634515200000,
+          "0001558370-21-013248:kala-20211014x8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000947871-21-001065",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000094787121001065/ss551445_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1055951/000094787121001065/ss551445_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001479419",
+        "0001055951"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+        "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+      ],
+      "document_name": "ss551445_sc13ga.htm",
+      "filed_date": "2021-10-14",
+      "form": "SC 13G/A",
+      "id": "0000947871-21-001065:ss551445_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000947871-21-001065:ss551445_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000947871-21-001065",
+          "biz_locations": [
+            "Watertown, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001479419",
+            "0001055951"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+            "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+          ],
+          "file_date": "2021-10-14",
+          "file_description": "AMENDMENT NO. 4",
+          "file_num": [
+            "005-90054"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "211323855"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1634169600000,
+          "0000947871-21-001065:ss551445_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-21-010528",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021010528/kala-20210630x10q.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "kala-20210630x10q.htm",
+      "filed_date": "2021-08-05",
+      "form": "10-Q",
+      "id": "0001558370-21-010528:kala-20210630x10q.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-21-010528:kala-20210630x10q.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-010528",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-08-05",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "211148064"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628121600000,
+          "0001558370-21-010528:kala-20210630x10q.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-21-010375",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021010375/kala-20210805x8k.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "kala-20210805x8k.htm",
+      "filed_date": "2021-08-05",
+      "form": "8-K",
+      "id": "0001558370-21-010375:kala-20210805x8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001558370-21-010375:kala-20210805x8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-010375",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-08-05",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211146240"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2021-08-05",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628121600000,
+          "0001558370-21-010375:kala-20210805x8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "9999999997-21-004118",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/999999999721004118/filename1.pdf"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "filename1.pdf",
+      "filed_date": "2021-07-15",
+      "form": "CT ORDER",
+      "id": "9999999997-21-004118:filename1.pdf",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999997-21-004118:filename1.pdf",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999997-21-004118",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-07-15",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "CT ORDER",
+          "film_num": [
+            "211091693"
+          ],
+          "form": "CT ORDER",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "CT ORDER"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1626307200000,
+          "9999999997-21-004118:filename1.pdf"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-003271",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1710697/000141588921003271/form4-06302021_050601.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921003271/form4-06302021_050601.xml"
+      ],
+      "ciks": [
+        "0001710697",
+        "0001479419"
+      ],
+      "display_names": [
+        "Chen Hongming  (CIK 0001710697)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-06302021_050601.xml",
+      "filed_date": "2021-06-30",
+      "form": "4",
+      "id": "0001415889-21-003271:form4-06302021_050601.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-003271:form4-06302021_050601.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-003271",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001710697",
+            "0001479419"
+          ],
+          "display_names": [
+            "Chen Hongming  (CIK 0001710697)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-06-30",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211062939"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-29",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1625011200000,
+          "0001415889-21-003271:form4-06302021_050601.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-003261",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1710697/000141588921003261/form4-06292021_050603.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921003261/form4-06292021_050603.xml"
+      ],
+      "ciks": [
+        "0001710697",
+        "0001479419"
+      ],
+      "display_names": [
+        "Chen Hongming  (CIK 0001710697)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-06292021_050603.xml",
+      "filed_date": "2021-06-29",
+      "form": "4",
+      "id": "0001415889-21-003261:form4-06292021_050603.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-003261:form4-06292021_050603.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-003261",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001710697",
+            "0001479419"
+          ],
+          "display_names": [
+            "Chen Hongming  (CIK 0001710697)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-06-29",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211059297"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624924800000,
+          "0001415889-21-003261:form4-06292021_050603.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-003260",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1646300/000141588921003260/form4-06292021_050658.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921003260/form4-06292021_050658.xml"
+      ],
+      "ciks": [
+        "0001646300",
+        "0001479419"
+      ],
+      "display_names": [
+        "Trachtenberg Eric  (CIK 0001646300)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-06292021_050658.xml",
+      "filed_date": "2021-06-29",
+      "form": "4",
+      "id": "0001415889-21-003260:form4-06292021_050658.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-003260:form4-06292021_050658.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-003260",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001646300",
+            "0001479419"
+          ],
+          "display_names": [
+            "Trachtenberg Eric  (CIK 0001646300)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-06-29",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211059293"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624924800000,
+          "0001415889-21-003260:form4-06292021_050658.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-003259",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1710969/000141588921003259/form4-06292021_050653.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921003259/form4-06292021_050653.xml"
+      ],
+      "ciks": [
+        "0001710969",
+        "0001479419"
+      ],
+      "display_names": [
+        "Reumuth Mary  (CIK 0001710969)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-06292021_050653.xml",
+      "filed_date": "2021-06-29",
+      "form": "4",
+      "id": "0001415889-21-003259:form4-06292021_050653.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-003259:form4-06292021_050653.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-003259",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001710969",
+            "0001479419"
+          ],
+          "display_names": [
+            "Reumuth Mary  (CIK 0001710969)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-06-29",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211059291"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624924800000,
+          "0001415889-21-003259:form4-06292021_050653.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-003258",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1298079/000141588921003258/form4-06292021_050630.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921003258/form4-06292021_050630.xml"
+      ],
+      "ciks": [
+        "0001298079",
+        "0001479419"
+      ],
+      "display_names": [
+        "Brazzell Romulus K  (CIK 0001298079)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-06292021_050630.xml",
+      "filed_date": "2021-06-29",
+      "form": "4",
+      "id": "0001415889-21-003258:form4-06292021_050630.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-003258:form4-06292021_050630.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-003258",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001298079",
+            "0001479419"
+          ],
+          "display_names": [
+            "Brazzell Romulus K  (CIK 0001298079)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-06-29",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211059296"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624924800000,
+          "0001415889-21-003258:form4-06292021_050630.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-003257",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1605767/000141588921003257/form4-06292021_050608.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921003257/form4-06292021_050608.xml"
+      ],
+      "ciks": [
+        "0001605767",
+        "0001479419"
+      ],
+      "display_names": [
+        "Bazemore Todd  (CIK 0001605767)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-06292021_050608.xml",
+      "filed_date": "2021-06-29",
+      "form": "4",
+      "id": "0001415889-21-003257:form4-06292021_050608.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-003257:form4-06292021_050608.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-003257",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001605767",
+            "0001479419"
+          ],
+          "display_names": [
+            "Bazemore Todd  (CIK 0001605767)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-06-29",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211059286"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624924800000,
+          "0001415889-21-003257:form4-06292021_050608.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-003256",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1415537/000141588921003256/form4-06292021_050601.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921003256/form4-06292021_050601.xml"
+      ],
+      "ciks": [
+        "0001415537",
+        "0001479419"
+      ],
+      "display_names": [
+        "Iwicki Mark T  (CIK 0001415537)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-06292021_050601.xml",
+      "filed_date": "2021-06-29",
+      "form": "4",
+      "id": "0001415889-21-003256:form4-06292021_050601.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-003256:form4-06292021_050601.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-003256",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001415537",
+            "0001479419"
+          ],
+          "display_names": [
+            "Iwicki Mark T  (CIK 0001415537)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-06-29",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211059282"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624924800000,
+          "0001415889-21-003256:form4-06292021_050601.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-21-008453",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021008453/kala-20210617x8k.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "kala-20210617x8k.htm",
+      "filed_date": "2021-06-21",
+      "form": "8-K",
+      "id": "0001558370-21-008453:kala-20210617x8k.htm",
+      "items": [
+        "5.07"
+      ],
+      "source_hit": {
+        "_id": "0001558370-21-008453:kala-20210617x8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-008453",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-06-21",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211030406"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.07"
+          ],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1624233600000,
+          "0001558370-21-008453:kala-20210617x8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-003125",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1619841/000141588921003125/form4-06212021_050645.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921003125/form4-06212021_050645.xml"
+      ],
+      "ciks": [
+        "0001619841",
+        "0001479419"
+      ],
+      "display_names": [
+        "Shah Rajeev M.  (CIK 0001619841)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-06212021_050645.xml",
+      "filed_date": "2021-06-21",
+      "form": "4",
+      "id": "0001415889-21-003125:form4-06212021_050645.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-003125:form4-06212021_050645.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-003125",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001619841",
+            "0001479419"
+          ],
+          "display_names": [
+            "Shah Rajeev M.  (CIK 0001619841)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-06-21",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211032120"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624233600000,
+          "0001415889-21-003125:form4-06212021_050645.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-003124",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1307068/000141588921003124/form4-06212021_050637.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921003124/form4-06212021_050637.xml"
+      ],
+      "ciks": [
+        "0001307068",
+        "0001479419"
+      ],
+      "display_names": [
+        "Rosen Howard B  (CIK 0001307068)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-06212021_050637.xml",
+      "filed_date": "2021-06-21",
+      "form": "4",
+      "id": "0001415889-21-003124:form4-06212021_050637.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-003124:form4-06212021_050637.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-003124",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001307068",
+            "0001479419"
+          ],
+          "display_names": [
+            "Rosen Howard B  (CIK 0001307068)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-06-21",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211032114"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624233600000,
+          "0001415889-21-003124:form4-06212021_050637.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-003123",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1236371/000141588921003123/form4-06212021_050627.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921003123/form4-06212021_050627.xml"
+      ],
+      "ciks": [
+        "0001236371",
+        "0001479419"
+      ],
+      "display_names": [
+        "PERRY GREGORY D  (CIK 0001236371)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-06212021_050627.xml",
+      "filed_date": "2021-06-21",
+      "form": "4",
+      "id": "0001415889-21-003123:form4-06212021_050627.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-003123:form4-06212021_050627.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-003123",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001236371",
+            "0001479419"
+          ],
+          "display_names": [
+            "PERRY GREGORY D  (CIK 0001236371)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-06-21",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211032112"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624233600000,
+          "0001415889-21-003123:form4-06212021_050627.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-003122",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1711254/000141588921003122/form4-06212021_050617.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921003122/form4-06212021_050617.xml"
+      ],
+      "ciks": [
+        "0001711254",
+        "0001479419"
+      ],
+      "display_names": [
+        "Paull Robert Bradley  (CIK 0001711254)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-06212021_050617.xml",
+      "filed_date": "2021-06-21",
+      "form": "4",
+      "id": "0001415889-21-003122:form4-06212021_050617.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-003122:form4-06212021_050617.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-003122",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001711254",
+            "0001479419"
+          ],
+          "display_names": [
+            "Paull Robert Bradley  (CIK 0001711254)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-06-21",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211032111"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624233600000,
+          "0001415889-21-003122:form4-06212021_050617.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-003121",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1258673/000141588921003121/form4-06212021_050611.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921003121/form4-06212021_050611.xml"
+      ],
+      "ciks": [
+        "0001258673",
+        "0001479419"
+      ],
+      "display_names": [
+        "KOVEN ANDREW I  (CIK 0001258673)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-06212021_050611.xml",
+      "filed_date": "2021-06-21",
+      "form": "4",
+      "id": "0001415889-21-003121:form4-06212021_050611.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-003121:form4-06212021_050611.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-003121",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001258673",
+            "0001479419"
+          ],
+          "display_names": [
+            "KOVEN ANDREW I  (CIK 0001258673)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-06-21",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211032109"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624233600000,
+          "0001415889-21-003121:form4-06212021_050611.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001415889-21-003120",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1711080/000141588921003120/form4-06212021_050601.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000141588921003120/form4-06212021_050601.xml"
+      ],
+      "ciks": [
+        "0001711080",
+        "0001479419"
+      ],
+      "display_names": [
+        "Grunberg Gregory  (CIK 0001711080)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "form4-06212021_050601.xml",
+      "filed_date": "2021-06-21",
+      "form": "4",
+      "id": "0001415889-21-003120:form4-06212021_050601.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001415889-21-003120:form4-06212021_050601.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001415889-21-003120",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001711080",
+            "0001479419"
+          ],
+          "display_names": [
+            "Grunberg Gregory  (CIK 0001711080)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-06-21",
+          "file_description": null,
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211032104"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624233600000,
+          "0001415889-21-003120:form4-06212021_050601.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-21-005904",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021005904/kala-20210331x10q.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "kala-20210331x10q.htm",
+      "filed_date": "2021-05-05",
+      "form": "10-Q",
+      "id": "0001558370-21-005904:kala-20210331x10q.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-21-005904:kala-20210331x10q.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-005904",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-05-05",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "21893128"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-03-31",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1620172800000,
+          "0001558370-21-005904:kala-20210331x10q.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-21-005792",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021005792/kala-20210505x8k.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "kala-20210505x8k.htm",
+      "filed_date": "2021-05-05",
+      "form": "8-K",
+      "id": "0001558370-21-005792:kala-20210505x8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001558370-21-005792:kala-20210505x8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-005792",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-05-05",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21891122"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2021-05-05",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1620172800000,
+          "0001558370-21-005792:kala-20210505x8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-21-005789",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021005789/kala-20210504x8k.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "kala-20210504x8k.htm",
+      "filed_date": "2021-05-05",
+      "form": "8-K",
+      "id": "0001558370-21-005789:kala-20210504x8k.htm",
+      "items": [
+        "1.01",
+        "1.02",
+        "2.03",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001558370-21-005789:kala-20210504x8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-005789",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-05-05",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21891113"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "1.01",
+            "1.02",
+            "2.03",
+            "9.01"
+          ],
+          "period_ending": "2021-05-04",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1620172800000,
+          "0001558370-21-005789:kala-20210504x8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-21-004991",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021004991/tmb-20210428xdefa14a.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "tmb-20210428xdefa14a.htm",
+      "filed_date": "2021-04-28",
+      "form": "DEFA14A",
+      "id": "0001558370-21-004991:tmb-20210428xdefa14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-21-004991:tmb-20210428xdefa14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-004991",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-04-28",
+          "file_description": "DEFA14A",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "DEFA14A",
+          "film_num": [
+            "21861402"
+          ],
+          "form": "DEFA14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DEFA14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1619568000000,
+          "0001558370-21-004991:tmb-20210428xdefa14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-21-004988",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021004988/tmb-20210617xdef14a.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "tmb-20210617xdef14a.htm",
+      "filed_date": "2021-04-28",
+      "form": "DEF 14A",
+      "id": "0001558370-21-004988:tmb-20210617xdef14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-21-004988:tmb-20210617xdef14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-004988",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-04-28",
+          "file_description": "DEF 14A",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "DEF 14A",
+          "film_num": [
+            "21861388"
+          ],
+          "form": "DEF 14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "DEF 14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1619568000000,
+          "0001558370-21-004988:tmb-20210617xdef14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-21-046602",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1315082/000110465921046602/tm2112163-3_4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1346824/000110465921046602/tm2112163-3_4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1619841/000110465921046602/tm2112163-3_4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1384859/000110465921046602/tm2112163-3_4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000110465921046602/tm2112163-3_4.xml"
+      ],
+      "ciks": [
+        "0001315082",
+        "0001346824",
+        "0001619841",
+        "0001384859",
+        "0001479419"
+      ],
+      "display_names": [
+        "RA Capital Healthcare Fund LP  (CIK 0001315082)",
+        "RA CAPITAL MANAGEMENT, L.P.  (CIK 0001346824)",
+        "Shah Rajeev M.  (CIK 0001619841)",
+        "Kolchinsky Peter  (CIK 0001384859)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "tm2112163-3_4.xml",
+      "filed_date": "2021-04-05",
+      "form": "4",
+      "id": "0001104659-21-046602:tm2112163-3_4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-21-046602:tm2112163-3_4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-21-046602",
+          "biz_locations": [
+            "Boston, MA",
+            "Boston, MA",
+            "",
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001315082",
+            "0001346824",
+            "0001619841",
+            "0001384859",
+            "0001479419"
+          ],
+          "display_names": [
+            "RA Capital Healthcare Fund LP  (CIK 0001315082)",
+            "RA CAPITAL MANAGEMENT, L.P.  (CIK 0001346824)",
+            "Shah Rajeev M.  (CIK 0001619841)",
+            "Kolchinsky Peter  (CIK 0001384859)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-04-05",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-38150",
+            "001-38150",
+            "001-38150",
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21805803",
+            "21805804",
+            "21805801",
+            "21805802"
+          ],
+          "form": "4",
+          "inc_states": [
+            "DE",
+            "DE",
+            "",
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-04-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1617580800000,
+          "0001104659-21-046602:tm2112163-3_4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-21-002694",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1710697/000117911021002694/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000117911021002694/edgar.xml"
+      ],
+      "ciks": [
+        "0001710697",
+        "0001479419"
+      ],
+      "display_names": [
+        "Chen Hongming  (CIK 0001710697)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2021-03-03",
+      "form": "4",
+      "id": "0001179110-21-002694:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-21-002694:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-21-002694",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001710697",
+            "0001479419"
+          ],
+          "display_names": [
+            "Chen Hongming  (CIK 0001710697)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-03-03",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21710130"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-03-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1614729600000,
+          "0001179110-21-002694:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000947871-21-000277",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000094787121000277/ss193386_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1055951/000094787121000277/ss193386_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001479419",
+        "0001055951"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+        "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+      ],
+      "document_name": "ss193386_sc13ga.htm",
+      "filed_date": "2021-03-02",
+      "form": "SC 13G/A",
+      "id": "0000947871-21-000277:ss193386_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000947871-21-000277:ss193386_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000947871-21-000277",
+          "biz_locations": [
+            "Watertown, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001479419",
+            "0001055951"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+            "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+          ],
+          "file_date": "2021-03-02",
+          "file_description": "AMENDMENT NO. 3",
+          "file_num": [
+            "005-90054"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21700157"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1614643200000,
+          "0000947871-21-000277:ss193386_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-21-002366",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1710697/000117911021002366/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000117911021002366/edgar.xml"
+      ],
+      "ciks": [
+        "0001710697",
+        "0001479419"
+      ],
+      "display_names": [
+        "Chen Hongming  (CIK 0001710697)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2021-02-26",
+      "form": "4",
+      "id": "0001179110-21-002366:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-21-002366:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-21-002366",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001710697",
+            "0001479419"
+          ],
+          "display_names": [
+            "Chen Hongming  (CIK 0001710697)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-02-26",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21691663"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-02-25",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1614297600000,
+          "0001179110-21-002366:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-21-001816",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021001816/tmb-20210225xs8.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "tmb-20210225xs8.htm",
+      "filed_date": "2021-02-25",
+      "form": "S-8",
+      "id": "0001558370-21-001816:tmb-20210225xs8.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-21-001816:tmb-20210225xs8.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-001816",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-02-25",
+          "file_description": "S-8",
+          "file_num": [
+            "333-253503"
+          ],
+          "file_type": "S-8",
+          "film_num": [
+            "21680393"
+          ],
+          "form": "S-8",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1614211200000,
+          "0001558370-21-001816:tmb-20210225xs8.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-21-001797",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021001797/kala-20201231x10k.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "kala-20201231x10k.htm",
+      "filed_date": "2021-02-25",
+      "form": "10-K",
+      "id": "0001558370-21-001797:kala-20201231x10k.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-21-001797:kala-20201231x10k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-001797",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-02-25",
+          "file_description": "10-K",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "21680154"
+          ],
+          "form": "10-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1614211200000,
+          "0001558370-21-001797:kala-20201231x10k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-21-001707",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021001707/kala-20210225x8k.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "kala-20210225x8k.htm",
+      "filed_date": "2021-02-25",
+      "form": "8-K",
+      "id": "0001558370-21-001707:kala-20210225x8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001558370-21-001707:kala-20210225x8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-001707",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-02-25",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21676353"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2021-02-25",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1614211200000,
+          "0001558370-21-001707:kala-20210225x8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001580642-21-000675",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000158064221000675/kalapharmsc13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/1442891/000158064221000675/kalapharmsc13g.htm"
+      ],
+      "ciks": [
+        "0001479419",
+        "0001442891"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+        "EVENTIDE ASSET MANAGEMENT, LLC  (CIK 0001442891)"
+      ],
+      "document_name": "kalapharmsc13g.htm",
+      "filed_date": "2021-02-12",
+      "form": "SC 13G",
+      "id": "0001580642-21-000675:kalapharmsc13g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001580642-21-000675:kalapharmsc13g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001580642-21-000675",
+          "biz_locations": [
+            "Watertown, MA",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419",
+            "0001442891"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+            "EVENTIDE ASSET MANAGEMENT, LLC  (CIK 0001442891)"
+          ],
+          "file_date": "2021-02-12",
+          "file_description": "SC 13G",
+          "file_num": [
+            "005-90054"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "21627307"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613088000000,
+          "0001580642-21-000675:kalapharmsc13g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000947871-21-000176",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000094787121000176/ss192033_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1055951/000094787121000176/ss192033_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001479419",
+        "0001055951"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+        "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+      ],
+      "document_name": "ss192033_sc13ga.htm",
+      "filed_date": "2021-02-12",
+      "form": "SC 13G/A",
+      "id": "0000947871-21-000176:ss192033_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000947871-21-000176:ss192033_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000947871-21-000176",
+          "biz_locations": [
+            "Watertown, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001479419",
+            "0001055951"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+            "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+          ],
+          "file_date": "2021-02-12",
+          "file_description": "AMENDMENT NO. 2",
+          "file_num": [
+            "005-90054"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21628888"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613088000000,
+          "0000947871-21-000176:ss192033_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000834237-21-006882",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000083423721006882/us4831191030_020221.txt",
+        "https://www.sec.gov/Archives/edgar/data/1364742/000083423721006882/us4831191030_020221.txt"
+      ],
+      "ciks": [
+        "0001479419",
+        "0001364742"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+        "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+      ],
+      "document_name": "us4831191030_020221.txt",
+      "filed_date": "2021-02-02",
+      "form": "SC 13G",
+      "id": "0000834237-21-006882:us4831191030_020221.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000834237-21-006882:us4831191030_020221.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000834237-21-006882",
+          "biz_locations": [
+            "Watertown, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001479419",
+            "0001364742"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)",
+            "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+          ],
+          "file_date": "2021-02-02",
+          "file_description": null,
+          "file_num": [
+            "005-90054"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "21580620"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6211"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1612224000000,
+          "0000834237-21-006882:us4831191030_020221.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-21-000067",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1479419/000155837021000067/kala-20210107x8k.htm"
+      ],
+      "ciks": [
+        "0001479419"
+      ],
+      "display_names": [
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "kala-20210107x8k.htm",
+      "filed_date": "2021-01-07",
+      "form": "8-K",
+      "id": "0001558370-21-000067:kala-20210107x8k.htm",
+      "items": [
+        "2.02",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001558370-21-000067:kala-20210107x8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-21-000067",
+          "biz_locations": [
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001479419"
+          ],
+          "display_names": [
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-01-07",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21512972"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-01-07",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1609977600000,
+          "0001558370-21-000067:kala-20210107x8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-21-000190",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1298079/000117911021000190/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000117911021000190/edgar.xml"
+      ],
+      "ciks": [
+        "0001298079",
+        "0001479419"
+      ],
+      "display_names": [
+        "Brazzell Romulus K  (CIK 0001298079)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2021-01-05",
+      "form": "4",
+      "id": "0001179110-21-000190:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-21-000190:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-21-000190",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001298079",
+            "0001479419"
+          ],
+          "display_names": [
+            "Brazzell Romulus K  (CIK 0001298079)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-01-05",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21506750"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-04",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1609804800000,
+          "0001179110-21-000190:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-21-000182",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1710697/000117911021000182/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000117911021000182/edgar.xml"
+      ],
+      "ciks": [
+        "0001710697",
+        "0001479419"
+      ],
+      "display_names": [
+        "Chen Hongming  (CIK 0001710697)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2021-01-05",
+      "form": "4",
+      "id": "0001179110-21-000182:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-21-000182:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-21-000182",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001710697",
+            "0001479419"
+          ],
+          "display_names": [
+            "Chen Hongming  (CIK 0001710697)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-01-05",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21506709"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-04",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1609804800000,
+          "0001179110-21-000182:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-21-000173",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1646300/000117911021000173/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000117911021000173/edgar.xml"
+      ],
+      "ciks": [
+        "0001646300",
+        "0001479419"
+      ],
+      "display_names": [
+        "Trachtenberg Eric  (CIK 0001646300)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2021-01-05",
+      "form": "4",
+      "id": "0001179110-21-000173:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-21-000173:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-21-000173",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001646300",
+            "0001479419"
+          ],
+          "display_names": [
+            "Trachtenberg Eric  (CIK 0001646300)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-01-05",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21506671"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-04",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1609804800000,
+          "0001179110-21-000173:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-21-000169",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1605767/000117911021000169/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000117911021000169/edgar.xml"
+      ],
+      "ciks": [
+        "0001605767",
+        "0001479419"
+      ],
+      "display_names": [
+        "Bazemore Todd  (CIK 0001605767)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2021-01-05",
+      "form": "4",
+      "id": "0001179110-21-000169:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-21-000169:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-21-000169",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001605767",
+            "0001479419"
+          ],
+          "display_names": [
+            "Bazemore Todd  (CIK 0001605767)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-01-05",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21506635"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-04",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1609804800000,
+          "0001179110-21-000169:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-21-000168",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1415537/000117911021000168/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000117911021000168/edgar.xml"
+      ],
+      "ciks": [
+        "0001415537",
+        "0001479419"
+      ],
+      "display_names": [
+        "Iwicki Mark T  (CIK 0001415537)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2021-01-05",
+      "form": "4",
+      "id": "0001179110-21-000168:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-21-000168:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-21-000168",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001415537",
+            "0001479419"
+          ],
+          "display_names": [
+            "Iwicki Mark T  (CIK 0001415537)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-01-05",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21506600"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-04",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1609804800000,
+          "0001179110-21-000168:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-21-000166",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1710969/000117911021000166/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1479419/000117911021000166/edgar.xml"
+      ],
+      "ciks": [
+        "0001710969",
+        "0001479419"
+      ],
+      "display_names": [
+        "Reumuth Mary  (CIK 0001710969)",
+        "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2021-01-05",
+      "form": "4",
+      "id": "0001179110-21-000166:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-21-000166:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-21-000166",
+          "biz_locations": [
+            "",
+            "Watertown, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001710969",
+            "0001479419"
+          ],
+          "display_names": [
+            "Reumuth Mary  (CIK 0001710969)",
+            "Kala Pharmaceuticals, Inc.  (KALA)  (CIK 0001479419)"
+          ],
+          "file_date": "2021-01-05",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38150"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21506561"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-04",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1609804800000,
+          "0001179110-21-000166:edgar.xml"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2021-01-01",
+  "ticker": "KALA",
+  "total": 61
+}

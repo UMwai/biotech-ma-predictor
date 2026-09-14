@@ -1,0 +1,65 @@
+{
+  "records": [
+    {
+      "biotech_eligible": true,
+      "cik": 1200375,
+      "company_name": "Codexis, Inc.",
+      "evidence_paraphrase": "Original2021 annual identifies CDXS Nasdaq common stock and reports its common-stock total-return series for Dec31,2016 through Dec31,2021. Intervening complete material filing review has no delisting/control cessation notice; actual underwriting/ATM agreements expressly deny listing-termination actions/notices.",
+      "exchange": "Nasdaq Global Select Market",
+      "extracted_text_sha256": "5695576b598d31c575f01b696892594d95e64a936f3c583223ed394c00023e80",
+      "independent_human_review": false,
+      "interval_basis": "The fixed2020 Nasdaq frame establishes the historical symbol before observation. Original2021 annual Item5 describes a common-stock total-return series spanning the whole2021 outcome period, current Nasdaq common stock and holders/outstanding shares as ofFeb24,2022; complete intervening material filing review finds no control/delisting event. This is a documented reconstruction from trading-history and full material-event evidence, not a generic annual-filer proxy.",
+      "kind": "historical_exchange_membership",
+      "original_sec_document_bytes_archived": false,
+      "original_source_sha256": null,
+      "pending_transaction_review_complete": true,
+      "pending_transaction_review_receipt": {
+        "source_sha256": "49e676fbcedd86c498d2cf9fe6e6fc66179f64f6d6a2749a6ce6a7f96ad45e04",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/negative_reviews/CDXS_regulatory_outcome_review_2021.json"
+      },
+      "reviewed_at": "2026-09-08T20:16:03.735281+00:00",
+      "reviewed_interval_end": "2021-12-31",
+      "reviewed_interval_start": "2021-01-01",
+      "reviewer": "Codex-primary-source-review",
+      "security_type": "common_equity",
+      "source_content_format": "issuer_accession_filing_mirror_html",
+      "source_locator": "Item5 Market Information and Stock Price/Stock Performance Graph narrative and dated table",
+      "source_sha256": "d0f9b564942e82b3ee2a728d078900c37847e828bc5e739bbec09265c19670c6",
+      "source_uri": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/cdxs-20211231.htm",
+      "ticker": "CDXS",
+      "valid_from": "2020-12-21T00:00:00Z",
+      "valid_until": "2022-02-24T00:00:00Z"
+    },
+    {
+      "biotech_eligible": true,
+      "cik": 1382101,
+      "company_name": "Sutro Biopharma, Inc.",
+      "evidence_paraphrase": "Original2021 annual identifies STRO Nasdaq common stock and explicitly describes shareholder returns from Sep27,2018 first trading day through Dec31,2021, with dated quarterly table. Complete intervening material filings contain no listing cessation/control notice. FY2019 annual separately states listing sinceSep27,2018.",
+      "exchange": "Nasdaq Global Market",
+      "extracted_text_sha256": "6581900b6ac150a95cea5a3c2568365bd47c6cb2e7410eccebb6808eaa148491",
+      "independent_human_review": false,
+      "interval_basis": "The fixed2020 Nasdaq frame establishes the historical symbol before observation. Original2021 annual Item5 describes a common-stock total-return series spanning the whole2021 outcome period, current Nasdaq common stock and holders/outstanding shares as ofFeb24,2022; complete intervening material filing review finds no control/delisting event. This is a documented reconstruction from trading-history and full material-event evidence, not a generic annual-filer proxy.",
+      "kind": "historical_exchange_membership",
+      "original_sec_document_bytes_archived": false,
+      "original_source_sha256": null,
+      "pending_transaction_review_complete": true,
+      "pending_transaction_review_receipt": {
+        "source_sha256": "74ec23788f8294ba9f976a6733d951ae1eee136fdcf75ec271b43ac83792c6f9",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/negative_reviews/STRO_regulatory_outcome_review_2021.json"
+      },
+      "reviewed_at": "2026-09-08T20:16:03.735281+00:00",
+      "reviewed_interval_end": "2021-12-31",
+      "reviewed_interval_start": "2021-01-01",
+      "reviewer": "Codex-primary-source-review",
+      "security_type": "common_equity",
+      "source_content_format": "issuer_accession_filing_mirror_html",
+      "source_locator": "Item5 Market Information and Stock Price/Stock Performance Graph narrative and dated table",
+      "source_sha256": "6b8de6948b9fd7aa418e7a0f4bd08f77908104fc7d2138b2caa2f3d7f36ff9b3",
+      "source_uri": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-20211231.htm",
+      "ticker": "STRO",
+      "valid_from": "2020-12-21T00:00:00Z",
+      "valid_until": "2022-02-24T00:00:00Z"
+    }
+  ],
+  "schema_version": "reviewed-historical-listings-v1"
+}

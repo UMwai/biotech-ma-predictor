@@ -1,0 +1,19 @@
+{
+  "cik": 1157601,
+  "evidence_paraphrase": "The original SEC filing-detail index identifies Madrigal Pharmaceuticals, Inc. as filer with CIK 1157601 and reporting period 2021-12-31. This records subject identity only; it does not establish a continuous historical exchange-listing interval.",
+  "filed_date": null,
+  "independent_human_review": false,
+  "issuer_name": "Madrigal Pharmaceuticals, Inc.",
+  "original_source_sha256": null,
+  "period_end": "2021-12-31",
+  "reviewed_at": "2026-09-08T18:01:10.121815+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "schema_version": "primary-identity-review-v1",
+  "source_family": "regulatory_filings",
+  "source_locator": "EDGAR filing detail index: filer legal name, CIK and reporting period",
+  "source_sha256_kind": "source_review_receipt",
+  "source_transport": "normal web browser rendered SEC filing index; no programmatic SEC request",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1157601/0001193125-22-051569-index.htm",
+  "ticker": "MDGL",
+  "training_eligibility_claimed": false
+}

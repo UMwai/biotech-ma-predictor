@@ -1,0 +1,4847 @@
+{
+  "cik": 1680581,
+  "end_date": "2021-12-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:54:11.466954+00:00",
+      "returned": 68,
+      "source_bytes": 47849,
+      "source_relative_path": "raw_sources/d67215ac156b34fc587fa228dbd93e35a4c0ee3b52b815555ba87484f9df9dee.json",
+      "source_sha256": "d67215ac156b34fc587fa228dbd93e35a4c0ee3b52b815555ba87484f9df9dee",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001680581&dateRange=custom&startdt=2021-01-01&enddt=2021-12-31&from=0&size=100",
+      "total": 68
+    }
+  ],
+  "records": [
+    {
+      "accession": "0000899243-21-047542",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1896415/000089924321047542/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321047542/doc4.xml"
+      ],
+      "ciks": [
+        "0001896415",
+        "0001680581"
+      ],
+      "display_names": [
+        "Banks Sonja  (CIK 0001896415)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-12-09",
+      "form": "4",
+      "id": "0000899243-21-047542:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-047542:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-047542",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001896415",
+            "0001680581"
+          ],
+          "display_names": [
+            "Banks Sonja  (CIK 0001896415)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-12-09",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211482318"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-12-08",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1639008000000,
+          "0000899243-21-047542:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-047522",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1896415/000089924321047522/doc3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321047522/doc3.xml"
+      ],
+      "ciks": [
+        "0001896415",
+        "0001680581"
+      ],
+      "display_names": [
+        "Banks Sonja  (CIK 0001896415)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc3.xml",
+      "filed_date": "2021-12-09",
+      "form": "3",
+      "id": "0000899243-21-047522:doc3.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-047522:doc3.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-047522",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001896415",
+            "0001680581"
+          ],
+          "display_names": [
+            "Banks Sonja  (CIK 0001896415)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-12-09",
+          "file_description": "FORM 3 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "211482118"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-12-08",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1639008000000,
+          "0000899243-21-047522:doc3.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-348354",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521348354/d273327d8k.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d273327d8k.htm",
+      "filed_date": "2021-12-06",
+      "form": "8-K",
+      "id": "0001193125-21-348354:d273327d8k.htm",
+      "items": [
+        "8.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-348354:d273327d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-348354",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-12-06",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211471922"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01"
+          ],
+          "period_ending": "2021-12-06",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1638748800000,
+          "0001193125-21-348354:d273327d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-331947",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521331947/d189896d8k.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d189896d8k.htm",
+      "filed_date": "2021-11-17",
+      "form": "8-K",
+      "id": "0001193125-21-331947:d189896d8k.htm",
+      "items": [
+        "5.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-331947:d189896d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-331947",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-11-17",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211418464"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.02",
+            "9.01"
+          ],
+          "period_ending": "2021-11-16",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1637107200000,
+          "0001193125-21-331947:d189896d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-044427",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1180428/000089924321044427/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321044427/doc4.xml"
+      ],
+      "ciks": [
+        "0001180428",
+        "0001680581"
+      ],
+      "display_names": [
+        "LEVIN MARK J  (CIK 0001180428)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-11-12",
+      "form": "4",
+      "id": "0000899243-21-044427:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-044427:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-044427",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001180428",
+            "0001680581"
+          ],
+          "display_names": [
+            "LEVIN MARK J  (CIK 0001180428)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-11-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211405081"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1636675200000,
+          "0000899243-21-044427:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-044424",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1192595/000089924321044424/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1192603/000089924321044424/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1569705/000089924321044424/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1637299/000089924321044424/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1637300/000089924321044424/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321044424/doc4.xml"
+      ],
+      "ciks": [
+        "0001192595",
+        "0001192603",
+        "0001569705",
+        "0001637299",
+        "0001637300",
+        "0001680581"
+      ],
+      "display_names": [
+        "TEPPER ROBERT I  (CIK 0001192595)",
+        "STARR KEVIN P  (CIK 0001192603)",
+        "Third Rock Ventures III, L.P.  (CIK 0001569705)",
+        "TRV GP III, LLC  (CIK 0001637299)",
+        "Third Rock Ventures GP III, L.P.  (CIK 0001637300)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-11-12",
+      "form": "4",
+      "id": "0000899243-21-044424:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-044424:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-044424",
+          "biz_locations": [
+            "",
+            "",
+            "Boston, MA",
+            "Boston, MA",
+            "Boston, MA",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001192595",
+            "0001192603",
+            "0001569705",
+            "0001637299",
+            "0001637300",
+            "0001680581"
+          ],
+          "display_names": [
+            "TEPPER ROBERT I  (CIK 0001192595)",
+            "STARR KEVIN P  (CIK 0001192603)",
+            "Third Rock Ventures III, L.P.  (CIK 0001569705)",
+            "TRV GP III, LLC  (CIK 0001637299)",
+            "Third Rock Ventures GP III, L.P.  (CIK 0001637300)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-11-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978",
+            "001-38978",
+            "001-38978",
+            "001-38978",
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211404995",
+            "211404996",
+            "211404999",
+            "211404997",
+            "211404998"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "",
+            "DE",
+            "DE",
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1636675200000,
+          "0000899243-21-044424:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-21-054234",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000156459021054234/fulc-10q_20210930.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "fulc-10q_20210930.htm",
+      "filed_date": "2021-11-04",
+      "form": "10-Q",
+      "id": "0001564590-21-054234:fulc-10q_20210930.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-21-054234:fulc-10q_20210930.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-21-054234",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-11-04",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "211377986"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-09-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1635984000000,
+          "0001564590-21-054234:fulc-10q_20210930.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-21-054229",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000156459021054229/fulc-8k_20211104.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "fulc-8k_20211104.htm",
+      "filed_date": "2021-11-04",
+      "form": "8-K",
+      "id": "0001564590-21-054229:fulc-8k_20211104.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-21-054229:fulc-8k_20211104.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-21-054229",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-11-04",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211377958"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2021-11-04",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1635984000000,
+          "0001564590-21-054229:fulc-8k_20211104.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-319344",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521319344/d245897ds3asr.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d245897ds3asr.htm",
+      "filed_date": "2021-11-04",
+      "form": "S-3ASR",
+      "id": "0001193125-21-319344:d245897ds3asr.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-319344:d245897ds3asr.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-319344",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-11-04",
+          "file_description": "S-3ASR",
+          "file_num": [
+            "333-260754"
+          ],
+          "file_type": "S-3ASR",
+          "film_num": [
+            "211378054"
+          ],
+          "form": "S-3ASR",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-3ASR"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1635984000000,
+          "0001193125-21-319344:d245897ds3asr.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001387131-21-009633",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000138713121009633/fulc-sc13ga_081621.htm",
+        "https://www.sec.gov/Archives/edgar/data/1131399/000138713121009633/fulc-sc13ga_081621.htm"
+      ],
+      "ciks": [
+        "0001680581",
+        "0001131399"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+        "GLAXOSMITHKLINE PLC  (GSK, GLAXF)  (CIK 0001131399)"
+      ],
+      "document_name": "fulc-sc13ga_081621.htm",
+      "filed_date": "2021-09-27",
+      "form": "SC 13G/A",
+      "id": "0001387131-21-009633:fulc-sc13ga_081621.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001387131-21-009633:fulc-sc13ga_081621.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001387131-21-009633",
+          "biz_locations": [
+            "Cambridge, MA",
+            "Brentford Middlesex, X0"
+          ],
+          "biz_states": [
+            "MA",
+            "X0"
+          ],
+          "ciks": [
+            "0001680581",
+            "0001131399"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+            "GLAXOSMITHKLINE PLC  (GSK, GLAXF)  (CIK 0001131399)"
+          ],
+          "file_date": "2021-09-27",
+          "file_description": "AMENDMENT TO FORM SC 13G",
+          "file_num": [
+            "005-91080"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "211278864"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "X0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1632700800000,
+          "0001387131-21-009633:fulc-sc13ga_081621.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-037615",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1180428/000089924321037615/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321037615/doc4.xml"
+      ],
+      "ciks": [
+        "0001180428",
+        "0001680581"
+      ],
+      "display_names": [
+        "LEVIN MARK J  (CIK 0001180428)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-09-24",
+      "form": "4",
+      "id": "0000899243-21-037615:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-037615:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-037615",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001180428",
+            "0001680581"
+          ],
+          "display_names": [
+            "LEVIN MARK J  (CIK 0001180428)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-09-24",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211277409"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-09-22",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1632441600000,
+          "0000899243-21-037615:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-037614",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1192595/000089924321037614/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1192603/000089924321037614/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1569705/000089924321037614/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1637299/000089924321037614/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1637300/000089924321037614/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321037614/doc4.xml"
+      ],
+      "ciks": [
+        "0001192595",
+        "0001192603",
+        "0001569705",
+        "0001637299",
+        "0001637300",
+        "0001680581"
+      ],
+      "display_names": [
+        "TEPPER ROBERT I  (CIK 0001192595)",
+        "STARR KEVIN P  (CIK 0001192603)",
+        "Third Rock Ventures III, L.P.  (CIK 0001569705)",
+        "TRV GP III, LLC  (CIK 0001637299)",
+        "Third Rock Ventures GP III, L.P.  (CIK 0001637300)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-09-24",
+      "form": "4",
+      "id": "0000899243-21-037614:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-037614:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-037614",
+          "biz_locations": [
+            "",
+            "",
+            "Boston, MA",
+            "Boston, MA",
+            "Boston, MA",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001192595",
+            "0001192603",
+            "0001569705",
+            "0001637299",
+            "0001637300",
+            "0001680581"
+          ],
+          "display_names": [
+            "TEPPER ROBERT I  (CIK 0001192595)",
+            "STARR KEVIN P  (CIK 0001192603)",
+            "Third Rock Ventures III, L.P.  (CIK 0001569705)",
+            "TRV GP III, LLC  (CIK 0001637299)",
+            "Third Rock Ventures GP III, L.P.  (CIK 0001637300)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-09-24",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978",
+            "001-38978",
+            "001-38978",
+            "001-38978",
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211277400",
+            "211277401",
+            "211277404",
+            "211277402",
+            "211277403"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "",
+            "DE",
+            "DE",
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-09-22",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1632441600000,
+          "0000899243-21-037614:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000315066-21-001729",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000031506621001729/filing.txt",
+        "https://www.sec.gov/Archives/edgar/data/315066/000031506621001729/filing.txt"
+      ],
+      "ciks": [
+        "0001680581",
+        "0000315066"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "document_name": "filing.txt",
+      "filed_date": "2021-09-10",
+      "form": "SC 13G/A",
+      "id": "0000315066-21-001729:filing.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000315066-21-001729:filing.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000315066-21-001729",
+          "biz_locations": [
+            "Cambridge, MA",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581",
+            "0000315066"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+            "FMR LLC  (CIK 0000315066)"
+          ],
+          "file_date": "2021-09-10",
+          "file_description": null,
+          "file_num": [
+            "005-91080"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "211246042"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "0000"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1631232000000,
+          "0000315066-21-001729:filing.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-244795",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521244795/d60776d8k.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d60776d8k.htm",
+      "filed_date": "2021-08-12",
+      "form": "8-K",
+      "id": "0001193125-21-244795:d60776d8k.htm",
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-244795:d60776d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-244795",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-08-12",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211168256"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "1.01",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-08-11",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628726400000,
+          "0001193125-21-244795:d60776d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-244789",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521244789/d207524d424b5.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d207524d424b5.htm",
+      "filed_date": "2021-08-12",
+      "form": "424B5",
+      "id": "0001193125-21-244789:d207524d424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-244789:d207524d424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-244789",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-08-12",
+          "file_description": "424B5",
+          "file_num": [
+            "333-244136"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "211168219"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628726400000,
+          "0001193125-21-244789:d207524d424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-032755",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1843784/000089924321032755/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321032755/doc4.xml"
+      ],
+      "ciks": [
+        "0001843784",
+        "0001680581"
+      ],
+      "display_names": [
+        "Moxham Christopher  (CIK 0001843784)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-08-12",
+      "form": "4",
+      "id": "0000899243-21-032755:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-032755:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-032755",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001843784",
+            "0001680581"
+          ],
+          "display_names": [
+            "Moxham Christopher  (CIK 0001843784)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-08-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211167868"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-08-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1628726400000,
+          "0000899243-21-032755:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-032753",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1619846/000089924321032753/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321032753/doc4.xml"
+      ],
+      "ciks": [
+        "0001619846",
+        "0001680581"
+      ],
+      "display_names": [
+        "Stuart Bryan  (CIK 0001619846)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-08-12",
+      "form": "4",
+      "id": "0000899243-21-032753:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-032753:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-032753",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001619846",
+            "0001680581"
+          ],
+          "display_names": [
+            "Stuart Bryan  (CIK 0001619846)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-08-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211167861"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-08-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1628726400000,
+          "0000899243-21-032753:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-243764",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521243764/d217346ds3mef.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d217346ds3mef.htm",
+      "filed_date": "2021-08-11",
+      "form": "S-3MEF",
+      "id": "0001193125-21-243764:d217346ds3mef.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-243764:d217346ds3mef.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-243764",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-08-11",
+          "file_description": "S-3MEF",
+          "file_num": [
+            "333-258740"
+          ],
+          "file_type": "S-3MEF",
+          "film_num": [
+            "211165385"
+          ],
+          "form": "S-3MEF",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-3MEF"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628640000000,
+          "0001193125-21-243764:d217346ds3mef.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-242235",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521242235/d207524d424b5.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d207524d424b5.htm",
+      "filed_date": "2021-08-11",
+      "form": "424B5",
+      "id": "0001193125-21-242235:d207524d424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-242235:d207524d424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-242235",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-08-11",
+          "file_description": "424B5",
+          "file_num": [
+            "333-244136"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "211161587"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628640000000,
+          "0001193125-21-242235:d207524d424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-21-042876",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000156459021042876/fulc-10q_20210630.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "fulc-10q_20210630.htm",
+      "filed_date": "2021-08-10",
+      "form": "10-Q",
+      "id": "0001564590-21-042876:fulc-10q_20210630.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-21-042876:fulc-10q_20210630.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-21-042876",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-08-10",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "211158402"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628553600000,
+          "0001564590-21-042876:fulc-10q_20210630.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-21-042873",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000156459021042873/fulc-8k_20210810.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "fulc-8k_20210810.htm",
+      "filed_date": "2021-08-10",
+      "form": "8-K",
+      "id": "0001564590-21-042873:fulc-8k_20210810.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-21-042873:fulc-8k_20210810.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-21-042873",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-08-10",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211158392"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2021-08-10",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628553600000,
+          "0001564590-21-042873:fulc-8k_20210810.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000919574-21-004966",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000091957421004966/d8918002_13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/1569064/000091957421004966/d8918002_13g.htm"
+      ],
+      "ciks": [
+        "0001680581",
+        "0001569064"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+        "SUVRETTA CAPITAL MANAGEMENT, LLC  (CIK 0001569064)"
+      ],
+      "document_name": "d8918002_13g.htm",
+      "filed_date": "2021-08-10",
+      "form": "SC 13G",
+      "id": "0000919574-21-004966:d8918002_13g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000919574-21-004966:d8918002_13g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000919574-21-004966",
+          "biz_locations": [
+            "Cambridge, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001680581",
+            "0001569064"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+            "SUVRETTA CAPITAL MANAGEMENT, LLC  (CIK 0001569064)"
+          ],
+          "file_date": "2021-08-10",
+          "file_description": null,
+          "file_num": [
+            "005-91080"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "211160928"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628553600000,
+          "0000919574-21-004966:d8918002_13g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-026557",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1859284/000089924321026557/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321026557/doc4.xml"
+      ],
+      "ciks": [
+        "0001859284",
+        "0001680581"
+      ],
+      "display_names": [
+        "Morabito Christopher  (CIK 0001859284)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-29",
+      "form": "4",
+      "id": "0000899243-21-026557:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-026557:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-026557",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001859284",
+            "0001680581"
+          ],
+          "display_names": [
+            "Morabito Christopher  (CIK 0001859284)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-06-29",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211058302"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624924800000,
+          "0000899243-21-026557:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-026556",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1714982/000089924321026556/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321026556/doc4.xml"
+      ],
+      "ciks": [
+        "0001714982",
+        "0001680581"
+      ],
+      "display_names": [
+        "Oltmans Curtis Gale  (CIK 0001714982)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-29",
+      "form": "4",
+      "id": "0000899243-21-026556:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-026556:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-026556",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001714982",
+            "0001680581"
+          ],
+          "display_names": [
+            "Oltmans Curtis Gale  (CIK 0001714982)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-06-29",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211058294"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624924800000,
+          "0000899243-21-026556:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-026555",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1779120/000089924321026555/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321026555/doc4.xml"
+      ],
+      "ciks": [
+        "0001779120",
+        "0001680581"
+      ],
+      "display_names": [
+        "Thomson Peter G.  (CIK 0001779120)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-29",
+      "form": "4",
+      "id": "0000899243-21-026555:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-026555:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-026555",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001779120",
+            "0001680581"
+          ],
+          "display_names": [
+            "Thomson Peter G.  (CIK 0001779120)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-06-29",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211058290"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624924800000,
+          "0000899243-21-026555:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-026552",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1239746/000089924321026552/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321026552/doc4.xml"
+      ],
+      "ciks": [
+        "0001239746",
+        "0001680581"
+      ],
+      "display_names": [
+        "GERAGHTY JAMES A  (CIK 0001239746)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-29",
+      "form": "4",
+      "id": "0000899243-21-026552:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-026552:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-026552",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001239746",
+            "0001680581"
+          ],
+          "display_names": [
+            "GERAGHTY JAMES A  (CIK 0001239746)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-06-29",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211058274"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624924800000,
+          "0000899243-21-026552:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-198675",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521198675/d190429d8k.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d190429d8k.htm",
+      "filed_date": "2021-06-24",
+      "form": "8-K",
+      "id": "0001193125-21-198675:d190429d8k.htm",
+      "items": [
+        "8.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-198675:d190429d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-198675",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-06-24",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211043018"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01"
+          ],
+          "period_ending": "2021-06-24",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1624492800000,
+          "0001193125-21-198675:d190429d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-188915",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521188915/d163356d8k.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d163356d8k.htm",
+      "filed_date": "2021-06-11",
+      "form": "8-K",
+      "id": "0001193125-21-188915:d163356d8k.htm",
+      "items": [
+        "5.07"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-188915:d163356d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-188915",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-06-11",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211011698"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.07"
+          ],
+          "period_ending": "2021-06-09",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1623369600000,
+          "0001193125-21-188915:d163356d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-023288",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1779269/000089924321023288/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321023288/doc4.xml"
+      ],
+      "ciks": [
+        "0001779269",
+        "0001680581"
+      ],
+      "display_names": [
+        "Collins James J.  (CIK 0001779269)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-11",
+      "form": "4",
+      "id": "0000899243-21-023288:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-023288:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-023288",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001779269",
+            "0001680581"
+          ],
+          "display_names": [
+            "Collins James J.  (CIK 0001779269)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-06-11",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211012233"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-09",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623369600000,
+          "0000899243-21-023288:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-023287",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1180428/000089924321023287/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321023287/doc4.xml"
+      ],
+      "ciks": [
+        "0001180428",
+        "0001680581"
+      ],
+      "display_names": [
+        "LEVIN MARK J  (CIK 0001180428)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-11",
+      "form": "4",
+      "id": "0000899243-21-023287:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-023287:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-023287",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001180428",
+            "0001680581"
+          ],
+          "display_names": [
+            "LEVIN MARK J  (CIK 0001180428)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-06-11",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211012234"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-09",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623369600000,
+          "0000899243-21-023287:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-023286",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1239746/000089924321023286/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321023286/doc4.xml"
+      ],
+      "ciks": [
+        "0001239746",
+        "0001680581"
+      ],
+      "display_names": [
+        "GERAGHTY JAMES A  (CIK 0001239746)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-11",
+      "form": "4",
+      "id": "0000899243-21-023286:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-023286:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-023286",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001239746",
+            "0001680581"
+          ],
+          "display_names": [
+            "GERAGHTY JAMES A  (CIK 0001239746)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-06-11",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211012226"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-09",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623369600000,
+          "0000899243-21-023286:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-023285",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1780209/000089924321023285/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321023285/doc4.xml"
+      ],
+      "ciks": [
+        "0001780209",
+        "0001680581"
+      ],
+      "display_names": [
+        "Ezekowitz Alan  (CIK 0001780209)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-11",
+      "form": "4",
+      "id": "0000899243-21-023285:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-023285:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-023285",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001780209",
+            "0001680581"
+          ],
+          "display_names": [
+            "Ezekowitz Alan  (CIK 0001780209)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-06-11",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211012229"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-09",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623369600000,
+          "0000899243-21-023285:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-023283",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1663022/000089924321023283/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321023283/doc4.xml"
+      ],
+      "ciks": [
+        "0001663022",
+        "0001680581"
+      ],
+      "display_names": [
+        "Haviland Kate  (CIK 0001663022)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-11",
+      "form": "4",
+      "id": "0000899243-21-023283:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-023283:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-023283",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001663022",
+            "0001680581"
+          ],
+          "display_names": [
+            "Haviland Kate  (CIK 0001663022)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-06-11",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211012217"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-09",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623369600000,
+          "0000899243-21-023283:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-023282",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1617541/000089924321023282/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321023282/doc4.xml"
+      ],
+      "ciks": [
+        "0001617541",
+        "0001680581"
+      ],
+      "display_names": [
+        "Dorton Katina  (CIK 0001617541)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-11",
+      "form": "4",
+      "id": "0000899243-21-023282:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-023282:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-023282",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001617541",
+            "0001680581"
+          ],
+          "display_names": [
+            "Dorton Katina  (CIK 0001617541)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-06-11",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211012214"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-09",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623369600000,
+          "0000899243-21-023282:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-019264",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1859284/000089924321019264/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321019264/doc4.xml"
+      ],
+      "ciks": [
+        "0001859284",
+        "0001680581"
+      ],
+      "display_names": [
+        "Morabito Christopher  (CIK 0001859284)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-05-12",
+      "form": "4",
+      "id": "0000899243-21-019264:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-019264:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-019264",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001859284",
+            "0001680581"
+          ],
+          "display_names": [
+            "Morabito Christopher  (CIK 0001859284)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-05-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21915549"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-05-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1620777600000,
+          "0000899243-21-019264:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-019259",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1859284/000089924321019259/doc3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321019259/doc3.xml"
+      ],
+      "ciks": [
+        "0001859284",
+        "0001680581"
+      ],
+      "display_names": [
+        "Morabito Christopher  (CIK 0001859284)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc3.xml",
+      "filed_date": "2021-05-12",
+      "form": "3",
+      "id": "0000899243-21-019259:doc3.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-019259:doc3.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-019259",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001859284",
+            "0001680581"
+          ],
+          "display_names": [
+            "Morabito Christopher  (CIK 0001859284)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-05-12",
+          "file_description": "FORM 3 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "21915256"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-05-10",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1620777600000,
+          "0000899243-21-019259:doc3.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-21-024505",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000156459021024505/fulc-10q_20210331.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "fulc-10q_20210331.htm",
+      "filed_date": "2021-05-06",
+      "form": "10-Q",
+      "id": "0001564590-21-024505:fulc-10q_20210331.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-21-024505:fulc-10q_20210331.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-21-024505",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-05-06",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "21895740"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-03-31",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1620259200000,
+          "0001564590-21-024505:fulc-10q_20210331.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-21-024502",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000156459021024502/fulc-8k_20210506.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "fulc-8k_20210506.htm",
+      "filed_date": "2021-05-06",
+      "form": "8-K",
+      "id": "0001564590-21-024502:fulc-8k_20210506.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-21-024502:fulc-8k_20210506.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-21-024502",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-05-06",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21895726"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2021-05-06",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1620259200000,
+          "0001564590-21-024502:fulc-8k_20210506.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-138560",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521138560/d41208ddefa14a.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d41208ddefa14a.htm",
+      "filed_date": "2021-04-29",
+      "form": "DEFA14A",
+      "id": "0001193125-21-138560:d41208ddefa14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-138560:d41208ddefa14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-138560",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-04-29",
+          "file_description": "DEFA14A",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "DEFA14A",
+          "film_num": [
+            "21867412"
+          ],
+          "form": "DEFA14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DEFA14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1619654400000,
+          "0001193125-21-138560:d41208ddefa14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-138549",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521138549/d41208ddef14a.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d41208ddef14a.htm",
+      "filed_date": "2021-04-29",
+      "form": "DEF 14A",
+      "id": "0001193125-21-138549:d41208ddef14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-138549:d41208ddef14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-138549",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-04-29",
+          "file_description": "DEF 14A",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "DEF 14A",
+          "film_num": [
+            "21867395"
+          ],
+          "form": "DEF 14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-09",
+          "root_forms": [
+            "DEF 14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1619654400000,
+          "0001193125-21-138549:d41208ddef14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-014592",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1619846/000089924321014592/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321014592/doc4.xml"
+      ],
+      "ciks": [
+        "0001619846",
+        "0001680581"
+      ],
+      "display_names": [
+        "Stuart Bryan  (CIK 0001619846)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-04-02",
+      "form": "4",
+      "id": "0000899243-21-014592:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-014592:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-014592",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001619846",
+            "0001680581"
+          ],
+          "display_names": [
+            "Stuart Bryan  (CIK 0001619846)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-04-02",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21802332"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-03-31",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1617321600000,
+          "0000899243-21-014592:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-014591",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1811904/000089924321014591/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321014591/doc4.xml"
+      ],
+      "ciks": [
+        "0001811904",
+        "0001680581"
+      ],
+      "display_names": [
+        "Dunn Judith  (CIK 0001811904)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-04-02",
+      "form": "4",
+      "id": "0000899243-21-014591:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-014591:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-014591",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001811904",
+            "0001680581"
+          ],
+          "display_names": [
+            "Dunn Judith  (CIK 0001811904)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-04-02",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21802329"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-04-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1617321600000,
+          "0000899243-21-014591:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-014578",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1811904/000089924321014578/doc3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321014578/doc3.xml"
+      ],
+      "ciks": [
+        "0001811904",
+        "0001680581"
+      ],
+      "display_names": [
+        "Dunn Judith  (CIK 0001811904)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc3.xml",
+      "filed_date": "2021-04-02",
+      "form": "3",
+      "id": "0000899243-21-014578:doc3.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-014578:doc3.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-014578",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001811904",
+            "0001680581"
+          ],
+          "display_names": [
+            "Dunn Judith  (CIK 0001811904)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-04-02",
+          "file_description": "FORM 3 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "21802128"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-03-23",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1617321600000,
+          "0000899243-21-014578:doc3.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-092672",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521092672/d25784d8k.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d25784d8k.htm",
+      "filed_date": "2021-03-24",
+      "form": "8-K",
+      "id": "0001193125-21-092672:d25784d8k.htm",
+      "items": [
+        "5.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-092672:d25784d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-092672",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-03-24",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21768536"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.02",
+            "9.01"
+          ],
+          "period_ending": "2021-03-23",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1616544000000,
+          "0001193125-21-092672:d25784d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "9999999997-21-000920",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/999999999721000920/filename1.pdf"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "filename1.pdf",
+      "filed_date": "2021-03-22",
+      "form": "SEC STAFF LETTER",
+      "id": "9999999997-21-000920:filename1.pdf",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999997-21-000920:filename1.pdf",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999997-21-000920",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-03-22",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "REDACTED EXHIBIT",
+          "film_num": [],
+          "form": "SEC STAFF LETTER",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SEC STAFF LETTER"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1616371200000,
+          "9999999997-21-000920:filename1.pdf"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-012179",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1577034/000089924321012179/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321012179/doc4.xml"
+      ],
+      "ciks": [
+        "0001577034",
+        "0001680581"
+      ],
+      "display_names": [
+        "Gould Robert J  (CIK 0001577034)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-03-17",
+      "form": "4",
+      "id": "0000899243-21-012179:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-012179:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-012179",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001577034",
+            "0001680581"
+          ],
+          "display_names": [
+            "Gould Robert J  (CIK 0001577034)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-03-17",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21750945"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-03-15",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1615939200000,
+          "0000899243-21-012179:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-21-010715",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000156459021010715/fulc-10k_20201231.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "fulc-10k_20201231.htm",
+      "filed_date": "2021-03-04",
+      "form": "10-K",
+      "id": "0001564590-21-010715:fulc-10k_20201231.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-21-010715:fulc-10k_20201231.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-21-010715",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-03-04",
+          "file_description": "10-K",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "21712550"
+          ],
+          "form": "10-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1614816000000,
+          "0001564590-21-010715:fulc-10k_20201231.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-068461",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521068461/d336358ds8.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d336358ds8.htm",
+      "filed_date": "2021-03-04",
+      "form": "S-8",
+      "id": "0001193125-21-068461:d336358ds8.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-068461:d336358ds8.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-068461",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-03-04",
+          "file_description": "S-8",
+          "file_num": [
+            "333-253862"
+          ],
+          "file_type": "S-8",
+          "film_num": [
+            "21712567"
+          ],
+          "form": "S-8",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1614816000000,
+          "0001193125-21-068461:d336358ds8.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-068440",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521068440/d122679d8k.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d122679d8k.htm",
+      "filed_date": "2021-03-04",
+      "form": "8-K",
+      "id": "0001193125-21-068440:d122679d8k.htm",
+      "items": [
+        "2.02",
+        "5.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-068440:d122679d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-068440",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-03-04",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21712542"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "5.02",
+            "9.01"
+          ],
+          "period_ending": "2021-02-26",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1614816000000,
+          "0001193125-21-068440:d122679d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-008015",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1779120/000089924321008015/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321008015/doc4.xml"
+      ],
+      "ciks": [
+        "0001779120",
+        "0001680581"
+      ],
+      "display_names": [
+        "Thomson Peter G.  (CIK 0001779120)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-02-24",
+      "form": "4",
+      "id": "0000899243-21-008015:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-008015:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-008015",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001779120",
+            "0001680581"
+          ],
+          "display_names": [
+            "Thomson Peter G.  (CIK 0001779120)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-02-24",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21673757"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-02-22",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1614124800000,
+          "0000899243-21-008015:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "9999999997-21-000614",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/999999999721000614/filename1.pdf"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "filename1.pdf",
+      "filed_date": "2021-02-22",
+      "form": "SEC STAFF LETTER",
+      "id": "9999999997-21-000614:filename1.pdf",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999997-21-000614:filename1.pdf",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999997-21-000614",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-02-22",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "REDACTED EXHIBIT",
+          "film_num": [],
+          "form": "SEC STAFF LETTER",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SEC STAFF LETTER"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613952000000,
+          "9999999997-21-000614:filename1.pdf"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-007119",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1577034/000089924321007119/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321007119/doc4.xml"
+      ],
+      "ciks": [
+        "0001577034",
+        "0001680581"
+      ],
+      "display_names": [
+        "Gould Robert J  (CIK 0001577034)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-02-18",
+      "form": "4",
+      "id": "0000899243-21-007119:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-007119:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-007119",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001577034",
+            "0001680581"
+          ],
+          "display_names": [
+            "Gould Robert J  (CIK 0001577034)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-02-18",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21649946"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-02-16",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1613606400000,
+          "0000899243-21-007119:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-21-023348",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000110465921023348/tm216635d6_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1704131/000110465921023348/tm216635d6_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001680581",
+        "0001704131"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+        "Foresite Capital Fund IV, L.P.  (CIK 0001704131)"
+      ],
+      "document_name": "tm216635d6_sc13ga.htm",
+      "filed_date": "2021-02-16",
+      "form": "SC 13G/A",
+      "id": "0001104659-21-023348:tm216635d6_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-21-023348:tm216635d6_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-21-023348",
+          "biz_locations": [
+            "Cambridge, MA",
+            "San Francisco, CA"
+          ],
+          "biz_states": [
+            "MA",
+            "CA"
+          ],
+          "ciks": [
+            "0001680581",
+            "0001704131"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+            "Foresite Capital Fund IV, L.P.  (CIK 0001704131)"
+          ],
+          "file_date": "2021-02-16",
+          "file_description": "SCHEDULE 13G/A",
+          "file_num": [
+            "005-91080"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21634325"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613433600000,
+          "0001104659-21-023348:tm216635d6_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899140-21-000296",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089914021000296/b021221a.htm",
+        "https://www.sec.gov/Archives/edgar/data/1603466/000089914021000296/b021221a.htm"
+      ],
+      "ciks": [
+        "0001680581",
+        "0001603466"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+        "Point72 Asset Management, L.P.  (CIK 0001603466)"
+      ],
+      "document_name": "b021221a.htm",
+      "filed_date": "2021-02-16",
+      "form": "SC 13G/A",
+      "id": "0000899140-21-000296:b021221a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899140-21-000296:b021221a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899140-21-000296",
+          "biz_locations": [
+            "Cambridge, MA",
+            "Stamford, CT"
+          ],
+          "biz_states": [
+            "MA",
+            "CT"
+          ],
+          "ciks": [
+            "0001680581",
+            "0001603466"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+            "Point72 Asset Management, L.P.  (CIK 0001603466)"
+          ],
+          "file_date": "2021-02-16",
+          "file_description": "SCHEDULE 13G (AMENDMENT #1)",
+          "file_num": [
+            "005-91080"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21637021"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613433600000,
+          "0000899140-21-000296:b021221a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001493152-21-003557",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000149315221003557/form-sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1493215/000149315221003557/form-sc13ga.htm"
+      ],
+      "ciks": [
+        "0001680581",
+        "0001493215"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+        "RTW INVESTMENTS, LP  (CIK 0001493215)"
+      ],
+      "document_name": "form-sc13ga.htm",
+      "filed_date": "2021-02-12",
+      "form": "SC 13G/A",
+      "id": "0001493152-21-003557:form-sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001493152-21-003557:form-sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001493152-21-003557",
+          "biz_locations": [
+            "Cambridge, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001680581",
+            "0001493215"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+            "RTW INVESTMENTS, LP  (CIK 0001493215)"
+          ],
+          "file_date": "2021-02-12",
+          "file_description": null,
+          "file_num": [
+            "005-91080"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21623740"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613088000000,
+          "0001493152-21-003557:form-sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000919574-21-000829",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000091957421000829/d8789595_13g-a.htm",
+        "https://www.sec.gov/Archives/edgar/data/1534261/000091957421000829/d8789595_13g-a.htm"
+      ],
+      "ciks": [
+        "0001680581",
+        "0001534261"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+        "Casdin Capital, LLC  (CIK 0001534261)"
+      ],
+      "document_name": "d8789595_13g-a.htm",
+      "filed_date": "2021-02-11",
+      "form": "SC 13G/A",
+      "id": "0000919574-21-000829:d8789595_13g-a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000919574-21-000829:d8789595_13g-a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000919574-21-000829",
+          "biz_locations": [
+            "Cambridge, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001680581",
+            "0001534261"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+            "Casdin Capital, LLC  (CIK 0001534261)"
+          ],
+          "file_date": "2021-02-11",
+          "file_description": null,
+          "file_num": [
+            "005-91080"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21617350"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613001600000,
+          "0000919574-21-000829:d8789595_13g-a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-005666",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1843784/000089924321005666/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321005666/doc4.xml"
+      ],
+      "ciks": [
+        "0001843784",
+        "0001680581"
+      ],
+      "display_names": [
+        "Moxham Christopher  (CIK 0001843784)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-02-10",
+      "form": "4",
+      "id": "0000899243-21-005666:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-005666:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-005666",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001843784",
+            "0001680581"
+          ],
+          "display_names": [
+            "Moxham Christopher  (CIK 0001843784)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-02-10",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21614301"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-02-08",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1612915200000,
+          "0000899243-21-005666:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-005661",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1843784/000089924321005661/doc3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321005661/doc3.xml"
+      ],
+      "ciks": [
+        "0001843784",
+        "0001680581"
+      ],
+      "display_names": [
+        "Moxham Christopher  (CIK 0001843784)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc3.xml",
+      "filed_date": "2021-02-10",
+      "form": "3",
+      "id": "0000899243-21-005661:doc3.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-005661:doc3.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-005661",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001843784",
+            "0001680581"
+          ],
+          "display_names": [
+            "Moxham Christopher  (CIK 0001843784)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-02-10",
+          "file_description": "FORM 3 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "21613974"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-02-06",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1612915200000,
+          "0000899243-21-005661:doc3.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000315066-21-001009",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000031506621001009/filing.txt",
+        "https://www.sec.gov/Archives/edgar/data/315066/000031506621001009/filing.txt"
+      ],
+      "ciks": [
+        "0001680581",
+        "0000315066"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "document_name": "filing.txt",
+      "filed_date": "2021-02-08",
+      "form": "SC 13G/A",
+      "id": "0000315066-21-001009:filing.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000315066-21-001009:filing.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000315066-21-001009",
+          "biz_locations": [
+            "Cambridge, MA",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581",
+            "0000315066"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)",
+            "FMR LLC  (CIK 0000315066)"
+          ],
+          "file_date": "2021-02-08",
+          "file_description": null,
+          "file_num": [
+            "005-91080"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21599554"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "0000"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1612742400000,
+          "0000315066-21-001009:filing.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-004949",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1577034/000089924321004949/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321004949/doc4.xml"
+      ],
+      "ciks": [
+        "0001577034",
+        "0001680581"
+      ],
+      "display_names": [
+        "Gould Robert J  (CIK 0001577034)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-02-04",
+      "form": "4",
+      "id": "0000899243-21-004949:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-004949:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-004949",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001577034",
+            "0001680581"
+          ],
+          "display_names": [
+            "Gould Robert J  (CIK 0001577034)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-02-04",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21591675"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-02-02",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1612396800000,
+          "0000899243-21-004949:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-003474",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1619846/000089924321003474/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321003474/doc4.xml"
+      ],
+      "ciks": [
+        "0001619846",
+        "0001680581"
+      ],
+      "display_names": [
+        "Stuart Bryan  (CIK 0001619846)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-01-27",
+      "form": "4",
+      "id": "0000899243-21-003474:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-003474:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-003474",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001619846",
+            "0001680581"
+          ],
+          "display_names": [
+            "Stuart Bryan  (CIK 0001619846)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-01-27",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21560138"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-25",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611705600000,
+          "0000899243-21-003474:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-003472",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1779120/000089924321003472/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321003472/doc4.xml"
+      ],
+      "ciks": [
+        "0001779120",
+        "0001680581"
+      ],
+      "display_names": [
+        "Thomson Peter G.  (CIK 0001779120)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-01-27",
+      "form": "4",
+      "id": "0000899243-21-003472:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-003472:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-003472",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001779120",
+            "0001680581"
+          ],
+          "display_names": [
+            "Thomson Peter G.  (CIK 0001779120)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-01-27",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21560135"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-25",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611705600000,
+          "0000899243-21-003472:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-003173",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1779120/000089924321003173/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321003173/doc4.xml"
+      ],
+      "ciks": [
+        "0001779120",
+        "0001680581"
+      ],
+      "display_names": [
+        "Thomson Peter G.  (CIK 0001779120)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-01-25",
+      "form": "4",
+      "id": "0000899243-21-003173:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-003173:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-003173",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001779120",
+            "0001680581"
+          ],
+          "display_names": [
+            "Thomson Peter G.  (CIK 0001779120)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-01-25",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21549935"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-21",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611532800000,
+          "0000899243-21-003173:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-002928",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1577034/000089924321002928/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1680581/000089924321002928/doc4.xml"
+      ],
+      "ciks": [
+        "0001577034",
+        "0001680581"
+      ],
+      "display_names": [
+        "Gould Robert J  (CIK 0001577034)",
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-01-22",
+      "form": "4",
+      "id": "0000899243-21-002928:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-002928:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-002928",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001577034",
+            "0001680581"
+          ],
+          "display_names": [
+            "Gould Robert J  (CIK 0001577034)",
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-01-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21546126"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611273600000,
+          "0000899243-21-002928:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-012403",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521012403/d114001d8k.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d114001d8k.htm",
+      "filed_date": "2021-01-20",
+      "form": "8-K",
+      "id": "0001193125-21-012403:d114001d8k.htm",
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-012403:d114001d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-012403",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-01-20",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21538814"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "1.01",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-01-19",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1611100800000,
+          "0001193125-21-012403:d114001d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-012394",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521012394/d111229d424b5.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d111229d424b5.htm",
+      "filed_date": "2021-01-20",
+      "form": "424B5",
+      "id": "0001193125-21-012394:d111229d424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-012394:d111229d424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-012394",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-01-20",
+          "file_description": "424B5",
+          "file_num": [
+            "333-244136"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "21538774"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1611100800000,
+          "0001193125-21-012394:d111229d424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-011456",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521011456/d111229d424b5.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d111229d424b5.htm",
+      "filed_date": "2021-01-19",
+      "form": "424B5",
+      "id": "0001193125-21-011456:d111229d424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-011456:d111229d424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-011456",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-01-19",
+          "file_description": "424B5",
+          "file_num": [
+            "333-244136"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "21535618"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1611014400000,
+          "0001193125-21-011456:d111229d424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-011438",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1680581/000119312521011438/d102359d8k.htm"
+      ],
+      "ciks": [
+        "0001680581"
+      ],
+      "display_names": [
+        "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+      ],
+      "document_name": "d102359d8k.htm",
+      "filed_date": "2021-01-19",
+      "form": "8-K",
+      "id": "0001193125-21-011438:d102359d8k.htm",
+      "items": [
+        "2.02",
+        "5.02"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-011438:d102359d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-011438",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001680581"
+          ],
+          "display_names": [
+            "Fulcrum Therapeutics, Inc.  (FULC)  (CIK 0001680581)"
+          ],
+          "file_date": "2021-01-19",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38978"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21535517"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "5.02"
+          ],
+          "period_ending": "2021-01-15",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1611014400000,
+          "0001193125-21-011438:d102359d8k.htm"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2021-01-01",
+  "ticker": "FULC",
+  "total": 68
+}

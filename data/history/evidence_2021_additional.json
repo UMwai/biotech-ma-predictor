@@ -1,0 +1,167 @@
+{
+  "created_at": "2026-09-08T17:58:55.023096+00:00",
+  "integrity": {
+    "candidate_input_path": "output/historical_deal_candidates/candidates.csv",
+    "candidate_input_sha256": "8637f8ba3613970d630e6839d75c48a308be54ca9d745f5f447e589d19fd6c7a",
+    "historical_point_in_time_retrieval_claimed": false,
+    "raw_provider_payloads_archived": false,
+    "review_record_hash_semantics": "SHA256 of canonical UTF-8 JSON for each evidence record excluding review_record_sha256; this hashes the review receipt, not source HTML/PDF.",
+    "reviews_csv_path": "data/history/reviews_2021_additional.csv",
+    "reviews_csv_sha256": "d8b848d29ee4c6b847c7fe2722f61ccddcb89f5cf5b0786790256ecec0f6f838"
+  },
+  "limitations": [
+    "Primary pages were accessed during the 2026 review, not collected contemporaneously; their historical datelines are evidence about the event, not proof of immutable historical availability.",
+    "Date-only rows have no invented timestamp. Exact rows retain a printed timezone-backed release time; earliest dissemination still needs independent audit.",
+    "All transaction statuses describe the proposed deal at announcement, not current completion or termination outcomes.",
+    "100 percent means intended post-transaction whole-company ownership, not minimum tender conditions, acceptance rate or incremental shares purchased.",
+    "CIK lineage comes from the existing SEC candidate ledger and name match; primary announcements establish issuer identity/listing and control terms.",
+    "This is an agent-produced review seed. Independent label audit, complete event ascertainment, delisted-inclusive risk sets and historical point-in-time feature data remain necessary before training."
+  ],
+  "records": [
+    {
+      "acquirer_name": "Horizon Therapeutics plc",
+      "additional_review_notes": "",
+      "announcement_date": "2021-02-01",
+      "candidate_id": "0b9ee9435fb42ac3557a",
+      "cash_per_share_usd": "53.00",
+      "contingent_max_cash_per_share_usd": null,
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2021-02-01",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1492426/000119312521023675/d57202dex991.htm",
+        "ticker": "VIE"
+      },
+      "primary_evidence_paraphrase": "Horizon and Viela jointly announce an agreement for all outstanding Viela common shares at USD53 cash per share, approximately USD3.05billion equity value. The target is Nasdaq VIE. The tender offer and subsequent merger seek whole-company ownership. January31 was private signing; February1 is the public release date.",
+      "review_record_sha256": "b657a352aecc54c043e29da0f1e4903fae3974b796ac4a89f0d8f50d272c6105",
+      "reviewed_at": "2026-09-08T17:58:55.023096+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-21-040169",
+          "0001193125-21-053298",
+          "0001193125-21-067138",
+          "0001193125-21-073398",
+          "0001193125-21-079852",
+          "0001193125-21-080630"
+        ],
+        "candidate_id": "0b9ee9435fb42ac3557a",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1734517/000119312521040169/d130262dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1734517/000119312521053298/d54386dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1734517/000119312521067138/d95859dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1734517/000119312521073398/d138857dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1734517/000119312521079852/d154787dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1734517/000119312521080630/d112037dsc14d9a.htm"
+        ],
+        "filer_name": "Viela Bio, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2021-02-12",
+        "target_cik": 1734517
+      },
+      "sources": [
+        {
+          "locator": "Opening February 1 dateline and transaction terms",
+          "published_date": "2021-02-01",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T17:58:55.023096+00:00",
+          "title": "Horizon Therapeutics to Acquire Viela Bio",
+          "url": "https://www.sec.gov/Archives/edgar/data/1492426/000119312521023675/d57202dex991.htm"
+        }
+      ],
+      "target_cik": 1734517,
+      "target_name": "Viela Bio, Inc.",
+      "target_ticker": "VIE",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2021-02-01",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Sanofi",
+      "additional_review_notes": "",
+      "announcement_date": "2021-09-08",
+      "candidate_id": "5a89615f983a03665b04",
+      "cash_per_share_usd": "9.50",
+      "contingent_max_cash_per_share_usd": null,
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2021-09-08",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1557142/000114036121030604/ny20000665x1_ex99-1.htm",
+        "ticker": "KDMN"
+      },
+      "primary_evidence_paraphrase": "Sanofi and Kadmon announce a definitive whole-company merger for USD9.50 cash per common share, approximately USD1.9billion equity value. Nasdaq KDMN is the target. The subsidiary merger cancels the outstanding target shares for cash. September7 was signing; the 8-K explicitly records the joint announcement on September8.",
+      "review_record_sha256": "3952d0b819bc1bc4b41b2bdfa77eff7a5edde07f67ebc6e9991ceba9de0efcf5",
+      "reviewed_at": "2026-09-08T17:58:55.023096+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001140361-21-033457"
+        ],
+        "candidate_id": "5a89615f983a03665b04",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1557142/000114036121033457/ny20000668x2_defm14a.htm"
+        ],
+        "filer_name": "Kadmon Holdings, Inc.",
+        "filing_forms": [
+          "DEFM14A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2021-10-04",
+        "target_cik": 1557142
+      },
+      "sources": [
+        {
+          "locator": "Opening September 8 dateline, Transaction Terms; accompanying 8-K Items1.01 and8.01",
+          "published_date": "2021-09-08",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T17:58:55.023096+00:00",
+          "title": "Sanofi to acquire Kadmon to further strengthen growth of transplant business",
+          "url": "https://www.sec.gov/Archives/edgar/data/1557142/000114036121030604/ny20000665x1_ex99-1.htm"
+        }
+      ],
+      "target_cik": 1557142,
+      "target_name": "Kadmon Holdings, Inc.",
+      "target_ticker": "KDMN",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2021-09-08",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "cash"
+    }
+  ],
+  "research_scope": "Two additional source-reviewed2021 acquisition announcements from the original336candidate ledger; no new training authority.",
+  "reviewer": "Codex-primary-source-review",
+  "reviewer_is_independent_human": false,
+  "schema_version": "primary-source-deal-review-evidence-v1"
+}

@@ -228,7 +228,7 @@ class AcquirerMatch:
         patent_cliff_match: Patent cliff driving acquisition need
         financial_capacity: Acquirer's M&A capacity score
         historical_precedent: Similar past acquisitions
-        deal_likelihood: Estimated likelihood (0-1)
+        deal_likelihood: Unavailable until a separately validated probability model exists
         estimated_premium: Estimated acquisition premium (%)
         key_drivers: Primary reasons for match
     """
@@ -240,23 +240,9 @@ class AcquirerMatch:
     patent_cliff_match: Optional[PatentCliff] = None
     financial_capacity: float = 50.0
     historical_precedent: List[HistoricalAcquisition] = field(default_factory=list)
-    deal_likelihood: float = 0.0
+    deal_likelihood: Optional[float] = field(default=None, init=False)
     estimated_premium: float = 30.0
     key_drivers: List[str] = field(default_factory=list)
-
-    def __post_init__(self):
-        """Calculate deal likelihood based on match score."""
-        # Convert match score to likelihood probability
-        if self.match_score >= 80:
-            self.deal_likelihood = 0.7
-        elif self.match_score >= 70:
-            self.deal_likelihood = 0.5
-        elif self.match_score >= 60:
-            self.deal_likelihood = 0.3
-        elif self.match_score >= 50:
-            self.deal_likelihood = 0.15
-        else:
-            self.deal_likelihood = 0.05
 
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary representation."""
@@ -266,6 +252,8 @@ class AcquirerMatch:
             'acquirer_type': self.acquirer_type,
             'match_score': self.match_score,
             'deal_likelihood': self.deal_likelihood,
+            'score_semantics': 'heuristic strategic-fit score; not a calibrated probability',
+            'probability_status': 'unavailable_unvalidated_model',
             'estimated_premium': self.estimated_premium,
             'therapeutic_alignment_score': self.therapeutic_alignment.calculate_alignment_score(),
             'patent_cliff_urgency': self.patent_cliff_match.urgency_score if self.patent_cliff_match else 0,

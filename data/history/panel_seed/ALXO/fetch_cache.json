@@ -1,0 +1,20 @@
+{
+  "https://ir.alxoncology.com/news": {
+    "url": "https://ir.alxoncology.com/news",
+    "resolved_url": "https://ir.alxoncology.com/news",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:29:43.995363+00:00",
+    "source_sha256": "c84c61f38383da23302c6f3853ac326c04d6cf140e580cda5123eeaee3c20b7c",
+    "source_bytes": 51151,
+    "source_relative_path": "raw_sources/c84c61f38383da23302c6f3853ac326c04d6cf140e580cda5123eeaee3c20b7c.html"
+  },
+  "https://ir.alxoncology.com/news?bc151bd66814d6ad0890b4c9708d8390dab3b621716c72a820c239b82354ffbb_year%5Bvalue%5D=2021": {
+    "url": "https://ir.alxoncology.com/news?bc151bd66814d6ad0890b4c9708d8390dab3b621716c72a820c239b82354ffbb_year%5Bvalue%5D=2021",
+    "resolved_url": "https://ir.alxoncology.com/news?bc151bd66814d6ad0890b4c9708d8390dab3b621716c72a820c239b82354ffbb_year%5Bvalue%5D=2021",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:30:09.497575+00:00",
+    "source_sha256": "3473c1a0d32da60d24a40d27e62644f56560894963cb11c171437cc42ed147db",
+    "source_bytes": 52842,
+    "source_relative_path": "raw_sources/3473c1a0d32da60d24a40d27e62644f56560894963cb11c171437cc42ed147db.html"
+  }
+}

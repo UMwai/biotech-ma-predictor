@@ -1,0 +1,13 @@
+{
+  "attempt_times_not_recorded_individually": true,
+  "detail": "A raw GET of the native archive returned HTTP403. The normal browser showed current 2026 entries without accessible historical year pagination. No complete 2020 or 2021 inventory was retrieved.",
+  "individual_attempt_at": null,
+  "later_retrieval_recorded_as_historical_review": false,
+  "negative_label_assigned": false,
+  "recorded_at": "2026-09-08T18:01:10.121815+00:00",
+  "reviewed_outcome_window_count": 0,
+  "schema_version": "issuer-coverage-status-v1",
+  "status": "unknown_incomplete_source_coverage",
+  "ticker": "NVAX",
+  "training_allowed": false
+}

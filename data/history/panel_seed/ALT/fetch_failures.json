@@ -1,0 +1,26 @@
+{
+  "https://ir.altimmune.com/news-releases/": {
+    "url": "https://ir.altimmune.com/news-releases/",
+    "attempted_at": "2026-09-08T17:55:55.886050+00:00",
+    "error": "The read operation timed out",
+    "http_status": null,
+    "source_bytes_archived": false,
+    "automatic_retry_allowed": false
+  },
+  "https://ir.altimmune.com/investors/press-releases": {
+    "url": "https://ir.altimmune.com/investors/press-releases",
+    "attempted_at": "2026-09-08T17:58:58.191515+00:00",
+    "error": "The read operation timed out",
+    "http_status": null,
+    "source_bytes_archived": false,
+    "automatic_retry_allowed": false
+  },
+  "https://ir.altimmune.com/investors/press-releases/": {
+    "url": "https://ir.altimmune.com/investors/press-releases/",
+    "attempted_at": "2026-09-08T18:02:00.814597+00:00",
+    "error": "The read operation timed out",
+    "http_status": null,
+    "source_bytes_archived": false,
+    "automatic_retry_allowed": false
+  }
+}

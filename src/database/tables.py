@@ -107,7 +107,7 @@ class Company(Base, TimestampMixin, SoftDeleteMixin):
     is_cash_constrained: Mapped[bool] = mapped_column(Boolean, default=False)
 
     # Metadata
-    metadata: Mapped[dict] = mapped_column(JSONB, default=dict)
+    extra_data: Mapped[dict] = mapped_column("metadata", JSONB, default=dict)
     last_data_refresh: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True))
 
     # Relationships
@@ -340,7 +340,7 @@ class MAScore(Base, TimestampMixin):
     # Additional analysis
     key_drivers: Mapped[list] = mapped_column(JSONB, default=list)
     risk_factors: Mapped[list] = mapped_column(JSONB, default=list)
-    metadata: Mapped[dict] = mapped_column(JSONB, default=dict)
+    extra_data: Mapped[dict] = mapped_column("metadata", JSONB, default=dict)
 
     # Relationships
     company: Mapped["Company"] = relationship("Company", back_populates="ma_scores")
@@ -408,7 +408,7 @@ class AcquirerMatch(Base, TimestampMixin):
     is_top_match: Mapped[bool] = mapped_column(Boolean, default=False)
 
     # Metadata
-    metadata: Mapped[dict] = mapped_column(JSONB, default=dict)
+    extra_data: Mapped[dict] = mapped_column("metadata", JSONB, default=dict)
 
     # Relationships
     target_company: Mapped["Company"] = relationship(
@@ -479,7 +479,7 @@ class Report(Base, TimestampMixin, SoftDeleteMixin):
     # Report data
     companies_included: Mapped[list] = mapped_column(JSONB, default=list)
     key_findings: Mapped[list] = mapped_column(JSONB, default=list)
-    metadata: Mapped[dict] = mapped_column(JSONB, default=dict)
+    extra_data: Mapped[dict] = mapped_column("metadata", JSONB, default=dict)
 
     # Indexes
     __table_args__ = (
@@ -538,7 +538,7 @@ class Alert(Base, TimestampMixin, SoftDeleteMixin):
     recipients: Mapped[list] = mapped_column(JSONB, default=list)
 
     # Metadata
-    metadata: Mapped[dict] = mapped_column(JSONB, default=dict)
+    extra_data: Mapped[dict] = mapped_column("metadata", JSONB, default=dict)
 
     # Indexes
     __table_args__ = (
@@ -598,7 +598,7 @@ class Webhook(Base, TimestampMixin, SoftDeleteMixin):
     timeout_seconds: Mapped[int] = mapped_column(Integer, default=30)
 
     # Metadata
-    metadata: Mapped[dict] = mapped_column(JSONB, default=dict)
+    extra_data: Mapped[dict] = mapped_column("metadata", JSONB, default=dict)
 
     # Indexes
     __table_args__ = (
@@ -650,7 +650,7 @@ class Client(Base, TimestampMixin, SoftDeleteMixin):
 
     # Metadata
     contact_email: Mapped[Optional[str]] = mapped_column(String(255))
-    metadata: Mapped[dict] = mapped_column(JSONB, default=dict)
+    extra_data: Mapped[dict] = mapped_column("metadata", JSONB, default=dict)
 
     # Indexes
     __table_args__ = (

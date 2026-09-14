@@ -1,0 +1,18 @@
+{
+  "cik": 1175505,
+  "evidence_paraphrase": "The 2019-2020 process concerned financing, drug licenses and potential collaborations. Following November 2020 trial results, counterparties were invited to submit program collaboration proposals in January. Whole-company acquisition interest and the first private bid arose in January 2021. The subsequent competitive private process ended in board approval March 3; execution and public announcement both occurred March 4, before Nasdaq trading. No earlier executed or publicly definitive company sale is described. Private collaboration discussions at January 1 are distinct from an announced control agreement.",
+  "full_background_section_review_complete": true,
+  "independent_human_review": false,
+  "observation_at": "2021-01-01T00:00:00+00:00",
+  "original_source_sha256": null,
+  "pending_public_definitive_control_transaction_at_observation": false,
+  "primary_source_uri": "https://www.sec.gov/Archives/edgar/data/1175505/000119312521085017/d150014dsc14d9.htm",
+  "raw_bytes_archived": false,
+  "reviewed_at": "2026-09-08T18:23:26.321520+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "risk_set_eligible": true,
+  "schema_version": "reviewed-pending-transaction-baseline-v1",
+  "scope": "Agent review of the complete designated merger-background section, including private/public sequencing; not an exhaustive independent world-news or legal audit. Retrospective baseline adjudication is never a pre-observation model feature.",
+  "source_locator": "Background of the Offer and the Merger, printed pages 13-21, entire section before Board Reasons; browser lines 564-734",
+  "ticker": "FPRX"
+}

@@ -1,0 +1,40 @@
+{
+  "records": [
+    {
+      "acquirer_name": "Sanofi",
+      "announced_at": null,
+      "announcement_date": "2021-09-08",
+      "announcement_lower_at": "2021-09-07T10:00:00+00:00",
+      "announcement_upper_at": "2021-09-09T12:00:00+00:00",
+      "baseline_review": {
+        "source_sha256": "3dd8b1e2d615c7ccdec5234c109cebf06fccdf77d41c5d2f434dc42208a7e05b",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/KDMN_baseline_review.json"
+      },
+      "candidate_id": "5a89615f983a03665b04",
+      "change_of_control_percent": 100.0,
+      "event_id": "1557142:2021-09-08",
+      "evidence_record_id": "sha256:3952d0b819bc1bc4b41b2bdfa77eff7a5edde07f67ebc6e9991ceba9de0efcf5",
+      "label": "definitive_change_of_control_announcement",
+      "original_frozen_event_reviewed_at": "2026-09-08T17:58:55.023096+00:00",
+      "original_source_sha256": null,
+      "primary_source_url": "https://www.sec.gov/Archives/edgar/data/1557142/000114036121030604/ny20000665x1_ex99-1.htm",
+      "public_listing_source_url": "https://www.sec.gov/Archives/edgar/data/1557142/000114036121030604/ny20000665x1_ex99-1.htm",
+      "raw_bytes_archived": false,
+      "review_notes": "Sanofi and Kadmon announce a definitive whole-company merger for USD9.50 cash per common share, approximately USD1.9billion equity value. Nasdaq KDMN is the target. The subsidiary merger cancels the outstanding target shares for cash. September7 was signing; the 8-K explicitly records the joint announcement on September8. Date-only public announcement; no intraday timestamp inferred. Agent-reviewed primary evidence, not an independent human audit or present deal-status claim.",
+      "review_scope": "Definitive whole-company acquisition public announcement, jointly checked against complete disclosed merger chronology. Date-only precision retained; no exhaustive independent first-news search.",
+      "reviewed_at": "2026-09-08T18:23:26.321520+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "source_retrieved_at": "2026-09-08T18:23:26.321520+00:00",
+      "source_title": "Sanofi to acquire Kadmon to further strengthen growth of transplant business",
+      "target_cik": 1557142,
+      "target_name": "Kadmon Holdings, Inc.",
+      "target_ticker": "KDMN",
+      "timestamp_precision": "date",
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2021-09-08",
+      "transaction_structure": "cash"
+    }
+  ],
+  "reviewed_at": "2026-09-08T18:23:26.321520+00:00",
+  "schema_version": "reviewed-positive-control-event-v1"
+}

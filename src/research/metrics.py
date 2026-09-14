@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import math
 from dataclasses import dataclass
+from itertools import groupby
 from typing import Iterable, Sequence
 
 
@@ -29,7 +30,7 @@ def _validate(observations: Sequence[RankedObservation]) -> None:
 
 
 def average_precision(observations: Iterable[RankedObservation]) -> float:
-    """Return average precision with deterministic observation-ID tie breaking."""
+    """Return threshold-grouped average precision, invariant to IDs within ties."""
     materialized = list(observations)
     _validate(materialized)
     ranked = sorted(materialized, key=lambda item: (-item.score, item.observation_id))
@@ -38,10 +39,13 @@ def average_precision(observations: Iterable[RankedObservation]) -> float:
         return 0.0
     true_positives = 0
     accumulated_precision = 0.0
-    for rank, item in enumerate(ranked, 1):
-        if item.label:
-            true_positives += 1
-            accumulated_precision += true_positives / rank
+    retrieved = 0
+    for _, group in groupby(ranked, key=lambda item: item.score):
+        tied = list(group)
+        group_positives = sum(item.label for item in tied)
+        retrieved += len(tied)
+        true_positives += group_positives
+        accumulated_precision += group_positives * true_positives / retrieved
     return accumulated_precision / positives
 
 
@@ -84,6 +88,8 @@ def evaluate_rare_event_ranking(
         "positives": positives,
         "base_rate": base_rate,
         "average_precision": average_precision(ranked),
+        "average_precision_tie_policy": "group_equal_score_thresholds",
+        "top_k_tie_policy": "observation_id_ascending",
         "top_k": top_k,
         "probability_metrics": None,
     }

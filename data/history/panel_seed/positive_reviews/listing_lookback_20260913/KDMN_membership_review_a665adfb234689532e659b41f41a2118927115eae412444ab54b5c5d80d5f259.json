@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "baseline_review": {
+        "source_sha256": "3dd8b1e2d615c7ccdec5234c109cebf06fccdf77d41c5d2f434dc42208a7e05b",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/KDMN_baseline_review.json"
+      },
+      "biotech_eligible": true,
+      "biotech_source_uri": "https://www.sec.gov/Archives/edgar/data/1557142/000114036121030604/ny20000665x1_ex99-1.htm",
+      "cik": 1557142,
+      "cohort_entry_at": "2020-12-21T00:00:00+00:00",
+      "company_name": "Kadmon Holdings, Inc.",
+      "evidence_paraphrase": "The FY2020 issuer filing describes the transfer of the same KDMN common stock from NYSE, effective after trading October 23, 2020, to Nasdaq, where trading actually commenced October 26. The October 13 issuer release says KDMN is retained. The original September 2021 proxy separately reports the same common stock's historical trading range over the 52 weeks ending September 2, 2021, covering September 30-December 30, 2020. The exchange changes within the reviewed security interval. The archived exchange addition table names KDMN among operating biotechnology issuers effective December 21, 2020. The preliminary proxy identifies listed Nasdaq KDMN common stock. The SEC index dates its public filing September 21, 2021. The conservative interval ends at the start of that documented listed day; this is not a delisting-date assertion.",
+      "exchange": "Nasdaq",
+      "exchange_frame_source": {
+        "bytes": 157264,
+        "content_type": "text/html; charset=UTF-8",
+        "resolved_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "retrieved_at": "2026-09-08T17:20:38.390390+00:00",
+        "source_relative_path": "raw/923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955.html",
+        "source_sha256": "923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955",
+        "source_uri": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6"
+      },
+      "historical_exchange_segments": [
+        {
+          "boundary_precision": "date",
+          "end_basis": "Close of trading on October 23 per issuer disclosure; no exact acceptance or execution timestamp asserted.",
+          "end_date_inclusive": "2020-10-23",
+          "exchange": "NYSE",
+          "start_date": "2020-09-30",
+          "ticker": "KDMN"
+        },
+        {
+          "boundary_precision": "date",
+          "end_date_inclusive": "2020-12-30",
+          "exchange": "Nasdaq",
+          "start_basis": "Actual trading commencement stated in FY2020 Item 5.",
+          "start_date": "2020-10-26",
+          "ticker": "KDMN"
+        }
+      ],
+      "identity_source_locator": "Target company named on filing cover, common-stock class, subject issuer CIK in immutable SEC accession path; announcement exhibit explicitly names historical Nasdaq ticker.",
+      "identity_source_uri": "https://www.sec.gov/Archives/edgar/data/1557142/000114036121031968/ny20000668x1_prem14a.htm",
+      "independent_human_review": false,
+      "interval_method": "Bounded retrospective identity interval beginning September 30, 2020, supported by explicit original-filing common-stock trading history. The fixed Nasdaq cohort entry remains December 21, 2020 and the previously reviewed interval end is retained. This is not an assertion that index selection occurred earlier or that the evidence was reviewed historically.",
+      "kind": "historical_exchange_membership",
+      "listing_lookback_review": {
+        "source_bytes": 7933,
+        "source_relative_path": "positive_reviews/listing_lookback_20260913/KDMN_listing_lookback_review.json",
+        "source_sha256": "d4e78da7a735089a5b44b07e6b83438b752d0b19699d7265bb2584faf080a444",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/KDMN_listing_lookback_review.json"
+      },
+      "original_source_sha256": null,
+      "pending_transaction_review_complete": true,
+      "primary_source_uri": "https://www.sec.gov/Archives/edgar/data/1557142/000114036121031968/ny20000668x1_prem14a.htm",
+      "prior_membership_review": {
+        "source_bytes": 3036,
+        "source_relative_path": "positive_reviews/listing_lookback_20260913/KDMN_membership_review_prior_e669769d1dcf88e560b6d8ed414d860d11bd2f3b3fe47a024a8bb70301a8378a.json",
+        "source_sha256": "e669769d1dcf88e560b6d8ed414d860d11bd2f3b3fe47a024a8bb70301a8378a",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/KDMN_membership_review_prior_e669769d1dcf88e560b6d8ed414d860d11bd2f3b3fe47a024a8bb70301a8378a.json"
+      },
+      "raw_bytes_archived": false,
+      "reviewed_at": "2026-09-13T16:15:03.687486+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "security_type": "common_equity",
+      "source_locator": "Nasdaq December 2020 addition table, KDMN row, plus Parties to the Merger, page 1 and page 18; lines 240-242 and 708; SEC accession index filing date September 21",
+      "ticker": "KDMN",
+      "valid_from": "2020-09-30T00:00:00+00:00",
+      "valid_until": "2021-09-21T00:00:00+00:00"
+    }
+  ],
+  "reviewed_at": "2026-09-13T16:15:03.687486+00:00",
+  "schema_version": "reviewed-historical-membership-v1"
+}

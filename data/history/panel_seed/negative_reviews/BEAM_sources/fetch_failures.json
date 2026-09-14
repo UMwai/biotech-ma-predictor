@@ -1,0 +1,10 @@
+{
+  "https://beamtherapeutics.gcs-web.com/financials-filings/sec-filings": {
+    "url": "https://beamtherapeutics.gcs-web.com/financials-filings/sec-filings",
+    "attempted_at": "2026-09-08T19:59:25.641405+00:00",
+    "error": "The read operation timed out",
+    "http_status": null,
+    "source_bytes_archived": false,
+    "automatic_retry_allowed": false
+  }
+}

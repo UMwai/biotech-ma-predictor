@@ -15,7 +15,7 @@ from src.research.matching import CompanyMatcher
 from src.research.models import AssetEvaluation, CompanyEvaluation, PublicCompany
 from src.research.sources import utc_now_iso
 
-MODEL_VERSION = "market-research-0.1.0"
+MODEL_VERSION = "market-research-0.2.0"
 
 PHASE_VALUE = {
     "EARLY_PHASE1": 10.0,
@@ -199,9 +199,30 @@ def evaluate_clinical_assets(
     raw_assets: Iterable[dict[str, Any]],
     matcher: CompanyMatcher,
     as_of: date,
+    *,
+    rejected_assets: Optional[list[dict[str, Any]]] = None,
 ) -> list[AssetEvaluation]:
+    """Rank current records, quarantining whole assets updated after cutoff.
+
+    Aggregated phase/status/enrollment cannot safely be reconstructed from a
+    later record. Dropping its recency bonus alone would still leak that data.
+    This guard does not turn a current source snapshot into historical replay.
+    """
     results: list[AssetEvaluation] = []
     for raw in raw_assets:
+        last_updates = [_date_from_iso(value) for value in raw.get("last_updates", [])]
+        last_updates = [value for value in last_updates if value]
+        latest_update = max(last_updates) if last_updates else None
+        if latest_update and latest_update > as_of:
+            if rejected_assets is not None:
+                rejected_assets.append({
+                    "name": raw.get("name"), "sponsor": raw.get("sponsor"),
+                    "nct_ids": raw.get("nct_ids", []),
+                    "latest_update": latest_update.isoformat(),
+                    "as_of": as_of.isoformat(),
+                    "reason": "clinical_record_updated_after_as_of",
+                })
+            continue
         match = matcher.match(raw["sponsor"])
         sponsor_count = int(raw.get("sponsor_count_for_intervention", 1))
         attributed_ticker = match.ticker if sponsor_count == 1 else None
@@ -230,11 +251,8 @@ def evaluate_clinical_assets(
                 f"intervention appears under {sponsor_count} lead sponsors; ownership not attributed"
             )
 
-        last_updates = [_date_from_iso(value) for value in raw.get("last_updates", [])]
-        last_updates = [value for value in last_updates if value]
-        latest_update = max(last_updates) if last_updates else None
         if latest_update:
-            age_days = max(0, (as_of - latest_update).days)
+            age_days = (as_of - latest_update).days
             if age_days <= 180:
                 score += 10.0
                 drivers.append("ClinicalTrials.gov record updated within 180 days")

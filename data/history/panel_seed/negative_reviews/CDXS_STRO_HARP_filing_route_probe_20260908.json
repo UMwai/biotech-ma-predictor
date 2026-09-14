@@ -1,0 +1,17 @@
+{
+  "attempted_at": "2026-09-08T20:27:37.702247+00:00",
+  "automatic_retry_allowed": false,
+  "complete_material_corpus_archived": false,
+  "discovery_evidence": "CDXS_STRO_route_search_4.json; acquirer release and original issuer SEC proxy name this official investor route",
+  "effective_url": null,
+  "error": "<urlopen error [Errno -2] Name or service not known>",
+  "error_type": "URLError",
+  "full_text_review_complete": false,
+  "http_status": null,
+  "outcome_label": null,
+  "schema_version": "bounded-issuer-filing-route-probe-v1",
+  "source_bytes_archived": false,
+  "source_uri": "https://ir.harpoontx.com/investors",
+  "status": "fetch_failed",
+  "ticker": "HARP"
+}

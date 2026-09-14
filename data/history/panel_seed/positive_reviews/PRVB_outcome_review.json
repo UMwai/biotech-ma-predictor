@@ -1,0 +1,40 @@
+{
+  "records": [
+    {
+      "acquirer_name": "Sanofi",
+      "announced_at": null,
+      "announcement_date": "2023-03-13",
+      "announcement_lower_at": "2023-03-12T10:00:00+00:00",
+      "announcement_upper_at": "2023-03-14T12:00:00+00:00",
+      "baseline_review": {
+        "source_sha256": "e03b753cd166c1d93682276d5efa75775946569c1450179eebc26a0b402eb166",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/PRVB_baseline_review.json"
+      },
+      "candidate_id": "9ad4cc25e845241a16af",
+      "change_of_control_percent": 100.0,
+      "event_id": "1695357:2023-03-13",
+      "evidence_record_id": "sha256:fa93818b2626f4f86461a8c457040759846289d1cc8521ecc6e8c76be3e13232",
+      "label": "definitive_change_of_control_announcement",
+      "original_frozen_event_reviewed_at": "2026-09-08T12:14:14+00:00",
+      "original_source_sha256": null,
+      "primary_source_url": "https://www.sec.gov/Archives/edgar/data/1695357/000149315223007347/ex99-1.htm",
+      "public_listing_source_url": "https://www.sanofi.com/en/media-room/press-releases/2023/2023-03-13-06-00-00-2625367",
+      "raw_bytes_archived": false,
+      "review_notes": "The public October 2022 arrangements concerned teplizumab co-promotion, financing and negotiation rights, not a definitive acquisition of the issuer. Private strategic discussions continued around the cutoff. The first written nonbinding acquisition proposal was February 14, 2023; the price increased to 25 dollars and private exclusivity followed February 26. Board approval and execution occurred March 12 and the joint public announcement March 13. Two internal year inconsistencies in the original narrative are preserved as source limitations; neither a private meeting nor a historical stock-price comparison establishes an earlier signed or publicly definitive control agreement.",
+      "review_scope": "Whole-company definitive public announcement, checked against the complete disclosed merger chronology. Proposed ownership is not completed ownership. Agent source review, not an independent human or exhaustive first-news audit.",
+      "reviewed_at": "2026-09-08T20:02:58.622812+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "source_retrieved_at": "2026-09-08T20:02:58.622812+00:00",
+      "source_title": "Sanofi to acquire Provention Bio, adding to portfolio TZIELD",
+      "target_cik": 1695357,
+      "target_name": "Provention Bio, Inc.",
+      "target_ticker": "PRVB",
+      "timestamp_precision": "date",
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2023-03-13",
+      "transaction_structure": "tender_offer"
+    }
+  ],
+  "reviewed_at": "2026-09-08T20:02:58.622812+00:00",
+  "schema_version": "reviewed-positive-control-event-v1"
+}

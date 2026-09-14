@@ -1,0 +1,63 @@
+{
+  "schema_version": "negative-original-source-feasibility-v1",
+  "ticker": "CRNX",
+  "cik": 1658247,
+  "reviewed_at": "2026-09-08T20:12:07.723053+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "independent_human_review": false,
+  "observation_at": "2021-01-01T00:00:00Z",
+  "horizon_end_at": "2022-01-01T00:00:00Z",
+  "inventory_receipts": [
+    {
+      "source_relative_path": "CRNX_regulatory_inventory_2020-01-01_2020-12-31.json",
+      "source_sha256": "4aa46ad02674c067d03e3ec7f7c1e86d3a259208cbec3ac685eaac6a11efb706",
+      "start_date": "2020-01-01",
+      "end_date": "2020-12-31",
+      "total": 51
+    },
+    {
+      "source_relative_path": "CRNX_regulatory_inventory_2021-01-01_2021-12-31.json",
+      "source_sha256": "42cea795568837767dd4b55782fdf515d3207f952336b5ae2d8fef63995991d9",
+      "start_date": "2021-01-01",
+      "end_date": "2021-12-31",
+      "total": 72
+    },
+    {
+      "source_relative_path": "CRNX_regulatory_inventory_2022-01-01_2022-03-31.json",
+      "source_sha256": "975b0fe985ff9182c7a3794c9d4d5aabd165d6f1a61011492fb2cde06ef2a47d",
+      "start_date": "2022-01-01",
+      "end_date": "2022-03-31",
+      "total": 39
+    }
+  ],
+  "all_indexed_documents": 162,
+  "retained_2021_through_2022_q1_parent_documents": 38,
+  "full_original_material_corpus_review_complete": false,
+  "outcome_label": null,
+  "new_historical_training_negative_admitted": false,
+  "source_version_limitations": "Current issuer news copies retain their existing classification. An accession-specific annual report does not authenticate the versions of every news release. Complete current EFTS results do not rule out historical corrections, removals or misindexing.",
+  "defensible_next_step": "Archive and substantively review every selected2021/Q1,2022 original filing body and relevant attached/embedded exhibit; bind original publication/version evidence and current review clocks. Retain existing separate baseline/membership/financial checks. Use complete reporting-lag ascertainment endMarch31,2022 plus36h; never synthetic source dates.",
+  "unresolved_requirements": [
+    "Complete original full-text material corpus and required exhibits;30ARQT or38CRNX parent filings identified, only one parent body each reviewed in this pass.",
+    "Exact per-document original-version/publication annotations and original SEC accession identity, distinguishing captured browser response from original HTML bytes.",
+    "Source-bound negative coverage receipt, actual2026review timestamp, complete source-ID manifest and April1,2022 at12UTC ascertainment completion bound."
+  ],
+  "reviewed_original_source_examples": [
+    {
+      "source_uri": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021039140/crnx-8k_20210728.htm",
+      "accession_number": "0001564590-21-039140",
+      "publication_date": "2021-07-29",
+      "publication_timestamp_precision": "date",
+      "published_at": null,
+      "publication_evidence": "Exact padded-CIK EFTS filing inventory entry and complete primary8-K signature/body read via normal web tool; filing date is a calendar date, not a sourced exact acceptance time.",
+      "source_locator": "Complete web tool parsed primary8-K body, including the material event andsignature sections.",
+      "capture_relative_path": "ARQT_CRNX_material_browser_capture.json",
+      "capture_sha256": "c76ee93954d9ab4efcdee4976729e23f326650add6266a665f2f26ec42887303",
+      "source_content_format": "web_tool_extracted_text_response",
+      "original_document_bytes_archived": false,
+      "original_source_sha256": null,
+      "evidence_paraphrase": "Item1.01 describes an851306-share private placement yielding15million dollars. The reported event is minority financing, not an announced acquisition of Crinetics. This bounded pass reviewed the complete primary8-K body, while its purchase-agreement and press-release exhibits remain separately unreviewed.",
+      "complete_accession_exhibit_review": false
+    }
+  ]
+}

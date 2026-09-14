@@ -1,0 +1,35 @@
+{
+  "records": [
+    {
+      "acquirer_name": "Merck",
+      "announced_at": null,
+      "announcement_date": "2024-01-08",
+      "announcement_lower_at": "2024-01-07T10:00:00+00:00",
+      "announcement_upper_at": "2024-01-09T12:00:00+00:00",
+      "baseline_review": {
+        "source_sha256": "6a5c948159150021428ed363f7f8299d6471ebf87aef125b94f1f92ee3f50c07",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/HARP_baseline_review.json"
+      },
+      "change_of_control_percent": 100.0,
+      "event_id": "1708493:2024-01-08",
+      "label": "definitive_change_of_control_announcement",
+      "original_source_sha256": null,
+      "primary_source_url": "https://www.sec.gov/Archives/edgar/data/1708493/000119312524003927/d715256dex992.htm",
+      "raw_bytes_archived": false,
+      "review_notes": "Earlier confidentiality agreements and the 2023 process concerned pipeline partnerships and private diligence. Merck discussed possible issuer acquisition privately in November 2023, but its first nonbinding priced proposal was January 1, 2024. That day the parties negotiated a price subject to diligence and a definitive agreement; no public control agreement existed at the midnight UTC observation cutoff. Diligence and document negotiations continued January 2-7. Approval and execution occurred January 7, with the joint public announcement January 8 before trading. Accounting for the eventual purchase as an asset acquisition does not change the agreement to acquire all company shares.",
+      "review_scope": "Whole-company definitive public announcement, checked against the complete disclosed merger chronology. Proposed ownership is not completed ownership. Agent source review, not an independent human or exhaustive first-news audit.",
+      "reviewed_at": "2026-09-08T20:02:58.622812+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "source_retrieved_at": "2026-09-08T20:02:58.622812+00:00",
+      "target_cik": 1708493,
+      "target_name": "Harpoon Therapeutics, Inc.",
+      "target_ticker": "HARP",
+      "timestamp_precision": "date",
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2024-01-08",
+      "transaction_structure": "merger"
+    }
+  ],
+  "reviewed_at": "2026-09-08T20:02:58.622812+00:00",
+  "schema_version": "reviewed-positive-control-event-v1"
+}

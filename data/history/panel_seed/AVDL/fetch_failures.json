@@ -1,0 +1,18 @@
+{
+  "https://investors.avadel.com/news-releases/": {
+    "url": "https://investors.avadel.com/news-releases/",
+    "attempted_at": "2026-09-08T17:55:55.996912+00:00",
+    "error": "The read operation timed out",
+    "http_status": null,
+    "source_bytes_archived": false,
+    "automatic_retry_allowed": false
+  },
+  "https://www.avadel.com/": {
+    "url": "https://www.avadel.com/",
+    "attempted_at": "2026-09-08T17:58:10.527656+00:00",
+    "error": "The read operation timed out",
+    "http_status": null,
+    "source_bytes_archived": false,
+    "automatic_retry_allowed": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "cik": 1367920,
+  "evidence_paraphrase": "The full chronology distinguishes 2021-2022 drug-program partnering from a private November 23, 2022 whole-company proposal. Sun raised its nonbinding proposal in December; a December 16 exclusivity agreement was followed by ongoing diligence and unexecuted merger drafts across January 1. Final terms and board approval came January 18, 2023; the merger agreement was executed January 19 and publicly announced before market opening that day. Private exclusivity at the cutoff was not a publicly definitive control agreement. The review is bounded to the complete disclosed chronology.",
+  "full_background_section_review_complete": true,
+  "independent_human_review": false,
+  "observation_at": "2023-01-01T00:00:00+00:00",
+  "original_source_sha256": null,
+  "pending_public_definitive_control_transaction_at_observation": false,
+  "primary_source_uri": "https://www.sec.gov/Archives/edgar/data/1367920/000119312523022165/d360970dsc14d9.htm",
+  "raw_bytes_archived": false,
+  "reviewed_at": "2026-09-08T20:02:58.622812+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "risk_set_eligible": true,
+  "schema_version": "reviewed-pending-transaction-baseline-v1",
+  "scope": "Retrospective agent review of the entire designated original merger-background section including private/public sequencing. Not an exhaustive independent world-news audit, inventory of every later proxy amendment, legal opinion or pre-observation model feature.",
+  "source_locator": "Background of the Offer and the Merger, printed pages 16-28, entire section, browser lines 543-792",
+  "ticker": "CNCE"
+}

@@ -1,0 +1,58 @@
+{
+  "screen_pattern": "\\bacquir\\w*|\\bacquisition\\w*|\\bmerg\\w*|\\btakeover\\b|take.private|tender offer|business combination|change.of.control|\\bdelist\\w*|\\bbankrupt\\w*|\\bliquidat\\w*|\\bdissol\\w*|wind.down|winding.down|ceas\\w* operations|sale of (?:the|our|all|substantially)|strategic alternatives|\\btransaction\\w*|\\bmajority\\b|controlling interest",
+  "checks": [
+    {
+      "ticker": "PAND",
+      "url": "https://www.merck.com/news/merck-to-acquire-pandion-therapeutics/",
+      "resolved_url": "https://www.merck.com/news/merck-to-acquire-pandion-therapeutics/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-08T17:52:15.063445+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "source_sha256": "87053b8d466467936a3edc6a525ba191f137ffe02b4c755803ae0f5559ab35cf",
+      "source_bytes": 117389,
+      "source_relative_path": "raw_sources/87053b8d466467936a3edc6a525ba191f137ffe02b4c755803ae0f5559ab35cf.html",
+      "detected": true,
+      "trigger_contexts": [
+        "e companies have entered into a definitive agreement, under which Merck, through a subsidiary, will acquire Pandion, a clinical-stage biotechnology company developing novel therapeutics designed to address the unmet needs of patients living with autoimmune diseases, for $60 per share in cash. This represents an approximate to",
+        "imedia. View the full release here: https://www.businesswire.com/news/home/20210225005318/en/ \u201cThis acquisition builds upon Merck\u2019s strategy to identify and secure candidates with differentiated and potentially foundational characteristics,\u201d said Dr. Dean Y. Li, president, Merck Research Laboratories. \u201cPandion has applied its TAL",
+        "ases, and we look forward to seeing these molecules progress in the clinic.\u201d Under the terms of the acquisition agreement, Merck, through a subsidiary, will initiate a tender offer to acquire all outstanding shares of Pandion. The closing of the tender offer will be subject to certain conditions, including the tender of shares re",
+        "clinic.\u201d Under the terms of the acquisition agreement, Merck, through a subsidiary, will initiate a tender offer to acquire all outstanding shares of Pandion. The closing of the tender offer will be subject to certain conditions, including the tender of shares representing at least a majority of the total number of Pandion\u2019s share",
+        "he terms of the acquisition agreement, Merck, through a subsidiary, will initiate a tender offer to acquire all outstanding shares of Pandion. The closing of the tender offer will be subject to certain conditions, including the tender of shares representing at least a majority of the total number of Pandion\u2019s shares of fully-",
+        "iary, will initiate a tender offer to acquire all outstanding shares of Pandion. The closing of the tender offer will be subject to certain conditions, including the tender of shares representing at least a majority of the total number of Pandion\u2019s shares of fully-diluted common stock, the expiration of the waiting period under th",
+        "offer will be subject to certain conditions, including the tender of shares representing at least a majority of the total number of Pandion\u2019s shares of fully-diluted common stock, the expiration of the waiting period under the Hart-Scott-Rodino Antitrust Improvements Act and other customary conditions. Upon the successful comp",
+        "no Antitrust Improvements Act and other customary conditions. Upon the successful completion of the tender offer, Merck\u2019s acquisition subsidiary will be merged into Pandion, and any remaining shares of common stock of Pandion will be canceled and converted into the right to receive the same $60 per share price payable in the tende",
+        "nts Act and other customary conditions. Upon the successful completion of the tender offer, Merck\u2019s acquisition subsidiary will be merged into Pandion, and any remaining shares of common stock of Pandion will be canceled and converted into the right to receive the same $60 per share price payable in the tender offer. The transact",
+        "ditions. Upon the successful completion of the tender offer, Merck\u2019s acquisition subsidiary will be merged into Pandion, and any remaining shares of common stock of Pandion will be canceled and converted into the right to receive the same $60 per share price payable in the tender offer. The transaction is expected to close i",
+        "ill be canceled and converted into the right to receive the same $60 per share price payable in the tender offer. The transaction is expected to close in the first half of 2021. Credit Suisse Securities (USA) LLC acted as financial advisor to Merck and Covington & Burling LLP as its legal advisor. Centerview Partners LLC acted as ",
+        "d converted into the right to receive the same $60 per share price payable in the tender offer. The transaction is expected to close in the first half of 2021. Credit Suisse Securities (USA) LLC acted as financial advisor to Merck and Covington & Burling LLP as its legal advisor. Centerview Partners LLC acted as financial advisor"
+      ]
+    },
+    {
+      "ticker": "FPRX",
+      "url": "https://www.amgen.com/newsroom/press-releases/2021/03/amgen-to-acquire-five-prime-therapeutics-for-%241-9-billion-in-cash",
+      "resolved_url": "https://www.amgen.com/newsroom/press-releases/2021/03/amgen-to-acquire-five-prime-therapeutics-for-%241-9-billion-in-cash",
+      "http_status": 200,
+      "retrieved_at": "2026-09-08T17:52:16.133526+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "source_sha256": "9b39761901f7373e68898b4a90884cabb77ee9cc8ea25375836726ecb2e9b10c",
+      "source_bytes": 174617,
+      "source_relative_path": "raw_sources/9b39761901f7373e68898b4a90884cabb77ee9cc8ea25375836726ecb2e9b10c.html",
+      "detected": true,
+      "trigger_contexts": [
+        " immuno-oncology and targeted cancer therapies, today announced an agreement under which Amgen will acquire Five Prime Therapeutics for $38.00 per share in cash, representing an equity value of approximately $1.9 billion . This acquisition adds Five Prime's innovative pipeline to Amgen 's leading oncology portfolio. Five Prim",
+        "ics for $38.00 per share in cash, representing an equity value of approximately $1.9 billion . This acquisition adds Five Prime's innovative pipeline to Amgen 's leading oncology portfolio. Five Prime's lead asset, bemarituzumab, is a first-in-class, Phase 3 ready anti-FGFR2b antibody with positive data from a randomized, placebo",
+        "uld play a role in other epithelial cancers, including lung, breast, ovarian and other cancers. The acquisition of Five Prime also supports Amgen 's international expansion strategy. Gastric cancer is one of the world's most common forms of cancer and is particularly prevalent in the Asia-Pacific region , where Amgen expects to g",
+        " and other Asia-Pacific markets to maximize bemarituzumab's potential. In addition, as part of this transaction, Amgen will receive a royalty percentage on future net sales in Greater China ranging from the high teens to the low twenties from a pre-existing co-development and commercialization agreement between Five Prime and Zai",
+        "eline programs complement Amgen 's efforts to bring meaningful therapies to oncology patients. \"The acquisition of Five Prime offers a compelling opportunity for Amgen to strengthen our oncology portfolio with a promising late-stage, first-in-class global asset to treat gastric cancer,\" said Robert A. Bradway , chairman and chief",
+        "to patients and to achieve our mission to rewrite cancer.\" Transaction Terms Under the terms of the merger agreement, which was approved by the Boards of Directors of both companies, Amgen will commence a tender offer to acquire all of the outstanding shares of Five Prime's common stock for $38.00 per share in cash. Followin",
+        "r agreement, which was approved by the Boards of Directors of both companies, Amgen will commence a tender offer to acquire all of the outstanding shares of Five Prime's common stock for $38.00 per share in cash. Following the completion of the tender offer, a wholly-owned subsidiary of Amgen will merge with Five Prime and shares ",
+        "ch was approved by the Boards of Directors of both companies, Amgen will commence a tender offer to acquire all of the outstanding shares of Five Prime's common stock for $38.00 per share in cash. Following the completion of the tender offer, a wholly-owned subsidiary of Amgen will merge with Five Prime and shares of Five Pri",
+        "g shares of Five Prime's common stock for $38.00 per share in cash. Following the completion of the tender offer, a wholly-owned subsidiary of Amgen will merge with Five Prime and shares of Five Prime that have not been tendered and purchased in the tender offer will be converted into the right to receive the same price per share ",
+        "hare in cash. Following the completion of the tender offer, a wholly-owned subsidiary of Amgen will merge with Five Prime and shares of Five Prime that have not been tendered and purchased in the tender offer will be converted into the right to receive the same price per share in cash as paid in the tender offer (other than",
+        "ill merge with Five Prime and shares of Five Prime that have not been tendered and purchased in the tender offer will be converted into the right to receive the same price per share in cash as paid in the tender offer (other than shares held by stockholders who properly demand and perfect appraisal rights under Delaware law). The ",
+        "r offer will be converted into the right to receive the same price per share in cash as paid in the tender offer (other than shares held by stockholders who properly demand and perfect appraisal rights under Delaware law). The transaction is expected to close by the end of the second quarter and is subject to customary closing con"
+      ]
+    }
+  ],
+  "scope": "Two known positive issuer releases; detection regression only, not an estimate of sensitivity."
+}

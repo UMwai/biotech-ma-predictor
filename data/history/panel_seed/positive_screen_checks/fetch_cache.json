@@ -1,0 +1,22 @@
+{
+  "https://www.merck.com/news/merck-to-acquire-pandion-therapeutics/": {
+    "url": "https://www.merck.com/news/merck-to-acquire-pandion-therapeutics/",
+    "resolved_url": "https://www.merck.com/news/merck-to-acquire-pandion-therapeutics/",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:52:15.063445+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "87053b8d466467936a3edc6a525ba191f137ffe02b4c755803ae0f5559ab35cf",
+    "source_bytes": 117389,
+    "source_relative_path": "raw_sources/87053b8d466467936a3edc6a525ba191f137ffe02b4c755803ae0f5559ab35cf.html"
+  },
+  "https://www.amgen.com/newsroom/press-releases/2021/03/amgen-to-acquire-five-prime-therapeutics-for-%241-9-billion-in-cash": {
+    "url": "https://www.amgen.com/newsroom/press-releases/2021/03/amgen-to-acquire-five-prime-therapeutics-for-%241-9-billion-in-cash",
+    "resolved_url": "https://www.amgen.com/newsroom/press-releases/2021/03/amgen-to-acquire-five-prime-therapeutics-for-%241-9-billion-in-cash",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:52:16.133526+00:00",
+    "content_type": "text/html; charset=utf-8",
+    "source_sha256": "9b39761901f7373e68898b4a90884cabb77ee9cc8ea25375836726ecb2e9b10c",
+    "source_bytes": 174617,
+    "source_relative_path": "raw_sources/9b39761901f7373e68898b4a90884cabb77ee9cc8ea25375836726ecb2e9b10c.html"
+  }
+}

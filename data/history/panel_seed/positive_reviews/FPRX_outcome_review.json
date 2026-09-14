@@ -1,0 +1,40 @@
+{
+  "records": [
+    {
+      "acquirer_name": "Amgen Inc.",
+      "announced_at": null,
+      "announcement_date": "2021-03-04",
+      "announcement_lower_at": "2021-03-03T10:00:00+00:00",
+      "announcement_upper_at": "2021-03-05T12:00:00+00:00",
+      "baseline_review": {
+        "source_sha256": "2fc851887d07e3c62a64ad41e7e32be772d32e0c9362d601eb59f253a39510fb",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/FPRX_baseline_review.json"
+      },
+      "candidate_id": "1dbbd5563e1fc3c82d94",
+      "change_of_control_percent": 100.0,
+      "event_id": "1175505:2021-03-04",
+      "evidence_record_id": "primary-1dbbd5563e1fc3c82d94",
+      "label": "definitive_change_of_control_announcement",
+      "original_frozen_event_reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "original_source_sha256": null,
+      "primary_source_url": "https://www.sec.gov/Archives/edgar/data/1175505/000119312521068593/d77427dex991.htm",
+      "public_listing_source_url": "https://www.amgen.com/newsroom/press-releases/2021/03/amgen-to-acquire-five-prime-therapeutics-for-%241-9-billion-in-cash",
+      "raw_bytes_archived": false,
+      "review_notes": "Amgen and Nasdaq FPRX announce a board-approved merger agreement at $38 cash per share. The terms call for a tender for every outstanding common share, followed by a merger converting untendered shares to the same cash price. Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature.",
+      "review_scope": "Definitive whole-company acquisition public announcement, jointly checked against complete disclosed merger chronology. Date-only precision retained; no exhaustive independent first-news search.",
+      "reviewed_at": "2026-09-08T18:23:26.321520+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "source_retrieved_at": "2026-09-08T18:23:26.321520+00:00",
+      "source_title": "Amgen To Acquire Five Prime Therapeutics For $1.9 Billion in Cash",
+      "target_cik": 1175505,
+      "target_name": "Five Prime Therapeutics, Inc.",
+      "target_ticker": "FPRX",
+      "timestamp_precision": "date",
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2021-03-04",
+      "transaction_structure": "tender_offer"
+    }
+  ],
+  "reviewed_at": "2026-09-08T18:23:26.321520+00:00",
+  "schema_version": "reviewed-positive-control-event-v1"
+}

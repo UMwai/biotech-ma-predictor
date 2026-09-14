@@ -1,0 +1,43 @@
+{
+  "records": [
+    {
+      "baseline_review": {
+        "source_sha256": "12fd29974c6c5e3f1fc4f6fe383c4fd6a30315a6dbfab84cf2b78245921b79d4",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/CNCE_baseline_review.json"
+      },
+      "biotech_eligible": true,
+      "biotech_source_uri": "https://www.sec.gov/Archives/edgar/data/1367920/000119312523010719/d433505dex991.htm",
+      "cik": 1367920,
+      "company_name": "Concert Pharmaceuticals, Inc.",
+      "evidence_paraphrase": "The actual archived exchange table includes CNCE as an operating biotechnology issuer effective December 21, 2020. The closing 8-K identifies CNCE common stock and requests Nasdaq suspension before trading opened March 6, 2023. The conservative interval ends at midnight UTC at the start of that day.",
+      "exchange": "Nasdaq",
+      "exchange_frame_source": {
+        "bytes": 157264,
+        "content_type": "text/html; charset=UTF-8",
+        "resolved_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "retrieved_at": "2026-09-08T17:20:38.390390+00:00",
+        "source_relative_path": "raw/923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955.html",
+        "source_sha256": "923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955",
+        "source_uri": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6"
+      },
+      "identity_source_locator": "Target issuer identity and common-stock class on original SEC filing cover; subject CIK in original target accession path; historical ticker in original listed-stock source.",
+      "identity_source_uri": "https://www.sec.gov/Archives/edgar/data/1367920/000119312523022165/d360970dsc14d9.htm",
+      "independent_human_review": false,
+      "interval_method": "Conservative retrospective interval inferred from actual historical exchange inclusion to a subsequent documented listed date. Does not assert uninterrupted index membership, daily liquidity or executed-price availability.",
+      "kind": "historical_exchange_membership",
+      "original_source_sha256": null,
+      "pending_transaction_review_complete": true,
+      "primary_source_uri": "https://www.sec.gov/Archives/edgar/data/1367920/000119312523060815/d470195d8k.htm",
+      "raw_bytes_archived": false,
+      "reviewed_at": "2026-09-08T20:02:58.622812+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "security_type": "common_equity",
+      "source_locator": "Archived Nasdaq December 2020 additions table, CNCE row, plus Cover registered common stock table and Item 3.01, browser lines 127-131",
+      "ticker": "CNCE",
+      "valid_from": "2020-12-21T00:00:00+00:00",
+      "valid_until": "2023-03-06T00:00:00+00:00"
+    }
+  ],
+  "reviewed_at": "2026-09-08T20:02:58.622812+00:00",
+  "schema_version": "reviewed-historical-membership-v1"
+}

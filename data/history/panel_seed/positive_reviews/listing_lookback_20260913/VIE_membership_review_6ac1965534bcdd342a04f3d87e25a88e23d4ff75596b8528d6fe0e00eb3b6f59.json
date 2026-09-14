@@ -1,0 +1,56 @@
+{
+  "records": [
+    {
+      "baseline_review": {
+        "source_sha256": "86e914fff81e9a1cfca1f68c09c88ded47a734ab404c60efa5a35f9679149c0c",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/VIE_baseline_review.json"
+      },
+      "biotech_eligible": true,
+      "biotech_source_uri": "https://www.sec.gov/Archives/edgar/data/1492426/000119312521023675/d57202dex991.htm",
+      "cik": 1734517,
+      "cohort_entry_at": "2020-12-21T00:00:00+00:00",
+      "company_name": "Viela Bio, Inc.",
+      "evidence_paraphrase": "The original Horizon offer names Viela Bio common shares and identifies Nasdaq symbol VIE. Section 6 reports that same security's Nasdaq trading history for fourth-quarter 2019 and all four quarters of 2020, followed by first-quarter 2021 through February 11. This historical trading disclosure covers the required 2020 lookback; later offer terms and prices are not feature inputs. The archived exchange addition table names VIE among operating biotechnology issuers effective December 21, 2020. The offer identifies Nasdaq VIE common shares and a quarterly price history from 2019 through February 11, 2021. The conservative interval ends at the start of that documented trading day.",
+      "exchange": "Nasdaq",
+      "exchange_frame_source": {
+        "bytes": 157264,
+        "content_type": "text/html; charset=UTF-8",
+        "resolved_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "retrieved_at": "2026-09-08T17:20:38.390390+00:00",
+        "source_relative_path": "raw/923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955.html",
+        "source_sha256": "923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955",
+        "source_uri": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6"
+      },
+      "identity_source_locator": "Target company named on filing cover, common-stock class, subject issuer CIK in immutable SEC accession path; announcement exhibit explicitly names historical Nasdaq ticker.",
+      "identity_source_uri": "https://www.sec.gov/Archives/edgar/data/1734517/000119312521040169/d130262dsc14d9.htm",
+      "independent_human_review": false,
+      "interval_method": "Bounded retrospective identity interval beginning September 30, 2020, supported by explicit original-filing common-stock trading history. The fixed Nasdaq cohort entry remains December 21, 2020 and the previously reviewed interval end is retained. This is not an assertion that index selection occurred earlier or that the evidence was reviewed historically.",
+      "kind": "historical_exchange_membership",
+      "listing_lookback_review": {
+        "source_bytes": 7093,
+        "source_relative_path": "positive_reviews/listing_lookback_20260913/VIE_listing_lookback_review.json",
+        "source_sha256": "49765994e805d4e88d25807ef54f6212d9bbd5ef5e30a590acaafeb78028b4f3",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/VIE_listing_lookback_review.json"
+      },
+      "original_source_sha256": null,
+      "pending_transaction_review_complete": true,
+      "primary_source_uri": "https://www.sec.gov/Archives/edgar/data/1492426/000119312521039920/d118403dex99a1i.htm",
+      "prior_membership_review": {
+        "source_bytes": 2911,
+        "source_relative_path": "positive_reviews/listing_lookback_20260913/VIE_membership_review_prior_ca1a389cb3387c4ab17824aafda814f4fcb2f290db4d5150f5c1bbca16f9d497.json",
+        "source_sha256": "ca1a389cb3387c4ab17824aafda814f4fcb2f290db4d5150f5c1bbca16f9d497",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/VIE_membership_review_prior_ca1a389cb3387c4ab17824aafda814f4fcb2f290db4d5150f5c1bbca16f9d497.json"
+      },
+      "raw_bytes_archived": false,
+      "reviewed_at": "2026-09-13T16:15:03.687486+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "security_type": "common_equity",
+      "source_locator": "Nasdaq December 2020 addition table, VIE row, plus Section 6 Price Range of Shares, printed page 22; lines 595-608",
+      "ticker": "VIE",
+      "valid_from": "2020-09-30T00:00:00+00:00",
+      "valid_until": "2021-02-11T00:00:00+00:00"
+    }
+  ],
+  "reviewed_at": "2026-09-13T16:15:03.687486+00:00",
+  "schema_version": "reviewed-historical-membership-v1"
+}

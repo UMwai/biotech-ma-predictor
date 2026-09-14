@@ -1,0 +1,14 @@
+{
+  "accession_number": "0001558370-21-003083",
+  "attempted_at": "2026-09-08T20:06:32.041667+00:00",
+  "automatic_retry_allowed": false,
+  "error": "The read operation timed out",
+  "error_type": "TimeoutError",
+  "full_text_review_complete": false,
+  "issuer": "APRE",
+  "original_sec_document_bytes_archived": false,
+  "outcome_label": null,
+  "source_role": "official_issuer_linked_original_filing_pdf",
+  "source_uri": "https://ir.aprea.com/static-files/07fe801e-87f9-41d8-997d-645e93dd8d84",
+  "status": "fetch_failed"
+}

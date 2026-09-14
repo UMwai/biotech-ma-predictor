@@ -12,8 +12,10 @@ class StrategicDiligenceRow:
     ticker: str
     company_name: str
     ma_research_score: float
-    ma_rank: int
+    ma_rank: int | None
     ma_band: str
+    risk_set_eligible: bool
+    risk_set_exclusion_reason: str | None
     portfolio_score: float
     acquirability_score: float
     market_data_confidence: float
@@ -78,6 +80,20 @@ def _ma_band(score: float) -> str:
     if score >= 50:
         return "moderate"
     return "low"
+
+
+def _risk_set_status(row: dict[str, Any]) -> tuple[bool, str | None]:
+    """Preserve exclusions and require explicit eligibility, including CSV booleans."""
+    value = row.get("risk_set_eligible")
+    reason = str(row.get("risk_set_exclusion_reason") or "").strip()
+    normalized = str(value).strip().lower()
+    if normalized in {"true", "1"} and not reason:
+        return True, None
+    if reason:
+        return False, reason
+    if normalized in {"false", "0"}:
+        return False, "Excluded by market evaluator."
+    return False, "Risk-set eligibility unavailable or invalid."
 
 
 def _classify(
@@ -156,14 +172,19 @@ def build_strategic_diligence_matrix(
     ranked = sorted(
         market,
         key=lambda row: (
+            not _risk_set_status(row)[0],
             -_number(row, "research_score"),
             str(row.get("ticker", "")),
         ),
     )
 
     results: list[StrategicDiligenceRow] = []
-    for rank, market_row in enumerate(ranked, 1):
+    eligible_rank = 0
+    for market_row in ranked:
         ticker = str(market_row.get("ticker", "")).upper()
+        risk_set_eligible, exclusion_reason = _risk_set_status(market_row)
+        if risk_set_eligible:
+            eligible_rank += 1
         integrity = integrity_by_ticker.get(ticker)
         execution = execution_by_ticker.get(ticker)
         scorecard = scorecard_by_ticker.get(ticker)
@@ -185,12 +206,17 @@ def build_strategic_diligence_matrix(
                 == "company_specific_evidence"
             )
         )
-        archetype, structure, rule = _classify(
-            _number(market_row, "research_score"),
-            combined_risk,
-            leadership_score,
-            has_risk_evidence,
-        )
+        if risk_set_eligible:
+            archetype, structure, rule = _classify(
+                _number(market_row, "research_score"),
+                combined_risk,
+                leadership_score,
+                has_risk_evidence,
+            )
+        else:
+            archetype = "excluded_from_prediction_risk_set"
+            structure = "Retained for diligence; no acquisition-candidate recommendation."
+            rule = f"Excluded from prediction risk set: {exclusion_reason}"
         drivers = _list_value(execution, "primary_risk_drivers")
         if integrity and not drivers:
             drivers = [
@@ -212,8 +238,13 @@ def build_strategic_diligence_matrix(
                 ticker=ticker,
                 company_name=str(market_row.get("company_name", "")),
                 ma_research_score=_number(market_row, "research_score"),
-                ma_rank=rank,
-                ma_band=_ma_band(_number(market_row, "research_score")),
+                ma_rank=eligible_rank if risk_set_eligible else None,
+                ma_band=(
+                    _ma_band(_number(market_row, "research_score"))
+                    if risk_set_eligible else "excluded"
+                ),
+                risk_set_eligible=risk_set_eligible,
+                risk_set_exclusion_reason=exclusion_reason,
                 portfolio_score=_number(market_row, "portfolio_score"),
                 acquirability_score=_number(market_row, "acquirability_score"),
                 market_data_confidence=_number(market_row, "data_confidence"),

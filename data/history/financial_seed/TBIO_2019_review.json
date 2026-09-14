@@ -1,0 +1,81 @@
+{
+  "schema_version": "manual-financial-evidence-v1",
+  "record_id": "TBIO-2019-12-31-10K",
+  "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/NASDAQ_TBIO_2019.pdf",
+  "original_sec_url": "https://www.sec.gov/Archives/edgar/data/1693415/000119312520071633/d867804d10k.htm",
+  "source_sha256": "e949dceacc14adacb69e53a067f810fa2b3d556600936b3ebeafbc61969c2dd2",
+  "raw_bytes_archived": true,
+  "retrieved_at": "2026-09-08T14:00:53.989156+00:00",
+  "publication_evidence": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1693415/000119312520087488/d903636dex991.htm",
+    "kind": "issuer_pre_event_corroboration",
+    "evidence_paraphrase": "Issuer March 2020 program-update exhibit explicitly states that its 2019 10-K was filed with the SEC on March 12, 2020."
+  },
+  "facts": {
+    "cash_usd": {
+      "reported_value": 84580,
+      "source_unit": "USD thousands",
+      "unit_multiplier": 1000,
+      "value_usd": 84580000,
+      "period_start": null,
+      "period_end": "2019-12-31",
+      "period_type": "instant",
+      "statement": "balance_sheet",
+      "printed_page": "F-3",
+      "pdf_page": 136,
+      "reported_label": "Cash and cash equivalents",
+      "reported": true,
+      "xbrl_tag": null,
+      "extraction_method": "manual_statement_table_review"
+    },
+    "assets_usd": {
+      "reported_value": 336201,
+      "source_unit": "USD thousands",
+      "unit_multiplier": 1000,
+      "value_usd": 336201000,
+      "period_start": null,
+      "period_end": "2019-12-31",
+      "period_type": "instant",
+      "statement": "balance_sheet",
+      "printed_page": "F-3",
+      "pdf_page": 136,
+      "reported_label": "Total assets",
+      "reported": true,
+      "xbrl_tag": null,
+      "extraction_method": "manual_statement_table_review"
+    },
+    "annual_operating_cashflow_usd": {
+      "reported_value": -82162,
+      "source_unit": "USD thousands",
+      "unit_multiplier": 1000,
+      "value_usd": -82162000,
+      "period_start": "2019-01-01",
+      "period_end": "2019-12-31",
+      "period_type": "annual",
+      "statement": "cash_flows",
+      "printed_page": "F-7",
+      "pdf_page": 140,
+      "reported_label": "Net cash used in operating activities",
+      "reported": true,
+      "xbrl_tag": null,
+      "extraction_method": "manual_statement_table_review"
+    },
+    "annual_rd_usd": {
+      "reported_value": 76369,
+      "source_unit": "USD thousands",
+      "unit_multiplier": 1000,
+      "value_usd": 76369000,
+      "period_start": "2019-01-01",
+      "period_end": "2019-12-31",
+      "period_type": "annual",
+      "statement": "operations",
+      "printed_page": "F-4",
+      "pdf_page": 137,
+      "reported_label": "Research and development",
+      "reported": true,
+      "xbrl_tag": null,
+      "extraction_method": "manual_statement_table_review"
+    }
+  },
+  "provenance_note": "Manual observations derived from source tables; this file is not an original HTTP payload and its hash is not the source-byte hash."
+}

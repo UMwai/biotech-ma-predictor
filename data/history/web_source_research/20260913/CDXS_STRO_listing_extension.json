@@ -1,0 +1,72 @@
+{
+  "cohort_selection_changed": false,
+  "independent_human_review": false,
+  "limitations": [
+    "This is a retrospective security-identity review, not proof of uninterrupted executable liquidity or original Alpaca data vintage.",
+    "The shared cohort entry date remains December 21, 2020. Only the earlier identity bound used to mask market history is extended.",
+    "Actual 2026 review and original 2026 retrieval clocks are retained; acquisition-label clocks are unchanged."
+  ],
+  "outcome_labels_changed": false,
+  "prior_membership_review": {
+    "source_sha256": "b7b3a813ed92ad16fc7f5ec0529655635a0299c8565f6b9dbd2bea0d157522e0",
+    "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/negative_reviews/CDXS_STRO_membership_reviews_2021-b7b3a813ed92ad16fc7f5ec0529655635a0299c8565f6b9dbd2bea0d157522e0.json"
+  },
+  "records": [
+    {
+      "cik": 1200375,
+      "cohort_population_as_of_unchanged": "2020-12-21T00:00:00Z",
+      "evidence_paraphrase": "The annual identifies Nasdaq common shares as CDXS and presents a same-issuer common-share return history spanning December 31, 2016 through December 31, 2021. The previously verified full material-filing corpus includes 2020 and its baseline review reports no qualifying control or censoring event. Together these support the existing security identity during the required September 30 to December 30, 2020 feature lookback.",
+      "extracted_text_sha256": "5695576b598d31c575f01b696892594d95e64a936f3c583223ed394c00023e80",
+      "extraction_selector": "#document-wrap",
+      "old_valid_from": "2020-12-21T00:00:00Z",
+      "original_sec_document_bytes_archived": false,
+      "original_vendor_vintage_archived": false,
+      "publication_date": "2022-02-28",
+      "regulatory_review": {
+        "source_relative_path": "panel_seed/negative_reviews/CDXS_regulatory_outcome_review_2021.json",
+        "source_sha256": "49e676fbcedd86c498d2cf9fe6e6fc66179f64f6d6a2749a6ce6a7f96ad45e04"
+      },
+      "retrieved_at": "2026-09-08T19:49:49.978375+00:00",
+      "reviewed_at": "2026-09-13T16:08:25.697866+00:00",
+      "source_bytes": 3324311,
+      "source_content_format": "issuer_accession_filing_mirror_html",
+      "source_locator": "Item 5: common-stock market information and return-history table/narrative",
+      "source_relative_path": "panel_seed/negative_reviews/CDXS_sources/raw_sources/d0f9b564942e82b3ee2a728d078900c37847e828bc5e739bbec09265c19670c6.html",
+      "source_sha256": "d0f9b564942e82b3ee2a728d078900c37847e828bc5e739bbec09265c19670c6",
+      "source_uri": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/cdxs-20211231.htm",
+      "ticker": "CDXS",
+      "valid_until_unchanged": "2022-02-24T00:00:00Z",
+      "verified_identity_valid_from": "2020-09-30T00:00:00Z"
+    },
+    {
+      "cik": 1382101,
+      "cohort_population_as_of_unchanged": "2020-12-21T00:00:00Z",
+      "evidence_paraphrase": "The annual identifies Nasdaq common shares as STRO and presents the same common-share return history from its first trading day, September 27, 2018, through December 31, 2021, including a September 30, 2020 table entry. The previously verified full material-filing corpus includes 2020 and its baseline review reports no qualifying control or censoring event. Together these support the existing security identity during the required September 30 to December 30, 2020 feature lookback.",
+      "extracted_text_sha256": "6581900b6ac150a95cea5a3c2568365bd47c6cb2e7410eccebb6808eaa148491",
+      "extraction_selector": "#document-wrap",
+      "old_valid_from": "2020-12-21T00:00:00Z",
+      "original_sec_document_bytes_archived": false,
+      "original_vendor_vintage_archived": false,
+      "publication_date": "2022-02-28",
+      "regulatory_review": {
+        "source_relative_path": "panel_seed/negative_reviews/STRO_regulatory_outcome_review_2021.json",
+        "source_sha256": "74ec23788f8294ba9f976a6733d951ae1eee136fdcf75ec271b43ac83792c6f9"
+      },
+      "retrieved_at": "2026-09-08T19:49:55.242220+00:00",
+      "reviewed_at": "2026-09-13T16:08:25.697866+00:00",
+      "source_bytes": 5063760,
+      "source_content_format": "issuer_accession_filing_mirror_html",
+      "source_locator": "Item 5: common-stock market information and return-history table/narrative",
+      "source_relative_path": "panel_seed/negative_reviews/STRO_sources/raw_sources/6b8de6948b9fd7aa418e7a0f4bd08f77908104fc7d2138b2caa2f3d7f36ff9b3.html",
+      "source_sha256": "6b8de6948b9fd7aa418e7a0f4bd08f77908104fc7d2138b2caa2f3d7f36ff9b3",
+      "source_uri": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-20211231.htm",
+      "ticker": "STRO",
+      "valid_until_unchanged": "2022-02-24T00:00:00Z",
+      "verified_identity_valid_from": "2020-09-30T00:00:00Z"
+    }
+  ],
+  "reviewed_at": "2026-09-13T16:08:25.697866+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "schema_version": "historical-listing-identity-extension-review-v1",
+  "training_support_floors_changed": false
+}

@@ -1,0 +1,38 @@
+{
+  "biotech_evidence": {
+    "evidence_paraphrase": "The original 2019 annual report describes an operating late-stage biopharmaceutical company developing dermatological treatments and Phase 3 roflumilast cream. The cover identifies Nasdaq common stock ARQT. This supports the historical biotech classification without using current industry classification.",
+    "source_locator": "Item 1, Business, Overview, printed page 3; cover page equity class and exchange",
+    "source_reporting_period_end": "2019-12-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730620000005/arqt-20191231x10kdocum.htm"
+  },
+  "evidence_paraphrase": "The issuer explicitly states that its common stock has traded on Nasdaq Global Select under ARQT since its January 31, 2020 IPO. Its performance discussion covers that start date through December 31, 2021. This is an assertion of trading history, not an inference from the existence of a filing.",
+  "independent_human_review": false,
+  "interval_method": "Conservative interior interval of the issuer explicit historical trading assertion; no precise IPO opening timestamp or delisting timestamp is invented. valid_until is the evidence coverage boundary, not a delisting event.",
+  "issuer": {
+    "cik": 1787306,
+    "name": "Arcutis Biotherapeutics, Inc.",
+    "ticker": "ARQT"
+  },
+  "limitations": [
+    "Issuer assertion of exchange trading history, not a complete index constituent feed or executable price history.",
+    "No inference that the issuer was free of an outstanding acquisition agreement before the proposed observation.",
+    "Review receipt hashes identify these recorded assertions, not original SEC HTML bytes."
+  ],
+  "membership": {
+    "biotech_eligible": true,
+    "exchange": "NASDAQ",
+    "kind": "historical_exchange_membership",
+    "security_type": "common_equity",
+    "valid_from": "2020-02-01T00:00:00Z",
+    "valid_until": "2021-12-31T00:00:00Z"
+  },
+  "original_source_sha256": null,
+  "reviewed_at": "2026-09-08T17:00:01.455879+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "schema_version": "historical-listing-source-review-v1",
+  "source_locator": "Item 5, Market Information for Common Stock, printed page 87; Stock Performance Graph, page 88",
+  "source_reporting_period_end": "2021-12-31",
+  "source_retrieval_method": "SEC filing rendered by browser tool; original response bytes were not downloaded",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730622000009/arqt-20211231.htm",
+  "training_allowed": false
+}

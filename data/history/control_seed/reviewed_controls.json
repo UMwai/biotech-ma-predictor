@@ -1,0 +1,50 @@
+{
+  "eligible_feature_observations": 0,
+  "limitations": [
+    "Purposive research sample, not a complete historical universe.",
+    "Pre-observation eligibility, contemporaneous features and historical label availability remain unassembled.",
+    "Codex source review; independent human audit outstanding."
+  ],
+  "model_trained_on_real_data": false,
+  "records": [
+    {
+      "archive_evidence": {
+        "source_bytes": 121946,
+        "source_relative_path": "arqt_archive_followup.json",
+        "source_sha256": "4b30aa621756702cf7c0673d694f85833f39b73ddf870c2d687aced8ecacb408"
+      },
+      "archived_body_count": 45,
+      "availability_method": "Actual completed review time; no historical availability of this assembled label is asserted.",
+      "available_at": "2026-09-08T17:02:55.133911+00:00",
+      "cik": 1787306,
+      "coverage_scope": "Complete designated issuer news archive as retrieved, with explicit issuer historical listing assertion; not an independently verified regulatory-event census.",
+      "event_class": "no_change_of_control_announcement",
+      "features": null,
+      "horizon_days": 365,
+      "listing_evidence": {
+        "source_bytes": 2554,
+        "source_relative_path": "arqt_listing_review.json",
+        "source_sha256": "6f046a1288503d622de67897186ec19468b982de8147c73f9d8d919c4fdf4eb9"
+      },
+      "membership": {
+        "biotech_eligible": true,
+        "exchange": "NASDAQ",
+        "kind": "historical_exchange_membership",
+        "security_type": "common_equity",
+        "valid_from": "2020-02-01T00:00:00Z",
+        "valid_until": "2021-12-31T00:00:00Z"
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-09-08T17:02:55.133911+00:00",
+      "reviewed_window_release_count": 43,
+      "risk_set_eligible": null,
+      "ticker": "ARQT",
+      "training_allowed": false,
+      "window_end_date": "2021-12-21",
+      "window_start_date": "2020-12-21"
+    }
+  ],
+  "reviewed_negative_company_windows": 1,
+  "schema_version": "reviewed-control-windows-v1",
+  "training_allowed": false
+}

@@ -1,0 +1,20 @@
+{
+  "cik": 1434418,
+  "evidence_paraphrase": "A private nonbinding October 23, 2020 whole-company proposal was rejected. Parent and Parties A, B and C stopped pursuing transactions November 9-13. Partnership and investment discussions continued; acquisition outreach resumed in February-April 2021. Competitive bids and diligence in April-May led to final approval, execution and public announcement June 2. The prior private proposal was neither a signed nor publicly definitive agreement at January 1. July amendment clarifies April-May standstill terms without changing the baseline chronology. One original paragraph has a September-October 2021 date amid the 2020 sequence; no eligibility conclusion depends on correcting that apparent internal typo.",
+  "full_background_section_review_complete": true,
+  "independent_human_review": false,
+  "observation_at": "2021-01-01T00:00:00+00:00",
+  "original_source_sha256": null,
+  "pending_public_definitive_control_transaction_at_observation": false,
+  "primary_source_uri": "https://www.sec.gov/Archives/edgar/data/1434418/000119312521192262/d148389dsc14d9.htm",
+  "raw_bytes_archived": false,
+  "reviewed_at": "2026-09-08T18:23:26.321520+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "risk_set_eligible": true,
+  "schema_version": "reviewed-pending-transaction-baseline-v1",
+  "scope": "Agent review of the complete designated merger-background section, including private/public sequencing; not an exhaustive independent world-news or legal audit. Retrospective baseline adjudication is never a pre-observation model feature.",
+  "source_locator": "Background of the Offer and the Merger, printed pages 9-15, entire section; browser lines 323-443",
+  "supplemental_chronology_source_uri": "https://www.sec.gov/Archives/edgar/data/1434418/000119312521208730/d148389dsc14d9a.htm",
+  "supplemental_scope": "Amendment 3 Item 4 background corrections reviewed, lines 104-107; other amendments not independently inventoried.",
+  "ticker": "CNST"
+}

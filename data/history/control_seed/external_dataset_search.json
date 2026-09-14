@@ -1,0 +1,263 @@
+{
+  "schema_version": "external-acquisition-dataset-search-v1",
+  "reviewed_at": "2026-09-08T14:15:29.540941+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "independent_human_review": false,
+  "search_batches": 3,
+  "search_scope": "Bounded search for author/provider-published historical biotech company acquisition targets and comparison outcomes with financial features and an explicit sample definition. This is not an exhaustive census.",
+  "qualified_biotech_training_datasets": 0,
+  "new_approved_negative_controls": 0,
+  "training_allowed": false,
+  "qualified_training_observations": 0,
+  "conclusion": "No inspected source establishes a usable biotech historical prediction panel under the repository validation contract. A real provider-published broad-market target/peer financial sample was downloaded and pinned for methodology inspection; its peer labels are not accepted 12-month negative outcomes.",
+  "sources": [
+    {
+      "source_id": "lseg-financial-ma-example",
+      "title": "Predicting M&A Targets Using ML: Unlocking the potential of NLP based variables",
+      "primary_url": "https://github.com/LSEG-API-Samples/Article.RDP.Python.PredictingM-ATargetsUsingML-UnlockingThePotentialOfNLPBasedVariables",
+      "primary_source_kind": "data_provider_published_repository_and_article_notebook",
+      "commit": "bbd2fa7612ad0b38f23dd14b9c19d0743d3cdfb3",
+      "status": "actual_download_financial_labels_but_not_qualified_biotech_panel",
+      "qualifies_for_requested_training": false,
+      "downloads": [
+        {
+          "relative_path": "external_raw/lseg_ma_notebook.ipynb",
+          "url": "https://raw.githubusercontent.com/LSEG-API-Samples/Article.RDP.Python.PredictingM-ATargetsUsingML-UnlockingThePotentialOfNLPBasedVariables/bbd2fa7612ad0b38f23dd14b9c19d0743d3cdfb3/Predicting%20M%26A%20Targets%20Using%20ML.ipynb",
+          "bytes": 4583670,
+          "sha256": "4a77ae5817299cd26cebc33c0fb33dcd1c9d106134b44cdb44c374ab1db8d585",
+          "download_completed_at": "2026-09-08T14:13:00.177870+00:00",
+          "download_timestamp_basis": "local file write immediately after completed HTTP response"
+        },
+        {
+          "relative_path": "external_raw/lseg_ma_all_data.xlsx",
+          "url": "https://raw.githubusercontent.com/LSEG-API-Samples/Article.RDP.Python.PredictingM-ATargetsUsingML-UnlockingThePotentialOfNLPBasedVariables/bbd2fa7612ad0b38f23dd14b9c19d0743d3cdfb3/Datasets/all_data.xlsx",
+          "bytes": 1346207,
+          "sha256": "d42db84ec8ab65d904d59629d2ebafd125b34dd2d712eca33496765deed6fd8d",
+          "download_completed_at": "2026-09-08T14:13:00.105870+00:00",
+          "download_timestamp_basis": "local file write immediately after completed HTTP response"
+        },
+        {
+          "relative_path": "external_raw/lseg_ma_target_data.xlsx",
+          "url": "https://raw.githubusercontent.com/LSEG-API-Samples/Article.RDP.Python.PredictingM-ATargetsUsingML-UnlockingThePotentialOfNLPBasedVariables/bbd2fa7612ad0b38f23dd14b9c19d0743d3cdfb3/Datasets/target_data.xlsx",
+          "bytes": 52874,
+          "sha256": "2f8b01d3d3177f11ef942819aaeda3575449ffe01ab907f2fbb8618432b18fcc",
+          "download_completed_at": "2026-09-08T14:12:59.985870+00:00",
+          "download_timestamp_basis": "local file write immediately after completed HTTP response"
+        },
+        {
+          "relative_path": "external_raw/lseg_README.md",
+          "url": "https://raw.githubusercontent.com/LSEG-API-Samples/Article.RDP.Python.PredictingM-ATargetsUsingML-UnlockingThePotentialOfNLPBasedVariables/bbd2fa7612ad0b38f23dd14b9c19d0743d3cdfb3/README.md",
+          "bytes": 3020,
+          "sha256": "dd5aad9c7e65683c7ad0b1caab100449dd81bd18f51cbbf9f26b229daee2c188",
+          "download_completed_at": "2026-09-08T14:15:29.693659+00:00"
+        }
+      ],
+      "downloaded_all_data_inspection": {
+        "row_count": 3830,
+        "label_counts": {
+          "1": 182,
+          "0": 3648
+        },
+        "columns": [
+          "Instrument",
+          "AD-250",
+          "AD-60",
+          "AD-30",
+          "AD",
+          "Gross Profit Margin - %",
+          "Net Income after Minority Interest",
+          "Total Capital",
+          "Operating Margin - %, TTM",
+          "Free Cash Flow",
+          "Revenue from Business Activities - Total",
+          "Revenue from Business Activities - Total.1",
+          "Revenue from Business Activities - Total.2",
+          "Revenue from Business Activities - Total.3",
+          "Current Ratio",
+          "Price To Book Value Per Share (Daily Time Series Ratio)",
+          "Price To Sales Per Share (Daily Time Series Ratio)",
+          "Earnings before Interest Taxes Depreciation & Amortization",
+          "Enterprise Value (Daily Time Series)",
+          "Total Shareholders' Equity incl Minority Intr & Hybrid Debt",
+          "Debt - Total",
+          "Net Debt per Share",
+          "Cash & Cash Equivalents - Total",
+          "Label",
+          "Profit to Capital",
+          "Free Cash Flow to Sales",
+          "Cash to Capital",
+          "EV to EBITDA",
+          "Debt to EV",
+          "AR",
+          "Sales_growth"
+        ],
+        "target_data_row_count": 209,
+        "sector_column_present": false,
+        "biotech_row_count": null,
+        "biotech_count_note": "The notebook drops TRBC industry before saving; absence of a biotech string is not evidence of zero biotech companies."
+      },
+      "sample_definition": {
+        "target_search_dates_inclusive": [
+          "2020-09-15",
+          "2021-11-15"
+        ],
+        "target_countries": [
+          "US",
+          "UK"
+        ],
+        "target_public_status": "Public",
+        "transaction_value_filter_usd_min": 100000000,
+        "forms": [
+          "Merger",
+          "Acquisition"
+        ],
+        "statuses": [
+          "Completed",
+          "Pending",
+          "Withdrawn"
+        ],
+        "peer_assignment": "Peers of retained targets receive Label=0; concatenation places targets first, then removes duplicate RIC prefixes. No per-company 12-month outcome search is implemented.",
+        "financial_request_date": "Target announcement minus 30 calendar days; peers share target-relative dates.",
+        "observation_selection": "Dates selected retrospectively relative to known target events; no prospectively specified common company cohorts.",
+        "validation_in_notebook": "Repeated stratified cross-validation; no chronological purged holdout."
+      },
+      "audit_cells_zero_indexed": [
+        21,
+        23,
+        28,
+        31,
+        38,
+        40,
+        48,
+        50,
+        52,
+        54,
+        58,
+        62,
+        63,
+        124,
+        131
+      ],
+      "limitations": [
+        "Peer label0 lacks full prospective 12-month ascertainment and could hide unselected or later deals.",
+        "Broad-market sample, sector field removed, no historical biotech-membership evidence.",
+        "Provider SDate query alone does not archive filing publication times or original-as-filed versus restatement lineage.",
+        "Reported nonfinancial AR feature uses returns closer to the event than AD-30, so AD-30 cannot be declared the availability time for all features.",
+        "Notebook hard-coded narrative total3849 disagrees with actual3830 rows and its own182+3648 counts.",
+        "No explicit standalone data license was found in the inspected repository root; public download is not proof of unrestricted redistribution rights."
+      ],
+      "allowed_use_in_this_delivery": "Pinned source catalogue and methodological research only; no labels or features imported into training."
+    },
+    {
+      "source_id": "verginer-biotech-inventor-panel",
+      "title": "Data for Acquisitions as Catalysts for Inventor Departures in the Biotechnology Industry",
+      "primary_url": "https://figshare.com/articles/dataset/Data_for_Acquisitions_as_Catalysts_for_Inventor_Departures_in_the_Biotechnology_Industry_/28669889",
+      "metadata_url": "https://api.figshare.com/v2/articles/28669889",
+      "paper_url": "https://www.nature.com/articles/s41599-025-04894-w",
+      "doi": "10.6084/m9.figshare.28669889.v1",
+      "license": "CC BY 4.0",
+      "provider_published_at": "2025-04-26T16:47:38Z",
+      "authors": [
+        "Luca Verginer",
+        "Massimo Riccaboni",
+        "Jeroen Allard van Lidth de Jeude",
+        "Federica Parisi"
+      ],
+      "status": "downloaded_biotech_inventor_panel_wrong_unit_and_no_financial_features",
+      "qualifies_for_requested_training": false,
+      "downloads": [
+        {
+          "relative_path": "external_raw/inventor_departures_figshare_53248637.csv",
+          "url": "https://ndownloader.figshare.com/files/53248637",
+          "bytes": 242836,
+          "sha256": "49f481b717996ce334d2384c818d56dd9b2a654b79f3d8266632b26b581decef",
+          "md5": "07a911a76638c862c16f5359699e2ecc",
+          "provider_computed_md5": "07a911a76638c862c16f5359699e2ecc",
+          "download_completed_at": "2026-09-08T14:11:45.861886+00:00",
+          "download_timestamp_basis": "local file write immediately after completed HTTP response"
+        }
+      ],
+      "actual_row_count": 2588,
+      "columns": [
+        "",
+        "inventor_id",
+        "period",
+        "survived",
+        "stayed",
+        "company_name",
+        "year",
+        "treated",
+        "age",
+        "tenure",
+        "pat_before",
+        "pat_after",
+        "prop_for_company",
+        "pats_for_focal",
+        "acquired_nation",
+        "acquiring_company",
+        "acquiring_nation",
+        "same_nation",
+        "tech_distance_acquiring_company",
+        "tech_distance_category",
+        "tech_distance_category_2",
+        "tech_distance_category_3"
+      ],
+      "treated_counts": {
+        "0": 1298,
+        "1": 1290
+      },
+      "limitations": [
+        "Inventor-period rows contain treatment, retention and patent variables, not public-company acquisition incidence with financial features.",
+        "Treatment/comparison inventors are not approved negative company observation windows.",
+        "No firm cash/assets/debt/revenue features in downloaded columns."
+      ]
+    },
+    {
+      "source_id": "arsini-economic-complexity",
+      "title": "Prediction and visualization of Mergers and Acquisitions using Economic Complexity",
+      "primary_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0283217",
+      "status": "publisher_explicitly_restricts_public_data_sharing",
+      "qualifies_for_requested_training": false,
+      "evidence_paraphrase": "Article data-availability statement attributes sharing restrictions to Bureau van Dijk and directs eligible researchers to the provider. Patent-related deal-pair prediction is also a different task from a public-biotech financial probability panel.",
+      "actual_download": null
+    },
+    {
+      "source_id": "yang-tdin",
+      "title": "Predicting Mergers and Acquisitions: Temporal Dynamic Industry Networks",
+      "primary_url": "https://arxiv.org/html/2404.07298v2",
+      "status": "paper_available_no_open_data_download_verified",
+      "qualifies_for_requested_training": false,
+      "evidence_paraphrase": "Section3.4 names SDC Platinum deals, Compustat-Capital IQ accounting, SEC text and TNIC networks for1997-2020. Study restricts frequent acquirers using full-window deal counts.",
+      "discovery_repository_access_receipts": [
+        {
+          "url": "https://api.github.com/repos/dayuyang1999/Merger_Acquisition_Data/contents",
+          "http_status": 404
+        },
+        {
+          "url": "https://api.github.com/repos/dayuyang1999/Merger_Acquisition_Prediction/contents",
+          "http_status": 404
+        }
+      ],
+      "repository_attribution_note": "These repository leads were discovered through a paper-code index; their authorship or contents could not be verified because GitHub returned404.",
+      "actual_download": null
+    },
+    {
+      "source_id": "maini-pharma-ma-events",
+      "title": "Data on M&A Activity in the Pharmaceutical Market",
+      "primary_url": "https://www.lucamaini.com/data",
+      "status": "author_published_deal_source_catalogue_no_company_control_financial_panel",
+      "qualifies_for_requested_training": false,
+      "evidence_paraphrase": "Author describes deals involving US marketed on-patent branded drugs, covering company deals, asset transfers and licenses, with a companion primary-source list. This can aid positive-event discovery but does not by itself supply negative company windows and financial features.",
+      "actual_download": null
+    },
+    {
+      "source_id": "paye-takeover-data",
+      "title": "Takeover factor time series and takeover characteristic data",
+      "primary_url": "https://bradleypaye.owlstown.net/pages/6993-data",
+      "status": "author_data_links_present_full_financial_label_panel_not_verified",
+      "qualifies_for_requested_training": false,
+      "evidence_paraphrase": "Author page links takeover factor returns and takeover characteristics. Within this bounded review, no biotech target/control financial panel or complete outcome-window download was verified.",
+      "actual_download": null
+    }
+  ]
+}

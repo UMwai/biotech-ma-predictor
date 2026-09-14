@@ -1,0 +1,51 @@
+{
+  "high_signal_pattern": "agreed to (?:be|merg|acquir)|will be acquired|(?:acquisition|sale) of (?:us|our company|the company)|agreement and plan|strategic alternatives|take.private|(?:filed|entered|petition).{0,50}bankruptcy|(?:delisting|delisted)|(?:merger|acquisition) (?:agreement|transaction)|acquired by",
+  "limitations": "Three known positive original announcements were detected and correctly identified as control transactions. This verifies obvious event wording survives the assisted screen and distinguishes product rights from full-company equity; it does not estimate event-detection recall, prove every absence, or independently validate acquisition-model performance.",
+  "passed": true,
+  "results": [
+    {
+      "broad_trigger_count": 54,
+      "codex_decision": "qualifying control announcement",
+      "evidence_paraphrase": "Amgen agreement and tender offer for all outstanding Five Prime common stock, followed by merger, $38/share.",
+      "expected_qualifying_control_announcement": true,
+      "extracted_available_lines_sha256": "54ab9b9b2dd1fb733d1efcdc8b430a46941f5b6faa5da5c01e3d6141d9f4aca8",
+      "first_high_signal_context": "to patients and to achieve our mission to rewrite cancer.\u201d Transaction Terms Under the terms of the merger agreement, which was approved by the Boards of Directors of both companies, Amgen will commence a tender offer to acquire all of the outstanding shares of Five Prime\u2018s common stock for $38.00 per share in cash. Following the completion of the tender offer, a wholly-owned subsidiary of Amgen will merge with Five Prime and shares of Five Prime that have not been tendered and purchased in the tender offer will be converted into the right to receive the same ",
+      "high_signal_trigger_count": 2,
+      "original_source_uri": "https://www.sec.gov/Archives/edgar/data/1175505/000119312521068593/d77427dex991.htm",
+      "tested_representation": "all original SEC document lines actually returned in archived web-tool response; bounded acquisition-announcement screen check, not complete source retrieval test",
+      "ticker": "FPRX"
+    },
+    {
+      "broad_trigger_count": 37,
+      "codex_decision": "qualifying control announcement",
+      "evidence_paraphrase": "MorphoSys tender offer and second-step merger for all Constellation outstanding common stock, $34/share.",
+      "expected_qualifying_control_announcement": true,
+      "extracted_available_lines_sha256": "65a36951998e61161dfa836e186f0b4403d92b5defcef83c895afe7fd8b6a4bc",
+      "first_high_signal_context": "eholders.   Page 1  * * *  \ue200cite\ue2021\u2020Image: LOGO\ue201 L34:    Transaction Details  Under the terms of the merger agreement, an indirect wholly-owned subsidiary of MorphoSys will promptly commence a tender offer to acquire all of the outstanding shares of Constellation\u2019s common stock at a price of $34.00 per share in cash. Following successful completion of the tender offer, MorphoSys will acquire all remaining shares not tendered in the offer through a second step merger at the same price as in the tender offer. MorphoSys plans to pay all-cash consideration for the ",
+      "high_signal_trigger_count": 1,
+      "original_source_uri": "https://www.sec.gov/Archives/edgar/data/1434418/000119312521180060/d182948dex992.htm",
+      "tested_representation": "all original SEC document lines actually returned in archived web-tool response; bounded acquisition-announcement screen check, not complete source retrieval test",
+      "ticker": "CNST"
+    },
+    {
+      "broad_trigger_count": 34,
+      "codex_decision": "qualifying control announcement",
+      "evidence_paraphrase": "Merck definitive agreement and tender offer for all Pandion outstanding shares, $60/share, followed by merger.",
+      "expected_qualifying_control_announcement": true,
+      "extracted_available_lines_sha256": "71f0bc6db9c7f3fc62143f3c752dd8e2afd4f7ff1932b1141990365aa47fbdf4",
+      "first_high_signal_context": "ases, and we look forward to seeing these molecules progress in the clinic.\u201d Under the terms of the acquisition agreement, Merck, through a subsidiary, will initiate a tender offer to acquire all outstanding shares of Pandion. The closing of the tender offer will be subject to certain conditions, including the tender of shares representing at least a majority of the total number of Pandion\u2019s shares of fully-diluted common stock, the expiration of the waiting period under the Hart-Scott-Rodino Antitrust Improvements Act and other customary conditions. Upon the succe",
+      "high_signal_trigger_count": 1,
+      "original_source_uri": "https://www.sec.gov/Archives/edgar/data/1807901/000119312521055823/d61211dex992.htm",
+      "tested_representation": "all original SEC document lines actually returned in archived web-tool response; bounded acquisition-announcement screen check, not complete source retrieval test",
+      "ticker": "PAND"
+    }
+  ],
+  "reviewed_at": "2026-09-08T20:12:39.340469+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "schema_version": "regulatory-event-screen-bounded-check-v1",
+  "screen_pattern": "\\bacquir\\w*|\\bacquisition\\w*|\\bmerg\\w*|\\btakeover\\b|take.private|tender offer|business combination|change.of.control|\\bdelist\\w*|\\bbankrupt\\w*|\\bliquidat\\w*|\\bdissol\\w*|wind.down|winding.down|ceas\\w* operations|sale of (?:the|our|all|substantially)|strategic alternatives|\\btransaction\\w*|\\bmajority\\b|controlling interest",
+  "source_receipt": {
+    "source_relative_path": "CDXS_STRO_positive_screen_sources.json",
+    "source_sha256": "032d2ccfcd138206b3640ccade68d009c468b2a15bb014ee2bcf6d90f7dcec1c"
+  }
+}

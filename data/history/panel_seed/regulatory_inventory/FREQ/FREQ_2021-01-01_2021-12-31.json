@@ -1,0 +1,5076 @@
+{
+  "cik": 1703647,
+  "end_date": "2021-12-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:54:07.586892+00:00",
+      "returned": 71,
+      "source_bytes": 49110,
+      "source_relative_path": "raw_sources/3efed4f18f24a7206af93894ca19246354b79891d8a25859bb8f098fb85b075a.json",
+      "source_sha256": "3efed4f18f24a7206af93894ca19246354b79891d8a25859bb8f098fb85b075a",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001703647&dateRange=custom&startdt=2021-01-01&enddt=2021-12-31&from=0&size=100",
+      "total": 71
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001127602-21-031694",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221031694/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221031694/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-12-21",
+      "form": "4",
+      "id": "0001127602-21-031694:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-031694:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-031694",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-12-21",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211510091"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-12-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1640044800000,
+          "0001127602-21-031694:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-353939",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000119312521353939/d260712d8k.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "d260712d8k.htm",
+      "filed_date": "2021-12-10",
+      "form": "8-K",
+      "id": "0001193125-21-353939:d260712d8k.htm",
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-353939:d260712d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-353939",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-12-10",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211485350"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "1.01",
+            "9.01"
+          ],
+          "period_ending": "2021-12-10",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1639094400000,
+          "0001193125-21-353939:d260712d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-353929",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000119312521353929/d260732d424b5.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "d260732d424b5.htm",
+      "filed_date": "2021-12-10",
+      "form": "424B5",
+      "id": "0001193125-21-353929:d260732d424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-353929:d260732d424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-353929",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-12-10",
+          "file_description": "424B5",
+          "file_num": [
+            "333-250099"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "211485323"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1639094400000,
+          "0001193125-21-353929:d260732d424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-352113",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000119312521352113/d261268d8k.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "d261268d8k.htm",
+      "filed_date": "2021-12-09",
+      "form": "8-K",
+      "id": "0001193125-21-352113:d261268d8k.htm",
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-352113:d261268d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-352113",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-12-09",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211480284"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "7.01",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-12-09",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1639008000000,
+          "0001193125-21-352113:d261268d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-21-004466",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000095017021004466/freq-20210930.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "freq-20210930.htm",
+      "filed_date": "2021-11-15",
+      "form": "10-Q",
+      "id": "0000950170-21-004466:freq-20210930.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-21-004466:freq-20210930.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-21-004466",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-11-15",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "211406372"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-09-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1636934400000,
+          "0000950170-21-004466:freq-20210930.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-21-004459",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000095017021004459/freq-20211115.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "freq-20211115.htm",
+      "filed_date": "2021-11-15",
+      "form": "8-K",
+      "id": "0000950170-21-004459:freq-20211115.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0000950170-21-004459:freq-20211115.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-21-004459",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-11-15",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211406362"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2021-11-15",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1636934400000,
+          "0000950170-21-004459:freq-20211115.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-323786",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000119312521323786/d211914d8k.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "d211914d8k.htm",
+      "filed_date": "2021-11-09",
+      "form": "8-K",
+      "id": "0001193125-21-323786:d211914d8k.htm",
+      "items": [
+        "2.02",
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-323786:d211914d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-323786",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-11-09",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211389888"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "7.01",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-11-09",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1636416000000,
+          "0001193125-21-323786:d211914d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-028414",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221028414/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221028414/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-11-04",
+      "form": "4",
+      "id": "0001127602-21-028414:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-028414:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-028414",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-11-04",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211381428"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-02",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1635984000000,
+          "0001127602-21-028414:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-303543",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000119312521303543/d242443d8k.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "d242443d8k.htm",
+      "filed_date": "2021-10-21",
+      "form": "8-K",
+      "id": "0001193125-21-303543:d242443d8k.htm",
+      "items": [
+        "8.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-303543:d242443d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-303543",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-10-21",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211335736"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01"
+          ],
+          "period_ending": "2021-10-21",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1634774400000,
+          "0001193125-21-303543:d242443d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-026798",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221026798/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221026798/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-10-07",
+      "form": "4",
+      "id": "0001127602-21-026798:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-026798:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-026798",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-10-07",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211312528"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-10-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1633564800000,
+          "0001127602-21-026798:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-278891",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000119312521278891/d235117d8k.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "d235117d8k.htm",
+      "filed_date": "2021-09-22",
+      "form": "8-K",
+      "id": "0001193125-21-278891:d235117d8k.htm",
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-278891:d235117d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-278891",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-09-22",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211268183"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "7.01",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-09-22",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1632268800000,
+          "0001193125-21-278891:d235117d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-025022",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221025022/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221025022/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-09-08",
+      "form": "4",
+      "id": "0001127602-21-025022:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-025022:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-025022",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-09-08",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211242826"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-09-03",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1631059200000,
+          "0001127602-21-025022:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-21-043699",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000156459021043699/freq-10q_20210630.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "freq-10q_20210630.htm",
+      "filed_date": "2021-08-12",
+      "form": "10-Q",
+      "id": "0001564590-21-043699:freq-10q_20210630.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-21-043699:freq-10q_20210630.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-21-043699",
+          "biz_locations": [
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-08-12",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "211165896"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628726400000,
+          "0001564590-21-043699:freq-10q_20210630.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-21-043694",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000156459021043694/freq-8k_20210812.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "freq-8k_20210812.htm",
+      "filed_date": "2021-08-12",
+      "form": "8-K",
+      "id": "0001564590-21-043694:freq-8k_20210812.htm",
+      "items": [
+        "2.02",
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-21-043694:freq-8k_20210812.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-21-043694",
+          "biz_locations": [
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-08-12",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211165887"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2021-08-12",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628726400000,
+          "0001564590-21-043694:freq-8k_20210812.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-023168",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221023168/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221023168/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-08-05",
+      "form": "4",
+      "id": "0001127602-21-023168:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-023168:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-023168",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-08-05",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211149392"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-08-03",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1628121600000,
+          "0001127602-21-023168:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-021567",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221021567/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221021567/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-07-06",
+      "form": "4",
+      "id": "0001127602-21-021567:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-021567:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-021567",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-07-06",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211074368"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-07-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1625529600000,
+          "0001127602-21-021567:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-204868",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000119312521204868/d126834d8k.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "d126834d8k.htm",
+      "filed_date": "2021-06-30",
+      "form": "8-K",
+      "id": "0001193125-21-204868:d126834d8k.htm",
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-204868:d126834d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-204868",
+          "biz_locations": [
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-06-30",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211062797"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "7.01",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-06-30",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1625011200000,
+          "0001193125-21-204868:d126834d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-020524",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221020524/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221020524/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-06-23",
+      "form": "4",
+      "id": "0001127602-21-020524:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-020524:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-020524",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-06-23",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211037243"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-21",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624406400000,
+          "0001127602-21-020524:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-195225",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000119312521195225/d154094d8k.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "d154094d8k.htm",
+      "filed_date": "2021-06-21",
+      "form": "8-K",
+      "id": "0001193125-21-195225:d154094d8k.htm",
+      "items": [
+        "5.07"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-195225:d154094d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-195225",
+          "biz_locations": [
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-06-21",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211031596"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.07"
+          ],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1624233600000,
+          "0001193125-21-195225:d154094d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-020421",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1264554/000112760221020421/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221020421/form4.xml"
+      ],
+      "ciks": [
+        "0001264554",
+        "0001703647"
+      ],
+      "display_names": [
+        "FELDMANN CYNTHIA L  (CIK 0001264554)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-06-21",
+      "form": "4",
+      "id": "0001127602-21-020421:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-020421:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-020421",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001264554",
+            "0001703647"
+          ],
+          "display_names": [
+            "FELDMANN CYNTHIA L  (CIK 0001264554)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-06-21",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211031215"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624233600000,
+          "0001127602-21-020421:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-020416",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1239757/000112760221020416/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221020416/form4.xml"
+      ],
+      "ciks": [
+        "0001239757",
+        "0001703647"
+      ],
+      "display_names": [
+        "LANGER ROBERT  (CIK 0001239757)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-06-21",
+      "form": "4",
+      "id": "0001127602-21-020416:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-020416:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-020416",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001239757",
+            "0001703647"
+          ],
+          "display_names": [
+            "LANGER ROBERT  (CIK 0001239757)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-06-21",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211031178"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624233600000,
+          "0001127602-21-020416:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-020411",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1787161/000112760221020411/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221020411/form4.xml"
+      ],
+      "ciks": [
+        "0001787161",
+        "0001703647"
+      ],
+      "display_names": [
+        "Huang Michael  (CIK 0001787161)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-06-21",
+      "form": "4",
+      "id": "0001127602-21-020411:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-020411:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-020411",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001787161",
+            "0001703647"
+          ],
+          "display_names": [
+            "Huang Michael  (CIK 0001787161)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-06-21",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211031134"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624233600000,
+          "0001127602-21-020411:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-020405",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1216955/000112760221020405/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221020405/form4.xml"
+      ],
+      "ciks": [
+        "0001216955",
+        "0001703647"
+      ],
+      "display_names": [
+        "MARCUS JOEL S  (CIK 0001216955)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-06-21",
+      "form": "4",
+      "id": "0001127602-21-020405:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-020405:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-020405",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001216955",
+            "0001703647"
+          ],
+          "display_names": [
+            "MARCUS JOEL S  (CIK 0001216955)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-06-21",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211030979"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624233600000,
+          "0001127602-21-020405:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-020402",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1120355/000112760221020402/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221020402/form4.xml"
+      ],
+      "ciks": [
+        "0001120355",
+        "0001703647"
+      ],
+      "display_names": [
+        "BARBERICH TIMOTHY J  (CIK 0001120355)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-06-21",
+      "form": "4",
+      "id": "0001127602-21-020402:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-020402:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-020402",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001120355",
+            "0001703647"
+          ],
+          "display_names": [
+            "BARBERICH TIMOTHY J  (CIK 0001120355)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-06-21",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211030945"
+          ],
+          "form": "4",
+          "inc_states": [
+            "DE",
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624233600000,
+          "0001127602-21-020402:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-020399",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1132945/000112760221020399/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221020399/form4.xml"
+      ],
+      "ciks": [
+        "0001132945",
+        "0001703647"
+      ],
+      "display_names": [
+        "COHEN MARC A  (CIK 0001132945)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-06-21",
+      "form": "4",
+      "id": "0001127602-21-020399:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-020399:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-020399",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001132945",
+            "0001703647"
+          ],
+          "display_names": [
+            "COHEN MARC A  (CIK 0001132945)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-06-21",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211030920"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1624233600000,
+          "0001127602-21-020399:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-017370",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1842009/000112760221017370/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221017370/form4.xml"
+      ],
+      "ciks": [
+        "0001842009",
+        "0001703647"
+      ],
+      "display_names": [
+        "McCubbin Quentin  (CIK 0001842009)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-05-19",
+      "form": "4",
+      "id": "0001127602-21-017370:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-017370:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-017370",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001842009",
+            "0001703647"
+          ],
+          "display_names": [
+            "McCubbin Quentin  (CIK 0001842009)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-05-19",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21940298"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-05-17",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1621382400000,
+          "0001127602-21-017370:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-21-027221",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000156459021027221/freq-10q_20210331.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "freq-10q_20210331.htm",
+      "filed_date": "2021-05-13",
+      "form": "10-Q",
+      "id": "0001564590-21-027221:freq-10q_20210331.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-21-027221:freq-10q_20210331.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-21-027221",
+          "biz_locations": [
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-05-13",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "21917240"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-03-31",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1620864000000,
+          "0001564590-21-027221:freq-10q_20210331.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-21-027217",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000156459021027217/freq-8k_20210513.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "freq-8k_20210513.htm",
+      "filed_date": "2021-05-13",
+      "form": "8-K",
+      "id": "0001564590-21-027217:freq-8k_20210513.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-21-027217:freq-8k_20210513.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-21-027217",
+          "biz_locations": [
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-05-13",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21917226"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2021-05-13",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1620864000000,
+          "0001564590-21-027217:freq-8k_20210513.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-140685",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000119312521140685/d19139ddefa14a.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "d19139ddefa14a.htm",
+      "filed_date": "2021-04-29",
+      "form": "DEFA14A",
+      "id": "0001193125-21-140685:d19139ddefa14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-140685:d19139ddefa14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-140685",
+          "biz_locations": [
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-04-29",
+          "file_description": "DEFA14A",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "DEFA14A",
+          "film_num": [
+            "21871527"
+          ],
+          "form": "DEFA14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DEFA14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1619654400000,
+          "0001193125-21-140685:d19139ddefa14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-140675",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000119312521140675/d19139ddef14a.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "d19139ddef14a.htm",
+      "filed_date": "2021-04-29",
+      "form": "DEF 14A",
+      "id": "0001193125-21-140675:d19139ddef14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-140675:d19139ddef14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-140675",
+          "biz_locations": [
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-04-29",
+          "file_description": "DEF 14A",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "DEF 14A",
+          "film_num": [
+            "21871496"
+          ],
+          "form": "DEF 14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-17",
+          "root_forms": [
+            "DEF 14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1619654400000,
+          "0001193125-21-140675:d19139ddef14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-014293",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1842009/000112760221014293/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221014293/form4.xml"
+      ],
+      "ciks": [
+        "0001842009",
+        "0001703647"
+      ],
+      "display_names": [
+        "McCubbin Quentin  (CIK 0001842009)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-04-22",
+      "form": "4",
+      "id": "0001127602-21-014293:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-014293:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-014293",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001842009",
+            "0001703647"
+          ],
+          "display_names": [
+            "McCubbin Quentin  (CIK 0001842009)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-04-22",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21845092"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-04-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1619049600000,
+          "0001127602-21-014293:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-014291",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1585839/000112760221014291/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221014291/form4.xml"
+      ],
+      "ciks": [
+        "0001585839",
+        "0001703647"
+      ],
+      "display_names": [
+        "PFREUNDSCHUH PETER P.  (CIK 0001585839)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-04-22",
+      "form": "4",
+      "id": "0001127602-21-014291:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-014291:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-014291",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001585839",
+            "0001703647"
+          ],
+          "display_names": [
+            "PFREUNDSCHUH PETER P.  (CIK 0001585839)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-04-22",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21845065"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-04-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1619049600000,
+          "0001127602-21-014291:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-014290",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1802649/000112760221014290/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221014290/form4.xml"
+      ],
+      "ciks": [
+        "0001802649",
+        "0001703647"
+      ],
+      "display_names": [
+        "Arnold Wendy S  (CIK 0001802649)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-04-22",
+      "form": "4",
+      "id": "0001127602-21-014290:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-014290:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-014290",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001802649",
+            "0001703647"
+          ],
+          "display_names": [
+            "Arnold Wendy S  (CIK 0001802649)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-04-22",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21845044"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-04-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1619049600000,
+          "0001127602-21-014290:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-014287",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1360756/000112760221014287/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221014287/form4.xml"
+      ],
+      "ciks": [
+        "0001360756",
+        "0001703647"
+      ],
+      "display_names": [
+        "Hilt Dana Charles  (CIK 0001360756)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-04-22",
+      "form": "4",
+      "id": "0001127602-21-014287:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-014287:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-014287",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001360756",
+            "0001703647"
+          ],
+          "display_names": [
+            "Hilt Dana Charles  (CIK 0001360756)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-04-22",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21845027"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-04-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1619049600000,
+          "0001127602-21-014287:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-014285",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1439275/000112760221014285/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221014285/form4.xml"
+      ],
+      "ciks": [
+        "0001439275",
+        "0001703647"
+      ],
+      "display_names": [
+        "LeBel Carl  (CIK 0001439275)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-04-22",
+      "form": "4",
+      "id": "0001127602-21-014285:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-014285:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-014285",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001439275",
+            "0001703647"
+          ],
+          "display_names": [
+            "LeBel Carl  (CIK 0001439275)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-04-22",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21844998"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-04-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1619049600000,
+          "0001127602-21-014285:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-014280",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785299/000112760221014280/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221014280/form4.xml"
+      ],
+      "ciks": [
+        "0001785299",
+        "0001703647"
+      ],
+      "display_names": [
+        "Loose Christopher R.  (CIK 0001785299)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-04-22",
+      "form": "4",
+      "id": "0001127602-21-014280:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-014280:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-014280",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785299",
+            "0001703647"
+          ],
+          "display_names": [
+            "Loose Christopher R.  (CIK 0001785299)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-04-22",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21844949"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-04-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1619049600000,
+          "0001127602-21-014280:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-014276",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1840339/000112760221014276/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221014276/form4.xml"
+      ],
+      "ciks": [
+        "0001840339",
+        "0001703647"
+      ],
+      "display_names": [
+        "Bookman Michael  (CIK 0001840339)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-04-22",
+      "form": "4",
+      "id": "0001127602-21-014276:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-014276:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-014276",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001840339",
+            "0001703647"
+          ],
+          "display_names": [
+            "Bookman Michael  (CIK 0001840339)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-04-22",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21844915"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-04-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1619049600000,
+          "0001127602-21-014276:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001623632-21-000450",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000162363221000450/form17964.htm",
+        "https://www.sec.gov/Archives/edgar/data/1056288/000162363221000450/form17964.htm"
+      ],
+      "ciks": [
+        "0001703647",
+        "0001056288"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)",
+        "FEDERATED HERMES, INC.  (FHI)  (CIK 0001056288)"
+      ],
+      "document_name": "form17964.htm",
+      "filed_date": "2021-04-09",
+      "form": "SC 13G/A",
+      "id": "0001623632-21-000450:form17964.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001623632-21-000450:form17964.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001623632-21-000450",
+          "biz_locations": [
+            "Woburn, MA",
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "MA",
+            "PA"
+          ],
+          "ciks": [
+            "0001703647",
+            "0001056288"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)",
+            "FEDERATED HERMES, INC.  (FHI)  (CIK 0001056288)"
+          ],
+          "file_date": "2021-04-09",
+          "file_description": null,
+          "file_num": [
+            "005-91158"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21817454"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "PA"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6282"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1617926400000,
+          "0001623632-21-000450:form17964.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-21-016117",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000156459021016117/freq-10k_20201231.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "freq-10k_20201231.htm",
+      "filed_date": "2021-03-29",
+      "form": "10-K",
+      "id": "0001564590-21-016117:freq-10k_20201231.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-21-016117:freq-10k_20201231.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-21-016117",
+          "biz_locations": [
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-03-29",
+          "file_description": "10-K",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "21781751"
+          ],
+          "form": "10-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1616976000000,
+          "0001564590-21-016117:freq-10k_20201231.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-21-016112",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000156459021016112/freq-8k_20210329.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "freq-8k_20210329.htm",
+      "filed_date": "2021-03-29",
+      "form": "8-K",
+      "id": "0001564590-21-016112:freq-8k_20210329.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-21-016112:freq-8k_20210329.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-21-016112",
+          "biz_locations": [
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-03-29",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21781690"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2021-03-29",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1616976000000,
+          "0001564590-21-016112:freq-8k_20210329.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-012232",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1216955/000112760221012232/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221012232/form4.xml"
+      ],
+      "ciks": [
+        "0001216955",
+        "0001703647"
+      ],
+      "display_names": [
+        "MARCUS JOEL S  (CIK 0001216955)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-03-29",
+      "form": "4",
+      "id": "0001127602-21-012232:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-012232:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-012232",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001216955",
+            "0001703647"
+          ],
+          "display_names": [
+            "MARCUS JOEL S  (CIK 0001216955)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-03-29",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21782154"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-03-25",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1616976000000,
+          "0001127602-21-012232:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-090326",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000119312521090326/d127745d8k.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "d127745d8k.htm",
+      "filed_date": "2021-03-23",
+      "form": "8-K",
+      "id": "0001193125-21-090326:d127745d8k.htm",
+      "items": [
+        "2.02",
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-090326:d127745d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-090326",
+          "biz_locations": [
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-03-23",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21763134"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "7.01",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-03-23",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1616457600000,
+          "0001193125-21-090326:d127745d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001623632-21-000382",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000162363221000382/form17915.htm",
+        "https://www.sec.gov/Archives/edgar/data/1056288/000162363221000382/form17915.htm"
+      ],
+      "ciks": [
+        "0001703647",
+        "0001056288"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)",
+        "FEDERATED HERMES, INC.  (FHI)  (CIK 0001056288)"
+      ],
+      "document_name": "form17915.htm",
+      "filed_date": "2021-03-10",
+      "form": "SC 13G/A",
+      "id": "0001623632-21-000382:form17915.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001623632-21-000382:form17915.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001623632-21-000382",
+          "biz_locations": [
+            "Woburn, MA",
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "MA",
+            "PA"
+          ],
+          "ciks": [
+            "0001703647",
+            "0001056288"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)",
+            "FEDERATED HERMES, INC.  (FHI)  (CIK 0001056288)"
+          ],
+          "file_date": "2021-03-10",
+          "file_description": null,
+          "file_num": [
+            "005-91158"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21728799"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "PA"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6282"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1615334400000,
+          "0001623632-21-000382:form17915.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-008932",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221008932/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221008932/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-03-02",
+      "form": "4",
+      "id": "0001127602-21-008932:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-008932:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-008932",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-03-02",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21706384"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-03-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1614643200000,
+          "0001127602-21-008932:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-050730",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000119312521050730/d135631d8k.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "d135631d8k.htm",
+      "filed_date": "2021-02-22",
+      "form": "8-K",
+      "id": "0001193125-21-050730:d135631d8k.htm",
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-050730:d135631d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-050730",
+          "biz_locations": [
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-02-22",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21660168"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2021-02-22",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613952000000,
+          "0001193125-21-050730:d135631d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001493152-21-003866",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000149315221003866/form-sc13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/1493215/000149315221003866/form-sc13g.htm"
+      ],
+      "ciks": [
+        "0001703647",
+        "0001493215"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)",
+        "RTW INVESTMENTS, LP  (CIK 0001493215)"
+      ],
+      "document_name": "form-sc13g.htm",
+      "filed_date": "2021-02-16",
+      "form": "SC 13G",
+      "id": "0001493152-21-003866:form-sc13g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001493152-21-003866:form-sc13g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001493152-21-003866",
+          "biz_locations": [
+            "Woburn, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001703647",
+            "0001493215"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)",
+            "RTW INVESTMENTS, LP  (CIK 0001493215)"
+          ],
+          "file_date": "2021-02-16",
+          "file_description": null,
+          "file_num": [
+            "005-91158"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "21634003"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613433600000,
+          "0001493152-21-003866:form-sc13g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-044706",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000119312521044706/d134060dsc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1224962/000119312521044706/d134060dsc13ga.htm"
+      ],
+      "ciks": [
+        "0001703647",
+        "0001224962"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)",
+        "PERCEPTIVE ADVISORS LLC  (CIK 0001224962)"
+      ],
+      "document_name": "d134060dsc13ga.htm",
+      "filed_date": "2021-02-16",
+      "form": "SC 13G/A",
+      "id": "0001193125-21-044706:d134060dsc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-044706:d134060dsc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-044706",
+          "biz_locations": [
+            "Woburn, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001703647",
+            "0001224962"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)",
+            "PERCEPTIVE ADVISORS LLC  (CIK 0001224962)"
+          ],
+          "file_date": "2021-02-16",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-91158"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21637187"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613433600000,
+          "0001193125-21-044706:d134060dsc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001623632-21-000249",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000162363221000249/frequency.htm",
+        "https://www.sec.gov/Archives/edgar/data/1056288/000162363221000249/frequency.htm"
+      ],
+      "ciks": [
+        "0001703647",
+        "0001056288"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)",
+        "FEDERATED HERMES, INC.  (FHI)  (CIK 0001056288)"
+      ],
+      "document_name": "frequency.htm",
+      "filed_date": "2021-02-12",
+      "form": "SC 13G",
+      "id": "0001623632-21-000249:frequency.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001623632-21-000249:frequency.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001623632-21-000249",
+          "biz_locations": [
+            "Woburn, MA",
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "MA",
+            "PA"
+          ],
+          "ciks": [
+            "0001703647",
+            "0001056288"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)",
+            "FEDERATED HERMES, INC.  (FHI)  (CIK 0001056288)"
+          ],
+          "file_date": "2021-02-12",
+          "file_description": null,
+          "file_num": [
+            "005-91158"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "21626225"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "PA"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6282"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613088000000,
+          "0001623632-21-000249:frequency.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000814133-21-000065",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000081413321000065/freq221.txt",
+        "https://www.sec.gov/Archives/edgar/data/814133/000081413321000065/freq221.txt"
+      ],
+      "ciks": [
+        "0001703647",
+        "0000814133"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)",
+        "WASATCH ADVISORS INC  (CIK 0000814133)"
+      ],
+      "document_name": "freq221.txt",
+      "filed_date": "2021-02-11",
+      "form": "SC 13G/A",
+      "id": "0000814133-21-000065:freq221.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000814133-21-000065:freq221.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000814133-21-000065",
+          "biz_locations": [
+            "Woburn, MA",
+            "Salt Lake City, UT"
+          ],
+          "biz_states": [
+            "MA",
+            "UT"
+          ],
+          "ciks": [
+            "0001703647",
+            "0000814133"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)",
+            "WASATCH ADVISORS INC  (CIK 0000814133)"
+          ],
+          "file_date": "2021-02-11",
+          "file_description": null,
+          "file_num": [
+            "005-91158"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21618903"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "UT"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613001600000,
+          "0000814133-21-000065:freq221.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-004975",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221004975/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221004975/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-02-10",
+      "form": "4",
+      "id": "0001127602-21-004975:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-004975:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-004975",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-02-10",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21614795"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-02-08",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1612915200000,
+          "0001127602-21-004975:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-004085",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221004085/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221004085/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-02-05",
+      "form": "4",
+      "id": "0001127602-21-004085:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-004085:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-004085",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-02-05",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21593481"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-02-03",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1612483200000,
+          "0001127602-21-004085:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-004039",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221004039/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221004039/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-02-04",
+      "form": "4",
+      "id": "0001127602-21-004039:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-004039:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-004039",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-02-04",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21592468"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-02-02",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1612396800000,
+          "0001127602-21-004039:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-003799",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221003799/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221003799/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-02-03",
+      "form": "4",
+      "id": "0001127602-21-003799:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-003799:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-003799",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-02-03",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21587717"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-02-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1612310400000,
+          "0001127602-21-003799:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-003789",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785299/000112760221003789/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221003789/form4.xml"
+      ],
+      "ciks": [
+        "0001785299",
+        "0001703647"
+      ],
+      "display_names": [
+        "Loose Christopher R.  (CIK 0001785299)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-02-03",
+      "form": "4",
+      "id": "0001127602-21-003789:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-003789:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-003789",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785299",
+            "0001703647"
+          ],
+          "display_names": [
+            "Loose Christopher R.  (CIK 0001785299)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-02-03",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21587665"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-02-02",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1612310400000,
+          "0001127602-21-003789:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-003776",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1120355/000112760221003776/form5.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221003776/form5.xml"
+      ],
+      "ciks": [
+        "0001120355",
+        "0001703647"
+      ],
+      "display_names": [
+        "BARBERICH TIMOTHY J  (CIK 0001120355)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form5.xml",
+      "filed_date": "2021-02-03",
+      "form": "5",
+      "id": "0001127602-21-003776:form5.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-003776:form5.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-003776",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001120355",
+            "0001703647"
+          ],
+          "display_names": [
+            "BARBERICH TIMOTHY J  (CIK 0001120355)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-02-03",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "5",
+          "film_num": [
+            "21587526"
+          ],
+          "form": "5",
+          "inc_states": [
+            "DE",
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-31",
+          "root_forms": [
+            "5"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1612310400000,
+          "0001127602-21-003776:form5.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000834237-21-007073",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000083423721007073/us35803l1089_020221.txt",
+        "https://www.sec.gov/Archives/edgar/data/1364742/000083423721007073/us35803l1089_020221.txt"
+      ],
+      "ciks": [
+        "0001703647",
+        "0001364742"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)",
+        "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+      ],
+      "document_name": "us35803l1089_020221.txt",
+      "filed_date": "2021-02-02",
+      "form": "SC 13G",
+      "id": "0000834237-21-007073:us35803l1089_020221.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000834237-21-007073:us35803l1089_020221.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000834237-21-007073",
+          "biz_locations": [
+            "Woburn, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001703647",
+            "0001364742"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)",
+            "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+          ],
+          "file_date": "2021-02-02",
+          "file_description": null,
+          "file_num": [
+            "005-91158"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "21580811"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6211"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1612224000000,
+          "0000834237-21-007073:us35803l1089_020221.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-003255",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1842009/000112760221003255/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221003255/form4.xml"
+      ],
+      "ciks": [
+        "0001842009",
+        "0001703647"
+      ],
+      "display_names": [
+        "McCubbin Quentin  (CIK 0001842009)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-02-01",
+      "form": "4",
+      "id": "0001127602-21-003255:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-003255:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-003255",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001842009",
+            "0001703647"
+          ],
+          "display_names": [
+            "McCubbin Quentin  (CIK 0001842009)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-02-01",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21577474"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-29",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1612137600000,
+          "0001127602-21-003255:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-002862",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221002862/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221002862/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-01-28",
+      "form": "4",
+      "id": "0001127602-21-002862:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-002862:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-002862",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-01-28",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21566545"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611792000000,
+          "0001127602-21-002862:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-002856",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785299/000112760221002856/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221002856/form4.xml"
+      ],
+      "ciks": [
+        "0001785299",
+        "0001703647"
+      ],
+      "display_names": [
+        "Loose Christopher R.  (CIK 0001785299)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-01-28",
+      "form": "4",
+      "id": "0001127602-21-002856:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-002856:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-002856",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785299",
+            "0001703647"
+          ],
+          "display_names": [
+            "Loose Christopher R.  (CIK 0001785299)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-01-28",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21566508"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611792000000,
+          "0001127602-21-002856:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-002847",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785299/000112760221002847/form5.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221002847/form5.xml"
+      ],
+      "ciks": [
+        "0001785299",
+        "0001703647"
+      ],
+      "display_names": [
+        "Loose Christopher R.  (CIK 0001785299)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form5.xml",
+      "filed_date": "2021-01-28",
+      "form": "5",
+      "id": "0001127602-21-002847:form5.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-002847:form5.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-002847",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785299",
+            "0001703647"
+          ],
+          "display_names": [
+            "Loose Christopher R.  (CIK 0001785299)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-01-28",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "5",
+          "film_num": [
+            "21566453"
+          ],
+          "form": "5",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-31",
+          "root_forms": [
+            "5"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611792000000,
+          "0001127602-21-002847:form5.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-002651",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1840339/000112760221002651/form3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221002651/form3.xml"
+      ],
+      "ciks": [
+        "0001840339",
+        "0001703647"
+      ],
+      "display_names": [
+        "Bookman Michael  (CIK 0001840339)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form3.xml",
+      "filed_date": "2021-01-26",
+      "form": "3",
+      "id": "0001127602-21-002651:form3.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-002651:form3.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-002651",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001840339",
+            "0001703647"
+          ],
+          "display_names": [
+            "Bookman Michael  (CIK 0001840339)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-01-26",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "21555631"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-19",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1611619200000,
+          "0001127602-21-002651:form3.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-002634",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1842009/000112760221002634/form3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221002634/form3.xml"
+      ],
+      "ciks": [
+        "0001842009",
+        "0001703647"
+      ],
+      "display_names": [
+        "McCubbin Quentin  (CIK 0001842009)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form3.xml",
+      "filed_date": "2021-01-26",
+      "form": "3",
+      "id": "0001127602-21-002634:form3.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-002634:form3.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-002634",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001842009",
+            "0001703647"
+          ],
+          "display_names": [
+            "McCubbin Quentin  (CIK 0001842009)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-01-26",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "21554832"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-19",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1611619200000,
+          "0001127602-21-002634:form3.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-002022",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785299/000112760221002022/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221002022/form4.xml"
+      ],
+      "ciks": [
+        "0001785299",
+        "0001703647"
+      ],
+      "display_names": [
+        "Loose Christopher R.  (CIK 0001785299)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-01-19",
+      "form": "4",
+      "id": "0001127602-21-002022:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-002022:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-002022",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785299",
+            "0001703647"
+          ],
+          "display_names": [
+            "Loose Christopher R.  (CIK 0001785299)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-01-19",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21536701"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-15",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611014400000,
+          "0001127602-21-002022:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-002012",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221002012/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221002012/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-01-19",
+      "form": "4",
+      "id": "0001127602-21-002012:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-002012:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-002012",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-01-19",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21536674"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-15",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611014400000,
+          "0001127602-21-002012:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-001996",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1802649/000112760221001996/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221001996/form4.xml"
+      ],
+      "ciks": [
+        "0001802649",
+        "0001703647"
+      ],
+      "display_names": [
+        "Arnold Wendy S  (CIK 0001802649)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-01-19",
+      "form": "4",
+      "id": "0001127602-21-001996:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-001996:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-001996",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001802649",
+            "0001703647"
+          ],
+          "display_names": [
+            "Arnold Wendy S  (CIK 0001802649)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-01-19",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21536266"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-15",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611014400000,
+          "0001127602-21-001996:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-001992",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1439275/000112760221001992/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221001992/form4.xml"
+      ],
+      "ciks": [
+        "0001439275",
+        "0001703647"
+      ],
+      "display_names": [
+        "LeBel Carl  (CIK 0001439275)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-01-19",
+      "form": "4",
+      "id": "0001127602-21-001992:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-001992:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-001992",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001439275",
+            "0001703647"
+          ],
+          "display_names": [
+            "LeBel Carl  (CIK 0001439275)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-01-19",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21536234"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-15",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611014400000,
+          "0001127602-21-001992:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-001988",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1360756/000112760221001988/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221001988/form4.xml"
+      ],
+      "ciks": [
+        "0001360756",
+        "0001703647"
+      ],
+      "display_names": [
+        "Hilt Dana Charles  (CIK 0001360756)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-01-19",
+      "form": "4",
+      "id": "0001127602-21-001988:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-001988:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-001988",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001360756",
+            "0001703647"
+          ],
+          "display_names": [
+            "Hilt Dana Charles  (CIK 0001360756)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-01-19",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21536156"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-15",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611014400000,
+          "0001127602-21-001988:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-001981",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1585839/000112760221001981/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221001981/form4.xml"
+      ],
+      "ciks": [
+        "0001585839",
+        "0001703647"
+      ],
+      "display_names": [
+        "PFREUNDSCHUH PETER P.  (CIK 0001585839)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-01-19",
+      "form": "4",
+      "id": "0001127602-21-001981:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-001981:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-001981",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001585839",
+            "0001703647"
+          ],
+          "display_names": [
+            "PFREUNDSCHUH PETER P.  (CIK 0001585839)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-01-19",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21536077"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-15",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611014400000,
+          "0001127602-21-001981:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-005754",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703647/000119312521005754/d858850d8k.htm"
+      ],
+      "ciks": [
+        "0001703647"
+      ],
+      "display_names": [
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "d858850d8k.htm",
+      "filed_date": "2021-01-11",
+      "form": "8-K",
+      "id": "0001193125-21-005754:d858850d8k.htm",
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-005754:d858850d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-005754",
+          "biz_locations": [
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703647"
+          ],
+          "display_names": [
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-01-11",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21519076"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2021-01-11",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1610323200000,
+          "0001193125-21-005754:d858850d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-001230",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221001230/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221001230/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-01-08",
+      "form": "4",
+      "id": "0001127602-21-001230:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-001230:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-001230",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-01-08",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21515642"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-06",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1610064000000,
+          "0001127602-21-001230:form4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001127602-21-001043",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1785288/000112760221001043/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1703647/000112760221001043/form4.xml"
+      ],
+      "ciks": [
+        "0001785288",
+        "0001703647"
+      ],
+      "display_names": [
+        "Lucchino David L.  (CIK 0001785288)",
+        "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+      ],
+      "document_name": "form4.xml",
+      "filed_date": "2021-01-06",
+      "form": "4",
+      "id": "0001127602-21-001043:form4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001127602-21-001043:form4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001127602-21-001043",
+          "biz_locations": [
+            "",
+            "Woburn, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001785288",
+            "0001703647"
+          ],
+          "display_names": [
+            "Lucchino David L.  (CIK 0001785288)",
+            "Frequency Therapeutics, Inc.  (KRRO)  (CIK 0001703647)"
+          ],
+          "file_date": "2021-01-06",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39062"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21511344"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-04",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1609891200000,
+          "0001127602-21-001043:form4.xml"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2021-01-01",
+  "ticker": "FREQ",
+  "total": 71
+}

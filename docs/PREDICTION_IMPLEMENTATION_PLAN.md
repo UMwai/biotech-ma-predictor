@@ -1,5 +1,10 @@
 # Biotech M&A Prediction Implementation Plan
 
+> Local implementation update (2026-09-07): the supported path now uses a local
+> artifact-backed research desk with snapshot, output-contract, label-review, and
+> evaluation-input controls. See [current status](LOCAL_IMPLEMENTATION_STATUS.md).
+> The historical training and forward-performance gates below remain open.
+
 **Draft date:** 2026-07-22
 **Scope:** Publicly traded U.S. drug and biotech companies
 **Primary output:** A weekly, point-in-time ranking of companies by probability of an acquisition announcement within 12 months

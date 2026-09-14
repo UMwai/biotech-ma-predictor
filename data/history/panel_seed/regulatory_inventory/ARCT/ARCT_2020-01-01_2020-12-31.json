@@ -1,0 +1,5591 @@
+{
+  "cik": 1768224,
+  "end_date": "2020-12-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:53:57.594010+00:00",
+      "returned": 81,
+      "source_bytes": 54790,
+      "source_relative_path": "raw_sources/200dc3682a2ce7e4225a39208a14134a9909d2e38944e0dafc92204ea2f47a1d.json",
+      "source_sha256": "200dc3682a2ce7e4225a39208a14134a9909d2e38944e0dafc92204ea2f47a1d",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001768224&dateRange=custom&startdt=2020-01-01&enddt=2020-12-31&from=0&size=100",
+      "total": 81
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001193805-20-001611",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1762749/000119380520001611/e620165_4-kummerfeld.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001611/e620165_4-kummerfeld.xml"
+      ],
+      "ciks": [
+        "0001762749",
+        "0001768224"
+      ],
+      "display_names": [
+        "Kummerfeld Keith C  (CIK 0001762749)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e620165_4-kummerfeld.xml",
+      "filed_date": "2020-12-22",
+      "form": "4",
+      "id": "0001193805-20-001611:e620165_4-kummerfeld.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-001611:e620165_4-kummerfeld.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001611",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001762749",
+            "0001768224"
+          ],
+          "display_names": [
+            "Kummerfeld Keith C  (CIK 0001762749)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-12-22",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201409456"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-18",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1608595200000,
+          "0001193805-20-001611:e620165_4-kummerfeld.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001610",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1727317/000119380520001610/e620164_4-chivukula.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001610/e620164_4-chivukula.xml"
+      ],
+      "ciks": [
+        "0001727317",
+        "0001768224"
+      ],
+      "display_names": [
+        "Chivukula Pad  (CIK 0001727317)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e620164_4-chivukula.xml",
+      "filed_date": "2020-12-22",
+      "form": "4",
+      "id": "0001193805-20-001610:e620164_4-chivukula.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-001610:e620164_4-chivukula.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001610",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001727317",
+            "0001768224"
+          ],
+          "display_names": [
+            "Chivukula Pad  (CIK 0001727317)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-12-22",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201409455"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-18",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1608595200000,
+          "0001193805-20-001610:e620164_4-chivukula.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001609",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1727315/000119380520001609/e620163_4-payne.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001609/e620163_4-payne.xml"
+      ],
+      "ciks": [
+        "0001727315",
+        "0001768224"
+      ],
+      "display_names": [
+        "Payne Joseph E  (CIK 0001727315)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e620163_4-payne.xml",
+      "filed_date": "2020-12-22",
+      "form": "4",
+      "id": "0001193805-20-001609:e620163_4-payne.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-001609:e620163_4-payne.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001609",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001727315",
+            "0001768224"
+          ],
+          "display_names": [
+            "Payne Joseph E  (CIK 0001727315)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-12-22",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201409453"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-18",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1608595200000,
+          "0001193805-20-001609:e620163_4-payne.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001608",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1515322/000119380520001608/e620162_4-sassine.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001608/e620162_4-sassine.xml"
+      ],
+      "ciks": [
+        "0001515322",
+        "0001768224"
+      ],
+      "display_names": [
+        "SASSINE ANDY  (CIK 0001515322)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e620162_4-sassine.xml",
+      "filed_date": "2020-12-22",
+      "form": "4",
+      "id": "0001193805-20-001608:e620162_4-sassine.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-001608:e620162_4-sassine.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001608",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001515322",
+            "0001768224"
+          ],
+          "display_names": [
+            "SASSINE ANDY  (CIK 0001515322)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-12-22",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201409452"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-18",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1608595200000,
+          "0001193805-20-001608:e620162_4-sassine.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001607",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1747528/000119380520001607/e620161_4-hughes.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001607/e620161_4-hughes.xml"
+      ],
+      "ciks": [
+        "0001747528",
+        "0001768224"
+      ],
+      "display_names": [
+        "Hughes Steven George  (CIK 0001747528)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e620161_4-hughes.xml",
+      "filed_date": "2020-12-22",
+      "form": "4",
+      "id": "0001193805-20-001607:e620161_4-hughes.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-001607:e620161_4-hughes.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001607",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001747528",
+            "0001768224"
+          ],
+          "display_names": [
+            "Hughes Steven George  (CIK 0001747528)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-12-22",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201409451"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-18",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1608595200000,
+          "0001193805-20-001607:e620161_4-hughes.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001606",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1820961/000119380520001606/e620160_4-kurata.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001606/e620160_4-kurata.xml"
+      ],
+      "ciks": [
+        "0001820961",
+        "0001768224"
+      ],
+      "display_names": [
+        "Kurata Lance  (CIK 0001820961)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e620160_4-kurata.xml",
+      "filed_date": "2020-12-22",
+      "form": "4",
+      "id": "0001193805-20-001606:e620160_4-kurata.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-001606:e620160_4-kurata.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001606",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001820961",
+            "0001768224"
+          ],
+          "display_names": [
+            "Kurata Lance  (CIK 0001820961)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-12-22",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201409449"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-18",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1608595200000,
+          "0001193805-20-001606:e620160_4-kurata.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-062733",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1515673/000120919120062733/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000120919120062733/doc4.xml"
+      ],
+      "ciks": [
+        "0001515673",
+        "0001768224"
+      ],
+      "display_names": [
+        "Ultragenyx Pharmaceutical Inc.  (RARE)  (CIK 0001515673)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-10",
+      "form": "4",
+      "id": "0001209191-20-062733:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-062733:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-062733",
+          "biz_locations": [
+            "Novato, CA",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001515673",
+            "0001768224"
+          ],
+          "display_names": [
+            "Ultragenyx Pharmaceutical Inc.  (RARE)  (CIK 0001515673)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-12-10",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201381229"
+          ],
+          "form": "4",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-08",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1607558400000,
+          "0001209191-20-062733:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-314963",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119312520314963/d33623dsc13da.htm",
+        "https://www.sec.gov/Archives/edgar/data/1515673/000119312520314963/d33623dsc13da.htm"
+      ],
+      "ciks": [
+        "0001768224",
+        "0001515673"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)",
+        "Ultragenyx Pharmaceutical Inc.  (RARE)  (CIK 0001515673)"
+      ],
+      "document_name": "d33623dsc13da.htm",
+      "filed_date": "2020-12-10",
+      "form": "SC 13D/A",
+      "id": "0001193125-20-314963:d33623dsc13da.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-20-314963:d33623dsc13da.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-314963",
+          "biz_locations": [
+            "San Diego, CA",
+            "Novato, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224",
+            "0001515673"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)",
+            "Ultragenyx Pharmaceutical Inc.  (RARE)  (CIK 0001515673)"
+          ],
+          "file_date": "2020-12-10",
+          "file_description": "SC 13D/A",
+          "file_num": [
+            "005-91046"
+          ],
+          "file_type": "SC 13D/A",
+          "film_num": [
+            "201381196"
+          ],
+          "form": "SC 13D/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1607558400000,
+          "0001193125-20-314963:d33623dsc13da.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001522",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001522/e620129_424b5-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e620129_424b5-at.htm",
+      "filed_date": "2020-12-08",
+      "form": "424B5",
+      "id": "0001193805-20-001522:e620129_424b5-at.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-001522:e620129_424b5-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001522",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-12-08",
+          "file_description": null,
+          "file_num": [
+            "333-251175"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "201376195"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1607385600000,
+          "0001193805-20-001522:e620129_424b5-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001508",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001508/e620125_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e620125_8k-at.htm",
+      "filed_date": "2020-12-08",
+      "form": "8-K",
+      "id": "0001193805-20-001508:e620125_8k-at.htm",
+      "items": [
+        "1.01",
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-001508:e620125_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001508",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-12-08",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201374488"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "1.01",
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2020-12-07",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1607385600000,
+          "0001193805-20-001508:e620125_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001505",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001505/e620118_424b5-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e620118_424b5-at.htm",
+      "filed_date": "2020-12-07",
+      "form": "424B5",
+      "id": "0001193805-20-001505:e620118_424b5-at.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-001505:e620118_424b5-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001505",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-12-07",
+          "file_description": null,
+          "file_num": [
+            "333-251175"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "201373529"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1607299200000,
+          "0001193805-20-001505:e620118_424b5-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001500",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001500/e620120_s3asr-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e620120_s3asr-at.htm",
+      "filed_date": "2020-12-07",
+      "form": "S-3ASR",
+      "id": "0001193805-20-001500:e620120_s3asr-at.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-001500:e620120_s3asr-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001500",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-12-07",
+          "file_description": null,
+          "file_num": [
+            "333-251175"
+          ],
+          "file_type": "S-3ASR",
+          "film_num": [
+            "201372896"
+          ],
+          "form": "S-3ASR",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-3ASR"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1607299200000,
+          "0001193805-20-001500:e620120_s3asr-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001498",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001498/e620119_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e620119_8k-at.htm",
+      "filed_date": "2020-12-07",
+      "form": "8-K",
+      "id": "0001193805-20-001498:e620119_8k-at.htm",
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-001498:e620119_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001498",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-12-07",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201371242"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "1.01",
+            "9.01"
+          ],
+          "period_ending": "2020-12-01",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1607299200000,
+          "0001193805-20-001498:e620119_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001491",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1727317/000119380520001491/e620114_4-chivukula.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001491/e620114_4-chivukula.xml"
+      ],
+      "ciks": [
+        "0001727317",
+        "0001768224"
+      ],
+      "display_names": [
+        "Chivukula Pad  (CIK 0001727317)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e620114_4-chivukula.xml",
+      "filed_date": "2020-12-03",
+      "form": "4",
+      "id": "0001193805-20-001491:e620114_4-chivukula.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-001491:e620114_4-chivukula.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001491",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001727317",
+            "0001768224"
+          ],
+          "display_names": [
+            "Chivukula Pad  (CIK 0001727317)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-12-03",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201367904"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1606953600000,
+          "0001193805-20-001491:e620114_4-chivukula.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001470",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001470/e620104_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e620104_8k-at.htm",
+      "filed_date": "2020-11-25",
+      "form": "8-K",
+      "id": "0001193805-20-001470:e620104_8k-at.htm",
+      "items": [
+        "5.03",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-001470:e620104_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001470",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-11-25",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201351353"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.03",
+            "9.01"
+          ],
+          "period_ending": "2020-11-25",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1606262400000,
+          "0001193805-20-001470:e620104_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001417",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001417/e620078_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e620078_8k-at.htm",
+      "filed_date": "2020-11-13",
+      "form": "8-K",
+      "id": "0001193805-20-001417:e620078_8k-at.htm",
+      "items": [
+        "5.07",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-001417:e620078_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001417",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-11-13",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201308606"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.07",
+            "9.01"
+          ],
+          "period_ending": "2020-11-10",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1605225600000,
+          "0001193805-20-001417:e620078_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-052527",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000156459020052527/arct-10q_20200930.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "arct-10q_20200930.htm",
+      "filed_date": "2020-11-09",
+      "form": "10-Q",
+      "id": "0001564590-20-052527:arct-10q_20200930.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-052527:arct-10q_20200930.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-052527",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-11-09",
+          "file_description": "Q3 2020 10-Q",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "201297990"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-09-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1604880000000,
+          "0001564590-20-052527:arct-10q_20200930.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001406",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001406/e620071_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e620071_8k-at.htm",
+      "filed_date": "2020-11-09",
+      "form": "8-K",
+      "id": "0001193805-20-001406:e620071_8k-at.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-001406:e620071_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001406",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-11-09",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201297703"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-11-09",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1604880000000,
+          "0001193805-20-001406:e620071_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-20-030320",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1727317/000089924320030320/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000089924320030320/doc4.xml"
+      ],
+      "ciks": [
+        "0001727317",
+        "0001768224"
+      ],
+      "display_names": [
+        "Chivukula Pad  (CIK 0001727317)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-11-03",
+      "form": "4",
+      "id": "0000899243-20-030320:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-20-030320:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-20-030320",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001727317",
+            "0001768224"
+          ],
+          "display_names": [
+            "Chivukula Pad  (CIK 0001727317)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-11-03",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201284910"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-11-02",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1604361600000,
+          "0000899243-20-030320:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001274",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001274/e6120001_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e6120001_8k-at.htm",
+      "filed_date": "2020-10-15",
+      "form": "8-K",
+      "id": "0001193805-20-001274:e6120001_8k-at.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-001274:e6120001_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001274",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-10-15",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201240282"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2020-10-14",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1602720000000,
+          "0001193805-20-001274:e6120001_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001272",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001272/e619993_def14a-arct.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619993_def14a-arct.htm",
+      "filed_date": "2020-10-13",
+      "form": "DEF 14A",
+      "id": "0001193805-20-001272:e619993_def14a-arct.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-001272:e619993_def14a-arct.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001272",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-10-13",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "DEF 14A",
+          "film_num": [
+            "201236425"
+          ],
+          "form": "DEF 14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-11-10",
+          "root_forms": [
+            "DEF 14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1602547200000,
+          "0001193805-20-001272:e619993_def14a-arct.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-113789",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000110465920113789/tm2032806-2_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1697748/000110465920113789/tm2032806-2_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001768224",
+        "0001697748"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)",
+        "ARK Investment Management LLC  (CIK 0001697748)"
+      ],
+      "document_name": "tm2032806-2_sc13ga.htm",
+      "filed_date": "2020-10-09",
+      "form": "SC 13G/A",
+      "id": "0001104659-20-113789:tm2032806-2_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-113789:tm2032806-2_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-113789",
+          "biz_locations": [
+            "San Diego, CA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "CA",
+            "NY"
+          ],
+          "ciks": [
+            "0001768224",
+            "0001697748"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)",
+            "ARK Investment Management LLC  (CIK 0001697748)"
+          ],
+          "file_date": "2020-10-09",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-91046"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "201232771"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1602201600000,
+          "0001104659-20-113789:tm2032806-2_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001230",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001230/e619969_pre14a-arct.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619969_pre14a-arct.htm",
+      "filed_date": "2020-10-02",
+      "form": "PRE 14A",
+      "id": "0001193805-20-001230:e619969_pre14a-arct.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-001230:e619969_pre14a-arct.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001230",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-10-02",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "PRE 14A",
+          "film_num": [
+            "201220274"
+          ],
+          "form": "PRE 14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-02",
+          "root_forms": [
+            "PRE 14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1601596800000,
+          "0001193805-20-001230:e619969_pre14a-arct.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001229",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001229/e619976_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619976_8k-at.htm",
+      "filed_date": "2020-10-02",
+      "form": "8-K",
+      "id": "0001193805-20-001229:e619976_8k-at.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-001229:e619976_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001229",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-10-02",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201220175"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2020-09-30",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1601596800000,
+          "0001193805-20-001229:e619976_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-20-026884",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1727317/000089924320026884/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000089924320026884/doc4.xml"
+      ],
+      "ciks": [
+        "0001727317",
+        "0001768224"
+      ],
+      "display_names": [
+        "Chivukula Pad  (CIK 0001727317)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-02",
+      "form": "4",
+      "id": "0000899243-20-026884:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-20-026884:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-20-026884",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001727317",
+            "0001768224"
+          ],
+          "display_names": [
+            "Chivukula Pad  (CIK 0001727317)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-10-02",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201220967"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601596800000,
+          "0000899243-20-026884:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-104394",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000110465920104394/tm2030651-1_sc13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/1343781/000110465920104394/tm2030651-1_sc13g.htm"
+      ],
+      "ciks": [
+        "0001768224",
+        "0001343781"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)",
+        "HealthCor Management, L.P.  (CIK 0001343781)"
+      ],
+      "document_name": "tm2030651-1_sc13g.htm",
+      "filed_date": "2020-09-11",
+      "form": "SC 13G",
+      "id": "0001104659-20-104394:tm2030651-1_sc13g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-104394:tm2030651-1_sc13g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-104394",
+          "biz_locations": [
+            "San Diego, CA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "CA",
+            "NY"
+          ],
+          "ciks": [
+            "0001768224",
+            "0001343781"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)",
+            "HealthCor Management, L.P.  (CIK 0001343781)"
+          ],
+          "file_date": "2020-09-11",
+          "file_description": "SC 13G",
+          "file_num": [
+            "005-91046"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "201170918"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1599782400000,
+          "0001104659-20-104394:tm2030651-1_sc13g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-20-024363",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1727317/000089924320024363/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000089924320024363/doc4.xml"
+      ],
+      "ciks": [
+        "0001727317",
+        "0001768224"
+      ],
+      "display_names": [
+        "Chivukula Pad  (CIK 0001727317)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-09-04",
+      "form": "4",
+      "id": "0000899243-20-024363:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-20-024363:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-20-024363",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001727317",
+            "0001768224"
+          ],
+          "display_names": [
+            "Chivukula Pad  (CIK 0001727317)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-09-04",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201162428"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-09-03",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1599177600000,
+          "0000899243-20-024363:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001052",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001052/e619881_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619881_8k-at.htm",
+      "filed_date": "2020-08-18",
+      "form": "8-K",
+      "id": "0001193805-20-001052:e619881_8k-at.htm",
+      "items": [
+        "1.01",
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-001052:e619881_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001052",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-08-18",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201113582"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "1.01",
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2020-08-17",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1597708800000,
+          "0001193805-20-001052:e619881_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001022",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1820961/000119380520001022/e619870_4-kurata.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001022/e619870_4-kurata.xml"
+      ],
+      "ciks": [
+        "0001820961",
+        "0001768224"
+      ],
+      "display_names": [
+        "Kurata Lance  (CIK 0001820961)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619870_4-kurata.xml",
+      "filed_date": "2020-08-12",
+      "form": "4",
+      "id": "0001193805-20-001022:e619870_4-kurata.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-001022:e619870_4-kurata.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001022",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001820961",
+            "0001768224"
+          ],
+          "display_names": [
+            "Kurata Lance  (CIK 0001820961)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-08-12",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201096803"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-08-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1597190400000,
+          "0001193805-20-001022:e619870_4-kurata.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-001021",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1820961/000119380520001021/e619869_3-kurata.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520001021/e619869_3-kurata.xml"
+      ],
+      "ciks": [
+        "0001820961",
+        "0001768224"
+      ],
+      "display_names": [
+        "Kurata Lance  (CIK 0001820961)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619869_3-kurata.xml",
+      "filed_date": "2020-08-12",
+      "form": "3",
+      "id": "0001193805-20-001021:e619869_3-kurata.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-001021:e619869_3-kurata.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-001021",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001820961",
+            "0001768224"
+          ],
+          "display_names": [
+            "Kurata Lance  (CIK 0001820961)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-08-12",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "201096801"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-08-10",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1597190400000,
+          "0001193805-20-001021:e619869_3-kurata.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-038980",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000156459020038980/arct-10q_20200630.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "arct-10q_20200630.htm",
+      "filed_date": "2020-08-10",
+      "form": "10-Q",
+      "id": "0001564590-20-038980:arct-10q_20200630.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-038980:arct-10q_20200630.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-038980",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-08-10",
+          "file_description": "10-Q 20200630",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "201090130"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1597017600000,
+          "0001564590-20-038980:arct-10q_20200630.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000987",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000987/e619846_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619846_8k-at.htm",
+      "filed_date": "2020-08-10",
+      "form": "8-K",
+      "id": "0001193805-20-000987:e619846_8k-at.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-000987:e619846_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000987",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-08-10",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201089672"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-08-10",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1597017600000,
+          "0001193805-20-000987:e619846_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000940",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000940/e619825_s8-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619825_s8-at.htm",
+      "filed_date": "2020-08-05",
+      "form": "S-8",
+      "id": "0001193805-20-000940:e619825_s8-at.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000940:e619825_s8-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000940",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-08-05",
+          "file_description": null,
+          "file_num": [
+            "333-240397"
+          ],
+          "file_type": "S-8",
+          "film_num": [
+            "201074618"
+          ],
+          "form": "S-8",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1596585600000,
+          "0001193805-20-000940:e619825_s8-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000939",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000939/e619826_s8-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619826_s8-at.htm",
+      "filed_date": "2020-08-05",
+      "form": "S-8",
+      "id": "0001193805-20-000939:e619826_s8-at.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000939:e619826_s8-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000939",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-08-05",
+          "file_description": null,
+          "file_num": [
+            "333-240392"
+          ],
+          "file_type": "S-8",
+          "film_num": [
+            "201074567"
+          ],
+          "form": "S-8",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1596585600000,
+          "0001193805-20-000939:e619826_s8-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000907",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000907/e619812_424b5-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619812_424b5-at.htm",
+      "filed_date": "2020-07-30",
+      "form": "424B5",
+      "id": "0001193805-20-000907:e619812_424b5-at.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000907:e619812_424b5-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000907",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-07-30",
+          "file_description": null,
+          "file_num": [
+            "333-238139"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "201059008"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1596067200000,
+          "0001193805-20-000907:e619812_424b5-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000902",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000902/e619811_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619811_8k-at.htm",
+      "filed_date": "2020-07-29",
+      "form": "8-K",
+      "id": "0001193805-20-000902:e619811_8k-at.htm",
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-000902:e619811_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000902",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-07-29",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201055606"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "1.01",
+            "9.01"
+          ],
+          "period_ending": "2020-07-28",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1595980800000,
+          "0001193805-20-000902:e619811_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000900",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000900/e619809_424b5-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619809_424b5-at.htm",
+      "filed_date": "2020-07-28",
+      "form": "424B5",
+      "id": "0001193805-20-000900:e619809_424b5-at.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000900:e619809_424b5-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000900",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-07-28",
+          "file_description": null,
+          "file_num": [
+            "333-238139"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "201054052"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1595894400000,
+          "0001193805-20-000900:e619809_424b5-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000886",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000886/e619804_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619804_8k-at.htm",
+      "filed_date": "2020-07-24",
+      "form": "8-K",
+      "id": "0001193805-20-000886:e619804_8k-at.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-000886:e619804_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000886",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-07-24",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201044975"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2020-07-23",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1595548800000,
+          "0001193805-20-000886:e619804_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "9999999995-20-001665",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/999999999520001665/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2020-06-26",
+      "form": "EFFECT",
+      "id": "9999999995-20-001665:primary_doc.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999995-20-001665:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999995-20-001665",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-06-26",
+          "file_description": null,
+          "file_num": [
+            "333-235475"
+          ],
+          "file_type": "EFFECT",
+          "film_num": [
+            "201017185"
+          ],
+          "form": "EFFECT",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "EFFECT"
+          ],
+          "schema_version": "X0101",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslEFFECTX01"
+        },
+        "sort": [
+          1593129600000,
+          "9999999995-20-001665:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000746",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1677455/000119380520000746/e619725_4-parschauer.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000746/e619725_4-parschauer.xml"
+      ],
+      "ciks": [
+        "0001677455",
+        "0001768224"
+      ],
+      "display_names": [
+        "Parschauer Karah Herdman  (CIK 0001677455)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619725_4-parschauer.xml",
+      "filed_date": "2020-06-24",
+      "form": "4",
+      "id": "0001193805-20-000746:e619725_4-parschauer.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000746:e619725_4-parschauer.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000746",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001677455",
+            "0001768224"
+          ],
+          "display_names": [
+            "Parschauer Karah Herdman  (CIK 0001677455)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-06-24",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20986781"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-22",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1592956800000,
+          "0001193805-20-000746:e619725_4-parschauer.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000745",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1631486/000119380520000745/e619724_4-marquet.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000745/e619724_4-marquet.xml"
+      ],
+      "ciks": [
+        "0001631486",
+        "0001768224"
+      ],
+      "display_names": [
+        "Marquet Magda  (CIK 0001631486)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619724_4-marquet.xml",
+      "filed_date": "2020-06-24",
+      "form": "4",
+      "id": "0001193805-20-000745:e619724_4-marquet.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000745:e619724_4-marquet.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000745",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001631486",
+            "0001768224"
+          ],
+          "display_names": [
+            "Marquet Magda  (CIK 0001631486)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-06-24",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20986779"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-22",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1592956800000,
+          "0001193805-20-000745:e619724_4-marquet.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000744",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1197099/000119380520000744/e619723_4-holmes.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000744/e619723_4-holmes.xml"
+      ],
+      "ciks": [
+        "0001197099",
+        "0001768224"
+      ],
+      "display_names": [
+        "HOLMES EDWARD W  (CIK 0001197099)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619723_4-holmes.xml",
+      "filed_date": "2020-06-24",
+      "form": "4",
+      "id": "0001193805-20-000744:e619723_4-holmes.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000744:e619723_4-holmes.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000744",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001197099",
+            "0001768224"
+          ],
+          "display_names": [
+            "HOLMES EDWARD W  (CIK 0001197099)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-06-24",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20986778"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-22",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1592956800000,
+          "0001193805-20-000744:e619723_4-holmes.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000743",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1190637/000119380520000743/e619722_4-barlow.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000743/e619722_4-barlow.xml"
+      ],
+      "ciks": [
+        "0001190637",
+        "0001768224"
+      ],
+      "display_names": [
+        "BARLOW JAMES F  (CIK 0001190637)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619722_4-barlow.xml",
+      "filed_date": "2020-06-24",
+      "form": "4",
+      "id": "0001193805-20-000743:e619722_4-barlow.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000743:e619722_4-barlow.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000743",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001190637",
+            "0001768224"
+          ],
+          "display_names": [
+            "BARLOW JAMES F  (CIK 0001190637)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-06-24",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20986777"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-22",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1592956800000,
+          "0001193805-20-000743:e619722_4-barlow.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000742",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1186102/000119380520000742/e619721_4-farrell.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000742/e619721_4-farrell.xml"
+      ],
+      "ciks": [
+        "0001186102",
+        "0001768224"
+      ],
+      "display_names": [
+        "FARRELL PETER C  (CIK 0001186102)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619721_4-farrell.xml",
+      "filed_date": "2020-06-24",
+      "form": "4",
+      "id": "0001193805-20-000742:e619721_4-farrell.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000742:e619721_4-farrell.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000742",
+          "biz_locations": [
+            "Poway, CA",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001186102",
+            "0001768224"
+          ],
+          "display_names": [
+            "FARRELL PETER C  (CIK 0001186102)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-06-24",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20986776"
+          ],
+          "form": "4",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-22",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1592956800000,
+          "0001193805-20-000742:e619721_4-farrell.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000721",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000721/filename1.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "filename1.htm",
+      "filed_date": "2020-06-19",
+      "form": "CORRESP",
+      "id": "0001193805-20-000721:filename1.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000721:filename1.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000721",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-06-19",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "CORRESP",
+          "film_num": [],
+          "form": "CORRESP",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "CORRESP"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1592524800000,
+          "0001193805-20-000721:filename1.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000704",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000704/e619707_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619707_8k-at.htm",
+      "filed_date": "2020-06-18",
+      "form": "8-K",
+      "id": "0001193805-20-000704:e619707_8k-at.htm",
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-000704:e619707_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000704",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-06-18",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20971903"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2020-06-18",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1592438400000,
+          "0001193805-20-000704:e619707_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-20-016410",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1762749/000089924320016410/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000089924320016410/doc4.xml"
+      ],
+      "ciks": [
+        "0001762749",
+        "0001768224"
+      ],
+      "display_names": [
+        "Kummerfeld Keith C  (CIK 0001762749)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-12",
+      "form": "4",
+      "id": "0000899243-20-016410:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-20-016410:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-20-016410",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001762749",
+            "0001768224"
+          ],
+          "display_names": [
+            "Kummerfeld Keith C  (CIK 0001762749)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-06-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20961436"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-12",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591920000000,
+          "0000899243-20-016410:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-20-016050",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1727315/000089924320016050/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000089924320016050/doc4.xml"
+      ],
+      "ciks": [
+        "0001727315",
+        "0001768224"
+      ],
+      "display_names": [
+        "Payne Joseph E  (CIK 0001727315)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-10",
+      "form": "4",
+      "id": "0000899243-20-016050:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-20-016050:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-20-016050",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001727315",
+            "0001768224"
+          ],
+          "display_names": [
+            "Payne Joseph E  (CIK 0001727315)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-06-10",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20956104"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591747200000,
+          "0000899243-20-016050:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-20-016049",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1515322/000089924320016049/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000089924320016049/doc4.xml"
+      ],
+      "ciks": [
+        "0001515322",
+        "0001768224"
+      ],
+      "display_names": [
+        "SASSINE ANDY  (CIK 0001515322)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-10",
+      "form": "4",
+      "id": "0000899243-20-016049:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-20-016049:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-20-016049",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001515322",
+            "0001768224"
+          ],
+          "display_names": [
+            "SASSINE ANDY  (CIK 0001515322)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-06-10",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20956103"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591747200000,
+          "0000899243-20-016049:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-164097",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119312520164097/d932491d8k.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "d932491d8k.htm",
+      "filed_date": "2020-06-09",
+      "form": "8-K",
+      "id": "0001193125-20-164097:d932491d8k.htm",
+      "items": [
+        "5.07"
+      ],
+      "source_hit": {
+        "_id": "0001193125-20-164097:d932491d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-164097",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-06-09",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20950828"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.07"
+          ],
+          "period_ending": "2020-06-05",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1591660800000,
+          "0001193125-20-164097:d932491d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-031641",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1515673/000120919120031641/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000120919120031641/doc4.xml"
+      ],
+      "ciks": [
+        "0001515673",
+        "0001768224"
+      ],
+      "display_names": [
+        "Ultragenyx Pharmaceutical Inc.  (RARE)  (CIK 0001515673)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-05-22",
+      "form": "4",
+      "id": "0001209191-20-031641:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-031641:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-031641",
+          "biz_locations": [
+            "Novato, CA",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001515673",
+            "0001768224"
+          ],
+          "display_names": [
+            "Ultragenyx Pharmaceutical Inc.  (RARE)  (CIK 0001515673)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-05-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20905047"
+          ],
+          "form": "4",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-05-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1590105600000,
+          "0001209191-20-031641:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000627",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000627/e619657_s3a-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619657_s3a-at.htm",
+      "filed_date": "2020-05-22",
+      "form": "S-3/A",
+      "id": "0001193805-20-000627:e619657_s3a-at.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000627:e619657_s3a-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000627",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-05-22",
+          "file_description": null,
+          "file_num": [
+            "333-235475"
+          ],
+          "file_type": "S-3/A",
+          "film_num": [
+            "20907074"
+          ],
+          "form": "S-3/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-3"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1590105600000,
+          "0001193805-20-000627:e619657_s3a-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-150308",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119312520150308/d925199dsc13da.htm",
+        "https://www.sec.gov/Archives/edgar/data/1515673/000119312520150308/d925199dsc13da.htm"
+      ],
+      "ciks": [
+        "0001768224",
+        "0001515673"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)",
+        "Ultragenyx Pharmaceutical Inc.  (RARE)  (CIK 0001515673)"
+      ],
+      "document_name": "d925199dsc13da.htm",
+      "filed_date": "2020-05-22",
+      "form": "SC 13D/A",
+      "id": "0001193125-20-150308:d925199dsc13da.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-20-150308:d925199dsc13da.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-150308",
+          "biz_locations": [
+            "San Diego, CA",
+            "Novato, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224",
+            "0001515673"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)",
+            "Ultragenyx Pharmaceutical Inc.  (RARE)  (CIK 0001515673)"
+          ],
+          "file_date": "2020-05-22",
+          "file_description": "SC 13D/A",
+          "file_num": [
+            "005-91046"
+          ],
+          "file_type": "SC 13D/A",
+          "film_num": [
+            "20907120"
+          ],
+          "form": "SC 13D/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1590105600000,
+          "0001193125-20-150308:d925199dsc13da.htm"
+        ]
+      }
+    },
+    {
+      "accession": "9999999995-20-001236",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/999999999520001236/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2020-05-21",
+      "form": "EFFECT",
+      "id": "9999999995-20-001236:primary_doc.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999995-20-001236:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999995-20-001236",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-05-21",
+          "file_description": null,
+          "file_num": [
+            "333-238139"
+          ],
+          "file_type": "EFFECT",
+          "film_num": [
+            "20903529"
+          ],
+          "form": "EFFECT",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "EFFECT"
+          ],
+          "schema_version": "X0101",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslEFFECTX01"
+        },
+        "sort": [
+          1590019200000,
+          "9999999995-20-001236:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000622",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000622/e619655_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619655_8k-at.htm",
+      "filed_date": "2020-05-21",
+      "form": "8-K",
+      "id": "0001193805-20-000622:e619655_8k-at.htm",
+      "items": [
+        "3.02",
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-000622:e619655_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000622",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-05-21",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20902336"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "3.02",
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2020-05-20",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1590019200000,
+          "0001193805-20-000622:e619655_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000600",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000600/filename1.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "filename1.htm",
+      "filed_date": "2020-05-18",
+      "form": "CORRESP",
+      "id": "0001193805-20-000600:filename1.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000600:filename1.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000600",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-05-18",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "CORRESP",
+          "film_num": [],
+          "form": "CORRESP",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "CORRESP"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1589760000000,
+          "0001193805-20-000600:filename1.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000000000-20-004351",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000000000020004351/filename1.pdf"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "filename1.pdf",
+      "filed_date": "2020-05-15",
+      "form": "UPLOAD",
+      "id": "0000000000-20-004351:filename1.pdf",
+      "items": [],
+      "source_hit": {
+        "_id": "0000000000-20-004351:filename1.pdf",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000000000-20-004351",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-05-15",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "LETTER",
+          "film_num": [],
+          "form": "UPLOAD",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "UPLOAD"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1589500800000,
+          "0000000000-20-004351:filename1.pdf"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-023633",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000156459020023633/arct-10q_20200331.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "arct-10q_20200331.htm",
+      "filed_date": "2020-05-08",
+      "form": "10-Q",
+      "id": "0001564590-20-023633:arct-10q_20200331.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-023633:arct-10q_20200331.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-023633",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-05-08",
+          "file_description": "10-Q Q1 2020",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "20861463"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-03-31",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1588896000000,
+          "0001564590-20-023633:arct-10q_20200331.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000569",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000569/e619613_s3-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619613_s3-at.htm",
+      "filed_date": "2020-05-08",
+      "form": "S-3",
+      "id": "0001193805-20-000569:e619613_s3-at.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000569:e619613_s3-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000569",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-05-08",
+          "file_description": null,
+          "file_num": [
+            "333-238139"
+          ],
+          "file_type": "S-3",
+          "film_num": [
+            "20861820"
+          ],
+          "form": "S-3",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-3"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1588896000000,
+          "0001193805-20-000569:e619613_s3-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000565",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000565/e619610_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619610_8k-at.htm",
+      "filed_date": "2020-05-07",
+      "form": "8-K",
+      "id": "0001193805-20-000565:e619610_8k-at.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-000565:e619610_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000565",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-05-07",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20856364"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-05-07",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1588809600000,
+          "0001193805-20-000565:e619610_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000535",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000535/e619589_def14a-arct.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619589_def14a-arct.htm",
+      "filed_date": "2020-04-29",
+      "form": "DEF 14A",
+      "id": "0001193805-20-000535:e619589_def14a-arct.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000535:e619589_def14a-arct.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000535",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-04-29",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "DEF 14A",
+          "film_num": [
+            "20831072"
+          ],
+          "form": "DEF 14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-05",
+          "root_forms": [
+            "DEF 14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1588118400000,
+          "0001193805-20-000535:e619589_def14a-arct.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000929638-20-000538",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000092963820000538/sched13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/1583977/000092963820000538/sched13g.htm"
+      ],
+      "ciks": [
+        "0001768224",
+        "0001583977"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)",
+        "Cormorant Asset Management, LP  (CIK 0001583977)"
+      ],
+      "document_name": "sched13g.htm",
+      "filed_date": "2020-04-27",
+      "form": "SC 13G",
+      "id": "0000929638-20-000538:sched13g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000929638-20-000538:sched13g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000929638-20-000538",
+          "biz_locations": [
+            "San Diego, CA",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "CA",
+            "MA"
+          ],
+          "ciks": [
+            "0001768224",
+            "0001583977"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)",
+            "Cormorant Asset Management, LP  (CIK 0001583977)"
+          ],
+          "file_date": "2020-04-27",
+          "file_description": null,
+          "file_num": [
+            "005-91046"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "20819980"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1587945600000,
+          "0000929638-20-000538:sched13g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-017549",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000156459020017549/arct-8k_20200417.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "arct-8k_20200417.htm",
+      "filed_date": "2020-04-21",
+      "form": "8-K",
+      "id": "0001564590-20-017549:arct-8k_20200417.htm",
+      "items": [
+        "8.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-017549:arct-8k_20200417.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-017549",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-04-21",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20803889"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01"
+          ],
+          "period_ending": "2020-04-17",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1587427200000,
+          "0001564590-20-017549:arct-8k_20200417.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-017147",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000156459020017147/arct-8k_20200415.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "arct-8k_20200415.htm",
+      "filed_date": "2020-04-17",
+      "form": "8-K",
+      "id": "0001564590-20-017147:arct-8k_20200415.htm",
+      "items": [
+        "1.01",
+        "1.02",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-017147:arct-8k_20200415.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-017147",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-04-17",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20797611"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "1.01",
+            "1.02",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2020-04-15",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1587081600000,
+          "0001564590-20-017147:arct-8k_20200415.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000494",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000494/e619560_424b5-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619560_424b5-at.htm",
+      "filed_date": "2020-04-17",
+      "form": "424B5",
+      "id": "0001193805-20-000494:e619560_424b5-at.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000494:e619560_424b5-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000494",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-04-17",
+          "file_description": null,
+          "file_num": [
+            "333-232281"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "20799680"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1587081600000,
+          "0001193805-20-000494:e619560_424b5-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000491",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000491/e619559_s3mef-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619559_s3mef-at.htm",
+      "filed_date": "2020-04-16",
+      "form": "S-3MEF",
+      "id": "0001193805-20-000491:e619559_s3mef-at.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000491:e619559_s3mef-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000491",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-04-16",
+          "file_description": null,
+          "file_num": [
+            "333-237703"
+          ],
+          "file_type": "S-3MEF",
+          "film_num": [
+            "20795110"
+          ],
+          "form": "S-3MEF",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-3MEF"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1586995200000,
+          "0001193805-20-000491:e619559_s3mef-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000486",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000486/e619556_424b5-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619556_424b5-at.htm",
+      "filed_date": "2020-04-15",
+      "form": "424B5",
+      "id": "0001193805-20-000486:e619556_424b5-at.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000486:e619556_424b5-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000486",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-04-15",
+          "file_description": null,
+          "file_num": [
+            "333-232281"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "20793844"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1586908800000,
+          "0001193805-20-000486:e619556_424b5-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000412",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000412/e619507_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619507_8k-at.htm",
+      "filed_date": "2020-03-27",
+      "form": "8-K",
+      "id": "0001193805-20-000412:e619507_8k-at.htm",
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-000412:e619507_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000412",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-03-27",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20752944"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "1.01",
+            "9.01"
+          ],
+          "period_ending": "2020-03-27",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1585267200000,
+          "0001193805-20-000412:e619507_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000411",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000411/e619508_424b5-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619508_424b5-at.htm",
+      "filed_date": "2020-03-27",
+      "form": "424B5",
+      "id": "0001193805-20-000411:e619508_424b5-at.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000411:e619508_424b5-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000411",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-03-27",
+          "file_description": null,
+          "file_num": [
+            "333-232281"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "20752938"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1585267200000,
+          "0001193805-20-000411:e619508_424b5-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-011037",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000156459020011037/arct-10k_20191231.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "arct-10k_20191231.htm",
+      "filed_date": "2020-03-16",
+      "form": "10-K",
+      "id": "0001564590-20-011037:arct-10k_20191231.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-011037:arct-10k_20191231.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-011037",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-03-16",
+          "file_description": "ARCT 10-K 20191231",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "20715874"
+          ],
+          "form": "10-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2019-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1584316800000,
+          "0001564590-20-011037:arct-10k_20191231.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000335",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000335/e619458_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619458_8k-at.htm",
+      "filed_date": "2020-03-11",
+      "form": "8-K",
+      "id": "0001193805-20-000335:e619458_8k-at.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-000335:e619458_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000335",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-03-11",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20705280"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-03-11",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1583884800000,
+          "0001193805-20-000335:e619458_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000295",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000295/e619429_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619429_8k-at.htm",
+      "filed_date": "2020-03-04",
+      "form": "8-K",
+      "id": "0001193805-20-000295:e619429_8k-at.htm",
+      "items": [
+        "1.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-000295:e619429_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000295",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-03-04",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20685799"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "1.01"
+          ],
+          "period_ending": "2020-03-04",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1583280000000,
+          "0001193805-20-000295:e619429_8k-at.htm"
+        ]
+      }
+    },
+    {
+      "accession": "9999999997-20-000993",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/999999999720000993/filename1.pdf"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "filename1.pdf",
+      "filed_date": "2020-02-24",
+      "form": "SEC STAFF LETTER",
+      "id": "9999999997-20-000993:filename1.pdf",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999997-20-000993:filename1.pdf",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999997-20-000993",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-02-24",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "REDACTED EXHIBIT",
+          "film_num": [],
+          "form": "SEC STAFF LETTER",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SEC STAFF LETTER"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1582502400000,
+          "9999999997-20-000993:filename1.pdf"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-20-005389",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1727317/000089924320005389/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000089924320005389/doc4.xml"
+      ],
+      "ciks": [
+        "0001727317",
+        "0001768224"
+      ],
+      "display_names": [
+        "Chivukula Pad  (CIK 0001727317)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-02-20",
+      "form": "4",
+      "id": "0000899243-20-005389:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-20-005389:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-20-005389",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001727317",
+            "0001768224"
+          ],
+          "display_names": [
+            "Chivukula Pad  (CIK 0001727317)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-02-20",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20637137"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-02-18",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1582156800000,
+          "0000899243-20-005389:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-20-005387",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1762749/000089924320005387/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000089924320005387/doc4.xml"
+      ],
+      "ciks": [
+        "0001762749",
+        "0001768224"
+      ],
+      "display_names": [
+        "Kummerfeld Keith C  (CIK 0001762749)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-02-20",
+      "form": "4",
+      "id": "0000899243-20-005387:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-20-005387:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-20-005387",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001762749",
+            "0001768224"
+          ],
+          "display_names": [
+            "Kummerfeld Keith C  (CIK 0001762749)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-02-20",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20637104"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-02-18",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1582156800000,
+          "0000899243-20-005387:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-20-005386",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1747528/000089924320005386/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000089924320005386/doc4.xml"
+      ],
+      "ciks": [
+        "0001747528",
+        "0001768224"
+      ],
+      "display_names": [
+        "Hughes Steven George  (CIK 0001747528)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-02-20",
+      "form": "4",
+      "id": "0000899243-20-005386:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-20-005386:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-20-005386",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001747528",
+            "0001768224"
+          ],
+          "display_names": [
+            "Hughes Steven George  (CIK 0001747528)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-02-20",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20637100"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-02-18",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1582156800000,
+          "0000899243-20-005386:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-20-005383",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1515322/000089924320005383/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000089924320005383/doc4.xml"
+      ],
+      "ciks": [
+        "0001515322",
+        "0001768224"
+      ],
+      "display_names": [
+        "SASSINE ANDY  (CIK 0001515322)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-02-20",
+      "form": "4",
+      "id": "0000899243-20-005383:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-20-005383:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-20-005383",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001515322",
+            "0001768224"
+          ],
+          "display_names": [
+            "SASSINE ANDY  (CIK 0001515322)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-02-20",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20637097"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-02-18",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1582156800000,
+          "0000899243-20-005383:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-20-005382",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1747528/000089924320005382/doc3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000089924320005382/doc3.xml"
+      ],
+      "ciks": [
+        "0001747528",
+        "0001768224"
+      ],
+      "display_names": [
+        "Hughes Steven George  (CIK 0001747528)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "doc3.xml",
+      "filed_date": "2020-02-20",
+      "form": "3",
+      "id": "0000899243-20-005382:doc3.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-20-005382:doc3.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-20-005382",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001747528",
+            "0001768224"
+          ],
+          "display_names": [
+            "Hughes Steven George  (CIK 0001747528)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-02-20",
+          "file_description": "FORM 3 SUBMISSION",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "20637096"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-02-18",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1582156800000,
+          "0000899243-20-005382:doc3.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-20-005379",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1727315/000089924320005379/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1768224/000089924320005379/doc4.xml"
+      ],
+      "ciks": [
+        "0001727315",
+        "0001768224"
+      ],
+      "display_names": [
+        "Payne Joseph E  (CIK 0001727315)",
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-02-20",
+      "form": "4",
+      "id": "0000899243-20-005379:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-20-005379:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-20-005379",
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001727315",
+            "0001768224"
+          ],
+          "display_names": [
+            "Payne Joseph E  (CIK 0001727315)",
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-02-20",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20637095"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-02-18",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1582156800000,
+          "0000899243-20-005379:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "9999999997-20-000424",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/999999999720000424/filename1.pdf"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "filename1.pdf",
+      "filed_date": "2020-02-03",
+      "form": "SEC STAFF LETTER",
+      "id": "9999999997-20-000424:filename1.pdf",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999997-20-000424:filename1.pdf",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999997-20-000424",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-02-03",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "REDACTED EXHIBIT",
+          "film_num": [],
+          "form": "SEC STAFF LETTER",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SEC STAFF LETTER"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1580688000000,
+          "9999999997-20-000424:filename1.pdf"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000030",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1768224/000119380520000030/e619284_8k-at.htm"
+      ],
+      "ciks": [
+        "0001768224"
+      ],
+      "display_names": [
+        "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+      ],
+      "document_name": "e619284_8k-at.htm",
+      "filed_date": "2020-01-10",
+      "form": "8-K",
+      "id": "0001193805-20-000030:e619284_8k-at.htm",
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193805-20-000030:e619284_8k-at.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000030",
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001768224"
+          ],
+          "display_names": [
+            "Arcturus Therapeutics Holdings Inc.  (ARCT)  (CIK 0001768224)"
+          ],
+          "file_date": "2020-01-10",
+          "file_description": null,
+          "file_num": [
+            "001-38942"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20521396"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2020-01-10",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1578614400000,
+          "0001193805-20-000030:e619284_8k-at.htm"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2020-01-01",
+  "ticker": "ARCT",
+  "total": 81
+}

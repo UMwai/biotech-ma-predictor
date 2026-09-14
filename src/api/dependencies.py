@@ -7,6 +7,7 @@ to route handlers via dependency injection.
 
 from typing import AsyncGenerator, Optional
 from functools import lru_cache
+from hmac import compare_digest
 
 from fastapi import Depends, HTTPException, Header, status
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine, async_sessionmaker
@@ -171,10 +172,10 @@ async def verify_api_key(
             headers={"WWW-Authenticate": "ApiKey"},
         )
 
-    # In production, validate against database or key management system
-    # For now, check against configured secret key
-    if settings.api_secret_key and x_api_key != settings.api_secret_key:
-        logger.warning(f"Invalid API key attempt: {x_api_key[:8]}...")
+    if not settings.api_secret_key or not compare_digest(
+        x_api_key.encode("utf-8"), settings.api_secret_key.encode("utf-8")
+    ):
+        logger.warning("Invalid API key attempt")
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid API key",

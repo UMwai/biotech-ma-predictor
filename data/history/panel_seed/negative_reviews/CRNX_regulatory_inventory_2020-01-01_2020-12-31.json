@@ -1,0 +1,3789 @@
+{
+  "schema_version": "sec-efts-inventory-v1",
+  "ticker": "CRNX",
+  "cik": 1658247,
+  "start_date": "2020-01-01",
+  "end_date": "2020-12-31",
+  "pages": [
+    {
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001658247&dateRange=custom&startdt=2020-01-01&enddt=2020-12-31&from=0&size=100",
+      "source_relative_path": "CRNX_efts_2020-01-01_2020-12-31_0_8d6ef89ea5d9442762e0561ca94ad0f3d2bfcd071620d844f3323b41c0f3246b.json",
+      "source_sha256": "8d6ef89ea5d9442762e0561ca94ad0f3d2bfcd071620d844f3323b41c0f3246b",
+      "source_bytes": 38872,
+      "retrieved_at": "2026-09-08T19:51:46.997545+00:00",
+      "offset": 0,
+      "total": 51,
+      "returned": 51
+    }
+  ],
+  "total": 51,
+  "records": [
+    {
+      "id": "0001209191-20-061822:doc4.xml",
+      "accession": "0001209191-20-061822",
+      "document_name": "doc4.xml",
+      "form": "4",
+      "filed_date": "2020-12-04",
+      "ciks": [
+        "0001746298",
+        "0001658247"
+      ],
+      "display_names": [
+        "Struthers Richard Scott  (CIK 0001746298)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1746298/000120919120061822/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120061822/doc4.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-061822:doc4.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001746298",
+            "0001658247"
+          ],
+          "period_ending": "2020-12-02",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Struthers Richard Scott  (CIK 0001746298)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-12-04",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001209191-20-061822",
+          "film_num": [
+            "201370498"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1607040000000,
+          "0001209191-20-061822:doc4.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001564590-20-051686:crnx-10q_20200930.htm",
+      "accession": "0001564590-20-051686",
+      "document_name": "crnx-10q_20200930.htm",
+      "form": "10-Q",
+      "filed_date": "2020-11-06",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000156459020051686/crnx-10q_20200930.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001564590-20-051686:crnx-10q_20200930.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2020-09-30",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "10-Q"
+          ],
+          "file_date": "2020-11-06",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "10-Q",
+          "adsh": "0001564590-20-051686",
+          "film_num": [
+            "201292527"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "10-Q",
+          "file_description": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1604620800000,
+          "0001564590-20-051686:crnx-10q_20200930.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001564590-20-051684:crnx-8k_20201106.htm",
+      "accession": "0001564590-20-051684",
+      "document_name": "crnx-8k_20201106.htm",
+      "form": "8-K",
+      "filed_date": "2020-11-06",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000156459020051684/crnx-8k_20201106.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001564590-20-051684:crnx-8k_20201106.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2020-11-06",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "8-K"
+          ],
+          "file_date": "2020-11-06",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "8-K",
+          "adsh": "0001564590-20-051684",
+          "film_num": [
+            "201292517"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "8-K",
+          "file_description": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ]
+        },
+        "sort": [
+          1604620800000,
+          "0001564590-20-051684:crnx-8k_20201106.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001564590-20-047499:crnx-8k_20201026.htm",
+      "accession": "0001564590-20-047499",
+      "document_name": "crnx-8k_20201026.htm",
+      "form": "8-K",
+      "filed_date": "2020-10-26",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000156459020047499/crnx-8k_20201026.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001564590-20-047499:crnx-8k_20201026.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2020-10-26",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "8-K"
+          ],
+          "file_date": "2020-10-26",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "8-K",
+          "adsh": "0001564590-20-047499",
+          "film_num": [
+            "201258994"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "8-K",
+          "file_description": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "7.01",
+            "8.01",
+            "9.01"
+          ]
+        },
+        "sort": [
+          1603670400000,
+          "0001564590-20-047499:crnx-8k_20201026.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001564590-20-044046:crnx-8k_20200921.htm",
+      "accession": "0001564590-20-044046",
+      "document_name": "crnx-8k_20200921.htm",
+      "form": "8-K",
+      "filed_date": "2020-09-21",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000156459020044046/crnx-8k_20200921.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001564590-20-044046:crnx-8k_20200921.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2020-09-21",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "8-K"
+          ],
+          "file_date": "2020-09-21",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "8-K",
+          "adsh": "0001564590-20-044046",
+          "film_num": [
+            "201185187"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "8-K",
+          "file_description": "CRNX 8-K '4777 RPDD",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01"
+          ]
+        },
+        "sort": [
+          1600646400000,
+          "0001564590-20-044046:crnx-8k_20200921.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001564590-20-042431:crnx-8k_20200831.htm",
+      "accession": "0001564590-20-042431",
+      "document_name": "crnx-8k_20200831.htm",
+      "form": "8-K",
+      "filed_date": "2020-09-03",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "5.02",
+        "9.01"
+      ],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000156459020042431/crnx-8k_20200831.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001564590-20-042431:crnx-8k_20200831.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2020-09-01",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "8-K"
+          ],
+          "file_date": "2020-09-03",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "8-K",
+          "adsh": "0001564590-20-042431",
+          "film_num": [
+            "201158254"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "8-K",
+          "file_description": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.02",
+            "9.01"
+          ]
+        },
+        "sort": [
+          1599091200000,
+          "0001564590-20-042431:crnx-8k_20200831.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-049518:doc4.xml",
+      "accession": "0001209191-20-049518",
+      "document_name": "doc4.xml",
+      "form": "4",
+      "filed_date": "2020-09-03",
+      "ciks": [
+        "0001326969",
+        "0001658247"
+      ],
+      "display_names": [
+        "Bedrosian Camille L  (CIK 0001326969)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326969/000120919120049518/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120049518/doc4.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-049518:doc4.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001326969",
+            "0001658247"
+          ],
+          "period_ending": "2020-09-01",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Bedrosian Camille L  (CIK 0001326969)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-09-03",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001209191-20-049518",
+          "film_num": [
+            "201160164"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1599091200000,
+          "0001209191-20-049518:doc4.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-049508:doc3.xml",
+      "accession": "0001209191-20-049508",
+      "document_name": "doc3.xml",
+      "form": "3",
+      "filed_date": "2020-09-03",
+      "ciks": [
+        "0001326969",
+        "0001658247"
+      ],
+      "display_names": [
+        "Bedrosian Camille L  (CIK 0001326969)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326969/000120919120049508/doc3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120049508/doc3.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-049508:doc3.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001326969",
+            "0001658247"
+          ],
+          "period_ending": "2020-09-01",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Bedrosian Camille L  (CIK 0001326969)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X02",
+          "schema_version": "X0206",
+          "sequence": 1,
+          "root_forms": [
+            "3"
+          ],
+          "file_date": "2020-09-03",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "3",
+          "adsh": "0001209191-20-049508",
+          "film_num": [
+            "201160146"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "3",
+          "file_description": "FORM 3 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1599091200000,
+          "0001209191-20-049508:doc3.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001564590-20-038069:crnx-10q_20200630.htm",
+      "accession": "0001564590-20-038069",
+      "document_name": "crnx-10q_20200630.htm",
+      "form": "10-Q",
+      "filed_date": "2020-08-07",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000156459020038069/crnx-10q_20200630.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001564590-20-038069:crnx-10q_20200630.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2020-06-30",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "10-Q"
+          ],
+          "file_date": "2020-08-07",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "10-Q",
+          "adsh": "0001564590-20-038069",
+          "film_num": [
+            "201083744"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "10-Q",
+          "file_description": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1596758400000,
+          "0001564590-20-038069:crnx-10q_20200630.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001564590-20-038067:crnx-8k_20200807.htm",
+      "accession": "0001564590-20-038067",
+      "document_name": "crnx-8k_20200807.htm",
+      "form": "8-K",
+      "filed_date": "2020-08-07",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000156459020038067/crnx-8k_20200807.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001564590-20-038067:crnx-8k_20200807.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2020-08-07",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "8-K"
+          ],
+          "file_date": "2020-08-07",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "8-K",
+          "adsh": "0001564590-20-038067",
+          "film_num": [
+            "201083729"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "8-K",
+          "file_description": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ]
+        },
+        "sort": [
+          1596758400000,
+          "0001564590-20-038067:crnx-8k_20200807.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-042897:doc4.xml",
+      "accession": "0001209191-20-042897",
+      "document_name": "doc4.xml",
+      "form": "4",
+      "filed_date": "2020-07-17",
+      "ciks": [
+        "0001746298",
+        "0001658247"
+      ],
+      "display_names": [
+        "Struthers Richard Scott  (CIK 0001746298)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1746298/000120919120042897/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120042897/doc4.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-042897:doc4.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001746298",
+            "0001658247"
+          ],
+          "period_ending": "2020-07-15",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Struthers Richard Scott  (CIK 0001746298)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-07-17",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001209191-20-042897",
+          "film_num": [
+            "201034302"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1594944000000,
+          "0001209191-20-042897:doc4.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001564590-20-030117:crnx-8k_20200619.htm",
+      "accession": "0001564590-20-030117",
+      "document_name": "crnx-8k_20200619.htm",
+      "form": "8-K",
+      "filed_date": "2020-06-22",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "5.07"
+      ],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000156459020030117/crnx-8k_20200619.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001564590-20-030117:crnx-8k_20200619.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2020-06-19",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "8-K"
+          ],
+          "file_date": "2020-06-22",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "8-K",
+          "adsh": "0001564590-20-030117",
+          "film_num": [
+            "20978850"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "8-K",
+          "file_description": "CRNX 8K 2020 ANNUAL MEETING RESULTS",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.07"
+          ]
+        },
+        "sort": [
+          1592784000000,
+          "0001564590-20-030117:crnx-8k_20200619.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-038179:doc4.xml",
+      "accession": "0001209191-20-038179",
+      "document_name": "doc4.xml",
+      "form": "4",
+      "filed_date": "2020-06-22",
+      "ciks": [
+        "0001397266",
+        "0001658247"
+      ],
+      "display_names": [
+        "Fust Matthew K  (CIK 0001397266)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1397266/000120919120038179/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120038179/doc4.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-038179:doc4.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001397266",
+            "0001658247"
+          ],
+          "period_ending": "2020-06-19",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Fust Matthew K  (CIK 0001397266)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-06-22",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001209191-20-038179",
+          "film_num": [
+            "20979114"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1592784000000,
+          "0001209191-20-038179:doc4.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-038172:doc4.xml",
+      "accession": "0001209191-20-038172",
+      "document_name": "doc4.xml",
+      "form": "4",
+      "filed_date": "2020-06-22",
+      "ciks": [
+        "0001507502",
+        "0001658247"
+      ],
+      "display_names": [
+        "Kaldor Stephen W  (CIK 0001507502)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1507502/000120919120038172/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120038172/doc4.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-038172:doc4.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001507502",
+            "0001658247"
+          ],
+          "period_ending": "2020-06-19",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Kaldor Stephen W  (CIK 0001507502)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-06-22",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001209191-20-038172",
+          "film_num": [
+            "20979099"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1592784000000,
+          "0001209191-20-038172:doc4.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-038166:doc4.xml",
+      "accession": "0001209191-20-038166",
+      "document_name": "doc4.xml",
+      "form": "4",
+      "filed_date": "2020-06-22",
+      "ciks": [
+        "0001746376",
+        "0001658247"
+      ],
+      "display_names": [
+        "Nichols Weston  (CIK 0001746376)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1746376/000120919120038166/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120038166/doc4.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-038166:doc4.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001746376",
+            "0001658247"
+          ],
+          "period_ending": "2020-06-19",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Nichols Weston  (CIK 0001746376)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-06-22",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001209191-20-038166",
+          "film_num": [
+            "20979076"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1592784000000,
+          "0001209191-20-038166:doc4.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-038161:doc4.xml",
+      "accession": "0001209191-20-038161",
+      "document_name": "doc4.xml",
+      "form": "4",
+      "filed_date": "2020-06-22",
+      "ciks": [
+        "0001742616",
+        "0001658247"
+      ],
+      "display_names": [
+        "Okey Stephanie  (CIK 0001742616)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1742616/000120919120038161/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120038161/doc4.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-038161:doc4.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001742616",
+            "0001658247"
+          ],
+          "period_ending": "2020-06-19",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Okey Stephanie  (CIK 0001742616)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-06-22",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001209191-20-038161",
+          "film_num": [
+            "20979060"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1592784000000,
+          "0001209191-20-038161:doc4.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-038153:doc4.xml",
+      "accession": "0001209191-20-038153",
+      "document_name": "doc4.xml",
+      "form": "4",
+      "filed_date": "2020-06-22",
+      "ciks": [
+        "0001235945",
+        "0001658247"
+      ],
+      "display_names": [
+        "WIERENGA WENDALL  (CIK 0001235945)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1235945/000120919120038153/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120038153/doc4.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-038153:doc4.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001235945",
+            "0001658247"
+          ],
+          "period_ending": "2020-06-19",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "WIERENGA WENDALL  (CIK 0001235945)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-06-22",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001209191-20-038153",
+          "film_num": [
+            "20979023"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1592784000000,
+          "0001209191-20-038153:doc4.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001213900-20-014709:ea122945-sc13ga2vivo_crine.htm",
+      "accession": "0001213900-20-014709",
+      "document_name": "ea122945-sc13ga2vivo_crine.htm",
+      "form": "SC 13G/A",
+      "filed_date": "2020-06-11",
+      "ciks": [
+        "0001658247",
+        "0001618789"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Vivo Capital VIII, LLC  (CIK 0001618789)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000121390020014709/ea122945-sc13ga2vivo_crine.htm",
+        "https://www.sec.gov/Archives/edgar/data/1618789/000121390020014709/ea122945-sc13ga2vivo_crine.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001213900-20-014709:ea122945-sc13ga2vivo_crine.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247",
+            "0001618789"
+          ],
+          "period_ending": null,
+          "file_num": [
+            "005-90577"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+            "Vivo Capital VIII, LLC  (CIK 0001618789)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "file_date": "2020-06-11",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "SC 13G/A",
+          "adsh": "0001213900-20-014709",
+          "film_num": [
+            "20957882"
+          ],
+          "biz_locations": [
+            "San Diego, CA",
+            "Palo Alto, CA"
+          ],
+          "file_type": "SC 13G/A",
+          "file_description": "AMENDMENT NO. 2 TO SCHEDULE 13G",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1591833600000,
+          "0001213900-20-014709:ea122945-sc13ga2vivo_crine.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001564590-20-023265:crnx-10q_20200331.htm",
+      "accession": "0001564590-20-023265",
+      "document_name": "crnx-10q_20200331.htm",
+      "form": "10-Q",
+      "filed_date": "2020-05-08",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000156459020023265/crnx-10q_20200331.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001564590-20-023265:crnx-10q_20200331.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2020-03-31",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "10-Q"
+          ],
+          "file_date": "2020-05-08",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "10-Q",
+          "adsh": "0001564590-20-023265",
+          "film_num": [
+            "20858942"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "10-Q",
+          "file_description": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1588896000000,
+          "0001564590-20-023265:crnx-10q_20200331.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001564590-20-023260:crnx-8k_20200508.htm",
+      "accession": "0001564590-20-023260",
+      "document_name": "crnx-8k_20200508.htm",
+      "form": "8-K",
+      "filed_date": "2020-05-08",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000156459020023260/crnx-8k_20200508.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001564590-20-023260:crnx-8k_20200508.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2020-05-08",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "8-K"
+          ],
+          "file_date": "2020-05-08",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "8-K",
+          "adsh": "0001564590-20-023260",
+          "film_num": [
+            "20858920"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "8-K",
+          "file_description": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ]
+        },
+        "sort": [
+          1588896000000,
+          "0001564590-20-023260:crnx-8k_20200508.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-026196:doc4.xml",
+      "accession": "0001209191-20-026196",
+      "document_name": "doc4.xml",
+      "form": "4",
+      "filed_date": "2020-04-29",
+      "ciks": [
+        "0001235945",
+        "0001658247"
+      ],
+      "display_names": [
+        "WIERENGA WENDALL  (CIK 0001235945)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1235945/000120919120026196/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120026196/doc4.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-026196:doc4.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001235945",
+            "0001658247"
+          ],
+          "period_ending": "2020-04-28",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "WIERENGA WENDALL  (CIK 0001235945)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-04-29",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001209191-20-026196",
+          "film_num": [
+            "20831332"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1588118400000,
+          "0001209191-20-026196:doc4.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001564590-20-019210:crnx-defa14a_20200623.htm",
+      "accession": "0001564590-20-019210",
+      "document_name": "crnx-defa14a_20200623.htm",
+      "form": "DEFA14A",
+      "filed_date": "2020-04-28",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000156459020019210/crnx-defa14a_20200623.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001564590-20-019210:crnx-defa14a_20200623.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": null,
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "DEFA14A"
+          ],
+          "file_date": "2020-04-28",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "DEFA14A",
+          "adsh": "0001564590-20-019210",
+          "film_num": [
+            "20825089"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "DEFA14A",
+          "file_description": "DEFA14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1588032000000,
+          "0001564590-20-019210:crnx-defa14a_20200623.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001564590-20-019202:crnx-def14a_20200619.htm",
+      "accession": "0001564590-20-019202",
+      "document_name": "crnx-def14a_20200619.htm",
+      "form": "DEF 14A",
+      "filed_date": "2020-04-28",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000156459020019202/crnx-def14a_20200619.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001564590-20-019202:crnx-def14a_20200619.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2020-06-19",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "DEF 14A"
+          ],
+          "file_date": "2020-04-28",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "DEF 14A",
+          "adsh": "0001564590-20-019202",
+          "film_num": [
+            "20824980"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "DEF 14A",
+          "file_description": "DEF 14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1588032000000,
+          "0001564590-20-019202:crnx-def14a_20200619.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001193125-20-111625:d910763dsc13da.htm",
+      "accession": "0001193125-20-111625",
+      "document_name": "d910763dsc13da.htm",
+      "form": "SC 13D/A",
+      "filed_date": "2020-04-20",
+      "ciks": [
+        "0001658247",
+        "0001224962"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "PERCEPTIVE ADVISORS LLC  (CIK 0001224962)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000119312520111625/d910763dsc13da.htm",
+        "https://www.sec.gov/Archives/edgar/data/1224962/000119312520111625/d910763dsc13da.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001193125-20-111625:d910763dsc13da.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247",
+            "0001224962"
+          ],
+          "period_ending": null,
+          "file_num": [
+            "005-90577"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+            "PERCEPTIVE ADVISORS LLC  (CIK 0001224962)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "file_date": "2020-04-20",
+          "biz_states": [
+            "CA",
+            "NY"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "SC 13D/A",
+          "adsh": "0001193125-20-111625",
+          "film_num": [
+            "20801392"
+          ],
+          "biz_locations": [
+            "San Diego, CA",
+            "New York, NY"
+          ],
+          "file_type": "SC 13D/A",
+          "file_description": "SCHEDULE 13D/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1587340800000,
+          "0001193125-20-111625:d910763dsc13da.htm"
+        ]
+      }
+    },
+    {
+      "id": "0000899243-20-010940:doc4.xml",
+      "accession": "0000899243-20-010940",
+      "document_name": "doc4.xml",
+      "form": "4",
+      "filed_date": "2020-04-20",
+      "ciks": [
+        "0001224962",
+        "0001249675",
+        "0001164426",
+        "0001658247"
+      ],
+      "display_names": [
+        "PERCEPTIVE ADVISORS LLC  (CIK 0001224962)",
+        "PERCEPTIVE LIFE SCIENCES MASTER FUND LTD  (CIK 0001249675)",
+        "EDELMAN JOSEPH  (CIK 0001164426)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1224962/000089924320010940/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1249675/000089924320010940/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1164426/000089924320010940/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000089924320010940/doc4.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0000899243-20-010940:doc4.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001224962",
+            "0001249675",
+            "0001164426",
+            "0001658247"
+          ],
+          "period_ending": "2020-04-17",
+          "file_num": [
+            "001-38583",
+            "001-38583",
+            "001-38583"
+          ],
+          "display_names": [
+            "PERCEPTIVE ADVISORS LLC  (CIK 0001224962)",
+            "PERCEPTIVE LIFE SCIENCES MASTER FUND LTD  (CIK 0001249675)",
+            "EDELMAN JOSEPH  (CIK 0001164426)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-04-20",
+          "biz_states": [
+            "NY",
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0000899243-20-010940",
+          "film_num": [
+            "20801335",
+            "20801336",
+            "20801337"
+          ],
+          "biz_locations": [
+            "New York, NY",
+            "New York, NY",
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4 SUBMISSION",
+          "inc_states": [
+            "DE",
+            "DE",
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1587340800000,
+          "0000899243-20-010940:doc4.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001213900-20-009500:ownership.xml",
+      "accession": "0001213900-20-009500",
+      "document_name": "ownership.xml",
+      "form": "4",
+      "filed_date": "2020-04-17",
+      "ciks": [
+        "0001618789",
+        "0001618788",
+        "0001628048",
+        "0001658247"
+      ],
+      "display_names": [
+        "Vivo Capital VIII, LLC  (CIK 0001618789)",
+        "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+        "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1618789/000121390020009500/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1618788/000121390020009500/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1628048/000121390020009500/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000121390020009500/ownership.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001213900-20-009500:ownership.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001618789",
+            "0001618788",
+            "0001628048",
+            "0001658247"
+          ],
+          "period_ending": "2020-04-15",
+          "file_num": [
+            "001-38583",
+            "001-38583",
+            "001-38583"
+          ],
+          "display_names": [
+            "Vivo Capital VIII, LLC  (CIK 0001618789)",
+            "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+            "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-04-17",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001213900-20-009500",
+          "film_num": [
+            "20800864",
+            "20800865",
+            "20800866"
+          ],
+          "biz_locations": [
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": null,
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1587081600000,
+          "0001213900-20-009500:ownership.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001193125-20-108096:d864567d424b5.htm",
+      "accession": "0001193125-20-108096",
+      "document_name": "d864567d424b5.htm",
+      "form": "424B5",
+      "filed_date": "2020-04-15",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000119312520108096/d864567d424b5.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001193125-20-108096:d864567d424b5.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": null,
+          "file_num": [
+            "333-233246"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "424B5"
+          ],
+          "file_date": "2020-04-15",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "424B5",
+          "adsh": "0001193125-20-108096",
+          "film_num": [
+            "20793885"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "424B5",
+          "file_description": "424B5",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1586908800000,
+          "0001193125-20-108096:d864567d424b5.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001193125-20-108092:d866892d8k.htm",
+      "accession": "0001193125-20-108092",
+      "document_name": "d866892d8k.htm",
+      "form": "8-K",
+      "filed_date": "2020-04-15",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000119312520108092/d866892d8k.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001193125-20-108092:d866892d8k.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2020-04-14",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "8-K"
+          ],
+          "file_date": "2020-04-15",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "8-K",
+          "adsh": "0001193125-20-108092",
+          "film_num": [
+            "20793824"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "8-K",
+          "file_description": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01",
+            "9.01"
+          ]
+        },
+        "sort": [
+          1586908800000,
+          "0001193125-20-108092:d866892d8k.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001193125-20-107156:d850306d8k.htm",
+      "accession": "0001193125-20-107156",
+      "document_name": "d850306d8k.htm",
+      "form": "8-K",
+      "filed_date": "2020-04-14",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "5.03",
+        "9.01"
+      ],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000119312520107156/d850306d8k.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001193125-20-107156:d850306d8k.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2020-04-14",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "8-K"
+          ],
+          "file_date": "2020-04-14",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "8-K",
+          "adsh": "0001193125-20-107156",
+          "film_num": [
+            "20791775"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "8-K",
+          "file_description": "FORM 8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.03",
+            "9.01"
+          ]
+        },
+        "sort": [
+          1586822400000,
+          "0001193125-20-107156:d850306d8k.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001193125-20-107151:d864567d424b5.htm",
+      "accession": "0001193125-20-107151",
+      "document_name": "d864567d424b5.htm",
+      "form": "424B5",
+      "filed_date": "2020-04-14",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000119312520107151/d864567d424b5.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001193125-20-107151:d864567d424b5.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": null,
+          "file_num": [
+            "333-233246"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "424B5"
+          ],
+          "file_date": "2020-04-14",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "424B5",
+          "adsh": "0001193125-20-107151",
+          "film_num": [
+            "20791762"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "424B5",
+          "file_description": "424B5",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1586822400000,
+          "0001193125-20-107151:d864567d424b5.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001213900-20-008792:ownership.xml",
+      "accession": "0001213900-20-008792",
+      "document_name": "ownership.xml",
+      "form": "4",
+      "filed_date": "2020-04-07",
+      "ciks": [
+        "0001628048",
+        "0001618788",
+        "0001618789",
+        "0001658247"
+      ],
+      "display_names": [
+        "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+        "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+        "Vivo Capital VIII, LLC  (CIK 0001618789)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1628048/000121390020008792/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1618788/000121390020008792/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1618789/000121390020008792/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000121390020008792/ownership.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001213900-20-008792:ownership.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001628048",
+            "0001618788",
+            "0001618789",
+            "0001658247"
+          ],
+          "period_ending": "2020-04-03",
+          "file_num": [
+            "001-38583",
+            "001-38583",
+            "001-38583"
+          ],
+          "display_names": [
+            "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+            "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+            "Vivo Capital VIII, LLC  (CIK 0001618789)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-04-07",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001213900-20-008792",
+          "film_num": [
+            "20780819",
+            "20780820",
+            "20780821"
+          ],
+          "biz_locations": [
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1586217600000,
+          "0001213900-20-008792:ownership.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001193125-20-099551:d777789d8k.htm",
+      "accession": "0001193125-20-099551",
+      "document_name": "d777789d8k.htm",
+      "form": "8-K",
+      "filed_date": "2020-04-06",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000119312520099551/d777789d8k.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001193125-20-099551:d777789d8k.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2020-04-06",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "8-K"
+          ],
+          "file_date": "2020-04-06",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "8-K",
+          "adsh": "0001193125-20-099551",
+          "film_num": [
+            "20777358"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "8-K",
+          "file_description": "FORM 8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "7.01",
+            "8.01",
+            "9.01"
+          ]
+        },
+        "sort": [
+          1586131200000,
+          "0001193125-20-099551:d777789d8k.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-021372:doc3.xml",
+      "accession": "0001209191-20-021372",
+      "document_name": "doc3.xml",
+      "form": "3",
+      "filed_date": "2020-03-27",
+      "ciks": [
+        "0001807856",
+        "0001658247"
+      ],
+      "display_names": [
+        "Madan Ajay  (CIK 0001807856)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1807856/000120919120021372/doc3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120021372/doc3.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-021372:doc3.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001807856",
+            "0001658247"
+          ],
+          "period_ending": "2020-03-20",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Madan Ajay  (CIK 0001807856)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X02",
+          "schema_version": "X0206",
+          "sequence": 1,
+          "root_forms": [
+            "3"
+          ],
+          "file_date": "2020-03-27",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "3",
+          "adsh": "0001209191-20-021372",
+          "film_num": [
+            "20751769"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "3",
+          "file_description": "FORM 3 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1585267200000,
+          "0001209191-20-021372:doc3.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001213900-20-006030:ownership.xml",
+      "accession": "0001213900-20-006030",
+      "document_name": "ownership.xml",
+      "form": "4",
+      "filed_date": "2020-03-11",
+      "ciks": [
+        "0001618789",
+        "0001618788",
+        "0001628048",
+        "0001728970",
+        "0001726403",
+        "0001658247"
+      ],
+      "display_names": [
+        "Vivo Capital VIII, LLC  (CIK 0001618789)",
+        "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+        "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+        "Vivo Opportunity, LLC  (CIK 0001728970)",
+        "Vivo Opportunity Fund, L.P.  (CIK 0001726403)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1618789/000121390020006030/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1618788/000121390020006030/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1628048/000121390020006030/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1728970/000121390020006030/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1726403/000121390020006030/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000121390020006030/ownership.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001213900-20-006030:ownership.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001618789",
+            "0001618788",
+            "0001628048",
+            "0001728970",
+            "0001726403",
+            "0001658247"
+          ],
+          "period_ending": "2020-03-09",
+          "file_num": [
+            "001-38583",
+            "001-38583",
+            "001-38583",
+            "001-38583",
+            "001-38583"
+          ],
+          "display_names": [
+            "Vivo Capital VIII, LLC  (CIK 0001618789)",
+            "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+            "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+            "Vivo Opportunity, LLC  (CIK 0001728970)",
+            "Vivo Opportunity Fund, L.P.  (CIK 0001726403)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-03-11",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001213900-20-006030",
+          "film_num": [
+            "20706138",
+            "20706139",
+            "20706140",
+            "20706141",
+            "20706142"
+          ],
+          "biz_locations": [
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": null,
+          "inc_states": [
+            "DE",
+            "DE",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1583884800000,
+          "0001213900-20-006030:ownership.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001564590-20-009365:crnx-10k_20191231.htm",
+      "accession": "0001564590-20-009365",
+      "document_name": "crnx-10k_20191231.htm",
+      "form": "10-K",
+      "filed_date": "2020-03-09",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000156459020009365/crnx-10k_20191231.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001564590-20-009365:crnx-10k_20191231.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2019-12-31",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "10-K"
+          ],
+          "file_date": "2020-03-09",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "10-K",
+          "adsh": "0001564590-20-009365",
+          "film_num": [
+            "20698087"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "10-K",
+          "file_description": "10-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1583712000000,
+          "0001564590-20-009365:crnx-10k_20191231.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001564590-20-009362:crnx-8k_20200309.htm",
+      "accession": "0001564590-20-009362",
+      "document_name": "crnx-8k_20200309.htm",
+      "form": "8-K",
+      "filed_date": "2020-03-09",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000156459020009362/crnx-8k_20200309.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001564590-20-009362:crnx-8k_20200309.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247"
+          ],
+          "period_ending": "2020-03-09",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "8-K"
+          ],
+          "file_date": "2020-03-09",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "8-K",
+          "adsh": "0001564590-20-009362",
+          "film_num": [
+            "20698040"
+          ],
+          "biz_locations": [
+            "San Diego, CA"
+          ],
+          "file_type": "8-K",
+          "file_description": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ]
+        },
+        "sort": [
+          1583712000000,
+          "0001564590-20-009362:crnx-8k_20200309.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-012997:doc4.xml",
+      "accession": "0001209191-20-012997",
+      "document_name": "doc4.xml",
+      "form": "4",
+      "filed_date": "2020-02-26",
+      "ciks": [
+        "0001435775",
+        "0001658247"
+      ],
+      "display_names": [
+        "Krasner Alan Seth  (CIK 0001435775)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1435775/000120919120012997/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120012997/doc4.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-012997:doc4.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001435775",
+            "0001658247"
+          ],
+          "period_ending": "2020-02-24",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Krasner Alan Seth  (CIK 0001435775)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-02-26",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001209191-20-012997",
+          "film_num": [
+            "20655949"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1582675200000,
+          "0001209191-20-012997:doc4.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-012987:doc4.xml",
+      "accession": "0001209191-20-012987",
+      "document_name": "doc4.xml",
+      "form": "4",
+      "filed_date": "2020-02-26",
+      "ciks": [
+        "0001702265",
+        "0001658247"
+      ],
+      "display_names": [
+        "Wilson Marc  (CIK 0001702265)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1702265/000120919120012987/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120012987/doc4.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-012987:doc4.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001702265",
+            "0001658247"
+          ],
+          "period_ending": "2020-02-24",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Wilson Marc  (CIK 0001702265)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-02-26",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001209191-20-012987",
+          "film_num": [
+            "20655872"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1582675200000,
+          "0001209191-20-012987:doc4.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-012974:doc4.xml",
+      "accession": "0001209191-20-012974",
+      "document_name": "doc4.xml",
+      "form": "4",
+      "filed_date": "2020-02-26",
+      "ciks": [
+        "0001746298",
+        "0001658247"
+      ],
+      "display_names": [
+        "Struthers Richard Scott  (CIK 0001746298)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1746298/000120919120012974/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120012974/doc4.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-012974:doc4.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001746298",
+            "0001658247"
+          ],
+          "period_ending": "2020-02-24",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Struthers Richard Scott  (CIK 0001746298)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-02-26",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001209191-20-012974",
+          "film_num": [
+            "20655801"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1582675200000,
+          "0001209191-20-012974:doc4.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001172661-20-000650:orbimed-crnx123119.htm",
+      "accession": "0001172661-20-000650",
+      "document_name": "orbimed-crnx123119.htm",
+      "form": "SC 13G",
+      "filed_date": "2020-02-14",
+      "ciks": [
+        "0001658247",
+        "0001055951"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000117266120000650/orbimed-crnx123119.htm",
+        "https://www.sec.gov/Archives/edgar/data/1055951/000117266120000650/orbimed-crnx123119.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001172661-20-000650:orbimed-crnx123119.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247",
+            "0001055951"
+          ],
+          "period_ending": null,
+          "file_num": [
+            "005-90577"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+            "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "file_date": "2020-02-14",
+          "biz_states": [
+            "CA",
+            "NY"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "SC 13G",
+          "adsh": "0001172661-20-000650",
+          "film_num": [
+            "20616304"
+          ],
+          "biz_locations": [
+            "San Diego, CA",
+            "New York, NY"
+          ],
+          "file_type": "SC 13G",
+          "file_description": null,
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1581638400000,
+          "0001172661-20-000650:orbimed-crnx123119.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001104659-20-021136:a20-8045_1sc13ga.htm",
+      "accession": "0001104659-20-021136",
+      "document_name": "a20-8045_1sc13ga.htm",
+      "form": "SC 13G/A",
+      "filed_date": "2020-02-14",
+      "ciks": [
+        "0001658247",
+        "0001589097"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Versant Venture Capital V, L.P.  (CIK 0001589097)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000110465920021136/a20-8045_1sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1589097/000110465920021136/a20-8045_1sc13ga.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001104659-20-021136:a20-8045_1sc13ga.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247",
+            "0001589097"
+          ],
+          "period_ending": null,
+          "file_num": [
+            "005-90577"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+            "Versant Venture Capital V, L.P.  (CIK 0001589097)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "file_date": "2020-02-14",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "SC 13G/A",
+          "adsh": "0001104659-20-021136",
+          "film_num": [
+            "20616049"
+          ],
+          "biz_locations": [
+            "San Diego, CA",
+            "San Francisco, CA"
+          ],
+          "file_type": "SC 13G/A",
+          "file_description": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1581638400000,
+          "0001104659-20-021136:a20-8045_1sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001213900-20-003601:sc13g0220a1vivocap8_crine.htm",
+      "accession": "0001213900-20-003601",
+      "document_name": "sc13g0220a1vivocap8_crine.htm",
+      "form": "SC 13G/A",
+      "filed_date": "2020-02-13",
+      "ciks": [
+        "0001658247",
+        "0001618789"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Vivo Capital VIII, LLC  (CIK 0001618789)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000121390020003601/sc13g0220a1vivocap8_crine.htm",
+        "https://www.sec.gov/Archives/edgar/data/1618789/000121390020003601/sc13g0220a1vivocap8_crine.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001213900-20-003601:sc13g0220a1vivocap8_crine.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247",
+            "0001618789"
+          ],
+          "period_ending": null,
+          "file_num": [
+            "005-90577"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+            "Vivo Capital VIII, LLC  (CIK 0001618789)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "file_date": "2020-02-13",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "SC 13G/A",
+          "adsh": "0001213900-20-003601",
+          "film_num": [
+            "20611103"
+          ],
+          "biz_locations": [
+            "San Diego, CA",
+            "Palo Alto, CA"
+          ],
+          "file_type": "SC 13G/A",
+          "file_description": "AMENDMENT NO. 1 TO SCHEDULE 13G",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1581552000000,
+          "0001213900-20-003601:sc13g0220a1vivocap8_crine.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001564590-20-004205:crnx-sc13g.htm",
+      "accession": "0001564590-20-004205",
+      "document_name": "crnx-sc13g.htm",
+      "form": "SC 13G",
+      "filed_date": "2020-02-11",
+      "ciks": [
+        "0001658247",
+        "0001746298"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Struthers Richard Scott  (CIK 0001746298)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000156459020004205/crnx-sc13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/1746298/000156459020004205/crnx-sc13g.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001564590-20-004205:crnx-sc13g.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247",
+            "0001746298"
+          ],
+          "period_ending": null,
+          "file_num": [
+            "005-90577"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+            "Struthers Richard Scott  (CIK 0001746298)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "file_date": "2020-02-11",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "SC 13G",
+          "adsh": "0001564590-20-004205",
+          "film_num": [
+            "20596463"
+          ],
+          "biz_locations": [
+            "San Diego, CA",
+            ""
+          ],
+          "file_type": "SC 13G",
+          "file_description": "SC 13G",
+          "inc_states": [
+            "DE",
+            ""
+          ],
+          "items": []
+        },
+        "sort": [
+          1581379200000,
+          "0001564590-20-004205:crnx-sc13g.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001213900-20-003326:ownership.xml",
+      "accession": "0001213900-20-003326",
+      "document_name": "ownership.xml",
+      "form": "4",
+      "filed_date": "2020-02-11",
+      "ciks": [
+        "0001618789",
+        "0001618788",
+        "0001628048",
+        "0001728970",
+        "0001726403",
+        "0001658247"
+      ],
+      "display_names": [
+        "Vivo Capital VIII, LLC  (CIK 0001618789)",
+        "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+        "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+        "Vivo Opportunity, LLC  (CIK 0001728970)",
+        "Vivo Opportunity Fund, L.P.  (CIK 0001726403)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1618789/000121390020003326/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1618788/000121390020003326/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1628048/000121390020003326/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1728970/000121390020003326/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1726403/000121390020003326/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000121390020003326/ownership.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001213900-20-003326:ownership.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001618789",
+            "0001618788",
+            "0001628048",
+            "0001728970",
+            "0001726403",
+            "0001658247"
+          ],
+          "period_ending": "2020-02-07",
+          "file_num": [
+            "001-38583",
+            "001-38583",
+            "001-38583",
+            "001-38583",
+            "001-38583"
+          ],
+          "display_names": [
+            "Vivo Capital VIII, LLC  (CIK 0001618789)",
+            "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+            "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+            "Vivo Opportunity, LLC  (CIK 0001728970)",
+            "Vivo Opportunity Fund, L.P.  (CIK 0001726403)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-02-11",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001213900-20-003326",
+          "film_num": [
+            "20599446",
+            "20599447",
+            "20599448",
+            "20599449",
+            "20599450"
+          ],
+          "biz_locations": [
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "inc_states": [
+            "DE",
+            "DE",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1581379200000,
+          "0001213900-20-003326:ownership.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-008280:doc5.xml",
+      "accession": "0001209191-20-008280",
+      "document_name": "doc5.xml",
+      "form": "5",
+      "filed_date": "2020-02-11",
+      "ciks": [
+        "0001746298",
+        "0001658247"
+      ],
+      "display_names": [
+        "Struthers Richard Scott  (CIK 0001746298)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1746298/000120919120008280/doc5.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120008280/doc5.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-008280:doc5.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001746298",
+            "0001658247"
+          ],
+          "period_ending": "2019-12-31",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Struthers Richard Scott  (CIK 0001746298)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "5"
+          ],
+          "file_date": "2020-02-11",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "5",
+          "adsh": "0001209191-20-008280",
+          "film_num": [
+            "20596716"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "5",
+          "file_description": "FORM 5 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1581379200000,
+          "0001209191-20-008280:doc5.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-008272:doc5.xml",
+      "accession": "0001209191-20-008272",
+      "document_name": "doc5.xml",
+      "form": "5",
+      "filed_date": "2020-02-11",
+      "ciks": [
+        "0001435775",
+        "0001658247"
+      ],
+      "display_names": [
+        "Krasner Alan Seth  (CIK 0001435775)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1435775/000120919120008272/doc5.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120008272/doc5.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-008272:doc5.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001435775",
+            "0001658247"
+          ],
+          "period_ending": "2019-12-31",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Krasner Alan Seth  (CIK 0001435775)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "5"
+          ],
+          "file_date": "2020-02-11",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "5",
+          "adsh": "0001209191-20-008272",
+          "film_num": [
+            "20596602"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "5",
+          "file_description": "FORM 5 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1581379200000,
+          "0001209191-20-008272:doc5.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001209191-20-008269:doc5.xml",
+      "accession": "0001209191-20-008269",
+      "document_name": "doc5.xml",
+      "form": "5",
+      "filed_date": "2020-02-11",
+      "ciks": [
+        "0001702265",
+        "0001658247"
+      ],
+      "display_names": [
+        "Wilson Marc  (CIK 0001702265)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1702265/000120919120008269/doc5.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000120919120008269/doc5.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001209191-20-008269:doc5.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001702265",
+            "0001658247"
+          ],
+          "period_ending": "2019-12-31",
+          "file_num": [
+            "001-38583"
+          ],
+          "display_names": [
+            "Wilson Marc  (CIK 0001702265)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "5"
+          ],
+          "file_date": "2020-02-11",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "5",
+          "adsh": "0001209191-20-008269",
+          "film_num": [
+            "20596538"
+          ],
+          "biz_locations": [
+            "",
+            "San Diego, CA"
+          ],
+          "file_type": "5",
+          "file_description": "FORM 5 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1581379200000,
+          "0001209191-20-008269:doc5.xml"
+        ]
+      }
+    },
+    {
+      "id": "0000315066-20-000861:filing.txt",
+      "accession": "0000315066-20-000861",
+      "document_name": "filing.txt",
+      "form": "SC 13G/A",
+      "filed_date": "2020-02-07",
+      "ciks": [
+        "0001658247",
+        "0000315066"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000031506620000861/filing.txt",
+        "https://www.sec.gov/Archives/edgar/data/315066/000031506620000861/filing.txt"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0000315066-20-000861:filing.txt",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247",
+            "0000315066"
+          ],
+          "period_ending": null,
+          "file_num": [
+            "005-90577"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+            "FMR LLC  (CIK 0000315066)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "file_date": "2020-02-07",
+          "biz_states": [
+            "CA",
+            "MA"
+          ],
+          "sics": [
+            "2834",
+            "0000"
+          ],
+          "form": "SC 13G/A",
+          "adsh": "0000315066-20-000861",
+          "film_num": [
+            "20585546"
+          ],
+          "biz_locations": [
+            "San Diego, CA",
+            "Boston, MA"
+          ],
+          "file_type": "SC 13G/A",
+          "file_description": null,
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1581033600000,
+          "0000315066-20-000861:filing.txt"
+        ]
+      }
+    },
+    {
+      "id": "0001213900-20-002831:ownership.xml",
+      "accession": "0001213900-20-002831",
+      "document_name": "ownership.xml",
+      "form": "4",
+      "filed_date": "2020-02-06",
+      "ciks": [
+        "0001618789",
+        "0001618788",
+        "0001628048",
+        "0001728970",
+        "0001726403",
+        "0001658247"
+      ],
+      "display_names": [
+        "Vivo Capital VIII, LLC  (CIK 0001618789)",
+        "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+        "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+        "Vivo Opportunity, LLC  (CIK 0001728970)",
+        "Vivo Opportunity Fund, L.P.  (CIK 0001726403)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1618789/000121390020002831/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1618788/000121390020002831/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1628048/000121390020002831/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1728970/000121390020002831/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1726403/000121390020002831/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000121390020002831/ownership.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001213900-20-002831:ownership.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001618789",
+            "0001618788",
+            "0001628048",
+            "0001728970",
+            "0001726403",
+            "0001658247"
+          ],
+          "period_ending": "2020-02-04",
+          "file_num": [
+            "001-38583",
+            "001-38583",
+            "001-38583",
+            "001-38583",
+            "001-38583"
+          ],
+          "display_names": [
+            "Vivo Capital VIII, LLC  (CIK 0001618789)",
+            "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+            "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+            "Vivo Opportunity, LLC  (CIK 0001728970)",
+            "Vivo Opportunity Fund, L.P.  (CIK 0001726403)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-02-06",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001213900-20-002831",
+          "film_num": [
+            "20584195",
+            "20584196",
+            "20584197",
+            "20584198",
+            "20584199"
+          ],
+          "biz_locations": [
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": null,
+          "inc_states": [
+            "DE",
+            "DE",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1580947200000,
+          "0001213900-20-002831:ownership.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001104659-20-011470:a20-5745_2sc13ga.htm",
+      "accession": "0001104659-20-011470",
+      "document_name": "a20-5745_2sc13ga.htm",
+      "form": "SC 13G/A",
+      "filed_date": "2020-02-06",
+      "ciks": [
+        "0001658247",
+        "0001589315"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "5AM Ventures IV, L.P.  (CIK 0001589315)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1658247/000110465920011470/a20-5745_2sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1589315/000110465920011470/a20-5745_2sc13ga.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001104659-20-011470:a20-5745_2sc13ga.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001658247",
+            "0001589315"
+          ],
+          "period_ending": null,
+          "file_num": [
+            "005-90577"
+          ],
+          "display_names": [
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+            "5AM Ventures IV, L.P.  (CIK 0001589315)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "file_date": "2020-02-06",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "SC 13G/A",
+          "adsh": "0001104659-20-011470",
+          "film_num": [
+            "20580237"
+          ],
+          "biz_locations": [
+            "San Diego, CA",
+            "Menlo Park, CA"
+          ],
+          "file_type": "SC 13G/A",
+          "file_description": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1580947200000,
+          "0001104659-20-011470:a20-5745_2sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001213900-20-002314:ownership.xml",
+      "accession": "0001213900-20-002314",
+      "document_name": "ownership.xml",
+      "form": "4",
+      "filed_date": "2020-01-31",
+      "ciks": [
+        "0001618789",
+        "0001618788",
+        "0001628048",
+        "0001728970",
+        "0001726403",
+        "0001658247"
+      ],
+      "display_names": [
+        "Vivo Capital VIII, LLC  (CIK 0001618789)",
+        "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+        "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+        "Vivo Opportunity, LLC  (CIK 0001728970)",
+        "Vivo Opportunity Fund, L.P.  (CIK 0001726403)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1618789/000121390020002314/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1618788/000121390020002314/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1628048/000121390020002314/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1728970/000121390020002314/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1726403/000121390020002314/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1658247/000121390020002314/ownership.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001213900-20-002314:ownership.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001618789",
+            "0001618788",
+            "0001628048",
+            "0001728970",
+            "0001726403",
+            "0001658247"
+          ],
+          "period_ending": "2020-01-29",
+          "file_num": [
+            "001-38583",
+            "001-38583",
+            "001-38583",
+            "001-38583",
+            "001-38583"
+          ],
+          "display_names": [
+            "Vivo Capital VIII, LLC  (CIK 0001618789)",
+            "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+            "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+            "Vivo Opportunity, LLC  (CIK 0001728970)",
+            "Vivo Opportunity Fund, L.P.  (CIK 0001726403)",
+            "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2020-01-31",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001213900-20-002314",
+          "film_num": [
+            "20566620",
+            "20566621",
+            "20566622",
+            "20566623",
+            "20566624"
+          ],
+          "biz_locations": [
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "Palo Alto, CA",
+            "San Diego, CA"
+          ],
+          "file_type": "4",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "inc_states": [
+            "DE",
+            "DE",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1580428800000,
+          "0001213900-20-002314:ownership.xml"
+        ]
+      }
+    }
+  ],
+  "inventory_complete": true,
+  "outcome_label": null,
+  "limitations": [
+    "Complete currently observed SEC full-text search response for the declared exact CIK and dates; historical corrections, removed or misindexed filings remain possible.",
+    "Search results establish an inventory, not negative outcomes or document full-text review."
+  ]
+}

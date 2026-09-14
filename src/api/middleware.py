@@ -11,6 +11,7 @@ Provides:
 
 import time
 import logging
+from hmac import compare_digest
 from typing import Callable, Optional
 from datetime import datetime, timedelta
 
@@ -232,6 +233,8 @@ class AuthenticationMiddleware(BaseHTTPMiddleware):
 
     async def dispatch(self, request: Request, call_next: Callable) -> Response:
         """Process request with authentication."""
+        request.state.api_key = None
+        request.state.is_authenticated = False
         # Skip authentication for public paths
         if request.url.path in self.public_paths:
             return await call_next(request)
@@ -240,15 +243,16 @@ class AuthenticationMiddleware(BaseHTTPMiddleware):
         api_key = request.headers.get("X-API-Key")
 
         # Some endpoints may be public (handled by dependencies)
-        # This middleware just validates format if key is present
+        # A supplied key is authenticated only against an explicitly set secret.
         if api_key:
-            # Validate API key format
-            if not self._is_valid_api_key_format(api_key):
+            if not self.api_secret_key or not compare_digest(
+                api_key.encode("utf-8"), self.api_secret_key.encode("utf-8")
+            ):
                 return JSONResponse(
                     status_code=status.HTTP_401_UNAUTHORIZED,
                     content={
-                        "error": "Invalid API key format",
-                        "detail": "API key must be a valid format",
+                        "error": "Invalid API key",
+                        "detail": "API key was not authenticated",
                     },
                     headers={"WWW-Authenticate": "ApiKey"},
                 )
@@ -256,23 +260,7 @@ class AuthenticationMiddleware(BaseHTTPMiddleware):
             # Attach user context to request
             request.state.api_key = api_key
             request.state.is_authenticated = True
-        else:
-            request.state.api_key = None
-            request.state.is_authenticated = False
-
         return await call_next(request)
-
-    def _is_valid_api_key_format(self, api_key: str) -> bool:
-        """
-        Validate API key format.
-
-        In production, this would check against a database or key management system.
-        """
-        # Basic validation: key should be non-empty and alphanumeric
-        if not api_key or len(api_key) < 16:
-            return False
-
-        return True
 
 
 class ErrorHandlingMiddleware(BaseHTTPMiddleware):

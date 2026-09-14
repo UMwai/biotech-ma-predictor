@@ -1,0 +1,95 @@
+{
+  "cik": 1708493,
+  "evidence_paraphrase": "Archived original SEC EFTS JSON identifies accession 0001193125-24-018222, document d734477dprem14a.htm, issuer CIK 0001708493, form PREM14A and filed_date January 29, 2024. This agrees with the original preliminary proxy cover date. Current metadata retrieval remains in 2026.",
+  "matched_original_metadata_record": {
+    "accession": "0001193125-24-018222",
+    "candidate_document_uris": [
+      "https://www.sec.gov/Archives/edgar/data/1708493/000119312524018222/d734477dprem14a.htm"
+    ],
+    "ciks": [
+      "0001708493"
+    ],
+    "display_names": [
+      "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+    ],
+    "document_name": "d734477dprem14a.htm",
+    "filed_date": "2024-01-29",
+    "form": "PREM14A",
+    "id": "0001193125-24-018222:d734477dprem14a.htm",
+    "items": [],
+    "source_hit": {
+      "_id": "0001193125-24-018222:d734477dprem14a.htm",
+      "_index": "edgar_file",
+      "_score": null,
+      "_source": {
+        "adsh": "0001193125-24-018222",
+        "biz_locations": [
+          "South San Francisco, CA"
+        ],
+        "biz_states": [
+          "CA"
+        ],
+        "ciks": [
+          "0001708493"
+        ],
+        "display_names": [
+          "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+        ],
+        "file_date": "2024-01-29",
+        "file_description": "PREM14A",
+        "file_num": [
+          "001-38800"
+        ],
+        "file_type": "PREM14A",
+        "film_num": [
+          "24574363"
+        ],
+        "form": "PREM14A",
+        "inc_states": [
+          "DE"
+        ],
+        "items": [],
+        "period_ending": "2024-01-29",
+        "root_forms": [
+          "PREM14A"
+        ],
+        "sequence": 1,
+        "sics": [
+          "2836"
+        ],
+        "xsl": null
+      },
+      "sort": [
+        1706486400000,
+        "0001193125-24-018222:d734477dprem14a.htm"
+      ]
+    }
+  },
+  "original_document_uri": "https://www.sec.gov/Archives/edgar/data/1708493/000119312524018222/d734477dprem14a.htm",
+  "original_metadata_source_receipt": {
+    "content_type": "application/json",
+    "offset": 0,
+    "raw_bytes_archived": true,
+    "retrieved_at": "2026-09-08T20:01:44.569993+00:00",
+    "returned": 66,
+    "source_bytes": 47522,
+    "source_relative_path": "panel_seed/positive_reviews/HARP_publication_inventory/raw_sources/b83cc0f61a59a2fae75a8392c163ac09077eaa1073d143073b8c3ac6b259cc9f.json",
+    "source_sha256": "b83cc0f61a59a2fae75a8392c163ac09077eaa1073d143073b8c3ac6b259cc9f",
+    "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001708493&dateRange=custom&startdt=2024-01-01&enddt=2024-03-31&from=0&size=100",
+    "total": 66
+  },
+  "original_metadata_source_sha256": "b83cc0f61a59a2fae75a8392c163ac09077eaa1073d143073b8c3ac6b259cc9f",
+  "original_source_sha256": null,
+  "primary_source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001708493&dateRange=custom&startdt=2024-01-01&enddt=2024-03-31&from=0&size=100",
+  "publication_date": "2024-01-29",
+  "raw_bytes_archived": false,
+  "regulatory_inventory_receipt": {
+    "source_sha256": "930d0ddd3357e9926536e4c716d727f4649f5a54871ffae9615edc120a53edc5",
+    "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/HARP_publication_inventory/HARP_2024-01-01_2024-03-31.json"
+  },
+  "reviewed_at": "2026-09-08T20:02:58.622812+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "schema_version": "reviewed-publication-date-v1",
+  "source_locator": "Archived original SEC EFTS JSON identifies accession 0001193125-24-018222, document d734477dprem14a.htm, issuer CIK 0001708493, form PREM14A and filed_date January 29, 2024. This agrees with the original preliminary proxy cover date. Current metadata retrieval remains in 2026.",
+  "ticker": "HARP"
+}

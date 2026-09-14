@@ -52,6 +52,8 @@ coverage.xml
 
 # Environments
 .env
+.env.*
+!.env.*.example
 .venv
 env/
 venv/
@@ -74,6 +76,33 @@ reports/output/
 data/*.db
 data/market_evaluation/raw/
 data/study_integrity/raw/
+output/local_runs/
+output/local_latest.json
+data/reviewed_deals/
+output/evaluations/
+output/source_refresh/
+output/model_training/
+output/baseline_training/
+output/historical_financials/
+output/historical_panels/
+output/alpaca_market_data/
+output/alpaca_panels/
+output/sec_corpus/
+output/local_verification/
+output/backtest_results.json
+output/ma_scores.json
+output/watchlist_latest.json
+output/watchlist_latest.md
+data/history/**/raw/
+data/history/**/raw_*/
+data/history/**/*_route_sources/
+data/history/panel_financials/publication_sources/
+data/history/panel_financials/text/
+data/history/panel_seed/negative_reviews/*_pending_regulatory_review.json
+data/history/sec_financial_cache/
+data/history/sec_financial_raw/
+data/history/**/external_raw/
+.venv-model/
 .DS_Store
 
 # Secrets

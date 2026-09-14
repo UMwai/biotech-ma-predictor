@@ -1,0 +1,1053 @@
+{
+  "blockers": [
+    "Each company needs a historical continuous listing/security-identity interval or an explicit censoring event. Index additions are dated event evidence only.",
+    "Issuer press-release pagination and complete 8-K/6-K/tender/merger/termination filings must be enumerated across the entire twelve-month window.",
+    "Date-only publication evidence must retain uncertainty; no midnight event timestamps or invented provider hashes.",
+    "A full historical universe requires a baseline plus all changes, including intra-year removals; annual reconstitution deltas alone are incomplete.",
+    "Independent label review and point-in-time feature availability remain separate gates."
+  ],
+  "candidate_ledger_lineage": {
+    "path": "output/historical_deal_candidates/candidates.csv",
+    "sha256": "8637f8ba3613970d630e6839d75c48a308be54ca9d745f5f447e589d19fd6c7a",
+    "use": "Legal-name/CIK identity links only, never evidence of listing or a negative outcome."
+  },
+  "counts": {
+    "distinct_companies": 20,
+    "membership_announcements": 20,
+    "positive_acquisition_announcements_inside_proposed_windows": 2,
+    "reviewed_negative_windows": 0,
+    "unknown_outcome_windows": 18,
+    "validation_contract_ready_records": 0,
+    "verified_continuous_listing_intervals": 0
+  },
+  "created_at": "2026-09-08T14:06:26.246134+00:00",
+  "records": [
+    {
+      "historical_ticker": "AKUS",
+      "identity": {
+        "cik": 1722271,
+        "source_candidate_ids": [
+          "534764babbb24bde76d0"
+        ],
+        "verification": "candidate_ledger_legal_name_match"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "b94ce03bc3bfbdb5753c8fc7b5ae04cabb4a0a96ace3f2d5f56cb2db4c1b2ad1",
+      "record_id": "nbi-2020-12-21:AKUS",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Akouos, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "historical_ticker": "ALT",
+      "identity": {
+        "cik": null,
+        "source_candidate_ids": [],
+        "verification": "pending"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "ab81a2c084dd1110d9f324b07a38270ad267ec9cdfd85e3cea96fe9053de8b21",
+      "record_id": "nbi-2020-12-21:ALT",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Altimmune, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "historical_ticker": "ALVR",
+      "identity": {
+        "cik": null,
+        "source_candidate_ids": [],
+        "verification": "pending"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "3d43cc51fa8dc83505b40cd68239c76a3e03bb67f907231090c3ce72c7411ff3",
+      "record_id": "nbi-2020-12-21:ALVR",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "AlloVir, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "historical_ticker": "ALXO",
+      "identity": {
+        "cik": null,
+        "source_candidate_ids": [],
+        "verification": "pending"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "f0ebca349d4fe17d0c053af197252bc758376e7c2c2340713d9d67ed1baff52b",
+      "record_id": "nbi-2020-12-21:ALXO",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "ALX Oncology Holdings Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "historical_ticker": "AMTI",
+      "identity": {
+        "cik": 1801777,
+        "source_candidate_ids": [
+          "31aad72ad431bddc2a90"
+        ],
+        "verification": "candidate_ledger_legal_name_match"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "d891bc048ee72bccad540210e827c36a849762ef9f331f2904bc0ebe96e5a7a1",
+      "record_id": "nbi-2020-12-21:AMTI",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Applied Molecular Transport Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "historical_ticker": "ANNX",
+      "identity": {
+        "cik": null,
+        "source_candidate_ids": [],
+        "verification": "pending"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "0fcbb0ee148852e6d4f6eddf3bd75f870c88202cd0c90fc65687a453db115ba8",
+      "record_id": "nbi-2020-12-21:ANNX",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Annexon, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "historical_ticker": "APLT",
+      "identity": {
+        "cik": 1697532,
+        "source_candidate_ids": [
+          "8d21d3868374eca39a61"
+        ],
+        "verification": "candidate_ledger_legal_name_match"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "2333ea60a23253f22ffc8faba5a478b7f3938b78c7419ed0e436e6ee252d29a9",
+      "record_id": "nbi-2020-12-21:APLT",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Applied Therapeutics, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "historical_ticker": "APRE",
+      "identity": {
+        "cik": null,
+        "source_candidate_ids": [],
+        "verification": "pending"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "62ddbcc4f3ec8e7a235e5a6228ce13fa99516d2b1fe90b5adaaf9fd5d04feab6",
+      "record_id": "nbi-2020-12-21:APRE",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Aprea Therapeutics, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "bounded_primary_review": {
+        "archive_result": "web_tool_internal_error; full 2021 archive not enumerated",
+        "evidence": "The issuer identifies ARQT common stock on Nasdaq and dates its Nasdaq trading commencement to January 31, 2020. The stock-performance comparison extends through December 31, 2021. This establishes explicit historical listing observations, not a no-acquisition announcement assertion.",
+        "fiscal_period_end": "2021-12-31",
+        "issuer_archive_attempt": "https://investors.arcutis.com/news-and-presentations/news-releases?year=2021",
+        "reviewed_sections": [
+          "Cover listing table",
+          "Item 5: Market information and stock-performance comparison"
+        ],
+        "source_id": "arcutis_2021_10k",
+        "url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730622000009/arqt-20211231.htm"
+      },
+      "historical_ticker": "ARQT",
+      "identity": {
+        "cik": 1787306,
+        "primary_source_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730622000009/arqt-20211231.htm",
+        "source_candidate_ids": [],
+        "verification": "SEC_annual_filing_cover_or_index"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "common_equity",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "326c11dd4fbef0e3ffe2861413a2653b4a7e8148d3276e4d4ec7d80428188de3",
+      "record_id": "nbi-2020-12-21:ARQT",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Arcutis Biotherapeutics, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "historical_ticker": "BDTX",
+      "identity": {
+        "cik": null,
+        "source_candidate_ids": [],
+        "verification": "pending"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "44803308b295d1846749ca2db6e4bd50405cf2591fc4cbe3f421197996e914bb",
+      "record_id": "nbi-2020-12-21:BDTX",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Black Diamond Therapeutics, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "bounded_primary_review": {
+        "announcement_date": "2021-02-23",
+        "archive_result": "web_tool_internal_error; full 2021 archive not enumerated",
+        "evidence": "Beam identifies itself as Nasdaq BEAM and announces its purchase of Guide Therapeutics. Beam is the acquirer, not the target; this transaction is not a positive acquisition-of-Beam label. The single release does not establish a full-year negative outcome.",
+        "issuer_archive_attempt": "https://investors.beamtx.com/news-events/press-releases?year=2021",
+        "reviewed_sections": [
+          "Dateline and acquisition description"
+        ],
+        "source_id": "beam_guide_2021_release",
+        "url": "https://investors.beamtx.com/news-releases/news-release-details/beam-therapeutics-announces-acquisition-guide-therapeutics"
+      },
+      "historical_ticker": "BEAM",
+      "identity": {
+        "cik": 1745999,
+        "primary_source_url": "https://www.sec.gov/Archives/edgar/data/156459021013190/0001564590-21-013190-index.html",
+        "source_candidate_ids": [],
+        "verification": "SEC_annual_filing_cover_or_index"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "4cf7ae2e52e0cffdc3f0d47204c876d28aac456198c39e0f0e70721d8055c376",
+      "record_id": "nbi-2020-12-21:BEAM",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Beam Therapeutics Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "historical_ticker": "CABA",
+      "identity": {
+        "cik": null,
+        "source_candidate_ids": [],
+        "verification": "pending"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "d2d5e9dba3c46bea3057dd099fa6bc35a783fe5e1163989c32363ce3be69b2f7",
+      "record_id": "nbi-2020-12-21:CABA",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Cabaletta Bio, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "historical_ticker": "CALA",
+      "identity": {
+        "cik": 1496671,
+        "source_candidate_ids": [
+          "9273ad5779622f0b7f7b"
+        ],
+        "verification": "candidate_ledger_legal_name_match"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "6e80fba8d634f06f020b289bf5ab0e9af230319b554b2709a75bdbda59758252",
+      "record_id": "nbi-2020-12-21:CALA",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Calithera Biosciences, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "historical_ticker": "CDXS",
+      "identity": {
+        "cik": null,
+        "source_candidate_ids": [],
+        "verification": "pending"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "6f0d46f595ebefa2c43ab4fd823cdbc88de5c8f1ce47e7800eb869e5c6d73e46",
+      "record_id": "nbi-2020-12-21:CDXS",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Codexis, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "historical_ticker": "CLVS",
+      "identity": {
+        "cik": null,
+        "source_candidate_ids": [],
+        "verification": "pending"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "d7300a6954062ab8762e3de9fe6e1c5311b6398b4ec34b7314e3ec7829d0159c",
+      "record_id": "nbi-2020-12-21:CLVS",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Clovis Oncology, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "historical_ticker": "CNCE",
+      "identity": {
+        "cik": 1367920,
+        "source_candidate_ids": [
+          "bc6bd48ec7b7000c08d5"
+        ],
+        "verification": "candidate_ledger_legal_name_match"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "77c6eedbb84abf96ab475a553306c1883bc5511ce6fac4ffebaa946f4c1f7689",
+      "record_id": "nbi-2020-12-21:CNCE",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Concert Pharmaceuticals, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "bounded_primary_review": {
+        "evidence": "Primary announcement was reopened in this control review and corroborates the buyer, dated definitive whole-company agreement and target ticker. Outcome is the announcement, not later closing.",
+        "primary_source_url": "https://www.sec.gov/Archives/edgar/data/1434418/000119312521180060/d182948dex992.htm",
+        "reviewed_sections": [
+          "Opening dateline",
+          "Transaction terms"
+        ]
+      },
+      "historical_ticker": "CNST",
+      "identity": {
+        "cik": 1434418,
+        "source_candidate_ids": [
+          "6a5a1e6d99e311985717"
+        ],
+        "verification": "candidate_ledger_legal_name_match"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "common_equity",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "acquirer_name": "MorphoSys AG",
+        "announcement_date": "2021-06-02",
+        "censoring_state": "positive_event_observed_before_window_end",
+        "event_class": "change_of_control_announcement",
+        "first_public_announcement_at": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Not eligible as a negative control: whole-company acquisition announcement falls within the proposed window. Full listing interval and pre-event risk-set eligibility still need review.",
+        "primary_source_url": "https://www.sec.gov/Archives/edgar/data/1434418/000119312521180060/d182948dex992.htm",
+        "reviewed_negative": false,
+        "source_review_candidate_id": "6a5a1e6d99e311985717",
+        "timestamp_precision": "date"
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "b5da4a98153f9120969658e2c6a4da388e582714f05584966c1bcc50daf89f91",
+      "record_id": "nbi-2020-12-21:CNST",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Constellation Pharmaceuticals, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "bounded_primary_review": {
+        "archive_result": "opened web page omitted historical release inventory; direct HTTP 403; search snippets are not a complete archive",
+        "evidence": "The issuer identifies Nasdaq CRNX common stock. The October 2021 Radionetics transaction grants a technology license in exchange for equity in a newly formed company; it does not announce sale of Crinetics. A search-index view shows 2021 archive headings, but the opened archive returned a shell and direct retrieval returned HTTP 403.",
+        "fiscal_period_end": "2021-12-31",
+        "issuer_archive_attempt": "https://ir.crinetics.com/news/default.aspx",
+        "reviewed_sections": [
+          "Cover listing table",
+          "Item 1: Radionetics Oncology",
+          "Note 8: Radionetics Oncology"
+        ],
+        "source_id": "crinetics_2021_10k",
+        "url": "https://www.sec.gov/Archives/edgar/data/1658247/000095017022005050/crnx-20211231.htm"
+      },
+      "historical_ticker": "CRNX",
+      "identity": {
+        "cik": 1658247,
+        "primary_source_url": "https://www.sec.gov/Archives/edgar/data/1658247/000095017022005050/crnx-20211231.htm",
+        "source_candidate_ids": [],
+        "verification": "SEC_annual_filing_cover_or_index"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "common_equity",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "ac942b6e57d7feda2e2c07cb18e65603bf23436bbf576d362f414be7a1a55805",
+      "record_id": "nbi-2020-12-21:CRNX",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Crinetics Pharmaceuticals, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "historical_ticker": "CRTX",
+      "identity": {
+        "cik": null,
+        "source_candidate_ids": [],
+        "verification": "pending"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "not_yet_verified",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "censoring_state": "unknown",
+        "event_class": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Full issuer announcement and regulatory event inventory for the entire window has not been reviewed; missing known positive labels is not a negative.",
+        "reviewed_negative": false
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "ec17044c4b2146d473a45460d57f1373fffac68ded12eb1d7be313231c359bc9",
+      "record_id": "nbi-2020-12-21:CRTX",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Cortexyme, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    },
+    {
+      "bounded_primary_review": {
+        "evidence": "Primary announcement was reopened in this control review and corroborates the buyer, dated definitive whole-company agreement and target ticker. Outcome is the announcement, not later closing.",
+        "primary_source_url": "https://www.amgen.com/newsroom/press-releases/2021/03/amgen-to-acquire-five-prime-therapeutics-for-%241-9-billion-in-cash",
+        "reviewed_sections": [
+          "Opening dateline",
+          "Transaction terms"
+        ]
+      },
+      "historical_ticker": "FPRX",
+      "identity": {
+        "cik": 1175505,
+        "source_candidate_ids": [
+          "1dbbd5563e1fc3c82d94"
+        ],
+        "verification": "candidate_ledger_legal_name_match"
+      },
+      "membership_evidence": {
+        "addition_execution_independently_verified": false,
+        "announced_effective_date": "2020-12-21",
+        "announced_effective_session": "before_market_open",
+        "biotech_or_pharmaceutical_classification": "NBI inclusion criteria per exchange announcement; narrower biotech eligibility requires issuer review",
+        "exchange": "NASDAQ",
+        "historical_listing_interval_verified": false,
+        "index": "NBI",
+        "kind": "announced_historical_index_addition",
+        "security_type": "common_equity",
+        "source_id": "nasdaq_nbi_2020_reconstitution",
+        "source_publication_date": "2020-12-11",
+        "source_timestamp_precision": "date",
+        "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "outcome": {
+        "acquirer_name": "Amgen Inc.",
+        "announcement_date": "2021-03-04",
+        "censoring_state": "positive_event_observed_before_window_end",
+        "event_class": "change_of_control_announcement",
+        "first_public_announcement_at": null,
+        "full_window_ascertainment_complete": false,
+        "observed_through": null,
+        "pending_review_reason": "Not eligible as a negative control: whole-company acquisition announcement falls within the proposed window. Full listing interval and pre-event risk-set eligibility still need review.",
+        "primary_source_url": "https://www.amgen.com/newsroom/press-releases/2021/03/amgen-to-acquire-five-prime-therapeutics-for-%241-9-billion-in-cash",
+        "reviewed_negative": false,
+        "source_review_candidate_id": "1dbbd5563e1fc3c82d94",
+        "timestamp_precision": "date"
+      },
+      "proposed_outcome_window": {
+        "from_date": "2020-12-21",
+        "horizon_days": 365,
+        "semantics": "Research window to ascertain; these boundaries do not assert completed observation or continuous membership",
+        "through_date": "2021-12-21"
+      },
+      "receipt_sha256": "561a8eae0838e18acc06f7febf0be61b42d6a21899c804b775bbb8b69f2804d2",
+      "record_id": "nbi-2020-12-21:FPRX",
+      "reviewed_at": "2026-09-08T14:06:26.246134+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "target_name": "Five Prime Therapeutics, Inc.",
+      "training_allowed": false,
+      "validation_contract_ready": false
+    }
+  ],
+  "schema_version": "historical-control-research-receipts-v1",
+  "scope": "20 distinct named additions from the exchange 2020 NBI reconstitution; partial historical event population, not current survivors or annual SEC filing proxies.",
+  "selection_method": "Purposive subset for feasibility review; excludes obvious foreign depositary-share names but common-equity status remains individually unverified except specified records.",
+  "source_review_method": "Primary exchange announcements and selected issuer disclosures accessed via web browser. Direct non-SEC downloads are separately receipted. No programmatic SEC network calls.",
+  "training_allowed": false,
+  "validation_contract_ready_records": []
+}

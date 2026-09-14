@@ -1,0 +1,45 @@
+{
+  "blockers": [
+    "independent label-quality audit and complete event ascertainment",
+    "historical exchange membership including delisted controls",
+    "point-in-time company observations and complete/censored outcome windows"
+  ],
+  "by_announcement_year": {
+    "2018": 7,
+    "2019": 6,
+    "2020": 6,
+    "2021": 8,
+    "2022": 6,
+    "2023": 7,
+    "2024": 8,
+    "2025": 6
+  },
+  "eligible_feature_observations": 18,
+  "financial_feature_snapshot_sha256": "6560506ac4592f11664b0ee31efd184639b3e23aebbb75a6dbf5f919f6fd2e60",
+  "frozen_labels_path": "data/reviewed_deals/8e28d32782f9d8079d9e2c1e2c9594d794c4e57f9e280cc485d077c9466d6bd2.json",
+  "frozen_labels_sha256": "8e28d32782f9d8079d9e2c1e2c9594d794c4e57f9e280cc485d077c9466d6bd2",
+  "historical_financial_issuers": 8,
+  "historical_financial_records": 8,
+  "input_sha256": {
+    "data/history/control_seed/review_inputs.json": "b0e806bae2c08dffe366061e3e1948872e35271a729375e6d61b901e3e7f655e",
+    "data/history/evidence_2018_2021.json": "d0d1eb441757fb3b30a25488b3b75e5d6040e2afe2e57be3b9a7dbcaed0e324c",
+    "data/history/evidence_2021_additional.json": "e863a69ac89c1f58990183045a06a6a9cebbd517e0b0a806ef2c05f1984335f1",
+    "data/history/evidence_2022_2025.json": "87201d1f4b92336b8af1ee0a40cbd709590d6b392139d9dc08e677edc52d1a44",
+    "data/history/evidence_2023_2024_cohort.json": "06945cc782e858d427af011c809673f46ee80c9e61f06d275d5f18635ce304f9",
+    "data/history/reviews_2018_2021.csv": "617e27bf749ce6e03eee347288352dfe63256245c0897a9e8082962c9d1f01da",
+    "data/history/reviews_2021_additional.csv": "d8b848d29ee4c6b847c7fe2722f61ccddcb89f5cf5b0786790256ecec0f6f838",
+    "data/history/reviews_2022_2025.csv": "f919b09d39dc4f91e7078e4dbdc6a24a6ed1d1d50ca7f28e09dfab6d3c1a66d8",
+    "data/history/reviews_2023_2024_cohort.csv": "ff04a66e05494d4d251f9ac5471850b28af147e994c3b07eec5a254f7d2ab227",
+    "output/historical_deal_candidates/candidates.csv": "8637f8ba3613970d630e6839d75c48a308be54ca9d745f5f447e589d19fd6c7a"
+  },
+  "model_trained_on_real_data": false,
+  "next_step": "Acquire historical listing membership, reviewed outcome windows, and features published before each observation date.",
+  "pending_candidates": 282,
+  "review_method": "Codex primary-source review; independent audit outstanding",
+  "reviewed_control_snapshot_sha256": "9a425299a86db973ea56cacd30db35c97f2af4a4c5d7ca5b7ab3c903ab0c96f3",
+  "reviewed_negative_company_windows": 1,
+  "reviewed_positive_announcements": 54,
+  "schema_version": "historical-training-readiness-v1",
+  "status": "data_incomplete",
+  "training_allowed": false
+}

@@ -1,0 +1,11 @@
+{
+  "attempted_at": "2026-09-13T16:07:16.167549+00:00",
+  "automatic_retry_allowed": false,
+  "error": "The read operation timed out",
+  "error_type": "TimeoutError",
+  "http_status": null,
+  "name": "ALT_2021_02_25_8K",
+  "outcome_label": null,
+  "source_url": "https://ir.altimmune.com/static-files/4c90139f-8be3-403b-b494-d5b47f3c910d",
+  "status": "failed"
+}

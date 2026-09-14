@@ -1,0 +1,98 @@
+{
+  "approved_membership_valid_from": "2020-09-30T00:00:00+00:00",
+  "as_known_at_observation_verified": false,
+  "cohort_entry_at": "2020-12-21T00:00:00+00:00",
+  "cohort_selection_changed": false,
+  "document_filer_cik": 1492426,
+  "evidence_paraphrase": "The original Horizon offer names Viela Bio common shares and identifies Nasdaq symbol VIE. Section 6 reports that same security's Nasdaq trading history for fourth-quarter 2019 and all four quarters of 2020, followed by first-quarter 2021 through February 11. This historical trading disclosure covers the required 2020 lookback; later offer terms and prices are not feature inputs.",
+  "historical_identity_reconstruction": true,
+  "immutable_document_uri": "https://www.sec.gov/Archives/edgar/data/1492426/000119312521039920/d118403dex99a1i.htm",
+  "independent_human_review": false,
+  "issuer": {
+    "cik": 1734517,
+    "company_name": "Viela Bio, Inc.",
+    "ticker": "VIE"
+  },
+  "labels_or_outcome_clocks_changed": false,
+  "limitations": [
+    "Actual review and capture occurred in September 2026; this is retrospective identity adjudication, not a contemporaneous archived review.",
+    "The archived bytes are the actual web-tool representation, not original SEC HTML. Immutable accession-specific SEC URLs identify the original disclosures.",
+    "The interval establishes reviewed common-security identity and exchange history; it does not assert uninterrupted executable liquidity, complete corporate-action coverage or daily absence of trading halts.",
+    "Post-observation filing text is used only to reconstruct historical security identity. No offer prices, acquisition terms or later financial disclosures are market-feature values."
+  ],
+  "original_publisher_bytes_archived": false,
+  "original_source_sha256": null,
+  "preserved_membership_valid_until": "2021-02-11T00:00:00+00:00",
+  "primary_source_uri": "https://www.sec.gov/Archives/edgar/data/1492426/000119312521039920/d118403dex99a1i.htm",
+  "prior_membership_review": {
+    "source_bytes": 2911,
+    "source_relative_path": "positive_reviews/listing_lookback_20260913/VIE_membership_review_prior_ca1a389cb3387c4ab17824aafda814f4fcb2f290db4d5150f5c1bbca16f9d497.json",
+    "source_sha256": "ca1a389cb3387c4ab17824aafda814f4fcb2f290db4d5150f5c1bbca16f9d497",
+    "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/VIE_membership_review_prior_ca1a389cb3387c4ab17824aafda814f4fcb2f290db4d5150f5c1bbca16f9d497.json"
+  },
+  "publication_date": null,
+  "publication_time_limitation": "Document dateline/signature was reviewed; an independently accessible filing-index publication or acceptance time was not obtained. No publication clock is backdated from this review.",
+  "publication_timestamp_precision": "unverified",
+  "raw_download_probe": {
+    "source_bytes": 319,
+    "source_relative_path": "positive_reviews/listing_lookback_20260913/VIE_raw_probe.json",
+    "source_sha256": "d1d0fad5d6e134b6205667b30e78c7e40678c214bdaf144fa4cf3533023685ad",
+    "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/VIE_raw_probe.json"
+  },
+  "requested_lookback_end_date": "2020-12-30",
+  "requested_lookback_start_date": "2020-09-30",
+  "review_scope": "Retrospective same-issuer common-equity listing and ticker identity for the bounded market-feature lookback, using explicit historical trading disclosures. Not a new outcome or pending-transaction review.",
+  "reviewed_at": "2026-09-13T16:15:03.687486+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "schema_version": "reviewed-listing-lookback-v1",
+  "source_captures": [
+    {
+      "original_publisher_bytes_archived": false,
+      "original_source_sha256": null,
+      "retrieval_timestamp_basis": "Conservative current-session capture upper bound; exact HTTP retrieval time not exposed by web tool.",
+      "retrieved_at": "2026-09-13T16:13:05Z",
+      "source_bytes": 34987,
+      "source_content_format": "browser_extract",
+      "source_relative_path": "positive_reviews/listing_lookback_20260913/listing_tables_20260913_capture.json",
+      "source_sha256": "3facf81f7416c1551d5aba64251a30dd55a446961352903fe6ce28eec11aafc6",
+      "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/listing_tables_20260913_capture.json",
+      "transport_representation": "web_tool_extracted_text_response"
+    },
+    {
+      "original_publisher_bytes_archived": false,
+      "original_source_sha256": null,
+      "retrieval_timestamp_basis": "Conservative current-session capture upper bound; exact HTTP retrieval time not exposed by web tool.",
+      "retrieved_at": "2026-09-13T16:13:05Z",
+      "source_bytes": 33284,
+      "source_content_format": "browser_extract",
+      "source_relative_path": "positive_reviews/listing_lookback_20260913/listing_identity_dates_20260913_capture.json",
+      "source_sha256": "86ba0a9607eaca80f96b166310965e9e3bd8a53265c36e4f3889fe8f3d9b6df3",
+      "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/listing_identity_dates_20260913_capture.json",
+      "transport_representation": "web_tool_extracted_text_response"
+    },
+    {
+      "original_publisher_bytes_archived": false,
+      "original_source_sha256": null,
+      "retrieval_timestamp_basis": "Conservative current-session capture upper bound; exact HTTP retrieval time not exposed by web tool.",
+      "retrieved_at": "2026-09-13T16:13:05Z",
+      "source_bytes": 33575,
+      "source_content_format": "browser_extract",
+      "source_relative_path": "positive_reviews/listing_lookback_20260913/listing_document_dates_20260913_capture.json",
+      "source_sha256": "1ab24b2a247f3568607675cfac8260d634c41985fca6b3f7a420c4fff954119a",
+      "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/listing_document_dates_20260913_capture.json",
+      "transport_representation": "web_tool_extracted_text_response"
+    }
+  ],
+  "source_content_format": "browser_extract",
+  "source_document_date": "2021-02-12",
+  "source_document_date_basis": "Offer to Purchase dated February 12, 2021, browser lines 53 and 1578; separate SEC index acceptance timestamp unavailable",
+  "source_document_date_precision": "date",
+  "source_locator": "Offer to Purchase cover, browser lines 7-36; Section 6, printed page 22, lines 595-608; document date line 53",
+  "source_sha256_kind": "source_review_receipt",
+  "subject_cik": 1734517,
+  "subject_identity_evidence": {
+    "document_role": "acquirer_filed_offer_for_named_target_common_stock",
+    "source_locator": "Cover explicitly names target and all outstanding common shares; Section 6 binds those defined Shares to the target ticker. Existing target Schedule 14D-9 identifies the target CIK.",
+    "target_identity_source_uri": "https://www.sec.gov/Archives/edgar/data/1734517/000119312521040169/d130262dsc14d9.htm"
+  }
+}

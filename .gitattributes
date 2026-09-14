@@ -1,0 +1,2 @@
+# Reviewed CSV bytes are hash-bound evidence; preserve their original line endings.
+data/history/**/*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

@@ -1,0 +1,1239 @@
+{
+  "cik": 1745999,
+  "end_date": "2022-03-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:53:39.740085+00:00",
+      "returned": 17,
+      "source_bytes": 13601,
+      "source_relative_path": "raw_sources/affe9eec8883d0a9cbca5bf1394d369982cca21cb169a36a83aa577003068425.json",
+      "source_sha256": "affe9eec8883d0a9cbca5bf1394d369982cca21cb169a36a83aa577003068425",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001745999&dateRange=custom&startdt=2022-01-01&enddt=2022-03-31&from=0&size=100",
+      "total": 17
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001193125-22-055894",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1745999/000119312522055894/d313692ds8.htm"
+      ],
+      "ciks": [
+        "0001745999"
+      ],
+      "display_names": [
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+      ],
+      "document_name": "d313692ds8.htm",
+      "filed_date": "2022-02-28",
+      "form": "S-8",
+      "id": "0001193125-22-055894:d313692ds8.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-22-055894:d313692ds8.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-22-055894",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001745999"
+          ],
+          "display_names": [
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+          ],
+          "file_date": "2022-02-28",
+          "file_description": "S-8",
+          "file_num": [
+            "333-263067"
+          ],
+          "file_type": "S-8",
+          "film_num": [
+            "22684055"
+          ],
+          "form": "S-8",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1646006400000,
+          "0001193125-22-055894:d313692ds8.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-22-002166",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1745999/000095017022002166/beam-20211231.htm"
+      ],
+      "ciks": [
+        "0001745999"
+      ],
+      "display_names": [
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+      ],
+      "document_name": "beam-20211231.htm",
+      "filed_date": "2022-02-28",
+      "form": "10-K",
+      "id": "0000950170-22-002166:beam-20211231.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-22-002166:beam-20211231.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-22-002166",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001745999"
+          ],
+          "display_names": [
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+          ],
+          "file_date": "2022-02-28",
+          "file_description": "10-K",
+          "file_num": [
+            "001-39208"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "22683923"
+          ],
+          "form": "10-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1646006400000,
+          "0000950170-22-002166:beam-20211231.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-22-002162",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1745999/000095017022002162/beam-20220228.htm"
+      ],
+      "ciks": [
+        "0001745999"
+      ],
+      "display_names": [
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+      ],
+      "document_name": "beam-20220228.htm",
+      "filed_date": "2022-02-28",
+      "form": "8-K",
+      "id": "0000950170-22-002162:beam-20220228.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0000950170-22-002162:beam-20220228.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-22-002162",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001745999"
+          ],
+          "display_names": [
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+          ],
+          "file_date": "2022-02-28",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39208"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22683873"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2022-02-28",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1646006400000,
+          "0000950170-22-002162:beam-20220228.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-22-039200",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1745999/000119312522039200/d310026dsc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1021944/000119312522039200/d310026dsc13ga.htm"
+      ],
+      "ciks": [
+        "0001745999",
+        "0001021944"
+      ],
+      "display_names": [
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+        "Temasek Holdings (Private) Ltd  (CIK 0001021944)"
+      ],
+      "document_name": "d310026dsc13ga.htm",
+      "filed_date": "2022-02-14",
+      "form": "SC 13G/A",
+      "id": "0001193125-22-039200:d310026dsc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-22-039200:d310026dsc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-22-039200",
+          "biz_locations": [
+            "Cambridge, MA",
+            "Singapore, U0"
+          ],
+          "biz_states": [
+            "MA",
+            "U0"
+          ],
+          "ciks": [
+            "0001745999",
+            "0001021944"
+          ],
+          "display_names": [
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+            "Temasek Holdings (Private) Ltd  (CIK 0001021944)"
+          ],
+          "file_date": "2022-02-14",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-91369"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22624945"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "U0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644796800000,
+          "0001193125-22-039200:d310026dsc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-023120",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1745999/000110465922023120/tm226094d1_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1425738/000110465922023120/tm226094d1_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001745999",
+        "0001425738"
+      ],
+      "display_names": [
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+        "Redmile Group, LLC  (CIK 0001425738)"
+      ],
+      "document_name": "tm226094d1_sc13ga.htm",
+      "filed_date": "2022-02-14",
+      "form": "SC 13G/A",
+      "id": "0001104659-22-023120:tm226094d1_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-023120:tm226094d1_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-023120",
+          "biz_locations": [
+            "Cambridge, MA",
+            "San Francisco, CA"
+          ],
+          "biz_states": [
+            "MA",
+            "CA"
+          ],
+          "ciks": [
+            "0001745999",
+            "0001425738"
+          ],
+          "display_names": [
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+            "Redmile Group, LLC  (CIK 0001425738)"
+          ],
+          "file_date": "2022-02-14",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-91369"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22634475"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644796800000,
+          "0001104659-22-023120:tm226094d1_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001072613-22-000149",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1745999/000107261322000149/arch-sch13g_18587.htm",
+        "https://www.sec.gov/Archives/edgar/data/1666306/000107261322000149/arch-sch13g_18587.htm"
+      ],
+      "ciks": [
+        "0001745999",
+        "0001666306"
+      ],
+      "display_names": [
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+        "ARCH Venture Fund IX, L.P.  (CIK 0001666306)"
+      ],
+      "document_name": "arch-sch13g_18587.htm",
+      "filed_date": "2022-02-14",
+      "form": "SC 13G/A",
+      "id": "0001072613-22-000149:arch-sch13g_18587.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001072613-22-000149:arch-sch13g_18587.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001072613-22-000149",
+          "biz_locations": [
+            "Cambridge, MA",
+            "Chicago, IL"
+          ],
+          "biz_states": [
+            "MA",
+            "IL"
+          ],
+          "ciks": [
+            "0001745999",
+            "0001666306"
+          ],
+          "display_names": [
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+            "ARCH Venture Fund IX, L.P.  (CIK 0001666306)"
+          ],
+          "file_date": "2022-02-14",
+          "file_description": "ARCH VENTURE FUND IX, L.P. - BEAM THERAPEUTICS -- SCH 13G/A(#1)",
+          "file_num": [
+            "005-91369"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22627831"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644796800000,
+          "0001072613-22-000149:arch-sch13g_18587.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000902664-22-001711",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1745999/000090266422001711/p22-0118sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1762304/000090266422001711/p22-0118sc13ga.htm"
+      ],
+      "ciks": [
+        "0001745999",
+        "0001762304"
+      ],
+      "display_names": [
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+        "HHLR ADVISORS, LTD.  (CIK 0001762304)"
+      ],
+      "document_name": "p22-0118sc13ga.htm",
+      "filed_date": "2022-02-14",
+      "form": "SC 13G/A",
+      "id": "0000902664-22-001711:p22-0118sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000902664-22-001711:p22-0118sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000902664-22-001711",
+          "biz_locations": [
+            "Cambridge, MA",
+            "Grand Cayman, E9"
+          ],
+          "biz_states": [
+            "MA",
+            "E9"
+          ],
+          "ciks": [
+            "0001745999",
+            "0001762304"
+          ],
+          "display_names": [
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+            "HHLR ADVISORS, LTD.  (CIK 0001762304)"
+          ],
+          "file_date": "2022-02-14",
+          "file_description": "BEAM THERAPEUTICS INC.",
+          "file_num": [
+            "005-91369"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22631310"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "E9"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644796800000,
+          "0000902664-22-001711:p22-0118sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-016611",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1745999/000110465922016611/tv0389-beamtherapeuticsinc.htm",
+        "https://www.sec.gov/Archives/edgar/data/102909/000110465922016611/tv0389-beamtherapeuticsinc.htm"
+      ],
+      "ciks": [
+        "0001745999",
+        "0000102909"
+      ],
+      "display_names": [
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+        "VANGUARD GROUP INC  (CIK 0000102909)"
+      ],
+      "document_name": "tv0389-beamtherapeuticsinc.htm",
+      "filed_date": "2022-02-09",
+      "form": "SC 13G",
+      "id": "0001104659-22-016611:tv0389-beamtherapeuticsinc.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-016611:tv0389-beamtherapeuticsinc.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-016611",
+          "biz_locations": [
+            "Cambridge, MA",
+            "Valley Forge, PA"
+          ],
+          "biz_states": [
+            "MA",
+            "PA"
+          ],
+          "ciks": [
+            "0001745999",
+            "0000102909"
+          ],
+          "display_names": [
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+            "VANGUARD GROUP INC  (CIK 0000102909)"
+          ],
+          "file_date": "2022-02-09",
+          "file_description": "SCHEDULE 13G",
+          "file_num": [
+            "005-91369"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "22606539"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "PA"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644364800000,
+          "0001104659-22-016611:tv0389-beamtherapeuticsinc.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-016108",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1745999/000110465922016108/tm225659d20_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1697748/000110465922016108/tm225659d20_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001745999",
+        "0001697748"
+      ],
+      "display_names": [
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+        "ARK Investment Management LLC  (CIK 0001697748)"
+      ],
+      "document_name": "tm225659d20_sc13ga.htm",
+      "filed_date": "2022-02-09",
+      "form": "SC 13G/A",
+      "id": "0001104659-22-016108:tm225659d20_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-016108:tm225659d20_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-016108",
+          "biz_locations": [
+            "Cambridge, MA",
+            "St. Petersburg, FL"
+          ],
+          "biz_states": [
+            "MA",
+            "FL"
+          ],
+          "ciks": [
+            "0001745999",
+            "0001697748"
+          ],
+          "display_names": [
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+            "ARK Investment Management LLC  (CIK 0001697748)"
+          ],
+          "file_date": "2022-02-09",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-91369"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22605768"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644364800000,
+          "0001104659-22-016108:tm225659d20_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000315066-22-000842",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1745999/000031506622000842/filing.txt",
+        "https://www.sec.gov/Archives/edgar/data/315066/000031506622000842/filing.txt"
+      ],
+      "ciks": [
+        "0001745999",
+        "0000315066"
+      ],
+      "display_names": [
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "document_name": "filing.txt",
+      "filed_date": "2022-02-09",
+      "form": "SC 13G/A",
+      "id": "0000315066-22-000842:filing.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000315066-22-000842:filing.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000315066-22-000842",
+          "biz_locations": [
+            "Cambridge, MA",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001745999",
+            "0000315066"
+          ],
+          "display_names": [
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+            "FMR LLC  (CIK 0000315066)"
+          ],
+          "file_date": "2022-02-09",
+          "file_description": null,
+          "file_num": [
+            "005-91369"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22604158"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836",
+            "0000"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644364800000,
+          "0000315066-22-000842:filing.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0000834237-22-007299",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1745999/000083423722007299/us07373v1052_020422.txt",
+        "https://www.sec.gov/Archives/edgar/data/1364742/000083423722007299/us07373v1052_020422.txt"
+      ],
+      "ciks": [
+        "0001745999",
+        "0001364742"
+      ],
+      "display_names": [
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+        "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+      ],
+      "document_name": "us07373v1052_020422.txt",
+      "filed_date": "2022-02-04",
+      "form": "SC 13G",
+      "id": "0000834237-22-007299:us07373v1052_020422.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000834237-22-007299:us07373v1052_020422.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000834237-22-007299",
+          "biz_locations": [
+            "Cambridge, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001745999",
+            "0001364742"
+          ],
+          "display_names": [
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+            "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+          ],
+          "file_date": "2022-02-04",
+          "file_description": null,
+          "file_num": [
+            "005-91369"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "22593565"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836",
+            "6211"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1643932800000,
+          "0000834237-22-007299:us07373v1052_020422.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-22-004198",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1786322/000089924322004198/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1745999/000089924322004198/doc4.xml"
+      ],
+      "ciks": [
+        "0001786322",
+        "0001745999"
+      ],
+      "display_names": [
+        "Ciaramella Giuseppe  (CIK 0001786322)",
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2022-02-02",
+      "form": "4",
+      "id": "0000899243-22-004198:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-22-004198:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-22-004198",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001786322",
+            "0001745999"
+          ],
+          "display_names": [
+            "Ciaramella Giuseppe  (CIK 0001786322)",
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+          ],
+          "file_date": "2022-02-02",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-39208"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22585178"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-01-31",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1643760000000,
+          "0000899243-22-004198:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-22-004197",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1786304/000089924322004197/doc4a.xml",
+        "https://www.sec.gov/Archives/edgar/data/1745999/000089924322004197/doc4a.xml"
+      ],
+      "ciks": [
+        "0001786304",
+        "0001745999"
+      ],
+      "display_names": [
+        "Evans John M.  (CIK 0001786304)",
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+      ],
+      "document_name": "doc4a.xml",
+      "filed_date": "2022-02-02",
+      "form": "4/A",
+      "id": "0000899243-22-004197:doc4a.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-22-004197:doc4a.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-22-004197",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001786304",
+            "0001745999"
+          ],
+          "display_names": [
+            "Evans John M.  (CIK 0001786304)",
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+          ],
+          "file_date": "2022-02-02",
+          "file_description": "FORM 4/A SUBMISSION",
+          "file_num": [
+            "001-39208"
+          ],
+          "file_type": "4/A",
+          "film_num": [
+            "22585177"
+          ],
+          "form": "4/A",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-01-31",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1643760000000,
+          "0000899243-22-004197:doc4a.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-22-004196",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1786484/000089924322004196/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1745999/000089924322004196/doc4.xml"
+      ],
+      "ciks": [
+        "0001786484",
+        "0001745999"
+      ],
+      "display_names": [
+        "Burrell Terry-Ann  (CIK 0001786484)",
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2022-02-02",
+      "form": "4",
+      "id": "0000899243-22-004196:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-22-004196:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-22-004196",
+          "biz_locations": [
+            "",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001786484",
+            "0001745999"
+          ],
+          "display_names": [
+            "Burrell Terry-Ann  (CIK 0001786484)",
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+          ],
+          "file_date": "2022-02-02",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-39208"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22585176"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-01-31",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1643760000000,
+          "0000899243-22-004196:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000315066-22-000058",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/315066/000031506622000058/primary_doc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1745999/000031506622000058/primary_doc.xml"
+      ],
+      "ciks": [
+        "0000315066",
+        "0001745999"
+      ],
+      "display_names": [
+        "FMR LLC  (CIK 0000315066)",
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2022-01-24",
+      "form": "3",
+      "id": "0000315066-22-000058:primary_doc.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000315066-22-000058:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000315066-22-000058",
+          "biz_locations": [
+            "Boston, MA",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0000315066",
+            "0001745999"
+          ],
+          "display_names": [
+            "FMR LLC  (CIK 0000315066)",
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+          ],
+          "file_date": "2022-01-24",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-39208"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "22547636"
+          ],
+          "form": "3",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-01-20",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1642982400000,
+          "0000315066-22-000058:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000315066-22-000057",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1745999/000031506622000057/filing.txt",
+        "https://www.sec.gov/Archives/edgar/data/315066/000031506622000057/filing.txt"
+      ],
+      "ciks": [
+        "0001745999",
+        "0000315066"
+      ],
+      "display_names": [
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "document_name": "filing.txt",
+      "filed_date": "2022-01-24",
+      "form": "SC 13G/A",
+      "id": "0000315066-22-000057:filing.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000315066-22-000057:filing.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000315066-22-000057",
+          "biz_locations": [
+            "Cambridge, MA",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001745999",
+            "0000315066"
+          ],
+          "display_names": [
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)",
+            "FMR LLC  (CIK 0000315066)"
+          ],
+          "file_date": "2022-01-24",
+          "file_description": null,
+          "file_num": [
+            "005-91369"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22547619"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836",
+            "0000"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1642982400000,
+          "0000315066-22-000057:filing.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-22-000163",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1745999/000095017022000163/beam-20220109.htm"
+      ],
+      "ciks": [
+        "0001745999"
+      ],
+      "display_names": [
+        "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+      ],
+      "document_name": "beam-20220109.htm",
+      "filed_date": "2022-01-10",
+      "form": "8-K",
+      "id": "0000950170-22-000163:beam-20220109.htm",
+      "items": [
+        "2.02",
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0000950170-22-000163:beam-20220109.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-22-000163",
+          "biz_locations": [
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001745999"
+          ],
+          "display_names": [
+            "Beam Therapeutics Inc.  (BEAM)  (CIK 0001745999)"
+          ],
+          "file_date": "2022-01-10",
+          "file_description": "8-K",
+          "file_num": [
+            "001-39208"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22519603"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "7.01",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2022-01-09",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1641772800000,
+          "0000950170-22-000163:beam-20220109.htm"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2022-01-01",
+  "ticker": "BEAM",
+  "total": 17
+}

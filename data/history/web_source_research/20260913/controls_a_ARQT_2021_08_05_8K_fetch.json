@@ -1,0 +1,11 @@
+{
+  "attempted_at": "2026-09-13T16:07:16.166843+00:00",
+  "automatic_retry_allowed": false,
+  "error": "The read operation timed out",
+  "error_type": "TimeoutError",
+  "http_status": null,
+  "name": "ARQT_2021_08_05_8K",
+  "outcome_label": null,
+  "source_url": "https://investors.arcutis.com/static-files/cfa3feea-f7d6-42f5-9377-8b2d12e9a6d1",
+  "status": "failed"
+}

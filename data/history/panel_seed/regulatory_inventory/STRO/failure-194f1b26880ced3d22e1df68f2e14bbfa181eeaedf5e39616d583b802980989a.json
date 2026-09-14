@@ -1,0 +1,8 @@
+{
+  "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001382101&dateRange=custom&startdt=2021-01-01&enddt=2021-12-31&from=0&size=100",
+  "attempted_at": "2026-09-08T20:00:13.326667+00:00",
+  "error": "HTTP Error 500: Internal Server Error",
+  "status_code": 500,
+  "outcome_label": null,
+  "automatic_retry_allowed": false
+}

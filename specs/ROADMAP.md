@@ -1,5 +1,10 @@
 # Biotech M&A Predictor - Product Roadmap
 
+> Historical roadmap. Its completion claims are superseded by the verified
+> [local implementation status](../docs/LOCAL_IMPLEMENTATION_STATUS.md) and
+> [prediction implementation plan](../docs/PREDICTION_IMPLEMENTATION_PLAN.md).
+> The supported runtime is local; this document is not deployment or model-readiness evidence.
+
 **Version:** 1.0
 **Last Updated:** 2025-12-30
 **Status:** Active Development
@@ -341,4 +346,3 @@ See [specs/api/openapi.yaml](api/openapi.yaml) for OpenAPI specification.
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0 | 2025-12-30 | Initial roadmap with enhanced structure |
-

@@ -1,0 +1,216 @@
+{
+  "schema_version": "issuer-archive-partial-collection-v1",
+  "issuer": "MDGL",
+  "archive_complete": false,
+  "years_requested": [
+    2020,
+    2021
+  ],
+  "pages": [
+    {
+      "url": "https://ir.madrigalpharma.com/news-releases/?a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3_year%5Bvalue%5D=2021",
+      "resolved_url": "https://ir.madrigalpharma.com/news-releases/?a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3_year%5Bvalue%5D=2021",
+      "http_status": 200,
+      "retrieved_at": "2026-09-08T17:45:16.645960+00:00",
+      "source_sha256": "e2caa34d0c6d9faa1bb738065df4dbd319126a5877e12611e00b1c3105086812",
+      "source_bytes": 63030,
+      "source_relative_path": "raw_sources/e2caa34d0c6d9faa1bb738065df4dbd319126a5877e12611e00b1c3105086812.html",
+      "year": 2021,
+      "rows": [
+        {
+          "date": "2021-12-30",
+          "title": "Madrigal Provides Update on Timeline for Topline Results from the Phase 3 MAESTRO-NAFLD-1 Clinical Trial of Resmetirom",
+          "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-provides-update-timeline-topline-results-phase-3"
+        },
+        {
+          "date": "2021-11-23",
+          "title": "Madrigal Pharmaceuticals Announces Participation at Two Upcoming Virtual Investor Conferences",
+          "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-announces-participation-two-upcoming-0"
+        },
+        {
+          "date": "2021-11-12",
+          "title": "Positive Resmetirom Data from Completed Open-Label Portion of Phase 3 MAESTRO-NAFLD-1 Clinical Study Presented at American Association for the Study of Liver Diseases (AASLD) The Liver Meeting\u00ae Digital Experience 2021",
+          "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/positive-resmetirom-data-completed-open-label-portion-phase-3"
+        },
+        {
+          "date": "2021-11-04",
+          "title": "Madrigal Pharmaceuticals Provides Corporate Update and Reports 2021 Third Quarter Financial Results",
+          "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-provides-corporate-update-and-reports"
+        },
+        {
+          "date": "2021-10-04",
+          "title": "Madrigal Pharmaceuticals Announces Support of Fatty Liver Foundation\u2019s Screening Fund to Improve Diagnosis and Staging of Non-Alcoholic Fatty Liver Disease (NAFLD) and Non-Alcoholic Steatohepatitis (NASH)",
+          "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-announces-support-fatty-liver"
+        },
+        {
+          "date": "2021-08-05",
+          "title": "Madrigal Pharmaceuticals Reports 2021 Second Quarter Financial Results and Provides Corporate Update",
+          "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-reports-2021-second-quarter-financial"
+        },
+        {
+          "date": "2021-08-02",
+          "title": "Robert Waltermire Joins Madrigal Pharmaceuticals as Chief Pharmaceutical Development Officer",
+          "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/robert-waltermire-joins-madrigal-pharmaceuticals-chief"
+        },
+        {
+          "date": "2021-07-13",
+          "title": "Madrigal Pharmaceuticals Offers Patients Resmetirom in a Planned Open Label Active Treatment Extension of the Phase 3 MAESTRO-NAFLD-1 Clinical Study",
+          "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-offers-patients-resmetirom-planned-open"
+        },
+        {
+          "date": "2021-06-30",
+          "title": "Madrigal Pharmaceuticals Completes Enrollment of the 52 Week Liver Biopsy Patient Population in the Phase 3 MAESTRO-NASH Study of Resmetirom",
+          "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-completes-enrollment-52-week-liver"
+        },
+        {
+          "date": "2021-06-25",
+          "title": "Madrigal Pharmaceuticals Announces Presentation of Positive Clinical Data of Resmetirom from Open-Label Portion of Ongoing Phase 3 Clinical Trial MAESTRO-NAFLD-1 at The International Liver Congress\u2122 2021",
+          "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-announces-presentation-positive"
+        }
+      ],
+      "pager": {
+        "page": 1,
+        "total_rows": null,
+        "next_url": "https://ir.madrigalpharma.com/news-releases/?a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3_year%5Bvalue%5D=2021&page=1",
+        "completeness_basis": "public year selector; all returned rows; followed next links to terminal page"
+      }
+    }
+  ],
+  "inventory": [
+    {
+      "date": "2021-12-30",
+      "title": "Madrigal Provides Update on Timeline for Topline Results from the Phase 3 MAESTRO-NAFLD-1 Clinical Trial of Resmetirom",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-provides-update-timeline-topline-results-phase-3"
+    },
+    {
+      "date": "2021-11-23",
+      "title": "Madrigal Pharmaceuticals Announces Participation at Two Upcoming Virtual Investor Conferences",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-announces-participation-two-upcoming-0"
+    },
+    {
+      "date": "2021-11-12",
+      "title": "Positive Resmetirom Data from Completed Open-Label Portion of Phase 3 MAESTRO-NAFLD-1 Clinical Study Presented at American Association for the Study of Liver Diseases (AASLD) The Liver Meeting\u00ae Digital Experience 2021",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/positive-resmetirom-data-completed-open-label-portion-phase-3"
+    },
+    {
+      "date": "2021-11-04",
+      "title": "Madrigal Pharmaceuticals Provides Corporate Update and Reports 2021 Third Quarter Financial Results",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-provides-corporate-update-and-reports"
+    },
+    {
+      "date": "2021-10-04",
+      "title": "Madrigal Pharmaceuticals Announces Support of Fatty Liver Foundation\u2019s Screening Fund to Improve Diagnosis and Staging of Non-Alcoholic Fatty Liver Disease (NAFLD) and Non-Alcoholic Steatohepatitis (NASH)",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-announces-support-fatty-liver"
+    },
+    {
+      "date": "2021-08-05",
+      "title": "Madrigal Pharmaceuticals Reports 2021 Second Quarter Financial Results and Provides Corporate Update",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-reports-2021-second-quarter-financial"
+    },
+    {
+      "date": "2021-08-02",
+      "title": "Robert Waltermire Joins Madrigal Pharmaceuticals as Chief Pharmaceutical Development Officer",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/robert-waltermire-joins-madrigal-pharmaceuticals-chief"
+    },
+    {
+      "date": "2021-07-13",
+      "title": "Madrigal Pharmaceuticals Offers Patients Resmetirom in a Planned Open Label Active Treatment Extension of the Phase 3 MAESTRO-NAFLD-1 Clinical Study",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-offers-patients-resmetirom-planned-open"
+    },
+    {
+      "date": "2021-06-30",
+      "title": "Madrigal Pharmaceuticals Completes Enrollment of the 52 Week Liver Biopsy Patient Population in the Phase 3 MAESTRO-NASH Study of Resmetirom",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-completes-enrollment-52-week-liver"
+    },
+    {
+      "date": "2021-06-25",
+      "title": "Madrigal Pharmaceuticals Announces Presentation of Positive Clinical Data of Resmetirom from Open-Label Portion of Ongoing Phase 3 Clinical Trial MAESTRO-NAFLD-1 at The International Liver Congress\u2122 2021",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-announces-presentation-positive"
+    }
+  ],
+  "body_receipts": [
+    {
+      "date": "2021-12-30",
+      "title": "Madrigal Provides Update on Timeline for Topline Results from the Phase 3 MAESTRO-NAFLD-1 Clinical Trial of Resmetirom",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-provides-update-timeline-topline-results-phase-3",
+      "resolved_url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-provides-update-timeline-topline-results-phase-3",
+      "http_status": 200,
+      "retrieved_at": "2026-09-08T17:50:16.218205+00:00",
+      "source_sha256": "35f38c6a29008e15a745cd720f0a1d603aa68f29921589a85bef8de4f304e9de",
+      "source_bytes": 58755,
+      "source_relative_path": "raw_sources/35f38c6a29008e15a745cd720f0a1d603aa68f29921589a85bef8de4f304e9de.html",
+      "review_status": "pending"
+    },
+    {
+      "date": "2021-11-23",
+      "title": "Madrigal Pharmaceuticals Announces Participation at Two Upcoming Virtual Investor Conferences",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-announces-participation-two-upcoming-0",
+      "error": "The read operation timed out",
+      "review_status": "blocked"
+    },
+    {
+      "date": "2021-11-12",
+      "title": "Positive Resmetirom Data from Completed Open-Label Portion of Phase 3 MAESTRO-NAFLD-1 Clinical Study Presented at American Association for the Study of Liver Diseases (AASLD) The Liver Meeting\u00ae Digital Experience 2021",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/positive-resmetirom-data-completed-open-label-portion-phase-3",
+      "error": "The read operation timed out",
+      "review_status": "blocked"
+    },
+    {
+      "date": "2021-11-04",
+      "title": "Madrigal Pharmaceuticals Provides Corporate Update and Reports 2021 Third Quarter Financial Results",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-provides-corporate-update-and-reports",
+      "error": "The read operation timed out",
+      "review_status": "blocked"
+    },
+    {
+      "date": "2021-10-04",
+      "title": "Madrigal Pharmaceuticals Announces Support of Fatty Liver Foundation\u2019s Screening Fund to Improve Diagnosis and Staging of Non-Alcoholic Fatty Liver Disease (NAFLD) and Non-Alcoholic Steatohepatitis (NASH)",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-announces-support-fatty-liver",
+      "error": "The read operation timed out",
+      "review_status": "blocked"
+    },
+    {
+      "date": "2021-08-05",
+      "title": "Madrigal Pharmaceuticals Reports 2021 Second Quarter Financial Results and Provides Corporate Update",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-reports-2021-second-quarter-financial",
+      "error": "The read operation timed out",
+      "review_status": "blocked"
+    },
+    {
+      "date": "2021-08-02",
+      "title": "Robert Waltermire Joins Madrigal Pharmaceuticals as Chief Pharmaceutical Development Officer",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/robert-waltermire-joins-madrigal-pharmaceuticals-chief",
+      "error": "The read operation timed out",
+      "review_status": "blocked"
+    },
+    {
+      "date": "2021-07-13",
+      "title": "Madrigal Pharmaceuticals Offers Patients Resmetirom in a Planned Open Label Active Treatment Extension of the Phase 3 MAESTRO-NAFLD-1 Clinical Study",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-offers-patients-resmetirom-planned-open",
+      "error": "The read operation timed out",
+      "review_status": "blocked"
+    },
+    {
+      "date": "2021-06-30",
+      "title": "Madrigal Pharmaceuticals Completes Enrollment of the 52 Week Liver Biopsy Patient Population in the Phase 3 MAESTRO-NASH Study of Resmetirom",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-completes-enrollment-52-week-liver",
+      "error": "The read operation timed out",
+      "review_status": "blocked"
+    },
+    {
+      "date": "2021-06-25",
+      "title": "Madrigal Pharmaceuticals Announces Presentation of Positive Clinical Data of Resmetirom from Open-Label Portion of Ongoing Phase 3 Clinical Trial MAESTRO-NAFLD-1 at The International Liver Congress\u2122 2021",
+      "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-announces-presentation-positive",
+      "error": "The read operation timed out",
+      "review_status": "blocked"
+    }
+  ],
+  "errors": [
+    {
+      "url": "https://ir.madrigalpharma.com/news-releases/?a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3_year%5Bvalue%5D=2021&page=1",
+      "error": "First bounded request timed out after50 seconds; required pagination incomplete."
+    }
+  ],
+  "training_allowed": false,
+  "outcome_labels_assigned": 0
+}

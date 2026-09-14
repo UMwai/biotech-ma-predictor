@@ -1,0 +1,56 @@
+{
+  "records": [
+    {
+      "baseline_review": {
+        "source_sha256": "2fc851887d07e3c62a64ad41e7e32be772d32e0c9362d601eb59f253a39510fb",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/FPRX_baseline_review.json"
+      },
+      "biotech_eligible": true,
+      "biotech_source_uri": "https://www.sec.gov/Archives/edgar/data/1175505/000119312521068593/d77427dex991.htm",
+      "cik": 1175505,
+      "cohort_entry_at": "2020-12-21T00:00:00+00:00",
+      "company_name": "Five Prime Therapeutics, Inc.",
+      "evidence_paraphrase": "The original Amgen offer defines the covered security as Five Prime common stock and identifies its Nasdaq symbol FPRX. Section 6 explicitly reports that same Nasdaq security's quarterly trading history throughout 2018, 2019 and all four quarters of 2020, continuing into March 2021. The subject security history covers the required 2020 lookback; acquisition terms and later prices are not feature inputs. The archived exchange addition table names FPRX among operating biotechnology issuers effective December 21, 2020. Nasdaq FPRX common shares traded in 2019, all quarters of 2020 and through March 17, 2021, with a March 17 closing quote. The interval ends at the start of that documented trading day.",
+      "exchange": "Nasdaq",
+      "exchange_frame_source": {
+        "bytes": 157264,
+        "content_type": "text/html; charset=UTF-8",
+        "resolved_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "retrieved_at": "2026-09-08T17:20:38.390390+00:00",
+        "source_relative_path": "raw/923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955.html",
+        "source_sha256": "923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955",
+        "source_uri": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6"
+      },
+      "identity_source_locator": "Target company named on filing cover, common-stock class, subject issuer CIK in immutable SEC accession path; announcement exhibit explicitly names historical Nasdaq ticker.",
+      "identity_source_uri": "https://www.sec.gov/Archives/edgar/data/1175505/000119312521085017/d150014dsc14d9.htm",
+      "independent_human_review": false,
+      "interval_method": "Bounded retrospective identity interval beginning September 30, 2020, supported by explicit original-filing common-stock trading history. The fixed Nasdaq cohort entry remains December 21, 2020 and the previously reviewed interval end is retained. This is not an assertion that index selection occurred earlier or that the evidence was reviewed historically.",
+      "kind": "historical_exchange_membership",
+      "listing_lookback_review": {
+        "source_bytes": 7151,
+        "source_relative_path": "positive_reviews/listing_lookback_20260913/FPRX_listing_lookback_review.json",
+        "source_sha256": "b49af71cfc790d000236a3238b82d71c9a27602a827adf3aa93b2aeb366f597b",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/FPRX_listing_lookback_review.json"
+      },
+      "original_source_sha256": null,
+      "pending_transaction_review_complete": true,
+      "primary_source_uri": "https://www.sec.gov/Archives/edgar/data/318154/000119312521084994/d137966dex99a1a.htm",
+      "prior_membership_review": {
+        "source_bytes": 2928,
+        "source_relative_path": "positive_reviews/listing_lookback_20260913/FPRX_membership_review_prior_aa7ae6f09767b40a22a4b297855786a7c04eadde3cf957072487ccd285ecf726.json",
+        "source_sha256": "aa7ae6f09767b40a22a4b297855786a7c04eadde3cf957072487ccd285ecf726",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/FPRX_membership_review_prior_aa7ae6f09767b40a22a4b297855786a7c04eadde3cf957072487ccd285ecf726.json"
+      },
+      "raw_bytes_archived": false,
+      "reviewed_at": "2026-09-13T16:15:03.687486+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "security_type": "common_equity",
+      "source_locator": "Nasdaq December 2020 addition table, FPRX row, plus Section 6 Price Range of Shares, printed pages 25-26; lines 709-746",
+      "ticker": "FPRX",
+      "valid_from": "2020-09-30T00:00:00+00:00",
+      "valid_until": "2021-03-17T00:00:00+00:00"
+    }
+  ],
+  "reviewed_at": "2026-09-13T16:15:03.687486+00:00",
+  "schema_version": "reviewed-historical-membership-v1"
+}

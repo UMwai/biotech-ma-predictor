@@ -9,6 +9,7 @@ def market(ticker, score):
         "portfolio_score": 70,
         "acquirability_score": 90,
         "data_confidence": 60,
+        "risk_set_eligible": True,
     }
 
 

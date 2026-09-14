@@ -1,0 +1,18 @@
+{
+  "cik": 1734517,
+  "evidence_paraphrase": "Project Zenith sought program partnerships in 2020. Horizon privately proposed a company acquisition October 29 and increased its nonbinding price in November; other parties did not propose a company acquisition. Draft merger terms were negotiated, but Horizon stopped all discussions before its December 17 supply-disruption announcement. Parties agreed December 22 to revisit after the January conference and resumed January 18. Viela approved and signed January 31 and first publicly announced February 1 before Nasdaq trading. January 1 therefore falls in paused private negotiations, before an executed or publicly definitive control agreement.",
+  "full_background_section_review_complete": true,
+  "independent_human_review": false,
+  "observation_at": "2021-01-01T00:00:00+00:00",
+  "original_source_sha256": null,
+  "pending_public_definitive_control_transaction_at_observation": false,
+  "primary_source_uri": "https://www.sec.gov/Archives/edgar/data/1734517/000119312521040169/d130262dsc14d9.htm",
+  "raw_bytes_archived": false,
+  "reviewed_at": "2026-09-08T18:23:26.321520+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "risk_set_eligible": true,
+  "schema_version": "reviewed-pending-transaction-baseline-v1",
+  "scope": "Agent review of the complete designated merger-background section, including private/public sequencing; not an exhaustive independent world-news or legal audit. Retrospective baseline adjudication is never a pre-observation model feature.",
+  "source_locator": "Background of the Offer, printed pages 14-20, entire section; browser lines 501-641",
+  "ticker": "VIE"
+}
