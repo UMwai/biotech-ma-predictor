@@ -1,0 +1,9 @@
+{
+  "effective_source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001781983&dateRange=custom&startdt=2020-01-01&enddt=2022-03-31&from=0&size=100",
+  "offset": 0,
+  "retrieved_at": "2026-09-13T16:17:00.712152+00:00",
+  "source_bytes": 70707,
+  "source_relative_path": "raw_sources/32de51fd9df90b2135e6d92746092f3ea3200bca3ab97948ee2e0bab1f62db9e.json",
+  "source_sha256": "32de51fd9df90b2135e6d92746092f3ea3200bca3ab97948ee2e0bab1f62db9e",
+  "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001781983&dateRange=custom&startdt=2020-01-01&enddt=2022-03-31&from=0&size=100"
+}

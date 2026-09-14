@@ -1,0 +1,473 @@
+[
+  {
+    "ticker": "ARQT",
+    "fiscal_year": 2019,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ARQT_2019.pdf",
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ARQT_2019.pdf",
+    "http_status": 403,
+    "retrieved_at": "2026-09-08T17:16:23.990030+00:00"
+  },
+  {
+    "ticker": "CRNX",
+    "fiscal_year": 2019,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CRNX_2019.pdf",
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CRNX_2019.pdf",
+    "http_status": 403,
+    "retrieved_at": "2026-09-08T17:16:23.984714+00:00"
+  },
+  {
+    "ticker": "BEAM",
+    "fiscal_year": 2019,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NASDAQ_BEAM_2019.pdf",
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NASDAQ_BEAM_2019.pdf",
+    "http_status": 403,
+    "retrieved_at": "2026-09-08T17:16:23.983301+00:00"
+  },
+  {
+    "ticker": "ARQT",
+    "fiscal_year": 2019,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_ARQT_2019.pdf",
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_ARQT_2019.pdf",
+    "http_status": 403,
+    "retrieved_at": "2026-09-08T17:16:43.471655+00:00"
+  },
+  {
+    "ticker": "CRNX",
+    "fiscal_year": 2019,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_CRNX_2019.pdf",
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_CRNX_2019.pdf",
+    "http_status": 403,
+    "retrieved_at": "2026-09-08T17:16:43.447684+00:00"
+  },
+  {
+    "ticker": "BEAM",
+    "fiscal_year": 2019,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_BEAM_2019.pdf",
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReports/PDF/NASDAQ_BEAM_2019.pdf",
+    "http_status": 403,
+    "retrieved_at": "2026-09-08T17:16:43.452640+00:00"
+  },
+  {
+    "ticker": "ARQT",
+    "fiscal_year": 2019,
+    "source_url": "https://investors.arcutis.com/static-files/a263d342-2425-4c11-872f-d71977270e22",
+    "resolved_url": "https://investors.arcutis.com/static-files/a263d342-2425-4c11-872f-d71977270e22",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:17:26.091514+00:00",
+    "source_relative_path": "raw/ARQT_2019.pdf",
+    "source_sha256": "e022ca5fdd71e7a06dc13ac4f0237388d0a5c95c4c4b4b93ab89b52c983bac1f",
+    "raw_bytes_archived": true,
+    "source_bytes": 2877149
+  },
+  {
+    "ticker": "CRNX",
+    "fiscal_year": 2019,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CRNX_2019.pdf",
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CRNX_2019.pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:17:25.630947+00:00",
+    "source_relative_path": "raw/CRNX_2019.pdf",
+    "source_sha256": "5b2f090459cda0798c25c1f2e553a1dd24609d86c57c7e9b5c592618f7490b41",
+    "raw_bytes_archived": true,
+    "source_bytes": 1179570
+  },
+  {
+    "ticker": "BEAM",
+    "fiscal_year": 2019,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NASDAQ_BEAM_2019.pdf",
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NASDAQ_BEAM_2019.pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:17:25.689674+00:00",
+    "source_relative_path": "raw/BEAM_2019.pdf",
+    "source_sha256": "07f60ed5c57b1795afdb7703c0314923c93a6161d292128fa34a7ddff03c1f96",
+    "raw_bytes_archived": true,
+    "source_bytes": 1802301
+  },
+  {
+    "ticker": "ARQT",
+    "fiscal_year": 2018,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ARQT_2018.pdf",
+    "retrieved_at": "2026-09-08T17:19:27.648419+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "http_status": 404,
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ARQT_2018.pdf"
+  },
+  {
+    "ticker": "ARQT",
+    "fiscal_year": 2020,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ARQT_2020.pdf",
+    "retrieved_at": "2026-09-08T17:19:27.652334+00:00",
+    "raw_bytes_archived": true,
+    "financial_facts_reviewed": false,
+    "http_status": 200,
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ARQT_2020.pdf",
+    "source_relative_path": "raw/ARQT_2020.pdf",
+    "source_sha256": "6a6152eaef8cb66ad723e9bd7d68b5f05011e27cbd8f89212eb2603e3e4b31a5",
+    "source_bytes": 1687907
+  },
+  {
+    "ticker": "ARQT",
+    "fiscal_year": 2021,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ARQT_2021.pdf",
+    "retrieved_at": "2026-09-08T17:19:27.650932+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "http_status": 503,
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ARQT_2021.pdf"
+  },
+  {
+    "ticker": "ARQT",
+    "fiscal_year": 2022,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ARQT_2022.pdf",
+    "retrieved_at": "2026-09-08T17:19:27.656757+00:00",
+    "raw_bytes_archived": true,
+    "financial_facts_reviewed": false,
+    "http_status": 200,
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ARQT_2022.pdf",
+    "source_relative_path": "raw/ARQT_2022.pdf",
+    "source_sha256": "86a47a273944a613e3305aad40a28a0af5ec38ae7a69c6280de44673ffbfb35a",
+    "source_bytes": 5281510
+  },
+  {
+    "ticker": "ARQT",
+    "fiscal_year": 2023,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ARQT_2023.pdf",
+    "retrieved_at": "2026-09-08T17:19:27.804494+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "http_status": 503,
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ARQT_2023.pdf"
+  },
+  {
+    "ticker": "BEAM",
+    "fiscal_year": 2018,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NASDAQ_BEAM_2018.pdf",
+    "retrieved_at": "2026-09-08T17:19:27.827701+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "http_status": 404,
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NASDAQ_BEAM_2018.pdf"
+  },
+  {
+    "ticker": "BEAM",
+    "fiscal_year": 2020,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NASDAQ_BEAM_2020.pdf",
+    "retrieved_at": "2026-09-08T17:19:27.903572+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "http_status": 429,
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NASDAQ_BEAM_2020.pdf"
+  },
+  {
+    "ticker": "BEAM",
+    "fiscal_year": 2021,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NASDAQ_BEAM_2021.pdf",
+    "retrieved_at": "2026-09-08T17:19:27.968237+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "http_status": 429,
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NASDAQ_BEAM_2021.pdf"
+  },
+  {
+    "ticker": "BEAM",
+    "fiscal_year": 2022,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NASDAQ_BEAM_2022.pdf",
+    "retrieved_at": "2026-09-08T17:19:28.002125+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "http_status": 429,
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NASDAQ_BEAM_2022.pdf"
+  },
+  {
+    "ticker": "BEAM",
+    "fiscal_year": 2023,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NASDAQ_BEAM_2023.pdf",
+    "retrieved_at": "2026-09-08T17:19:28.027977+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "http_status": 429,
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NASDAQ_BEAM_2023.pdf"
+  },
+  {
+    "ticker": "CRNX",
+    "fiscal_year": 2018,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CRNX_2018.pdf",
+    "retrieved_at": "2026-09-08T17:19:28.077295+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "http_status": 429,
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CRNX_2018.pdf"
+  },
+  {
+    "ticker": "CRNX",
+    "fiscal_year": 2020,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CRNX_2020.pdf",
+    "retrieved_at": "2026-09-08T17:19:28.091796+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "http_status": 429,
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CRNX_2020.pdf"
+  },
+  {
+    "ticker": "CRNX",
+    "fiscal_year": 2021,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CRNX_2021.pdf",
+    "retrieved_at": "2026-09-08T17:19:28.106948+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "http_status": 429,
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CRNX_2021.pdf"
+  },
+  {
+    "ticker": "CRNX",
+    "fiscal_year": 2022,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CRNX_2022.pdf",
+    "retrieved_at": "2026-09-08T17:19:28.157394+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "http_status": 429,
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CRNX_2022.pdf"
+  },
+  {
+    "ticker": "CRNX",
+    "fiscal_year": 2023,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CRNX_2023.pdf",
+    "retrieved_at": "2026-09-08T17:19:28.160127+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "http_status": 429,
+    "resolved_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CRNX_2023.pdf"
+  },
+  {
+    "ticker": "AKUS",
+    "fiscal_year": 2019,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_AKUS_2019.pdf",
+    "retrieved_at": "2026-09-08T17:21:01.545873+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "error": "HTTPSConnectionPool(host='www.annualreports.com', port=443): Max retries exceeded with url: /HostedData/AnnualReportArchive/a/NASDAQ_AKUS_2019.pdf (Caused by NewConnectionError(\"HTTPSConnection(host='www.annualreports.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "ticker": "AKUS",
+    "fiscal_year": 2021,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_AKUS_2021.pdf",
+    "retrieved_at": "2026-09-08T17:21:04.586175+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "error": "HTTPSConnectionPool(host='www.annualreports.com', port=443): Max retries exceeded with url: /HostedData/AnnualReportArchive/a/NASDAQ_AKUS_2021.pdf (Caused by NewConnectionError(\"HTTPSConnection(host='www.annualreports.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "ticker": "AKUS",
+    "fiscal_year": 2022,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_AKUS_2022.pdf",
+    "retrieved_at": "2026-09-08T17:21:07.629964+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "error": "HTTPSConnectionPool(host='www.annualreports.com', port=443): Max retries exceeded with url: /HostedData/AnnualReportArchive/a/NASDAQ_AKUS_2022.pdf (Caused by NewConnectionError(\"HTTPSConnection(host='www.annualreports.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "ticker": "ALT",
+    "fiscal_year": 2019,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ALT_2019.pdf",
+    "retrieved_at": "2026-09-08T17:21:10.679264+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "error": "HTTPSConnectionPool(host='www.annualreports.com', port=443): Max retries exceeded with url: /HostedData/AnnualReportArchive/a/NASDAQ_ALT_2019.pdf (Caused by NewConnectionError(\"HTTPSConnection(host='www.annualreports.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "ticker": "ALT",
+    "fiscal_year": 2021,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ALT_2021.pdf",
+    "retrieved_at": "2026-09-08T17:21:13.726462+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "error": "HTTPSConnectionPool(host='www.annualreports.com', port=443): Max retries exceeded with url: /HostedData/AnnualReportArchive/a/NASDAQ_ALT_2021.pdf (Caused by NewConnectionError(\"HTTPSConnection(host='www.annualreports.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "ticker": "ALT",
+    "fiscal_year": 2022,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ALT_2022.pdf",
+    "retrieved_at": "2026-09-08T17:21:16.779639+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "error": "HTTPSConnectionPool(host='www.annualreports.com', port=443): Max retries exceeded with url: /HostedData/AnnualReportArchive/a/NASDAQ_ALT_2022.pdf (Caused by NewConnectionError(\"HTTPSConnection(host='www.annualreports.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "ticker": "ALVR",
+    "fiscal_year": 2019,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ALVR_2019.pdf",
+    "retrieved_at": "2026-09-08T17:21:19.812087+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "error": "HTTPSConnectionPool(host='www.annualreports.com', port=443): Max retries exceeded with url: /HostedData/AnnualReportArchive/a/NASDAQ_ALVR_2019.pdf (Caused by NewConnectionError(\"HTTPSConnection(host='www.annualreports.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "ticker": "ALVR",
+    "fiscal_year": 2021,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ALVR_2021.pdf",
+    "retrieved_at": "2026-09-08T17:21:22.859451+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "error": "HTTPSConnectionPool(host='www.annualreports.com', port=443): Max retries exceeded with url: /HostedData/AnnualReportArchive/a/NASDAQ_ALVR_2021.pdf (Caused by NewConnectionError(\"HTTPSConnection(host='www.annualreports.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "ticker": "ALVR",
+    "fiscal_year": 2022,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ALVR_2022.pdf",
+    "retrieved_at": "2026-09-08T17:21:25.887640+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "error": "HTTPSConnectionPool(host='www.annualreports.com', port=443): Max retries exceeded with url: /HostedData/AnnualReportArchive/a/NASDAQ_ALVR_2022.pdf (Caused by NewConnectionError(\"HTTPSConnection(host='www.annualreports.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "ticker": "ALXO",
+    "fiscal_year": 2019,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ALXO_2019.pdf",
+    "retrieved_at": "2026-09-08T17:21:28.927907+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "error": "HTTPSConnectionPool(host='www.annualreports.com', port=443): Max retries exceeded with url: /HostedData/AnnualReportArchive/a/NASDAQ_ALXO_2019.pdf (Caused by NewConnectionError(\"HTTPSConnection(host='www.annualreports.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "ticker": "ALXO",
+    "fiscal_year": 2021,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ALXO_2021.pdf",
+    "retrieved_at": "2026-09-08T17:21:31.964264+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "error": "HTTPSConnectionPool(host='www.annualreports.com', port=443): Max retries exceeded with url: /HostedData/AnnualReportArchive/a/NASDAQ_ALXO_2021.pdf (Caused by NewConnectionError(\"HTTPSConnection(host='www.annualreports.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "ticker": "ARQT",
+    "fiscal_year": 2021,
+    "source_url": "https://investors.arcutis.com/static-files/b2ab76f9-8f0b-42b5-81fa-2112d9fb9b13",
+    "resolved_url": "https://investors.arcutis.com/static-files/b2ab76f9-8f0b-42b5-81fa-2112d9fb9b13",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:23:17.732991+00:00",
+    "raw_bytes_archived": true,
+    "source_relative_path": "raw/ARQT_2021.pdf",
+    "source_sha256": "df853cb061e392953a38b4e3fc8d2397cf4ec2ddc3fb492109487274280b6c3e",
+    "source_bytes": 2526783
+  },
+  {
+    "ticker": "AKUS",
+    "fiscal_year": 2019,
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_AKUS_2019.pdf",
+    "retrieved_at": "2026-09-08T17:23:27.530106+00:00",
+    "raw_bytes_archived": false,
+    "financial_facts_reviewed": false,
+    "error": "HTTPSConnectionPool(host='www.annualreports.com', port=443): Max retries exceeded with url: /HostedData/AnnualReportArchive/a/NASDAQ_AKUS_2019.pdf (Caused by NewConnectionError(\"HTTPSConnection(host='www.annualreports.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "ticker": "CRNX",
+    "fiscal_year": 2021,
+    "source_url": "https://s206.q4cdn.com/492797646/files/doc_financials/2021/q4/40923809-2ce3-4ea1-8963-eb6bede59668.pdf",
+    "resolved_url": "https://s206.q4cdn.com/492797646/files/doc_financials/2021/q4/40923809-2ce3-4ea1-8963-eb6bede59668.pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:24:34.496207+00:00",
+    "source_relative_path": "raw/CRNX_2021.pdf",
+    "source_sha256": "ab05afb24ea1e1521e473e502a3f4dd7904085e1e987c474ff2728694628977b",
+    "raw_bytes_archived": true,
+    "source_bytes": 1538121
+  },
+  {
+    "ticker": "CRNX",
+    "fiscal_year": 2022,
+    "source_url": "https://s206.q4cdn.com/492797646/files/doc_financials/2022/ar/00fb9a10-de87-4fca-810e-7dd09564665d.pdf",
+    "resolved_url": "https://s206.q4cdn.com/492797646/files/doc_financials/2022/ar/00fb9a10-de87-4fca-810e-7dd09564665d.pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:24:36.943919+00:00",
+    "source_relative_path": "raw/CRNX_2022.pdf",
+    "source_sha256": "703a357c61f71ff2b4d43a6976888227bcd718df6bcea0df0b9944b8799812c6",
+    "raw_bytes_archived": true,
+    "source_bytes": 1341409
+  },
+  {
+    "ticker": "CRNX_publication_2019",
+    "fiscal_year": 2020,
+    "source_url": "https://ir.crinetics.com/static-files/b3f74f92-6ecc-46ab-92e0-8de267a22027",
+    "resolved_url": "https://ir.crinetics.com/static-files/b3f74f92-6ecc-46ab-92e0-8de267a22027",
+    "http_status": 403,
+    "retrieved_at": "2026-09-08T17:24:39.114094+00:00"
+  },
+  {
+    "ticker": "ALT",
+    "fiscal_year": 2019,
+    "source_url": "https://ir.altimmune.com/static-files/4db18383-1ab7-41ce-8e7a-39ab4e0d55b6",
+    "resolved_url": "https://ir.altimmune.com/static-files/4db18383-1ab7-41ce-8e7a-39ab4e0d55b6",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:28:40.127441+00:00",
+    "raw_bytes_archived": true,
+    "source_relative_path": "raw/ALT_2019.pdf",
+    "source_sha256": "72134cbc0a7cfe30873bd2cb59fc01170854a9787e6d6d9c1b2051c698e03175",
+    "source_bytes": 1086580
+  },
+  {
+    "ticker": "CDXS",
+    "fiscal_year": 2019,
+    "source_url": "https://www.codexis.com/investors/sec-filings/all-sec-filings/content/0001200375-20-000008/0001200375-20-000008.pdf",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/0001200375-20-000008.pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:28:42.213717+00:00",
+    "raw_bytes_archived": true,
+    "source_relative_path": "raw/CDXS_2019.pdf",
+    "source_sha256": "41155806dd121a3dc4585a317697235a033f95febacf6fd50570ddcd5722cc2c",
+    "source_bytes": 1149168
+  },
+  {
+    "ticker": "STRO",
+    "fiscal_year": 2019,
+    "source_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/0001564590-20-010890.pdf",
+    "source_relative_path": "raw/STRO_2019.pdf",
+    "source_sha256": "b41e37fc65aab131fb471ead4ec1aaabbd8de002f90cc62ec15d472371d0b013",
+    "source_bytes": 1757400,
+    "retrieved_at": "2026-09-08T17:43:57.339001+00:00",
+    "raw_bytes_archived": true,
+    "http_status": 200
+  },
+  {
+    "ticker": "CDXS",
+    "fiscal_year": 2021,
+    "source_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/0001200375-22-000010.pdf",
+    "source_relative_path": "raw/CDXS_2021.pdf",
+    "source_sha256": "829692c36858dee50bcdce0b91141c1a2b4660589f28e6949158731800b1ee5a",
+    "source_bytes": 2305722,
+    "retrieved_at": "2026-09-08T17:51:12.970903+00:00",
+    "raw_bytes_archived": true,
+    "http_status": 200
+  },
+  {
+    "ticker": "CDXS",
+    "fiscal_year": 2022,
+    "source_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-23-000012/0001200375-23-000012.pdf",
+    "source_relative_path": "raw/CDXS_2022.pdf",
+    "source_sha256": "9d4b47583ad6015db4a290e9dd180d053e5f813485185434e1c17a13f443e9b3",
+    "source_bytes": 1705672,
+    "retrieved_at": "2026-09-08T17:51:43.927627+00:00",
+    "raw_bytes_archived": true,
+    "http_status": 200
+  },
+  {
+    "ticker": "STRO",
+    "fiscal_year": 2021,
+    "source_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/0000950170-22-002312.pdf",
+    "source_relative_path": "raw/STRO_2021.pdf",
+    "source_sha256": "ca982032a606bed2034906a477fc604c0c46dacc2db9d73052b5ac5ab7275e09",
+    "source_bytes": 2556768,
+    "retrieved_at": "2026-09-08T17:52:33.164352+00:00",
+    "raw_bytes_archived": true,
+    "http_status": 200
+  },
+  {
+    "ticker": "STRO",
+    "fiscal_year": 2022,
+    "source_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-23-010976/0000950170-23-010976.pdf",
+    "source_relative_path": "raw/STRO_2022.pdf",
+    "source_sha256": "35fc2bde356945fe2938297385506bf249611742b974c7d97aacb666a718865e",
+    "source_bytes": 2016131,
+    "retrieved_at": "2026-09-08T17:56:14.781265+00:00",
+    "raw_bytes_archived": true,
+    "http_status": 200
+  }
+]

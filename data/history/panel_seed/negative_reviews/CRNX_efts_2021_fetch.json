@@ -1,0 +1,12 @@
+{
+  "url": "https://efts.sec.gov/LATEST/search-index?ciks=0001658247&dateRange=custom&startdt=2021-01-01&enddt=2021-12-31&from=0&size=100",
+  "retrieved_at": "2026-09-08T19:50:26.820832+00:00",
+  "path": "CRNX_efts_2021_a811c87e4df95ac67eaf63e81b332e5d3befb1e1505f152052ff4199e5607306.json",
+  "sha256": "a811c87e4df95ac67eaf63e81b332e5d3befb1e1505f152052ff4199e5607306",
+  "size_bytes": 50593,
+  "total": {
+    "value": 72,
+    "relation": "eq"
+  },
+  "returned": 72
+}

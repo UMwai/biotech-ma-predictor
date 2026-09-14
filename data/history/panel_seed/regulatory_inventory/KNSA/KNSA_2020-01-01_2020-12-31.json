@@ -1,0 +1,5703 @@
+{
+  "cik": 1730430,
+  "end_date": "2020-12-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:54:25.883699+00:00",
+      "returned": 80,
+      "source_bytes": 56116,
+      "source_relative_path": "raw_sources/625a09211f35830aceb6a8719c1a7fca02393b5c9b98da8fc18495b071015d1b.json",
+      "source_sha256": "625a09211f35830aceb6a8719c1a7fca02393b5c9b98da8fc18495b071015d1b",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001730430&dateRange=custom&startdt=2020-01-01&enddt=2020-12-31&from=0&size=100",
+      "total": 80
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001179110-20-012222",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1835458/000117911020012222/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020012222/edgar.xml"
+      ],
+      "ciks": [
+        "0001835458",
+        "0001730430"
+      ],
+      "display_names": [
+        "Ragosa Mark  (CIK 0001835458)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-12-23",
+      "form": "3",
+      "id": "0001179110-20-012222:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-012222:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-012222",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001835458",
+            "0001730430"
+          ],
+          "display_names": [
+            "Ragosa Mark  (CIK 0001835458)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-12-23",
+          "file_description": "FORM 3 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "201413353"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-12-17",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1608681600000,
+          "0001179110-20-012222:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-138559",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920138559/tm2038688d1_8k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm2038688d1_8k.htm",
+      "filed_date": "2020-12-22",
+      "form": "8-K",
+      "id": "0001104659-20-138559:tm2038688d1_8k.htm",
+      "items": [
+        "5.02"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-138559:tm2038688d1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-138559",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-12-22",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201407990"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "5.02"
+          ],
+          "period_ending": "2020-12-16",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1608595200000,
+          "0001104659-20-138559:tm2038688d1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001567619-20-020224",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000156761920020224/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2020-11-23",
+      "form": "D/A",
+      "id": "0001567619-20-020224:primary_doc.xml",
+      "items": [
+        "06B"
+      ],
+      "source_hit": {
+        "_id": "0001567619-20-020224:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001567619-20-020224",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-11-23",
+          "file_description": null,
+          "file_num": [
+            "021-336499"
+          ],
+          "file_type": "D/A",
+          "film_num": [
+            "201338703"
+          ],
+          "form": "D/A",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "06B"
+          ],
+          "period_ending": null,
+          "root_forms": [
+            "D"
+          ],
+          "schema_version": "X0708",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslFormDX01"
+        },
+        "sort": [
+          1606089600000,
+          "0001567619-20-020224:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-123603",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920123603/tm2035559d1_8k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm2035559d1_8k.htm",
+      "filed_date": "2020-11-10",
+      "form": "8-K",
+      "id": "0001104659-20-123603:tm2035559d1_8k.htm",
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-123603:tm2035559d1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-123603",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-11-10",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201301460"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "1.01",
+            "9.01"
+          ],
+          "period_ending": "2020-11-06",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1604966400000,
+          "0001104659-20-123603:tm2035559d1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-20-012880",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000155837020012880/knsa-20200930x10q.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "knsa-20200930x10q.htm",
+      "filed_date": "2020-11-05",
+      "form": "10-Q",
+      "id": "0001558370-20-012880:knsa-20200930x10q.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-20-012880:knsa-20200930x10q.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-20-012880",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-11-05",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "201290921"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-09-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1604534400000,
+          "0001558370-20-012880:knsa-20200930x10q.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-121581",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920121581/tm2034854-1_8k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm2034854-1_8k.htm",
+      "filed_date": "2020-11-05",
+      "form": "8-K",
+      "id": "0001104659-20-121581:tm2034854-1_8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-121581:tm2034854-1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-121581",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-11-05",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201288704"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-11-05",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1604534400000,
+          "0001104659-20-121581:tm2034854-1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001085146-20-002765",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000108514620002765/knsaa1_110520.htm",
+        "https://www.sec.gov/Archives/edgar/data/1544773/000108514620002765/knsaa1_110520.htm"
+      ],
+      "ciks": [
+        "0001730430",
+        "0001544773"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+        "Consonance Capital Management LP  (CIK 0001544773)"
+      ],
+      "document_name": "knsaa1_110520.htm",
+      "filed_date": "2020-11-05",
+      "form": "SC 13G/A",
+      "id": "0001085146-20-002765:knsaa1_110520.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001085146-20-002765:knsaa1_110520.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001085146-20-002765",
+          "biz_locations": [
+            "Hamilton, D0",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "D0",
+            "NY"
+          ],
+          "ciks": [
+            "0001730430",
+            "0001544773"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+            "Consonance Capital Management LP  (CIK 0001544773)"
+          ],
+          "file_date": "2020-11-05",
+          "file_description": "CONSONANCE CAPITAL MANAGEMENT LP",
+          "file_num": [
+            "005-90491"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "201291333"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "D0",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1604534400000,
+          "0001085146-20-002765:knsaa1_110520.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-117985",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920117985/tm2034235d1_8k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm2034235d1_8k.htm",
+      "filed_date": "2020-10-26",
+      "form": "8-K",
+      "id": "0001104659-20-117985:tm2034235d1_8k.htm",
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-117985:tm2034235d1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-117985",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-10-26",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201259102"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2020-10-23",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1603670400000,
+          "0001104659-20-117985:tm2034235d1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-010450",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1532218/000117911020010450/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020010450/edgar.xml"
+      ],
+      "ciks": [
+        "0001532218",
+        "0001730430"
+      ],
+      "display_names": [
+        "Patel Sanj K  (CIK 0001532218)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-10-14",
+      "form": "4",
+      "id": "0001179110-20-010450:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-010450:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-010450",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001532218",
+            "0001730430"
+          ],
+          "display_names": [
+            "Patel Sanj K  (CIK 0001532218)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-10-14",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201239665"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-10-09",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1602633600000,
+          "0001179110-20-010450:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "9999999995-20-002521",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/999999999520002521/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2020-09-21",
+      "form": "EFFECT",
+      "id": "9999999995-20-002521:primary_doc.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999995-20-002521:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999995-20-002521",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-09-21",
+          "file_description": null,
+          "file_num": [
+            "333-248656"
+          ],
+          "file_type": "EFFECT",
+          "film_num": [
+            "201187791"
+          ],
+          "form": "EFFECT",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "EFFECT"
+          ],
+          "schema_version": "X0101",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslEFFECTX01"
+        },
+        "sort": [
+          1600646400000,
+          "9999999995-20-002521:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-105924",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920105924/filename1.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "filename1.htm",
+      "filed_date": "2020-09-17",
+      "form": "CORRESP",
+      "id": "0001104659-20-105924:filename1.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-105924:filename1.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-105924",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-09-17",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "CORRESP",
+          "film_num": [],
+          "form": "CORRESP",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "CORRESP"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1600300800000,
+          "0001104659-20-105924:filename1.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000000000-20-008726",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000000000020008726/filename1.pdf"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "filename1.pdf",
+      "filed_date": "2020-09-16",
+      "form": "UPLOAD",
+      "id": "0000000000-20-008726:filename1.pdf",
+      "items": [],
+      "source_hit": {
+        "_id": "0000000000-20-008726:filename1.pdf",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000000000-20-008726",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-09-16",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "LETTER",
+          "film_num": [],
+          "form": "UPLOAD",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "UPLOAD"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1600214400000,
+          "0000000000-20-008726:filename1.pdf"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-009723",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1532218/000117911020009723/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020009723/edgar.xml"
+      ],
+      "ciks": [
+        "0001532218",
+        "0001730430"
+      ],
+      "display_names": [
+        "Patel Sanj K  (CIK 0001532218)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-09-14",
+      "form": "4",
+      "id": "0001179110-20-009723:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-009723:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-009723",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001532218",
+            "0001730430"
+          ],
+          "display_names": [
+            "Patel Sanj K  (CIK 0001532218)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-09-14",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201173935"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-09-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1600041600000,
+          "0001179110-20-009723:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-009722",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1741382/000117911020009722/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020009722/edgar.xml"
+      ],
+      "ciks": [
+        "0001741382",
+        "0001730430"
+      ],
+      "display_names": [
+        "Beetham Thomas W.  (CIK 0001741382)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-09-14",
+      "form": "4",
+      "id": "0001179110-20-009722:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-009722:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-009722",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001741382",
+            "0001730430"
+          ],
+          "display_names": [
+            "Beetham Thomas W.  (CIK 0001741382)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-09-14",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201173910"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-09-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1600041600000,
+          "0001179110-20-009722:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-009721",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1741533/000117911020009721/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020009721/edgar.xml"
+      ],
+      "ciks": [
+        "0001741533",
+        "0001730430"
+      ],
+      "display_names": [
+        "Paolini John F.  (CIK 0001741533)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-09-14",
+      "form": "4",
+      "id": "0001179110-20-009721:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-009721:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-009721",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001741533",
+            "0001730430"
+          ],
+          "display_names": [
+            "Paolini John F.  (CIK 0001741533)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-09-14",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201173884"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-09-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1600041600000,
+          "0001179110-20-009721:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-009720",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1794636/000117911020009720/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020009720/edgar.xml"
+      ],
+      "ciks": [
+        "0001794636",
+        "0001730430"
+      ],
+      "display_names": [
+        "Rizvi Qasim  (CIK 0001794636)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-09-14",
+      "form": "4",
+      "id": "0001179110-20-009720:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-009720:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-009720",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001794636",
+            "0001730430"
+          ],
+          "display_names": [
+            "Rizvi Qasim  (CIK 0001794636)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-09-14",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201173859"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-09-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1600041600000,
+          "0001179110-20-009720:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-009719",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1464583/000117911020009719/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020009719/edgar.xml"
+      ],
+      "ciks": [
+        "0001464583",
+        "0001730430"
+      ],
+      "display_names": [
+        "Megna Michael R  (CIK 0001464583)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-09-14",
+      "form": "4",
+      "id": "0001179110-20-009719:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-009719:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-009719",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001464583",
+            "0001730430"
+          ],
+          "display_names": [
+            "Megna Michael R  (CIK 0001464583)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-09-14",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201173823"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-09-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1600041600000,
+          "0001179110-20-009719:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-103055",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920103055/tm2025943-1_s3.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm2025943-1_s3.htm",
+      "filed_date": "2020-09-08",
+      "form": "S-3",
+      "id": "0001104659-20-103055:tm2025943-1_s3.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-103055:tm2025943-1_s3.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-103055",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-09-08",
+          "file_description": "S-3",
+          "file_num": [
+            "333-248656"
+          ],
+          "file_type": "S-3",
+          "film_num": [
+            "201164339"
+          ],
+          "form": "S-3",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-3"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1599523200000,
+          "0001104659-20-103055:tm2025943-1_s3.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-20-009147",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000155837020009147/knsa-20200630x10q.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "knsa-20200630x10q.htm",
+      "filed_date": "2020-08-04",
+      "form": "10-Q",
+      "id": "0001558370-20-009147:knsa-20200630x10q.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-20-009147:knsa-20200630x10q.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-20-009147",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-08-04",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "201073613"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-06-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1596499200000,
+          "0001558370-20-009147:knsa-20200630x10q.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-088133",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920088133/tm2025958d1_8k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm2025958d1_8k.htm",
+      "filed_date": "2020-07-30",
+      "form": "8-K",
+      "id": "0001104659-20-088133:tm2025958d1_8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-088133:tm2025958d1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-088133",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-30",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201059216"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-07-30",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1596067200000,
+          "0001104659-20-088133:tm2025958d1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-008544",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1337798/000117911020008544/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020008544/edgar.xml"
+      ],
+      "ciks": [
+        "0001337798",
+        "0001730430"
+      ],
+      "display_names": [
+        "Cole G Bradley  (CIK 0001337798)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-07-29",
+      "form": "4",
+      "id": "0001179110-20-008544:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-008544:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-008544",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001337798",
+            "0001730430"
+          ],
+          "display_names": [
+            "Cole G Bradley  (CIK 0001337798)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-29",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201058212"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-07-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1595980800000,
+          "0001179110-20-008544:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-008542",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1337798/000117911020008542/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020008542/edgar.xml"
+      ],
+      "ciks": [
+        "0001337798",
+        "0001730430"
+      ],
+      "display_names": [
+        "Cole G Bradley  (CIK 0001337798)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-07-29",
+      "form": "3",
+      "id": "0001179110-20-008542:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-008542:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-008542",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001337798",
+            "0001730430"
+          ],
+          "display_names": [
+            "Cole G Bradley  (CIK 0001337798)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-29",
+          "file_description": "FORM 3 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "201058153"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-07-27",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1595980800000,
+          "0001179110-20-008542:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001638599-20-000681",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1263508/000163859920000681/doc4_6800.xml",
+        "https://www.sec.gov/Archives/edgar/data/1551139/000163859920000681/doc4_6800.xml",
+        "https://www.sec.gov/Archives/edgar/data/1580575/000163859920000681/doc4_6800.xml",
+        "https://www.sec.gov/Archives/edgar/data/1363364/000163859920000681/doc4_6800.xml",
+        "https://www.sec.gov/Archives/edgar/data/1087940/000163859920000681/doc4_6800.xml",
+        "https://www.sec.gov/Archives/edgar/data/1087939/000163859920000681/doc4_6800.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000163859920000681/doc4_6800.xml"
+      ],
+      "ciks": [
+        "0001263508",
+        "0001551139",
+        "0001580575",
+        "0001363364",
+        "0001087940",
+        "0001087939",
+        "0001730430"
+      ],
+      "display_names": [
+        "BAKER BROS. ADVISORS LP  (CIK 0001263508)",
+        "667, L.P.  (CIK 0001551139)",
+        "Baker Bros. Advisors (GP) LLC  (CIK 0001580575)",
+        "Baker Brothers Life Sciences LP  (CIK 0001363364)",
+        "BAKER FELIX  (CIK 0001087940)",
+        "BAKER JULIAN  (CIK 0001087939)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "doc4_6800.xml",
+      "filed_date": "2020-07-28",
+      "form": "4",
+      "id": "0001638599-20-000681:doc4_6800.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001638599-20-000681:doc4_6800.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001638599-20-000681",
+          "biz_locations": [
+            "New York, NY",
+            "New York, NY",
+            "New York, NY",
+            "New York, NY",
+            "",
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "NY",
+            "D0"
+          ],
+          "ciks": [
+            "0001263508",
+            "0001551139",
+            "0001580575",
+            "0001363364",
+            "0001087940",
+            "0001087939",
+            "0001730430"
+          ],
+          "display_names": [
+            "BAKER BROS. ADVISORS LP  (CIK 0001263508)",
+            "667, L.P.  (CIK 0001551139)",
+            "Baker Bros. Advisors (GP) LLC  (CIK 0001580575)",
+            "Baker Brothers Life Sciences LP  (CIK 0001363364)",
+            "BAKER FELIX  (CIK 0001087940)",
+            "BAKER JULIAN  (CIK 0001087939)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-28",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-38492",
+            "001-38492",
+            "001-38492",
+            "001-38492",
+            "001-38492",
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201054880",
+            "201054881",
+            "201054882",
+            "201054883",
+            "201054884",
+            "201054885"
+          ],
+          "form": "4",
+          "inc_states": [
+            "DE",
+            "DE",
+            "DE",
+            "DE",
+            "",
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-07-24",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1595894400000,
+          "0001638599-20-000681:doc4_6800.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-087438",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920087438/tm2025901d1_sc13da.htm",
+        "https://www.sec.gov/Archives/edgar/data/1263508/000110465920087438/tm2025901d1_sc13da.htm"
+      ],
+      "ciks": [
+        "0001730430",
+        "0001263508"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+        "BAKER BROS. ADVISORS LP  (CIK 0001263508)"
+      ],
+      "document_name": "tm2025901d1_sc13da.htm",
+      "filed_date": "2020-07-28",
+      "form": "SC 13D/A",
+      "id": "0001104659-20-087438:tm2025901d1_sc13da.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-087438:tm2025901d1_sc13da.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-087438",
+          "biz_locations": [
+            "Hamilton, D0",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "D0",
+            "NY"
+          ],
+          "ciks": [
+            "0001730430",
+            "0001263508"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+            "BAKER BROS. ADVISORS LP  (CIK 0001263508)"
+          ],
+          "file_date": "2020-07-28",
+          "file_description": "SCHEDULE 13D/A",
+          "file_num": [
+            "005-90491"
+          ],
+          "file_type": "SC 13D/A",
+          "film_num": [
+            "201054868"
+          ],
+          "form": "SC 13D/A",
+          "inc_states": [
+            "D0",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1595894400000,
+          "0001104659-20-087438:tm2025901d1_sc13da.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-087353",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920087353/tm2025752-1_8k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm2025752-1_8k.htm",
+      "filed_date": "2020-07-28",
+      "form": "8-K",
+      "id": "0001104659-20-087353:tm2025752-1_8k.htm",
+      "items": [
+        "5.02"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-087353:tm2025752-1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-087353",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-28",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201054180"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "5.02"
+          ],
+          "period_ending": "2020-07-25",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1595894400000,
+          "0001104659-20-087353:tm2025752-1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-086448",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920086448/tm2023613-5_8k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm2023613-5_8k.htm",
+      "filed_date": "2020-07-24",
+      "form": "8-K",
+      "id": "0001104659-20-086448:tm2023613-5_8k.htm",
+      "items": [
+        "1.01",
+        "2.02",
+        "3.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-086448:tm2023613-5_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-086448",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-24",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201047087"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "1.01",
+            "2.02",
+            "3.02",
+            "9.01"
+          ],
+          "period_ending": "2020-07-20",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1595548800000,
+          "0001104659-20-086448:tm2023613-5_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001047469-20-004203",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000104746920004203/a2242112z424b5.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "a2242112z424b5.htm",
+      "filed_date": "2020-07-23",
+      "form": "424B5",
+      "id": "0001047469-20-004203:a2242112z424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001047469-20-004203:a2242112z424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001047469-20-004203",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-23",
+          "file_description": "424B5",
+          "file_num": [
+            "333-231910"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "201042566"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1595462400000,
+          "0001047469-20-004203:a2242112z424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001047469-20-004170",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000104746920004170/a2241986z424b5.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "a2241986z424b5.htm",
+      "filed_date": "2020-07-20",
+      "form": "424B5",
+      "id": "0001047469-20-004170:a2241986z424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001047469-20-004170:a2241986z424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001047469-20-004170",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-20",
+          "file_description": "424B5",
+          "file_num": [
+            "333-231910"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "201037069"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1595203200000,
+          "0001047469-20-004170:a2241986z424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-083752",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920083752/tm2024636d1_8k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm2024636d1_8k.htm",
+      "filed_date": "2020-07-15",
+      "form": "8-K",
+      "id": "0001104659-20-083752:tm2024636d1_8k.htm",
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-083752:tm2024636d1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-083752",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-15",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201029431"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "1.01",
+            "9.01"
+          ],
+          "period_ending": "2020-07-09",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1594771200000,
+          "0001104659-20-083752:tm2024636d1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-081711",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920081711/a20-24225_18k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "a20-24225_18k.htm",
+      "filed_date": "2020-07-07",
+      "form": "8-K",
+      "id": "0001104659-20-081711:a20-24225_18k.htm",
+      "items": [
+        "5.07"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-081711:a20-24225_18k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-081711",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-07",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201016197"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "5.07"
+          ],
+          "period_ending": "2020-06-30",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1594080000000,
+          "0001104659-20-081711:a20-24225_18k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001638599-20-000648",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1263508/000163859920000648/doc4_6787.xml",
+        "https://www.sec.gov/Archives/edgar/data/1551139/000163859920000648/doc4_6787.xml",
+        "https://www.sec.gov/Archives/edgar/data/1580575/000163859920000648/doc4_6787.xml",
+        "https://www.sec.gov/Archives/edgar/data/1363364/000163859920000648/doc4_6787.xml",
+        "https://www.sec.gov/Archives/edgar/data/1087940/000163859920000648/doc4_6787.xml",
+        "https://www.sec.gov/Archives/edgar/data/1087939/000163859920000648/doc4_6787.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000163859920000648/doc4_6787.xml"
+      ],
+      "ciks": [
+        "0001263508",
+        "0001551139",
+        "0001580575",
+        "0001363364",
+        "0001087940",
+        "0001087939",
+        "0001730430"
+      ],
+      "display_names": [
+        "BAKER BROS. ADVISORS LP  (CIK 0001263508)",
+        "667, L.P.  (CIK 0001551139)",
+        "Baker Bros. Advisors (GP) LLC  (CIK 0001580575)",
+        "Baker Brothers Life Sciences LP  (CIK 0001363364)",
+        "BAKER FELIX  (CIK 0001087940)",
+        "BAKER JULIAN  (CIK 0001087939)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "doc4_6787.xml",
+      "filed_date": "2020-07-02",
+      "form": "4",
+      "id": "0001638599-20-000648:doc4_6787.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001638599-20-000648:doc4_6787.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001638599-20-000648",
+          "biz_locations": [
+            "New York, NY",
+            "New York, NY",
+            "New York, NY",
+            "New York, NY",
+            "",
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "NY",
+            "D0"
+          ],
+          "ciks": [
+            "0001263508",
+            "0001551139",
+            "0001580575",
+            "0001363364",
+            "0001087940",
+            "0001087939",
+            "0001730430"
+          ],
+          "display_names": [
+            "BAKER BROS. ADVISORS LP  (CIK 0001263508)",
+            "667, L.P.  (CIK 0001551139)",
+            "Baker Bros. Advisors (GP) LLC  (CIK 0001580575)",
+            "Baker Brothers Life Sciences LP  (CIK 0001363364)",
+            "BAKER FELIX  (CIK 0001087940)",
+            "BAKER JULIAN  (CIK 0001087939)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-02",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-38492",
+            "001-38492",
+            "001-38492",
+            "001-38492",
+            "001-38492",
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201011216",
+            "201011217",
+            "201011218",
+            "201011219",
+            "201011220",
+            "201011221"
+          ],
+          "form": "4",
+          "inc_states": [
+            "DE",
+            "DE",
+            "DE",
+            "DE",
+            "",
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-06-30",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1593648000000,
+          "0001638599-20-000648:doc4_6787.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-080553",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1454983/000110465920080553/a4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920080553/a4.xml"
+      ],
+      "ciks": [
+        "0001454983",
+        "0001730430"
+      ],
+      "display_names": [
+        "Levy Richard S  (CIK 0001454983)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "a4.xml",
+      "filed_date": "2020-07-02",
+      "form": "4",
+      "id": "0001104659-20-080553:a4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-080553:a4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-080553",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001454983",
+            "0001730430"
+          ],
+          "display_names": [
+            "Levy Richard S  (CIK 0001454983)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-02",
+          "file_description": "4",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201009475"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-06-30",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1593648000000,
+          "0001104659-20-080553:a4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-080552",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1741382/000110465920080552/a4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920080552/a4.xml"
+      ],
+      "ciks": [
+        "0001741382",
+        "0001730430"
+      ],
+      "display_names": [
+        "Beetham Thomas W.  (CIK 0001741382)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "a4.xml",
+      "filed_date": "2020-07-02",
+      "form": "4",
+      "id": "0001104659-20-080552:a4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-080552:a4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-080552",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001741382",
+            "0001730430"
+          ],
+          "display_names": [
+            "Beetham Thomas W.  (CIK 0001741382)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-02",
+          "file_description": "4",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201009466"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-07-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1593648000000,
+          "0001104659-20-080552:a4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-080550",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1384243/000110465920080550/a4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920080550/a4.xml"
+      ],
+      "ciks": [
+        "0001384243",
+        "0001730430"
+      ],
+      "display_names": [
+        "Quart Barry D  (CIK 0001384243)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "a4.xml",
+      "filed_date": "2020-07-02",
+      "form": "4",
+      "id": "0001104659-20-080550:a4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-080550:a4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-080550",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001384243",
+            "0001730430"
+          ],
+          "display_names": [
+            "Quart Barry D  (CIK 0001384243)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-02",
+          "file_description": "4",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201009444"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-06-30",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1593648000000,
+          "0001104659-20-080550:a4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-080549",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1403322/000110465920080549/a4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920080549/a4.xml"
+      ],
+      "ciks": [
+        "0001403322",
+        "0001730430"
+      ],
+      "display_names": [
+        "Malley Thomas  (CIK 0001403322)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "a4.xml",
+      "filed_date": "2020-07-02",
+      "form": "4",
+      "id": "0001104659-20-080549:a4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-080549:a4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-080549",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001403322",
+            "0001730430"
+          ],
+          "display_names": [
+            "Malley Thomas  (CIK 0001403322)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-02",
+          "file_description": "4",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201009429"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-06-30",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1593648000000,
+          "0001104659-20-080549:a4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-080548",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1333482/000110465920080548/a4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920080548/a4.xml"
+      ],
+      "ciks": [
+        "0001333482",
+        "0001730430"
+      ],
+      "display_names": [
+        "Popovits Kimberly J  (CIK 0001333482)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "a4.xml",
+      "filed_date": "2020-07-02",
+      "form": "4",
+      "id": "0001104659-20-080548:a4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-080548:a4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-080548",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001333482",
+            "0001730430"
+          ],
+          "display_names": [
+            "Popovits Kimberly J  (CIK 0001333482)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-02",
+          "file_description": "4",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201009415"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-06-30",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1593648000000,
+          "0001104659-20-080548:a4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-080547",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1683600/000110465920080547/a4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920080547/a4.xml"
+      ],
+      "ciks": [
+        "0001683600",
+        "0001730430"
+      ],
+      "display_names": [
+        "McCain Tracey L  (CIK 0001683600)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "a4.xml",
+      "filed_date": "2020-07-02",
+      "form": "4",
+      "id": "0001104659-20-080547:a4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-080547:a4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-080547",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001683600",
+            "0001730430"
+          ],
+          "display_names": [
+            "McCain Tracey L  (CIK 0001683600)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-07-02",
+          "file_description": "4",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201009400"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-06-30",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1593648000000,
+          "0001104659-20-080547:a4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-077701",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920077701/tm2023613d3_8k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm2023613d3_8k.htm",
+      "filed_date": "2020-06-29",
+      "form": "8-K",
+      "id": "0001104659-20-077701:tm2023613d3_8k.htm",
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-077701:tm2023613d3_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-077701",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-06-29",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20995910"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2020-06-29",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1593388800000,
+          "0001104659-20-077701:tm2023613d3_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001085146-20-001669",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000108514620001669/knsa_61520.htm",
+        "https://www.sec.gov/Archives/edgar/data/1544773/000108514620001669/knsa_61520.htm"
+      ],
+      "ciks": [
+        "0001730430",
+        "0001544773"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+        "Consonance Capital Management LP  (CIK 0001544773)"
+      ],
+      "document_name": "knsa_61520.htm",
+      "filed_date": "2020-06-16",
+      "form": "SC 13G",
+      "id": "0001085146-20-001669:knsa_61520.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001085146-20-001669:knsa_61520.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001085146-20-001669",
+          "biz_locations": [
+            "Hamilton, D0",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "D0",
+            "NY"
+          ],
+          "ciks": [
+            "0001730430",
+            "0001544773"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+            "Consonance Capital Management LP  (CIK 0001544773)"
+          ],
+          "file_date": "2020-06-16",
+          "file_description": "CONSONANCE CAPITAL MANAGEMENT LP",
+          "file_num": [
+            "005-90491"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "20965147"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "D0",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1592265600000,
+          "0001085146-20-001669:knsa_61520.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-007295",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1741382/000117911020007295/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020007295/edgar.xml"
+      ],
+      "ciks": [
+        "0001741382",
+        "0001730430"
+      ],
+      "display_names": [
+        "Beetham Thomas W.  (CIK 0001741382)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-06-12",
+      "form": "4",
+      "id": "0001179110-20-007295:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-007295:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-007295",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001741382",
+            "0001730430"
+          ],
+          "display_names": [
+            "Beetham Thomas W.  (CIK 0001741382)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-06-12",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20961301"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-06-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591920000000,
+          "0001179110-20-007295:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "9999999995-20-001340",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/999999999520001340/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2020-06-04",
+      "form": "EFFECT",
+      "id": "9999999995-20-001340:primary_doc.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999995-20-001340:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999995-20-001340",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-06-04",
+          "file_description": null,
+          "file_num": [
+            "333-238585"
+          ],
+          "file_type": "EFFECT",
+          "film_num": [
+            "20944412"
+          ],
+          "form": "EFFECT",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "EFFECT"
+          ],
+          "schema_version": "X0101",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslEFFECTX01"
+        },
+        "sort": [
+          1591228800000,
+          "9999999995-20-001340:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-068840",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920068840/filename1.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "filename1.htm",
+      "filed_date": "2020-06-02",
+      "form": "CORRESP",
+      "id": "0001104659-20-068840:filename1.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-068840:filename1.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-068840",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-06-02",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "CORRESP",
+          "film_num": [],
+          "form": "CORRESP",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "CORRESP"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1591056000000,
+          "0001104659-20-068840:filename1.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000000000-20-004811",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000000000020004811/filename1.pdf"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "filename1.pdf",
+      "filed_date": "2020-05-29",
+      "form": "UPLOAD",
+      "id": "0000000000-20-004811:filename1.pdf",
+      "items": [],
+      "source_hit": {
+        "_id": "0000000000-20-004811:filename1.pdf",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000000000-20-004811",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-05-29",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "LETTER",
+          "film_num": [],
+          "form": "UPLOAD",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "UPLOAD"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1590710400000,
+          "0000000000-20-004811:filename1.pdf"
+        ]
+      }
+    },
+    {
+      "accession": "0001047469-20-003168",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000104746920003168/a2241684zs-3.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "a2241684zs-3.htm",
+      "filed_date": "2020-05-21",
+      "form": "S-3",
+      "id": "0001047469-20-003168:a2241684zs-3.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001047469-20-003168:a2241684zs-3.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001047469-20-003168",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-05-21",
+          "file_description": "S-3",
+          "file_num": [
+            "333-238585"
+          ],
+          "file_type": "S-3",
+          "film_num": [
+            "20902899"
+          ],
+          "form": "S-3",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-3"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1590019200000,
+          "0001047469-20-003168:a2241684zs-3.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001638599-20-000499",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1263508/000163859920000499/doc4_6697.xml",
+        "https://www.sec.gov/Archives/edgar/data/1551139/000163859920000499/doc4_6697.xml",
+        "https://www.sec.gov/Archives/edgar/data/1580575/000163859920000499/doc4_6697.xml",
+        "https://www.sec.gov/Archives/edgar/data/1363364/000163859920000499/doc4_6697.xml",
+        "https://www.sec.gov/Archives/edgar/data/1087940/000163859920000499/doc4_6697.xml",
+        "https://www.sec.gov/Archives/edgar/data/1087939/000163859920000499/doc4_6697.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000163859920000499/doc4_6697.xml"
+      ],
+      "ciks": [
+        "0001263508",
+        "0001551139",
+        "0001580575",
+        "0001363364",
+        "0001087940",
+        "0001087939",
+        "0001730430"
+      ],
+      "display_names": [
+        "BAKER BROS. ADVISORS LP  (CIK 0001263508)",
+        "667, L.P.  (CIK 0001551139)",
+        "Baker Bros. Advisors (GP) LLC  (CIK 0001580575)",
+        "Baker Brothers Life Sciences LP  (CIK 0001363364)",
+        "BAKER FELIX  (CIK 0001087940)",
+        "BAKER JULIAN  (CIK 0001087939)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "doc4_6697.xml",
+      "filed_date": "2020-05-18",
+      "form": "4",
+      "id": "0001638599-20-000499:doc4_6697.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001638599-20-000499:doc4_6697.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001638599-20-000499",
+          "biz_locations": [
+            "New York, NY",
+            "New York, NY",
+            "New York, NY",
+            "New York, NY",
+            "",
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "NY",
+            "D0"
+          ],
+          "ciks": [
+            "0001263508",
+            "0001551139",
+            "0001580575",
+            "0001363364",
+            "0001087940",
+            "0001087939",
+            "0001730430"
+          ],
+          "display_names": [
+            "BAKER BROS. ADVISORS LP  (CIK 0001263508)",
+            "667, L.P.  (CIK 0001551139)",
+            "Baker Bros. Advisors (GP) LLC  (CIK 0001580575)",
+            "Baker Brothers Life Sciences LP  (CIK 0001363364)",
+            "BAKER FELIX  (CIK 0001087940)",
+            "BAKER JULIAN  (CIK 0001087939)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-05-18",
+          "file_description": "PRIMARY DOCUMENT",
+          "file_num": [
+            "001-38492",
+            "001-38492",
+            "001-38492",
+            "001-38492",
+            "001-38492",
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20891175",
+            "20891176",
+            "20891177",
+            "20891178",
+            "20891179",
+            "20891180"
+          ],
+          "form": "4",
+          "inc_states": [
+            "DE",
+            "DE",
+            "DE",
+            "DE",
+            "",
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-05-18",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1589760000000,
+          "0001638599-20-000499:doc4_6697.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-063267",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920063267/tm2020133-1_sc13da.htm",
+        "https://www.sec.gov/Archives/edgar/data/1263508/000110465920063267/tm2020133-1_sc13da.htm"
+      ],
+      "ciks": [
+        "0001730430",
+        "0001263508"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+        "BAKER BROS. ADVISORS LP  (CIK 0001263508)"
+      ],
+      "document_name": "tm2020133-1_sc13da.htm",
+      "filed_date": "2020-05-18",
+      "form": "SC 13D/A",
+      "id": "0001104659-20-063267:tm2020133-1_sc13da.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-063267:tm2020133-1_sc13da.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-063267",
+          "biz_locations": [
+            "Hamilton, D0",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "D0",
+            "NY"
+          ],
+          "ciks": [
+            "0001730430",
+            "0001263508"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+            "BAKER BROS. ADVISORS LP  (CIK 0001263508)"
+          ],
+          "file_date": "2020-05-18",
+          "file_description": "SC 13D/A",
+          "file_num": [
+            "005-90491"
+          ],
+          "file_type": "SC 13D/A",
+          "film_num": [
+            "20890717"
+          ],
+          "form": "SC 13D/A",
+          "inc_states": [
+            "D0",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1589760000000,
+          "0001104659-20-063267:tm2020133-1_sc13da.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-063240",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920063240/tm2019898d1_8k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm2019898d1_8k.htm",
+      "filed_date": "2020-05-18",
+      "form": "8-K",
+      "id": "0001104659-20-063240:tm2019898d1_8k.htm",
+      "items": [
+        "1.01",
+        "3.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-063240:tm2019898d1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-063240",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-05-18",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20890343"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "1.01",
+            "3.02",
+            "9.01"
+          ],
+          "period_ending": "2020-05-13",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1589760000000,
+          "0001104659-20-063240:tm2019898d1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001047469-20-003101",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000104746920003101/a2241645z424b5.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "a2241645z424b5.htm",
+      "filed_date": "2020-05-15",
+      "form": "424B5",
+      "id": "0001047469-20-003101:a2241645z424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001047469-20-003101:a2241645z424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001047469-20-003101",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-05-15",
+          "file_description": "424B5",
+          "file_num": [
+            "333-231910"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "20886688"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1589500800000,
+          "0001047469-20-003101:a2241645z424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001047469-20-003043",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000104746920003043/a2241634z424b5.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "a2241634z424b5.htm",
+      "filed_date": "2020-05-14",
+      "form": "424B5",
+      "id": "0001047469-20-003043:a2241634z424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001047469-20-003043:a2241634z424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001047469-20-003043",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-05-14",
+          "file_description": "424B5",
+          "file_num": [
+            "333-231910"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "20874822"
+          ],
+          "form": "424B5",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1589414400000,
+          "0001047469-20-003043:a2241634z424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-20-005040",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000155837020005040/knsa-20200331x10q.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "knsa-20200331x10q.htm",
+      "filed_date": "2020-05-04",
+      "form": "10-Q",
+      "id": "0001558370-20-005040:knsa-20200331x10q.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-20-005040:knsa-20200331x10q.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-20-005040",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-05-04",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "20845386"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-03-31",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1588550400000,
+          "0001558370-20-005040:knsa-20200331x10q.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-052493",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920052493/a20-2159_3defa14a.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "a20-2159_3defa14a.htm",
+      "filed_date": "2020-04-28",
+      "form": "DEFA14A",
+      "id": "0001104659-20-052493:a20-2159_3defa14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-052493:a20-2159_3defa14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-052493",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-04-28",
+          "file_description": "DEFA14A",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "DEFA14A",
+          "film_num": [
+            "20826277"
+          ],
+          "form": "DEFA14A",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DEFA14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1588032000000,
+          "0001104659-20-052493:a20-2159_3defa14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-051961",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920051961/tm2016936d1_8k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm2016936d1_8k.htm",
+      "filed_date": "2020-04-28",
+      "form": "8-K",
+      "id": "0001104659-20-051961:tm2016936d1_8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-051961:tm2016936d1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-051961",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-04-28",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20822350"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-04-28",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1588032000000,
+          "0001104659-20-051961:tm2016936d1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001047469-20-002657",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000104746920002657/a2241416zdef14a.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "a2241416zdef14a.htm",
+      "filed_date": "2020-04-28",
+      "form": "DEF 14A",
+      "id": "0001047469-20-002657:a2241416zdef14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001047469-20-002657:a2241416zdef14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001047469-20-002657",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-04-28",
+          "file_description": "DEF 14A",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "DEF 14A",
+          "film_num": [
+            "20826267"
+          ],
+          "form": "DEF 14A",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-06-30",
+          "root_forms": [
+            "DEF 14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1588032000000,
+          "0001047469-20-002657:a2241416zdef14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-005046",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1741382/000117911020005046/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020005046/edgar.xml"
+      ],
+      "ciks": [
+        "0001741382",
+        "0001730430"
+      ],
+      "display_names": [
+        "Beetham Thomas W.  (CIK 0001741382)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-04-22",
+      "form": "4",
+      "id": "0001179110-20-005046:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-005046:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-005046",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001741382",
+            "0001730430"
+          ],
+          "display_names": [
+            "Beetham Thomas W.  (CIK 0001741382)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-04-22",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20808698"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-04-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1587513600000,
+          "0001179110-20-005046:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-049520",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920049520/tm2016542-1_8k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm2016542-1_8k.htm",
+      "filed_date": "2020-04-22",
+      "form": "8-K",
+      "id": "0001104659-20-049520:tm2016542-1_8k.htm",
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-049520:tm2016542-1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-049520",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-04-22",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20806694"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2020-04-22",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1587513600000,
+          "0001104659-20-049520:tm2016542-1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001172661-20-001060",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117266120001060/arrowmark-knsa033120a3.htm",
+        "https://www.sec.gov/Archives/edgar/data/1483859/000117266120001060/arrowmark-knsa033120a3.htm"
+      ],
+      "ciks": [
+        "0001730430",
+        "0001483859"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+        "ArrowMark Colorado Holdings LLC  (CIK 0001483859)"
+      ],
+      "document_name": "arrowmark-knsa033120a3.htm",
+      "filed_date": "2020-04-10",
+      "form": "SC 13G/A",
+      "id": "0001172661-20-001060:arrowmark-knsa033120a3.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001172661-20-001060:arrowmark-knsa033120a3.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001172661-20-001060",
+          "biz_locations": [
+            "Hamilton, D0",
+            "Denver, CO"
+          ],
+          "biz_states": [
+            "D0",
+            "CO"
+          ],
+          "ciks": [
+            "0001730430",
+            "0001483859"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+            "ArrowMark Colorado Holdings LLC  (CIK 0001483859)"
+          ],
+          "file_date": "2020-04-10",
+          "file_description": "SCHEDULE 13G HOLDINGS REPORT AMENDMENT",
+          "file_num": [
+            "005-90491"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20786851"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "D0",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1586476800000,
+          "0001172661-20-001060:arrowmark-knsa033120a3.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-044166",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920044166/tm2014936-1_s8.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm2014936-1_s8.htm",
+      "filed_date": "2020-04-07",
+      "form": "S-8",
+      "id": "0001104659-20-044166:tm2014936-1_s8.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-044166:tm2014936-1_s8.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-044166",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-04-07",
+          "file_description": "FORM S-8",
+          "file_num": [
+            "333-237589"
+          ],
+          "file_type": "S-8",
+          "film_num": [
+            "20779856"
+          ],
+          "form": "S-8",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1586217600000,
+          "0001104659-20-044166:tm2014936-1_s8.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-003836",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1532218/000117911020003836/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020003836/edgar.xml"
+      ],
+      "ciks": [
+        "0001532218",
+        "0001730430"
+      ],
+      "display_names": [
+        "Patel Sanj K  (CIK 0001532218)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-03-17",
+      "form": "4",
+      "id": "0001179110-20-003836:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-003836:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-003836",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001532218",
+            "0001730430"
+          ],
+          "display_names": [
+            "Patel Sanj K  (CIK 0001532218)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-03-17",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20722106"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-03-13",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1584403200000,
+          "0001179110-20-003836:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-003835",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1741382/000117911020003835/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020003835/edgar.xml"
+      ],
+      "ciks": [
+        "0001741382",
+        "0001730430"
+      ],
+      "display_names": [
+        "Beetham Thomas W.  (CIK 0001741382)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-03-17",
+      "form": "4",
+      "id": "0001179110-20-003835:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-003835:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-003835",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001741382",
+            "0001730430"
+          ],
+          "display_names": [
+            "Beetham Thomas W.  (CIK 0001741382)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-03-17",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20722098"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-03-13",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1584403200000,
+          "0001179110-20-003835:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-003834",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1794636/000117911020003834/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020003834/edgar.xml"
+      ],
+      "ciks": [
+        "0001794636",
+        "0001730430"
+      ],
+      "display_names": [
+        "Rizvi Qasim  (CIK 0001794636)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-03-17",
+      "form": "4",
+      "id": "0001179110-20-003834:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-003834:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-003834",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001794636",
+            "0001730430"
+          ],
+          "display_names": [
+            "Rizvi Qasim  (CIK 0001794636)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-03-17",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20722093"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-03-13",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1584403200000,
+          "0001179110-20-003834:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-003833",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1741533/000117911020003833/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020003833/edgar.xml"
+      ],
+      "ciks": [
+        "0001741533",
+        "0001730430"
+      ],
+      "display_names": [
+        "Paolini John F.  (CIK 0001741533)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-03-17",
+      "form": "4",
+      "id": "0001179110-20-003833:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-003833:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-003833",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001741533",
+            "0001730430"
+          ],
+          "display_names": [
+            "Paolini John F.  (CIK 0001741533)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-03-17",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20722089"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-03-13",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1584403200000,
+          "0001179110-20-003833:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-003831",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1464583/000117911020003831/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020003831/edgar.xml"
+      ],
+      "ciks": [
+        "0001464583",
+        "0001730430"
+      ],
+      "display_names": [
+        "Megna Michael R  (CIK 0001464583)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-03-17",
+      "form": "4",
+      "id": "0001179110-20-003831:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-003831:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-003831",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001464583",
+            "0001730430"
+          ],
+          "display_names": [
+            "Megna Michael R  (CIK 0001464583)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-03-17",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20722080"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-03-13",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1584403200000,
+          "0001179110-20-003831:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-003417",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1532218/000117911020003417/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020003417/edgar.xml"
+      ],
+      "ciks": [
+        "0001532218",
+        "0001730430"
+      ],
+      "display_names": [
+        "Patel Sanj K  (CIK 0001532218)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-03-10",
+      "form": "4",
+      "id": "0001179110-20-003417:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-003417:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-003417",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001532218",
+            "0001730430"
+          ],
+          "display_names": [
+            "Patel Sanj K  (CIK 0001532218)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-03-10",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20703110"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-03-06",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1583798400000,
+          "0001179110-20-003417:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-20-002081",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000155837020002081/knsa-20191231x10k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "knsa-20191231x10k.htm",
+      "filed_date": "2020-03-05",
+      "form": "10-K",
+      "id": "0001558370-20-002081:knsa-20191231x10k.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-20-002081:knsa-20191231x10k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-20-002081",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-03-05",
+          "file_description": "10-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "20691667"
+          ],
+          "form": "10-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2019-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1583366400000,
+          "0001558370-20-002081:knsa-20191231x10k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-002714",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1741533/000117911020002714/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020002714/edgar.xml"
+      ],
+      "ciks": [
+        "0001741533",
+        "0001730430"
+      ],
+      "display_names": [
+        "Paolini John F.  (CIK 0001741533)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-03-02",
+      "form": "4",
+      "id": "0001179110-20-002714:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-002714:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-002714",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001741533",
+            "0001730430"
+          ],
+          "display_names": [
+            "Paolini John F.  (CIK 0001741533)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-03-02",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20678746"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-02-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1583107200000,
+          "0001179110-20-002714:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-025055",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920025055/tm209689d1_8k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm209689d1_8k.htm",
+      "filed_date": "2020-02-26",
+      "form": "8-K",
+      "id": "0001104659-20-025055:tm209689d1_8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-025055:tm209689d1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-025055",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-02-26",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20653353"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-02-26",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1582675200000,
+          "0001104659-20-025055:tm209689d1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-002033",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1741533/000117911020002033/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020002033/edgar.xml"
+      ],
+      "ciks": [
+        "0001741533",
+        "0001730430"
+      ],
+      "display_names": [
+        "Paolini John F.  (CIK 0001741533)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-02-21",
+      "form": "4",
+      "id": "0001179110-20-002033:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-002033:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-002033",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001741533",
+            "0001730430"
+          ],
+          "display_names": [
+            "Paolini John F.  (CIK 0001741533)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-02-21",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20640872"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-02-19",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1582243200000,
+          "0001179110-20-002033:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "9999999997-20-000808",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/999999999720000808/filename1.pdf"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "filename1.pdf",
+      "filed_date": "2020-02-19",
+      "form": "SEC STAFF LETTER",
+      "id": "9999999997-20-000808:filename1.pdf",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999997-20-000808:filename1.pdf",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999997-20-000808",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-02-19",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "REDACTED EXHIBIT",
+          "film_num": [],
+          "form": "SEC STAFF LETTER",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SEC STAFF LETTER"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1582070400000,
+          "9999999997-20-000808:filename1.pdf"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-001872",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1741382/000117911020001872/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020001872/edgar.xml"
+      ],
+      "ciks": [
+        "0001741382",
+        "0001730430"
+      ],
+      "display_names": [
+        "Beetham Thomas W.  (CIK 0001741382)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-02-19",
+      "form": "4",
+      "id": "0001179110-20-001872:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-001872:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-001872",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001741382",
+            "0001730430"
+          ],
+          "display_names": [
+            "Beetham Thomas W.  (CIK 0001741382)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-02-19",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20631283"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-02-14",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1582070400000,
+          "0001179110-20-001872:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-001763",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1741533/000117911020001763/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020001763/edgar.xml"
+      ],
+      "ciks": [
+        "0001741533",
+        "0001730430"
+      ],
+      "display_names": [
+        "Paolini John F.  (CIK 0001741533)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-02-18",
+      "form": "4",
+      "id": "0001179110-20-001763:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-001763:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-001763",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001741533",
+            "0001730430"
+          ],
+          "display_names": [
+            "Paolini John F.  (CIK 0001741533)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-02-18",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20626753"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-02-13",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1581984000000,
+          "0001179110-20-001763:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-037021",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000119312520037021/d127848dsc13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/820027/000119312520037021/d127848dsc13g.htm"
+      ],
+      "ciks": [
+        "0001730430",
+        "0000820027"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+        "AMERIPRISE FINANCIAL INC  (AMP)  (CIK 0000820027)"
+      ],
+      "document_name": "d127848dsc13g.htm",
+      "filed_date": "2020-02-14",
+      "form": "SC 13G",
+      "id": "0001193125-20-037021:d127848dsc13g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-20-037021:d127848dsc13g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-037021",
+          "biz_locations": [
+            "Hamilton, D0",
+            "Minneapolis, MN"
+          ],
+          "biz_states": [
+            "D0",
+            "MN"
+          ],
+          "ciks": [
+            "0001730430",
+            "0000820027"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+            "AMERIPRISE FINANCIAL INC  (AMP)  (CIK 0000820027)"
+          ],
+          "file_date": "2020-02-14",
+          "file_description": "SC 13G",
+          "file_num": [
+            "005-90491"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "20614978"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "D0",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6282"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581638400000,
+          "0001193125-20-037021:d127848dsc13g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001172661-20-000889",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117266120000889/arrowmark-knsa123119a2.htm",
+        "https://www.sec.gov/Archives/edgar/data/1483859/000117266120000889/arrowmark-knsa123119a2.htm"
+      ],
+      "ciks": [
+        "0001730430",
+        "0001483859"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+        "ArrowMark Colorado Holdings LLC  (CIK 0001483859)"
+      ],
+      "document_name": "arrowmark-knsa123119a2.htm",
+      "filed_date": "2020-02-14",
+      "form": "SC 13G/A",
+      "id": "0001172661-20-000889:arrowmark-knsa123119a2.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001172661-20-000889:arrowmark-knsa123119a2.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001172661-20-000889",
+          "biz_locations": [
+            "Hamilton, D0",
+            "Denver, CO"
+          ],
+          "biz_states": [
+            "D0",
+            "CO"
+          ],
+          "ciks": [
+            "0001730430",
+            "0001483859"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+            "ArrowMark Colorado Holdings LLC  (CIK 0001483859)"
+          ],
+          "file_date": "2020-02-14",
+          "file_description": "SCHEDULE 13G HOLDINGS REPORT AMENDMENT",
+          "file_num": [
+            "005-90491"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20621113"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "D0",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581638400000,
+          "0001172661-20-000889:arrowmark-knsa123119a2.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000902664-20-001186",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000090266420001186/p20-0355sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1762304/000090266420001186/p20-0355sc13ga.htm"
+      ],
+      "ciks": [
+        "0001730430",
+        "0001762304"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+        "HILLHOUSE CAPITAL ADVISORS, LTD.  (CIK 0001762304)"
+      ],
+      "document_name": "p20-0355sc13ga.htm",
+      "filed_date": "2020-02-14",
+      "form": "SC 13G/A",
+      "id": "0000902664-20-001186:p20-0355sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000902664-20-001186:p20-0355sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000902664-20-001186",
+          "biz_locations": [
+            "Hamilton, D0",
+            "George Town, Grand Cayman, E9"
+          ],
+          "biz_states": [
+            "D0",
+            "E9"
+          ],
+          "ciks": [
+            "0001730430",
+            "0001762304"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+            "HILLHOUSE CAPITAL ADVISORS, LTD.  (CIK 0001762304)"
+          ],
+          "file_date": "2020-02-14",
+          "file_description": "KINIKSA PHARMACEUTICALS, LTD.",
+          "file_num": [
+            "005-90491"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20620420"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "D0",
+            "E9"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581638400000,
+          "0000902664-20-001186:p20-0355sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193805-20-000197",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000119380520000197/e619361_sc13ga-kiniksa.htm",
+        "https://www.sec.gov/Archives/edgar/data/1352546/000119380520000197/e619361_sc13ga-kiniksa.htm"
+      ],
+      "ciks": [
+        "0001730430",
+        "0001352546"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+        "Flynn James E  (CIK 0001352546)"
+      ],
+      "document_name": "e619361_sc13ga-kiniksa.htm",
+      "filed_date": "2020-02-13",
+      "form": "SC 13G/A",
+      "id": "0001193805-20-000197:e619361_sc13ga-kiniksa.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193805-20-000197:e619361_sc13ga-kiniksa.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193805-20-000197",
+          "biz_locations": [
+            "Hamilton, D0",
+            ""
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430",
+            "0001352546"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+            "Flynn James E  (CIK 0001352546)"
+          ],
+          "file_date": "2020-02-13",
+          "file_description": null,
+          "file_num": [
+            "005-90491"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20608474"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "D0",
+            ""
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581552000000,
+          "0001193805-20-000197:e619361_sc13ga-kiniksa.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-001565",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1532218/000117911020001565/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020001565/edgar.xml"
+      ],
+      "ciks": [
+        "0001532218",
+        "0001730430"
+      ],
+      "display_names": [
+        "Patel Sanj K  (CIK 0001532218)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-02-13",
+      "form": "5",
+      "id": "0001179110-20-001565:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-001565:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-001565",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001532218",
+            "0001730430"
+          ],
+          "display_names": [
+            "Patel Sanj K  (CIK 0001532218)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-02-13",
+          "file_description": "FORM 5 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "5",
+          "film_num": [
+            "20611931"
+          ],
+          "form": "5",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2019-12-31",
+          "root_forms": [
+            "5"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1581552000000,
+          "0001179110-20-001565:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-20-001564",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1464583/000117911020001564/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1730430/000117911020001564/edgar.xml"
+      ],
+      "ciks": [
+        "0001464583",
+        "0001730430"
+      ],
+      "display_names": [
+        "Megna Michael R  (CIK 0001464583)",
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2020-02-13",
+      "form": "3",
+      "id": "0001179110-20-001564:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-20-001564:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-20-001564",
+          "biz_locations": [
+            "",
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001464583",
+            "0001730430"
+          ],
+          "display_names": [
+            "Megna Michael R  (CIK 0001464583)",
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-02-13",
+          "file_description": "FORM 3 -",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "20611780"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2020-02-04",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1581552000000,
+          "0001179110-20-001564:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-018718",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920018718/tv01959-kiniksapharmaceutica.htm",
+        "https://www.sec.gov/Archives/edgar/data/102909/000110465920018718/tv01959-kiniksapharmaceutica.htm"
+      ],
+      "ciks": [
+        "0001730430",
+        "0000102909"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+        "VANGUARD GROUP INC  (CIK 0000102909)"
+      ],
+      "document_name": "tv01959-kiniksapharmaceutica.htm",
+      "filed_date": "2020-02-12",
+      "form": "SC 13G/A",
+      "id": "0001104659-20-018718:tv01959-kiniksapharmaceutica.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-018718:tv01959-kiniksapharmaceutica.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-018718",
+          "biz_locations": [
+            "Hamilton, D0",
+            "Valley Forge, PA"
+          ],
+          "biz_states": [
+            "D0",
+            "PA"
+          ],
+          "ciks": [
+            "0001730430",
+            "0000102909"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)",
+            "VANGUARD GROUP INC  (CIK 0000102909)"
+          ],
+          "file_date": "2020-02-12",
+          "file_description": "SCHEDULE 13G/A",
+          "file_num": [
+            "005-90491"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20601770"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "D0",
+            "PA"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581465600000,
+          "0001104659-20-018718:tv01959-kiniksapharmaceutica.htm"
+        ]
+      }
+    },
+    {
+      "accession": "9999999997-20-000601",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/999999999720000601/filename1.pdf"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "filename1.pdf",
+      "filed_date": "2020-02-07",
+      "form": "SEC STAFF LETTER",
+      "id": "9999999997-20-000601:filename1.pdf",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999997-20-000601:filename1.pdf",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999997-20-000601",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-02-07",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "REDACTED EXHIBIT",
+          "film_num": [],
+          "form": "SEC STAFF LETTER",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SEC STAFF LETTER"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581033600000,
+          "9999999997-20-000601:filename1.pdf"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-011229",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920011229/tm206700-1_8k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm206700-1_8k.htm",
+      "filed_date": "2020-02-05",
+      "form": "8-K",
+      "id": "0001104659-20-011229:tm206700-1_8k.htm",
+      "items": [
+        "5.02"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-011229:tm206700-1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-011229",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-02-05",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20578922"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "5.02"
+          ],
+          "period_ending": "2020-02-04",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1580860800000,
+          "0001104659-20-011229:tm206700-1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-003238",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1730430/000110465920003238/tm201796-1_8k.htm"
+      ],
+      "ciks": [
+        "0001730430"
+      ],
+      "display_names": [
+        "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+      ],
+      "document_name": "tm201796-1_8k.htm",
+      "filed_date": "2020-01-13",
+      "form": "8-K",
+      "id": "0001104659-20-003238:tm201796-1_8k.htm",
+      "items": [
+        "2.02",
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-003238:tm201796-1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-003238",
+          "biz_locations": [
+            "Hamilton, D0"
+          ],
+          "biz_states": [
+            "D0"
+          ],
+          "ciks": [
+            "0001730430"
+          ],
+          "display_names": [
+            "Kiniksa Pharmaceuticals, Ltd.  (KNSA)  (CIK 0001730430)"
+          ],
+          "file_date": "2020-01-13",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38492"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20522840"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [
+            "2.02",
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2020-01-13",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1578873600000,
+          "0001104659-20-003238:tm201796-1_8k.htm"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2020-01-01",
+  "ticker": "KNSA",
+  "total": 80
+}

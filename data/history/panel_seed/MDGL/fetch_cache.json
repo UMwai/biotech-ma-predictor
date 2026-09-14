@@ -1,0 +1,38 @@
+{
+  "https://ir.madrigalpharma.com/news-releases/": {
+    "url": "https://ir.madrigalpharma.com/news-releases/",
+    "resolved_url": "https://ir.madrigalpharma.com/news-releases/",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:41:54.306612+00:00",
+    "source_sha256": "238865bcd1c7df7d63e7b7803d148f7c1ed8e7cf6cc35a91c3de6c46a160b680",
+    "source_bytes": 62868,
+    "source_relative_path": "raw_sources/238865bcd1c7df7d63e7b7803d148f7c1ed8e7cf6cc35a91c3de6c46a160b680.html"
+  },
+  "https://ir.madrigalpharma.com/news-releases/?a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3_year%5Bvalue%5D=2021": {
+    "url": "https://ir.madrigalpharma.com/news-releases/?a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3_year%5Bvalue%5D=2021",
+    "resolved_url": "https://ir.madrigalpharma.com/news-releases/?a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3_year%5Bvalue%5D=2021",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:45:16.645960+00:00",
+    "source_sha256": "e2caa34d0c6d9faa1bb738065df4dbd319126a5877e12611e00b1c3105086812",
+    "source_bytes": 63030,
+    "source_relative_path": "raw_sources/e2caa34d0c6d9faa1bb738065df4dbd319126a5877e12611e00b1c3105086812.html"
+  },
+  "https://ir.madrigalpharma.com/news-releases/?op=Filter&a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3_widget_id=a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3&form_build_id=form-EnXLRVCAQ75nfTPazDe1YpRoTXUbOLcUXKvRc5fW91Y&form_id=widget_form_base&a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3_year%5Bvalue%5D=2022": {
+    "url": "https://ir.madrigalpharma.com/news-releases/?op=Filter&a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3_widget_id=a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3&form_build_id=form-EnXLRVCAQ75nfTPazDe1YpRoTXUbOLcUXKvRc5fW91Y&form_id=widget_form_base&a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3_year%5Bvalue%5D=2022",
+    "resolved_url": "https://ir.madrigalpharma.com/news-releases/?op=Filter&a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3_widget_id=a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3&form_build_id=form-EnXLRVCAQ75nfTPazDe1YpRoTXUbOLcUXKvRc5fW91Y&form_id=widget_form_base&a83b627d4a71f2ece4aff5979fe68a08462c89e81edbb86aa6e8c82f11bacbe3_year%5Bvalue%5D=2022",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:48:23.470383+00:00",
+    "source_sha256": "e4651a075e10b5652732d58056a9334c86295769bc1eccf5df30900480a7a44e",
+    "source_bytes": 64338,
+    "source_relative_path": "raw_sources/e4651a075e10b5652732d58056a9334c86295769bc1eccf5df30900480a7a44e.html"
+  },
+  "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-provides-update-timeline-topline-results-phase-3": {
+    "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-provides-update-timeline-topline-results-phase-3",
+    "resolved_url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-provides-update-timeline-topline-results-phase-3",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:50:16.218205+00:00",
+    "source_sha256": "35f38c6a29008e15a745cd720f0a1d603aa68f29921589a85bef8de4f304e9de",
+    "source_bytes": 58755,
+    "source_relative_path": "raw_sources/35f38c6a29008e15a745cd720f0a1d603aa68f29921589a85bef8de4f304e9de.html"
+  }
+}

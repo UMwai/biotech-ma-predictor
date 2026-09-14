@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-07-23T03:03:33+00:00",
+  "as_of": "2026-07-22",
+  "model_version": "market-research-0.1.0",
+  "score_semantics": "cross-sectional research score; not calibrated M&A probability",
+  "coverage": {
+    "public_companies": 760,
+    "orange_book_assets": 10681,
+    "biologic_assets": 420,
+    "clinical_assets": 16788,
+    "unique_marketed_ingredients": 2277,
+    "unique_clinical_interventions": 13273,
+    "total_assets": 27889,
+    "assets_matched_to_public_company": 3054,
+    "companies_with_assets": 399,
+    "announced_transaction_exclusions": 9,
+    "unmatched_owner_names": 4505
+  },
+  "sources": [
+    "Nasdaq stock screener (current listed healthcare securities)",
+    "SEC company_tickers_exchange.json (CIK mapping)",
+    "SEC EDGAR full-text search (recent SC 14D9 and DEFM14A risk-set exclusions)",
+    "FDA Orange Book current data files",
+    "Drugs@FDA current data files (marketed BLA products)",
+    "ClinicalTrials.gov API v2 active industry-sponsored interventional studies"
+  ],
+  "known_gaps": [
+    "Purple Book-only CBER products and biologic patent lists may be incomplete",
+    "subsidiary and licensing ownership rollups are incomplete",
+    "current cross-section is not a historical point-in-time backtest",
+    "scores are not calibrated acquisition probabilities"
+  ],
+  "outputs": {
+    "companies": "companies.csv",
+    "assets": "assets.csv",
+    "unmatched_owners": "unmatched_owners.csv",
+    "announced_transaction_exclusions": "announced_transaction_exclusions.csv",
+    "summary": "summary.md"
+  }
+}

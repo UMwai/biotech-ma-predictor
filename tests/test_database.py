@@ -8,6 +8,10 @@ import pytest
 from datetime import datetime, timedelta
 from decimal import Decimal
 
+pytest.importorskip("sqlalchemy")
+pytest.importorskip("asyncpg")
+pytest.importorskip("pydantic_settings")
+
 from src.database import (
     CompanyRepository,
     SignalRepository,
@@ -18,11 +22,14 @@ from src.database import (
     close_db,
     get_db_session,
 )
+from src.config import settings
 
 
 @pytest.fixture(scope="session")
 async def database():
     """Initialize database for testing."""
+    if not settings.postgres_user:
+        pytest.skip("PostgreSQL integration tests require POSTGRES_USER and a running database")
     await init_db(echo=False)
     yield
     await close_db()

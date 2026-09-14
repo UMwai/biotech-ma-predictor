@@ -1,0 +1,1820 @@
+{
+  "created_at": "2026-09-08T12:14:14+00:00",
+  "integrity": {
+    "candidate_input_path": "output/historical_deal_candidates/candidates.csv",
+    "candidate_input_sha256": "8637f8ba3613970d630e6839d75c48a308be54ca9d745f5f447e589d19fd6c7a",
+    "historical_point_in_time_retrieval_claimed": false,
+    "raw_provider_payloads_archived": false,
+    "review_record_hash_semantics": "SHA256 of canonical UTF-8 JSON for each evidence record excluding review_record_sha256; this hashes the review receipt, not source HTML/PDF.",
+    "reviews_csv_path": "data/history/reviews_2022_2025.csv",
+    "reviews_csv_sha256": "f919b09d39dc4f91e7078e4dbdc6a24a6ed1d1d50ca7f28e09dfab6d3c1a66d8"
+  },
+  "limitations": [
+    "Primary pages were accessed during the 2026 review, not collected contemporaneously; their historical datelines are evidence about the event, not proof of immutable historical availability.",
+    "Date-only rows have no invented timestamp. Exact rows retain a printed timezone-backed release time; earliest dissemination still needs independent audit.",
+    "All transaction statuses describe the proposed deal at announcement, not current completion or termination outcomes.",
+    "100 percent means intended post-transaction whole-company ownership, not minimum tender conditions, acceptance rate or incremental shares purchased.",
+    "CIK lineage comes from the existing SEC candidate ledger and name match; primary announcements establish issuer identity/listing and control terms.",
+    "This is an agent-produced review seed. Independent label audit, complete event ascertainment, delisted-inclusive risk sets and historical point-in-time feature data remain necessary before training."
+  ],
+  "records": [
+    {
+      "acquirer_name": "UCB S.A.",
+      "additional_review_notes": "",
+      "announcement_date": "2022-01-19",
+      "candidate_id": "1cf9f4eb25ca4a90bff6",
+      "cash_per_share_usd": "26.00",
+      "contingent_max_cash_per_share_usd": "2.00",
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2022-01-19",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.ucb.com/newsroom/press-releases/article/ucb-to-acquire-zogenix",
+        "ticker": "ZGNX"
+      },
+      "primary_evidence_paraphrase": "UCB S.A. announced a definitive agreement on 2022-01-19 to acquire Zogenix, Inc. through an offer for all outstanding shares at USD 26.00 cash per share plus contingent cash rights of up to USD 2.00 per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under ZGNX. Closing remained conditional at announcement.",
+      "review_record_sha256": "8f07252410d2c3294786b4b675b9859735d6b8089750abab4047fca2bbc0cd99",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-22-024104",
+          "0001193125-22-024699",
+          "0001193125-22-049936",
+          "0001193125-22-054441",
+          "0001193125-22-061403",
+          "0001193125-22-062327",
+          "0001193125-22-065159",
+          "0001193125-22-067360"
+        ],
+        "candidate_id": "1cf9f4eb25ca4a90bff6",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1375151/000119312522024104/d296753dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1375151/000119312522024699/d302468dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1375151/000119312522049936/d272382dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1375151/000119312522054441/d121282dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1375151/000119312522061403/d116664dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1375151/000119312522062327/d689032dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1375151/000119312522065159/d641681dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1375151/000119312522067360/d628995dsc14d9a.htm"
+        ],
+        "filer_name": "ZOGENIX, INC.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2022-02-01",
+        "target_cik": 1375151
+      },
+      "sources": [
+        {
+          "locator": "Opening dateline and Transaction Terms, Approvals and Time to Closing",
+          "published_date": "2022-01-19",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "UCB to acquire Zogenix",
+          "url": "https://www.ucb.com/newsroom/press-releases/article/ucb-to-acquire-zogenix"
+        }
+      ],
+      "target_cik": 1375151,
+      "target_name": "Zogenix, Inc.",
+      "target_ticker": "ZGNX",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2022-01-19",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Bristol Myers Squibb",
+      "additional_review_notes": "",
+      "announcement_date": "2022-06-03",
+      "candidate_id": "73a8c2b1e6498ead30ec",
+      "cash_per_share_usd": "76.00",
+      "contingent_max_cash_per_share_usd": null,
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2022-06-03",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://news.bms.com/news/details/2022/Bristol-Myers-Squibb-to-Acquire-Turning-Point-Therapeutics-a-Leading-Precision-Oncology-Company/default.aspx",
+        "ticker": "TPTX"
+      },
+      "primary_evidence_paraphrase": "Bristol Myers Squibb announced a definitive agreement on 2022-06-03 to acquire Turning Point Therapeutics, Inc. through an offer for all outstanding shares at USD 76.00 cash per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under TPTX. Closing remained conditional at announcement.",
+      "review_record_sha256": "c0a59d7255d8b45139459120d20206604ce7718cee47856b2fc93f2d5de057a7",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001140361-22-023489",
+          "0001140361-22-024774",
+          "0001140361-22-026306",
+          "0001140361-22-028805",
+          "0001140361-22-029752"
+        ],
+        "candidate_id": "73a8c2b1e6498ead30ec",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1595893/000114036122023489/ny20004535x1_sc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1595893/000114036122024774/brhc10039322_sc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1595893/000114036122026306/brhc10039762_sc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1595893/000114036122028805/brhc10040553_sc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1595893/000114036122029752/brhc10040808_sc14d9a.htm"
+        ],
+        "filer_name": "Turning Point Therapeutics, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2022-06-17",
+        "target_cik": 1595893
+      },
+      "sources": [
+        {
+          "locator": "Opening dateline and Transaction Terms",
+          "published_date": "2022-06-03",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Bristol Myers Squibb to Acquire Turning Point Therapeutics, a Leading Precision Oncology Company",
+          "url": "https://news.bms.com/news/details/2022/Bristol-Myers-Squibb-to-Acquire-Turning-Point-Therapeutics-a-Leading-Precision-Oncology-Company/default.aspx"
+        }
+      ],
+      "target_cik": 1595893,
+      "target_name": "Turning Point Therapeutics, Inc.",
+      "target_ticker": "TPTX",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2022-06-03",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Ipsen",
+      "additional_review_notes": "",
+      "announcement_date": "2022-06-27",
+      "candidate_id": "5c911a699ab8a9fe3a5d",
+      "cash_per_share_usd": "1.45",
+      "contingent_max_cash_per_share_usd": "1.00",
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2022-06-27",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.ipsen.com/press-release/ipsen-to-acquire-epizyme-expanding-its-portfolio-in-oncology/",
+        "ticker": "EPZM"
+      },
+      "primary_evidence_paraphrase": "Ipsen announced a definitive agreement on 2022-06-27 to acquire Epizyme, Inc. through an offer for all outstanding shares at USD 1.45 cash per share plus contingent cash rights of up to USD 1.00 per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under EPZM. Closing remained conditional at announcement.",
+      "review_record_sha256": "e4a86587e29adcef67be21b39d02f3d5a6f55395f81acfbcd53f8788f27bf5c3",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-22-191776",
+          "0001193125-22-208857",
+          "0001193125-22-213157",
+          "0001193125-22-219366"
+        ],
+        "candidate_id": "5c911a699ab8a9fe3a5d",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1571498/000119312522191776/d738141dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1571498/000119312522208857/d738141dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1571498/000119312522213157/d336514dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1571498/000119312522219366/d392613dsc14d9a.htm"
+        ],
+        "filer_name": "Epizyme, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2022-07-12",
+        "target_cik": 1571498
+      },
+      "sources": [
+        {
+          "locator": "Opening dateline and Transaction details",
+          "published_date": "2022-06-27",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Ipsen to acquire Epizyme, expanding its portfolio in oncology",
+          "url": "https://www.ipsen.com/press-release/ipsen-to-acquire-epizyme-expanding-its-portfolio-in-oncology/"
+        }
+      ],
+      "target_cik": 1571498,
+      "target_name": "Epizyme, Inc.",
+      "target_ticker": "EPZM",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2022-06-27",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Novo Nordisk",
+      "additional_review_notes": "The source page exposes a 12:01:48Z website time; date precision is retained because that field does not establish the first joint public release time.",
+      "announcement_date": "2022-09-01",
+      "candidate_id": "4879c93e7039c967cc37",
+      "cash_per_share_usd": "20.00",
+      "contingent_max_cash_per_share_usd": null,
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2022-09-01",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=132653",
+        "ticker": "FMTX"
+      },
+      "primary_evidence_paraphrase": "Novo Nordisk announced a definitive agreement on 2022-09-01 to acquire Forma Therapeutics Holdings, Inc. through an offer for all outstanding shares at USD 20.00 cash per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under FMTX. Closing remained conditional at announcement.",
+      "review_record_sha256": "aa2cb32c7a358c2ccc45449090cdfa1721e496f5c710da15d65d51ac93523c1b",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-22-245733",
+          "0001193125-22-252708",
+          "0001193125-22-259258",
+          "0001193125-22-262659"
+        ],
+        "candidate_id": "4879c93e7039c967cc37",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1538927/000119312522245733/d394912dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1538927/000119312522252708/d394912dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1538927/000119312522259258/d394912dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1538927/000119312522262659/d394912dsc14d9a.htm"
+        ],
+        "filer_name": "Forma Therapeutics Holdings, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2022-09-15",
+        "target_cik": 1538927
+      },
+      "sources": [
+        {
+          "locator": "Opening dateline and About the transaction",
+          "published_date": "2022-09-01",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Novo Nordisk to acquire Forma Therapeutics and expand presence in sickle cell disease and rare blood disorders",
+          "url": "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=132653"
+        }
+      ],
+      "target_cik": 1538927,
+      "target_name": "Forma Therapeutics Holdings, Inc.",
+      "target_ticker": "FMTX",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2022-09-01",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Eli Lilly and Company",
+      "additional_review_notes": "",
+      "announcement_date": "2022-10-18",
+      "candidate_id": "534764babbb24bde76d0",
+      "cash_per_share_usd": "12.50",
+      "contingent_max_cash_per_share_usd": "3.00",
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2022-10-18",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-akouos-discover-and-develop-treatments-hearing",
+        "ticker": "AKUS"
+      },
+      "primary_evidence_paraphrase": "Eli Lilly and Company announced a definitive agreement on 2022-10-18 to acquire Akouos, Inc. through an offer for all outstanding shares at USD 12.50 cash per share plus contingent cash rights of up to USD 3.00 per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under AKUS. Closing remained conditional at announcement.",
+      "review_record_sha256": "a21f287a1a0f075edc4a38cf66dae99c6bad70d71ba53de03001b71f1a4a927a",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-22-273114",
+          "0001193125-22-283633",
+          "0001193125-22-288973",
+          "0001193125-22-292873",
+          "0001193125-22-294904"
+        ],
+        "candidate_id": "534764babbb24bde76d0",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1722271/000119312522273114/d414817dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1722271/000119312522283633/d414817dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1722271/000119312522288973/d414817dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1722271/000119312522292873/d414817dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1722271/000119312522294904/d414817dsc14d9a.htm"
+        ],
+        "filer_name": "Akouos, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2022-10-31",
+        "target_cik": 1722271
+      },
+      "sources": [
+        {
+          "locator": "Opening dateline and Terms of the Agreement",
+          "published_date": "2022-10-18",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Lilly to Acquire Akouos to Discover and Develop Treatments for Hearing Loss",
+          "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-akouos-discover-and-develop-treatments-hearing"
+        }
+      ],
+      "target_cik": 1722271,
+      "target_name": "Akouos, Inc.",
+      "target_ticker": "AKUS",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2022-10-18",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Merck & Co., Inc.",
+      "additional_review_notes": "",
+      "announcement_date": "2022-11-21",
+      "candidate_id": "696cbe77a4819c73fd44",
+      "cash_per_share_usd": "36.00",
+      "contingent_max_cash_per_share_usd": null,
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": "2022-11-21T06:45:00-05:00",
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2022-11-21",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.merck.com/news/merck-to-acquire-imago-biosciences-inc/",
+        "ticker": "IMGO"
+      },
+      "primary_evidence_paraphrase": "Merck & Co., Inc. announced a definitive agreement on 2022-11-21 to acquire Imago BioSciences, Inc. through an offer for all outstanding shares at USD 36.00 cash per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under IMGO. Closing remained conditional at announcement.",
+      "review_record_sha256": "0792cfaee2d671d710e9d1f9a12a6782db0f9938d7aecc7e2f3782430e9a0c23",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-22-302314",
+          "0001193125-22-309600",
+          "0001193125-23-000819",
+          "0001193125-23-006134"
+        ],
+        "candidate_id": "696cbe77a4819c73fd44",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1623715/000119312522302314/d376992dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1623715/000119312522309600/d445470dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1623715/000119312523000819/d419407dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1623715/000119312523006134/d447994dsc14d9a.htm"
+        ],
+        "filer_name": "Imago BioSciences, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2022-12-12",
+        "target_cik": 1623715
+      },
+      "sources": [
+        {
+          "locator": "Publication timestamp, opening paragraph and Transaction Details",
+          "published_date": "2022-11-21",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Merck to Acquire Imago BioSciences, Inc.",
+          "url": "https://www.merck.com/news/merck-to-acquire-imago-biosciences-inc/"
+        }
+      ],
+      "target_cik": 1623715,
+      "target_name": "Imago BioSciences, Inc.",
+      "target_ticker": "IMGO",
+      "timestamp_precision": "timestamp",
+      "timing_evidence": "Merck release explicitly prints November 21, 2022 6:45 am EST.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2022-11-21",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "AstraZeneca",
+      "additional_review_notes": "",
+      "announcement_date": "2023-01-09",
+      "candidate_id": "5f40eb65849ab8e59926",
+      "cash_per_share_usd": "26.00",
+      "contingent_max_cash_per_share_usd": "10.00",
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": "2023-01-09T07:00:00+00:00",
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2023-01-09",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1868734/000119312523004258/d309038dex991.htm",
+        "ticker": "CINC"
+      },
+      "primary_evidence_paraphrase": "AstraZeneca announced a definitive agreement on 2023-01-09 for all CinCor shares at USD 26.00 cash per share plus contingent cash rights of up to USD 10.00 per share, using a tender offer and subsequent merger. The same-day issuer release filed as Exhibit 99.1 identifies Nasdaq symbol CINC. Closing remained conditional.",
+      "review_record_sha256": "8f0af3283fec039b9a1e2918ce148d831dcb53862d97f6134452966a3fed0749",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-23-012744",
+          "0001193125-23-024248",
+          "0001193125-23-035901",
+          "0001193125-23-040287",
+          "0001193125-23-045540",
+          "0001193125-23-047405"
+        ],
+        "candidate_id": "5f40eb65849ab8e59926",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1868734/000119312523012744/d779598dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1868734/000119312523024248/d266660dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1868734/000119312523035901/d419572dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1868734/000119312523040287/d466753dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1868734/000119312523045540/d470275dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1868734/000119312523047405/d474334dsc14d9a.htm"
+        ],
+        "filer_name": "CinCor Pharma, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2023-01-23",
+        "target_cik": 1868734
+      },
+      "sources": [
+        {
+          "locator": "Publication timestamp and Financial considerations; supplemental issuer SEC exhibit for Nasdaq listing",
+          "published_date": "2023-01-09",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "AstraZeneca to acquire CinCor Pharma to strengthen cardiorenal pipeline",
+          "url": "https://www.astrazeneca.com/media-centre/press-releases/2023/astrazeneca-acquire-cincor-for-cardiorenal-asset.html"
+        },
+        {
+          "locator": "Opening paragraph identifies CinCor and Nasdaq CINC",
+          "published_date": "2023-01-09",
+          "publisher_role": "issuer_release_filed_with_SEC",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "CinCor Pharma to be Acquired by AstraZeneca",
+          "url": "https://www.sec.gov/Archives/edgar/data/1868734/000119312523004258/d309038dex991.htm"
+        }
+      ],
+      "target_cik": 1868734,
+      "target_name": "CinCor Pharma, Inc.",
+      "target_ticker": "CINC",
+      "timestamp_precision": "timestamp",
+      "timing_evidence": "AstraZeneca release explicitly prints 9 January 2023 07:00 GMT.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2023-01-09",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Sanofi",
+      "additional_review_notes": "Existing collaboration or buyer holdings do not make this an asset license; the new agreement covers the whole company.",
+      "announcement_date": "2023-03-13",
+      "candidate_id": "9ad4cc25e845241a16af",
+      "cash_per_share_usd": "25.00",
+      "contingent_max_cash_per_share_usd": null,
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2023-03-13",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.sanofi.com/en/media-room/press-releases/2023/2023-03-13-06-00-00-2625367",
+        "ticker": "PRVB"
+      },
+      "primary_evidence_paraphrase": "Sanofi announced a definitive agreement on 2023-03-13 to acquire Provention Bio, Inc. through an offer for all outstanding shares at USD 25.00 cash per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under PRVB. Closing remained conditional at announcement.",
+      "review_record_sha256": "fa93818b2626f4f86461a8c457040759846289d1cc8521ecc6e8c76be3e13232",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001493152-23-008777",
+          "0001493152-23-011769",
+          "0001493152-23-012954",
+          "0001493152-23-013621",
+          "0001493152-23-013771"
+        ],
+        "candidate_id": "9ad4cc25e845241a16af",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1695357/000149315223008777/formsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1695357/000149315223011769/formsc14d-9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1695357/000149315223012954/formsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1695357/000149315223013621/formsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1695357/000149315223013771/formsc14d-9a.htm"
+        ],
+        "filer_name": "Provention Bio, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2023-03-24",
+        "target_cik": 1695357
+      },
+      "sources": [
+        {
+          "locator": "Opening dateline, Transaction Terms and About Provention Bio",
+          "published_date": "2023-03-13",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Sanofi to acquire Provention Bio, adding to portfolio TZIELD",
+          "url": "https://www.sanofi.com/en/media-room/press-releases/2023/2023-03-13-06-00-00-2625367"
+        }
+      ],
+      "target_cik": 1695357,
+      "target_name": "Provention Bio, Inc.",
+      "target_ticker": "PRVB",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2023-03-13",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Eli Lilly and Company",
+      "additional_review_notes": "",
+      "announcement_date": "2023-06-20",
+      "candidate_id": "6443e54a16f70942c839",
+      "cash_per_share_usd": "48.00",
+      "contingent_max_cash_per_share_usd": null,
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2023-06-20",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://investor.lilly.com/node/49011",
+        "ticker": "DICE"
+      },
+      "primary_evidence_paraphrase": "Eli Lilly and Company announced a definitive agreement on 2023-06-20 to acquire DICE Therapeutics, Inc. through an offer for all outstanding shares at USD 48.00 cash per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under DICE. Closing remained conditional at announcement.",
+      "review_record_sha256": "d317d598caece43d06be45f101ad3e70fdf2374ced0846de507659350027eb95",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-23-180453",
+          "0001193125-23-188218",
+          "0001193125-23-192743",
+          "0001193125-23-206886"
+        ],
+        "candidate_id": "6443e54a16f70942c839",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1645569/000119312523180453/d468173dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1645569/000119312523188218/d468173dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1645569/000119312523192743/d468173dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1645569/000119312523206886/d511903dsc14d9a.htm"
+        ],
+        "filer_name": "DICE Therapeutics, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2023-06-30",
+        "target_cik": 1645569
+      },
+      "sources": [
+        {
+          "locator": "Opening dateline and Terms of the Agreement",
+          "published_date": "2023-06-20",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Lilly to Acquire DICE Therapeutics to Advance Innovation in Immunology",
+          "url": "https://investor.lilly.com/node/49011"
+        }
+      ],
+      "target_cik": 1645569,
+      "target_name": "DICE Therapeutics, Inc.",
+      "target_ticker": "DICE",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2023-06-20",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Eli Lilly and Company",
+      "additional_review_notes": "Lilly already held a minority stake; 100% denotes intended total ownership after the merger, not the incremental stake purchased.",
+      "announcement_date": "2023-06-29",
+      "candidate_id": "4f9e8d2de44f300ea593",
+      "cash_per_share_usd": "14.92",
+      "contingent_max_cash_per_share_usd": "111.64",
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2023-06-29",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://investor.lilly.com/node/49121",
+        "ticker": "SGTX"
+      },
+      "primary_evidence_paraphrase": "Lilly announced a definitive agreement on 2023-06-29 to buy Nasdaq-listed SGTX at USD 14.92 cash per share plus contingent cash rights of up to USD 111.64 per share. The all-share tender and subsequent merger would absorb shares not already owned by Lilly, making this whole-company control. Closing remained conditional.",
+      "review_record_sha256": "ea6fe5fcf860306f30add85f56766272af5cb5fec8d6c8dc2d2d257f0891c6af",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-23-186301",
+          "0001193125-23-188843",
+          "0001193125-23-200539",
+          "0001193125-23-208190"
+        ],
+        "candidate_id": "4f9e8d2de44f300ea593",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1821323/000119312523186301/d533839dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1821323/000119312523188843/d532668dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1821323/000119312523200539/d541581dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1821323/000119312523208190/d538412dsc14d9a.htm"
+        ],
+        "filer_name": "Sigilon Therapeutics, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2023-07-13",
+        "target_cik": 1821323
+      },
+      "sources": [
+        {
+          "locator": "Opening dateline and Terms of the Agreement, including shares not already owned by Lilly",
+          "published_date": "2023-06-29",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Lilly to Acquire Sigilon Therapeutics",
+          "url": "https://investor.lilly.com/node/49121"
+        }
+      ],
+      "target_cik": 1821323,
+      "target_name": "Sigilon Therapeutics, Inc.",
+      "target_ticker": "SGTX",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2023-06-29",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Eli Lilly and Company",
+      "additional_review_notes": "",
+      "announcement_date": "2023-10-03",
+      "candidate_id": "e10aa211479d2757861a",
+      "cash_per_share_usd": "12.50",
+      "contingent_max_cash_per_share_usd": null,
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2023-10-03",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://investor.lilly.com/node/49621",
+        "ticker": "PNT"
+      },
+      "primary_evidence_paraphrase": "Eli Lilly and Company announced a definitive agreement on 2023-10-03 to acquire POINT Biopharma Global, Inc. through an offer for all outstanding shares at USD 12.50 cash per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under PNT. Closing remained conditional at announcement.",
+      "review_record_sha256": "4f1b7239661557ddc79e282923c7f09dd9747c12a2c7e9c04995683badf68c84",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-23-255663",
+          "0001193125-23-265152",
+          "0001193125-23-268265",
+          "0001193125-23-273665",
+          "0001193125-23-277519",
+          "0001193125-23-279308",
+          "0001193125-23-287946",
+          "0001193125-23-297130",
+          "0001193125-23-302270"
+        ],
+        "candidate_id": "e10aa211479d2757861a",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1811764/000119312523255663/d519703dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1811764/000119312523265152/d563943dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1811764/000119312523268265/d474060dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1811764/000119312523273665/d583087dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1811764/000119312523277519/d394131dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1811764/000119312523279308/d478883dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1811764/000119312523287946/d53101dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1811764/000119312523297130/d575580dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1811764/000119312523302270/d631345dsc14d9a.htm"
+        ],
+        "filer_name": "POINT Biopharma Global Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2023-10-13",
+        "target_cik": 1811764
+      },
+      "sources": [
+        {
+          "locator": "Opening dateline and Terms of the Agreement",
+          "published_date": "2023-10-03",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Lilly to Acquire POINT Biopharma to Expand Oncology Capabilities into Next-Generation Radioligand Therapies",
+          "url": "https://investor.lilly.com/node/49621"
+        }
+      ],
+      "target_cik": 1811764,
+      "target_name": "POINT Biopharma Global, Inc.",
+      "target_ticker": "PNT",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2023-10-03",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "AstraZeneca",
+      "additional_review_notes": "",
+      "announcement_date": "2023-12-12",
+      "candidate_id": "a244abc25872eaae2e02",
+      "cash_per_share_usd": "15.00",
+      "contingent_max_cash_per_share_usd": "5.00",
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2023-12-12",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.astrazeneca.com/media-centre/press-releases/2023/astrazeneca-to-acquire-icosavax-including-potential-first-in-class-rsv-and-hmpv-combination-vaccine-with-positive-phase-ii-data.html",
+        "ticker": "ICVX"
+      },
+      "primary_evidence_paraphrase": "AstraZeneca announced a definitive agreement on 2023-12-12 to acquire Icosavax, Inc. through an offer for all outstanding shares at USD 15.00 cash per share plus contingent cash rights of up to USD 5.00 per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under ICVX. Closing remained conditional at announcement.",
+      "review_record_sha256": "f8f6018842b9f6b71531a83cd47da1362f7b3869f5bff3f44744017569e0db93",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001104659-23-129501",
+          "0001193125-24-006125",
+          "0001193125-24-010792",
+          "0001193125-24-036663",
+          "0001193125-24-039475"
+        ],
+        "candidate_id": "a244abc25872eaae2e02",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1786255/000110465923129501/tm2332933-7_sc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1786255/000119312524006125/d92405dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1786255/000119312524010792/d92405dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1786255/000119312524036663/d754462dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1786255/000119312524039475/d775612dsc14d9a.htm"
+        ],
+        "filer_name": "Icosavax, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2023-12-27",
+        "target_cik": 1786255
+      },
+      "sources": [
+        {
+          "locator": "Published date, opening paragraph and Financial considerations",
+          "published_date": "2023-12-12",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "AstraZeneca to acquire Icosavax, including potential first-in-class RSV and hMPV combination vaccine with positive Phase II data",
+          "url": "https://www.astrazeneca.com/media-centre/press-releases/2023/astrazeneca-to-acquire-icosavax-including-potential-first-in-class-rsv-and-hmpv-combination-vaccine-with-positive-phase-ii-data.html"
+        }
+      ],
+      "target_cik": 1786255,
+      "target_name": "Icosavax, Inc.",
+      "target_ticker": "ICVX",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2023-12-12",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Gilead Sciences",
+      "additional_review_notes": "",
+      "announcement_date": "2024-02-12",
+      "candidate_id": "7ef843d60949dbaafdac",
+      "cash_per_share_usd": "32.50",
+      "contingent_max_cash_per_share_usd": null,
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2024-02-12",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://investors.gilead.com/news/news-details/2024/Gilead-Sciences-Expands-Liver-Portfolio-With-Acquisition-of-CymaBay-Therapeutics/default.aspx",
+        "ticker": "CBAY"
+      },
+      "primary_evidence_paraphrase": "Gilead Sciences announced a definitive agreement on 2024-02-12 to acquire CymaBay Therapeutics, Inc. through an offer for all outstanding shares at USD 32.50 cash per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under CBAY. Closing remained conditional at announcement.",
+      "review_record_sha256": "038829e56c7b9839342235e0059a5804330e315e9e53543c17ac30c909f9dcd5",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-24-043474",
+          "0001193125-24-050789",
+          "0001193125-24-062250",
+          "0001193125-24-064415",
+          "0001193125-24-069145",
+          "0001193125-24-072737",
+          "0001193125-24-074582"
+        ],
+        "candidate_id": "7ef843d60949dbaafdac",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1042074/000119312524043474/d790400dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1042074/000119312524050789/d800901dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1042074/000119312524062250/d767099dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1042074/000119312524064415/d784960dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1042074/000119312524069145/d779091dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1042074/000119312524072737/d773920dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1042074/000119312524074582/d802240dsc14d9a.htm"
+        ],
+        "filer_name": "CymaBay Therapeutics, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2024-02-23",
+        "target_cik": 1042074
+      },
+      "sources": [
+        {
+          "locator": "Publication date, opening paragraph and Terms of the Transaction",
+          "published_date": "2024-02-12",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Gilead Sciences Expands Liver Portfolio With Acquisition of CymaBay Therapeutics",
+          "url": "https://investors.gilead.com/news/news-details/2024/Gilead-Sciences-Expands-Liver-Portfolio-With-Acquisition-of-CymaBay-Therapeutics/default.aspx"
+        }
+      ],
+      "target_cik": 1042074,
+      "target_name": "CymaBay Therapeutics, Inc.",
+      "target_ticker": "CBAY",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2024-02-12",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Vertex Pharmaceuticals",
+      "additional_review_notes": "",
+      "announcement_date": "2024-04-10",
+      "candidate_id": "ad8ff11f51925f72784d",
+      "cash_per_share_usd": "65.00",
+      "contingent_max_cash_per_share_usd": null,
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2024-04-10",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://investors.vrtx.com/news-releases/news-release-details/vertex-enters-agreement-acquire-alpine-immune-sciences",
+        "ticker": "ALPN"
+      },
+      "primary_evidence_paraphrase": "Vertex Pharmaceuticals announced a definitive agreement on 2024-04-10 to acquire Alpine Immune Sciences, Inc. through an offer for all outstanding shares at USD 65.00 cash per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under ALPN. Closing remained conditional at announcement.",
+      "review_record_sha256": "267409b002fea0c847302afc6d8161e0b136c257de4a9d1a7fe633238cf2003b",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-24-104908",
+          "0001193125-24-132632",
+          "0001193125-24-135780",
+          "0001193125-24-142270"
+        ],
+        "candidate_id": "ad8ff11f51925f72784d",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1626199/000119312524104908/d828730dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1626199/000119312524132632/d657769dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1626199/000119312524135780/d620728dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1626199/000119312524142270/d817511dsc14d9a.htm"
+        ],
+        "filer_name": "ALPINE IMMUNE SCIENCES, INC.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2024-04-22",
+        "target_cik": 1626199
+      },
+      "sources": [
+        {
+          "locator": "Publication date, opening paragraph and Transaction Terms",
+          "published_date": "2024-04-10",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Vertex Enters Into Agreement to Acquire Alpine Immune Sciences",
+          "url": "https://investors.vrtx.com/news-releases/news-release-details/vertex-enters-agreement-acquire-alpine-immune-sciences"
+        }
+      ],
+      "target_cik": 1626199,
+      "target_name": "Alpine Immune Sciences, Inc.",
+      "target_ticker": "ALPN",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2024-04-10",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "ONO Pharmaceutical Co., Ltd.",
+      "additional_review_notes": "The issuer page shows 07:04 AM EDT; date precision is retained because issuer-site posting may follow the acquirer release.",
+      "announcement_date": "2024-04-29",
+      "candidate_id": "1fad96cf185d53c3e9e4",
+      "cash_per_share_usd": "25.60",
+      "contingent_max_cash_per_share_usd": null,
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2024-04-29",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.deciphera.com/news/deciphera-pharmaceuticals-be-acquired-ono-pharmaceutical-24-billion",
+        "ticker": "DCPH"
+      },
+      "primary_evidence_paraphrase": "ONO Pharmaceutical Co., Ltd. announced a definitive agreement on 2024-04-29 to acquire Deciphera Pharmaceuticals, Inc. through an offer for all outstanding shares at USD 25.60 cash per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under DCPH. Closing remained conditional at announcement.",
+      "review_record_sha256": "459684f40025eaad3f46f41b08aa900b75c2b8dab7216b4ba1010f51252203c9",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-24-136665",
+          "0001193125-24-144504",
+          "0001193125-24-152342",
+          "0001193125-24-158767"
+        ],
+        "candidate_id": "1fad96cf185d53c3e9e4",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1654151/000119312524136665/d813161dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1654151/000119312524144504/d839467dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1654151/000119312524152342/d768328dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1654151/000119312524158767/d749600dsc14d9a.htm"
+        ],
+        "filer_name": "Deciphera Pharmaceuticals, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2024-05-13",
+        "target_cik": 1654151
+      },
+      "sources": [
+        {
+          "locator": "Publication date, opening dateline and Transaction Details",
+          "published_date": "2024-04-29",
+          "publisher_role": "target_issuer",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Deciphera Pharmaceuticals to be Acquired by ONO Pharmaceutical For $2.4 Billion",
+          "url": "https://www.deciphera.com/news/deciphera-pharmaceuticals-be-acquired-ono-pharmaceutical-24-billion"
+        }
+      ],
+      "target_cik": 1654151,
+      "target_name": "Deciphera Pharmaceuticals, Inc.",
+      "target_ticker": "DCPH",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2024-04-29",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Eli Lilly and Company",
+      "additional_review_notes": "",
+      "announcement_date": "2024-07-08",
+      "candidate_id": "c59bb0682594152249ab",
+      "cash_per_share_usd": "57.00",
+      "contingent_max_cash_per_share_usd": null,
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2024-07-08",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://investor.lilly.com/node/51041",
+        "ticker": "MORF"
+      },
+      "primary_evidence_paraphrase": "Eli Lilly and Company announced a definitive agreement on 2024-07-08 to acquire Morphic Holding, Inc. through an offer for all outstanding shares at USD 57.00 cash per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under MORF. Closing remained conditional at announcement.",
+      "review_record_sha256": "15207228b6a7f304180187eecf99959907efd59f6c97b73ba03dce039f5150de",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-24-181273",
+          "0001193125-24-190548",
+          "0001193125-24-194060",
+          "0001193125-24-201693"
+        ],
+        "candidate_id": "c59bb0682594152249ab",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1679363/000119312524181273/d857689dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1679363/000119312524190548/d878577dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1679363/000119312524194060/d877088dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1679363/000119312524201693/d820215dsc14d9a.htm"
+        ],
+        "filer_name": "Morphic Holding, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2024-07-19",
+        "target_cik": 1679363
+      },
+      "sources": [
+        {
+          "locator": "Opening dateline and Terms of the Agreement",
+          "published_date": "2024-07-08",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Lilly to Acquire Morphic to Improve Outcomes for Patients with Inflammatory Bowel Disease",
+          "url": "https://investor.lilly.com/node/51041"
+        }
+      ],
+      "target_cik": 1679363,
+      "target_name": "Morphic Holding, Inc.",
+      "target_ticker": "MORF",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2024-07-08",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "H. Lundbeck A/S",
+      "additional_review_notes": "",
+      "announcement_date": "2024-10-14",
+      "candidate_id": "eb36d968356d0e967eb2",
+      "cash_per_share_usd": "60.00",
+      "contingent_max_cash_per_share_usd": null,
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2024-10-14",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.lundbeck.com/content/dam/lundbeck-com/masters/global-site/global-site/investors/2024/CorporateRelease_FINAL.pdf",
+        "ticker": "LBPH"
+      },
+      "primary_evidence_paraphrase": "H. Lundbeck A/S announced a definitive agreement on 2024-10-14 to acquire Longboard Pharmaceuticals, Inc. through an offer for all outstanding shares at USD 60.00 cash per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under LBPH. Closing remained conditional at announcement.",
+      "review_record_sha256": "bf3f7a1481c215ecca433760c3d395c576feef7236fb3db0af886edb135eb4e1",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-24-247056",
+          "0001193125-24-251636",
+          "0001193125-24-262149",
+          "0001193125-24-267720"
+        ],
+        "candidate_id": "eb36d968356d0e967eb2",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1832168/000119312524247056/d755396dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1832168/000119312524251636/d162286dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1832168/000119312524262149/d755396dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1832168/000119312524267720/d755396dsc14d9a.htm"
+        ],
+        "filer_name": "Longboard Pharmaceuticals, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2024-10-30",
+        "target_cik": 1832168
+      },
+      "sources": [
+        {
+          "locator": "Corporate Release 761/2024, pages 1-2: opening dateline and Transaction terms",
+          "published_date": "2024-10-14",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Lundbeck to acquire Longboard Pharmaceuticals in a strategic deal, significantly enhancing its neuroscience pipeline",
+          "url": "https://www.lundbeck.com/content/dam/lundbeck-com/masters/global-site/global-site/investors/2024/CorporateRelease_FINAL.pdf"
+        }
+      ],
+      "target_cik": 1832168,
+      "target_name": "Longboard Pharmaceuticals, Inc.",
+      "target_ticker": "LBPH",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2024-10-14",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Roche",
+      "additional_review_notes": "This new agreement buys the whole company, distinct from the pre-existing 2022 collaboration and license.",
+      "announcement_date": "2024-11-26",
+      "candidate_id": "d634825e2491ed8a20cb",
+      "cash_per_share_usd": "9.00",
+      "contingent_max_cash_per_share_usd": "4.00",
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2024-11-26",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.roche.com/investors/updates/inv-update-2024-11-26b",
+        "ticker": "PSTX"
+      },
+      "primary_evidence_paraphrase": "Roche announced a definitive agreement on 2024-11-26 to acquire Poseida Therapeutics, Inc. through an offer for all outstanding shares at USD 9.00 cash per share plus contingent cash rights of up to USD 4.00 per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under PSTX. Closing remained conditional at announcement.",
+      "review_record_sha256": "6e7c4bd99db22b68101fe87aecea5f66468060462fca1575409480ce1f2c56e8",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-24-273550",
+          "0001193125-24-286056",
+          "0001193125-25-002253",
+          "0001193125-25-002581",
+          "0001193125-25-003241"
+        ],
+        "candidate_id": "d634825e2491ed8a20cb",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1661460/000119312524273550/d901928dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1661460/000119312524286056/d871087dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1661460/000119312525002253/d884980dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1661460/000119312525002581/d856098dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1661460/000119312525003241/d914669dsc14d9a.htm"
+        ],
+        "filer_name": "Poseida Therapeutics, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2024-12-09",
+        "target_cik": 1661460
+      },
+      "sources": [
+        {
+          "locator": "Opening Basel dateline and Terms of the agreement",
+          "published_date": "2024-11-26",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Roche enters into a definitive agreement to acquire Poseida Therapeutics, including cell therapy candidates and related platform technologies",
+          "url": "https://www.roche.com/investors/updates/inv-update-2024-11-26b"
+        }
+      ],
+      "target_cik": 1661460,
+      "target_name": "Poseida Therapeutics, Inc.",
+      "target_ticker": "PSTX",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2024-11-26",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Jazz Pharmaceuticals",
+      "additional_review_notes": "",
+      "announcement_date": "2025-03-05",
+      "candidate_id": "31ae9c8d991880bd401b",
+      "cash_per_share_usd": "8.55",
+      "contingent_max_cash_per_share_usd": null,
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2025-03-05",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://investor.jazzpharma.com/news-releases/news-release-details/jazz-pharmaceuticals-acquire-chimerix-further-diversifying",
+        "ticker": "CMRX"
+      },
+      "primary_evidence_paraphrase": "Jazz Pharmaceuticals announced a definitive agreement on 2025-03-05 to acquire Chimerix, Inc. through an offer for all outstanding shares at USD 8.55 cash per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under CMRX. Closing remained conditional at announcement.",
+      "review_record_sha256": "fc034db13222097e41b0d058d62b300f2db23fc29666deae25b2c58cd02d0951",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001104659-25-026402",
+          "0001104659-25-030562",
+          "0001104659-25-032423",
+          "0001104659-25-036211"
+        ],
+        "candidate_id": "31ae9c8d991880bd401b",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1117480/000110465925026402/tm259873d1_sc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1117480/000110465925030562/tm258371d2_sc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1117480/000110465925032423/tm2511654d1_sc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1117480/000110465925036211/tm2512611-1_sc14d9a.htm"
+        ],
+        "filer_name": "CHIMERIX INC",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2025-03-21",
+        "target_cik": 1117480
+      },
+      "sources": [
+        {
+          "locator": "Publication date, opening dateline and Transaction Terms",
+          "published_date": "2025-03-05",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Jazz Pharmaceuticals to Acquire Chimerix, Further Diversifying Oncology Portfolio",
+          "url": "https://investor.jazzpharma.com/news-releases/news-release-details/jazz-pharmaceuticals-acquire-chimerix-further-diversifying"
+        }
+      ],
+      "target_cik": 1117480,
+      "target_name": "Chimerix, Inc.",
+      "target_ticker": "CMRX",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2025-03-05",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Novartis AG",
+      "additional_review_notes": "",
+      "announcement_date": "2025-04-30",
+      "candidate_id": "b1983ee3f73a13305cbb",
+      "cash_per_share_usd": "7.00",
+      "contingent_max_cash_per_share_usd": "7.00",
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2025-04-30",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1505512/000119312525105845/d873263dex991.htm",
+        "ticker": "RGLS"
+      },
+      "primary_evidence_paraphrase": "Novartis AG announced a definitive agreement on 2025-04-30 to acquire Regulus Therapeutics Inc. through an offer for all outstanding shares at USD 7.00 cash per share plus contingent cash rights of up to USD 7.00 per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under RGLS. Closing remained conditional at announcement.",
+      "review_record_sha256": "e2370dce014082c4904b46649c20521e94630fcb17ade05c873bf557b57835f9",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001104659-25-052756",
+          "0001104659-25-060054",
+          "0001104659-25-061370",
+          "0001104659-25-062427"
+        ],
+        "candidate_id": "b1983ee3f73a13305cbb",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1505512/000110465925052756/tm2515290-1_sc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1505512/000110465925060054/tm2518151-1_sc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1505512/000110465925061370/tm2518614-1_sc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1505512/000110465925062427/tm2518614-31_sc14d9a.htm"
+        ],
+        "filer_name": "Regulus Therapeutics Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2025-05-27",
+        "target_cik": 1505512
+      },
+      "sources": [
+        {
+          "locator": "Issuer Exhibit 99.1, opening San Diego dateline and Transaction Details",
+          "published_date": "2025-04-30",
+          "publisher_role": "issuer_release_filed_with_SEC",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Regulus Therapeutics Enters into Agreement to be Acquired by Novartis AG",
+          "url": "https://www.sec.gov/Archives/edgar/data/1505512/000119312525105845/d873263dex991.htm"
+        }
+      ],
+      "target_cik": 1505512,
+      "target_name": "Regulus Therapeutics Inc.",
+      "target_ticker": "RGLS",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2025-04-30",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Sanofi",
+      "additional_review_notes": "",
+      "announcement_date": "2025-06-02",
+      "candidate_id": "548641f45fec2c571914",
+      "cash_per_share_usd": "129.00",
+      "contingent_max_cash_per_share_usd": "6.00",
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2025-06-02",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.sanofi.com/en/media-room/press-releases/2025/2025-06-02-05-00-00-3091541",
+        "ticker": "BPMC"
+      },
+      "primary_evidence_paraphrase": "Sanofi announced a definitive agreement on 2025-06-02 to acquire Blueprint Medicines Corporation through an offer for all outstanding shares at USD 129.00 cash per share plus contingent cash rights of up to USD 6.00 per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under BPMC. Closing remained conditional at announcement.",
+      "review_record_sha256": "4008086c0676ddd708ee45a59cba0a4612c2dfbd1f536473b6d8ff16b6a5d037",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-25-141740",
+          "0001193125-25-157306",
+          "0001193125-25-160199",
+          "0001193125-25-160643"
+        ],
+        "candidate_id": "548641f45fec2c571914",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1597264/000119312525141740/d934774dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1597264/000119312525157306/d912303dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1597264/000119312525160199/d892886dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1597264/000119312525160643/d912303dsc14d9a.htm"
+        ],
+        "filer_name": "Blueprint Medicines Corp",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2025-06-17",
+        "target_cik": 1597264
+      },
+      "sources": [
+        {
+          "locator": "Opening Paris/Cambridge dateline, Transaction terms and financial considerations, and About Blueprint Medicines",
+          "published_date": "2025-06-02",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Sanofi to acquire Blueprint Medicines, expanding portfolio in rare immunological disease and adding early-stage pipeline in immunology",
+          "url": "https://www.sanofi.com/en/media-room/press-releases/2025/2025-06-02-05-00-00-3091541"
+        }
+      ],
+      "target_cik": 1597264,
+      "target_name": "Blueprint Medicines Corporation",
+      "target_ticker": "BPMC",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2025-06-02",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Supernus Pharmaceuticals",
+      "additional_review_notes": "",
+      "announcement_date": "2025-06-16",
+      "candidate_id": "9f4e25c13b17104b33f3",
+      "cash_per_share_usd": "8.50",
+      "contingent_max_cash_per_share_usd": "3.50",
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": "2025-06-16T07:00:00-04:00",
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2025-06-16",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://ir.supernus.com/news-releases/news-release-details/supernus-pharmaceuticals-acquire-sage-therapeutics-strengthening",
+        "ticker": "SAGE"
+      },
+      "primary_evidence_paraphrase": "Supernus Pharmaceuticals announced a definitive agreement on 2025-06-16 to acquire Sage Therapeutics, Inc. through an offer for all outstanding shares at USD 8.50 cash per share plus contingent cash rights of up to USD 3.50 per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under SAGE. Closing remained conditional at announcement.",
+      "review_record_sha256": "a7e0eac7ed46772c5b5ab9a98148fbbdea44865cb2268146577b0d9de9472df5",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-25-155020",
+          "0001193125-25-161546",
+          "0001193125-25-165933",
+          "0001193125-25-170193"
+        ],
+        "candidate_id": "9f4e25c13b17104b33f3",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1597553/000119312525155020/d63256dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1597553/000119312525161546/d859384dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1597553/000119312525165933/d859384dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1597553/000119312525170193/d859384dsc14d9a.htm"
+        ],
+        "filer_name": "Sage Therapeutics, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2025-07-02",
+        "target_cik": 1597553
+      },
+      "sources": [
+        {
+          "locator": "Publication timestamp, Terms and Financing, About Sage Therapeutics and merger description in Sage forward-looking statement",
+          "published_date": "2025-06-16",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Supernus Pharmaceuticals to Acquire Sage Therapeutics, Strengthening its Neuropsychiatry Product Portfolio",
+          "url": "https://ir.supernus.com/news-releases/news-release-details/supernus-pharmaceuticals-acquire-sage-therapeutics-strengthening"
+        }
+      ],
+      "target_cik": 1597553,
+      "target_name": "Sage Therapeutics, Inc.",
+      "target_ticker": "SAGE",
+      "timestamp_precision": "timestamp",
+      "timing_evidence": "Supernus release explicitly prints June 16, 2025 at 7:00 AM EDT.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2025-06-16",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Eli Lilly and Company",
+      "additional_review_notes": "",
+      "announcement_date": "2025-06-17",
+      "candidate_id": "b2f48fe8f936077bb891",
+      "cash_per_share_usd": "10.50",
+      "contingent_max_cash_per_share_usd": "3.00",
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2025-06-17",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-verve-therapeutics-advance-one-time-treatments",
+        "ticker": "VERV"
+      },
+      "primary_evidence_paraphrase": "Eli Lilly and Company announced a definitive agreement on 2025-06-17 to acquire Verve Therapeutics, Inc. through an offer for all outstanding shares at USD 10.50 cash per share plus contingent cash rights of up to USD 3.00 per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under VERV. Closing remained conditional at announcement.",
+      "review_record_sha256": "06308de6210d77f7ab58dd452fea577549aba3300d6966214dd5c6e7039003a2",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-25-146127",
+          "0001193125-25-159002",
+          "0001193125-25-162672",
+          "0001193125-25-163918"
+        ],
+        "candidate_id": "b2f48fe8f936077bb891",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1840574/000119312525146127/d917975dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1840574/000119312525159002/d77762dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1840574/000119312525162672/d71497dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1840574/000119312525163918/d73897dsc14d9a.htm"
+        ],
+        "filer_name": "Verve Therapeutics, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2025-06-25",
+        "target_cik": 1840574
+      },
+      "sources": [
+        {
+          "locator": "Opening dateline and transaction terms following management comments",
+          "published_date": "2025-06-17",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Lilly to acquire Verve Therapeutics to advance one-time treatments for people with high cardiovascular risk",
+          "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-verve-therapeutics-advance-one-time-treatments"
+        }
+      ],
+      "target_cik": 1840574,
+      "target_name": "Verve Therapeutics, Inc.",
+      "target_ticker": "VERV",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2025-06-17",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    },
+    {
+      "acquirer_name": "Roche",
+      "additional_review_notes": "September 18 is the public announcement dateline; the agreement signing date and October tender commencement are different events.",
+      "announcement_date": "2025-09-18",
+      "candidate_id": "c1f5136ea2f9f7e5a70c",
+      "cash_per_share_usd": "14.50",
+      "contingent_max_cash_per_share_usd": "6.00",
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2025-09-18",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.roche.com/media/releases/med-cor-2025-09-18",
+        "ticker": "ETNB"
+      },
+      "primary_evidence_paraphrase": "Roche announced a definitive agreement on 2025-09-18 to acquire 89bio, Inc. through an offer for all outstanding shares at USD 14.50 cash per share plus contingent cash rights of up to USD 6.00 per share, followed by a merger covering remaining shares. The announcement identifies the target as Nasdaq-listed under ETNB. Closing remained conditional at announcement.",
+      "review_record_sha256": "9cdc6a378b54f525adce933aaaf56358e89bb861067843ed8b2cbda1572ac3b9",
+      "reviewed_at": "2026-09-08T12:14:14+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-25-226874",
+          "0001193125-25-248856",
+          "0001193125-25-257605"
+        ],
+        "candidate_id": "c1f5136ea2f9f7e5a70c",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1785173/000119312525226874/d947997dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1785173/000119312525248856/d52886dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1785173/000119312525257605/d936691dsc14d9a.htm"
+        ],
+        "filer_name": "89bio, Inc.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2025-10-01",
+        "target_cik": 1785173
+      },
+      "sources": [
+        {
+          "locator": "Opening Basel dateline and Terms of the merger agreement",
+          "published_date": "2025-09-18",
+          "publisher_role": "acquirer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T12:14:14+00:00",
+          "title": "Roche enters into a definitive merger agreement to acquire 89bio",
+          "url": "https://www.roche.com/media/releases/med-cor-2025-09-18"
+        }
+      ],
+      "target_cik": 1785173,
+      "target_name": "89bio, Inc.",
+      "target_ticker": "ETNB",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2025-09-18",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer_then_merger"
+    }
+  ],
+  "research_scope": {
+    "announcement_years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "by_announcement_year": {
+      "2022": 6,
+      "2023": 6,
+      "2024": 6,
+      "2025": 6
+    },
+    "negative_controls_created": 0,
+    "population_event_ascertainment_complete": false,
+    "reviewed_positive_count": 24,
+    "selection_method": "Purposive sample of SEC tender_offer_target candidates with accessible official primary announcements; six qualifying events per year. Not random, representative, complete, or negative-labeled.",
+    "training_allowed": false
+  },
+  "reviewer": "Codex-primary-source-review",
+  "reviewer_is_independent_human": false,
+  "schema_version": "primary-source-deal-review-evidence-v1"
+}

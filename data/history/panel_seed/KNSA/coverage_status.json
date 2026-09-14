@@ -1,0 +1,24 @@
+{
+  "browser_evidence_kind": "source_review_receipt",
+  "browser_source": "https://investors.kiniksa.com/news-events/press-releases/",
+  "cik": 1730430,
+  "cik_identity_basis": "existing primary-source financial record; no new independent CIK verification claimed in this discovery receipt",
+  "detail": "Normal browser rendering exposes one archive through2016 with 21 entries dated2021 and38 dated2020. Both raw archive routes timed out. Enumeration and complete source bodies were not sealed; these observations are discovery evidence only, not a negative outcome.",
+  "independent_human_review": false,
+  "negative_label_assigned": false,
+  "original_source_sha256": null,
+  "outcome_2021": null,
+  "raw_failure_receipt_path": "fetch_failures.json",
+  "recorded_at": "2026-09-08T18:01:55.779212+00:00",
+  "reviewed_outcome_window_count": 0,
+  "reviewer": "Codex-primary-source-review",
+  "risk_set_eligible": null,
+  "schema_version": "issuer-coverage-status-v1",
+  "sources": [
+    "https://investors.kiniksa.com/news-events/press-releases/",
+    "https://investors.kiniksa.com/news-events/press-releases"
+  ],
+  "status": "unknown_incomplete_source_coverage",
+  "ticker": "KNSA",
+  "training_allowed": false
+}

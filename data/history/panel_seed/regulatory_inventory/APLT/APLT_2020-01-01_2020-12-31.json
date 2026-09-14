@@ -1,0 +1,5407 @@
+{
+  "cik": 1697532,
+  "end_date": "2020-12-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:53:45.614874+00:00",
+      "returned": 78,
+      "source_bytes": 52715,
+      "source_relative_path": "raw_sources/b839b69ea7935ce980e1922221e656c06ebb6d2d4706e2bd620f50ed2d7ed183.json",
+      "source_sha256": "b839b69ea7935ce980e1922221e656c06ebb6d2d4706e2bd620f50ed2d7ed183",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001697532&dateRange=custom&startdt=2020-01-01&enddt=2020-12-31&from=0&size=100",
+      "total": 78
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001209191-20-065612",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775410/000120919120065612/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120065612/doc4.xml"
+      ],
+      "ciks": [
+        "0001775410",
+        "0001697532"
+      ],
+      "display_names": [
+        "Perfetti Riccardo  (CIK 0001775410)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-30",
+      "form": "4",
+      "id": "0001209191-20-065612:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-065612:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-065612",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775410",
+            "0001697532"
+          ],
+          "display_names": [
+            "Perfetti Riccardo  (CIK 0001775410)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-12-30",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201427368"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1609286400000,
+          "0001209191-20-065612:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-063373",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1813117/000120919120063373/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120063373/doc4.xml"
+      ],
+      "ciks": [
+        "0001813117",
+        "0001697532"
+      ],
+      "display_names": [
+        "Silberstein Charles  (CIK 0001813117)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-14",
+      "form": "4",
+      "id": "0001209191-20-063373:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-063373:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-063373",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001813117",
+            "0001697532"
+          ],
+          "display_names": [
+            "Silberstein Charles  (CIK 0001813117)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-12-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201388067"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1607904000000,
+          "0001209191-20-063373:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-063372",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775490/000120919120063372/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120063372/doc4.xml"
+      ],
+      "ciks": [
+        "0001775490",
+        "0001697532"
+      ],
+      "display_names": [
+        "Shendelman Shoshana  (CIK 0001775490)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-14",
+      "form": "4",
+      "id": "0001209191-20-063372:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-063372:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-063372",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775490",
+            "0001697532"
+          ],
+          "display_names": [
+            "Shendelman Shoshana  (CIK 0001775490)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-12-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201388063"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1607904000000,
+          "0001209191-20-063372:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-063371",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775410/000120919120063371/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120063371/doc4.xml"
+      ],
+      "ciks": [
+        "0001775410",
+        "0001697532"
+      ],
+      "display_names": [
+        "Perfetti Riccardo  (CIK 0001775410)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-14",
+      "form": "4",
+      "id": "0001209191-20-063371:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-063371:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-063371",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775410",
+            "0001697532"
+          ],
+          "display_names": [
+            "Perfetti Riccardo  (CIK 0001775410)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-12-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201388062"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1607904000000,
+          "0001209191-20-063371:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-063370",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1805556/000120919120063370/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120063370/doc4.xml"
+      ],
+      "ciks": [
+        "0001805556",
+        "0001697532"
+      ],
+      "display_names": [
+        "Hansard Adam  (CIK 0001805556)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-14",
+      "form": "4",
+      "id": "0001209191-20-063370:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-063370:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-063370",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001805556",
+            "0001697532"
+          ],
+          "display_names": [
+            "Hansard Adam  (CIK 0001805556)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-12-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201388058"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1607904000000,
+          "0001209191-20-063370:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-062633",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775410/000120919120062633/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120062633/doc4.xml"
+      ],
+      "ciks": [
+        "0001775410",
+        "0001697532"
+      ],
+      "display_names": [
+        "Perfetti Riccardo  (CIK 0001775410)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-09",
+      "form": "4",
+      "id": "0001209191-20-062633:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-062633:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-062633",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775410",
+            "0001697532"
+          ],
+          "display_names": [
+            "Perfetti Riccardo  (CIK 0001775410)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-12-09",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201379307"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-07",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1607472000000,
+          "0001209191-20-062633:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-060421",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775410/000120919120060421/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120060421/doc4.xml"
+      ],
+      "ciks": [
+        "0001775410",
+        "0001697532"
+      ],
+      "display_names": [
+        "Perfetti Riccardo  (CIK 0001775410)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-11-24",
+      "form": "4",
+      "id": "0001209191-20-060421:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-060421:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-060421",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775410",
+            "0001697532"
+          ],
+          "display_names": [
+            "Perfetti Riccardo  (CIK 0001775410)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-11-24",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201346687"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-11-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1606176000000,
+          "0001209191-20-060421:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-20-013614",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000155837020013614/aplt-20200930x10q.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "aplt-20200930x10q.htm",
+      "filed_date": "2020-11-12",
+      "form": "10-Q",
+      "id": "0001558370-20-013614:aplt-20200930x10q.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-20-013614:aplt-20200930x10q.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-20-013614",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-11-12",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "201303532"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-09-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1605139200000,
+          "0001558370-20-013614:aplt-20200930x10q.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-058203",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775410/000120919120058203/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120058203/doc4.xml"
+      ],
+      "ciks": [
+        "0001775410",
+        "0001697532"
+      ],
+      "display_names": [
+        "Perfetti Riccardo  (CIK 0001775410)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-11-12",
+      "form": "4",
+      "id": "0001209191-20-058203:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-058203:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-058203",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775410",
+            "0001697532"
+          ],
+          "display_names": [
+            "Perfetti Riccardo  (CIK 0001775410)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-11-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201308955"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-11-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1605139200000,
+          "0001209191-20-058203:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-123935",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920123935/tm2035711-1_8k.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "tm2035711-1_8k.htm",
+      "filed_date": "2020-11-12",
+      "form": "8-K",
+      "id": "0001104659-20-123935:tm2035711-1_8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-123935:tm2035711-1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-123935",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-11-12",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201303307"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-11-12",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1605139200000,
+          "0001104659-20-123935:tm2035711-1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-056497",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1216955/000120919120056497/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120056497/doc4.xml"
+      ],
+      "ciks": [
+        "0001216955",
+        "0001697532"
+      ],
+      "display_names": [
+        "MARCUS JOEL S  (CIK 0001216955)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-11-02",
+      "form": "4",
+      "id": "0001209191-20-056497:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-056497:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-056497",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001216955",
+            "0001697532"
+          ],
+          "display_names": [
+            "MARCUS JOEL S  (CIK 0001216955)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-11-02",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201281790"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-29",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1604275200000,
+          "0001209191-20-056497:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-056273",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775410/000120919120056273/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120056273/doc4.xml"
+      ],
+      "ciks": [
+        "0001775410",
+        "0001697532"
+      ],
+      "display_names": [
+        "Perfetti Riccardo  (CIK 0001775410)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-29",
+      "form": "4",
+      "id": "0001209191-20-056273:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-056273:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-056273",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775410",
+            "0001697532"
+          ],
+          "display_names": [
+            "Perfetti Riccardo  (CIK 0001775410)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-10-29",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201274529"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1603929600000,
+          "0001209191-20-056273:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-053946",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775394/000120919120053946/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120053946/doc4.xml"
+      ],
+      "ciks": [
+        "0001775394",
+        "0001697532"
+      ],
+      "display_names": [
+        "Funtleyder Leslie D.  (CIK 0001775394)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-05",
+      "form": "4",
+      "id": "0001209191-20-053946:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-053946:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-053946",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775394",
+            "0001697532"
+          ],
+          "display_names": [
+            "Funtleyder Leslie D.  (CIK 0001775394)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-10-05",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201225449"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-10-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601856000000,
+          "0001209191-20-053946:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-048318",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775394/000120919120048318/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120048318/doc4.xml"
+      ],
+      "ciks": [
+        "0001775394",
+        "0001697532"
+      ],
+      "display_names": [
+        "Funtleyder Leslie D.  (CIK 0001775394)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-08-25",
+      "form": "4",
+      "id": "0001209191-20-048318:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-048318:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-048318",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775394",
+            "0001697532"
+          ],
+          "display_names": [
+            "Funtleyder Leslie D.  (CIK 0001775394)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-08-25",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201134021"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-08-21",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1598313600000,
+          "0001209191-20-048318:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-095852",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920095852/tm2028758d1_8k.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "tm2028758d1_8k.htm",
+      "filed_date": "2020-08-17",
+      "form": "8-K",
+      "id": "0001104659-20-095852:tm2028758d1_8k.htm",
+      "items": [
+        "8.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-095852:tm2028758d1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-095852",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-08-17",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201107998"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01"
+          ],
+          "period_ending": "2020-08-14",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1597622400000,
+          "0001104659-20-095852:tm2028758d1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-095670",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920095670/tm2027722-1_sc13da.htm",
+        "https://www.sec.gov/Archives/edgar/data/1775490/000110465920095670/tm2027722-1_sc13da.htm"
+      ],
+      "ciks": [
+        "0001697532",
+        "0001775490"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)",
+        "Shendelman Shoshana  (CIK 0001775490)"
+      ],
+      "document_name": "tm2027722-1_sc13da.htm",
+      "filed_date": "2020-08-14",
+      "form": "SC 13D/A",
+      "id": "0001104659-20-095670:tm2027722-1_sc13da.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-095670:tm2027722-1_sc13da.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-095670",
+          "biz_locations": [
+            "New York, NY",
+            ""
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532",
+            "0001775490"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)",
+            "Shendelman Shoshana  (CIK 0001775490)"
+          ],
+          "file_date": "2020-08-14",
+          "file_description": "SCHEDULE 13D/A",
+          "file_num": [
+            "005-91017"
+          ],
+          "file_type": "SC 13D/A",
+          "film_num": [
+            "201106736"
+          ],
+          "form": "SC 13D/A",
+          "inc_states": [
+            "DE",
+            ""
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1597363200000,
+          "0001104659-20-095670:tm2027722-1_sc13da.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-20-010266",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000155837020010266/aplt-20200630x10q.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "aplt-20200630x10q.htm",
+      "filed_date": "2020-08-11",
+      "form": "10-Q",
+      "id": "0001558370-20-010266:aplt-20200630x10q.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-20-010266:aplt-20200630x10q.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-20-010266",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-08-11",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "201091071"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1597104000000,
+          "0001558370-20-010266:aplt-20200630x10q.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-092998",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920092998/tm2026942d1_8k.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "tm2026942d1_8k.htm",
+      "filed_date": "2020-08-11",
+      "form": "8-K",
+      "id": "0001104659-20-092998:tm2026942d1_8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-092998:tm2026942d1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-092998",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-08-11",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201091036"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-08-11",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1597104000000,
+          "0001104659-20-092998:tm2026942d1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000315066-20-001680",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000031506620001680/filing.txt",
+        "https://www.sec.gov/Archives/edgar/data/315066/000031506620001680/filing.txt"
+      ],
+      "ciks": [
+        "0001697532",
+        "0000315066"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "document_name": "filing.txt",
+      "filed_date": "2020-08-10",
+      "form": "SC 13G",
+      "id": "0000315066-20-001680:filing.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000315066-20-001680:filing.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000315066-20-001680",
+          "biz_locations": [
+            "New York, NY",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "NY",
+            "MA"
+          ],
+          "ciks": [
+            "0001697532",
+            "0000315066"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)",
+            "FMR LLC  (CIK 0000315066)"
+          ],
+          "file_date": "2020-08-10",
+          "file_description": null,
+          "file_num": [
+            "005-91017"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "201087487"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "0000"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1597017600000,
+          "0000315066-20-001680:filing.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-043427",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775490/000120919120043427/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120043427/doc4.xml"
+      ],
+      "ciks": [
+        "0001775490",
+        "0001697532"
+      ],
+      "display_names": [
+        "Shendelman Shoshana  (CIK 0001775490)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-07-22",
+      "form": "4",
+      "id": "0001209191-20-043427:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-043427:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-043427",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775490",
+            "0001697532"
+          ],
+          "display_names": [
+            "Shendelman Shoshana  (CIK 0001775490)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-07-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201042607"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-07-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1595376000000,
+          "0001209191-20-043427:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-042085",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775490/000120919120042085/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120042085/doc4.xml"
+      ],
+      "ciks": [
+        "0001775490",
+        "0001697532"
+      ],
+      "display_names": [
+        "Shendelman Shoshana  (CIK 0001775490)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-07-09",
+      "form": "4",
+      "id": "0001209191-20-042085:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-042085:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-042085",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775490",
+            "0001697532"
+          ],
+          "display_names": [
+            "Shendelman Shoshana  (CIK 0001775490)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-07-09",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201021629"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-07-07",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1594252800000,
+          "0001209191-20-042085:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-039034",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775394/000120919120039034/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120039034/doc4.xml"
+      ],
+      "ciks": [
+        "0001775394",
+        "0001697532"
+      ],
+      "display_names": [
+        "Funtleyder Leslie D.  (CIK 0001775394)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-25",
+      "form": "4",
+      "id": "0001209191-20-039034:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-039034:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-039034",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775394",
+            "0001697532"
+          ],
+          "display_names": [
+            "Funtleyder Leslie D.  (CIK 0001775394)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-25",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20991006"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-23",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1593043200000,
+          "0001209191-20-039034:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-038359",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775394/000120919120038359/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120038359/doc4.xml"
+      ],
+      "ciks": [
+        "0001775394",
+        "0001697532"
+      ],
+      "display_names": [
+        "Funtleyder Leslie D.  (CIK 0001775394)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-22",
+      "form": "4",
+      "id": "0001209191-20-038359:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-038359:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-038359",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775394",
+            "0001697532"
+          ],
+          "display_names": [
+            "Funtleyder Leslie D.  (CIK 0001775394)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20980175"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-18",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1592784000000,
+          "0001209191-20-038359:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-037485",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775394/000120919120037485/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120037485/doc4.xml"
+      ],
+      "ciks": [
+        "0001775394",
+        "0001697532"
+      ],
+      "display_names": [
+        "Funtleyder Leslie D.  (CIK 0001775394)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-17",
+      "form": "4",
+      "id": "0001209191-20-037485:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-037485:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-037485",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775394",
+            "0001697532"
+          ],
+          "display_names": [
+            "Funtleyder Leslie D.  (CIK 0001775394)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-17",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20971124"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-15",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1592352000000,
+          "0001209191-20-037485:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "9999999995-20-001430",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/999999999520001430/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2020-06-15",
+      "form": "EFFECT",
+      "id": "9999999995-20-001430:primary_doc.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999995-20-001430:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999995-20-001430",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-15",
+          "file_description": null,
+          "file_num": [
+            "333-238948"
+          ],
+          "file_type": "EFFECT",
+          "film_num": [
+            "20964892"
+          ],
+          "form": "EFFECT",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "EFFECT"
+          ],
+          "schema_version": "X0101",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslEFFECTX01"
+        },
+        "sort": [
+          1592179200000,
+          "9999999995-20-001430:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-072971",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920072971/filename1.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "filename1.htm",
+      "filed_date": "2020-06-12",
+      "form": "CORRESP",
+      "id": "0001104659-20-072971:filename1.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-072971:filename1.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-072971",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-12",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "CORRESP",
+          "film_num": [],
+          "form": "CORRESP",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "CORRESP"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1591920000000,
+          "0001104659-20-072971:filename1.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-072958",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920072958/tm2021693-4_s3a.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "tm2021693-4_s3a.htm",
+      "filed_date": "2020-06-12",
+      "form": "S-3/A",
+      "id": "0001104659-20-072958:tm2021693-4_s3a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-072958:tm2021693-4_s3a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-072958",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-12",
+          "file_description": "S-3/A",
+          "file_num": [
+            "333-238948"
+          ],
+          "file_type": "S-3/A",
+          "film_num": [
+            "20960825"
+          ],
+          "form": "S-3/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-3"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1591920000000,
+          "0001104659-20-072958:tm2021693-4_s3a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-035769",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775394/000120919120035769/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120035769/doc4.xml"
+      ],
+      "ciks": [
+        "0001775394",
+        "0001697532"
+      ],
+      "display_names": [
+        "Funtleyder Leslie D.  (CIK 0001775394)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-10",
+      "form": "4",
+      "id": "0001209191-20-035769:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-035769:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-035769",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775394",
+            "0001697532"
+          ],
+          "display_names": [
+            "Funtleyder Leslie D.  (CIK 0001775394)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-10",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20956087"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-08",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591747200000,
+          "0001209191-20-035769:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000000000-20-005144",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000000000020005144/filename1.pdf"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "filename1.pdf",
+      "filed_date": "2020-06-10",
+      "form": "UPLOAD",
+      "id": "0000000000-20-005144:filename1.pdf",
+      "items": [],
+      "source_hit": {
+        "_id": "0000000000-20-005144:filename1.pdf",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000000000-20-005144",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-10",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "LETTER",
+          "film_num": [],
+          "form": "UPLOAD",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "UPLOAD"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1591747200000,
+          "0000000000-20-005144:filename1.pdf"
+        ]
+      }
+    },
+    {
+      "accession": "9999999995-20-001375",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/999999999520001375/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2020-06-09",
+      "form": "EFFECT",
+      "id": "9999999995-20-001375:primary_doc.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999995-20-001375:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999995-20-001375",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-09",
+          "file_description": null,
+          "file_num": [
+            "333-235504"
+          ],
+          "file_type": "EFFECT",
+          "film_num": [
+            "20953418"
+          ],
+          "form": "EFFECT",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "EFFECT"
+          ],
+          "schema_version": "X0101",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslEFFECTX01"
+        },
+        "sort": [
+          1591660800000,
+          "9999999995-20-001375:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-034795",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1236386/000120919120034795/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120034795/doc4.xml"
+      ],
+      "ciks": [
+        "0001236386",
+        "0001697532"
+      ],
+      "display_names": [
+        "SKYLER JAY S  (CIK 0001236386)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-05",
+      "form": "4",
+      "id": "0001209191-20-034795:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-034795:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-034795",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001236386",
+            "0001697532"
+          ],
+          "display_names": [
+            "SKYLER JAY S  (CIK 0001236386)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-05",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20947639"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-04",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591315200000,
+          "0001209191-20-034795:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-034794",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1813117/000120919120034794/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120034794/doc4.xml"
+      ],
+      "ciks": [
+        "0001813117",
+        "0001697532"
+      ],
+      "display_names": [
+        "Silberstein Charles  (CIK 0001813117)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-05",
+      "form": "4",
+      "id": "0001209191-20-034794:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-034794:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-034794",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001813117",
+            "0001697532"
+          ],
+          "display_names": [
+            "Silberstein Charles  (CIK 0001813117)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-05",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20947637"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-04",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591315200000,
+          "0001209191-20-034794:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-034793",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1216955/000120919120034793/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120034793/doc4.xml"
+      ],
+      "ciks": [
+        "0001216955",
+        "0001697532"
+      ],
+      "display_names": [
+        "MARCUS JOEL S  (CIK 0001216955)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-05",
+      "form": "4",
+      "id": "0001209191-20-034793:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-034793:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-034793",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001216955",
+            "0001697532"
+          ],
+          "display_names": [
+            "MARCUS JOEL S  (CIK 0001216955)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-05",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20947635"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-04",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591315200000,
+          "0001209191-20-034793:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-034792",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775402/000120919120034792/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120034792/doc4.xml"
+      ],
+      "ciks": [
+        "0001775402",
+        "0001697532"
+      ],
+      "display_names": [
+        "Lerner Teena  (CIK 0001775402)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-05",
+      "form": "4",
+      "id": "0001209191-20-034792:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-034792:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-034792",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775402",
+            "0001697532"
+          ],
+          "display_names": [
+            "Lerner Teena  (CIK 0001775402)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-05",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20947632"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-04",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591315200000,
+          "0001209191-20-034792:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-034791",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775404/000120919120034791/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120034791/doc4.xml"
+      ],
+      "ciks": [
+        "0001775404",
+        "0001697532"
+      ],
+      "display_names": [
+        "Kanter Stacy J.  (CIK 0001775404)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-05",
+      "form": "4",
+      "id": "0001209191-20-034791:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-034791:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-034791",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775404",
+            "0001697532"
+          ],
+          "display_names": [
+            "Kanter Stacy J.  (CIK 0001775404)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-05",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20947631"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-04",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591315200000,
+          "0001209191-20-034791:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-070364",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920070364/tm2021693d3_8k.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "tm2021693d3_8k.htm",
+      "filed_date": "2020-06-05",
+      "form": "8-K",
+      "id": "0001104659-20-070364:tm2021693d3_8k.htm",
+      "items": [
+        "5.02",
+        "5.07"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-070364:tm2021693d3_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-070364",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-05",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20946914"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.02",
+            "5.07"
+          ],
+          "period_ending": "2020-06-04",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1591315200000,
+          "0001104659-20-070364:tm2021693d3_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-069971",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920069971/tm2021695-1_s3.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "tm2021695-1_s3.htm",
+      "filed_date": "2020-06-05",
+      "form": "POS AM",
+      "id": "0001104659-20-069971:tm2021695-1_s3.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-069971:tm2021695-1_s3.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-069971",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-05",
+          "file_description": "S-3 POS AM",
+          "file_num": [
+            "333-235504"
+          ],
+          "file_type": "POS AM",
+          "film_num": [
+            "20944391"
+          ],
+          "form": "POS AM",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "POS AM"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1591315200000,
+          "0001104659-20-069971:tm2021695-1_s3.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-069963",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920069963/tm2021693-1_s3.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "tm2021693-1_s3.htm",
+      "filed_date": "2020-06-05",
+      "form": "S-3",
+      "id": "0001104659-20-069963:tm2021693-1_s3.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-069963:tm2021693-1_s3.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-069963",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-05",
+          "file_description": "S-3",
+          "file_num": [
+            "333-238948"
+          ],
+          "file_type": "S-3",
+          "film_num": [
+            "20944350"
+          ],
+          "form": "S-3",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-3"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1591315200000,
+          "0001104659-20-069963:tm2021693-1_s3.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-034593",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775394/000120919120034593/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120034593/doc4.xml"
+      ],
+      "ciks": [
+        "0001775394",
+        "0001697532"
+      ],
+      "display_names": [
+        "Funtleyder Leslie D.  (CIK 0001775394)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-04",
+      "form": "4",
+      "id": "0001209191-20-034593:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-034593:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-034593",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775394",
+            "0001697532"
+          ],
+          "display_names": [
+            "Funtleyder Leslie D.  (CIK 0001775394)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-04",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20944334"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-02",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591228800000,
+          "0001209191-20-034593:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-033313",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775394/000120919120033313/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120033313/doc4.xml"
+      ],
+      "ciks": [
+        "0001775394",
+        "0001697532"
+      ],
+      "display_names": [
+        "Funtleyder Leslie D.  (CIK 0001775394)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-01",
+      "form": "4",
+      "id": "0001209191-20-033313:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-033313:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-033313",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775394",
+            "0001697532"
+          ],
+          "display_names": [
+            "Funtleyder Leslie D.  (CIK 0001775394)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-01",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20935360"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-05-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1590969600000,
+          "0001209191-20-033313:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-033310",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775490/000120919120033310/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120033310/doc4.xml"
+      ],
+      "ciks": [
+        "0001775490",
+        "0001697532"
+      ],
+      "display_names": [
+        "Shendelman Shoshana  (CIK 0001775490)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-01",
+      "form": "4",
+      "id": "0001209191-20-033310:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-033310:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-033310",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775490",
+            "0001697532"
+          ],
+          "display_names": [
+            "Shendelman Shoshana  (CIK 0001775490)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-06-01",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20935302"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-05-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1590969600000,
+          "0001209191-20-033310:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-068461",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920068461/tm2021454-1_sc13da.htm",
+        "https://www.sec.gov/Archives/edgar/data/1775490/000110465920068461/tm2021454-1_sc13da.htm"
+      ],
+      "ciks": [
+        "0001697532",
+        "0001775490"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)",
+        "Shendelman Shoshana  (CIK 0001775490)"
+      ],
+      "document_name": "tm2021454-1_sc13da.htm",
+      "filed_date": "2020-06-01",
+      "form": "SC 13D/A",
+      "id": "0001104659-20-068461:tm2021454-1_sc13da.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-068461:tm2021454-1_sc13da.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-068461",
+          "biz_locations": [
+            "New York, NY",
+            ""
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532",
+            "0001775490"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)",
+            "Shendelman Shoshana  (CIK 0001775490)"
+          ],
+          "file_date": "2020-06-01",
+          "file_description": "SCHDULE 13D/A",
+          "file_num": [
+            "005-91017"
+          ],
+          "file_type": "SC 13D/A",
+          "film_num": [
+            "20934222"
+          ],
+          "form": "SC 13D/A",
+          "inc_states": [
+            "DE",
+            ""
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1590969600000,
+          "0001104659-20-068461:tm2021454-1_sc13da.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-032167",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1813117/000120919120032167/doc3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120032167/doc3.xml"
+      ],
+      "ciks": [
+        "0001813117",
+        "0001697532"
+      ],
+      "display_names": [
+        "Silberstein Charles  (CIK 0001813117)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc3.xml",
+      "filed_date": "2020-05-26",
+      "form": "3",
+      "id": "0001209191-20-032167:doc3.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-032167:doc3.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-032167",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001813117",
+            "0001697532"
+          ],
+          "display_names": [
+            "Silberstein Charles  (CIK 0001813117)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-05-26",
+          "file_description": "FORM 3 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "20912303"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-05-20",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1590451200000,
+          "0001209191-20-032167:doc3.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-065642",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920065642/tm2020860-1_8k.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "tm2020860-1_8k.htm",
+      "filed_date": "2020-05-26",
+      "form": "8-K",
+      "id": "0001104659-20-065642:tm2020860-1_8k.htm",
+      "items": [
+        "5.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-065642:tm2020860-1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-065642",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-05-26",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20908187"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.02",
+            "9.01"
+          ],
+          "period_ending": "2020-05-20",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1590451200000,
+          "0001104659-20-065642:tm2020860-1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-029844",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1216955/000120919120029844/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120029844/doc4.xml"
+      ],
+      "ciks": [
+        "0001216955",
+        "0001697532"
+      ],
+      "display_names": [
+        "MARCUS JOEL S  (CIK 0001216955)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-05-15",
+      "form": "4",
+      "id": "0001209191-20-029844:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-029844:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-029844",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001216955",
+            "0001697532"
+          ],
+          "display_names": [
+            "MARCUS JOEL S  (CIK 0001216955)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-05-15",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20887202"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-05-13",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1589500800000,
+          "0001209191-20-029844:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-20-006110",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000155837020006110/aplt-20200331x10q.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "aplt-20200331x10q.htm",
+      "filed_date": "2020-05-11",
+      "form": "10-Q",
+      "id": "0001558370-20-006110:aplt-20200331x10q.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-20-006110:aplt-20200331x10q.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-20-006110",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-05-11",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "20862632"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-03-31",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1589155200000,
+          "0001558370-20-006110:aplt-20200331x10q.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-059123",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920059123/tm2016483-3_424b3.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "tm2016483-3_424b3.htm",
+      "filed_date": "2020-05-11",
+      "form": "424B3",
+      "id": "0001104659-20-059123:tm2016483-3_424b3.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-059123:tm2016483-3_424b3.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-059123",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-05-11",
+          "file_description": "424B3",
+          "file_num": [
+            "333-235504"
+          ],
+          "file_type": "424B3",
+          "film_num": [
+            "20862650"
+          ],
+          "form": "424B3",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B3"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1589155200000,
+          "0001104659-20-059123:tm2016483-3_424b3.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-059092",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920059092/tm2016483d4_8k.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "tm2016483d4_8k.htm",
+      "filed_date": "2020-05-11",
+      "form": "8-K",
+      "id": "0001104659-20-059092:tm2016483d4_8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-059092:tm2016483d4_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-059092",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-05-11",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20862565"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-05-11",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1589155200000,
+          "0001104659-20-059092:tm2016483d4_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001140361-20-009526",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000114036120009526/nc10011110x2_defa14a.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "nc10011110x2_defa14a.htm",
+      "filed_date": "2020-04-23",
+      "form": "DEFA14A",
+      "id": "0001140361-20-009526:nc10011110x2_defa14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001140361-20-009526:nc10011110x2_defa14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001140361-20-009526",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-04-23",
+          "file_description": "DEFA14A",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "DEFA14A",
+          "film_num": [
+            "20809400"
+          ],
+          "form": "DEFA14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DEFA14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1587600000000,
+          "0001140361-20-009526:nc10011110x2_defa14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001140361-20-009524",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000114036120009524/nc10011110x1_def14a.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "nc10011110x1_def14a.htm",
+      "filed_date": "2020-04-23",
+      "form": "DEF 14A",
+      "id": "0001140361-20-009524:nc10011110x1_def14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001140361-20-009524:nc10011110x1_def14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001140361-20-009524",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-04-23",
+          "file_description": "DEF 14A",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "DEF 14A",
+          "film_num": [
+            "20809396"
+          ],
+          "form": "DEF 14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-06-04",
+          "root_forms": [
+            "DEF 14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1587600000000,
+          "0001140361-20-009524:nc10011110x1_def14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-049003",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920049003/tm2016464-1_8k.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "tm2016464-1_8k.htm",
+      "filed_date": "2020-04-21",
+      "form": "8-K",
+      "id": "0001104659-20-049003:tm2016464-1_8k.htm",
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-049003:tm2016464-1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-049003",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-04-21",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20803965"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "7.01",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2020-04-21",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1587427200000,
+          "0001104659-20-049003:tm2016464-1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001047469-20-002463",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000104746920002463/a2241435z424b3.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "a2241435z424b3.htm",
+      "filed_date": "2020-04-21",
+      "form": "424B3",
+      "id": "0001047469-20-002463:a2241435z424b3.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001047469-20-002463:a2241435z424b3.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001047469-20-002463",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-04-21",
+          "file_description": "424B3",
+          "file_num": [
+            "333-235504"
+          ],
+          "file_type": "424B3",
+          "film_num": [
+            "20804128"
+          ],
+          "form": "424B3",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B3"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1587427200000,
+          "0001047469-20-002463:a2241435z424b3.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-023447",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1808486/000120919120023447/doc3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120023447/doc3.xml"
+      ],
+      "ciks": [
+        "0001808486",
+        "0001697532"
+      ],
+      "display_names": [
+        "Mahadevan Chids  (CIK 0001808486)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc3.xml",
+      "filed_date": "2020-04-03",
+      "form": "3",
+      "id": "0001209191-20-023447:doc3.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-023447:doc3.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-023447",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001808486",
+            "0001697532"
+          ],
+          "display_names": [
+            "Mahadevan Chids  (CIK 0001808486)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-04-03",
+          "file_description": "FORM 3 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "20775330"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-04-01",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1585872000000,
+          "0001209191-20-023447:doc3.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-041936",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920041936/tm2014735-1_8k.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "tm2014735-1_8k.htm",
+      "filed_date": "2020-04-01",
+      "form": "8-K",
+      "id": "0001104659-20-041936:tm2014735-1_8k.htm",
+      "items": [
+        "5.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-041936:tm2014735-1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-041936",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-04-01",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20766233"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.02",
+            "9.01"
+          ],
+          "period_ending": "2020-03-30",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1585699200000,
+          "0001104659-20-041936:tm2014735-1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001035443-20-000079",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1035443/000103544320000079/wf-form4_158568706670079.xml",
+        "https://www.sec.gov/Archives/edgar/data/1722024/000103544320000079/wf-form4_158568706670079.xml",
+        "https://www.sec.gov/Archives/edgar/data/1776437/000103544320000079/wf-form4_158568706670079.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000103544320000079/wf-form4_158568706670079.xml"
+      ],
+      "ciks": [
+        "0001035443",
+        "0001722024",
+        "0001776437",
+        "0001697532"
+      ],
+      "display_names": [
+        "ALEXANDRIA REAL ESTATE EQUITIES, INC.  (ARE)  (CIK 0001035443)",
+        "Alexandria Venture Investments, LLC  (CIK 0001722024)",
+        "Alexandria Equities No. 7, LLC  (CIK 0001776437)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "wf-form4_158568706670079.xml",
+      "filed_date": "2020-03-31",
+      "form": "4",
+      "id": "0001035443-20-000079:wf-form4_158568706670079.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001035443-20-000079:wf-form4_158568706670079.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001035443-20-000079",
+          "biz_locations": [
+            "Pasadena, CA",
+            "Pasadena, CA",
+            "Pasadena, CA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "CA",
+            "NY"
+          ],
+          "ciks": [
+            "0001035443",
+            "0001722024",
+            "0001776437",
+            "0001697532"
+          ],
+          "display_names": [
+            "ALEXANDRIA REAL ESTATE EQUITIES, INC.  (ARE)  (CIK 0001035443)",
+            "Alexandria Venture Investments, LLC  (CIK 0001722024)",
+            "Alexandria Equities No. 7, LLC  (CIK 0001776437)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-03-31",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-38898",
+            "001-38898",
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20762244",
+            "20762245",
+            "20762246"
+          ],
+          "form": "4",
+          "inc_states": [
+            "MD",
+            "DE",
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-03-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "6798",
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1585612800000,
+          "0001035443-20-000079:wf-form4_158568706670079.xml"
+        ]
+      }
+    },
+    {
+      "accession": "9999999995-20-000607",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/999999999520000607/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2020-03-23",
+      "form": "EFFECT",
+      "id": "9999999995-20-000607:primary_doc.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999995-20-000607:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999995-20-000607",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-03-23",
+          "file_description": null,
+          "file_num": [
+            "333-235504"
+          ],
+          "file_type": "EFFECT",
+          "film_num": [
+            "20736481"
+          ],
+          "form": "EFFECT",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "EFFECT"
+          ],
+          "schema_version": "X0101",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslEFFECTX01"
+        },
+        "sort": [
+          1584921600000,
+          "9999999995-20-000607:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001047469-20-001490",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000104746920001490/a2240948zposam.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "a2240948zposam.htm",
+      "filed_date": "2020-03-16",
+      "form": "POS AM",
+      "id": "0001047469-20-001490:a2240948zposam.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001047469-20-001490:a2240948zposam.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001047469-20-001490",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-03-16",
+          "file_description": "POS AM",
+          "file_num": [
+            "333-235504"
+          ],
+          "file_type": "POS AM",
+          "film_num": [
+            "20715049"
+          ],
+          "form": "POS AM",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "POS AM"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1584316800000,
+          "0001047469-20-001490:a2240948zposam.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001558370-20-002630",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000155837020002630/aplt-20191231x10k.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "aplt-20191231x10k.htm",
+      "filed_date": "2020-03-13",
+      "form": "10-K",
+      "id": "0001558370-20-002630:aplt-20191231x10k.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-20-002630:aplt-20191231x10k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-20-002630",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-03-13",
+          "file_description": "10-K",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "20711052"
+          ],
+          "form": "10-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2019-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1584057600000,
+          "0001558370-20-002630:aplt-20191231x10k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-032753",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920032753/tm2012648-1_8k.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "tm2012648-1_8k.htm",
+      "filed_date": "2020-03-13",
+      "form": "8-K",
+      "id": "0001104659-20-032753:tm2012648-1_8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-032753:tm2012648-1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-032753",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-03-13",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20710626"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-03-13",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1584057600000,
+          "0001104659-20-032753:tm2012648-1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-018230",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1805556/000120919120018230/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120018230/doc4.xml"
+      ],
+      "ciks": [
+        "0001805556",
+        "0001697532"
+      ],
+      "display_names": [
+        "Hansard Adam  (CIK 0001805556)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-03-11",
+      "form": "4",
+      "id": "0001209191-20-018230:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-018230:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-018230",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001805556",
+            "0001697532"
+          ],
+          "display_names": [
+            "Hansard Adam  (CIK 0001805556)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-03-11",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20706521"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-03-09",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1583884800000,
+          "0001209191-20-018230:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-016701",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1805556/000120919120016701/doc3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120016701/doc3.xml"
+      ],
+      "ciks": [
+        "0001805556",
+        "0001697532"
+      ],
+      "display_names": [
+        "Hansard Adam  (CIK 0001805556)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc3.xml",
+      "filed_date": "2020-03-05",
+      "form": "3",
+      "id": "0001209191-20-016701:doc3.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-016701:doc3.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-016701",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001805556",
+            "0001697532"
+          ],
+          "display_names": [
+            "Hansard Adam  (CIK 0001805556)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-03-05",
+          "file_description": "FORM 3 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "20691886"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-03-02",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1583366400000,
+          "0001209191-20-016701:doc3.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-009468",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775490/000120919120009468/doc5.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120009468/doc5.xml"
+      ],
+      "ciks": [
+        "0001775490",
+        "0001697532"
+      ],
+      "display_names": [
+        "Shendelman Shoshana  (CIK 0001775490)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc5.xml",
+      "filed_date": "2020-02-14",
+      "form": "5",
+      "id": "0001209191-20-009468:doc5.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-009468:doc5.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-009468",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775490",
+            "0001697532"
+          ],
+          "display_names": [
+            "Shendelman Shoshana  (CIK 0001775490)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-02-14",
+          "file_description": "FORM 5 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "5",
+          "film_num": [
+            "20614071"
+          ],
+          "form": "5",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2019-12-31",
+          "root_forms": [
+            "5"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1581638400000,
+          "0001209191-20-009468:doc5.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001172661-20-000918",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000117266120000918/orbimed-aplt123119.htm",
+        "https://www.sec.gov/Archives/edgar/data/1055951/000117266120000918/orbimed-aplt123119.htm"
+      ],
+      "ciks": [
+        "0001697532",
+        "0001055951"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)",
+        "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+      ],
+      "document_name": "orbimed-aplt123119.htm",
+      "filed_date": "2020-02-14",
+      "form": "SC 13G",
+      "id": "0001172661-20-000918:orbimed-aplt123119.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001172661-20-000918:orbimed-aplt123119.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001172661-20-000918",
+          "biz_locations": [
+            "New York, NY",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532",
+            "0001055951"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)",
+            "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+          ],
+          "file_date": "2020-02-14",
+          "file_description": null,
+          "file_num": [
+            "005-91017"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "20621710"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581638400000,
+          "0001172661-20-000918:orbimed-aplt123119.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-021999",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920021999/tm208088-1_8k.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "tm208088-1_8k.htm",
+      "filed_date": "2020-02-14",
+      "form": "8-K",
+      "id": "0001104659-20-021999:tm208088-1_8k.htm",
+      "items": [
+        "8.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-20-021999:tm208088-1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-021999",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-02-14",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20621608"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01"
+          ],
+          "period_ending": "2020-02-14",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581638400000,
+          "0001104659-20-021999:tm208088-1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-021996",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920021996/tm208177-2_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1035443/000110465920021996/tm208177-2_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001697532",
+        "0001035443"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)",
+        "ALEXANDRIA REAL ESTATE EQUITIES, INC.  (ARE)  (CIK 0001035443)"
+      ],
+      "document_name": "tm208177-2_sc13ga.htm",
+      "filed_date": "2020-02-14",
+      "form": "SC 13G/A",
+      "id": "0001104659-20-021996:tm208177-2_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-021996:tm208177-2_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-021996",
+          "biz_locations": [
+            "New York, NY",
+            "Pasadena, CA"
+          ],
+          "biz_states": [
+            "NY",
+            "CA"
+          ],
+          "ciks": [
+            "0001697532",
+            "0001035443"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)",
+            "ALEXANDRIA REAL ESTATE EQUITIES, INC.  (ARE)  (CIK 0001035443)"
+          ],
+          "file_date": "2020-02-14",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-91017"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20621595"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "MD"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6798"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581638400000,
+          "0001104659-20-021996:tm208177-2_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-007706",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775402/000120919120007706/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120007706/doc4.xml"
+      ],
+      "ciks": [
+        "0001775402",
+        "0001697532"
+      ],
+      "display_names": [
+        "Lerner Teena  (CIK 0001775402)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-02-07",
+      "form": "4",
+      "id": "0001209191-20-007706:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-007706:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-007706",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775402",
+            "0001697532"
+          ],
+          "display_names": [
+            "Lerner Teena  (CIK 0001775402)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-02-07",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20588918"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-02-06",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1581033600000,
+          "0001209191-20-007706:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-005368",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1216955/000120919120005368/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120005368/doc4.xml"
+      ],
+      "ciks": [
+        "0001216955",
+        "0001697532"
+      ],
+      "display_names": [
+        "MARCUS JOEL S  (CIK 0001216955)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-01-29",
+      "form": "4",
+      "id": "0001209191-20-005368:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-005368:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-005368",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001216955",
+            "0001697532"
+          ],
+          "display_names": [
+            "MARCUS JOEL S  (CIK 0001216955)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-01-29",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20558574"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-01-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1580256000000,
+          "0001209191-20-005368:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-005367",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1775404/000120919120005367/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1697532/000120919120005367/doc4.xml"
+      ],
+      "ciks": [
+        "0001775404",
+        "0001697532"
+      ],
+      "display_names": [
+        "Kanter Stacy J.  (CIK 0001775404)",
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-01-29",
+      "form": "4",
+      "id": "0001209191-20-005367:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-005367:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-005367",
+          "biz_locations": [
+            "",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001775404",
+            "0001697532"
+          ],
+          "display_names": [
+            "Kanter Stacy J.  (CIK 0001775404)",
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-01-29",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38898"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20558563"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-01-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1580256000000,
+          "0001209191-20-005367:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001047469-20-000481",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000104746920000481/a2240589z424b4.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "a2240589z424b4.htm",
+      "filed_date": "2020-01-24",
+      "form": "424B4",
+      "id": "0001047469-20-000481:a2240589z424b4.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001047469-20-000481:a2240589z424b4.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001047469-20-000481",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-01-24",
+          "file_description": "424B4",
+          "file_num": [
+            "333-235988"
+          ],
+          "file_type": "424B4",
+          "film_num": [
+            "20545930"
+          ],
+          "form": "424B4",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B4"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1579824000000,
+          "0001047469-20-000481:a2240589z424b4.htm"
+        ]
+      }
+    },
+    {
+      "accession": "9999999995-20-000151",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/999999999520000151/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2020-01-23",
+      "form": "EFFECT",
+      "id": "9999999995-20-000151:primary_doc.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999995-20-000151:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999995-20-000151",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-01-23",
+          "file_description": null,
+          "file_num": [
+            "333-235988"
+          ],
+          "file_type": "EFFECT",
+          "film_num": [
+            "20543565"
+          ],
+          "form": "EFFECT",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "EFFECT"
+          ],
+          "schema_version": "X0101",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslEFFECTX01"
+        },
+        "sort": [
+          1579737600000,
+          "9999999995-20-000151:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-006417",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920006417/a20-1462_8s1mef.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "a20-1462_8s1mef.htm",
+      "filed_date": "2020-01-23",
+      "form": "S-1MEF",
+      "id": "0001104659-20-006417:a20-1462_8s1mef.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-006417:a20-1462_8s1mef.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-006417",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-01-23",
+          "file_description": "S-1MEF",
+          "file_num": [
+            "333-236048"
+          ],
+          "file_type": "S-1MEF",
+          "film_num": [
+            "20543522"
+          ],
+          "form": "S-1MEF",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-1MEF"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1579737600000,
+          "0001104659-20-006417:a20-1462_8s1mef.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001047469-20-000444",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000104746920000444/a2240576zs-1a.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "a2240576zs-1a.htm",
+      "filed_date": "2020-01-23",
+      "form": "S-1/A",
+      "id": "0001047469-20-000444:a2240576zs-1a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001047469-20-000444:a2240576zs-1a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001047469-20-000444",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-01-23",
+          "file_description": "S-1",
+          "file_num": [
+            "333-235988"
+          ],
+          "file_type": "S-1/A",
+          "film_num": [
+            "20541681"
+          ],
+          "form": "S-1/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-1"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1579737600000,
+          "0001047469-20-000444:a2240576zs-1a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-005844",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920005844/filename1.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "filename1.htm",
+      "filed_date": "2020-01-22",
+      "form": "CORRESP",
+      "id": "0001104659-20-005844:filename1.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-005844:filename1.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-005844",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-01-22",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "CORRESP",
+          "film_num": [],
+          "form": "CORRESP",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "CORRESP"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1579651200000,
+          "0001104659-20-005844:filename1.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-005586",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920005586/filename1.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "filename1.htm",
+      "filed_date": "2020-01-21",
+      "form": "CORRESP",
+      "id": "0001104659-20-005586:filename1.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-005586:filename1.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-005586",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-01-21",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "CORRESP",
+          "film_num": [],
+          "form": "CORRESP",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "CORRESP"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1579564800000,
+          "0001104659-20-005586:filename1.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-005582",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000110465920005582/filename1.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "filename1.htm",
+      "filed_date": "2020-01-21",
+      "form": "CORRESP",
+      "id": "0001104659-20-005582:filename1.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-005582:filename1.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-005582",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-01-21",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "CORRESP",
+          "film_num": [],
+          "form": "CORRESP",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "CORRESP"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1579564800000,
+          "0001104659-20-005582:filename1.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001047469-20-000339",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000104746920000339/a2240509zs-1.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "a2240509zs-1.htm",
+      "filed_date": "2020-01-21",
+      "form": "S-1",
+      "id": "0001047469-20-000339:a2240509zs-1.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001047469-20-000339:a2240509zs-1.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001047469-20-000339",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-01-21",
+          "file_description": "S-1",
+          "file_num": [
+            "333-235988"
+          ],
+          "file_type": "S-1",
+          "film_num": [
+            "20536488"
+          ],
+          "form": "S-1",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-1"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1579564800000,
+          "0001047469-20-000339:a2240509zs-1.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000000000-20-000456",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000000000020000456/filename1.pdf"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "filename1.pdf",
+      "filed_date": "2020-01-17",
+      "form": "UPLOAD",
+      "id": "0000000000-20-000456:filename1.pdf",
+      "items": [],
+      "source_hit": {
+        "_id": "0000000000-20-000456:filename1.pdf",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000000000-20-000456",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-01-17",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "LETTER",
+          "film_num": [],
+          "form": "UPLOAD",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "UPLOAD"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1579219200000,
+          "0000000000-20-000456:filename1.pdf"
+        ]
+      }
+    },
+    {
+      "accession": "0000912057-20-000011",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1697532/000091205720000011/filename1.htm"
+      ],
+      "ciks": [
+        "0001697532"
+      ],
+      "display_names": [
+        "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+      ],
+      "document_name": "filename1.htm",
+      "filed_date": "2020-01-10",
+      "form": "DRS",
+      "id": "0000912057-20-000011:filename1.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000912057-20-000011:filename1.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000912057-20-000011",
+          "biz_locations": [
+            "New York, NY"
+          ],
+          "biz_states": [
+            "NY"
+          ],
+          "ciks": [
+            "0001697532"
+          ],
+          "display_names": [
+            "Applied Therapeutics Inc.  (APLT)  (CIK 0001697532)"
+          ],
+          "file_date": "2020-01-10",
+          "file_description": null,
+          "file_num": [
+            "377-02992"
+          ],
+          "file_type": "DRS",
+          "film_num": [
+            "20521759"
+          ],
+          "form": "DRS",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DRS"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1578614400000,
+          "0000912057-20-000011:filename1.htm"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2020-01-01",
+  "ticker": "APLT",
+  "total": 78
+}

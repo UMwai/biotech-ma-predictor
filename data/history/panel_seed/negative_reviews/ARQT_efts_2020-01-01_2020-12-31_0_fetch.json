@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://efts.sec.gov/LATEST/search-index?ciks=0001787306&dateRange=custom&startdt=2020-01-01&enddt=2020-12-31&from=0&size=100",
+    "retrieved_at": "2026-09-08T19:51:46.680516+00:00",
+    "start_date": "2020-01-01",
+    "end_date": "2020-12-31",
+    "from": 0,
+    "path": "ARQT_efts_2020-01-01_2020-12-31_0_d34c7ec9b20ee12b261df06ec56994db5470578c1c3113d1e064100ee9e7653c.json",
+    "sha256": "d34c7ec9b20ee12b261df06ec56994db5470578c1c3113d1e064100ee9e7653c",
+    "size_bytes": 71330,
+    "total": {
+      "value": 113,
+      "relation": "eq"
+    },
+    "returned": 100
+  },
+  {
+    "url": "https://efts.sec.gov/LATEST/search-index?ciks=0001787306&dateRange=custom&startdt=2020-01-01&enddt=2020-12-31&from=100&size=100",
+    "retrieved_at": "2026-09-08T19:51:47.020577+00:00",
+    "start_date": "2020-01-01",
+    "end_date": "2020-12-31",
+    "from": 100,
+    "path": "ARQT_efts_2020-01-01_2020-12-31_100_8e59515a9c8593d4c5e7e8c9fc5459f32b75db5db01398ee061a3ac62a449598.json",
+    "sha256": "8e59515a9c8593d4c5e7e8c9fc5459f32b75db5db01398ee061a3ac62a449598",
+    "size_bytes": 12484,
+    "total": {
+      "value": 113,
+      "relation": "eq"
+    },
+    "returned": 13
+  }
+]

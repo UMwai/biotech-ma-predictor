@@ -1,0 +1,12 @@
+{
+  "url": "https://www.alphavantage.co/query?function=LISTING_STATUS&date=2021-01-04&state=active&apikey=demo",
+  "retrieved_at": "2026-09-08T14:03:26.084952+00:00",
+  "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "bytes": 2,
+  "requested_date": "2021-01-04",
+  "state": "active",
+  "access": "provider documented public demo key",
+  "row_count": 0,
+  "future_ipo_rows": [],
+  "expected_schema": false
+}

@@ -1,0 +1,9 @@
+{
+  "ticker": "CNST",
+  "source_uri": "https://www.sec.gov/Archives/edgar/data/1434418/000156459021007783/cnst-10k_20201231.htm",
+  "attempted_at": "2026-09-13T16:10:10.688741+00:00",
+  "attempts": 1,
+  "error_type": "HTTPError",
+  "error": "HTTP Error 403: Forbidden",
+  "failed_at": "2026-09-13T16:10:10.812616+00:00"
+}

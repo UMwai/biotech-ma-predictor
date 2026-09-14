@@ -1,0 +1,24 @@
+{
+  "browser_evidence_kind": "source_review_receipt",
+  "browser_source": "https://investor.alkermes.com/news-releases/news-release-details/alkermes-plc-completes-acquisition-avadel-pharmaceuticals-plc",
+  "cik": 1012477,
+  "cik_identity_basis": "existing primary-source financial record; no new independent CIK verification claimed in this discovery receipt",
+  "detail": "The historical native IR archive timed out. The corporate homepage now redirects to Alkermes acquisition completion dated February12,2026. That later acquisition does not establish a 2021 outcome; the original source-defined member remains in the coverage ledger.",
+  "independent_human_review": false,
+  "negative_label_assigned": false,
+  "original_source_sha256": null,
+  "outcome_2021": null,
+  "raw_failure_receipt_path": "fetch_failures.json",
+  "recorded_at": "2026-09-08T18:01:55.779212+00:00",
+  "reviewed_outcome_window_count": 0,
+  "reviewer": "Codex-primary-source-review",
+  "risk_set_eligible": null,
+  "schema_version": "issuer-coverage-status-v1",
+  "sources": [
+    "https://investors.avadel.com/news-releases/",
+    "https://www.avadel.com/"
+  ],
+  "status": "unknown_incomplete_source_coverage",
+  "ticker": "AVDL",
+  "training_allowed": false
+}

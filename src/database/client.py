@@ -33,25 +33,40 @@ class DatabaseClient:
     """
 
     def __init__(self):
-        self.session_gen = get_db_session()
+        self.session_context = None
         self.session = None
 
     async def __aenter__(self):
-        self.session = await self.session_gen.__anext__()
-        self.company_repo = CompanyRepository(self.session)
-        self.signal_repo = SignalRepository(self.session)
-        self.score_repo = ScoreRepository(self.session)
-        self.report_repo = ReportRepository(self.session)
-        self.alert_repo = AlertRepository(self.session)
+        if self.session_context is not None:
+            raise RuntimeError("DatabaseClient is already entered")
+        self.session_context = get_db_session()
+        try:
+            self.session = await self.session_context.__aenter__()
+            self.company_repo = CompanyRepository(self.session)
+            self.signal_repo = SignalRepository(self.session)
+            self.score_repo = ScoreRepository(self.session)
+            self.report_repo = ReportRepository(self.session)
+            self.alert_repo = AlertRepository(self.session)
+        except BaseException as exc:
+            try:
+                if self.session is not None:
+                    await self.session_context.__aexit__(type(exc), exc, exc.__traceback__)
+            finally:
+                self.session = None
+                self.session_context = None
+            raise
         return self
 
     async def __aexit__(self, exc_type, exc_val, exc_tb):
+        if self.session_context is None:
+            raise RuntimeError("DatabaseClient has not been entered")
         try:
-            await self.session_gen.__anext__()
-        except StopAsyncIteration:
-            pass
-        except Exception as e:
-            logger.error(f"Error closing session: {e}")
+            # Forward the body exception so the owner rolls back instead of
+            # committing a partially failed operation. Commit failures propagate.
+            return await self.session_context.__aexit__(exc_type, exc_val, exc_tb)
+        finally:
+            self.session = None
+            self.session_context = None
 
     # Wrappers for common operations
 

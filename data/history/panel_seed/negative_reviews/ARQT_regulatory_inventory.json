@@ -1,0 +1,4826 @@
+{
+  "schema_version": "efts-regulatory-inventory-discovery-v1",
+  "ticker": "ARQT",
+  "cik": 1787306,
+  "inventory_complete": true,
+  "inventory_scope": "All EDGAR full-text search indexed filings associated with the exact padded subject CIK for2020,2021 andQ1,2022. This is a current search-index census, not proof that no filing was ever removed or misindexed.",
+  "windows": [
+    {
+      "start_date": "2020-01-01",
+      "end_date": "2020-12-31",
+      "hit_count": 113
+    },
+    {
+      "start_date": "2021-01-01",
+      "end_date": "2021-12-31",
+      "hit_count": 118
+    },
+    {
+      "start_date": "2022-01-01",
+      "end_date": "2022-03-31",
+      "hit_count": 30
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?ciks=0001787306&dateRange=custom&startdt=2020-01-01&enddt=2020-12-31&from=0&size=100",
+      "retrieved_at": "2026-09-08T19:51:46.680516+00:00",
+      "start_date": "2020-01-01",
+      "end_date": "2020-12-31",
+      "from": 0,
+      "path": "ARQT_efts_2020-01-01_2020-12-31_0_d34c7ec9b20ee12b261df06ec56994db5470578c1c3113d1e064100ee9e7653c.json",
+      "sha256": "d34c7ec9b20ee12b261df06ec56994db5470578c1c3113d1e064100ee9e7653c",
+      "size_bytes": 71330,
+      "total": {
+        "value": 113,
+        "relation": "eq"
+      },
+      "returned": 100
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?ciks=0001787306&dateRange=custom&startdt=2020-01-01&enddt=2020-12-31&from=100&size=100",
+      "retrieved_at": "2026-09-08T19:51:47.020577+00:00",
+      "start_date": "2020-01-01",
+      "end_date": "2020-12-31",
+      "from": 100,
+      "path": "ARQT_efts_2020-01-01_2020-12-31_100_8e59515a9c8593d4c5e7e8c9fc5459f32b75db5db01398ee061a3ac62a449598.json",
+      "sha256": "8e59515a9c8593d4c5e7e8c9fc5459f32b75db5db01398ee061a3ac62a449598",
+      "size_bytes": 12484,
+      "total": {
+        "value": 113,
+        "relation": "eq"
+      },
+      "returned": 13
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?ciks=0001787306&dateRange=custom&startdt=2021-01-01&enddt=2021-12-31&from=100&size=100",
+      "retrieved_at": "2026-09-08T19:51:46.679972+00:00",
+      "start_date": "2021-01-01",
+      "end_date": "2021-12-31",
+      "from": 100,
+      "path": "ARQT_efts_2021-01-01_2021-12-31_100_c7104ce1e7c058b74fe40dc2018046d44cf031ac34920f772881d9cffa2cf701.json",
+      "sha256": "c7104ce1e7c058b74fe40dc2018046d44cf031ac34920f772881d9cffa2cf701",
+      "size_bytes": 15237,
+      "total": {
+        "value": 118,
+        "relation": "eq"
+      },
+      "returned": 18
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?ciks=0001787306&dateRange=custom&startdt=2021-01-01&enddt=2021-12-31&from=0&size=100",
+      "retrieved_at": "2026-09-08T19:50:25.578472+00:00",
+      "path": "ARQT_efts_2021_04cf699595e06df92662887ef8277ddba0fab9e2e936c19463c96ec34d88b258.json",
+      "sha256": "04cf699595e06df92662887ef8277ddba0fab9e2e936c19463c96ec34d88b258",
+      "size_bytes": 69831,
+      "total": {
+        "value": 118,
+        "relation": "eq"
+      },
+      "returned": 100,
+      "start_date": "2021-01-01",
+      "end_date": "2021-12-31",
+      "from": 0
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?ciks=0001787306&dateRange=custom&startdt=2022-01-01&enddt=2022-03-31&from=0&size=100",
+      "retrieved_at": "2026-09-08T19:51:47.312845+00:00",
+      "start_date": "2022-01-01",
+      "end_date": "2022-03-31",
+      "from": 0,
+      "path": "ARQT_efts_2022-01-01_2022-03-31_0_e96890daf922bd574e975fcd0935fd13d4d3c71d61def22c58977818216e8e25.json",
+      "sha256": "e96890daf922bd574e975fcd0935fd13d4d3c71d61def22c58977818216e8e25",
+      "size_bytes": 22209,
+      "total": {
+        "value": 30,
+        "relation": "eq"
+      },
+      "returned": 30
+    }
+  ],
+  "all_form_inventory": [
+    {
+      "hit_id": "0001193125-20-001990:d784371ds1.htm",
+      "accession_number": "0001193125-20-001990",
+      "form": "S-1",
+      "publication_date": "2020-01-06",
+      "document_name": "d784371ds1.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520001990/d784371ds1.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-20-006564:filename1.htm",
+      "accession_number": "0001193125-20-006564",
+      "form": "CORRESP",
+      "publication_date": "2020-01-13",
+      "document_name": "filename1.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520006564/filename1.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-20-010664:d784371ds1a.htm",
+      "accession_number": "0001193125-20-010664",
+      "form": "S-1/A",
+      "publication_date": "2020-01-21",
+      "document_name": "d784371ds1a.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520010664/d784371ds1a.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-20-011069:d873446d8a12b.htm",
+      "accession_number": "0001193125-20-011069",
+      "form": "8-A12B",
+      "publication_date": "2020-01-21",
+      "document_name": "d873446d8a12b.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520011069/d873446d8a12b.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "9999999997-20-000311:filename1.pdf",
+      "accession_number": "9999999997-20-000311",
+      "form": "SEC STAFF LETTER",
+      "publication_date": "2020-01-27",
+      "document_name": "filename1.pdf",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/999999999720000311/filename1.pdf",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-20-016867:filename1.htm",
+      "accession_number": "0001193125-20-016867",
+      "form": "CORRESP",
+      "publication_date": "2020-01-28",
+      "document_name": "filename1.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520016867/filename1.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-20-016868:filename1.htm",
+      "accession_number": "0001193125-20-016868",
+      "form": "CORRESP",
+      "publication_date": "2020-01-28",
+      "document_name": "filename1.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520016868/filename1.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001354457-20-000038:8A_Cert_ARQT.pdf",
+      "accession_number": "0001354457-20-000038",
+      "form": "CERT",
+      "publication_date": "2020-01-29",
+      "document_name": "8A_Cert_ARQT.pdf",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000135445720000038/8A_Cert_ARQT.pdf",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "9999999997-20-000336:filename1.pdf",
+      "accession_number": "9999999997-20-000336",
+      "form": "SEC STAFF LETTER",
+      "publication_date": "2020-01-29",
+      "document_name": "filename1.pdf",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/999999999720000336/filename1.pdf",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000899243-20-002369:doc3.xml",
+      "accession_number": "0000899243-20-002369",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000089924320002369/doc3.xml",
+      "ciks": [
+        "0001790589",
+        "0001787306"
+      ],
+      "display_names": [
+        "Sun Ricky  (CIK 0001790589)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000899243-20-002371:doc3.xml",
+      "accession_number": "0000899243-20-002371",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000089924320002371/doc3.xml",
+      "ciks": [
+        "0001703031",
+        "0001703030",
+        "0001687968",
+        "0001702921",
+        "0001578965",
+        "0001702957",
+        "0001787306"
+      ],
+      "display_names": [
+        "Bain Capital Life Sciences Investors, LLC  (CIK 0001703031)",
+        "Bain Capital Life Sciences Partners, LP  (CIK 0001703030)",
+        "Bain Capital Life Sciences Fund, L.P.  (CIK 0001687968)",
+        "BCIP Life Sciences Associates, LP  (CIK 0001702921)",
+        "Koppel Adam  (CIK 0001578965)",
+        "Schwartz Jeffrey Lawrence  (CIK 0001702957)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-20-019985:d881088ds1mef.htm",
+      "accession_number": "0001193125-20-019985",
+      "form": "S-1MEF",
+      "publication_date": "2020-01-30",
+      "document_name": "d881088ds1mef.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520019985/d881088ds1mef.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-20-005678:doc3.xml",
+      "accession_number": "0001209191-20-005678",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120005678/doc3.xml",
+      "ciks": [
+        "0001655827",
+        "0001698755",
+        "0001698823",
+        "0001787306"
+      ],
+      "display_names": [
+        "Frazier Life Sciences VIII, L.P.  (CIK 0001655827)",
+        "FHM LIFE SCIENCES VIII, L.P.  (CIK 0001698755)",
+        "FHM LIFE SCIENCES VIII, L.L.C.  (CIK 0001698823)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-005679:doc3.xml",
+      "accession_number": "0001209191-20-005679",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120005679/doc3.xml",
+      "ciks": [
+        "0001055951",
+        "0001157524",
+        "0001760648",
+        "0001787306"
+      ],
+      "display_names": [
+        "ORBIMED ADVISORS LLC  (CIK 0001055951)",
+        "ORBIMED CAPITAL LLC  (CIK 0001157524)",
+        "OrbiMed Capital GP VII LLC  (CIK 0001760648)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-005680:doc3.xml",
+      "accession_number": "0001209191-20-005680",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120005680/doc3.xml",
+      "ciks": [
+        "0001171005",
+        "0001787306"
+      ],
+      "display_names": [
+        "SILVERSTEIN JONATHAN  (CIK 0001171005)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-005681:doc3.xml",
+      "accession_number": "0001209191-20-005681",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120005681/doc3.xml",
+      "ciks": [
+        "0001801066",
+        "0001787306"
+      ],
+      "display_names": [
+        "Asam Alexander  (CIK 0001801066)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-005682:doc3.xml",
+      "accession_number": "0001209191-20-005682",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120005682/doc3.xml",
+      "ciks": [
+        "0001458643",
+        "0001787306"
+      ],
+      "display_names": [
+        "CHAUDHURI BHASKAR  (CIK 0001458643)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-005683:doc3.xml",
+      "accession_number": "0001209191-20-005683",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120005683/doc3.xml",
+      "ciks": [
+        "0001702527",
+        "0001787306"
+      ],
+      "display_names": [
+        "ESTES DANIEL  (CIK 0001702527)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-005684:doc3.xml",
+      "accession_number": "0001209191-20-005684",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120005684/doc3.xml",
+      "ciks": [
+        "0001365617",
+        "0001787306"
+      ],
+      "display_names": [
+        "Heron Patrick J  (CIK 0001365617)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-005685:doc3.xml",
+      "accession_number": "0001209191-20-005685",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120005685/doc3.xml",
+      "ciks": [
+        "0001801047",
+        "0001787306"
+      ],
+      "display_names": [
+        "Lock Kenneth A.  (CIK 0001801047)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-005686:doc3.xml",
+      "accession_number": "0001209191-20-005686",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120005686/doc3.xml",
+      "ciks": [
+        "0001559583",
+        "0001787306"
+      ],
+      "display_names": [
+        "Smither John W  (CIK 0001559583)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-005687:doc3.xml",
+      "accession_number": "0001209191-20-005687",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120005687/doc3.xml",
+      "ciks": [
+        "0001266129",
+        "0001787306"
+      ],
+      "display_names": [
+        "TURNER JOSEPH L  (CIK 0001266129)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-005688:doc3.xml",
+      "accession_number": "0001209191-20-005688",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120005688/doc3.xml",
+      "ciks": [
+        "0001801045",
+        "0001787306"
+      ],
+      "display_names": [
+        "Turney Patricia A.  (CIK 0001801045)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-005689:doc3.xml",
+      "accession_number": "0001209191-20-005689",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120005689/doc3.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-005690:doc3.xml",
+      "accession_number": "0001209191-20-005690",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120005690/doc3.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-005691:doc3.xml",
+      "accession_number": "0001209191-20-005691",
+      "form": "3",
+      "publication_date": "2020-01-30",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120005691/doc3.xml",
+      "ciks": [
+        "0001252999",
+        "0001787306"
+      ],
+      "display_names": [
+        "OSBORNE DAVID W  (CIK 0001252999)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "9999999995-20-000198:primary_doc.xml",
+      "accession_number": "9999999995-20-000198",
+      "form": "EFFECT",
+      "publication_date": "2020-01-30",
+      "document_name": "primary_doc.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/999999999520000198/primary_doc.xml",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-20-019991:d870086ds8.htm",
+      "accession_number": "0001193125-20-019991",
+      "form": "S-8",
+      "publication_date": "2020-01-31",
+      "document_name": "d870086ds8.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520019991/d870086ds8.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-20-021681:d784371d424b4.htm",
+      "accession_number": "0001193125-20-021681",
+      "form": "424B4",
+      "publication_date": "2020-01-31",
+      "document_name": "d784371d424b4.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520021681/d784371d424b4.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-20-005857:doc3a.xml",
+      "accession_number": "0001209191-20-005857",
+      "form": "3/A",
+      "publication_date": "2020-01-31",
+      "document_name": "doc3a.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120005857/doc3a.xml",
+      "ciks": [
+        "0001655827",
+        "0001698755",
+        "0001698823",
+        "0001341382",
+        "0001787306"
+      ],
+      "display_names": [
+        "Frazier Life Sciences VIII, L.P.  (CIK 0001655827)",
+        "FHM LIFE SCIENCES VIII, L.P.  (CIK 0001698755)",
+        "FHM LIFE SCIENCES VIII, L.L.C.  (CIK 0001698823)",
+        "Topper James N  (CIK 0001341382)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-006135:doc4.xml",
+      "accession_number": "0001209191-20-006135",
+      "form": "4",
+      "publication_date": "2020-02-03",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120006135/doc4.xml",
+      "ciks": [
+        "0001266129",
+        "0001787306"
+      ],
+      "display_names": [
+        "TURNER JOSEPH L  (CIK 0001266129)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000947871-20-000078:ownership.xml",
+      "accession_number": "0000947871-20-000078",
+      "form": "4",
+      "publication_date": "2020-02-04",
+      "document_name": "ownership.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000094787120000078/ownership.xml",
+      "ciks": [
+        "0001171005",
+        "0001787306"
+      ],
+      "display_names": [
+        "SILVERSTEIN JONATHAN  (CIK 0001171005)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000947871-20-000079:ownership.xml",
+      "accession_number": "0000947871-20-000079",
+      "form": "4",
+      "publication_date": "2020-02-04",
+      "document_name": "ownership.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000094787120000079/ownership.xml",
+      "ciks": [
+        "0001055951",
+        "0001157524",
+        "0001760648",
+        "0001787306"
+      ],
+      "display_names": [
+        "ORBIMED ADVISORS LLC  (CIK 0001055951)",
+        "ORBIMED CAPITAL LLC  (CIK 0001157524)",
+        "OrbiMed Capital GP VII LLC  (CIK 0001760648)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-006595:doc4.xml",
+      "accession_number": "0001209191-20-006595",
+      "form": "4",
+      "publication_date": "2020-02-04",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120006595/doc4.xml",
+      "ciks": [
+        "0001252999",
+        "0001787306"
+      ],
+      "display_names": [
+        "OSBORNE DAVID W  (CIK 0001252999)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-006599:doc4.xml",
+      "accession_number": "0001209191-20-006599",
+      "form": "4",
+      "publication_date": "2020-02-04",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120006599/doc4.xml",
+      "ciks": [
+        "0001458643",
+        "0001787306"
+      ],
+      "display_names": [
+        "CHAUDHURI BHASKAR  (CIK 0001458643)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-006601:doc4.xml",
+      "accession_number": "0001209191-20-006601",
+      "form": "4",
+      "publication_date": "2020-02-04",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120006601/doc4.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-006603:doc4.xml",
+      "accession_number": "0001209191-20-006603",
+      "form": "4",
+      "publication_date": "2020-02-04",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120006603/doc4.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000899243-20-003487:doc4.xml",
+      "accession_number": "0000899243-20-003487",
+      "form": "4",
+      "publication_date": "2020-02-06",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000089924320003487/doc4.xml",
+      "ciks": [
+        "0001703031",
+        "0001703030",
+        "0001687968",
+        "0001702921",
+        "0001578965",
+        "0001702957",
+        "0001787306"
+      ],
+      "display_names": [
+        "Bain Capital Life Sciences Investors, LLC  (CIK 0001703031)",
+        "Bain Capital Life Sciences Partners, LP  (CIK 0001703030)",
+        "Bain Capital Life Sciences Fund, L.P.  (CIK 0001687968)",
+        "BCIP Life Sciences Associates, LP  (CIK 0001702921)",
+        "Koppel Adam  (CIK 0001578965)",
+        "Schwartz Jeffrey Lawrence  (CIK 0001702957)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-007100:doc4.xml",
+      "accession_number": "0001209191-20-007100",
+      "form": "4",
+      "publication_date": "2020-02-06",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120007100/doc4.xml",
+      "ciks": [
+        "0001655827",
+        "0001698755",
+        "0001698823",
+        "0001341382",
+        "0001787306"
+      ],
+      "display_names": [
+        "Frazier Life Sciences VIII, L.P.  (CIK 0001655827)",
+        "FHM LIFE SCIENCES VIII, L.P.  (CIK 0001698755)",
+        "FHM LIFE SCIENCES VIII, L.L.C.  (CIK 0001698823)",
+        "Topper James N  (CIK 0001341382)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-007104:doc4.xml",
+      "accession_number": "0001209191-20-007104",
+      "form": "4",
+      "publication_date": "2020-02-06",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919120007104/doc4.xml",
+      "ciks": [
+        "0001365617",
+        "0001787306"
+      ],
+      "display_names": [
+        "Heron Patrick J  (CIK 0001365617)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-20-028142:d799738dsc13d.htm",
+      "accession_number": "0001193125-20-028142",
+      "form": "SC 13D",
+      "publication_date": "2020-02-07",
+      "document_name": "d799738dsc13d.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520028142/d799738dsc13d.htm",
+      "ciks": [
+        "0001787306",
+        "0001655827"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "Frazier Life Sciences VIII, L.P.  (CIK 0001655827)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-20-028182:d833847dsc13d.htm",
+      "accession_number": "0001193125-20-028182",
+      "form": "SC 13D",
+      "publication_date": "2020-02-07",
+      "document_name": "d833847dsc13d.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520028182/d833847dsc13d.htm",
+      "ciks": [
+        "0001787306",
+        "0001687968"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "Bain Capital Life Sciences Fund, L.P.  (CIK 0001687968)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000315066-20-001322:filing.txt",
+      "accession_number": "0000315066-20-001322",
+      "form": "SC 13G",
+      "publication_date": "2020-02-10",
+      "document_name": "filing.txt",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000031506620001322/filing.txt",
+      "ciks": [
+        "0001787306",
+        "0000315066"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000947871-20-000097:ss165617_sc13d.htm",
+      "accession_number": "0000947871-20-000097",
+      "form": "SC 13D",
+      "publication_date": "2020-02-10",
+      "document_name": "ss165617_sc13d.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000094787120000097/ss165617_sc13d.htm",
+      "ciks": [
+        "0001787306",
+        "0001055951"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-20-005543:doc1.xml",
+      "accession_number": "0001567619-20-005543",
+      "form": "4",
+      "publication_date": "2020-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920005543/doc1.xml",
+      "ciks": [
+        "0001458643",
+        "0001787306"
+      ],
+      "display_names": [
+        "CHAUDHURI BHASKAR  (CIK 0001458643)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-005544:doc1.xml",
+      "accession_number": "0001567619-20-005544",
+      "form": "4",
+      "publication_date": "2020-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920005544/doc1.xml",
+      "ciks": [
+        "0001702527",
+        "0001787306"
+      ],
+      "display_names": [
+        "ESTES DANIEL  (CIK 0001702527)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-005545:doc1.xml",
+      "accession_number": "0001567619-20-005545",
+      "form": "4",
+      "publication_date": "2020-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920005545/doc1.xml",
+      "ciks": [
+        "0001365617",
+        "0001787306"
+      ],
+      "display_names": [
+        "Heron Patrick J  (CIK 0001365617)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-005547:doc1.xml",
+      "accession_number": "0001567619-20-005547",
+      "form": "4",
+      "publication_date": "2020-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920005547/doc1.xml",
+      "ciks": [
+        "0001801047",
+        "0001787306"
+      ],
+      "display_names": [
+        "Lock Kenneth A.  (CIK 0001801047)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-005548:doc1.xml",
+      "accession_number": "0001567619-20-005548",
+      "form": "4",
+      "publication_date": "2020-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920005548/doc1.xml",
+      "ciks": [
+        "0001252999",
+        "0001787306"
+      ],
+      "display_names": [
+        "OSBORNE DAVID W  (CIK 0001252999)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-005549:doc1.xml",
+      "accession_number": "0001567619-20-005549",
+      "form": "4",
+      "publication_date": "2020-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920005549/doc1.xml",
+      "ciks": [
+        "0001171005",
+        "0001787306"
+      ],
+      "display_names": [
+        "SILVERSTEIN JONATHAN  (CIK 0001171005)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-005550:doc1.xml",
+      "accession_number": "0001567619-20-005550",
+      "form": "4",
+      "publication_date": "2020-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920005550/doc1.xml",
+      "ciks": [
+        "0001559583",
+        "0001787306"
+      ],
+      "display_names": [
+        "Smither John W  (CIK 0001559583)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-005551:doc1.xml",
+      "accession_number": "0001567619-20-005551",
+      "form": "4",
+      "publication_date": "2020-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920005551/doc1.xml",
+      "ciks": [
+        "0001801045",
+        "0001787306"
+      ],
+      "display_names": [
+        "Turney Patricia A.  (CIK 0001801045)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-005552:doc1.xml",
+      "accession_number": "0001567619-20-005552",
+      "form": "4",
+      "publication_date": "2020-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920005552/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-005553:doc1.xml",
+      "accession_number": "0001567619-20-005553",
+      "form": "4",
+      "publication_date": "2020-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920005553/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000899243-20-006958:doc4.xml",
+      "accession_number": "0000899243-20-006958",
+      "form": "4",
+      "publication_date": "2020-03-04",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000089924320006958/doc4.xml",
+      "ciks": [
+        "0001790589",
+        "0001787306"
+      ],
+      "display_names": [
+        "Sun Ricky  (CIK 0001790589)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-006468:doc1.xml",
+      "accession_number": "0001567619-20-006468",
+      "form": "4",
+      "publication_date": "2020-03-16",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920006468/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-006469:doc1.xml",
+      "accession_number": "0001567619-20-006469",
+      "form": "4",
+      "publication_date": "2020-03-16",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920006469/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001787306-20-000005:arqt-20191231x10kdocum.htm",
+      "accession_number": "0001787306-20-000005",
+      "form": "10-K",
+      "publication_date": "2020-03-19",
+      "document_name": "arqt-20191231x10kdocum.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730620000005/arqt-20191231x10kdocum.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-20-120998:d900089d8k.htm",
+      "accession_number": "0001193125-20-120998",
+      "form": "8-K",
+      "publication_date": "2020-04-27",
+      "document_name": "d900089d8k.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520120998/d900089d8k.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "5.02",
+        "8.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-20-126060:d923335d8k.htm",
+      "accession_number": "0001193125-20-126060",
+      "form": "8-K",
+      "publication_date": "2020-04-29",
+      "document_name": "d923335d8k.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520126060/d923335d8k.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "1.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-20-008826:doc1.xml",
+      "accession_number": "0001567619-20-008826",
+      "form": "3",
+      "publication_date": "2020-05-01",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920008826/doc1.xml",
+      "ciks": [
+        "0001601360",
+        "0001787306"
+      ],
+      "display_names": [
+        "Gilbert Halley E  (CIK 0001601360)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-008827:doc1.xml",
+      "accession_number": "0001567619-20-008827",
+      "form": "4",
+      "publication_date": "2020-05-01",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920008827/doc1.xml",
+      "ciks": [
+        "0001601360",
+        "0001787306"
+      ],
+      "display_names": [
+        "Gilbert Halley E  (CIK 0001601360)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001787306-20-000010:arqt-20200331.htm",
+      "accession_number": "0001787306-20-000010",
+      "form": "10-Q",
+      "publication_date": "2020-05-12",
+      "document_name": "arqt-20200331.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730620000010/arqt-20200331.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-20-141649:d894967d8k.htm",
+      "accession_number": "0001193125-20-141649",
+      "form": "8-K",
+      "publication_date": "2020-05-13",
+      "document_name": "d894967d8k.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520141649/d894967d8k.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-20-012131:doc1.xml",
+      "accession_number": "0001567619-20-012131",
+      "form": "4",
+      "publication_date": "2020-06-15",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920012131/doc1.xml",
+      "ciks": [
+        "0001559583",
+        "0001787306"
+      ],
+      "display_names": [
+        "Smither John W  (CIK 0001559583)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001628279-20-000148:filename1.htm",
+      "accession_number": "0001628279-20-000148",
+      "form": "DRS",
+      "publication_date": "2020-07-21",
+      "document_name": "filename1.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162827920000148/filename1.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000000000-20-006820:filename1.pdf",
+      "accession_number": "0000000000-20-006820",
+      "form": "UPLOAD",
+      "publication_date": "2020-07-27",
+      "document_name": "filename1.pdf",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000000000020006820/filename1.pdf",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001628280-20-010816:arcutis-8xk72920.htm",
+      "accession_number": "0001628280-20-010816",
+      "form": "8-K",
+      "publication_date": "2020-07-29",
+      "document_name": "arcutis-8xk72920.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828020010816/arcutis-8xk72920.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "5.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001628280-20-011353:arcutis-8xk7312020.htm",
+      "accession_number": "0001628280-20-011353",
+      "form": "8-K",
+      "publication_date": "2020-07-31",
+      "document_name": "arcutis-8xk7312020.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828020011353/arcutis-8xk7312020.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-20-014337:doc1.xml",
+      "accession_number": "0001567619-20-014337",
+      "form": "3",
+      "publication_date": "2020-08-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920014337/doc1.xml",
+      "ciks": [
+        "0001741987",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burnett Patrick  (CIK 0001741987)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-014338:doc1.xml",
+      "accession_number": "0001567619-20-014338",
+      "form": "4",
+      "publication_date": "2020-08-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920014338/doc1.xml",
+      "ciks": [
+        "0001741987",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burnett Patrick  (CIK 0001741987)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-014341:doc1.xml",
+      "accession_number": "0001567619-20-014341",
+      "form": "4",
+      "publication_date": "2020-08-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920014341/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001787306-20-000016:arqt-20200811.htm",
+      "accession_number": "0001787306-20-000016",
+      "form": "8-K",
+      "publication_date": "2020-08-11",
+      "document_name": "arqt-20200811.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730620000016/arqt-20200811.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001787306-20-000017:arqt-20200630.htm",
+      "accession_number": "0001787306-20-000017",
+      "form": "10-Q",
+      "publication_date": "2020-08-11",
+      "document_name": "arqt-20200630.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730620000017/arqt-20200630.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-20-015690:doc1.xml",
+      "accession_number": "0001567619-20-015690",
+      "form": "4",
+      "publication_date": "2020-08-18",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920015690/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-015772:doc1.xml",
+      "accession_number": "0001567619-20-015772",
+      "form": "4",
+      "publication_date": "2020-08-19",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920015772/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-015854:doc1.xml",
+      "accession_number": "0001567619-20-015854",
+      "form": "4",
+      "publication_date": "2020-08-21",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920015854/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-016301:doc1.xml",
+      "accession_number": "0001567619-20-016301",
+      "form": "4",
+      "publication_date": "2020-09-02",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920016301/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-20-242252:d84877d8k.htm",
+      "accession_number": "0001193125-20-242252",
+      "form": "8-K",
+      "publication_date": "2020-09-09",
+      "document_name": "d84877d8k.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520242252/d84877d8k.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-20-016809:doc1.xml",
+      "accession_number": "0001567619-20-016809",
+      "form": "4",
+      "publication_date": "2020-09-16",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920016809/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001628280-20-013749:arqt-20200916.htm",
+      "accession_number": "0001628280-20-013749",
+      "form": "8-K",
+      "publication_date": "2020-09-18",
+      "document_name": "arqt-20200916.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828020013749/arqt-20200916.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001628280-20-013964:arqt-20200929.htm",
+      "accession_number": "0001628280-20-013964",
+      "form": "8-K",
+      "publication_date": "2020-09-29",
+      "document_name": "arqt-20200929.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828020013964/arqt-20200929.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001628280-20-013968:arcutis-sx1followxon.htm",
+      "accession_number": "0001628280-20-013968",
+      "form": "S-1",
+      "publication_date": "2020-09-29",
+      "document_name": "arcutis-sx1followxon.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828020013968/arcutis-sx1followxon.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001628280-20-013974:filename1.htm",
+      "accession_number": "0001628280-20-013974",
+      "form": "CORRESP",
+      "publication_date": "2020-09-29",
+      "document_name": "filename1.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828020013974/filename1.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001628280-20-013975:filename1.htm",
+      "accession_number": "0001628280-20-013975",
+      "form": "CORRESP",
+      "publication_date": "2020-09-29",
+      "document_name": "filename1.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828020013975/filename1.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-017381:doc1.xml",
+      "accession_number": "0001567619-20-017381",
+      "form": "4",
+      "publication_date": "2020-10-01",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920017381/doc1.xml",
+      "ciks": [
+        "0001559583",
+        "0001787306"
+      ],
+      "display_names": [
+        "Smither John W  (CIK 0001559583)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-017382:doc1.xml",
+      "accession_number": "0001567619-20-017382",
+      "form": "4",
+      "publication_date": "2020-10-01",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920017382/doc1.xml",
+      "ciks": [
+        "0001252999",
+        "0001787306"
+      ],
+      "display_names": [
+        "OSBORNE DAVID W  (CIK 0001252999)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-017383:doc1.xml",
+      "accession_number": "0001567619-20-017383",
+      "form": "4",
+      "publication_date": "2020-10-01",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920017383/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "9999999995-20-002676:primary_doc.xml",
+      "accession_number": "9999999995-20-002676",
+      "form": "EFFECT",
+      "publication_date": "2020-10-01",
+      "document_name": "primary_doc.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/999999999520002676/primary_doc.xml",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-017605:doc1.xml",
+      "accession_number": "0001567619-20-017605",
+      "form": "4/A",
+      "publication_date": "2020-10-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920017605/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-017606:doc1.xml",
+      "accession_number": "0001567619-20-017606",
+      "form": "4",
+      "publication_date": "2020-10-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920017606/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001628280-20-014284:arcutis-424followxon.htm",
+      "accession_number": "0001628280-20-014284",
+      "form": "424B4",
+      "publication_date": "2020-10-05",
+      "document_name": "arcutis-424followxon.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828020014284/arcutis-424followxon.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000947871-20-000781:ownership.xml",
+      "accession_number": "0000947871-20-000781",
+      "form": "4",
+      "publication_date": "2020-10-06",
+      "document_name": "ownership.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000094787120000781/ownership.xml",
+      "ciks": [
+        "0001171005",
+        "0001787306"
+      ],
+      "display_names": [
+        "SILVERSTEIN JONATHAN  (CIK 0001171005)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000947871-20-000782:ownership.xml",
+      "accession_number": "0000947871-20-000782",
+      "form": "4",
+      "publication_date": "2020-10-06",
+      "document_name": "ownership.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000094787120000782/ownership.xml",
+      "ciks": [
+        "0001055951",
+        "0001157524",
+        "0001760648",
+        "0001787306"
+      ],
+      "display_names": [
+        "ORBIMED ADVISORS LLC  (CIK 0001055951)",
+        "ORBIMED CAPITAL LLC  (CIK 0001157524)",
+        "OrbiMed Capital GP VII LLC  (CIK 0001760648)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-20-264634:d42450dsc13da.htm",
+      "accession_number": "0001193125-20-264634",
+      "form": "SC 13D/A",
+      "publication_date": "2020-10-06",
+      "document_name": "d42450dsc13da.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520264634/d42450dsc13da.htm",
+      "ciks": [
+        "0001787306",
+        "0001655827"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "Frazier Life Sciences VIII, L.P.  (CIK 0001655827)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001628280-20-014356:arqt-20201001.htm",
+      "accession_number": "0001628280-20-014356",
+      "form": "8-K",
+      "publication_date": "2020-10-06",
+      "document_name": "arqt-20201001.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828020014356/arqt-20201001.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "1.01",
+        "3.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000947871-20-000786:ss183220_sc13da.htm",
+      "accession_number": "0000947871-20-000786",
+      "form": "SC 13D/A",
+      "publication_date": "2020-10-07",
+      "document_name": "ss183220_sc13da.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000094787120000786/ss183220_sc13da.htm",
+      "ciks": [
+        "0001787306",
+        "0001055951"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-20-017915:doc1.xml",
+      "accession_number": "0001567619-20-017915",
+      "form": "4",
+      "publication_date": "2020-10-16",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920017915/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-017916:doc1.xml",
+      "accession_number": "0001567619-20-017916",
+      "form": "4",
+      "publication_date": "2020-10-16",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920017916/doc1.xml",
+      "ciks": [
+        "0001801047",
+        "0001787306"
+      ],
+      "display_names": [
+        "Lock Kenneth A.  (CIK 0001801047)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-018132:doc1.xml",
+      "accession_number": "0001567619-20-018132",
+      "form": "4",
+      "publication_date": "2020-10-23",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920018132/doc1.xml",
+      "ciks": [
+        "0001801047",
+        "0001787306"
+      ],
+      "display_names": [
+        "Lock Kenneth A.  (CIK 0001801047)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-018207:doc1.xml",
+      "accession_number": "0001567619-20-018207",
+      "form": "4",
+      "publication_date": "2020-10-27",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920018207/doc1.xml",
+      "ciks": [
+        "0001801047",
+        "0001787306"
+      ],
+      "display_names": [
+        "Lock Kenneth A.  (CIK 0001801047)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-20-285696:d28684d8k.htm",
+      "accession_number": "0001193125-20-285696",
+      "form": "8-K",
+      "publication_date": "2020-11-04",
+      "document_name": "d28684d8k.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520285696/d28684d8k.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "5.02",
+        "8.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-20-018692:doc1.xml",
+      "accession_number": "0001567619-20-018692",
+      "form": "4",
+      "publication_date": "2020-11-04",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920018692/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-018693:doc1.xml",
+      "accession_number": "0001567619-20-018693",
+      "form": "3",
+      "publication_date": "2020-11-04",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920018693/doc1.xml",
+      "ciks": [
+        "0001690298",
+        "0001787306"
+      ],
+      "display_names": [
+        "Curran Terrie  (CIK 0001690298)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-018694:doc1.xml",
+      "accession_number": "0001567619-20-018694",
+      "form": "4",
+      "publication_date": "2020-11-04",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920018694/doc1.xml",
+      "ciks": [
+        "0001690298",
+        "0001787306"
+      ],
+      "display_names": [
+        "Curran Terrie  (CIK 0001690298)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001628280-20-015755:arqt-20201105.htm",
+      "accession_number": "0001628280-20-015755",
+      "form": "8-K",
+      "publication_date": "2020-11-05",
+      "document_name": "arqt-20201105.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828020015755/arqt-20201105.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001628280-20-015774:arqt-20200930.htm",
+      "accession_number": "0001628280-20-015774",
+      "form": "10-Q",
+      "publication_date": "2020-11-05",
+      "document_name": "arqt-20200930.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828020015774/arqt-20200930.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-20-019438:doc1.xml",
+      "accession_number": "0001567619-20-019438",
+      "form": "4",
+      "publication_date": "2020-11-13",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920019438/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-20-301492:d80054d8k.htm",
+      "accession_number": "0001193125-20-301492",
+      "form": "8-K",
+      "publication_date": "2020-11-23",
+      "document_name": "d80054d8k.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312520301492/d80054d8k.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-20-020620:doc1.xml",
+      "accession_number": "0001567619-20-020620",
+      "form": "4",
+      "publication_date": "2020-12-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920020620/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-021189:doc1.xml",
+      "accession_number": "0001567619-20-021189",
+      "form": "4",
+      "publication_date": "2020-12-16",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920021189/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-021190:doc1.xml",
+      "accession_number": "0001567619-20-021190",
+      "form": "4",
+      "publication_date": "2020-12-16",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920021190/doc1.xml",
+      "ciks": [
+        "0001559583",
+        "0001787306"
+      ],
+      "display_names": [
+        "Smither John W  (CIK 0001559583)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-20-021191:doc1.xml",
+      "accession_number": "0001567619-20-021191",
+      "form": "4",
+      "publication_date": "2020-12-16",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761920021191/doc1.xml",
+      "ciks": [
+        "0001252999",
+        "0001787306"
+      ],
+      "display_names": [
+        "OSBORNE DAVID W  (CIK 0001252999)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-000468:doc1.xml",
+      "accession_number": "0001567619-21-000468",
+      "form": "4",
+      "publication_date": "2021-01-06",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921000468/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-000711:doc1.xml",
+      "accession_number": "0001567619-21-000711",
+      "form": "4",
+      "publication_date": "2021-01-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921000711/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-000712:doc1.xml",
+      "accession_number": "0001567619-21-000712",
+      "form": "4/A",
+      "publication_date": "2021-01-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921000712/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-001012:doc1.xml",
+      "accession_number": "0001567619-21-001012",
+      "form": "4",
+      "publication_date": "2021-01-14",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921001012/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-21-010203:d13467d8k.htm",
+      "accession_number": "0001193125-21-010203",
+      "form": "8-K",
+      "publication_date": "2021-01-15",
+      "document_name": "d13467d8k.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312521010203/d13467d8k.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "1.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-21-001144:doc1.xml",
+      "accession_number": "0001567619-21-001144",
+      "form": "3",
+      "publication_date": "2021-01-19",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921001144/doc1.xml",
+      "ciks": [
+        "0001840191",
+        "0001787306"
+      ],
+      "display_names": [
+        "Moore Matthew Richard  (CIK 0001840191)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-001340:doc1.xml",
+      "accession_number": "0001567619-21-001340",
+      "form": "4",
+      "publication_date": "2021-01-21",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921001340/doc1.xml",
+      "ciks": [
+        "0001559583",
+        "0001787306"
+      ],
+      "display_names": [
+        "Smither John W  (CIK 0001559583)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-001353:doc1.xml",
+      "accession_number": "0001567619-21-001353",
+      "form": "4",
+      "publication_date": "2021-01-21",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921001353/doc1.xml",
+      "ciks": [
+        "0001840191",
+        "0001787306"
+      ],
+      "display_names": [
+        "Moore Matthew Richard  (CIK 0001840191)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001628280-21-001202:arqt-20210201.htm",
+      "accession_number": "0001628280-21-001202",
+      "form": "8-K",
+      "publication_date": "2021-02-01",
+      "document_name": "arqt-20210201.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828021001202/arqt-20210201.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001628280-21-001224:arcutis-sx3asr.htm",
+      "accession_number": "0001628280-21-001224",
+      "form": "S-3ASR",
+      "publication_date": "2021-02-01",
+      "document_name": "arcutis-sx3asr.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828021001224/arcutis-sx3asr.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001628280-21-001226:arcutis424b5preliminarypro.htm",
+      "accession_number": "0001628280-21-001226",
+      "form": "424B5",
+      "publication_date": "2021-02-01",
+      "document_name": "arcutis424b5preliminarypro.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828021001226/arcutis424b5preliminarypro.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000834237-21-006963:us03969k1088_020221.txt",
+      "accession_number": "0000834237-21-006963",
+      "form": "SC 13G",
+      "publication_date": "2021-02-02",
+      "document_name": "us03969k1088_020221.txt",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000083423721006963/us03969k1088_020221.txt",
+      "ciks": [
+        "0001787306",
+        "0001364742"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-002041:doc1.xml",
+      "accession_number": "0001567619-21-002041",
+      "form": "4",
+      "publication_date": "2021-02-02",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921002041/doc1.xml",
+      "ciks": [
+        "0001458643",
+        "0001787306"
+      ],
+      "display_names": [
+        "CHAUDHURI BHASKAR  (CIK 0001458643)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-002077:doc1.xml",
+      "accession_number": "0001567619-21-002077",
+      "form": "4",
+      "publication_date": "2021-02-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921002077/doc1.xml",
+      "ciks": [
+        "0001559583",
+        "0001787306"
+      ],
+      "display_names": [
+        "Smither John W  (CIK 0001559583)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-002078:doc1.xml",
+      "accession_number": "0001567619-21-002078",
+      "form": "4",
+      "publication_date": "2021-02-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921002078/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001628280-21-001479:arcutis424b5finalprospectu.htm",
+      "accession_number": "0001628280-21-001479",
+      "form": "424B5",
+      "publication_date": "2021-02-04",
+      "document_name": "arcutis424b5finalprospectu.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828021001479/arcutis424b5finalprospectu.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001628280-21-001524:arqt-20210201.htm",
+      "accession_number": "0001628280-21-001524",
+      "form": "8-K",
+      "publication_date": "2021-02-05",
+      "document_name": "arqt-20210201.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828021001524/arqt-20210201.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "2.02",
+        "8.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000315066-21-000840:filing.txt",
+      "accession_number": "0000315066-21-000840",
+      "form": "SC 13G/A",
+      "publication_date": "2021-02-08",
+      "document_name": "filing.txt",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000031506621000840/filing.txt",
+      "ciks": [
+        "0001787306",
+        "0000315066"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-21-032458:d125128dsc13da.htm",
+      "accession_number": "0001193125-21-032458",
+      "form": "SC 13D/A",
+      "publication_date": "2021-02-08",
+      "document_name": "d125128dsc13da.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312521032458/d125128dsc13da.htm",
+      "ciks": [
+        "0001787306",
+        "0001687968"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "Bain Capital Life Sciences Fund, L.P.  (CIK 0001687968)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-21-002418:doc1.xml",
+      "accession_number": "0001567619-21-002418",
+      "form": "4",
+      "publication_date": "2021-02-08",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921002418/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-002434:doc1.xml",
+      "accession_number": "0001567619-21-002434",
+      "form": "4",
+      "publication_date": "2021-02-08",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921002434/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000947871-21-000140:ss191817_sc13da.htm",
+      "accession_number": "0000947871-21-000140",
+      "form": "SC 13D/A",
+      "publication_date": "2021-02-09",
+      "document_name": "ss191817_sc13da.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000094787121000140/ss191817_sc13da.htm",
+      "ciks": [
+        "0001787306",
+        "0001055951"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-21-033691:d68462dsc13da.htm",
+      "accession_number": "0001193125-21-033691",
+      "form": "SC 13D/A",
+      "publication_date": "2021-02-09",
+      "document_name": "d68462dsc13da.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312521033691/d68462dsc13da.htm",
+      "ciks": [
+        "0001787306",
+        "0001655827"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "Frazier Life Sciences VIII, L.P.  (CIK 0001655827)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-21-003626:doc1.xml",
+      "accession_number": "0001567619-21-003626",
+      "form": "4",
+      "publication_date": "2021-02-12",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921003626/doc1.xml",
+      "ciks": [
+        "0001559583",
+        "0001787306"
+      ],
+      "display_names": [
+        "Smither John W  (CIK 0001559583)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-004118:doc1.xml",
+      "accession_number": "0001567619-21-004118",
+      "form": "5",
+      "publication_date": "2021-02-16",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921004118/doc1.xml",
+      "ciks": [
+        "0001801045",
+        "0001787306"
+      ],
+      "display_names": [
+        "Turney Patricia A.  (CIK 0001801045)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-004119:doc1.xml",
+      "accession_number": "0001567619-21-004119",
+      "form": "5",
+      "publication_date": "2021-02-16",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921004119/doc1.xml",
+      "ciks": [
+        "0001801047",
+        "0001787306"
+      ],
+      "display_names": [
+        "Lock Kenneth A.  (CIK 0001801047)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-004140:doc1.xml",
+      "accession_number": "0001567619-21-004140",
+      "form": "5",
+      "publication_date": "2021-02-16",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921004140/doc1.xml",
+      "ciks": [
+        "0001252999",
+        "0001787306"
+      ],
+      "display_names": [
+        "OSBORNE DAVID W  (CIK 0001252999)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001628280-21-002256:arqt-20210216.htm",
+      "accession_number": "0001628280-21-002256",
+      "form": "8-K",
+      "publication_date": "2021-02-16",
+      "document_name": "arqt-20210216.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828021002256/arqt-20210216.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001628280-21-002272:arqt-20201231.htm",
+      "accession_number": "0001628280-21-002272",
+      "form": "10-K",
+      "publication_date": "2021-02-16",
+      "document_name": "arqt-20201231.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828021002272/arqt-20201231.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001628280-21-002275:arcutiss-8.htm",
+      "accession_number": "0001628280-21-002275",
+      "form": "S-8",
+      "publication_date": "2021-02-16",
+      "document_name": "arcutiss-8.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828021002275/arcutiss-8.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-004332:doc1.xml",
+      "accession_number": "0001567619-21-004332",
+      "form": "4",
+      "publication_date": "2021-02-17",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921004332/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-004762:doc1.xml",
+      "accession_number": "0001567619-21-004762",
+      "form": "4",
+      "publication_date": "2021-02-24",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921004762/doc1.xml",
+      "ciks": [
+        "0001458643",
+        "0001787306"
+      ],
+      "display_names": [
+        "CHAUDHURI BHASKAR  (CIK 0001458643)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-005538:doc1.xml",
+      "accession_number": "0001567619-21-005538",
+      "form": "4",
+      "publication_date": "2021-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921005538/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-005539:doc1.xml",
+      "accession_number": "0001567619-21-005539",
+      "form": "4",
+      "publication_date": "2021-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921005539/doc1.xml",
+      "ciks": [
+        "0001801047",
+        "0001787306"
+      ],
+      "display_names": [
+        "Lock Kenneth A.  (CIK 0001801047)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-005540:doc1.xml",
+      "accession_number": "0001567619-21-005540",
+      "form": "4",
+      "publication_date": "2021-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921005540/doc1.xml",
+      "ciks": [
+        "0001559583",
+        "0001787306"
+      ],
+      "display_names": [
+        "Smither John W  (CIK 0001559583)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-005541:doc1.xml",
+      "accession_number": "0001567619-21-005541",
+      "form": "4",
+      "publication_date": "2021-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921005541/doc1.xml",
+      "ciks": [
+        "0001801045",
+        "0001787306"
+      ],
+      "display_names": [
+        "Turney Patricia A.  (CIK 0001801045)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-005542:doc1.xml",
+      "accession_number": "0001567619-21-005542",
+      "form": "4",
+      "publication_date": "2021-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921005542/doc1.xml",
+      "ciks": [
+        "0001252999",
+        "0001787306"
+      ],
+      "display_names": [
+        "OSBORNE DAVID W  (CIK 0001252999)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-005545:doc1.xml",
+      "accession_number": "0001567619-21-005545",
+      "form": "4",
+      "publication_date": "2021-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921005545/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-005730:doc1.xml",
+      "accession_number": "0001567619-21-005730",
+      "form": "4",
+      "publication_date": "2021-03-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921005730/doc1.xml",
+      "ciks": [
+        "0001801045",
+        "0001787306"
+      ],
+      "display_names": [
+        "Turney Patricia A.  (CIK 0001801045)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-005731:doc1.xml",
+      "accession_number": "0001567619-21-005731",
+      "form": "4",
+      "publication_date": "2021-03-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921005731/doc1.xml",
+      "ciks": [
+        "0001252999",
+        "0001787306"
+      ],
+      "display_names": [
+        "OSBORNE DAVID W  (CIK 0001252999)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-005732:doc1.xml",
+      "accession_number": "0001567619-21-005732",
+      "form": "4",
+      "publication_date": "2021-03-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921005732/doc1.xml",
+      "ciks": [
+        "0001801047",
+        "0001787306"
+      ],
+      "display_names": [
+        "Lock Kenneth A.  (CIK 0001801047)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-005733:doc1.xml",
+      "accession_number": "0001567619-21-005733",
+      "form": "4",
+      "publication_date": "2021-03-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921005733/doc1.xml",
+      "ciks": [
+        "0001741987",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burnett Patrick  (CIK 0001741987)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-005736:doc1.xml",
+      "accession_number": "0001567619-21-005736",
+      "form": "4",
+      "publication_date": "2021-03-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921005736/doc1.xml",
+      "ciks": [
+        "0001559583",
+        "0001787306"
+      ],
+      "display_names": [
+        "Smither John W  (CIK 0001559583)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-005737:doc1.xml",
+      "accession_number": "0001567619-21-005737",
+      "form": "4",
+      "publication_date": "2021-03-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921005737/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-006086:doc1.xml",
+      "accession_number": "0001567619-21-006086",
+      "form": "4",
+      "publication_date": "2021-03-11",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921006086/doc1.xml",
+      "ciks": [
+        "0001559583",
+        "0001787306"
+      ],
+      "display_names": [
+        "Smither John W  (CIK 0001559583)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-006582:doc1.xml",
+      "accession_number": "0001567619-21-006582",
+      "form": "4",
+      "publication_date": "2021-03-18",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921006582/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-006825:doc1.xml",
+      "accession_number": "0001567619-21-006825",
+      "form": "4",
+      "publication_date": "2021-03-24",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921006825/doc1.xml",
+      "ciks": [
+        "0001458643",
+        "0001787306"
+      ],
+      "display_names": [
+        "CHAUDHURI BHASKAR  (CIK 0001458643)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-21-095392:d69581d8k.htm",
+      "accession_number": "0001193125-21-095392",
+      "form": "8-K",
+      "publication_date": "2021-03-26",
+      "document_name": "d69581d8k.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312521095392/d69581d8k.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "5.02"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-21-007647:doc1.xml",
+      "accession_number": "0001567619-21-007647",
+      "form": "4",
+      "publication_date": "2021-04-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921007647/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-007650:doc1.xml",
+      "accession_number": "0001567619-21-007650",
+      "form": "3",
+      "publication_date": "2021-04-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921007650/doc1.xml",
+      "ciks": [
+        "0001853327",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burrows Scott L  (CIK 0001853327)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-007651:doc1.xml",
+      "accession_number": "0001567619-21-007651",
+      "form": "4",
+      "publication_date": "2021-04-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921007651/doc1.xml",
+      "ciks": [
+        "0001853327",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burrows Scott L  (CIK 0001853327)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-007700:doc1.xml",
+      "accession_number": "0001567619-21-007700",
+      "form": "4",
+      "publication_date": "2021-04-06",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921007700/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000000000-21-004470:filename1.pdf",
+      "accession_number": "0000000000-21-004470",
+      "form": "UPLOAD",
+      "publication_date": "2021-04-13",
+      "document_name": "filename1.pdf",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000000000021004470/filename1.pdf",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-008372:doc1.xml",
+      "accession_number": "0001567619-21-008372",
+      "form": "4",
+      "publication_date": "2021-04-20",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921008372/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-008502:doc1.xml",
+      "accession_number": "0001567619-21-008502",
+      "form": "4",
+      "publication_date": "2021-04-22",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921008502/doc1.xml",
+      "ciks": [
+        "0001458643",
+        "0001787306"
+      ],
+      "display_names": [
+        "CHAUDHURI BHASKAR  (CIK 0001458643)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001628280-21-007504:filename1.htm",
+      "accession_number": "0001628280-21-007504",
+      "form": "CORRESP",
+      "publication_date": "2021-04-23",
+      "document_name": "filename1.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828021007504/filename1.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001628280-21-007750:a2021arcutisbiotherapeutic.htm",
+      "accession_number": "0001628280-21-007750",
+      "form": "DEF 14A",
+      "publication_date": "2021-04-27",
+      "document_name": "a2021arcutisbiotherapeutic.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828021007750/a2021arcutisbiotherapeutic.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001628280-21-007751:a2021defa14a.htm",
+      "accession_number": "0001628280-21-007751",
+      "form": "DEFA14A",
+      "publication_date": "2021-04-27",
+      "document_name": "a2021defa14a.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828021007751/a2021defa14a.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000000000-21-005662:filename1.pdf",
+      "accession_number": "0000000000-21-005662",
+      "form": "UPLOAD",
+      "publication_date": "2021-05-04",
+      "document_name": "filename1.pdf",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000000000021005662/filename1.pdf",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-008942:doc1.xml",
+      "accession_number": "0001567619-21-008942",
+      "form": "4",
+      "publication_date": "2021-05-04",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921008942/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001628280-21-008912:arqt-20210504.htm",
+      "accession_number": "0001628280-21-008912",
+      "form": "8-K",
+      "publication_date": "2021-05-04",
+      "document_name": "arqt-20210504.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828021008912/arqt-20210504.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-21-009077:doc1.xml",
+      "accession_number": "0001567619-21-009077",
+      "form": "4",
+      "publication_date": "2021-05-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921009077/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001628280-21-009291:arqt-20210331.htm",
+      "accession_number": "0001628280-21-009291",
+      "form": "10-Q",
+      "publication_date": "2021-05-06",
+      "document_name": "arqt-20210331.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828021009291/arqt-20210331.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001628280-21-009303:arcutis-424b5.htm",
+      "accession_number": "0001628280-21-009303",
+      "form": "424B5",
+      "publication_date": "2021-05-06",
+      "document_name": "arcutis-424b5.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000162828021009303/arcutis-424b5.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-21-009257:doc1.xml",
+      "accession_number": "0001567619-21-009257",
+      "form": "4",
+      "publication_date": "2021-05-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921009257/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-009502:doc1.xml",
+      "accession_number": "0001567619-21-009502",
+      "form": "4",
+      "publication_date": "2021-05-11",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921009502/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-21-159339:d143227dsc13da.htm",
+      "accession_number": "0001193125-21-159339",
+      "form": "SC 13D/A",
+      "publication_date": "2021-05-12",
+      "document_name": "d143227dsc13da.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312521159339/d143227dsc13da.htm",
+      "ciks": [
+        "0001787306",
+        "0001655827"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "Frazier Life Sciences VIII, L.P.  (CIK 0001655827)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-21-032151:doc4.xml",
+      "accession_number": "0001209191-21-032151",
+      "form": "4",
+      "publication_date": "2021-05-12",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000120919121032151/doc4.xml",
+      "ciks": [
+        "0001341382",
+        "0001365617",
+        "0001655827",
+        "0001698755",
+        "0001698823",
+        "0001787306"
+      ],
+      "display_names": [
+        "Topper James N  (CIK 0001341382)",
+        "Heron Patrick J  (CIK 0001365617)",
+        "Frazier Life Sciences VIII, L.P.  (CIK 0001655827)",
+        "FHM LIFE SCIENCES VIII, L.P.  (CIK 0001698755)",
+        "FHM LIFE SCIENCES VIII, L.L.C.  (CIK 0001698823)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-009741:doc1.xml",
+      "accession_number": "0001567619-21-009741",
+      "form": "4/A",
+      "publication_date": "2021-05-12",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921009741/doc1.xml",
+      "ciks": [
+        "0001458643",
+        "0001787306"
+      ],
+      "display_names": [
+        "CHAUDHURI BHASKAR  (CIK 0001458643)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-010739:doc1.xml",
+      "accession_number": "0001567619-21-010739",
+      "form": "4/A",
+      "publication_date": "2021-05-19",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921010739/doc1.xml",
+      "ciks": [
+        "0001458643",
+        "0001787306"
+      ],
+      "display_names": [
+        "CHAUDHURI BHASKAR  (CIK 0001458643)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-011126:doc1.xml",
+      "accession_number": "0001567619-21-011126",
+      "form": "4",
+      "publication_date": "2021-05-25",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921011126/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-011609:doc1.xml",
+      "accession_number": "0001567619-21-011609",
+      "form": "4",
+      "publication_date": "2021-06-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921011609/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-011610:doc1.xml",
+      "accession_number": "0001567619-21-011610",
+      "form": "4",
+      "publication_date": "2021-06-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921011610/doc1.xml",
+      "ciks": [
+        "0001458643",
+        "0001787306"
+      ],
+      "display_names": [
+        "CHAUDHURI BHASKAR  (CIK 0001458643)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-011902:doc1.xml",
+      "accession_number": "0001567619-21-011902",
+      "form": "4",
+      "publication_date": "2021-06-09",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921011902/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000899243-21-023301:doc4.xml",
+      "accession_number": "0000899243-21-023301",
+      "form": "4",
+      "publication_date": "2021-06-11",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000089924321023301/doc4.xml",
+      "ciks": [
+        "0001790589",
+        "0001787306"
+      ],
+      "display_names": [
+        "Sun Ricky  (CIK 0001790589)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-012024:doc1.xml",
+      "accession_number": "0001567619-21-012024",
+      "form": "4",
+      "publication_date": "2021-06-11",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921012024/doc1.xml",
+      "ciks": [
+        "0001458643",
+        "0001787306"
+      ],
+      "display_names": [
+        "CHAUDHURI BHASKAR  (CIK 0001458643)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-012025:doc1.xml",
+      "accession_number": "0001567619-21-012025",
+      "form": "4",
+      "publication_date": "2021-06-11",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921012025/doc1.xml",
+      "ciks": [
+        "0001365617",
+        "0001787306"
+      ],
+      "display_names": [
+        "Heron Patrick J  (CIK 0001365617)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-012026:doc1.xml",
+      "accession_number": "0001567619-21-012026",
+      "form": "4",
+      "publication_date": "2021-06-11",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921012026/doc1.xml",
+      "ciks": [
+        "0001690298",
+        "0001787306"
+      ],
+      "display_names": [
+        "Curran Terrie  (CIK 0001690298)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-012027:doc1.xml",
+      "accession_number": "0001567619-21-012027",
+      "form": "4",
+      "publication_date": "2021-06-11",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921012027/doc1.xml",
+      "ciks": [
+        "0001601360",
+        "0001787306"
+      ],
+      "display_names": [
+        "Gilbert Halley E  (CIK 0001601360)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-012028:doc1.xml",
+      "accession_number": "0001567619-21-012028",
+      "form": "4",
+      "publication_date": "2021-06-11",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921012028/doc1.xml",
+      "ciks": [
+        "0001266129",
+        "0001787306"
+      ],
+      "display_names": [
+        "TURNER JOSEPH L  (CIK 0001266129)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-012029:doc1.xml",
+      "accession_number": "0001567619-21-012029",
+      "form": "4",
+      "publication_date": "2021-06-11",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921012029/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-21-189048:d32115d8k.htm",
+      "accession_number": "0001193125-21-189048",
+      "form": "8-K",
+      "publication_date": "2021-06-14",
+      "document_name": "d32115d8k.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000119312521189048/d32115d8k.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "5.02",
+        "5.07"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-21-012177:doc1.xml",
+      "accession_number": "0001567619-21-012177",
+      "form": "3",
+      "publication_date": "2021-06-16",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921012177/doc1.xml",
+      "ciks": [
+        "0001867788",
+        "0001787306"
+      ],
+      "display_names": [
+        "LIN SUE-JEAN  (CIK 0001867788)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-012178:doc1.xml",
+      "accession_number": "0001567619-21-012178",
+      "form": "4",
+      "publication_date": "2021-06-16",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921012178/doc1.xml",
+      "ciks": [
+        "0001867788",
+        "0001787306"
+      ],
+      "display_names": [
+        "LIN SUE-JEAN  (CIK 0001867788)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-012499:doc1.xml",
+      "accession_number": "0001567619-21-012499",
+      "form": "4",
+      "publication_date": "2021-06-22",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921012499/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-012548:doc1.xml",
+      "accession_number": "0001567619-21-012548",
+      "form": "4",
+      "publication_date": "2021-06-23",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921012548/doc1.xml",
+      "ciks": [
+        "0001458643",
+        "0001787306"
+      ],
+      "display_names": [
+        "CHAUDHURI BHASKAR  (CIK 0001458643)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-012655:doc1.xml",
+      "accession_number": "0001567619-21-012655",
+      "form": "4",
+      "publication_date": "2021-06-28",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921012655/doc1.xml",
+      "ciks": [
+        "0001458643",
+        "0001787306"
+      ],
+      "display_names": [
+        "CHAUDHURI BHASKAR  (CIK 0001458643)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-013033:doc1.xml",
+      "accession_number": "0001567619-21-013033",
+      "form": "4",
+      "publication_date": "2021-07-06",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921013033/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-013157:doc1.xml",
+      "accession_number": "0001567619-21-013157",
+      "form": "4",
+      "publication_date": "2021-07-08",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921013157/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-013904:doc1.xml",
+      "accession_number": "0001567619-21-013904",
+      "form": "4/A",
+      "publication_date": "2021-07-23",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921013904/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-013905:doc1.xml",
+      "accession_number": "0001567619-21-013905",
+      "form": "4/A",
+      "publication_date": "2021-07-23",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921013905/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-013906:doc1.xml",
+      "accession_number": "0001567619-21-013906",
+      "form": "4/A",
+      "publication_date": "2021-07-23",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921013906/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-013907:doc1.xml",
+      "accession_number": "0001567619-21-013907",
+      "form": "4/A",
+      "publication_date": "2021-07-23",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921013907/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-013908:doc1.xml",
+      "accession_number": "0001567619-21-013908",
+      "form": "4/A",
+      "publication_date": "2021-07-23",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921013908/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-013909:doc1.xml",
+      "accession_number": "0001567619-21-013909",
+      "form": "4/A",
+      "publication_date": "2021-07-23",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921013909/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001787306-21-000006:arqt-20210805.htm",
+      "accession_number": "0001787306-21-000006",
+      "form": "8-K",
+      "publication_date": "2021-08-05",
+      "document_name": "arqt-20210805.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730621000006/arqt-20210805.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001787306-21-000008:arqt-20210630.htm",
+      "accession_number": "0001787306-21-000008",
+      "form": "10-Q",
+      "publication_date": "2021-08-05",
+      "document_name": "arqt-20210630.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730621000008/arqt-20210630.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-21-014784:doc1.xml",
+      "accession_number": "0001567619-21-014784",
+      "form": "4",
+      "publication_date": "2021-08-09",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921014784/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-016752:doc1.xml",
+      "accession_number": "0001567619-21-016752",
+      "form": "4",
+      "publication_date": "2021-09-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921016752/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-016828:doc1.xml",
+      "accession_number": "0001567619-21-016828",
+      "form": "3",
+      "publication_date": "2021-09-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921016828/doc1.xml",
+      "ciks": [
+        "0001416180",
+        "0001787306"
+      ],
+      "display_names": [
+        "Leonard Keith R  (CIK 0001416180)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-016829:doc1.xml",
+      "accession_number": "0001567619-21-016829",
+      "form": "4",
+      "publication_date": "2021-09-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921016829/doc1.xml",
+      "ciks": [
+        "0001416180",
+        "0001787306"
+      ],
+      "display_names": [
+        "Leonard Keith R  (CIK 0001416180)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001787306-21-000013:arqt-20210903.htm",
+      "accession_number": "0001787306-21-000013",
+      "form": "8-K",
+      "publication_date": "2021-09-07",
+      "document_name": "arqt-20210903.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730621000013/arqt-20210903.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "5.02"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-21-016925:doc1.xml",
+      "accession_number": "0001567619-21-016925",
+      "form": "4",
+      "publication_date": "2021-09-09",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921016925/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001787306-21-000018:arqt-20210922.htm",
+      "accession_number": "0001787306-21-000018",
+      "form": "8-K",
+      "publication_date": "2021-09-28",
+      "document_name": "arqt-20210922.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730621000018/arqt-20210922.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001787306-21-000021:arqt-20211004.htm",
+      "accession_number": "0001787306-21-000021",
+      "form": "8-K",
+      "publication_date": "2021-10-04",
+      "document_name": "arqt-20211004.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730621000021/arqt-20211004.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-21-017895:doc1.xml",
+      "accession_number": "0001567619-21-017895",
+      "form": "4",
+      "publication_date": "2021-10-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921017895/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-017896:doc1.xml",
+      "accession_number": "0001567619-21-017896",
+      "form": "4",
+      "publication_date": "2021-10-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921017896/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-018022:doc1.xml",
+      "accession_number": "0001567619-21-018022",
+      "form": "4",
+      "publication_date": "2021-10-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921018022/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-018026:doc1.xml",
+      "accession_number": "0001567619-21-018026",
+      "form": "3/A",
+      "publication_date": "2021-10-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921018026/doc1.xml",
+      "ciks": [
+        "0001416180",
+        "0001787306"
+      ],
+      "display_names": [
+        "Leonard Keith R  (CIK 0001416180)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-019290:doc1.xml",
+      "accession_number": "0001567619-21-019290",
+      "form": "4",
+      "publication_date": "2021-11-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921019290/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001787306-21-000029:arqt-20211104.htm",
+      "accession_number": "0001787306-21-000029",
+      "form": "8-K",
+      "publication_date": "2021-11-04",
+      "document_name": "arqt-20211104.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730621000029/arqt-20211104.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001787306-21-000030:arqt-20210930.htm",
+      "accession_number": "0001787306-21-000030",
+      "form": "10-Q",
+      "publication_date": "2021-11-04",
+      "document_name": "arqt-20210930.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730621000030/arqt-20210930.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-21-019584:doc1.xml",
+      "accession_number": "0001567619-21-019584",
+      "form": "4",
+      "publication_date": "2021-11-09",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921019584/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-21-021900:doc1.xml",
+      "accession_number": "0001567619-21-021900",
+      "form": "4",
+      "publication_date": "2021-12-10",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761921021900/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000899140-21-000766:a121521a.htm",
+      "accession_number": "0000899140-21-000766",
+      "form": "SC 13G",
+      "publication_date": "2021-12-15",
+      "document_name": "a121521a.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000089914021000766/a121521a.htm",
+      "ciks": [
+        "0001787306",
+        "0001603466"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "Point72 Asset Management, L.P.  (CIK 0001603466)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000899243-21-049728:doc4.xml",
+      "accession_number": "0000899243-21-049728",
+      "form": "4",
+      "publication_date": "2021-12-23",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000089924321049728/doc4.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001787306-21-000033:arqt-20211222.htm",
+      "accession_number": "0001787306-21-000033",
+      "form": "8-K",
+      "publication_date": "2021-12-23",
+      "document_name": "arqt-20211222.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730621000033/arqt-20211222.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "1.01",
+        "2.03",
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000899243-21-049940:doc4.xml",
+      "accession_number": "0000899243-21-049940",
+      "form": "4",
+      "publication_date": "2021-12-28",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000089924321049940/doc4.xml",
+      "ciks": [
+        "0001853327",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burrows Scott L  (CIK 0001853327)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-000388:doc1.xml",
+      "accession_number": "0001567619-22-000388",
+      "form": "4",
+      "publication_date": "2022-01-04",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922000388/doc1.xml",
+      "ciks": [
+        "0001853327",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burrows Scott L  (CIK 0001853327)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-000389:doc1.xml",
+      "accession_number": "0001567619-22-000389",
+      "form": "4",
+      "publication_date": "2022-01-04",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922000389/doc1.xml",
+      "ciks": [
+        "0001741987",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burnett Patrick  (CIK 0001741987)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-000625:doc1.xml",
+      "accession_number": "0001567619-22-000625",
+      "form": "4",
+      "publication_date": "2022-01-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922000625/doc1.xml",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-000669:doc1.xml",
+      "accession_number": "0001567619-22-000669",
+      "form": "3",
+      "publication_date": "2022-01-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922000669/doc1.xml",
+      "ciks": [
+        "0001798679",
+        "0001787306"
+      ],
+      "display_names": [
+        "Matsuda Masaru  (CIK 0001798679)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-000671:doc1.xml",
+      "accession_number": "0001567619-22-000671",
+      "form": "4",
+      "publication_date": "2022-01-05",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922000671/doc1.xml",
+      "ciks": [
+        "0001798679",
+        "0001787306"
+      ],
+      "display_names": [
+        "Matsuda Masaru  (CIK 0001798679)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-000851:doc1.xml",
+      "accession_number": "0001567619-22-000851",
+      "form": "4",
+      "publication_date": "2022-01-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922000851/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000834237-22-006328:us03969k1088_020322.txt",
+      "accession_number": "0000834237-22-006328",
+      "form": "SC 13G/A",
+      "publication_date": "2022-02-03",
+      "document_name": "us03969k1088_020322.txt",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000083423722006328/us03969k1088_020322.txt",
+      "ciks": [
+        "0001787306",
+        "0001364742"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000315066-22-000791:filing.txt",
+      "accession_number": "0000315066-22-000791",
+      "form": "SC 13G/A",
+      "publication_date": "2022-02-09",
+      "document_name": "filing.txt",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000031506622000791/filing.txt",
+      "ciks": [
+        "0001787306",
+        "0000315066"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-003692:doc1.xml",
+      "accession_number": "0001567619-22-003692",
+      "form": "4",
+      "publication_date": "2022-02-11",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922003692/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000899140-22-000305:a011822a.htm",
+      "accession_number": "0000899140-22-000305",
+      "form": "SC 13G/A",
+      "publication_date": "2022-02-14",
+      "document_name": "a011822a.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000089914022000305/a011822a.htm",
+      "ciks": [
+        "0001787306",
+        "0001603466"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "Point72 Asset Management, L.P.  (CIK 0001603466)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001787306-22-000008:arqt-20220222.htm",
+      "accession_number": "0001787306-22-000008",
+      "form": "8-K",
+      "publication_date": "2022-02-22",
+      "document_name": "arqt-20220222.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730622000008/arqt-20220222.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001787306-22-000009:arqt-20211231.htm",
+      "accession_number": "0001787306-22-000009",
+      "form": "10-K",
+      "publication_date": "2022-02-22",
+      "document_name": "arqt-20211231.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730622000009/arqt-20211231.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001787306-22-000011:arcutiss-8xfebruary2022.htm",
+      "accession_number": "0001787306-22-000011",
+      "form": "S-8",
+      "publication_date": "2022-02-22",
+      "document_name": "arcutiss-8xfebruary2022.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730622000011/arcutiss-8xfebruary2022.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-006226:doc1.xml",
+      "accession_number": "0001567619-22-006226",
+      "form": "4",
+      "publication_date": "2022-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006226/doc1.xml",
+      "ciks": [
+        "0001801047",
+        "0001787306"
+      ],
+      "display_names": [
+        "Lock Kenneth A.  (CIK 0001801047)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-006227:doc1.xml",
+      "accession_number": "0001567619-22-006227",
+      "form": "4",
+      "publication_date": "2022-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006227/doc1.xml",
+      "ciks": [
+        "0001801045",
+        "0001787306"
+      ],
+      "display_names": [
+        "Turney Patricia A.  (CIK 0001801045)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-006228:doc1.xml",
+      "accession_number": "0001567619-22-006228",
+      "form": "4",
+      "publication_date": "2022-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006228/doc1.xml",
+      "ciks": [
+        "0001853327",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burrows Scott L  (CIK 0001853327)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-006229:doc1.xml",
+      "accession_number": "0001567619-22-006229",
+      "form": "4",
+      "publication_date": "2022-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006229/doc1.xml",
+      "ciks": [
+        "0001252999",
+        "0001787306"
+      ],
+      "display_names": [
+        "OSBORNE DAVID W  (CIK 0001252999)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-006230:doc1.xml",
+      "accession_number": "0001567619-22-006230",
+      "form": "4",
+      "publication_date": "2022-03-03",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006230/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001787306-22-000014:arqt-20211231.htm",
+      "accession_number": "0001787306-22-000014",
+      "form": "10-K/A",
+      "publication_date": "2022-03-03",
+      "document_name": "arqt-20211231.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000178730622000014/arqt-20211231.htm",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001567619-22-006491:doc1.xml",
+      "accession_number": "0001567619-22-006491",
+      "form": "4",
+      "publication_date": "2022-03-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006491/doc1.xml",
+      "ciks": [
+        "0001840191",
+        "0001787306"
+      ],
+      "display_names": [
+        "Moore Matthew Richard  (CIK 0001840191)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-006492:doc1.xml",
+      "accession_number": "0001567619-22-006492",
+      "form": "4",
+      "publication_date": "2022-03-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006492/doc1.xml",
+      "ciks": [
+        "0001252999",
+        "0001787306"
+      ],
+      "display_names": [
+        "OSBORNE DAVID W  (CIK 0001252999)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-006493:doc1.xml",
+      "accession_number": "0001567619-22-006493",
+      "form": "4",
+      "publication_date": "2022-03-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006493/doc1.xml",
+      "ciks": [
+        "0001801045",
+        "0001787306"
+      ],
+      "display_names": [
+        "Turney Patricia A.  (CIK 0001801045)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-006494:doc1.xml",
+      "accession_number": "0001567619-22-006494",
+      "form": "4",
+      "publication_date": "2022-03-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006494/doc1.xml",
+      "ciks": [
+        "0001853327",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burrows Scott L  (CIK 0001853327)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-006495:doc1.xml",
+      "accession_number": "0001567619-22-006495",
+      "form": "4",
+      "publication_date": "2022-03-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006495/doc1.xml",
+      "ciks": [
+        "0001801047",
+        "0001787306"
+      ],
+      "display_names": [
+        "Lock Kenneth A.  (CIK 0001801047)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-006496:doc1.xml",
+      "accession_number": "0001567619-22-006496",
+      "form": "4",
+      "publication_date": "2022-03-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006496/doc1.xml",
+      "ciks": [
+        "0001798679",
+        "0001787306"
+      ],
+      "display_names": [
+        "Matsuda Masaru  (CIK 0001798679)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-006497:doc1.xml",
+      "accession_number": "0001567619-22-006497",
+      "form": "4",
+      "publication_date": "2022-03-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006497/doc1.xml",
+      "ciks": [
+        "0001741987",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burnett Patrick  (CIK 0001741987)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-006498:doc1.xml",
+      "accession_number": "0001567619-22-006498",
+      "form": "4",
+      "publication_date": "2022-03-07",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006498/doc1.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000899243-22-010801:doc4.xml",
+      "accession_number": "0000899243-22-010801",
+      "form": "4",
+      "publication_date": "2022-03-11",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000089924322010801/doc4.xml",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-007534:doc1.xml",
+      "accession_number": "0001567619-22-007534",
+      "form": "4",
+      "publication_date": "2022-03-25",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922007534/doc1.xml",
+      "ciks": [
+        "0001801045",
+        "0001787306"
+      ],
+      "display_names": [
+        "Turney Patricia A.  (CIK 0001801045)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-007727:doc1.xml",
+      "accession_number": "0001567619-22-007727",
+      "form": "4/A",
+      "publication_date": "2022-03-30",
+      "document_name": "doc1.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1787306/000156761922007727/doc1.xml",
+      "ciks": [
+        "0001801045",
+        "0001787306"
+      ],
+      "display_names": [
+        "Turney Patricia A.  (CIK 0001801045)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    }
+  ],
+  "excluded_form_types": [
+    "144",
+    "3",
+    "3/A",
+    "4",
+    "4/A",
+    "5",
+    "5/A",
+    "ARS",
+    "CORRESP",
+    "CT ORDER",
+    "EFFECT",
+    "S-8",
+    "S-8 POS",
+    "SC 13G",
+    "SC 13G/A",
+    "SCHEDULE 13G",
+    "SCHEDULE 13G/A",
+    "UPLOAD"
+  ],
+  "exclusion_basis": "Insider ownership, passive ownership, routine employee-plan registration, administrative correspondence/effectiveness and duplicate annual shareholder reports excluded from material transaction-corpus selection. Active ownership13D, prospectuses/registrations, current/periodic/proxy/tender/deregistration and unrecognized forms retained. No retained form is silently discarded by its8-K item tags.",
+  "required_material_document_count": 63,
+  "outcome_label": null,
+  "full_text_review_complete": false,
+  "training_allowed": false
+}

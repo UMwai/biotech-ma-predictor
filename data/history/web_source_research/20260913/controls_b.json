@@ -1,0 +1,921 @@
+{
+  "schema_version": "web-control-source-research-v1",
+  "created_at": "2026-09-13T16:13:04.721120+00:00",
+  "reviewer": "Codex agent control_sources_b",
+  "independent_human_review": false,
+  "task": "Primary web source discovery for the last nine remaining historical comparison candidates",
+  "source_ledger_path": "data/history/panel_seed/negative_reviews/CDXS_STRO_remaining_controls_route_ledger.json",
+  "source_ledger_sha256": "1c4a09c86e3036c2716978c85dcadbda1d75b0ccaf9e2a2c4d45d1468ac84961",
+  "scope": "January 2020 pending control transaction baseline, 2021 outcome, and reporting lag through March 31, 2022. Actual 2026 retrieval does not become historical availability.",
+  "method": "Web search of SEC and issuer sites followed by bounded original-byte downloads. Exact accession SEC indexes and linked HTML, PDF, and designated primary XML documents collected in a serial worker at no more than one request per second. No authentication, paid access, proxy or access control bypass. Requests are not retried after failure.",
+  "limitations": [
+    "A search hit or annual report alone cannot establish a negative acquisition outcome.",
+    "Legacy EFTS inventories still require current transport reconciliation; historical world coverage is not proven.",
+    "Index-linked source capture does not complete substantive acquisition, censoring, identity, original publication, incorporated reference or non-HTML exhibit review.",
+    "HTTP 200 redirects to another issuer homepage are rejected.",
+    "Source discovery does not modify the base panel, labels, training gates or promoted model.",
+    "Captured bytes are current SEC HTTP responses. SEC delivery markup can change response length from the filing index. Exact response hashes do not establish byte identity with the filing as accepted."
+  ],
+  "records": [
+    {
+      "ticker": "FREQ",
+      "cik": 1703647,
+      "company_name": "Frequency Therapeutics, Inc.",
+      "required_material_candidate_count": 48,
+      "observation_at": "2021-01-01T00:00:00Z",
+      "horizon_end_at": "2022-01-01T00:00:00Z",
+      "required_ascertainment_end_date": "2022-03-31",
+      "original_annual_baseline_candidates": [
+        {
+          "accession_number": "0001564590-20-012977",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1703647/000156459020012977/freq-10k_20191231.htm"
+          ],
+          "document_name": "freq-10k_20191231.htm",
+          "filing_date": "2020-03-26",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0001564590-21-016117",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1703647/000156459021016117/freq-10k_20201231.htm"
+          ],
+          "document_name": "freq-10k_20201231.htm",
+          "filing_date": "2021-03-29",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0000950170-22-003655",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1703647/000095017022003655/freq-20211231.htm"
+          ],
+          "document_name": "freq-20211231.htm",
+          "filing_date": "2022-03-15",
+          "form": "10-K"
+        }
+      ],
+      "archived_discovery_sources": [
+        {
+          "ticker": "FREQ",
+          "kind": "sec_annual",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1703647/000095017022003655/freq-20211231.htm",
+          "publication_discovery": "2022-03-15",
+          "retrieved_at": "2026-09-13T16:07:16.976603+00:00",
+          "original_bytes_archived": true,
+          "source_complete": false,
+          "http_status": 200,
+          "effective_url": "https://www.sec.gov/Archives/edgar/data/1703647/000095017022003655/freq-20211231.htm",
+          "content_type": "text/html",
+          "status": "downloaded_pending_review",
+          "raw_relative_path": "raw_controls_b/3614fa2e715b8ab4846956c70404206d813808f1e849f3fe1697504b713365b5.html",
+          "raw_sha256": "3614fa2e715b8ab4846956c70404206d813808f1e849f3fe1697504b713365b5",
+          "byte_count": 3760623,
+          "body_format": "html",
+          "source_identity_status": "exact_requested_url_retained_pending_substantive_and_version_review",
+          "accepted_for_original_filing_review": true,
+          "complete_outcome_corpus": false
+        }
+      ],
+      "additional_web_routes": [
+        {
+          "url": "https://ir.korrobio.com/node/7176/html",
+          "source_kind": "successor issuer filing mirror",
+          "web_result": "search indexed historical Frequency proxy; direct web open HTTP403, not retried",
+          "scope": "2022 proxy after March2022 ascertainment; discovery only"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1703647/000095017022003655/0000950170-22-003655-index.html",
+          "source_kind": "original SEC accession inventory",
+          "web_result": "accession0000950170-22-003655 filed2022-03-15, accepted07:42:38; raw index separately archived",
+          "scope": "2021 annual report within report lag"
+        }
+      ],
+      "sec_corpus_progress_path": "FREQ_sec_corpus_discovery.json",
+      "complete_corpus_substantively_reviewed": false,
+      "negative_label": null,
+      "additional_training_comparison_eligible": false,
+      "original_sec_annual_probe": {
+        "ticker": "FREQ",
+        "cik": 1703647,
+        "candidate": {
+          "accession_number": "0000950170-22-003655",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1703647/000095017022003655/freq-20211231.htm"
+          ],
+          "document_name": "freq-20211231.htm",
+          "filing_date": "2022-03-15",
+          "form": "10-K"
+        },
+        "receipt": {
+          "ticker": "FREQ",
+          "kind": "sec_annual",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1703647/000095017022003655/freq-20211231.htm",
+          "publication_discovery": "2022-03-15",
+          "retrieved_at": "2026-09-13T16:07:16.976603+00:00",
+          "original_bytes_archived": true,
+          "source_complete": false,
+          "http_status": 200,
+          "effective_url": "https://www.sec.gov/Archives/edgar/data/1703647/000095017022003655/freq-20211231.htm",
+          "content_type": "text/html",
+          "status": "archived",
+          "raw_relative_path": "raw_controls_b/3614fa2e715b8ab4846956c70404206d813808f1e849f3fe1697504b713365b5.html",
+          "raw_sha256": "3614fa2e715b8ab4846956c70404206d813808f1e849f3fe1697504b713365b5",
+          "byte_count": 3760623,
+          "body_format": "html",
+          "reused_from": "controls_b_probes.json"
+        },
+        "negative_label": null,
+        "original_filing_subject_identity_review_complete": false
+      },
+      "sec_corpus_integrity_receipt": {
+        "path": "FREQ_sec_corpus_integrity.json",
+        "sha256": "65606784a3c170d5738b8b481b38fda97f5cd71ee7e60ca541bfb7d31be29d18"
+      }
+    },
+    {
+      "ticker": "AVDL",
+      "cik": 1012477,
+      "company_name": "Avadel Pharmaceuticals plc",
+      "required_material_candidate_count": 54,
+      "observation_at": "2021-01-01T00:00:00Z",
+      "horizon_end_at": "2022-01-01T00:00:00Z",
+      "required_ascertainment_end_date": "2022-03-31",
+      "original_annual_baseline_candidates": [
+        {
+          "accession_number": "0001012477-20-000007",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1012477/000101247720000007/avdl201910k.htm"
+          ],
+          "document_name": "avdl201910k.htm",
+          "filing_date": "2020-03-16",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0001012477-21-000004",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1012477/000101247721000004/avdl-20201231.htm"
+          ],
+          "document_name": "avdl-20201231.htm",
+          "filing_date": "2021-03-09",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0001012477-22-000004",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1012477/000101247722000004/avdl-20211231.htm"
+          ],
+          "document_name": "avdl-20211231.htm",
+          "filing_date": "2022-03-16",
+          "form": "10-K"
+        }
+      ],
+      "archived_discovery_sources": [
+        {
+          "ticker": "AVDL",
+          "kind": "issuer_annual_pdf",
+          "source_url": "https://investors.avadel.com/static-files/a91627ce-ff5f-4f90-be34-97765118d2fd",
+          "publication_discovery": "2022-03-16",
+          "retrieved_at": "2026-09-13T16:07:16.977155+00:00",
+          "original_bytes_archived": true,
+          "source_complete": false,
+          "http_status": 200,
+          "effective_url": "https://investor.alkermes.com/",
+          "content_type": "text/html; charset=UTF-8",
+          "status": "downloaded_pending_review",
+          "raw_relative_path": "raw_controls_b/716775c05c90047eafcf0b368edccc09578b17e1ba72d2e62776a10601ce6a92.html",
+          "raw_sha256": "716775c05c90047eafcf0b368edccc09578b17e1ba72d2e62776a10601ce6a92",
+          "byte_count": 95479,
+          "body_format": "html",
+          "source_identity_status": "rejected_redirect_to_other_issuer_homepage",
+          "accepted_for_original_filing_review": false,
+          "complete_outcome_corpus": false
+        }
+      ],
+      "additional_web_routes": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1012477/000101247722000004/avdl-20211231.htm",
+          "source_kind": "original SEC annual report",
+          "web_result": "web search returned FY2021 annual filing; direct raw route queued",
+          "scope": "2021 annual report,2022-03-16"
+        }
+      ],
+      "sec_corpus_progress_path": null,
+      "complete_corpus_substantively_reviewed": false,
+      "negative_label": null,
+      "additional_training_comparison_eligible": false,
+      "original_sec_annual_probe": {
+        "ticker": "AVDL",
+        "cik": 1012477,
+        "candidate": {
+          "accession_number": "0001012477-22-000004",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1012477/000101247722000004/avdl-20211231.htm"
+          ],
+          "document_name": "avdl-20211231.htm",
+          "filing_date": "2022-03-16",
+          "form": "10-K"
+        },
+        "receipt": {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1012477/000101247722000004/avdl-20211231.htm",
+          "retrieved_at": "2026-09-13T16:14:46.929750+00:00",
+          "status": "archived",
+          "http_status": 200,
+          "effective_url": "https://www.sec.gov/Archives/edgar/data/1012477/000101247722000004/avdl-20211231.htm",
+          "content_type": "text/html",
+          "raw_sha256": "067fdf29a94249475714d95e4ecb0442c6e6a73d11d056b299014caa1841b7aa",
+          "byte_count": 2617472,
+          "raw_relative_path": "raw_controls_b_sec/067fdf29a94249475714d95e4ecb0442c6e6a73d11d056b299014caa1841b7aa.htm"
+        },
+        "negative_label": null,
+        "original_filing_subject_identity_review_complete": false
+      }
+    },
+    {
+      "ticker": "HARP",
+      "cik": 1708493,
+      "company_name": "Harpoon Therapeutics, Inc.",
+      "required_material_candidate_count": 47,
+      "observation_at": "2021-01-01T00:00:00Z",
+      "horizon_end_at": "2022-01-01T00:00:00Z",
+      "required_ascertainment_end_date": "2022-03-31",
+      "original_annual_baseline_candidates": [
+        {
+          "accession_number": "0001564590-20-010479",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1708493/000156459020010479/harp-10k_20191231.htm"
+          ],
+          "document_name": "harp-10k_20191231.htm",
+          "filing_date": "2020-03-12",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0001564590-21-012063",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1708493/000156459021012063/harp-10k_20201231.htm"
+          ],
+          "document_name": "harp-10k_20201231.htm",
+          "filing_date": "2021-03-10",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0000950170-22-003375",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1708493/000095017022003375/harp-20211231.htm"
+          ],
+          "document_name": "harp-20211231.htm",
+          "filing_date": "2022-03-10",
+          "form": "10-K"
+        }
+      ],
+      "archived_discovery_sources": [
+        {
+          "ticker": "HARP",
+          "kind": "sec_annual",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1708493/000095017022003375/harp-20211231.htm",
+          "publication_discovery": "2022-03-10",
+          "retrieved_at": "2026-09-13T16:07:16.977697+00:00",
+          "original_bytes_archived": true,
+          "source_complete": false,
+          "http_status": 200,
+          "effective_url": "https://www.sec.gov/Archives/edgar/data/1708493/000095017022003375/harp-20211231.htm",
+          "content_type": "text/html",
+          "status": "downloaded_pending_review",
+          "raw_relative_path": "raw_controls_b/63347c9ed948bda909a12b711ee151816d0615fe7b8c64ca390266eaeec4244b.html",
+          "raw_sha256": "63347c9ed948bda909a12b711ee151816d0615fe7b8c64ca390266eaeec4244b",
+          "byte_count": 4017042,
+          "body_format": "html",
+          "source_identity_status": "exact_requested_url_retained_pending_substantive_and_version_review",
+          "accepted_for_original_filing_review": true,
+          "complete_outcome_corpus": false
+        }
+      ],
+      "additional_web_routes": [],
+      "sec_corpus_progress_path": null,
+      "complete_corpus_substantively_reviewed": false,
+      "negative_label": null,
+      "additional_training_comparison_eligible": false,
+      "original_sec_annual_probe": {
+        "ticker": "HARP",
+        "cik": 1708493,
+        "candidate": {
+          "accession_number": "0000950170-22-003375",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1708493/000095017022003375/harp-20211231.htm"
+          ],
+          "document_name": "harp-20211231.htm",
+          "filing_date": "2022-03-10",
+          "form": "10-K"
+        },
+        "receipt": {
+          "ticker": "HARP",
+          "kind": "sec_annual",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1708493/000095017022003375/harp-20211231.htm",
+          "publication_discovery": "2022-03-10",
+          "retrieved_at": "2026-09-13T16:07:16.977697+00:00",
+          "original_bytes_archived": true,
+          "source_complete": false,
+          "http_status": 200,
+          "effective_url": "https://www.sec.gov/Archives/edgar/data/1708493/000095017022003375/harp-20211231.htm",
+          "content_type": "text/html",
+          "status": "archived",
+          "raw_relative_path": "raw_controls_b/63347c9ed948bda909a12b711ee151816d0615fe7b8c64ca390266eaeec4244b.html",
+          "raw_sha256": "63347c9ed948bda909a12b711ee151816d0615fe7b8c64ca390266eaeec4244b",
+          "byte_count": 4017042,
+          "body_format": "html",
+          "reused_from": "controls_b_probes.json"
+        },
+        "negative_label": null,
+        "original_filing_subject_identity_review_complete": false
+      }
+    },
+    {
+      "ticker": "FULC",
+      "cik": 1680581,
+      "company_name": "Fulcrum Therapeutics, Inc.",
+      "required_material_candidate_count": 53,
+      "observation_at": "2021-01-01T00:00:00Z",
+      "horizon_end_at": "2022-01-01T00:00:00Z",
+      "required_ascertainment_end_date": "2022-03-31",
+      "original_annual_baseline_candidates": [
+        {
+          "accession_number": "0001564590-20-008951",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1680581/000156459020008951/fulc-10k_20191231.htm"
+          ],
+          "document_name": "fulc-10k_20191231.htm",
+          "filing_date": "2020-03-05",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0001564590-21-010715",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1680581/000156459021010715/fulc-10k_20201231.htm"
+          ],
+          "document_name": "fulc-10k_20201231.htm",
+          "filing_date": "2021-03-04",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0000950170-22-002727",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1680581/000095017022002727/fulc-20211231.htm"
+          ],
+          "document_name": "fulc-20211231.htm",
+          "filing_date": "2022-03-03",
+          "form": "10-K"
+        }
+      ],
+      "archived_discovery_sources": [
+        {
+          "ticker": "FULC",
+          "kind": "issuer_prospectus_pdf",
+          "source_url": "https://ir.fulcrumtx.com/static-files/33398eb8-bf05-48fd-aef1-3b7c5cc06c2d",
+          "publication_discovery": "2022 prospectus referencing 2021 filings; exact publication pending",
+          "retrieved_at": "2026-09-13T16:07:17.264535+00:00",
+          "original_bytes_archived": true,
+          "source_complete": false,
+          "http_status": 200,
+          "effective_url": "https://ir.fulcrumtx.com/static-files/33398eb8-bf05-48fd-aef1-3b7c5cc06c2d",
+          "content_type": "application/pdf",
+          "status": "downloaded_pending_review",
+          "raw_relative_path": "raw_controls_b/d37c9b75214a111f5ee79655ecc24c05d89678734650e5dfebcd0c3ee28b2f20.pdf",
+          "raw_sha256": "d37c9b75214a111f5ee79655ecc24c05d89678734650e5dfebcd0c3ee28b2f20",
+          "byte_count": 402544,
+          "body_format": "pdf",
+          "source_identity_status": "exact_requested_url_retained_pending_substantive_and_version_review",
+          "accepted_for_original_filing_review": true,
+          "complete_outcome_corpus": false
+        }
+      ],
+      "additional_web_routes": [
+        {
+          "url": "https://ir.fulcrumtx.com/financial-information/sec-filings?field_nir_sec_date_filed_value=&items_per_page_toggle=1&mobile=1&page=28",
+          "source_kind": "issuer filing archive",
+          "web_result": "search indexed2021rows but open returned current2026rows/page1; cannot claim requested historical page or complete pagination",
+          "scope": "not valid historical inventory capture"
+        }
+      ],
+      "sec_corpus_progress_path": null,
+      "complete_corpus_substantively_reviewed": false,
+      "negative_label": null,
+      "additional_training_comparison_eligible": false,
+      "original_sec_annual_probe": {
+        "ticker": "FULC",
+        "cik": 1680581,
+        "candidate": {
+          "accession_number": "0000950170-22-002727",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1680581/000095017022002727/fulc-20211231.htm"
+          ],
+          "document_name": "fulc-20211231.htm",
+          "filing_date": "2022-03-03",
+          "form": "10-K"
+        },
+        "receipt": {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1680581/000095017022002727/fulc-20211231.htm",
+          "retrieved_at": "2026-09-13T16:14:47.979895+00:00",
+          "status": "archived",
+          "http_status": 200,
+          "effective_url": "https://www.sec.gov/Archives/edgar/data/1680581/000095017022002727/fulc-20211231.htm",
+          "content_type": "text/html",
+          "raw_sha256": "528ac79c3b778cc2ad5be96a7f2c6c298b61c0e9fac2caac907c7d2b8152e0a7",
+          "byte_count": 3560101,
+          "raw_relative_path": "raw_controls_b_sec/528ac79c3b778cc2ad5be96a7f2c6c298b61c0e9fac2caac907c7d2b8152e0a7.htm"
+        },
+        "negative_label": null,
+        "original_filing_subject_identity_review_complete": false
+      }
+    },
+    {
+      "ticker": "CNCE",
+      "cik": 1367920,
+      "company_name": "Concert Pharmaceuticals, Inc.",
+      "required_material_candidate_count": 37,
+      "observation_at": "2021-01-01T00:00:00Z",
+      "horizon_end_at": "2022-01-01T00:00:00Z",
+      "required_ascertainment_end_date": "2022-03-31",
+      "original_annual_baseline_candidates": [
+        {
+          "accession_number": "0001367920-20-000013",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000013/cnce201910-k.htm"
+          ],
+          "document_name": "cnce201910-k.htm",
+          "filing_date": "2020-02-27",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0001367920-21-000013",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1367920/000136792021000013/cnce-20201231.htm"
+          ],
+          "document_name": "cnce-20201231.htm",
+          "filing_date": "2021-02-25",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0001367920-22-000018",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1367920/000136792022000018/cnce-20211231.htm"
+          ],
+          "document_name": "cnce-20211231.htm",
+          "filing_date": "2022-03-03",
+          "form": "10-K"
+        }
+      ],
+      "archived_discovery_sources": [
+        {
+          "ticker": "CNCE",
+          "kind": "sec_annual",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1367920/000136792022000018/cnce-20211231.htm",
+          "publication_discovery": "2022-03-03",
+          "retrieved_at": "2026-09-13T16:07:17.318890+00:00",
+          "original_bytes_archived": true,
+          "source_complete": false,
+          "http_status": 200,
+          "effective_url": "https://www.sec.gov/Archives/edgar/data/1367920/000136792022000018/cnce-20211231.htm",
+          "content_type": "text/html",
+          "status": "downloaded_pending_review",
+          "raw_relative_path": "raw_controls_b/bfe8b78a76d6e00975db9daf326487fe173674cd3477700602dd2b616aa15663.html",
+          "raw_sha256": "bfe8b78a76d6e00975db9daf326487fe173674cd3477700602dd2b616aa15663",
+          "byte_count": 1940437,
+          "body_format": "html",
+          "source_identity_status": "exact_requested_url_retained_pending_substantive_and_version_review",
+          "accepted_for_original_filing_review": true,
+          "complete_outcome_corpus": false
+        }
+      ],
+      "additional_web_routes": [],
+      "sec_corpus_progress_path": null,
+      "complete_corpus_substantively_reviewed": false,
+      "negative_label": null,
+      "additional_training_comparison_eligible": false,
+      "original_sec_annual_probe": {
+        "ticker": "CNCE",
+        "cik": 1367920,
+        "candidate": {
+          "accession_number": "0001367920-22-000018",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1367920/000136792022000018/cnce-20211231.htm"
+          ],
+          "document_name": "cnce-20211231.htm",
+          "filing_date": "2022-03-03",
+          "form": "10-K"
+        },
+        "receipt": {
+          "ticker": "CNCE",
+          "kind": "sec_annual",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1367920/000136792022000018/cnce-20211231.htm",
+          "publication_discovery": "2022-03-03",
+          "retrieved_at": "2026-09-13T16:07:17.318890+00:00",
+          "original_bytes_archived": true,
+          "source_complete": false,
+          "http_status": 200,
+          "effective_url": "https://www.sec.gov/Archives/edgar/data/1367920/000136792022000018/cnce-20211231.htm",
+          "content_type": "text/html",
+          "status": "archived",
+          "raw_relative_path": "raw_controls_b/bfe8b78a76d6e00975db9daf326487fe173674cd3477700602dd2b616aa15663.html",
+          "raw_sha256": "bfe8b78a76d6e00975db9daf326487fe173674cd3477700602dd2b616aa15663",
+          "byte_count": 1940437,
+          "body_format": "html",
+          "reused_from": "controls_b_probes.json"
+        },
+        "negative_label": null,
+        "original_filing_subject_identity_review_complete": false
+      }
+    },
+    {
+      "ticker": "KALA",
+      "cik": 1479419,
+      "company_name": "Kala Pharmaceuticals, Inc.",
+      "required_material_candidate_count": 50,
+      "observation_at": "2021-01-01T00:00:00Z",
+      "horizon_end_at": "2022-01-01T00:00:00Z",
+      "required_ascertainment_end_date": "2022-03-31",
+      "original_annual_baseline_candidates": [
+        {
+          "accession_number": "0001558370-20-000733",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1479419/000155837020000733/kala-20191231x10k.htm"
+          ],
+          "document_name": "kala-20191231x10k.htm",
+          "filing_date": "2020-02-12",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0001558370-21-001797",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1479419/000155837021001797/kala-20201231x10k.htm"
+          ],
+          "document_name": "kala-20201231x10k.htm",
+          "filing_date": "2021-02-25",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0001558370-22-004624",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1479419/000155837022004624/kala-20211231x10k.htm"
+          ],
+          "document_name": "kala-20211231x10k.htm",
+          "filing_date": "2022-03-29",
+          "form": "10-K"
+        }
+      ],
+      "archived_discovery_sources": [
+        {
+          "ticker": "KALA",
+          "kind": "sec_annual",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1479419/000155837022004624/kala-20211231x10k.htm",
+          "publication_discovery": "2022-03-29",
+          "retrieved_at": "2026-09-13T16:07:17.492727+00:00",
+          "original_bytes_archived": true,
+          "source_complete": false,
+          "http_status": 200,
+          "effective_url": "https://www.sec.gov/Archives/edgar/data/1479419/000155837022004624/kala-20211231x10k.htm",
+          "content_type": "text/html",
+          "status": "downloaded_pending_review",
+          "raw_relative_path": "raw_controls_b/90927737d19d8683cf94eac2da6d4c37abec9cd145192aff3383f967ebb95011.html",
+          "raw_sha256": "90927737d19d8683cf94eac2da6d4c37abec9cd145192aff3383f967ebb95011",
+          "byte_count": 2946101,
+          "body_format": "html",
+          "source_identity_status": "exact_requested_url_retained_pending_substantive_and_version_review",
+          "accepted_for_original_filing_review": true,
+          "complete_outcome_corpus": false
+        }
+      ],
+      "additional_web_routes": [],
+      "sec_corpus_progress_path": null,
+      "complete_corpus_substantively_reviewed": false,
+      "negative_label": null,
+      "additional_training_comparison_eligible": false,
+      "original_sec_annual_probe": {
+        "ticker": "KALA",
+        "cik": 1479419,
+        "candidate": {
+          "accession_number": "0001558370-22-004624",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1479419/000155837022004624/kala-20211231x10k.htm"
+          ],
+          "document_name": "kala-20211231x10k.htm",
+          "filing_date": "2022-03-29",
+          "form": "10-K"
+        },
+        "receipt": {
+          "ticker": "KALA",
+          "kind": "sec_annual",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1479419/000155837022004624/kala-20211231x10k.htm",
+          "publication_discovery": "2022-03-29",
+          "retrieved_at": "2026-09-13T16:07:17.492727+00:00",
+          "original_bytes_archived": true,
+          "source_complete": false,
+          "http_status": 200,
+          "effective_url": "https://www.sec.gov/Archives/edgar/data/1479419/000155837022004624/kala-20211231x10k.htm",
+          "content_type": "text/html",
+          "status": "archived",
+          "raw_relative_path": "raw_controls_b/90927737d19d8683cf94eac2da6d4c37abec9cd145192aff3383f967ebb95011.html",
+          "raw_sha256": "90927737d19d8683cf94eac2da6d4c37abec9cd145192aff3383f967ebb95011",
+          "byte_count": 2946101,
+          "body_format": "html",
+          "reused_from": "controls_b_probes.json"
+        },
+        "negative_label": null,
+        "original_filing_subject_identity_review_complete": false
+      }
+    },
+    {
+      "ticker": "KALV",
+      "cik": 1348911,
+      "company_name": "KalVista Pharmaceuticals, Inc.",
+      "required_material_candidate_count": 42,
+      "observation_at": "2021-01-01T00:00:00Z",
+      "horizon_end_at": "2022-01-01T00:00:00Z",
+      "required_ascertainment_end_date": "2022-03-31",
+      "original_annual_baseline_candidates": [
+        {
+          "accession_number": "0001564590-20-031501",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1348911/000156459020031501/kalv-10k_20200430.htm"
+          ],
+          "document_name": "kalv-10k_20200430.htm",
+          "filing_date": "2020-07-01",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0001564590-21-036441",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1348911/000156459021036441/kalv-10k_20210430.htm"
+          ],
+          "document_name": "kalv-10k_20210430.htm",
+          "filing_date": "2021-07-13",
+          "form": "10-K"
+        }
+      ],
+      "archived_discovery_sources": [],
+      "additional_web_routes": [
+        {
+          "url": "https://ir.kalvista.com/node/9251/html",
+          "source_kind": "issuer registration mirror",
+          "web_result": "search shows2021-07-13 S-8 text with referenced2021annual; direct web open403, not retried",
+          "scope": "excludedroutineS-8 is discovery only"
+        },
+        {
+          "url": "https://ir.kalvista.com/sec-filings?field_nir_sec_date_filed_value=&field_nir_sec_form_group_target_id%5B0%5D=471&items_per_page=10&mobile=1&order=field_nir_sec_description&sort=asc",
+          "source_kind": "issuer filing archive",
+          "web_result": "search indexed historical annuals; open returned2026rows rather than requested historic annual selection",
+          "scope": "not valid historical inventory capture"
+        }
+      ],
+      "sec_corpus_progress_path": null,
+      "complete_corpus_substantively_reviewed": false,
+      "negative_label": null,
+      "additional_training_comparison_eligible": false,
+      "original_sec_annual_probe": {
+        "ticker": "KALV",
+        "cik": 1348911,
+        "candidate": {
+          "accession_number": "0001564590-21-036441",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1348911/000156459021036441/kalv-10k_20210430.htm"
+          ],
+          "document_name": "kalv-10k_20210430.htm",
+          "filing_date": "2021-07-13",
+          "form": "10-K"
+        },
+        "receipt": {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1348911/000156459021036441/kalv-10k_20210430.htm",
+          "retrieved_at": "2026-09-13T16:14:49.030000+00:00",
+          "status": "archived",
+          "http_status": 200,
+          "effective_url": "https://www.sec.gov/Archives/edgar/data/1348911/000156459021036441/kalv-10k_20210430.htm",
+          "content_type": "text/html",
+          "raw_sha256": "517b4f0e1d14069f02533ac6806873aa62598049aea9a09524fecb1abda4c90e",
+          "byte_count": 2551036,
+          "raw_relative_path": "raw_controls_b_sec/517b4f0e1d14069f02533ac6806873aa62598049aea9a09524fecb1abda4c90e.htm"
+        },
+        "negative_label": null,
+        "original_filing_subject_identity_review_complete": false
+      }
+    },
+    {
+      "ticker": "KNSA",
+      "cik": 1730430,
+      "company_name": "Kiniksa Pharmaceuticals, Ltd.",
+      "required_material_candidate_count": 52,
+      "observation_at": "2021-01-01T00:00:00Z",
+      "horizon_end_at": "2022-01-01T00:00:00Z",
+      "required_ascertainment_end_date": "2022-03-31",
+      "original_annual_baseline_candidates": [
+        {
+          "accession_number": "0001558370-20-002081",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1730430/000155837020002081/knsa-20191231x10k.htm"
+          ],
+          "document_name": "knsa-20191231x10k.htm",
+          "filing_date": "2020-03-05",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0001558370-21-001821",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1730430/000155837021001821/knsa-20201231x10k.htm"
+          ],
+          "document_name": "knsa-20201231x10k.htm",
+          "filing_date": "2021-02-25",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0001558370-22-001932",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1730430/000155837022001932/knsa-20211231x10k.htm"
+          ],
+          "document_name": "knsa-20211231x10k.htm",
+          "filing_date": "2022-02-24",
+          "form": "10-K"
+        }
+      ],
+      "archived_discovery_sources": [
+        {
+          "ticker": "KNSA",
+          "kind": "issuer_annual_pdf",
+          "source_url": "https://investors.kiniksa.com/static-files/d495a801-dd4a-4996-8886-ca29717c7d40",
+          "publication_discovery": "2022-02-24",
+          "retrieved_at": "2026-09-13T16:07:17.702710+00:00",
+          "original_bytes_archived": true,
+          "source_complete": false,
+          "http_status": 200,
+          "effective_url": "https://investors.kiniksa.com/static-files/d495a801-dd4a-4996-8886-ca29717c7d40",
+          "content_type": "application/pdf",
+          "status": "downloaded_pending_review",
+          "raw_relative_path": "raw_controls_b/48b5d397dacec23aba85f518072034602da7bf56108eef3de40abaa94aa7ccf1.pdf",
+          "raw_sha256": "48b5d397dacec23aba85f518072034602da7bf56108eef3de40abaa94aa7ccf1",
+          "byte_count": 1942849,
+          "body_format": "pdf",
+          "source_identity_status": "exact_requested_url_retained_pending_substantive_and_version_review",
+          "accepted_for_original_filing_review": true,
+          "complete_outcome_corpus": false
+        }
+      ],
+      "additional_web_routes": [],
+      "sec_corpus_progress_path": null,
+      "complete_corpus_substantively_reviewed": false,
+      "negative_label": null,
+      "additional_training_comparison_eligible": false,
+      "original_sec_annual_probe": {
+        "ticker": "KNSA",
+        "cik": 1730430,
+        "candidate": {
+          "accession_number": "0001558370-22-001932",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1730430/000155837022001932/knsa-20211231x10k.htm"
+          ],
+          "document_name": "knsa-20211231x10k.htm",
+          "filing_date": "2022-02-24",
+          "form": "10-K"
+        },
+        "receipt": {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1730430/000155837022001932/knsa-20211231x10k.htm",
+          "retrieved_at": "2026-09-13T16:14:50.080134+00:00",
+          "status": "archived",
+          "http_status": 200,
+          "effective_url": "https://www.sec.gov/Archives/edgar/data/1730430/000155837022001932/knsa-20211231x10k.htm",
+          "content_type": "text/html",
+          "raw_sha256": "f49e037cdfda010be6b307e4f339a64a34719e8cc5f0dce7e364c5d7d35fdaf9",
+          "byte_count": 3319315,
+          "raw_relative_path": "raw_controls_b_sec/f49e037cdfda010be6b307e4f339a64a34719e8cc5f0dce7e364c5d7d35fdaf9.htm"
+        },
+        "negative_label": null,
+        "original_filing_subject_identity_review_complete": false
+      }
+    },
+    {
+      "ticker": "KRYS",
+      "cik": 1711279,
+      "company_name": "Krystal Biotech, Inc.",
+      "required_material_candidate_count": 55,
+      "observation_at": "2021-01-01T00:00:00Z",
+      "horizon_end_at": "2022-01-01T00:00:00Z",
+      "required_ascertainment_end_date": "2022-03-31",
+      "original_annual_baseline_candidates": [
+        {
+          "accession_number": "0001564590-20-009550",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1711279/000156459020009550/krys-10k_20191231.htm"
+          ],
+          "document_name": "krys-10k_20191231.htm",
+          "filing_date": "2020-03-10",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0001711279-21-000006",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1711279/000171127921000006/krys-20201231.htm"
+          ],
+          "document_name": "krys-20201231.htm",
+          "filing_date": "2021-03-01",
+          "form": "10-K"
+        },
+        {
+          "accession_number": "0001711279-22-000004",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1711279/000171127922000004/krys-20211231.htm"
+          ],
+          "document_name": "krys-20211231.htm",
+          "filing_date": "2022-02-28",
+          "form": "10-K"
+        }
+      ],
+      "archived_discovery_sources": [
+        {
+          "ticker": "KRYS",
+          "kind": "issuer_accession_detail",
+          "source_url": "https://ir.krystalbio.com/sec-filings/sec-filing/8-k/0001193125-21-155718",
+          "publication_discovery": "2021-05-10",
+          "retrieved_at": "2026-09-13T16:07:17.773056+00:00",
+          "original_bytes_archived": true,
+          "source_complete": false,
+          "http_status": 200,
+          "effective_url": "https://ir.krystalbio.com/sec-filings/sec-filing/8-k/0001193125-21-155718",
+          "content_type": "text/html; charset=UTF-8",
+          "status": "downloaded_pending_review",
+          "raw_relative_path": "raw_controls_b/abd61c8d378d62d7f1ed5492bd17aea3afe7587cf1f059319abff2243d8f5864.html",
+          "raw_sha256": "abd61c8d378d62d7f1ed5492bd17aea3afe7587cf1f059319abff2243d8f5864",
+          "byte_count": 39045,
+          "body_format": "html",
+          "source_identity_status": "exact_requested_url_retained_pending_substantive_and_version_review",
+          "accepted_for_original_filing_review": false,
+          "complete_outcome_corpus": false
+        },
+        {
+          "ticker": "KRYS",
+          "kind": "issuer_parent_and_exhibit_pdf",
+          "source_url": "https://ir.krystalbio.com/static-files/5d2f0477-cbe7-4a97-933b-af6f0e796306",
+          "publication_discovery": "2021-05-10",
+          "retrieved_at": "2026-09-13T16:07:18.035913+00:00",
+          "original_bytes_archived": true,
+          "source_complete": false,
+          "http_status": 200,
+          "effective_url": "https://ir.krystalbio.com/static-files/5d2f0477-cbe7-4a97-933b-af6f0e796306",
+          "content_type": "application/pdf",
+          "status": "downloaded_pending_review",
+          "raw_relative_path": "raw_controls_b/c7f6874342ddf6976183b4171ffe3b0aee775ea47f753434507ed343b1ca6395.pdf",
+          "raw_sha256": "c7f6874342ddf6976183b4171ffe3b0aee775ea47f753434507ed343b1ca6395",
+          "byte_count": 109052,
+          "body_format": "pdf",
+          "source_identity_status": "exact_requested_url_retained_pending_substantive_and_version_review",
+          "accepted_for_original_filing_review": true,
+          "complete_outcome_corpus": false
+        }
+      ],
+      "additional_web_routes": [
+        {
+          "url": "https://ir.krystalbio.com/node/7991/html",
+          "source_kind": "issuer8-K HTML mirror linked from accession detail",
+          "web_result": "web open failed because robots.txt was unreachable; linked completePDF succeeded",
+          "scope": "2021-05-10 parent8-K and Exhibit99.1 in8-pagePDF"
+        }
+      ],
+      "sec_corpus_progress_path": null,
+      "complete_corpus_substantively_reviewed": false,
+      "negative_label": null,
+      "additional_training_comparison_eligible": false,
+      "original_sec_annual_probe": {
+        "ticker": "KRYS",
+        "cik": 1711279,
+        "candidate": {
+          "accession_number": "0001711279-22-000004",
+          "candidate_SEC_document_uris": [
+            "https://www.sec.gov/Archives/edgar/data/1711279/000171127922000004/krys-20211231.htm"
+          ],
+          "document_name": "krys-20211231.htm",
+          "filing_date": "2022-02-28",
+          "form": "10-K"
+        },
+        "receipt": {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1711279/000171127922000004/krys-20211231.htm",
+          "retrieved_at": "2026-09-13T16:14:51.130278+00:00",
+          "status": "archived",
+          "http_status": 200,
+          "effective_url": "https://www.sec.gov/Archives/edgar/data/1711279/000171127922000004/krys-20211231.htm",
+          "content_type": "text/html",
+          "raw_sha256": "7f8e6bdb86ca2c9e1b4a8ac917f5add5f62205c719b9f7f446cd66ea9d34595b",
+          "byte_count": 1576115,
+          "raw_relative_path": "raw_controls_b_sec/7f8e6bdb86ca2c9e1b4a8ac917f5add5f62205c719b9f7f446cd66ea9d34595b.htm"
+        },
+        "negative_label": null,
+        "original_filing_subject_identity_review_complete": false
+      }
+    }
+  ],
+  "updated_at": "2026-09-13T16:16:10.154805+00:00",
+  "summary": {
+    "assigned_issuers": 9,
+    "exact_original_sec_annual_parents_archived": 9,
+    "frequency_accession_indexes_archived": 48,
+    "frequency_filing_and_exhibit_bodies_archived": 139,
+    "frequency_original_bytes_verified": 38127609,
+    "additional_eligible_negative_companies": 0,
+    "new_negative_labels_assigned": 0
+  },
+  "historical_original_vintage_archived": false,
+  "as_filed_byte_identity_verified": false
+}

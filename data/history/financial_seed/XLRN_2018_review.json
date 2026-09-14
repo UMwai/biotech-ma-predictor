@@ -1,0 +1,81 @@
+{
+  "schema_version": "manual-financial-evidence-v1",
+  "record_id": "XLRN-2018-12-31-10K",
+  "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_XLRN_2018.pdf",
+  "original_sec_url": "https://www.sec.gov/Archives/edgar/data/1280600/000128060019000012/xlrn-20181231x10k.htm",
+  "source_sha256": "703aa261d4959d3b6c4442aba0a421192bdeddc803ca79ca35553f1f2033830f",
+  "raw_bytes_archived": true,
+  "retrieved_at": "2026-09-08T14:00:54.088602+00:00",
+  "publication_evidence": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1280600/000128060019000012/xlrn-20181231xex321.htm",
+    "kind": "issuer_filing_certification",
+    "evidence_paraphrase": "Exhibit 32.1 identifies the 2018 10-K as filed on the certification date, February 27, 2019."
+  },
+  "facts": {
+    "cash_usd": {
+      "reported_value": 144052,
+      "source_unit": "USD thousands",
+      "unit_multiplier": 1000,
+      "value_usd": 144052000,
+      "period_start": null,
+      "period_end": "2018-12-31",
+      "period_type": "instant",
+      "statement": "balance_sheet",
+      "printed_page": "F-3",
+      "pdf_page": 82,
+      "reported_label": "Cash and cash equivalents",
+      "reported": true,
+      "xbrl_tag": null,
+      "extraction_method": "manual_statement_table_review"
+    },
+    "assets_usd": {
+      "reported_value": 314821,
+      "source_unit": "USD thousands",
+      "unit_multiplier": 1000,
+      "value_usd": 314821000,
+      "period_start": null,
+      "period_end": "2018-12-31",
+      "period_type": "instant",
+      "statement": "balance_sheet",
+      "printed_page": "F-3",
+      "pdf_page": 82,
+      "reported_label": "Total assets",
+      "reported": true,
+      "xbrl_tag": null,
+      "extraction_method": "manual_statement_table_review"
+    },
+    "annual_operating_cashflow_usd": {
+      "reported_value": -94706,
+      "source_unit": "USD thousands",
+      "unit_multiplier": 1000,
+      "value_usd": -94706000,
+      "period_start": "2018-01-01",
+      "period_end": "2018-12-31",
+      "period_type": "annual",
+      "statement": "cash_flows",
+      "printed_page": "F-6",
+      "pdf_page": 85,
+      "reported_label": "Net cash used in operating activities",
+      "reported": true,
+      "xbrl_tag": null,
+      "extraction_method": "manual_statement_table_review"
+    },
+    "annual_rd_usd": {
+      "reported_value": 103902,
+      "source_unit": "USD thousands",
+      "unit_multiplier": 1000,
+      "value_usd": 103902000,
+      "period_start": "2018-01-01",
+      "period_end": "2018-12-31",
+      "period_type": "annual",
+      "statement": "operations",
+      "printed_page": "F-4",
+      "pdf_page": 83,
+      "reported_label": "Research and development",
+      "reported": true,
+      "xbrl_tag": null,
+      "extraction_method": "manual_statement_table_review"
+    }
+  },
+  "provenance_note": "Manual observations derived from source tables; this file is not an original HTTP payload and its hash is not the source-byte hash."
+}

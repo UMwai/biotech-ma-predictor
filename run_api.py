@@ -1,33 +1,32 @@
-#!/usr/bin/env python
-"""
-Run the Biotech M&A Predictor API server.
+#!/usr/bin/env python3
+"""Run the local research desk. No cloud or database services are required."""
 
-This script starts the FastAPI server with proper configuration.
-"""
+import argparse
+import ipaddress
+import os
+from pathlib import Path
 
 import uvicorn
-import logging
-from src.config import settings
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--host", default="127.0.0.1")
+    parser.add_argument("--port", type=int, default=8000)
+    parser.add_argument("--output-dir", type=Path, default=Path(__file__).parent / "output")
+    parser.add_argument("--reload", action="store_true")
+    args = parser.parse_args()
+    try:
+        local = args.host == "localhost" or ipaddress.ip_address(args.host).is_loopback
+    except ValueError:
+        local = False
+    if not local:
+        parser.error("The local research desk must bind to a loopback address.")
+    if not 1 <= args.port <= 65535:
+        parser.error("--port must be between 1 and 65535")
+    os.environ["BIOTECH_OUTPUT_DIR"] = str(args.output_dir.resolve())
+    uvicorn.run("src.local_app:app", host=args.host, port=args.port, reload=args.reload)
+
 
 if __name__ == "__main__":
-    # Configure logging
-    logging.basicConfig(
-        level=settings.log_level,
-        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    )
-
-    logger = logging.getLogger(__name__)
-    logger.info("Starting Biotech M&A Predictor API server...")
-    logger.info(f"Host: {settings.api_host}")
-    logger.info(f"Port: {settings.api_port}")
-    logger.info(f"Environment: {settings.log_level}")
-
-    # Run the server
-    uvicorn.run(
-        "src.api.app:app",
-        host=settings.api_host,
-        port=settings.api_port,
-        reload=True,  # Enable auto-reload in development
-        log_level=settings.log_level.lower(),
-        access_log=True,
-    )
+    main()

@@ -1,0 +1,1192 @@
+{
+  "https://ir.codexis.com/sec-filings/all-sec-filings": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:47:30.868503+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "dc2e66c30db00b6a84795ccacda99dc364691823a1c39b1c11273e828aad8f56",
+    "source_bytes": 113896,
+    "source_relative_path": "raw_sources/dc2e66c30db00b6a84795ccacda99dc364691823a1c39b1c11273e828aad8f56.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?form_type=&year=2021": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?form_type=&year=2021",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?form_type=&year=2021",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:47:49.799261+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "56acf675c44b543ea9640ce54f598b2ab57e023bf7dda9bf1cecc46d27fb487b",
+    "source_bytes": 95024,
+    "source_relative_path": "raw_sources/56acf675c44b543ea9640ce54f598b2ab57e023bf7dda9bf1cecc46d27fb487b.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?form_type=&year=2020": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?form_type=&year=2020",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?form_type=&year=2020",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:34.733676+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "0ca77efa0b87c5ba5a8e4e3047dae4beed82197b1c0d54f89aab95b4027d9ae7",
+    "source_bytes": 93985,
+    "source_relative_path": "raw_sources/0ca77efa0b87c5ba5a8e4e3047dae4beed82197b1c0d54f89aab95b4027d9ae7.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?year=2020&page=2": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2020&page=2",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2020&page=2",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:35.310895+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "134483142f8c833326e2c69968929be1f8a078891198b869e50a9ff6425ca7c9",
+    "source_bytes": 94924,
+    "source_relative_path": "raw_sources/134483142f8c833326e2c69968929be1f8a078891198b869e50a9ff6425ca7c9.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?year=2020&page=3": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2020&page=3",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2020&page=3",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:35.832670+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "6a721a3970155b12964c4148e138801b56236a6feb09d251b59fb15bfe6b6785",
+    "source_bytes": 94552,
+    "source_relative_path": "raw_sources/6a721a3970155b12964c4148e138801b56236a6feb09d251b59fb15bfe6b6785.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?year=2020&page=4": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2020&page=4",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2020&page=4",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:36.386396+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "b956bb9bbe1c3446921c4f1b613dbaa83b321c0b972285f875d31e6d563a231b",
+    "source_bytes": 94453,
+    "source_relative_path": "raw_sources/b956bb9bbe1c3446921c4f1b613dbaa83b321c0b972285f875d31e6d563a231b.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?year=2020&page=5": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2020&page=5",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2020&page=5",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:36.764499+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "447a0f328e460cef50156013513dce70add4268c39dc7be0c5b1c5d2d541df20",
+    "source_bytes": 90197,
+    "source_relative_path": "raw_sources/447a0f328e460cef50156013513dce70add4268c39dc7be0c5b1c5d2d541df20.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?year=2021&page=2": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2021&page=2",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2021&page=2",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:37.227233+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "f2c9d1ce09ab04e1d2573e5356773614a66923d0b0c057db0ea779c42bac2bbe",
+    "source_bytes": 96523,
+    "source_relative_path": "raw_sources/f2c9d1ce09ab04e1d2573e5356773614a66923d0b0c057db0ea779c42bac2bbe.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?year=2021&page=3": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2021&page=3",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2021&page=3",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:37.677201+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "57b1a8908b63abc66a3c7bcf613a2008e4b88e293a6e44155e354497f9a46d2d",
+    "source_bytes": 94867,
+    "source_relative_path": "raw_sources/57b1a8908b63abc66a3c7bcf613a2008e4b88e293a6e44155e354497f9a46d2d.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?year=2021&page=4": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2021&page=4",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2021&page=4",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:38.222676+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "22568fda549390860d73a26442585f40b1041ed67b47d6836121cb964476661c",
+    "source_bytes": 95288,
+    "source_relative_path": "raw_sources/22568fda549390860d73a26442585f40b1041ed67b47d6836121cb964476661c.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?year=2021&page=5": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2021&page=5",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2021&page=5",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:38.717428+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d1249d5ee140a7bc6f41b7b4a3bc909cb571ed5247baf7f4449281278e1f22b1",
+    "source_bytes": 96180,
+    "source_relative_path": "raw_sources/d1249d5ee140a7bc6f41b7b4a3bc909cb571ed5247baf7f4449281278e1f22b1.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?year=2021&page=6": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2021&page=6",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2021&page=6",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:39.116546+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "3e4f782f676533d523c79b679bd7c45f0d0b8f7b305c4b1f6eef987306e98193",
+    "source_bytes": 94281,
+    "source_relative_path": "raw_sources/3e4f782f676533d523c79b679bd7c45f0d0b8f7b305c4b1f6eef987306e98193.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?form_type=&year=2022": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?form_type=&year=2022",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?form_type=&year=2022",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:39.559867+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "52d08968d639068ca812d17c563f3d40eccab8adf3830f2433d35dac700ac42d",
+    "source_bytes": 95503,
+    "source_relative_path": "raw_sources/52d08968d639068ca812d17c563f3d40eccab8adf3830f2433d35dac700ac42d.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?year=2022&page=2": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2022&page=2",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2022&page=2",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:39.955456+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "c52a6965c7103e1118daa41c912e1c686c63969ac53f7d0fec8a823967718b34",
+    "source_bytes": 95398,
+    "source_relative_path": "raw_sources/c52a6965c7103e1118daa41c912e1c686c63969ac53f7d0fec8a823967718b34.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?year=2022&page=3": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2022&page=3",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2022&page=3",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:40.435923+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d41d6f14420612e6fea84ed699e4ebffa83d77ab9e1e90d9b50f621e185d4a11",
+    "source_bytes": 95765,
+    "source_relative_path": "raw_sources/d41d6f14420612e6fea84ed699e4ebffa83d77ab9e1e90d9b50f621e185d4a11.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?year=2022&page=4": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2022&page=4",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2022&page=4",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:40.892541+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "58a12e8ed2344f3966ae6448d88c6d220de3398f4eb305ee28141432e57a0c81",
+    "source_bytes": 94997,
+    "source_relative_path": "raw_sources/58a12e8ed2344f3966ae6448d88c6d220de3398f4eb305ee28141432e57a0c81.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?year=2022&page=5": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2022&page=5",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2022&page=5",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:41.349569+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "f1eeb30d90b373d8d8b772ff80655de8ddb2bf0f144c0050a4daeb60615ffb87",
+    "source_bytes": 95621,
+    "source_relative_path": "raw_sources/f1eeb30d90b373d8d8b772ff80655de8ddb2bf0f144c0050a4daeb60615ffb87.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings?year=2022&page=6": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2022&page=6",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings?year=2022&page=6",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:41.791896+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "fa0bf6ad69d108e92543866e73fe35ab7d21415bb889e598c7ce952f4a2867db",
+    "source_bytes": 88874,
+    "source_relative_path": "raw_sources/fa0bf6ad69d108e92543866e73fe35ab7d21415bb889e598c7ce952f4a2867db.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-311802/d61101d8k.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-311802/d61101d8k.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-311802/d61101d8k.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:42.216480+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "7593cce19c8e311399d7037e48ba7192387a7740ed91cfefb6dad14c3346dbb6",
+    "source_bytes": 36663,
+    "source_relative_path": "raw_sources/7593cce19c8e311399d7037e48ba7192387a7740ed91cfefb6dad14c3346dbb6.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-309641/d64982d424b5.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-309641/d64982d424b5.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-309641/d64982d424b5.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:42.268007+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "1eca73442ea8bc6dd8d31b84beae2df56d3b21cb54cefb36b247d8a9861d0635",
+    "source_bytes": 424428,
+    "source_relative_path": "raw_sources/1eca73442ea8bc6dd8d31b84beae2df56d3b21cb54cefb36b247d8a9861d0635.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-308369/d64982d424b5.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-308369/d64982d424b5.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-308369/d64982d424b5.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:42.314652+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "233e46d32afa6389fb77937494b9e080ee3e98a4a09b71fb8ba258461652978f",
+    "source_bytes": 420551,
+    "source_relative_path": "raw_sources/233e46d32afa6389fb77937494b9e080ee3e98a4a09b71fb8ba258461652978f.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000040/cdxs-20200930.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000040/cdxs-20200930.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000040/cdxs-20200930.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:42.773439+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "da6cf8d0dc362e87a89582f95bbb4173ec56cd31791cd5454edc3b96b2b534f2",
+    "source_bytes": 2211633,
+    "source_relative_path": "raw_sources/da6cf8d0dc362e87a89582f95bbb4173ec56cd31791cd5454edc3b96b2b534f2.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000043/cdxs-20200805.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000043/cdxs-20200805.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000043/cdxs-20200805.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:42.878658+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "59392a93901469b445e53064195ba55bc48cb90307bd20849200bac6a540ede3",
+    "source_bytes": 43564,
+    "source_relative_path": "raw_sources/59392a93901469b445e53064195ba55bc48cb90307bd20849200bac6a540ede3.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000038/cdxs-20201105.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000038/cdxs-20201105.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000038/cdxs-20201105.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:42.912748+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "9669ad73131ed1f6de8f1218381e0db713b2c5d0efac7b153c0693b5c63fc746",
+    "source_bytes": 46843,
+    "source_relative_path": "raw_sources/9669ad73131ed1f6de8f1218381e0db713b2c5d0efac7b153c0693b5c63fc746.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000033/cdxs-20200630.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000033/cdxs-20200630.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000033/cdxs-20200630.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:43.369611+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "53930a563af18e2843ac093a19f57bcbdcbdaea0c4ba37aa69162f112242a67c",
+    "source_bytes": 2861153,
+    "source_relative_path": "raw_sources/53930a563af18e2843ac093a19f57bcbdcbdaea0c4ba37aa69162f112242a67c.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000031/cdxs-20200805.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000031/cdxs-20200805.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000031/cdxs-20200805.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:43.511693+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "ff4a5b7406a26835d804e987351914450743a3fe36ffdbefcc2ada310569a415",
+    "source_bytes": 61175,
+    "source_relative_path": "raw_sources/ff4a5b7406a26835d804e987351914450743a3fe36ffdbefcc2ada310569a415.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-175583/d945324d8k.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-175583/d945324d8k.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-175583/d945324d8k.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:43.595271+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "abdc4c18ca53edeeefe4954ba30e1f8f15c881faaa51f81d51a04e78fa08ed95",
+    "source_bytes": 42932,
+    "source_relative_path": "raw_sources/abdc4c18ca53edeeefe4954ba30e1f8f15c881faaa51f81d51a04e78fa08ed95.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000024/proxysupplement2020annualm.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000024/proxysupplement2020annualm.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000024/proxysupplement2020annualm.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:44.132271+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "359139e78a91641bacd66b42c0ba52281a339cd3bd4fb37f079f8c85def0e266",
+    "source_bytes": 47770,
+    "source_relative_path": "raw_sources/359139e78a91641bacd66b42c0ba52281a339cd3bd4fb37f079f8c85def0e266.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000017/cdxs-20200507.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000017/cdxs-20200507.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000017/cdxs-20200507.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:44.238258+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "1b89b267e2f6108a824dba393422920353798f10dc35ccb96c8029737ad079a2",
+    "source_bytes": 55953,
+    "source_relative_path": "raw_sources/1b89b267e2f6108a824dba393422920353798f10dc35ccb96c8029737ad079a2.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/cdxs-20200331.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/cdxs-20200331.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/cdxs-20200331.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:44.482617+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "3261172bd6d3676fcaed05678f32cac815ef5576be9a2144748091fc8dda688d",
+    "source_bytes": 1979427,
+    "source_relative_path": "raw_sources/3261172bd6d3676fcaed05678f32cac815ef5576be9a2144748091fc8dda688d.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-121332/d921683ddefa14a.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-121332/d921683ddefa14a.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-121332/d921683ddefa14a.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:44.632127+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "681138f68c89c8e0495ccd975847988e08bc872e4c219d6e89c694752ebb1662",
+    "source_bytes": 26297,
+    "source_relative_path": "raw_sources/681138f68c89c8e0495ccd975847988e08bc872e4c219d6e89c694752ebb1662.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-121324/d898799ddef14a.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-121324/d898799ddef14a.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-121324/d898799ddef14a.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:45.016358+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "a46f4070e1f1e168c149ba810845ef5fe2eb902865fb3d15b6d03dce79d31742",
+    "source_bytes": 473299,
+    "source_relative_path": "raw_sources/a46f4070e1f1e168c149ba810845ef5fe2eb902865fb3d15b6d03dce79d31742.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000012/cdxs-20200319.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000012/cdxs-20200319.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000012/cdxs-20200319.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:45.252066+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "8fb9c43677ee759f8fac8063c12c3406b23f6b14600e2e321f73c9dbadc23c13",
+    "source_bytes": 77290,
+    "source_relative_path": "raw_sources/8fb9c43677ee759f8fac8063c12c3406b23f6b14600e2e321f73c9dbadc23c13.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/cdxs-20191231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/cdxs-20191231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/cdxs-20191231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:45.333947+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "b4ed823e68c6b25910b74f080b5b66317cb5251d99c086b0ac9d4bcf486f8042",
+    "source_bytes": 4762932,
+    "source_relative_path": "raw_sources/b4ed823e68c6b25910b74f080b5b66317cb5251d99c086b0ac9d4bcf486f8042.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000006/cdxs-20200227.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000006/cdxs-20200227.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000006/cdxs-20200227.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:45.689574+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "1fdf6c27543926ce3da15a8894a2d1191ac9c06f08ee82d4d611e33a68d9c5fc",
+    "source_bytes": 62131,
+    "source_relative_path": "raw_sources/1fdf6c27543926ce3da15a8894a2d1191ac9c06f08ee82d4d611e33a68d9c5fc.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/cdxs-20210930.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/cdxs-20210930.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/cdxs-20210930.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:45.808524+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "b6c81eabf80f7e43fb1048a5475de672db4ac08387a2ab38f7f2cfdc36455c33",
+    "source_bytes": 2110219,
+    "source_relative_path": "raw_sources/b6c81eabf80f7e43fb1048a5475de672db4ac08387a2ab38f7f2cfdc36455c33.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000054/cdxs-20211104.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000054/cdxs-20211104.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000054/cdxs-20211104.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:45.977958+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "5201ebe00141849805f620e318a4033b556d51df4e8474f447d2efeae7f92c55",
+    "source_bytes": 47405,
+    "source_relative_path": "raw_sources/5201ebe00141849805f620e318a4033b556d51df4e8474f447d2efeae7f92c55.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000049/cdxs-20211014.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000049/cdxs-20211014.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000049/cdxs-20211014.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:46.303819+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "a1112946a902ad51c622f2d01e5ae848b825856b76858aebb02a66d5719352e8",
+    "source_bytes": 41906,
+    "source_relative_path": "raw_sources/a1112946a902ad51c622f2d01e5ae848b825856b76858aebb02a66d5719352e8.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000045/cdxs-20210909.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000045/cdxs-20210909.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000045/cdxs-20210909.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:46.412504+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "dad2198c98278b07b56cbb80357b34222d9654cd7566b9fda46015412ba79cf8",
+    "source_bytes": 49188,
+    "source_relative_path": "raw_sources/dad2198c98278b07b56cbb80357b34222d9654cd7566b9fda46015412ba79cf8.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000042/cdxs-20210825.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000042/cdxs-20210825.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000042/cdxs-20210825.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:46.552946+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "62a07b21a7c9fe69100b57d2338831c51e99bb4624f8a905d9dda47cf3a79e0e",
+    "source_bytes": 42935,
+    "source_relative_path": "raw_sources/62a07b21a7c9fe69100b57d2338831c51e99bb4624f8a905d9dda47cf3a79e0e.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000038/cdxs-20210630.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000038/cdxs-20210630.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000038/cdxs-20210630.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:46.822495+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "36e03e8a73bfc3e13c888ee2f97eb62b2efc5feacb34fe81104e737bb383d6b7",
+    "source_bytes": 2055522,
+    "source_relative_path": "raw_sources/36e03e8a73bfc3e13c888ee2f97eb62b2efc5feacb34fe81104e737bb383d6b7.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000036/cdxs-20210805.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000036/cdxs-20210805.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000036/cdxs-20210805.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:46.996635+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "6e5b86c9d71cdbd7a6fc11774773212f8974d76bb841fa9f1c7d082c2e2b9b45",
+    "source_bytes": 46847,
+    "source_relative_path": "raw_sources/6e5b86c9d71cdbd7a6fc11774773212f8974d76bb841fa9f1c7d082c2e2b9b45.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000032/cdxs-20210617.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000032/cdxs-20210617.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000032/cdxs-20210617.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:47.161484+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "c57c49c8825edd81b9beabd8b9630139fc367494f4c43ad4bf03ad5859fad1b2",
+    "source_bytes": 42895,
+    "source_relative_path": "raw_sources/c57c49c8825edd81b9beabd8b9630139fc367494f4c43ad4bf03ad5859fad1b2.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-193170/d188987d8k.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-193170/d188987d8k.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-193170/d188987d8k.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:47.193442+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "c37fcfd940415ce70ad7812fd2475d3beddc608a820c7573e30bef7a694f3120",
+    "source_bytes": 36412,
+    "source_relative_path": "raw_sources/c37fcfd940415ce70ad7812fd2475d3beddc608a820c7573e30bef7a694f3120.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155123/d207309d8k.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155123/d207309d8k.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155123/d207309d8k.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:47.570443+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "5fd41b39588147b03667e45059b7a4c1196afe66fa426d5a5ac4f1fb07778eb1",
+    "source_bytes": 35623,
+    "source_relative_path": "raw_sources/5fd41b39588147b03667e45059b7a4c1196afe66fa426d5a5ac4f1fb07778eb1.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155054/d191061ds3asr.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155054/d191061ds3asr.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155054/d191061ds3asr.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:47.585206+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "a8e20c703d27b06239e6dc34798ab766a83c09f95d379ee775c68dcddbdcf71b",
+    "source_bytes": 255029,
+    "source_relative_path": "raw_sources/a8e20c703d27b06239e6dc34798ab766a83c09f95d379ee775c68dcddbdcf71b.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155109/d191061d424b5.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155109/d191061d424b5.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155109/d191061d424b5.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:47.877334+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "17a5b5e3c63c0f132e031ea545c6dee8c15fcac37996d3cdd52f8185574bc4ef",
+    "source_bytes": 284777,
+    "source_relative_path": "raw_sources/17a5b5e3c63c0f132e031ea545c6dee8c15fcac37996d3cdd52f8185574bc4ef.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000026/cdxs-20210506.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000026/cdxs-20210506.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000026/cdxs-20210506.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:47.964943+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "33b86e3aee3b9fb1b9fceab6447ca118f9830fe494fa14e70131abb7cac1c071",
+    "source_bytes": 46940,
+    "source_relative_path": "raw_sources/33b86e3aee3b9fb1b9fceab6447ca118f9830fe494fa14e70131abb7cac1c071.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000028/cdxs-20210331.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000028/cdxs-20210331.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000028/cdxs-20210331.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:48.050437+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "f6a607036b7d67d0b842fecfbec0fc0ec1f22b085bf99f469221da3fc5e4653a",
+    "source_bytes": 1476619,
+    "source_relative_path": "raw_sources/f6a607036b7d67d0b842fecfbec0fc0ec1f22b085bf99f469221da3fc5e4653a.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-140418/d89994ddefa14a.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-140418/d89994ddefa14a.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-140418/d89994ddefa14a.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:48.440450+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "049b60e83faa112c0ab0039a17ef8ddb913a6ea6b46ad073da4ee3b8d09172ba",
+    "source_bytes": 23544,
+    "source_relative_path": "raw_sources/049b60e83faa112c0ab0039a17ef8ddb913a6ea6b46ad073da4ee3b8d09172ba.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000021/cdxs-20201231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000021/cdxs-20201231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000021/cdxs-20201231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:48.643978+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "5623c68712c6f5811911f8703f0ed176d375f2615d7fe5303153a48890bade63",
+    "source_bytes": 3670396,
+    "source_relative_path": "raw_sources/5623c68712c6f5811911f8703f0ed176d375f2615d7fe5303153a48890bade63.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-140387/d89965ddef14a.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-140387/d89965ddef14a.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-140387/d89965ddef14a.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:48.735362+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "c87a031d0f8b2fe30a7d9ad66a86cf7473baee3fbabc6da04dfd372a63fc34fa",
+    "source_bytes": 467147,
+    "source_relative_path": "raw_sources/c87a031d0f8b2fe30a7d9ad66a86cf7473baee3fbabc6da04dfd372a63fc34fa.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000018/cdxs-20210225.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000018/cdxs-20210225.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000018/cdxs-20210225.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:49.082379+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "2bd72326e48afe22e9a61f286d7c2018d8c153d7f1189c725cc8dea9cbe5744f",
+    "source_bytes": 50666,
+    "source_relative_path": "raw_sources/2bd72326e48afe22e9a61f286d7c2018d8c153d7f1189c725cc8dea9cbe5744f.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-045198/d121933dsc13d.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-045198/d121933dsc13d.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-045198/d121933dsc13d.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:49.105396+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "bfaba2245d72401db5839e9db914a908583fb88570654f0fce986b91f69a881d",
+    "source_bytes": 46453,
+    "source_relative_path": "raw_sources/bfaba2245d72401db5839e9db914a908583fb88570654f0fce986b91f69a881d.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000014/cdxs-20210203.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000014/cdxs-20210203.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000014/cdxs-20210203.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:49.224172+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "782a3967a04a43025affdb8e76fb6ac1200971e84ac9dad44a140f23603f91c2",
+    "source_bytes": 43335,
+    "source_relative_path": "raw_sources/782a3967a04a43025affdb8e76fb6ac1200971e84ac9dad44a140f23603f91c2.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000009/cdxs-20210208.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000009/cdxs-20210208.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000009/cdxs-20210208.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:49.449176+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "eac39e4d9d0e0c4884879e8f4bce3c67134487264302d1e6b0e05cb61098813a",
+    "source_bytes": 45287,
+    "source_relative_path": "raw_sources/eac39e4d9d0e0c4884879e8f4bce3c67134487264302d1e6b0e05cb61098813a.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000005/cdxs-20210203.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000005/cdxs-20210203.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000005/cdxs-20210203.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:49.671857+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d257a7314c313470a441c31a53c4172451401ecb7a8f33a0082cc06d0450cd89",
+    "source_bytes": 43137,
+    "source_relative_path": "raw_sources/d257a7314c313470a441c31a53c4172451401ecb7a8f33a0082cc06d0450cd89.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000006/cdxs-20220224.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000006/cdxs-20220224.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000006/cdxs-20220224.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:49.802502+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "f3a4eb4293569d153561fef8dc03e0b4561e5b751287a04525249c332b6eb71a",
+    "source_bytes": 50306,
+    "source_relative_path": "raw_sources/f3a4eb4293569d153561fef8dc03e0b4561e5b751287a04525249c332b6eb71a.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/cdxs-20211231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/cdxs-20211231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/cdxs-20211231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:49.978375+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d0f9b564942e82b3ee2a728d078900c37847e828bc5e739bbec09265c19670c6",
+    "source_bytes": 3324311,
+    "source_relative_path": "raw_sources/d0f9b564942e82b3ee2a728d078900c37847e828bc5e739bbec09265c19670c6.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-311802/d61101dex51.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-311802/d61101dex51.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-311802/d61101dex51.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:00.733492+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "b3f9c8dc28526bf71d4afc0c38beabc1debbc47b6ae3eeb9e00ef654e0e4d1b2",
+    "source_bytes": 21510,
+    "source_relative_path": "raw_sources/b3f9c8dc28526bf71d4afc0c38beabc1debbc47b6ae3eeb9e00ef654e0e4d1b2.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-311802/d61101dex11.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-311802/d61101dex11.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-20-311802/d61101dex11.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:00.793271+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "32468e262d42d854727710a88a45444427a429af1346d7b8cb937d8d73dc562e",
+    "source_bytes": 250940,
+    "source_relative_path": "raw_sources/32468e262d42d854727710a88a45444427a429af1346d7b8cb937d8d73dc562e.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000040/exhibit101.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000040/exhibit101.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000040/exhibit101.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:01.005055+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "a4a8f0e934c4134d705c6e2f55d1ee4bd3798aafe59855195280a1e0157e5f68",
+    "source_bytes": 43350,
+    "source_relative_path": "raw_sources/a4a8f0e934c4134d705c6e2f55d1ee4bd3798aafe59855195280a1e0157e5f68.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000040/cdxs20200930ex312sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000040/cdxs20200930ex312sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000040/cdxs20200930ex312sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:01.148661+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "93e07144e47ed721ccf5b6d6b901d74cbe04c432ccfd1004fd9af0f99d156ff1",
+    "source_bytes": 19567,
+    "source_relative_path": "raw_sources/93e07144e47ed721ccf5b6d6b901d74cbe04c432ccfd1004fd9af0f99d156ff1.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000040/cdxs20200930ex311sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000040/cdxs20200930ex311sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000040/cdxs20200930ex311sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:01.254011+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "404722a7740216d622c127fe7a33978a25320be7fa4fe979a689d6663244a95c",
+    "source_bytes": 19549,
+    "source_relative_path": "raw_sources/404722a7740216d622c127fe7a33978a25320be7fa4fe979a689d6663244a95c.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000040/cdxs20200930ex321sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000040/cdxs20200930ex321sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000040/cdxs20200930ex321sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:01.532510+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "46f52e7bb1308ae0288f21cc8c321f633d6ff594c0fc412096c09824bae8aeec",
+    "source_bytes": 15708,
+    "source_relative_path": "raw_sources/46f52e7bb1308ae0288f21cc8c321f633d6ff594c0fc412096c09824bae8aeec.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000033/cdxs20200630ex311sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000033/cdxs20200630ex311sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000033/cdxs20200630ex311sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:01.633055+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "2cd73128b35e1e17d8a9db7c70794704e15fc8b949474c2d8e44cc2aa5c43795",
+    "source_bytes": 20578,
+    "source_relative_path": "raw_sources/2cd73128b35e1e17d8a9db7c70794704e15fc8b949474c2d8e44cc2aa5c43795.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000033/cdxs20200630ex312sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000033/cdxs20200630ex312sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000033/cdxs20200630ex312sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:01.887043+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "0ee87fd3c90d5f8ddf1500b11b41509670694b8a31ef496afffe8b430b07b9d2",
+    "source_bytes": 20596,
+    "source_relative_path": "raw_sources/0ee87fd3c90d5f8ddf1500b11b41509670694b8a31ef496afffe8b430b07b9d2.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000038/a991earningsreleaseq32.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000038/a991earningsreleaseq32.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000038/a991earningsreleaseq32.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:01.929483+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "eacd6944274c260fc95280743dded3851b9fc117df06f1d2de999e2d8450305d",
+    "source_bytes": 287535,
+    "source_relative_path": "raw_sources/eacd6944274c260fc95280743dded3851b9fc117df06f1d2de999e2d8450305d.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000033/cdxs20200630ex321sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000033/cdxs20200630ex321sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000033/cdxs20200630ex321sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:01.984432+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "268b0c10f52a8785b8ae2c0690131bd2c71a1110ea0666c0d69aa1e97b4ca564",
+    "source_bytes": 16570,
+    "source_relative_path": "raw_sources/268b0c10f52a8785b8ae2c0690131bd2c71a1110ea0666c0d69aa1e97b4ca564.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000031/a991earningsreleaseq22.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000031/a991earningsreleaseq22.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000031/a991earningsreleaseq22.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:02.334039+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "ee585db683300b7e5267d1b2af354c82e781c5167943fe1cedb0cc4bb57aaf3f",
+    "source_bytes": 428357,
+    "source_relative_path": "raw_sources/ee585db683300b7e5267d1b2af354c82e781c5167943fe1cedb0cc4bb57aaf3f.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/cdxs10qq120exhibit102.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/cdxs10qq120exhibit102.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/cdxs10qq120exhibit102.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:02.352665+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "9991d10133b2e67850b8e0ac55391b75cc1c4e3d5650589aac18a3cd2e3005fd",
+    "source_bytes": 25541,
+    "source_relative_path": "raw_sources/9991d10133b2e67850b8e0ac55391b75cc1c4e3d5650589aac18a3cd2e3005fd.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/exhibit101q120.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/exhibit101q120.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/exhibit101q120.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:02.554677+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "65208d941d3f42a1ae2666f07493c84a87189d6cc432387446181151abfff0ab",
+    "source_bytes": 562674,
+    "source_relative_path": "raw_sources/65208d941d3f42a1ae2666f07493c84a87189d6cc432387446181151abfff0ab.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/cdxs20200331ex311sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/cdxs20200331ex311sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/cdxs20200331ex311sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:02.720779+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "9027842b8e45acfb9a3e66fbb264910225723b82cc6b258be0f5c88d2e596b63",
+    "source_bytes": 21402,
+    "source_relative_path": "raw_sources/9027842b8e45acfb9a3e66fbb264910225723b82cc6b258be0f5c88d2e596b63.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/cdxs20200331ex312sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/cdxs20200331ex312sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/cdxs20200331ex312sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:02.902015+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "1db3f5c9fcd33489e476d314da709ec2fed2fc8685e978e0fdb36f6226bba1db",
+    "source_bytes": 21420,
+    "source_relative_path": "raw_sources/1db3f5c9fcd33489e476d314da709ec2fed2fc8685e978e0fdb36f6226bba1db.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/cdxs20200331ex321sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/cdxs20200331ex321sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000020/cdxs20200331ex321sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:03.112156+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "e3015cd3c6a67360018a4e726e51b1f11408aca78f55b20bde6abdd1f9a05fb6",
+    "source_bytes": 17395,
+    "source_relative_path": "raw_sources/e3015cd3c6a67360018a4e726e51b1f11408aca78f55b20bde6abdd1f9a05fb6.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit43v2.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit43v2.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit43v2.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:03.277358+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "5297f05740010f12ccd0dc18bb8ee528e08e62262330a7effbe7dbd8c5a7f7c5",
+    "source_bytes": 42794,
+    "source_relative_path": "raw_sources/5297f05740010f12ccd0dc18bb8ee528e08e62262330a7effbe7dbd8c5a7f7c5.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit211cdxs-2019123.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit211cdxs-2019123.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit211cdxs-2019123.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:03.461029+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "1b87c20662d06eafe1c05ac41ba1cb1b4d12d832da0209fa00d14b810aa78769",
+    "source_bytes": 14643,
+    "source_relative_path": "raw_sources/1b87c20662d06eafe1c05ac41ba1cb1b4d12d832da0209fa00d14b810aa78769.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000017/a991earningsreleaseq12.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000017/a991earningsreleaseq12.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000017/a991earningsreleaseq12.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:03.523791+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "ffe0562807f3a85a221a09e911cc69f33e3a993b2268f139ef02bf7917a04116",
+    "source_bytes": 263073,
+    "source_relative_path": "raw_sources/ffe0562807f3a85a221a09e911cc69f33e3a993b2268f139ef02bf7917a04116.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit231cdxs-20191231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit231cdxs-20191231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit231cdxs-20191231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:03.615944+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "4bf7cd2941bc7fd5fb704edc8a26db22c67205f4b7d8a96854b04dc5966bcf98",
+    "source_bytes": 14010,
+    "source_relative_path": "raw_sources/4bf7cd2941bc7fd5fb704edc8a26db22c67205f4b7d8a96854b04dc5966bcf98.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit311cdxs-20191231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit311cdxs-20191231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit311cdxs-20191231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:04.016951+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "3e9c08e9c5941a94599536addb57bb23625531a254ac775ef309dee23bb4228f",
+    "source_bytes": 22416,
+    "source_relative_path": "raw_sources/3e9c08e9c5941a94599536addb57bb23625531a254ac775ef309dee23bb4228f.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit312cdxs-20191231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit312cdxs-20191231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit312cdxs-20191231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:04.077424+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "05b6b683e2da2068c40e4cbfcf96ed2639e1a1ba5d33bdcdf6f1c750bf7bda9c",
+    "source_bytes": 22596,
+    "source_relative_path": "raw_sources/05b6b683e2da2068c40e4cbfcf96ed2639e1a1ba5d33bdcdf6f1c750bf7bda9c.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit321cdxs-20191231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit321cdxs-20191231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000008/exhibit321cdxs-20191231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:04.206273+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "f64aecc7e154532ac52648c24f2ab2114ffd5a845e5a87aac5505e0c80092618",
+    "source_bytes": 18983,
+    "source_relative_path": "raw_sources/f64aecc7e154532ac52648c24f2ab2114ffd5a845e5a87aac5505e0c80092618.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000006/codexisinvestorcallfeb27.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000006/codexisinvestorcallfeb27.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000006/codexisinvestorcallfeb27.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:04.433395+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "fb0fa74226f97243bca7e75cc2118d7621d933aa1bc5d210aa8bdb7a2cdd8c15",
+    "source_bytes": 27563,
+    "source_relative_path": "raw_sources/fb0fa74226f97243bca7e75cc2118d7621d933aa1bc5d210aa8bdb7a2cdd8c15.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000006/fy2019pressrelease991.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000006/fy2019pressrelease991.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-20-000006/fy2019pressrelease991.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:04.817276+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "8087165481c6b8286407f0aed516137f1048e387330731654a391e9fabf35fce",
+    "source_bytes": 433083,
+    "source_relative_path": "raw_sources/8087165481c6b8286407f0aed516137f1048e387330731654a391e9fabf35fce.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/ninthamendmenttolsaex102.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/ninthamendmenttolsaex102.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/ninthamendmenttolsaex102.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:04.860943+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "f61fe0801fb6060c1c385aa46df00f4201765c5b9ae71b4e261fefb7470e6bd1",
+    "source_bytes": 33597,
+    "source_relative_path": "raw_sources/f61fe0801fb6060c1c385aa46df00f4201765c5b9ae71b4e261fefb7470e6bd1.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/amendment5tositagliptinsup.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/amendment5tositagliptinsup.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/amendment5tositagliptinsup.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:04.920493+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "50162a0b52d07bd2de8127c1f326887fa91492436ba67c91bb9acd3ea37e5c50",
+    "source_bytes": 76354,
+    "source_relative_path": "raw_sources/50162a0b52d07bd2de8127c1f326887fa91492436ba67c91bb9acd3ea37e5c50.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/cdxs_20210930xex312.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/cdxs_20210930xex312.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/cdxs_20210930xex312.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:05.219916+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "c5591417eda81bac6b3f3318e8d5e3eefe15116266cf84c67a5784b864a7098a",
+    "source_bytes": 20103,
+    "source_relative_path": "raw_sources/c5591417eda81bac6b3f3318e8d5e3eefe15116266cf84c67a5784b864a7098a.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/cdxs_20210930xex311.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/cdxs_20210930xex311.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/cdxs_20210930xex311.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:05.349590+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "cc21042677c2d0ea1fbe7b3096c4553f8ad0ce2bee40eb790c02d18182942c66",
+    "source_bytes": 20085,
+    "source_relative_path": "raw_sources/cc21042677c2d0ea1fbe7b3096c4553f8ad0ce2bee40eb790c02d18182942c66.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/cdxs_20210930xex321.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/cdxs_20210930xex321.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000056/cdxs_20210930xex321.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:05.482408+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "c5c5f86abdf2649079ea42edfa88f0e26ec438f5a0aea1035a0c62ea9b39994b",
+    "source_bytes": 16226,
+    "source_relative_path": "raw_sources/c5c5f86abdf2649079ea42edfa88f0e26ec438f5a0aea1035a0c62ea9b39994b.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000045/cdxspressreleaseex090921.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000045/cdxspressreleaseex090921.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000045/cdxspressreleaseex090921.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:05.698543+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "75b59241d6dd2f0c20e074dbb0a9cc82861f0eafba0b9553eb1d572978d31711",
+    "source_bytes": 18056,
+    "source_relative_path": "raw_sources/75b59241d6dd2f0c20e074dbb0a9cc82861f0eafba0b9553eb1d572978d31711.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000054/pressreleaseq32021ex991.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000054/pressreleaseq32021ex991.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000054/pressreleaseq32021ex991.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:05.954234+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "aa65c5d63cc4fb3ef704187359db094e793a5bef6d75fe9273eceaf9e96f439d",
+    "source_bytes": 215336,
+    "source_relative_path": "raw_sources/aa65c5d63cc4fb3ef704187359db094e793a5bef6d75fe9273eceaf9e96f439d.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000038/cdxs_20210630xex311sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000038/cdxs_20210630xex311sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000038/cdxs_20210630xex311sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:06.035500+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "3281c4646b644312c5a9d3156a4146a63077aca13df2e292edae69439105e176",
+    "source_bytes": 19270,
+    "source_relative_path": "raw_sources/3281c4646b644312c5a9d3156a4146a63077aca13df2e292edae69439105e176.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000038/cdxs_20210630xex312sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000038/cdxs_20210630xex312sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000038/cdxs_20210630xex312sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:06.229986+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "423dfc2bb4249a17c163685a06373546126869730570bdf1c442c228f7819116",
+    "source_bytes": 19288,
+    "source_relative_path": "raw_sources/423dfc2bb4249a17c163685a06373546126869730570bdf1c442c228f7819116.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000038/cdxs_20210630xex321sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000038/cdxs_20210630xex321sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000038/cdxs_20210630xex321sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:06.289905+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "cc0e5c0f7ff9eab527ad10715a2fb735aa1a75dfc705e78214cccf6821d8e63d",
+    "source_bytes": 15406,
+    "source_relative_path": "raw_sources/cc0e5c0f7ff9eab527ad10715a2fb735aa1a75dfc705e78214cccf6821d8e63d.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000036/a991earningsreleaseq22021u.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000036/a991earningsreleaseq22021u.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000036/a991earningsreleaseq22021u.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:06.437033+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "7feec4a1427c1ea0a95fbb0af83e0ced3896dce5734e17fea640e8937395156e",
+    "source_bytes": 210895,
+    "source_relative_path": "raw_sources/7feec4a1427c1ea0a95fbb0af83e0ced3896dce5734e17fea640e8937395156e.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155123/d207309dex51.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155123/d207309dex51.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155123/d207309dex51.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:06.843112+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "257d7bef1a1ce122a93ee81a5bff200dcc2958e5539e7b2e10f72cc72d7dc278",
+    "source_bytes": 21466,
+    "source_relative_path": "raw_sources/257d7bef1a1ce122a93ee81a5bff200dcc2958e5539e7b2e10f72cc72d7dc278.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155123/d207309dex11.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155123/d207309dex11.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155123/d207309dex11.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:06.899754+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "f4c2e7baba1a55e15e9098a4e10e0ab467d421598245ad1712bb8a6577735cb0",
+    "source_bytes": 192073,
+    "source_relative_path": "raw_sources/f4c2e7baba1a55e15e9098a4e10e0ab467d421598245ad1712bb8a6577735cb0.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155054/d191061dex47.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155054/d191061dex47.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155054/d191061dex47.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:07.052410+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "f61d0d43276c9dc9ed78f0321175b8d6cd5ca4ec17410ca040015e0c4196fa79",
+    "source_bytes": 302530,
+    "source_relative_path": "raw_sources/f61d0d43276c9dc9ed78f0321175b8d6cd5ca4ec17410ca040015e0c4196fa79.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155054/d191061dex232.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155054/d191061dex232.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155054/d191061dex232.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:07.235503+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "39a7cd2f052efe9225324edd180a6a72cc59c8681fcf35761e367ebe0a0bd049",
+    "source_bytes": 12161,
+    "source_relative_path": "raw_sources/39a7cd2f052efe9225324edd180a6a72cc59c8681fcf35761e367ebe0a0bd049.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155054/d191061dex51.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155054/d191061dex51.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001193125-21-155054/d191061dex51.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:07.302986+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "7bdcd79b8a8331293e58b29c36ae5f95bd3640125a47290612ac6da4c5310200",
+    "source_bytes": 33325,
+    "source_relative_path": "raw_sources/7bdcd79b8a8331293e58b29c36ae5f95bd3640125a47290612ac6da4c5310200.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000028/exhibit101codexisaresancar.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000028/exhibit101codexisaresancar.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000028/exhibit101codexisaresancar.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:07.498130+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "ab02e51f7f787a3cfb374507872d92cd0c6e1924d13c9ac272eab07a4bb6d44e",
+    "source_bytes": 445798,
+    "source_relative_path": "raw_sources/ab02e51f7f787a3cfb374507872d92cd0c6e1924d13c9ac272eab07a4bb6d44e.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000028/cdxs_20210331xex311sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000028/cdxs_20210331xex311sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000028/cdxs_20210331xex311sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:07.591096+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "77a1b35bf05ca7ecf920164fea8b25d24e1247880a98af0b323e9ec8b42789ff",
+    "source_bytes": 19551,
+    "source_relative_path": "raw_sources/77a1b35bf05ca7ecf920164fea8b25d24e1247880a98af0b323e9ec8b42789ff.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000028/cdxs_20210331xex312sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000028/cdxs_20210331xex312sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000028/cdxs_20210331xex312sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:07.743594+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "0b596bc735d92b3161ba8bf3355a5c10b25f742a9bfc902f102027d0ab606cf4",
+    "source_bytes": 19569,
+    "source_relative_path": "raw_sources/0b596bc735d92b3161ba8bf3355a5c10b25f742a9bfc902f102027d0ab606cf4.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000028/cdxs_20210331xex321sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000028/cdxs_20210331xex321sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000028/cdxs_20210331xex321sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:08.096352+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d25d0c3dbd1a6299409e760bfa3e3e496e6d7ecdd4425336e408db3281359bb5",
+    "source_bytes": 15706,
+    "source_relative_path": "raw_sources/d25d0c3dbd1a6299409e760bfa3e3e496e6d7ecdd4425336e408db3281359bb5.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000021/ex231auditconsent.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000021/ex231auditconsent.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000021/ex231auditconsent.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:08.103951+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "8ba03e076cbed8870b87c95777aa1f157a2035fb0c8e8ed344e60a78d0eaf262",
+    "source_bytes": 13972,
+    "source_relative_path": "raw_sources/8ba03e076cbed8870b87c95777aa1f157a2035fb0c8e8ed344e60a78d0eaf262.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000026/a991earningsreleaseq12021sp.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000026/a991earningsreleaseq12021sp.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000026/a991earningsreleaseq12021sp.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:08.282131+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "70ac289f33dbf94fdd75d45a31576f1c59468e2319ca51f4545b9d37110848d4",
+    "source_bytes": 143999,
+    "source_relative_path": "raw_sources/70ac289f33dbf94fdd75d45a31576f1c59468e2319ca51f4545b9d37110848d4.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000021/exhibit312cdxs-20201231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000021/exhibit312cdxs-20201231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000021/exhibit312cdxs-20201231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:08.455056+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "a65bdc995f382d5056458ad0999554148d28147a970ad405314a325ea509ac97",
+    "source_bytes": 19961,
+    "source_relative_path": "raw_sources/a65bdc995f382d5056458ad0999554148d28147a970ad405314a325ea509ac97.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000021/exhibit311cdxs-20201231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000021/exhibit311cdxs-20201231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000021/exhibit311cdxs-20201231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:08.590514+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "701306090554cd9828b5f4fb3b2f7cdad5cacf366051b06c8e807b9ec03f994a",
+    "source_bytes": 19821,
+    "source_relative_path": "raw_sources/701306090554cd9828b5f4fb3b2f7cdad5cacf366051b06c8e807b9ec03f994a.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000021/exhibit321cdxs-20201231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000021/exhibit321cdxs-20201231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000021/exhibit321cdxs-20201231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:08.789982+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "f984ac5522b76c9b601d842598a712dbacc0469ee963c60292b76ad4a3a34d9a",
+    "source_bytes": 16105,
+    "source_relative_path": "raw_sources/f984ac5522b76c9b601d842598a712dbacc0469ee963c60292b76ad4a3a34d9a.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000018/fy2020pressrelease991.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000018/fy2020pressrelease991.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000018/fy2020pressrelease991.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:09.128028+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d913e28bfe316407c0bc97d2bd22b87d6929e1c4cfe7367e4580129d7a51ec9a",
+    "source_bytes": 209675,
+    "source_relative_path": "raw_sources/d913e28bfe316407c0bc97d2bd22b87d6929e1c4cfe7367e4580129d7a51ec9a.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000018/codexisearningsconfcalls.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000018/codexisearningsconfcalls.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-21-000018/codexisearningsconfcalls.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:09.188596+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "6bd1d387f2d2ac78ab135f1aea7c16abd0429f519dacaf64bb43039b52806ee6",
+    "source_bytes": 19637,
+    "source_relative_path": "raw_sources/6bd1d387f2d2ac78ab135f1aea7c16abd0429f519dacaf64bb43039b52806ee6.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/exhibit43cdxs-20211231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/exhibit43cdxs-20211231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/exhibit43cdxs-20211231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:09.343658+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "1b92678aa14a7fdbeb7e385a8dd378aedbb9d09d67fc3ede0948240fa096fffd",
+    "source_bytes": 41782,
+    "source_relative_path": "raw_sources/1b92678aa14a7fdbeb7e385a8dd378aedbb9d09d67fc3ede0948240fa096fffd.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/ex231auditconsent20211231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/ex231auditconsent20211231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/ex231auditconsent20211231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:09.540146+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "12ff618afdc2492c2925692093732d09a3905a402700e03ac9d8f250f85e8a02",
+    "source_bytes": 14074,
+    "source_relative_path": "raw_sources/12ff618afdc2492c2925692093732d09a3905a402700e03ac9d8f250f85e8a02.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/exhibit311cdxs-20211231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/exhibit311cdxs-20211231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/exhibit311cdxs-20211231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:09.929650+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "b1e6fd6f5a1f9cdfd85d12b0517bbcc68a97c05f0c515b1519ef49f0858f8a57",
+    "source_bytes": 20636,
+    "source_relative_path": "raw_sources/b1e6fd6f5a1f9cdfd85d12b0517bbcc68a97c05f0c515b1519ef49f0858f8a57.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/exhibit1013acdxs-20211231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/exhibit1013acdxs-20211231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/exhibit1013acdxs-20211231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:09.991858+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "684ecf25af10cecac7e61d4f533db169abff58cd71eab11b3a292f13e2a0fdec",
+    "source_bytes": 2125195,
+    "source_relative_path": "raw_sources/684ecf25af10cecac7e61d4f533db169abff58cd71eab11b3a292f13e2a0fdec.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/exhibit312cdxs-20211231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/exhibit312cdxs-20211231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/exhibit312cdxs-20211231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:10.179644+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "0bc25a3f5ed03d50d88501db37bccfb6d7eec157b7172feb22b4628f4e3e9430",
+    "source_bytes": 20776,
+    "source_relative_path": "raw_sources/0bc25a3f5ed03d50d88501db37bccfb6d7eec157b7172feb22b4628f4e3e9430.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/exhibit321cdxs-20211231.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/exhibit321cdxs-20211231.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000010/exhibit321cdxs-20211231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:10.299966+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "421a66763464c1764a4014915e80191948888c59834600fce55a3ba1ec9e89b2",
+    "source_bytes": 16920,
+    "source_relative_path": "raw_sources/421a66763464c1764a4014915e80191948888c59834600fce55a3ba1ec9e89b2.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000006/cdxsearningscallslides_v.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000006/cdxsearningscallslides_v.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000006/cdxsearningscallslides_v.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:10.540539+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "0bd61dc483b2224d2da1911ec093a079b5090230a2295d229a26c34c593a4b86",
+    "source_bytes": 23881,
+    "source_relative_path": "raw_sources/0bd61dc483b2224d2da1911ec093a079b5090230a2295d229a26c34c593a4b86.html"
+  },
+  "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000006/fy2021pressrelease991.htm": {
+    "url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000006/fy2021pressrelease991.htm",
+    "resolved_url": "https://ir.codexis.com/sec-filings/all-sec-filings/content/0001200375-22-000006/fy2021pressrelease991.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:10.645828+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "adb65f5edf4ee060f59fbbbafd3246401e10b9043e4e905eeeedce4efc72a38f",
+    "source_bytes": 215680,
+    "source_relative_path": "raw_sources/adb65f5edf4ee060f59fbbbafd3246401e10b9043e4e905eeeedce4efc72a38f.html"
+  }
+}

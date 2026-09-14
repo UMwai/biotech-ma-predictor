@@ -1,0 +1,43 @@
+{
+  "records": [
+    {
+      "baseline_review": {
+        "source_sha256": "a5d79bc40d51705201474f053617bc61dbf9149d1652b356ce4cbf7418efaf06",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/PAND_baseline_review.json"
+      },
+      "biotech_eligible": true,
+      "biotech_source_uri": "https://www.sec.gov/Archives/edgar/data/1807901/000119312521055823/d61211dex992.htm",
+      "cik": 1807901,
+      "company_name": "Pandion Therapeutics, Inc.",
+      "evidence_paraphrase": "The archived exchange addition table names PAND among operating biotechnology issuers effective December 21, 2020. Merck names Nasdaq PAND common stock when commencing its offer March 4. The conservative interval ends at the start of that documented listed day.",
+      "exchange": "Nasdaq",
+      "exchange_frame_source": {
+        "bytes": 157264,
+        "content_type": "text/html; charset=UTF-8",
+        "resolved_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "retrieved_at": "2026-09-08T17:20:38.390390+00:00",
+        "source_relative_path": "raw/923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955.html",
+        "source_sha256": "923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955",
+        "source_uri": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6"
+      },
+      "identity_source_locator": "Target company named on filing cover, common-stock class, subject issuer CIK in immutable SEC accession path; announcement exhibit explicitly names historical Nasdaq ticker.",
+      "identity_source_uri": "https://www.sec.gov/Archives/edgar/data/1807901/000119312521069722/d112288dsc14d9.htm",
+      "independent_human_review": false,
+      "interval_method": "Conservative retrospective membership interval from actual exchange membership through a subsequently evidenced listed date; no claim of continuous current index membership or daily executable liquidity.",
+      "kind": "historical_exchange_membership",
+      "original_source_sha256": null,
+      "pending_transaction_review_complete": true,
+      "primary_source_uri": "https://www.sec.gov/Archives/edgar/data/64978/000119312521069582/d88803dex99a1g.htm",
+      "raw_bytes_archived": false,
+      "reviewed_at": "2026-09-08T18:23:26.321520+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "security_type": "common_equity",
+      "source_locator": "Nasdaq December 2020 addition table, PAND row, plus Merck Begins Tender Offer, March 4, 2021 dateline and opening paragraph",
+      "ticker": "PAND",
+      "valid_from": "2020-12-21T00:00:00+00:00",
+      "valid_until": "2021-03-04T00:00:00+00:00"
+    }
+  ],
+  "reviewed_at": "2026-09-08T18:23:26.321520+00:00",
+  "schema_version": "reviewed-historical-membership-v1"
+}

@@ -1,0 +1,56 @@
+{
+  "records": [
+    {
+      "baseline_review": {
+        "source_sha256": "7ab31c8a6dadc628b2b62eb06511c6ce6f8aee3e0391c9ab8fbdb868fc949337",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/CNST_baseline_review.json"
+      },
+      "biotech_eligible": true,
+      "biotech_source_uri": "https://www.sec.gov/Archives/edgar/data/1434418/000119312521180060/d182948dex992.htm",
+      "cik": 1434418,
+      "cohort_entry_at": "2020-12-21T00:00:00+00:00",
+      "company_name": "Constellation Pharmaceuticals, Inc.",
+      "evidence_paraphrase": "The issuer identifies CNST common stock on Nasdaq and states that public trading began July 19, 2018. Its FY2020 Item 5 describes the same shares' cumulative stockholder-return history from that IPO through December 31, 2020. This explicit historical interval covers the September 30-December 30, 2020 lookback. The archived exchange addition table names CNST among operating biotechnology issuers effective December 21, 2020. The exchange names CNST common stock and July 14, 2021 as its last trading date. Trading halted at 8 p.m. Eastern July 14, equivalent to July 15 00:00 UTC. This is an updated retrospective notice, not an original July 8 publication-time claim.",
+      "exchange": "Nasdaq",
+      "exchange_frame_source": {
+        "bytes": 157264,
+        "content_type": "text/html; charset=UTF-8",
+        "resolved_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "retrieved_at": "2026-09-08T17:20:38.390390+00:00",
+        "source_relative_path": "raw/923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955.html",
+        "source_sha256": "923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955",
+        "source_uri": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6"
+      },
+      "identity_source_locator": "Target company named on filing cover, common-stock class, subject issuer CIK in immutable SEC accession path; announcement exhibit explicitly names historical Nasdaq ticker.",
+      "identity_source_uri": "https://www.sec.gov/Archives/edgar/data/1434418/000119312521192262/d148389dsc14d9.htm",
+      "independent_human_review": false,
+      "interval_method": "Bounded retrospective identity interval beginning September 30, 2020, supported by explicit original-filing common-stock trading history. The fixed Nasdaq cohort entry remains December 21, 2020 and the previously reviewed interval end is retained. This is not an assertion that index selection occurred earlier or that the evidence was reviewed historically.",
+      "kind": "historical_exchange_membership",
+      "listing_lookback_review": {
+        "source_bytes": 5743,
+        "source_relative_path": "positive_reviews/listing_lookback_20260913/CNST_listing_lookback_review.json",
+        "source_sha256": "fcb5f5f8c3972f1222b175b2937f64e178300452dd387d5c27066450e0e6de8a",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/CNST_listing_lookback_review.json"
+      },
+      "original_source_sha256": null,
+      "pending_transaction_review_complete": true,
+      "primary_source_uri": "https://www.nasdaqtrader.com/TraderNews.aspx?id=ECA2021-129",
+      "prior_membership_review": {
+        "source_bytes": 3009,
+        "source_relative_path": "positive_reviews/listing_lookback_20260913/CNST_membership_review_prior_ab15dd7c4a1c2cdd5ddf378247a120eddc49ff67a974cf8646204d055360559f.json",
+        "source_sha256": "ab15dd7c4a1c2cdd5ddf378247a120eddc49ff67a974cf8646204d055360559f",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/CNST_membership_review_prior_ab15dd7c4a1c2cdd5ddf378247a120eddc49ff67a974cf8646204d055360559f.json"
+      },
+      "raw_bytes_archived": false,
+      "reviewed_at": "2026-09-13T16:15:03.687486+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "security_type": "common_equity",
+      "source_locator": "Nasdaq December 2020 addition table, CNST row, plus Updated Nasdaq Corporate Actions Alert ECA2021-129, Company/Issue and Last Trading Date table; lines 422-429",
+      "ticker": "CNST",
+      "valid_from": "2020-09-30T00:00:00+00:00",
+      "valid_until": "2021-07-15T00:00:00+00:00"
+    }
+  ],
+  "reviewed_at": "2026-09-13T16:15:03.687486+00:00",
+  "schema_version": "reviewed-historical-membership-v1"
+}

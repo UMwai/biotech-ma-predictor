@@ -1,0 +1,928 @@
+{
+  "cik": 1012477,
+  "end_date": "2022-03-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:54:24.406068+00:00",
+      "returned": 13,
+      "source_bytes": 10423,
+      "source_relative_path": "raw_sources/e9b69a3a3a9a9c961212d4b7cf704234842db11236a747210cd04683ad66b1fe.json",
+      "source_sha256": "e9b69a3a3a9a9c961212d4b7cf704234842db11236a747210cd04683ad66b1fe",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001012477&dateRange=custom&startdt=2022-01-01&enddt=2022-03-31&from=0&size=100",
+      "total": 13
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001104659-22-034756",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1012477/000110465922034756/tm229385d2_8k.htm"
+      ],
+      "ciks": [
+        "0001012477"
+      ],
+      "display_names": [
+        "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)"
+      ],
+      "document_name": "tm229385d2_8k.htm",
+      "filed_date": "2022-03-17",
+      "form": "8-K",
+      "id": "0001104659-22-034756:tm229385d2_8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-22-034756:tm229385d2_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-034756",
+          "biz_locations": [
+            "Dublin, L2"
+          ],
+          "biz_states": [
+            "L2"
+          ],
+          "ciks": [
+            "0001012477"
+          ],
+          "display_names": [
+            "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)"
+          ],
+          "file_date": "2022-03-17",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-37977"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22746768"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2022-03-17",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1647475200000,
+          "0001104659-22-034756:tm229385d2_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-034566",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1012477/000110465922034566/tm229276d1_s8.htm"
+      ],
+      "ciks": [
+        "0001012477"
+      ],
+      "display_names": [
+        "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)"
+      ],
+      "document_name": "tm229276d1_s8.htm",
+      "filed_date": "2022-03-16",
+      "form": "S-8",
+      "id": "0001104659-22-034566:tm229276d1_s8.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-034566:tm229276d1_s8.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-034566",
+          "biz_locations": [
+            "Dublin, L2"
+          ],
+          "biz_states": [
+            "L2"
+          ],
+          "ciks": [
+            "0001012477"
+          ],
+          "display_names": [
+            "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)"
+          ],
+          "file_date": "2022-03-16",
+          "file_description": "S-8",
+          "file_num": [
+            "333-263620"
+          ],
+          "file_type": "S-8",
+          "film_num": [
+            "22745707"
+          ],
+          "form": "S-8",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1647388800000,
+          "0001104659-22-034566:tm229276d1_s8.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-034490",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1012477/000110465922034490/tm229385d1_8k.htm"
+      ],
+      "ciks": [
+        "0001012477"
+      ],
+      "display_names": [
+        "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)"
+      ],
+      "document_name": "tm229385d1_8k.htm",
+      "filed_date": "2022-03-16",
+      "form": "8-K",
+      "id": "0001104659-22-034490:tm229385d1_8k.htm",
+      "items": [
+        "1.01",
+        "3.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-22-034490:tm229385d1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-034490",
+          "biz_locations": [
+            "Dublin, L2"
+          ],
+          "biz_states": [
+            "L2"
+          ],
+          "ciks": [
+            "0001012477"
+          ],
+          "display_names": [
+            "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)"
+          ],
+          "file_date": "2022-03-16",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-37977"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22745076"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "1.01",
+            "3.02",
+            "9.01"
+          ],
+          "period_ending": "2022-03-16",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1647388800000,
+          "0001104659-22-034490:tm229385d1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001012477-22-000004",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1012477/000101247722000004/avdl-20211231.htm"
+      ],
+      "ciks": [
+        "0001012477"
+      ],
+      "display_names": [
+        "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)"
+      ],
+      "document_name": "avdl-20211231.htm",
+      "filed_date": "2022-03-16",
+      "form": "10-K",
+      "id": "0001012477-22-000004:avdl-20211231.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001012477-22-000004:avdl-20211231.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001012477-22-000004",
+          "biz_locations": [
+            "Dublin, L2"
+          ],
+          "biz_states": [
+            "L2"
+          ],
+          "ciks": [
+            "0001012477"
+          ],
+          "display_names": [
+            "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)"
+          ],
+          "file_date": "2022-03-16",
+          "file_description": "10-K",
+          "file_num": [
+            "001-37977"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "22744845"
+          ],
+          "form": "10-K",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2021-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1647388800000,
+          "0001012477-22-000004:avdl-20211231.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-032648",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1012477/000110465922032648/tm228962d1_8k.htm"
+      ],
+      "ciks": [
+        "0001012477"
+      ],
+      "display_names": [
+        "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)"
+      ],
+      "document_name": "tm228962d1_8k.htm",
+      "filed_date": "2022-03-11",
+      "form": "8-K",
+      "id": "0001104659-22-032648:tm228962d1_8k.htm",
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-22-032648:tm228962d1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-032648",
+          "biz_locations": [
+            "Dublin, L2"
+          ],
+          "biz_states": [
+            "L2"
+          ],
+          "ciks": [
+            "0001012477"
+          ],
+          "display_names": [
+            "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)"
+          ],
+          "file_date": "2022-03-11",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-37977"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22731124"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2022-03-11",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1646956800000,
+          "0001104659-22-032648:tm228962d1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-22-001332",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1911501/000117911022001332/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1012477/000117911022001332/edgar.xml"
+      ],
+      "ciks": [
+        "0001911501",
+        "0001012477"
+      ],
+      "display_names": [
+        "Williamson Douglas J  (CIK 0001911501)",
+        "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2022-02-16",
+      "form": "4",
+      "id": "0001179110-22-001332:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-22-001332:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-22-001332",
+          "biz_locations": [
+            "",
+            "Dublin, L2"
+          ],
+          "biz_states": [
+            "L2"
+          ],
+          "ciks": [
+            "0001911501",
+            "0001012477"
+          ],
+          "display_names": [
+            "Williamson Douglas J  (CIK 0001911501)",
+            "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)"
+          ],
+          "file_date": "2022-02-16",
+          "file_description": "FORM 4 -",
+          "file_num": [
+            "001-37977"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22644150"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2022-02-14",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1644969600000,
+          "0001179110-22-001332:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001179110-22-001319",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1911501/000117911022001319/edgar.xml",
+        "https://www.sec.gov/Archives/edgar/data/1012477/000117911022001319/edgar.xml"
+      ],
+      "ciks": [
+        "0001911501",
+        "0001012477"
+      ],
+      "display_names": [
+        "Williamson Douglas J  (CIK 0001911501)",
+        "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)"
+      ],
+      "document_name": "edgar.xml",
+      "filed_date": "2022-02-16",
+      "form": "3",
+      "id": "0001179110-22-001319:edgar.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001179110-22-001319:edgar.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001179110-22-001319",
+          "biz_locations": [
+            "",
+            "Dublin, L2"
+          ],
+          "biz_states": [
+            "L2"
+          ],
+          "ciks": [
+            "0001911501",
+            "0001012477"
+          ],
+          "display_names": [
+            "Williamson Douglas J  (CIK 0001911501)",
+            "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)"
+          ],
+          "file_date": "2022-02-16",
+          "file_description": "FORM 3 -",
+          "file_num": [
+            "001-37977"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "22643900"
+          ],
+          "form": "3",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2022-02-14",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1644969600000,
+          "0001179110-22-001319:edgar.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001172661-22-000465",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1012477/000117266122000465/polar-avdl123121a1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1837309/000117266122000465/polar-avdl123121a1.htm"
+      ],
+      "ciks": [
+        "0001012477",
+        "0001837309"
+      ],
+      "display_names": [
+        "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)",
+        "Polar Capital Holdings Plc  (CIK 0001837309)"
+      ],
+      "document_name": "polar-avdl123121a1.htm",
+      "filed_date": "2022-02-14",
+      "form": "SC 13G/A",
+      "id": "0001172661-22-000465:polar-avdl123121a1.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001172661-22-000465:polar-avdl123121a1.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001172661-22-000465",
+          "biz_locations": [
+            "Dublin, L2",
+            "London, X0"
+          ],
+          "biz_states": [
+            "L2",
+            "X0"
+          ],
+          "ciks": [
+            "0001012477",
+            "0001837309"
+          ],
+          "display_names": [
+            "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)",
+            "Polar Capital Holdings Plc  (CIK 0001837309)"
+          ],
+          "file_date": "2022-02-14",
+          "file_description": null,
+          "file_num": [
+            "005-50223"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22626921"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "X0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644796800000,
+          "0001172661-22-000465:polar-avdl123121a1.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000902664-22-001584",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1012477/000090266422001584/p22-0275sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1493215/000090266422001584/p22-0275sc13ga.htm"
+      ],
+      "ciks": [
+        "0001012477",
+        "0001493215"
+      ],
+      "display_names": [
+        "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)",
+        "RTW INVESTMENTS, LP  (CIK 0001493215)"
+      ],
+      "document_name": "p22-0275sc13ga.htm",
+      "filed_date": "2022-02-14",
+      "form": "SC 13G/A",
+      "id": "0000902664-22-001584:p22-0275sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000902664-22-001584:p22-0275sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000902664-22-001584",
+          "biz_locations": [
+            "Dublin, L2",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "L2",
+            "NY"
+          ],
+          "ciks": [
+            "0001012477",
+            "0001493215"
+          ],
+          "display_names": [
+            "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)",
+            "RTW INVESTMENTS, LP  (CIK 0001493215)"
+          ],
+          "file_date": "2022-02-14",
+          "file_description": "AVADEL PHARMACEUTICALS PLC",
+          "file_num": [
+            "005-50223"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22625446"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644796800000,
+          "0000902664-22-001584:p22-0275sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001213900-22-007083",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1012477/000121390022007083/ea155472-13ga1vivo_avadel.htm",
+        "https://www.sec.gov/Archives/edgar/data/1728970/000121390022007083/ea155472-13ga1vivo_avadel.htm"
+      ],
+      "ciks": [
+        "0001012477",
+        "0001728970"
+      ],
+      "display_names": [
+        "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)",
+        "Vivo Opportunity, LLC  (CIK 0001728970)"
+      ],
+      "document_name": "ea155472-13ga1vivo_avadel.htm",
+      "filed_date": "2022-02-11",
+      "form": "SC 13G/A",
+      "id": "0001213900-22-007083:ea155472-13ga1vivo_avadel.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001213900-22-007083:ea155472-13ga1vivo_avadel.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001213900-22-007083",
+          "biz_locations": [
+            "Dublin, L2",
+            "Palo Alto, CA"
+          ],
+          "biz_states": [
+            "L2",
+            "CA"
+          ],
+          "ciks": [
+            "0001012477",
+            "0001728970"
+          ],
+          "display_names": [
+            "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)",
+            "Vivo Opportunity, LLC  (CIK 0001728970)"
+          ],
+          "file_date": "2022-02-11",
+          "file_description": "AMENDMENT NO. 1 TO SCHEDULE 13G",
+          "file_num": [
+            "005-50223"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22622824"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644537600000,
+          "0001213900-22-007083:ea155472-13ga1vivo_avadel.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000902664-22-001527",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1012477/000090266422001527/p22-0475sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1633313/000090266422001527/p22-0475sc13ga.htm"
+      ],
+      "ciks": [
+        "0001012477",
+        "0001633313"
+      ],
+      "display_names": [
+        "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)",
+        "Avoro Capital Advisors LLC  (CIK 0001633313)"
+      ],
+      "document_name": "p22-0475sc13ga.htm",
+      "filed_date": "2022-02-11",
+      "form": "SC 13G/A",
+      "id": "0000902664-22-001527:p22-0475sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000902664-22-001527:p22-0475sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000902664-22-001527",
+          "biz_locations": [
+            "Dublin, L2",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "L2",
+            "NY"
+          ],
+          "ciks": [
+            "0001012477",
+            "0001633313"
+          ],
+          "display_names": [
+            "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)",
+            "Avoro Capital Advisors LLC  (CIK 0001633313)"
+          ],
+          "file_date": "2022-02-11",
+          "file_description": "ARENA PHARMACEUTICALS, INC.",
+          "file_num": [
+            "005-50223"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22617365"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644537600000,
+          "0000902664-22-001527:p22-0475sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001041062-22-000034",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1012477/000104106222000034/Avadel_Pharmaceuticals.txt",
+        "https://www.sec.gov/Archives/edgar/data/1015079/000104106222000034/Avadel_Pharmaceuticals.txt"
+      ],
+      "ciks": [
+        "0001012477",
+        "0001015079"
+      ],
+      "display_names": [
+        "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)",
+        "BRANDES INVESTMENT PARTNERS, LP  (CIK 0001015079)"
+      ],
+      "document_name": "Avadel_Pharmaceuticals.txt",
+      "filed_date": "2022-02-08",
+      "form": "SC 13G/A",
+      "id": "0001041062-22-000034:Avadel_Pharmaceuticals.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0001041062-22-000034:Avadel_Pharmaceuticals.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001041062-22-000034",
+          "biz_locations": [
+            "Dublin, L2",
+            "La Jolla, CA"
+          ],
+          "biz_states": [
+            "L2",
+            "CA"
+          ],
+          "ciks": [
+            "0001012477",
+            "0001015079"
+          ],
+          "display_names": [
+            "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)",
+            "BRANDES INVESTMENT PARTNERS, LP  (CIK 0001015079)"
+          ],
+          "file_date": "2022-02-08",
+          "file_description": null,
+          "file_num": [
+            "005-50223"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22600157"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644278400000,
+          "0001041062-22-000034:Avadel_Pharmaceuticals.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0001085146-22-000274",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1012477/000108514622000274/avdla1_12122.htm",
+        "https://www.sec.gov/Archives/edgar/data/48966/000108514622000274/avdla1_12122.htm"
+      ],
+      "ciks": [
+        "0001012477",
+        "0000048966"
+      ],
+      "display_names": [
+        "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)",
+        "COWEN AND COMPANY, LLC  (CIK 0000048966)"
+      ],
+      "document_name": "avdla1_12122.htm",
+      "filed_date": "2022-01-21",
+      "form": "SC 13G/A",
+      "id": "0001085146-22-000274:avdla1_12122.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001085146-22-000274:avdla1_12122.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001085146-22-000274",
+          "biz_locations": [
+            "Dublin, L2",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "L2",
+            "NY"
+          ],
+          "ciks": [
+            "0001012477",
+            "0000048966"
+          ],
+          "display_names": [
+            "AVADEL PHARMACEUTICALS PLC  (AVDL)  (CIK 0001012477)",
+            "COWEN AND COMPANY, LLC  (CIK 0000048966)"
+          ],
+          "file_date": "2022-01-21",
+          "file_description": "COWEN AND COMPANY, LLC",
+          "file_num": [
+            "005-50223"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22544709"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1642723200000,
+          "0001085146-22-000274:avdla1_12122.htm"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2022-01-01",
+  "ticker": "AVDL",
+  "total": 13
+}

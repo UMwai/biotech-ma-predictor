@@ -1,0 +1,118 @@
+{
+  "cik": 1175505,
+  "event": {
+    "announcement_date": "2020-11-10",
+    "announcement_date_basis": "The issuer's later December 2020 release expressly dates the FIGHT topline announcement November 10, 2020; partner Zai Lab's release is displayed November 10, 2020 at 19:00 ET.",
+    "event_class": "clinical_trial_topline_results",
+    "evidence_paraphrase": "Five Prime reported favorable Phase 2 FIGHT topline results in advanced gastric or gastroesophageal-junction cancer. The issuer said all three efficacy endpoints met its prespecified two-sided alpha of 0.20. The release also described adverse-event and treatment-discontinuation differences and planned further evaluation; this was clinical-trial news, not regulatory approval.",
+    "exact_first_public_timestamp_verified": false,
+    "first_public_announcement_at": null,
+    "timestamp_precision": "date",
+    "title": "Five Prime announces positive Phase 2 FIGHT topline results for bemarituzumab plus chemotherapy"
+  },
+  "independent_human_review": false,
+  "interpretation": {
+    "causal_attribution_verified": false,
+    "clinical_news_is_plausible_price_move_explanation": true,
+    "corporate_action_or_split_absence_verified": false,
+    "feature_values_modified": false,
+    "guard_override_approved": false,
+    "labels_or_outcome_clocks_modified": false,
+    "model_training_performed": false,
+    "reason": "The dated clinical announcement precedes the next-session jump and provides a plausible news catalyst. It does not prove that no split, other corporate action or vendor-data defect affected the raw price series. The existing discontinuity guard remains in force.",
+    "remaining_feature_gaps": [
+      "raw_price_return_63_sessions",
+      "raw_price_volatility_63_sessions",
+      "raw_price_drawdown_63_sessions"
+    ],
+    "source_content_supports_whole_company_acquisition_announcement": false
+  },
+  "limitations": [
+    "Bounded primary-source event discovery, not a complete corporate-actions audit or causal study.",
+    "Saved bytes are current browser representations of publisher pages; original historical publisher bytes and revision history were not verified.",
+    "The release's stated 16:30 EST conference-call time and the partner's 19:00 ET publication time must not be substituted for the issuer's unverified first-public announcement timestamp."
+  ],
+  "observed_market_move": {
+    "adjustment": "raw",
+    "bars": [
+      {
+        "c": 5.34,
+        "h": 5.635,
+        "l": 5.14,
+        "n": 51096,
+        "o": 5.49,
+        "t": "2020-11-10T05:00:00Z",
+        "v": 7301400,
+        "vw": 5.346155
+      },
+      {
+        "c": 18,
+        "h": 24,
+        "l": 16.63,
+        "n": 495978,
+        "o": 22.51,
+        "t": "2020-11-11T05:00:00Z",
+        "v": 79743421,
+        "vw": 19.347288
+      }
+    ],
+    "bars_manifest_sha256": "425a3b8f297135f24cd449cb539f6981f7a99c09b1638238fe25e65039b13390",
+    "bars_manifest_uri": "file:///home/umwai/biotech-ma-predictor/output/alpaca_market_data/20260913-active/2020-12-31/alpaca-stock-bars-425a3b8f297135f24cd449cb539f6981f7a99c09b1638238fe25e65039b13390.json",
+    "close_ratio": 3.370786516853933,
+    "close_return": 2.370786516853933,
+    "feed": "sip",
+    "original_vendor_vintage_archived": false,
+    "previous_session_date": "2020-11-10",
+    "provider": "Alpaca",
+    "session_date": "2020-11-11",
+    "source_collection_sha256": "eb4ba45b4875a90d703604f12dc676519df8e43960126c1cb8d726c527ff82db",
+    "source_collection_uri": "file:///home/umwai/biotech-ma-predictor/output/alpaca_market_data/20260913-active/alpaca-panel-market-collection-eb4ba45b4875a90d703604f12dc676519df8e43960126c1cb8d726c527ff82db.json",
+    "timeframe": "1Day"
+  },
+  "primary_sources": [
+    {
+      "capture": {
+        "source_bytes": 19744,
+        "source_relative_path": "FPRX_price_jump_primary_browser_extract.json",
+        "source_sha256": "154f40e7ca40f7cebd355bbf49ee1e5aa8b1c60dfa1503fe9302967203279ba8",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/web_source_research/20260913/FPRX_price_jump_primary_browser_extract.json"
+      },
+      "original_publisher_vintage_verified": false,
+      "source_content_format": "browser_extract",
+      "source_locator": "Browser lines 26-40 identify trial findings and prespecified alpha; lines 46-48 describe the same-day 16:30 EST call; line 86 identifies Five Prime as source.",
+      "source_role": "issuer_authored_release_distributed_by_Business_Wire",
+      "source_uri": "https://www.businesswire.com/news/home/20201110006186/en/Five-Prime-Announces-Bemarituzumab-Plus-Chemotherapy-Demonstrates-Significant-Progression-Free-and-Overall-Survival-Benefit-Compared-to-Placebo-Plus-Chemotherapy-in-Front-Line-Advanced-Gastric-and-Gastroesophageal-Junction-Cancer"
+    },
+    {
+      "capture": {
+        "source_bytes": 34465,
+        "source_relative_path": "FPRX_price_jump_date_corroboration_browser_extract.json",
+        "source_sha256": "24f735d72e755a1b4dd1710b0989a93caed71a42cb0f4c5e49e60efa53d28400",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/web_source_research/20260913/FPRX_price_jump_date_corroboration_browser_extract.json"
+      },
+      "original_publisher_vintage_verified": false,
+      "source_content_format": "browser_extract",
+      "source_locator": "Browser line 31 expressly dates the initial results announcement November 10, 2020; line 84 identifies Five Prime as source.",
+      "source_role": "issuer_authored_followup_date_corroboration",
+      "source_uri": "https://www.businesswire.com/news/home/20201209006002/en/Five-Prime-to-Present-Phase-2-FIGHT-Trial-Results-of-Bemarituzumab-at-American-Society-of-Clinical-Oncology-ASCO-Gastrointestinal-GI-Cancers-Virtual-Annual-Symposium"
+    },
+    {
+      "capture": {
+        "source_bytes": 34465,
+        "source_relative_path": "FPRX_price_jump_date_corroboration_browser_extract.json",
+        "source_sha256": "24f735d72e755a1b4dd1710b0989a93caed71a42cb0f4c5e49e60efa53d28400",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/web_source_research/20260913/FPRX_price_jump_date_corroboration_browser_extract.json"
+      },
+      "original_publisher_vintage_verified": false,
+      "source_content_format": "browser_extract",
+      "source_locator": "Browser line 67 shows November 10, 2020 19:00 ET and Zai Lab source; line 80 names FPRX and the positive Phase 2 results. This is the partner release timestamp, not proof of Five Prime's first public time.",
+      "source_role": "trial_partner_authored_contemporaneous_announcement",
+      "source_uri": "https://www.globenewswire.com/news-release/2020/11/11/2124373/0/en/Zai-Lab-Partner-Five-Prime-Therapeutics-Announces-Bemarituzumab-Plus-Chemotherapy-Demonstrates-Significant-Progression-Free-and-Overall-Survival-Benefit-Compared-to-Placebo-Plus-Ch.html"
+    }
+  ],
+  "reviewed_at": "2026-09-13T16:20:10.886119+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "schema_version": "price-jump-discovery-review-v1",
+  "status": "plausible_clinical_news_catalyst_identified_corporate_actions_unverified",
+  "ticker": "FPRX"
+}

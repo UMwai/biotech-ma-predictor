@@ -1,0 +1,1692 @@
+{
+  "https://ir.sutrobio.com/financials/sec-filings": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:47:30.794942+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "41d5a3781f6c81dcb417d10a795464b336cb6f04d0b2d714a526c7cc3b3f9830",
+    "source_bytes": 92729,
+    "source_relative_path": "raw_sources/41d5a3781f6c81dcb417d10a795464b336cb6f04d0b2d714a526c7cc3b3f9830.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:47:49.813966+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "bcb27a6f7470e0cfb237ad85465574cd519be7272288a48fcee4dc5ec6fb4f58",
+    "source_bytes": 83802,
+    "source_relative_path": "raw_sources/bcb27a6f7470e0cfb237ad85465574cd519be7272288a48fcee4dc5ec6fb4f58.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:34.680088+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "93c5ab1ba6707b4da6cad462230f35f34a314b063d21b0532d9217886afa36f3",
+    "source_bytes": 83056,
+    "source_relative_path": "raw_sources/93c5ab1ba6707b4da6cad462230f35f34a314b063d21b0532d9217886afa36f3.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=2": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=2",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=2",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:35.169959+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "9373e8395ec0983d203c8ce79a5d8797cc2a0604209d7f9cbb8ea7aa3b553477",
+    "source_bytes": 83382,
+    "source_relative_path": "raw_sources/9373e8395ec0983d203c8ce79a5d8797cc2a0604209d7f9cbb8ea7aa3b553477.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=3": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=3",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=3",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:35.751257+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "1b5ff849b6e329e0d95c5aaae0802453c04ffccd762b9ab113fc1dfde1a0a022",
+    "source_bytes": 83349,
+    "source_relative_path": "raw_sources/1b5ff849b6e329e0d95c5aaae0802453c04ffccd762b9ab113fc1dfde1a0a022.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=4": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=4",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=4",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:36.139174+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "c72f18a200107f84a8711a8117d1594993fec8b73e13a5b8155acbf3b47e6a65",
+    "source_bytes": 83383,
+    "source_relative_path": "raw_sources/c72f18a200107f84a8711a8117d1594993fec8b73e13a5b8155acbf3b47e6a65.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=5": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=5",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=5",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:36.582836+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "b38b1a2f254a62fce4d8c40ebd37656044f739b431550d3f7cf73dbff43fac88",
+    "source_bytes": 83148,
+    "source_relative_path": "raw_sources/b38b1a2f254a62fce4d8c40ebd37656044f739b431550d3f7cf73dbff43fac88.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=6": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=6",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=6",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:37.054564+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "4afc9bc01b2ad011012e0b6e0d68d7a451bf0b153eb4fc268c36a20ab5c84486",
+    "source_bytes": 82995,
+    "source_relative_path": "raw_sources/4afc9bc01b2ad011012e0b6e0d68d7a451bf0b153eb4fc268c36a20ab5c84486.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=7": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=7",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=7",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:37.539276+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "8bfac0312e431b6d41c0104037a9712ae3455388f86c379c0f4fd26204042c0c",
+    "source_bytes": 83796,
+    "source_relative_path": "raw_sources/8bfac0312e431b6d41c0104037a9712ae3455388f86c379c0f4fd26204042c0c.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=8": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=8",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2020&page=8",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:38.047021+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "65ef185ffd9a37d540f3b86e249801e9431297b7a2854f7c1bd68c4350c713b7",
+    "source_bytes": 79944,
+    "source_relative_path": "raw_sources/65ef185ffd9a37d540f3b86e249801e9431297b7a2854f7c1bd68c4350c713b7.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=2": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=2",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=2",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:38.542988+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "85c3a78288222ad87f727f798aabf15558cb0cbae680e1757ac23d89617188e0",
+    "source_bytes": 81976,
+    "source_relative_path": "raw_sources/85c3a78288222ad87f727f798aabf15558cb0cbae680e1757ac23d89617188e0.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=3": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=3",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=3",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:38.993585+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d211a66c9e2c1c03f975dd0a572264687549135d0337d40bd5c3d37bdfd9fd50",
+    "source_bytes": 82550,
+    "source_relative_path": "raw_sources/d211a66c9e2c1c03f975dd0a572264687549135d0337d40bd5c3d37bdfd9fd50.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=4": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=4",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=4",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:39.517826+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "0dc0b6bcb41a846f5318bba3240905ee70b3f8d0bde92d7f1e771e8b986517c7",
+    "source_bytes": 83903,
+    "source_relative_path": "raw_sources/0dc0b6bcb41a846f5318bba3240905ee70b3f8d0bde92d7f1e771e8b986517c7.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=5": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=5",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=5",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:39.918902+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "98e3ba8b35f38ab90a63fa4b49e60399ccab2bf68dc38d33356e078b7feb3b01",
+    "source_bytes": 82769,
+    "source_relative_path": "raw_sources/98e3ba8b35f38ab90a63fa4b49e60399ccab2bf68dc38d33356e078b7feb3b01.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=6": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=6",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=6",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:40.342081+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "1f1effbe642d3410f1bcd418907f97d9959c4599fc4d8698daf447fe8d6182c6",
+    "source_bytes": 82906,
+    "source_relative_path": "raw_sources/1f1effbe642d3410f1bcd418907f97d9959c4599fc4d8698daf447fe8d6182c6.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=7": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=7",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2021&page=7",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:40.796420+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "1fdbdfb1baf17bc3e9bac8ea0a93075ba0cc6bf803170e758e1b5f7e7aa6ce18",
+    "source_bytes": 77739,
+    "source_relative_path": "raw_sources/1fdbdfb1baf17bc3e9bac8ea0a93075ba0cc6bf803170e758e1b5f7e7aa6ce18.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:41.320897+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "145e19d1b9eec9dc058de42d13a8cb0761f2817eb9c0cb7b5afea5bff9996065",
+    "source_bytes": 84159,
+    "source_relative_path": "raw_sources/145e19d1b9eec9dc058de42d13a8cb0761f2817eb9c0cb7b5afea5bff9996065.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=2": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=2",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=2",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:41.734145+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "64bc7c4cf42b519e9cf1c4b4b3f889b30435f31c021f62826f480783b819c53d",
+    "source_bytes": 82589,
+    "source_relative_path": "raw_sources/64bc7c4cf42b519e9cf1c4b4b3f889b30435f31c021f62826f480783b819c53d.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=3": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=3",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=3",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:42.334337+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d2ced0297e66a9c895ff6f1fd865e2aa44c594a81c5b97a8a23d34b235aac65a",
+    "source_bytes": 83271,
+    "source_relative_path": "raw_sources/d2ced0297e66a9c895ff6f1fd865e2aa44c594a81c5b97a8a23d34b235aac65a.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=4": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=4",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=4",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:42.753686+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "7f4af978d53b67bdef6a9a920554b06ca2c29957b4eb89e95db6b2ffdccd90f2",
+    "source_bytes": 81592,
+    "source_relative_path": "raw_sources/7f4af978d53b67bdef6a9a920554b06ca2c29957b4eb89e95db6b2ffdccd90f2.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=5": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=5",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=5",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:43.151898+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "a71b4a9630ba67d52b8a50c308b21c972a2e1d36fb2a7436df842f6f6f223fe3",
+    "source_bytes": 83617,
+    "source_relative_path": "raw_sources/a71b4a9630ba67d52b8a50c308b21c972a2e1d36fb2a7436df842f6f6f223fe3.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=6": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=6",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=6",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:43.606964+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "4bd26e782f2675921dbcb63bdce1ffcb83697935390cdd5e02bdff5d6a918dcb",
+    "source_bytes": 82601,
+    "source_relative_path": "raw_sources/4bd26e782f2675921dbcb63bdce1ffcb83697935390cdd5e02bdff5d6a918dcb.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=7": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=7",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings?form_type=&year=2022&page=7",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:44.010852+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "7dc1365955cd621611be849018f8efefeeff0398a125fd7062de23e50d1711e6",
+    "source_bytes": 73424,
+    "source_relative_path": "raw_sources/7dc1365955cd621611be849018f8efefeeff0398a125fd7062de23e50d1711e6.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-313041/d56877ds3mef.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-313041/d56877ds3mef.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-313041/d56877ds3mef.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:44.408714+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "afdd8085181fe014f02c9774635f02f3bff52bd3466f8b34242f189fb8e526aa",
+    "source_bytes": 52280,
+    "source_relative_path": "raw_sources/afdd8085181fe014f02c9774635f02f3bff52bd3466f8b34242f189fb8e526aa.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-313802/d83118d424b5.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-313802/d83118d424b5.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-313802/d83118d424b5.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:44.597675+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "fbf361a12876bdc2ab874e3b8f4e90e6fe7808b10f7aea4f838f46e05e04b31d",
+    "source_bytes": 369420,
+    "source_relative_path": "raw_sources/fbf361a12876bdc2ab874e3b8f4e90e6fe7808b10f7aea4f838f46e05e04b31d.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056578/stro-8k_20201208.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056578/stro-8k_20201208.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056578/stro-8k_20201208.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:44.654065+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "2d8481f6ace3695abab2c9c7c19db80346907b3b6a4a809b3704a5d9cb9675bd",
+    "source_bytes": 51864,
+    "source_relative_path": "raw_sources/2d8481f6ace3695abab2c9c7c19db80346907b3b6a4a809b3704a5d9cb9675bd.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-311750/d83118d424b5.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-311750/d83118d424b5.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-311750/d83118d424b5.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:45.254939+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d9e60fa3e9f1f7f0adeaa3bb686b0857bd3d518e85000e677b7ecee363e992f4",
+    "source_bytes": 371236,
+    "source_relative_path": "raw_sources/d9e60fa3e9f1f7f0adeaa3bb686b0857bd3d518e85000e677b7ecee363e992f4.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056289/stro-8k_20201207.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056289/stro-8k_20201207.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056289/stro-8k_20201207.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:45.277541+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "017d4e12cbfd06c24abf12a923d9c2c3ab50b7708226b48a018c16d57c18e86e",
+    "source_bytes": 56011,
+    "source_relative_path": "raw_sources/017d4e12cbfd06c24abf12a923d9c2c3ab50b7708226b48a018c16d57c18e86e.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-055673/stro-8k_20201130.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-055673/stro-8k_20201130.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-055673/stro-8k_20201130.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:45.891635+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "44e428ba64333bf65c9186f4a3bac0f666c58a6652e8eec8368ba57bf690a180",
+    "source_bytes": 44168,
+    "source_relative_path": "raw_sources/44e428ba64333bf65c9186f4a3bac0f666c58a6652e8eec8368ba57bf690a180.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050851/stro-8k_20201105.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050851/stro-8k_20201105.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050851/stro-8k_20201105.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:45.913573+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "0fd07874a53b11775671c0d18f9c42e12e030e07839047d42e971737ea606507",
+    "source_bytes": 44897,
+    "source_relative_path": "raw_sources/0fd07874a53b11775671c0d18f9c42e12e030e07839047d42e971737ea606507.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056109/stro-8k_20201203.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056109/stro-8k_20201203.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056109/stro-8k_20201203.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:46.325542+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "4a8bc95d13a1439a8a4b6bd22c8995e4de90d88e7c91d631fb070684caa85b93",
+    "source_bytes": 60231,
+    "source_relative_path": "raw_sources/4a8bc95d13a1439a8a4b6bd22c8995e4de90d88e7c91d631fb070684caa85b93.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-043014/stro-8k_20200909.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-043014/stro-8k_20200909.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-043014/stro-8k_20200909.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:46.425419+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "cd84938a5a56310692c3d10b786e0786a052a2426c40a56595b712633010127c",
+    "source_bytes": 44462,
+    "source_relative_path": "raw_sources/cd84938a5a56310692c3d10b786e0786a052a2426c40a56595b712633010127c.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-10q_20200930.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-10q_20200930.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-10q_20200930.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:46.563429+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "7153c2d2a690dc50d32da6d7fe1166eaa0154dcdbc2d16ed8924baca92d3849f",
+    "source_bytes": 3662728,
+    "source_relative_path": "raw_sources/7153c2d2a690dc50d32da6d7fe1166eaa0154dcdbc2d16ed8924baca92d3849f.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-042563/stro-8k_20200903.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-042563/stro-8k_20200903.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-042563/stro-8k_20200903.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:46.947645+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "c52aa28ff544b5b4c19c390ff8db0d399a42f5f2fc3d0daf64fb3c9ae955b38e",
+    "source_bytes": 43791,
+    "source_relative_path": "raw_sources/c52aa28ff544b5b4c19c390ff8db0d399a42f5f2fc3d0daf64fb3c9ae955b38e.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-037231/stro-8k_20200806.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-037231/stro-8k_20200806.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-037231/stro-8k_20200806.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:47.018094+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "c16b86839f663e79b372d80ff90e223f7e1a85894d8495d485809292ac547b6b",
+    "source_bytes": 44823,
+    "source_relative_path": "raw_sources/c16b86839f663e79b372d80ff90e223f7e1a85894d8495d485809292ac547b6b.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-036997/stro-10q_20200630.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-036997/stro-10q_20200630.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-036997/stro-10q_20200630.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:47.276542+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "c774f1236b57f467e11071d42793507fec837c2662e7c2ff390f639a03b2b5ff",
+    "source_bytes": 3337013,
+    "source_relative_path": "raw_sources/c774f1236b57f467e11071d42793507fec837c2662e7c2ff390f639a03b2b5ff.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-029235/stro-8k_20200615.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-029235/stro-8k_20200615.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-029235/stro-8k_20200615.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:47.550505+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "840e1f2d19e51e7656ff2e4030d5421e0867ec48fb4389dc7c04d16e16585a65",
+    "source_bytes": 44109,
+    "source_relative_path": "raw_sources/840e1f2d19e51e7656ff2e4030d5421e0867ec48fb4389dc7c04d16e16585a65.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-028506/stro-8k_20200605.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-028506/stro-8k_20200605.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-028506/stro-8k_20200605.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:47.604255+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "927dd2a10f78df08d972e71e2162943db128d47eac4adfac0a189da383a25842",
+    "source_bytes": 54438,
+    "source_relative_path": "raw_sources/927dd2a10f78df08d972e71e2162943db128d47eac4adfac0a189da383a25842.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-024736/stro-8k_20200511.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-024736/stro-8k_20200511.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-024736/stro-8k_20200511.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:47.843923+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d70e9e863369726019e006763c913d692e9a2bf6c7e34eed2107be7dde7fce74",
+    "source_bytes": 51529,
+    "source_relative_path": "raw_sources/d70e9e863369726019e006763c913d692e9a2bf6c7e34eed2107be7dde7fce74.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-024242/stro-8k_20200511.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-024242/stro-8k_20200511.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-024242/stro-8k_20200511.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:48.226178+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "15a6b63556bd434645f0de1761f1048ebd8d3fc1e82023ebec8f691cd1e708e1",
+    "source_bytes": 44601,
+    "source_relative_path": "raw_sources/15a6b63556bd434645f0de1761f1048ebd8d3fc1e82023ebec8f691cd1e708e1.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-140570/d921730d424b5.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-140570/d921730d424b5.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-140570/d921730d424b5.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:48.242770+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "5aaaf32d53a6d288e4a79a186711303f143d0795cbc78884bb5336b4ee6b43c3",
+    "source_bytes": 386567,
+    "source_relative_path": "raw_sources/5aaaf32d53a6d288e4a79a186711303f143d0795cbc78884bb5336b4ee6b43c3.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-023689/stro-10q_20200331.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-023689/stro-10q_20200331.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-023689/stro-10q_20200331.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:48.425520+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "7a63360961eb76cdea9c933f29c187321972e01473ef0225d7938f412fc2bb2a",
+    "source_bytes": 2587663,
+    "source_relative_path": "raw_sources/7a63360961eb76cdea9c933f29c187321972e01473ef0225d7938f412fc2bb2a.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-020872/stro-10ka_20191231.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-020872/stro-10ka_20191231.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-020872/stro-10ka_20191231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:48.689131+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "466a698674757e7228c7d1a562b41cb7479fd82e4141ebeb205d581b901191e4",
+    "source_bytes": 334609,
+    "source_relative_path": "raw_sources/466a698674757e7228c7d1a562b41cb7479fd82e4141ebeb205d581b901191e4.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-139053/d921730d424b5.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-139053/d921730d424b5.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-139053/d921730d424b5.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:48.928214+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d9d34d7d4225e5ce6a3181e380249c9bb32eac7b0bd135cf32a0bfdd865c9acf",
+    "source_bytes": 387882,
+    "source_relative_path": "raw_sources/d9d34d7d4225e5ce6a3181e380249c9bb32eac7b0bd135cf32a0bfdd865c9acf.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-018684/stro-8k_20200427.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-018684/stro-8k_20200427.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-018684/stro-8k_20200427.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:49.132600+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "1db2daf058d2fa71c3aaf12eced19f81eb492182bb9350c2fcf9b2c8d3734a35",
+    "source_bytes": 50692,
+    "source_relative_path": "raw_sources/1db2daf058d2fa71c3aaf12eced19f81eb492182bb9350c2fcf9b2c8d3734a35.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-018532/stro-def14a_20200605.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-018532/stro-def14a_20200605.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-018532/stro-def14a_20200605.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:49.423139+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "dd3925d28e37d3ace3e352f7ff028c13995a313beb6300b8e0a7453e3707ee32",
+    "source_bytes": 836522,
+    "source_relative_path": "raw_sources/dd3925d28e37d3ace3e352f7ff028c13995a313beb6300b8e0a7453e3707ee32.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010955/stro-8k_20200316.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010955/stro-8k_20200316.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010955/stro-8k_20200316.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:49.567174+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "9fe9a5c4388e0104e55a41bf911302c3c6db348abe59cb858352f20b4a2b2921",
+    "source_bytes": 44453,
+    "source_relative_path": "raw_sources/9fe9a5c4388e0104e55a41bf911302c3c6db348abe59cb858352f20b4a2b2921.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-008232/stro-8k_20200331.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-008232/stro-8k_20200331.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-008232/stro-8k_20200331.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:50.097864+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "1ab8754bf5eb6a7565c4752a2d5b461c376341f2d2cc36a805840d7ecfb4bf6d",
+    "source_bytes": 47351,
+    "source_relative_path": "raw_sources/1ab8754bf5eb6a7565c4752a2d5b461c376341f2d2cc36a805840d7ecfb4bf6d.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-10k_20191231.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-10k_20191231.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-10k_20191231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:50.235181+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "2761511cb5f97cf1f0de00dfc396aaea3a3d5369092c2a5745a14a936f629669",
+    "source_bytes": 4583273,
+    "source_relative_path": "raw_sources/2761511cb5f97cf1f0de00dfc396aaea3a3d5369092c2a5745a14a936f629669.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-000514/stro-8k_20200108.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-000514/stro-8k_20200108.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-000514/stro-8k_20200108.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:50.338651+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d86ef1c5b435f0ed308495d6af9c6a52fedfe2f5973decb45a1846f369b90918",
+    "source_bytes": 39194,
+    "source_relative_path": "raw_sources/d86ef1c5b435f0ed308495d6af9c6a52fedfe2f5973decb45a1846f369b90918.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-21-005353/stro-20211224.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-21-005353/stro-20211224.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-21-005353/stro-20211224.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:50.722696+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "e0e39eba8e8bf8e62f689406f2f42bb707a70553218c809580083dbcce5de1c2",
+    "source_bytes": 55427,
+    "source_relative_path": "raw_sources/e0e39eba8e8bf8e62f689406f2f42bb707a70553218c809580083dbcce5de1c2.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-057374/stro-8k_20211112.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-057374/stro-8k_20211112.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-057374/stro-8k_20211112.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:50.841842+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d189346d078c46c86a7aad7a55862ce95fd0c60a5e5ae313d1be2b82a71f280d",
+    "source_bytes": 41384,
+    "source_relative_path": "raw_sources/d189346d078c46c86a7aad7a55862ce95fd0c60a5e5ae313d1be2b82a71f280d.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055917/stro-8k_20211110.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055917/stro-8k_20211110.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055917/stro-8k_20211110.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:50.914273+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "679a361871a36ead3670e440a2582856c2e252c66bb23794dcabba8a77262f39",
+    "source_bytes": 48691,
+    "source_relative_path": "raw_sources/679a361871a36ead3670e440a2582856c2e252c66bb23794dcabba8a77262f39.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-10q_20210930.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-10q_20210930.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-10q_20210930.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:51.303446+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "a1ce0570f11b427974d148bc5f1b62b7a81c8cb2493d30ae1f04434b3f859f6d",
+    "source_bytes": 3963472,
+    "source_relative_path": "raw_sources/a1ce0570f11b427974d148bc5f1b62b7a81c8cb2493d30ae1f04434b3f859f6d.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-050583/stro-8k_20211009.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-050583/stro-8k_20211009.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-050583/stro-8k_20211009.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:51.512614+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "e7c0c08e2847bf2dfc0ab0d3dc8f609236ab7787df376d60b4916c9955b5bbff",
+    "source_bytes": 41417,
+    "source_relative_path": "raw_sources/e7c0c08e2847bf2dfc0ab0d3dc8f609236ab7787df376d60b4916c9955b5bbff.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-049553/stro-8k_20210930.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-049553/stro-8k_20210930.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-049553/stro-8k_20210930.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:51.537650+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "fa28e267da3e4e0b9bb194b5f031ef6e8685f626615d3218e6b23a8426d46399",
+    "source_bytes": 43546,
+    "source_relative_path": "raw_sources/fa28e267da3e4e0b9bb194b5f031ef6e8685f626615d3218e6b23a8426d46399.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042330/stro-8k_20210809.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042330/stro-8k_20210809.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042330/stro-8k_20210809.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:51.872282+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "36e8425bc40a7af4d26c9861dc49a75b082b2f3652aa6a493de5591b1603051f",
+    "source_bytes": 45913,
+    "source_relative_path": "raw_sources/36e8425bc40a7af4d26c9861dc49a75b082b2f3652aa6a493de5591b1603051f.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-033400/stro-8k_20210616.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-033400/stro-8k_20210616.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-033400/stro-8k_20210616.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:52.141700+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "340259d3f0f6e9f7e5cca36cad16f3c8879d584e5d9a5df29f7cd41c58dc9d64",
+    "source_bytes": 41587,
+    "source_relative_path": "raw_sources/340259d3f0f6e9f7e5cca36cad16f3c8879d584e5d9a5df29f7cd41c58dc9d64.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-10q_20210630.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-10q_20210630.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-10q_20210630.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:52.276668+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "6220e520fe87b7d02d9cac532f0a907c5f73fcad65f308c8e8942daca2ee10a8",
+    "source_bytes": 3685982,
+    "source_relative_path": "raw_sources/6220e520fe87b7d02d9cac532f0a907c5f73fcad65f308c8e8942daca2ee10a8.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-031670/stro-8k_20210603.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-031670/stro-8k_20210603.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-031670/stro-8k_20210603.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:52.507111+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "5c4333e36ef151fdf27629d93765b0fd5f93cc352b530bdd291f49ac350af36c",
+    "source_bytes": 54766,
+    "source_relative_path": "raw_sources/5c4333e36ef151fdf27629d93765b0fd5f93cc352b530bdd291f49ac350af36c.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-028892/stro-8k_20210519.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-028892/stro-8k_20210519.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-028892/stro-8k_20210519.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:52.753967+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "dcbcf61d4d9d4bea2fa0093ca505cc6f6a71e99d4cffe3d00e7fbea2a74aac53",
+    "source_bytes": 48950,
+    "source_relative_path": "raw_sources/dcbcf61d4d9d4bea2fa0093ca505cc6f6a71e99d4cffe3d00e7fbea2a74aac53.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025294/stro-8k_20210507.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025294/stro-8k_20210507.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025294/stro-8k_20210507.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:52.950501+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "62b98a119dd712e6bb123adfd6873ceb0ccf3f66331ab070df38556178494604",
+    "source_bytes": 45767,
+    "source_relative_path": "raw_sources/62b98a119dd712e6bb123adfd6873ceb0ccf3f66331ab070df38556178494604.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-10q_20210331.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-10q_20210331.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-10q_20210331.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:53.323891+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "1f038f9f8c066628877357cdeccbfca041d725a911b6350392ea792134910909",
+    "source_bytes": 2824250,
+    "source_relative_path": "raw_sources/1f038f9f8c066628877357cdeccbfca041d725a911b6350392ea792134910909.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-022043/stro-def14a_20210406.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-022043/stro-def14a_20210406.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-022043/stro-def14a_20210406.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:53.464939+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "1b89ac17e5c29a81dbe7477365a4ed6da95af4059a7bf3010eab28f09c6293e1",
+    "source_bytes": 1083669,
+    "source_relative_path": "raw_sources/1b89ac17e5c29a81dbe7477365a4ed6da95af4059a7bf3010eab28f09c6293e1.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-018899/stro-8k_20210414.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-018899/stro-8k_20210414.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-018899/stro-8k_20210414.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:53.529984+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "8bbd3dbbf36a326946defe4da01320e83474b8c9f76ebfde649613b60f7a8693",
+    "source_bytes": 42156,
+    "source_relative_path": "raw_sources/8bbd3dbbf36a326946defe4da01320e83474b8c9f76ebfde649613b60f7a8693.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369ds3asr.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369ds3asr.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369ds3asr.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:54.006017+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "bd3409eac3adbd2fb461845fff194bf8c82af4a020f359c0461c9b7887566b37",
+    "source_bytes": 389936,
+    "source_relative_path": "raw_sources/bd3409eac3adbd2fb461845fff194bf8c82af4a020f359c0461c9b7887566b37.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-014003/stro-8k_20210318.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-014003/stro-8k_20210318.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-014003/stro-8k_20210318.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:54.088534+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "90037e7877d89182d6e077065c2160b30a9a458685a3c49d72b482fc96569a4b",
+    "source_bytes": 44831,
+    "source_relative_path": "raw_sources/90037e7877d89182d6e077065c2160b30a9a458685a3c49d72b482fc96569a4b.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-10k_20201231.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-10k_20201231.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-10k_20201231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:54.137888+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "bd3b5fc45fa6f19f9e626d255c98d109b1815d5934275b8bcc252cf94b08df10",
+    "source_bytes": 4842067,
+    "source_relative_path": "raw_sources/bd3b5fc45fa6f19f9e626d255c98d109b1815d5934275b8bcc252cf94b08df10.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002316/stro-20220228.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002316/stro-20220228.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002316/stro-20220228.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:54.648318+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "91d0ecaf4255535fe3d4b726a60e3506d2709f8ca6c9cd54ed420bb2af04be20",
+    "source_bytes": 60407,
+    "source_relative_path": "raw_sources/91d0ecaf4255535fe3d4b726a60e3506d2709f8ca6c9cd54ed420bb2af04be20.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-058489/d323639dposam.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-058489/d323639dposam.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-058489/d323639dposam.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:54.755596+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "43e26467098eea64ee851507435ff65e99b1ee7f4ffdfe1beb6ac11632e3e86f",
+    "source_bytes": 384023,
+    "source_relative_path": "raw_sources/43e26467098eea64ee851507435ff65e99b1ee7f4ffdfe1beb6ac11632e3e86f.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-20211231.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-20211231.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-20211231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:55.242220+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "6b8de6948b9fd7aa418e7a0f4bd08f77908104fc7d2138b2caa2f3d7f36ff9b3",
+    "source_bytes": 5063760,
+    "source_relative_path": "raw_sources/6b8de6948b9fd7aa418e7a0f4bd08f77908104fc7d2138b2caa2f3d7f36ff9b3.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-000168/stro-20220107.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-000168/stro-20220107.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-000168/stro-20220107.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:55.346781+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "6c166653791288db98d1b41e261dbdeff810e9fcd358cae1b7a93ca435a9d688",
+    "source_bytes": 60135,
+    "source_relative_path": "raw_sources/6c166653791288db98d1b41e261dbdeff810e9fcd358cae1b7a93ca435a9d688.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-057928/d280371dposasr.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-057928/d280371dposasr.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-057928/d280371dposasr.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:55.459761+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "bd5a7d1df0786951f2f5042a08b8d15f76043632c4a70016fa97a23f20a12aa3",
+    "source_bytes": 388326,
+    "source_relative_path": "raw_sources/bd5a7d1df0786951f2f5042a08b8d15f76043632c4a70016fa97a23f20a12aa3.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-000081/stro-20220105.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-000081/stro-20220105.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-000081/stro-20220105.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:49:55.886830+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "c70f2c98917a07756e8cab127a5f0056483ded69d7a1b5fdf51ef4b5a942c143",
+    "source_bytes": 79067,
+    "source_relative_path": "raw_sources/c70f2c98917a07756e8cab127a5f0056483ded69d7a1b5fdf51ef4b5a942c143.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-313041/d56877dex51.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-313041/d56877dex51.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-313041/d56877dex51.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:01.248112+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "0bfaec6ad21b2e3e1b00345fab856c4c2b17db748f65ec3fa8504062aa7ce7c2",
+    "source_bytes": 23126,
+    "source_relative_path": "raw_sources/0bfaec6ad21b2e3e1b00345fab856c4c2b17db748f65ec3fa8504062aa7ce7c2.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056578/stro-ex51_92.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056578/stro-ex51_92.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056578/stro-ex51_92.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:01.305390+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "5972ad0e7700ef6a569427e9bb98256cd3175076a515d91dfabb46e9abbd958d",
+    "source_bytes": 21239,
+    "source_relative_path": "raw_sources/5972ad0e7700ef6a569427e9bb98256cd3175076a515d91dfabb46e9abbd958d.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056578/stro-ex11_34.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056578/stro-ex11_34.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056578/stro-ex11_34.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:01.387479+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "ebbfcc28ba9186f55d77f086c69248be0edd024e6b4371b1ec7cfda87ac37940",
+    "source_bytes": 406048,
+    "source_relative_path": "raw_sources/ebbfcc28ba9186f55d77f086c69248be0edd024e6b4371b1ec7cfda87ac37940.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056109/stro-ex991_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056109/stro-ex991_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056109/stro-ex991_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:01.751524+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "286b4a4bf0c26f1e9c75c31dbe6bb464bf07c844fd30d1d0153b9c6aec09d289",
+    "source_bytes": 38922,
+    "source_relative_path": "raw_sources/286b4a4bf0c26f1e9c75c31dbe6bb464bf07c844fd30d1d0153b9c6aec09d289.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-313041/d56877dex231.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-313041/d56877dex231.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-20-313041/d56877dex231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:01.885427+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "a7e58438b82b93049b6ca5d3bc379ce07b850f59ddedddfcc9c5291c3a6fccc2",
+    "source_bytes": 11246,
+    "source_relative_path": "raw_sources/a7e58438b82b93049b6ca5d3bc379ce07b850f59ddedddfcc9c5291c3a6fccc2.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056289/stro-ex991_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056289/stro-ex991_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056289/stro-ex991_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:01.927015+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "ebf162fa21c717c2e6940cc0053d0f7e37ff4edd1efe55b902cc056c3dddf93c",
+    "source_bytes": 42408,
+    "source_relative_path": "raw_sources/ebf162fa21c717c2e6940cc0053d0f7e37ff4edd1efe55b902cc056c3dddf93c.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056109/stro-ex992_22.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056109/stro-ex992_22.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-056109/stro-ex992_22.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:02.417805+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "55497b9e3ee57cbc30289dbba63998d82cc1312c7cd7636a38e04f2936597b7c",
+    "source_bytes": 39921,
+    "source_relative_path": "raw_sources/55497b9e3ee57cbc30289dbba63998d82cc1312c7cd7636a38e04f2936597b7c.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-ex101_57.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-ex101_57.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-ex101_57.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:02.480658+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "5ee2c8c960f89a870b1635301f88452ba1b83370b991b8a237029b8fff839efe",
+    "source_bytes": 1147527,
+    "source_relative_path": "raw_sources/5ee2c8c960f89a870b1635301f88452ba1b83370b991b8a237029b8fff839efe.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050851/stro-ex991_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050851/stro-ex991_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050851/stro-ex991_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:02.640767+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "34c7a50b4265f3febf3018d3e7cbf3c2a3b6b2e33d795b6d8cc8e1f83e380234",
+    "source_bytes": 229892,
+    "source_relative_path": "raw_sources/34c7a50b4265f3febf3018d3e7cbf3c2a3b6b2e33d795b6d8cc8e1f83e380234.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-ex321_9.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-ex321_9.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-ex321_9.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:03.001440+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d685da33501774ac11a9469df32ea53e1f8b51021877162911ee29f57d9b8e28",
+    "source_bytes": 16947,
+    "source_relative_path": "raw_sources/d685da33501774ac11a9469df32ea53e1f8b51021877162911ee29f57d9b8e28.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-ex312_7.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-ex312_7.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-ex312_7.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:03.074983+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "9b1a06ff1825a0c638aea9634ec4b0dcd03237a24c7c98afcd2869c060fff50c",
+    "source_bytes": 27245,
+    "source_relative_path": "raw_sources/9b1a06ff1825a0c638aea9634ec4b0dcd03237a24c7c98afcd2869c060fff50c.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-ex311_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-ex311_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-ex311_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:03.115055+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "7ec95dddbea5ebc4c8e8d6da9fc3568182e77cfb3d81b47b2b8d282506619ce6",
+    "source_bytes": 28014,
+    "source_relative_path": "raw_sources/7ec95dddbea5ebc4c8e8d6da9fc3568182e77cfb3d81b47b2b8d282506619ce6.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-043014/stro-ex991_24.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-043014/stro-ex991_24.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-043014/stro-ex991_24.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:03.446308+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "8e0aae84ff8a0741f7ca2ccf9c95de7d64471e59f71ed34bc4c69b899cbe1d5a",
+    "source_bytes": 41070,
+    "source_relative_path": "raw_sources/8e0aae84ff8a0741f7ca2ccf9c95de7d64471e59f71ed34bc4c69b899cbe1d5a.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-043014/stro-ex992_135.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-043014/stro-ex992_135.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-043014/stro-ex992_135.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:03.762018+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "b2da5a4ae38182099142d5984fc873f004c804c180790133834f47372743769c",
+    "source_bytes": 30045,
+    "source_relative_path": "raw_sources/b2da5a4ae38182099142d5984fc873f004c804c180790133834f47372743769c.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-ex322_8.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-ex322_8.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-050755/stro-ex322_8.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:03.792936+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "16092b607c0d53dcd8ca4b713aa7cde78dc3f613bbae93c53e603b468cdb68c4",
+    "source_bytes": 16977,
+    "source_relative_path": "raw_sources/16092b607c0d53dcd8ca4b713aa7cde78dc3f613bbae93c53e603b468cdb68c4.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-037231/stro-ex991_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-037231/stro-ex991_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-037231/stro-ex991_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:04.113033+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "97aa3104f2be62e7ad7f85170db66341f2d0500a53743e4401fc9192f600d280",
+    "source_bytes": 243330,
+    "source_relative_path": "raw_sources/97aa3104f2be62e7ad7f85170db66341f2d0500a53743e4401fc9192f600d280.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-036997/stro-ex311_8.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-036997/stro-ex311_8.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-036997/stro-ex311_8.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:04.337615+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "f98e006a6f723dcfcf004a4e255d0ff7f526d9094571939e4ef5cfb24e5c623a",
+    "source_bytes": 27612,
+    "source_relative_path": "raw_sources/f98e006a6f723dcfcf004a4e255d0ff7f526d9094571939e4ef5cfb24e5c623a.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-036997/stro-ex312_9.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-036997/stro-ex312_9.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-036997/stro-ex312_9.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:04.424028+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "183bb6cb31709151f0aaa8832d59af049e3f56b69cd0baced023bb78b67057e5",
+    "source_bytes": 26843,
+    "source_relative_path": "raw_sources/183bb6cb31709151f0aaa8832d59af049e3f56b69cd0baced023bb78b67057e5.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-036997/stro-ex321_7.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-036997/stro-ex321_7.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-036997/stro-ex321_7.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:04.652033+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "6d9d41b66c7a395682e4844b88cd44fc2212ca5080395df6044d50f87454defd",
+    "source_bytes": 16540,
+    "source_relative_path": "raw_sources/6d9d41b66c7a395682e4844b88cd44fc2212ca5080395df6044d50f87454defd.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-036997/stro-ex322_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-036997/stro-ex322_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-036997/stro-ex322_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:04.692883+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "0b7d25aa50a5f3c7d01b79bd67bda3ab6e3aa1f3d82cd6d3ce0dbc232533da3e",
+    "source_bytes": 16570,
+    "source_relative_path": "raw_sources/0b7d25aa50a5f3c7d01b79bd67bda3ab6e3aa1f3d82cd6d3ce0dbc232533da3e.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-029235/stro-ex991_114.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-029235/stro-ex991_114.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-029235/stro-ex991_114.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:05.093214+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "4ea5ba3f0981e729018102ce2f1e382bf90cf008beb1b2bb1b8aeeffc6004da7",
+    "source_bytes": 47712,
+    "source_relative_path": "raw_sources/4ea5ba3f0981e729018102ce2f1e382bf90cf008beb1b2bb1b8aeeffc6004da7.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-024736/stro-ex51_97.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-024736/stro-ex51_97.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-024736/stro-ex51_97.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:05.224717+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "3cf39b926faf0cd181cd887cddff42c3c3352b9455d53f871b68244a3e775364",
+    "source_bytes": 20758,
+    "source_relative_path": "raw_sources/3cf39b926faf0cd181cd887cddff42c3c3352b9455d53f871b68244a3e775364.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-024736/stro-ex11_96.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-024736/stro-ex11_96.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-024736/stro-ex11_96.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:05.419096+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "059da8a523c877b31369b18a0b99d226fe17a774f0eb4063aac66497b49204b2",
+    "source_bytes": 404744,
+    "source_relative_path": "raw_sources/059da8a523c877b31369b18a0b99d226fe17a774f0eb4063aac66497b49204b2.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-023689/stro-ex312_9.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-023689/stro-ex312_9.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-023689/stro-ex312_9.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:05.801914+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "2e9b7bf8b36f6f465ced76bee7bcc5d1bba84add8a2631d38ea7b9a0be11102d",
+    "source_bytes": 26831,
+    "source_relative_path": "raw_sources/2e9b7bf8b36f6f465ced76bee7bcc5d1bba84add8a2631d38ea7b9a0be11102d.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-024242/stro-ex991_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-024242/stro-ex991_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-024242/stro-ex991_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:05.804129+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "834c83e0daa71784a0de912fdbe0af8bcce7c36024df2c325c572f2e1ddc05d2",
+    "source_bytes": 183285,
+    "source_relative_path": "raw_sources/834c83e0daa71784a0de912fdbe0af8bcce7c36024df2c325c572f2e1ddc05d2.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-023689/stro-ex311_10.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-023689/stro-ex311_10.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-023689/stro-ex311_10.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:05.879941+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "19c62a429eaf31040296f56d6b1752a0d60ea9c39e103abb7f611145a1ebd71c",
+    "source_bytes": 27602,
+    "source_relative_path": "raw_sources/19c62a429eaf31040296f56d6b1752a0d60ea9c39e103abb7f611145a1ebd71c.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-023689/stro-ex321_8.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-023689/stro-ex321_8.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-023689/stro-ex321_8.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:06.156871+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "058fb2db91a865b788fb54959cbeca974d58af771cc9b0ee8b0fee47e51ef8ce",
+    "source_bytes": 16529,
+    "source_relative_path": "raw_sources/058fb2db91a865b788fb54959cbeca974d58af771cc9b0ee8b0fee47e51ef8ce.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-023689/stro-ex322_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-023689/stro-ex322_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-023689/stro-ex322_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:06.158435+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "a545175e3a4b8ff2232cad585cebebd485069bf5b532e17e5be5defd2ae263ed",
+    "source_bytes": 16559,
+    "source_relative_path": "raw_sources/a545175e3a4b8ff2232cad585cebebd485069bf5b532e17e5be5defd2ae263ed.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-020872/stro-ex311_7.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-020872/stro-ex311_7.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-020872/stro-ex311_7.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:06.374324+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "52053346a314d754cdc8eaacf502ebdde1d6750cc368f61fdfde56e0c5798c11",
+    "source_bytes": 26581,
+    "source_relative_path": "raw_sources/52053346a314d754cdc8eaacf502ebdde1d6750cc368f61fdfde56e0c5798c11.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-020872/stro-ex312_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-020872/stro-ex312_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-020872/stro-ex312_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:06.513625+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "ff9ea47c91919966742af7bbb3436e279298c2a493acbbc2b02b9a0a29ca45a9",
+    "source_bytes": 26755,
+    "source_relative_path": "raw_sources/ff9ea47c91919966742af7bbb3436e279298c2a493acbbc2b02b9a0a29ca45a9.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-018684/stro-ex991_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-018684/stro-ex991_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-018684/stro-ex991_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:06.764697+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "60713f6a08634236e8768c1001a95159f1fb56bfd24b57bb497916fe1a83a736",
+    "source_bytes": 39088,
+    "source_relative_path": "raw_sources/60713f6a08634236e8768c1001a95159f1fb56bfd24b57bb497916fe1a83a736.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-018684/stro-ex992_68.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-018684/stro-ex992_68.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-018684/stro-ex992_68.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:06.956499+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "740c77ead97b87366890fdc963e1e665ad4c58714e3f2e57a34b5c1c471e1a43",
+    "source_bytes": 26316,
+    "source_relative_path": "raw_sources/740c77ead97b87366890fdc963e1e665ad4c58714e3f2e57a34b5c1c471e1a43.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010955/stro-ex991_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010955/stro-ex991_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010955/stro-ex991_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:07.185122+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "155ed16585614e72bc1903531126b2116064af6c1733515474f8bb7941340f39",
+    "source_bytes": 187057,
+    "source_relative_path": "raw_sources/155ed16585614e72bc1903531126b2116064af6c1733515474f8bb7941340f39.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex45_62.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex45_62.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex45_62.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:07.312788+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "6f7f7bdb1e7e4c14d8c7d661bb258323b09e7fea1b6b1b31a8cf3f0cb60a2c63",
+    "source_bytes": 57755,
+    "source_relative_path": "raw_sources/6f7f7bdb1e7e4c14d8c7d661bb258323b09e7fea1b6b1b31a8cf3f0cb60a2c63.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex1020_294.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex1020_294.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex1020_294.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:07.622419+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "6414390e085b9598d47250143f0b2f0a50c92b543a0e7b93ad3abac66b1d00ce",
+    "source_bytes": 1274570,
+    "source_relative_path": "raw_sources/6414390e085b9598d47250143f0b2f0a50c92b543a0e7b93ad3abac66b1d00ce.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex1021_394.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex1021_394.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex1021_394.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:07.780218+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "2b0e4a440eb9e44ac5047cf03ebf99f700cc3cca45e8f2ce3133c20aaf3398e9",
+    "source_bytes": 133793,
+    "source_relative_path": "raw_sources/2b0e4a440eb9e44ac5047cf03ebf99f700cc3cca45e8f2ce3133c20aaf3398e9.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex1022_393.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex1022_393.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex1022_393.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:07.961514+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "3d510d065f7c0052df8eeeed5d363732dc02aa4067f75b760abc9d2a7d585adb",
+    "source_bytes": 115944,
+    "source_relative_path": "raw_sources/3d510d065f7c0052df8eeeed5d363732dc02aa4067f75b760abc9d2a7d585adb.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex231_10.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex231_10.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex231_10.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:08.151186+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "9a498efb18aad28a169f7ee60569370ac391c9f4c3abd451b817bd24c56703fb",
+    "source_bytes": 14928,
+    "source_relative_path": "raw_sources/9a498efb18aad28a169f7ee60569370ac391c9f4c3abd451b817bd24c56703fb.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex311_14.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex311_14.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex311_14.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:08.290229+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "4863978b2c9f8d5ae9cafbfd1b9b4b591c926611af501673dbfe88047b7fbffe",
+    "source_bytes": 28914,
+    "source_relative_path": "raw_sources/4863978b2c9f8d5ae9cafbfd1b9b4b591c926611af501673dbfe88047b7fbffe.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex312_13.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex312_13.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex312_13.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:08.449524+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "69c59f63268105d5f642e03f9427b8647950dda19dc7864d028e8432fd051217",
+    "source_bytes": 29064,
+    "source_relative_path": "raw_sources/69c59f63268105d5f642e03f9427b8647950dda19dc7864d028e8432fd051217.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex321_8.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex321_8.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex321_8.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:08.505468+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "e2fc9220f7004bda2b12186de22ab8535ad375f45d0300fd0c9edc7e124b82b2",
+    "source_bytes": 18526,
+    "source_relative_path": "raw_sources/e2fc9220f7004bda2b12186de22ab8535ad375f45d0300fd0c9edc7e124b82b2.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex322_12.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex322_12.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-20-010890/stro-ex322_12.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:08.643310+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "7c72903a4915cc37dae6d42d1517656feadfe2a7d8a8fe08810861dfac35b897",
+    "source_bytes": 18576,
+    "source_relative_path": "raw_sources/7c72903a4915cc37dae6d42d1517656feadfe2a7d8a8fe08810861dfac35b897.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055917/stro-ex992_87.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055917/stro-ex992_87.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055917/stro-ex992_87.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:09.018720+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "2a25a62bd702dbf951be34f4e093bdff5db2fc55286922ba613b2730f0bb7cf5",
+    "source_bytes": 36450,
+    "source_relative_path": "raw_sources/2a25a62bd702dbf951be34f4e093bdff5db2fc55286922ba613b2730f0bb7cf5.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055917/stro-ex991_61.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055917/stro-ex991_61.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055917/stro-ex991_61.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:09.097411+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d471d973ec2468035d04223611ac54baa57d71672c604b544457f50a91d015ae",
+    "source_bytes": 256016,
+    "source_relative_path": "raw_sources/d471d973ec2468035d04223611ac54baa57d71672c604b544457f50a91d015ae.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-ex102_195.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-ex102_195.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-ex102_195.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:09.281125+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "bb2de00ac92786b541a1b2b9c49c39573fdb1b7b856daecb5d85416fba923531",
+    "source_bytes": 90973,
+    "source_relative_path": "raw_sources/bb2de00ac92786b541a1b2b9c49c39573fdb1b7b856daecb5d85416fba923531.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-ex311_9.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-ex311_9.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-ex311_9.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:09.611409+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "510e7e845d25db8863489cf340155d761d978e161608f2424b2f52377bb93f1d",
+    "source_bytes": 28021,
+    "source_relative_path": "raw_sources/510e7e845d25db8863489cf340155d761d978e161608f2424b2f52377bb93f1d.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-ex321_8.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-ex321_8.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-ex321_8.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:09.631057+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "dd55cd0e1a20b2747ade0a78eeac8240850e2afcb013af1551b70d05afddf8c9",
+    "source_bytes": 16954,
+    "source_relative_path": "raw_sources/dd55cd0e1a20b2747ade0a78eeac8240850e2afcb013af1551b70d05afddf8c9.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-ex312_10.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-ex312_10.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-ex312_10.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:09.712391+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "bc1329e73908f8d12af71a782390adbb8f15100744a0000cc21e197b4bea7ecd",
+    "source_bytes": 27254,
+    "source_relative_path": "raw_sources/bc1329e73908f8d12af71a782390adbb8f15100744a0000cc21e197b4bea7ecd.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-ex102_13.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-ex102_13.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-ex102_13.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:10.075301+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "404975fac3f894e76ec0e5fca6ad4ea68d97383c8ae7e80e56a3ae5d6c3e1fbb",
+    "source_bytes": 49157,
+    "source_relative_path": "raw_sources/404975fac3f894e76ec0e5fca6ad4ea68d97383c8ae7e80e56a3ae5d6c3e1fbb.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-ex322_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-ex322_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-055843/stro-ex322_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:10.188858+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "af2d249f8f1b977597424678520baad37b9f86e66035a59e177e9be6342c97b8",
+    "source_bytes": 16984,
+    "source_relative_path": "raw_sources/af2d249f8f1b977597424678520baad37b9f86e66035a59e177e9be6342c97b8.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042330/stro-ex991_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042330/stro-ex991_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042330/stro-ex991_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:10.298167+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "106386e242c9d0a5941365a59ec0cfe883ea4d1e440f0ec328ab93839e1e11b2",
+    "source_bytes": 215253,
+    "source_relative_path": "raw_sources/106386e242c9d0a5941365a59ec0cfe883ea4d1e440f0ec328ab93839e1e11b2.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-ex311_8.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-ex311_8.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-ex311_8.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:10.449399+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "1a71a39a1c266757e647f025f1ff697183bfd5bd9b1dd5c128458e3821e2111a",
+    "source_bytes": 28003,
+    "source_relative_path": "raw_sources/1a71a39a1c266757e647f025f1ff697183bfd5bd9b1dd5c128458e3821e2111a.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-ex312_10.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-ex312_10.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-ex312_10.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:10.769671+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "7306606d4bb5745d7df00f749266f0caff3c4062f2878127f40c469a7734f871",
+    "source_bytes": 27236,
+    "source_relative_path": "raw_sources/7306606d4bb5745d7df00f749266f0caff3c4062f2878127f40c469a7734f871.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-ex321_9.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-ex321_9.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-ex321_9.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:10.794475+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "787cf1e233e47b7ba656293b9a160fd621bacf5561c6223ea61d95fc961bc601",
+    "source_bytes": 16931,
+    "source_relative_path": "raw_sources/787cf1e233e47b7ba656293b9a160fd621bacf5561c6223ea61d95fc961bc601.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-ex322_7.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-ex322_7.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-042217/stro-ex322_7.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:11.022405+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "33482c21eda4132192e8e51c3b683fcd37a5571237a56970a0ebb26ae3a813c0",
+    "source_bytes": 16961,
+    "source_relative_path": "raw_sources/33482c21eda4132192e8e51c3b683fcd37a5571237a56970a0ebb26ae3a813c0.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-028892/stro-ex991_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-028892/stro-ex991_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-028892/stro-ex991_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:11.311568+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "7ef7065f289069a5939c4b6ab9cc3c7beef949b4f24e4b19988fb42e66686a4d",
+    "source_bytes": 42298,
+    "source_relative_path": "raw_sources/7ef7065f289069a5939c4b6ab9cc3c7beef949b4f24e4b19988fb42e66686a4d.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-028892/stro-ex992_7.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-028892/stro-ex992_7.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-028892/stro-ex992_7.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:11.319779+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "bd481791e322d3b042b22cfcbb5f80add14378060ca151599b19c2df293d6d9d",
+    "source_bytes": 35638,
+    "source_relative_path": "raw_sources/bd481791e322d3b042b22cfcbb5f80add14378060ca151599b19c2df293d6d9d.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-ex311_8.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-ex311_8.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-ex311_8.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:11.675660+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "4311d21f871d0bde4a5e5883976f7ad6f6fa07e285957c90c0d7eb4e790606bf",
+    "source_bytes": 27984,
+    "source_relative_path": "raw_sources/4311d21f871d0bde4a5e5883976f7ad6f6fa07e285957c90c0d7eb4e790606bf.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025294/stro-ex991_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025294/stro-ex991_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025294/stro-ex991_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:11.734113+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "7bef1938112b8223b8e52d2627e88d23bb89931545dc438cb31169bce5d1d306",
+    "source_bytes": 181738,
+    "source_relative_path": "raw_sources/7bef1938112b8223b8e52d2627e88d23bb89931545dc438cb31169bce5d1d306.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-ex101_9.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-ex101_9.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-ex101_9.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:11.944390+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "0df34b42bd52614550e38b98467ca66ec3d1a58d5dd023c712bed4163b95aaa2",
+    "source_bytes": 104405,
+    "source_relative_path": "raw_sources/0df34b42bd52614550e38b98467ca66ec3d1a58d5dd023c712bed4163b95aaa2.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-ex312_6.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-ex312_6.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-ex312_6.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:12.233034+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "f7dc228a43bc90df0e5160b23f477952fbf5bbe71503ccb6d426a55bb9d0608a",
+    "source_bytes": 27215,
+    "source_relative_path": "raw_sources/f7dc228a43bc90df0e5160b23f477952fbf5bbe71503ccb6d426a55bb9d0608a.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-ex321_10.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-ex321_10.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-ex321_10.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:12.389805+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "b5ebaae7f3f332cbadae0bd6643b00813e84be53f5ab6d793764b2265d09d689",
+    "source_bytes": 16915,
+    "source_relative_path": "raw_sources/b5ebaae7f3f332cbadae0bd6643b00813e84be53f5ab6d793764b2265d09d689.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-ex322_7.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-ex322_7.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-025155/stro-ex322_7.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:12.471323+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "4d35219764d9221e069c5beb067aff8a06522ef365c66cd3fdd2fae76f27c325",
+    "source_bytes": 16943,
+    "source_relative_path": "raw_sources/4d35219764d9221e069c5beb067aff8a06522ef365c66cd3fdd2fae76f27c325.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369dex43.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369dex43.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369dex43.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:12.939685+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "24bee487759aadf3f91ec46463b091d45bb27f4193e30971d732152dc9ea8639",
+    "source_bytes": 44677,
+    "source_relative_path": "raw_sources/24bee487759aadf3f91ec46463b091d45bb27f4193e30971d732152dc9ea8639.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369dex12.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369dex12.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369dex12.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:12.979178+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "9a444726d8256201b79c97e8f34189cd31fdeb439d6f84d4597be666a579eedb",
+    "source_bytes": 206333,
+    "source_relative_path": "raw_sources/9a444726d8256201b79c97e8f34189cd31fdeb439d6f84d4597be666a579eedb.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369dex44.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369dex44.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369dex44.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:13.117097+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d81db93fd5294f08e338dd241462d8c01f6e91aa9fd18a82bf4e14e4053813e5",
+    "source_bytes": 269733,
+    "source_relative_path": "raw_sources/d81db93fd5294f08e338dd241462d8c01f6e91aa9fd18a82bf4e14e4053813e5.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369dex51.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369dex51.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369dex51.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:13.550190+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "0bd950e29e400fc710e2b58b82f71fa62ee084f207a4515d0856cc7dc21b3fcf",
+    "source_bytes": 45502,
+    "source_relative_path": "raw_sources/0bd950e29e400fc710e2b58b82f71fa62ee084f207a4515d0856cc7dc21b3fcf.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369dex231.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369dex231.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-21-105216/d130369dex231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:13.572745+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "f22c629b394c031e7f3221d7f0a6d3bd85e46859c3d73fb2d64a1c462744fd84",
+    "source_bytes": 12397,
+    "source_relative_path": "raw_sources/f22c629b394c031e7f3221d7f0a6d3bd85e46859c3d73fb2d64a1c462744fd84.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-014003/stro-ex991_7.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-014003/stro-ex991_7.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-014003/stro-ex991_7.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:13.833272+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "501c3e107324e1d5657659498479dd43ed781a18133347a075e443e40ce8d01d",
+    "source_bytes": 195507,
+    "source_relative_path": "raw_sources/501c3e107324e1d5657659498479dd43ed781a18133347a075e443e40ce8d01d.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex1011_205.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex1011_205.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex1011_205.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:13.993188+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "e5081fed398e5ea92dc352b6d09d85a6e3ae904cd1aa1e41b9b02b95d52897a5",
+    "source_bytes": 159865,
+    "source_relative_path": "raw_sources/e5081fed398e5ea92dc352b6d09d85a6e3ae904cd1aa1e41b9b02b95d52897a5.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex1024_531.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex1024_531.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex1024_531.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:14.242184+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "34ba26bd5e7258f846ddb368571f9e7081a9c71670eda4d9255b540b2edbfd18",
+    "source_bytes": 103207,
+    "source_relative_path": "raw_sources/34ba26bd5e7258f846ddb368571f9e7081a9c71670eda4d9255b540b2edbfd18.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex231_14.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex231_14.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex231_14.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:14.415984+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "2955e270e26a5386430bf2d58d41a4762fbe637c4b7f599670fe1cbeea73b722",
+    "source_bytes": 14192,
+    "source_relative_path": "raw_sources/2955e270e26a5386430bf2d58d41a4762fbe637c4b7f599670fe1cbeea73b722.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex311_13.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex311_13.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex311_13.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:14.627227+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "0c18221bc10794e78a7f4557fac3bafa606747f2a7ff809446fd03ac9f430dad",
+    "source_bytes": 29739,
+    "source_relative_path": "raw_sources/0c18221bc10794e78a7f4557fac3bafa606747f2a7ff809446fd03ac9f430dad.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex312_12.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex312_12.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex312_12.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:14.803590+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "4d0c7a2efdeae5ee5d84d1a01c474953f435aebaefb58bfad1c0f1bb69a2dddc",
+    "source_bytes": 30116,
+    "source_relative_path": "raw_sources/4d0c7a2efdeae5ee5d84d1a01c474953f435aebaefb58bfad1c0f1bb69a2dddc.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex321_11.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex321_11.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex321_11.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:15.049393+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "b91532857f690abe939b2f9025560b23eec03843e2ea41590745d2c265eb62d8",
+    "source_bytes": 17789,
+    "source_relative_path": "raw_sources/b91532857f690abe939b2f9025560b23eec03843e2ea41590745d2c265eb62d8.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex322_9.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex322_9.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001564590-21-013945/stro-ex322_9.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:15.233754+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "83f1d013b9e6a7d12be69b155dd4e8c4711c736a902190007a2123eb1850315f",
+    "source_bytes": 17835,
+    "source_relative_path": "raw_sources/83f1d013b9e6a7d12be69b155dd4e8c4711c736a902190007a2123eb1850315f.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-058489/d323639dex51.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-058489/d323639dex51.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-058489/d323639dex51.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:15.433443+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "d5a18bc586fd70e871b74cdac2d4fb747b5a064a697be52ddf34c5744048cc61",
+    "source_bytes": 44593,
+    "source_relative_path": "raw_sources/d5a18bc586fd70e871b74cdac2d4fb747b5a064a697be52ddf34c5744048cc61.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-058489/d323639dex231.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-058489/d323639dex231.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-058489/d323639dex231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:15.600111+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "4327a2472c9c657534cf19f9debf52c51466e7919d391574f5aa314d75b96967",
+    "source_bytes": 11345,
+    "source_relative_path": "raw_sources/4327a2472c9c657534cf19f9debf52c51466e7919d391574f5aa314d75b96967.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex10_11.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex10_11.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex10_11.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:15.818618+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "8505ea46d31207bbfbecf8f109e0f2be0d10efffe96d44f5cbc62d17a6f391aa",
+    "source_bytes": 115918,
+    "source_relative_path": "raw_sources/8505ea46d31207bbfbecf8f109e0f2be0d10efffe96d44f5cbc62d17a6f391aa.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002316/stro-ex99_1.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002316/stro-ex99_1.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002316/stro-ex99_1.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:15.883541+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "42036a7b1db6853499c02eae9cf26baf269320d6d5539bd051a8c87933d5b770",
+    "source_bytes": 60959,
+    "source_relative_path": "raw_sources/42036a7b1db6853499c02eae9cf26baf269320d6d5539bd051a8c87933d5b770.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex10_28.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex10_28.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex10_28.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:16.072267+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "dc093cf3416e4e388dd340280f83571b0a679969a81143b84e310595e988145d",
+    "source_bytes": 920447,
+    "source_relative_path": "raw_sources/dc093cf3416e4e388dd340280f83571b0a679969a81143b84e310595e988145d.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex10_29.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex10_29.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex10_29.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:16.530699+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "2f7f507d2a5f0688407e6395765e1aee64a82667a64b49ef736647fff8d52bf9",
+    "source_bytes": 658156,
+    "source_relative_path": "raw_sources/2f7f507d2a5f0688407e6395765e1aee64a82667a64b49ef736647fff8d52bf9.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex10_30.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex10_30.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex10_30.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:16.561250+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "41f5f4cfbaee59b4c01e33ed5e0a56ecc60679ac985d3a2448895aed69ea650b",
+    "source_bytes": 91658,
+    "source_relative_path": "raw_sources/41f5f4cfbaee59b4c01e33ed5e0a56ecc60679ac985d3a2448895aed69ea650b.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex10_31.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex10_31.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex10_31.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:16.629538+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "23d7580bdf7264d24ee4903871c99f4ee7581f74704607190dfe76b390272304",
+    "source_bytes": 78586,
+    "source_relative_path": "raw_sources/23d7580bdf7264d24ee4903871c99f4ee7581f74704607190dfe76b390272304.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex31_1.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex31_1.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex31_1.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:16.913154+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "b70abf5fcc91bba32d864b80d229a93128c80b513f8f24cb0a83b3a66359c5ee",
+    "source_bytes": 29941,
+    "source_relative_path": "raw_sources/b70abf5fcc91bba32d864b80d229a93128c80b513f8f24cb0a83b3a66359c5ee.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex23_1.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex23_1.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex23_1.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:17.051865+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "b1000a5ca0b8f04461f0968745a2bd89857df2eddd4960c06acd56d8d6f71902",
+    "source_bytes": 17525,
+    "source_relative_path": "raw_sources/b1000a5ca0b8f04461f0968745a2bd89857df2eddd4960c06acd56d8d6f71902.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex31_2.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex31_2.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex31_2.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:17.244891+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "3e54ef78cb847168e885c7500f3878419b98a4eac4ceb96b3ed49ba418271c9a",
+    "source_bytes": 30403,
+    "source_relative_path": "raw_sources/3e54ef78cb847168e885c7500f3878419b98a4eac4ceb96b3ed49ba418271c9a.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex32_1.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex32_1.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex32_1.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:17.263601+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "dee461a324b2b05802fee188b8f700b592acb0b7560e770d9a42138385680466",
+    "source_bytes": 21370,
+    "source_relative_path": "raw_sources/dee461a324b2b05802fee188b8f700b592acb0b7560e770d9a42138385680466.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-057928/d280371dex51.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-057928/d280371dex51.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-057928/d280371dex51.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:17.604278+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "8abba517ea8557f6fc5b58191e3e9ee85512566e96011171acd1c294f5a66f47",
+    "source_bytes": 43794,
+    "source_relative_path": "raw_sources/8abba517ea8557f6fc5b58191e3e9ee85512566e96011171acd1c294f5a66f47.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex32_2.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex32_2.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-002312/stro-ex32_2.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:17.634683+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "b7139b8cc27a6c86204d3f0453cd9f53a56950104c074eed6670b6bc94902fb5",
+    "source_bytes": 21400,
+    "source_relative_path": "raw_sources/b7139b8cc27a6c86204d3f0453cd9f53a56950104c074eed6670b6bc94902fb5.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-057928/d280371dex231.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-057928/d280371dex231.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-057928/d280371dex231.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:17.825611+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "f87f6466ce3fb902bd1ac13fb22d19cf46f31d4084c9c5036734448d20bc9c9d",
+    "source_bytes": 11828,
+    "source_relative_path": "raw_sources/f87f6466ce3fb902bd1ac13fb22d19cf46f31d4084c9c5036734448d20bc9c9d.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-057928/d280371dexfilingfees.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-057928/d280371dexfilingfees.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0001193125-22-057928/d280371dexfilingfees.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:18.164352+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "8e7d412e5453c65f808123915b856c0feb6c39b10905c7f25e3c216016e01f96",
+    "source_bytes": 55688,
+    "source_relative_path": "raw_sources/8e7d412e5453c65f808123915b856c0feb6c39b10905c7f25e3c216016e01f96.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-000168/stro-ex99_1.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-000168/stro-ex99_1.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-000168/stro-ex99_1.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:18.177694+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "82ce5f773cc8de1c4a0ebd4bd9c05af07c8433ebe8295a20af7a272579f05eb8",
+    "source_bytes": 40337,
+    "source_relative_path": "raw_sources/82ce5f773cc8de1c4a0ebd4bd9c05af07c8433ebe8295a20af7a272579f05eb8.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-000081/stro-ex99_1.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-000081/stro-ex99_1.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-000081/stro-ex99_1.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:18.440496+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "88c51f815af3c9818836a19404bbcd97c264617a2a0997d1190eaa70b73229e8",
+    "source_bytes": 60223,
+    "source_relative_path": "raw_sources/88c51f815af3c9818836a19404bbcd97c264617a2a0997d1190eaa70b73229e8.html"
+  },
+  "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-000081/stro-ex99_2.htm": {
+    "url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-000081/stro-ex99_2.htm",
+    "resolved_url": "https://ir.sutrobio.com/financials/sec-filings/content/0000950170-22-000081/stro-ex99_2.htm",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T19:52:18.783943+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "source_sha256": "a8474502cdf4d6d992c41cd542d1bc2655e065476fe8bab304c96cae65ec07fe",
+    "source_bytes": 27389,
+    "source_relative_path": "raw_sources/a8474502cdf4d6d992c41cd542d1bc2655e065476fe8bab304c96cae65ec07fe.html"
+  }
+}

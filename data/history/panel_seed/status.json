@@ -1,0 +1,56 @@
+{
+  "coverage_report_sha256": "5aad78651e70d9ac4cce9800245c2e5f5a565c7b5483c9c900ac075b82b4cfae",
+  "eligible_feature_observations": 18,
+  "financial_issuers": 28,
+  "financially_joinable_observations": 79,
+  "frame_companies": 100,
+  "gap_counts": {
+    "historical_identity_unresolved": 216,
+    "historical_membership_and_pending_deal_baseline_not_jointly_adjudicated": 282,
+    "original_annual_financials_unavailable_before_cutoff": 221,
+    "original_outcome_version_and_timing_receipt_not_finalized": 282,
+    "outcome_corpus_unreviewed_or_incomplete": 282,
+    "prior_control_announcement_requires_historical_disposition_review": 12
+  },
+  "generated_at": "2026-09-13T16:17:15.682852+00:00",
+  "input_sha256": {
+    "financial_records.json": "0377939ec2410c46cc5ff3e60d01a51e04edb582edd35870e9c97cada5f38a73",
+    "frame_source_receipt": "cb464fda9e112acc22f8fd6902c2dc5a5314d542ff6b5ee2328fc07dde63d498",
+    "frozen_labels": "8e28d32782f9d8079d9e2c1e2c9594d794c4e57f9e280cc485d077c9466d6bd2",
+    "observation_adjudications": "03640a4500459f3817e004863c3dbb46097b6b099405007c711dcd20f79c52e3",
+    "positive_financial_records.json": "104231af59aef70f16d4cf5b6a4ca226ed9ead71a6cc0e09bdee9b398ca371ea",
+    "sampling_frame": "e69a4a6babeddc0e2334551a0125b2d60b0d2223652b5e60f40d9bdb95185a76"
+  },
+  "model_training_performed": false,
+  "panel_sha256": "80a0388201a5e4d94ad3487e204286be364b5c219b9257ce64d44879e20de1a1",
+  "planned_observations": 300,
+  "pre_test_training_support": {
+    "availability_basis": "effective label_training_available_at and mature horizon; actual review clock retained separately",
+    "company_observations": 7,
+    "distinct_negative_companies": 2,
+    "distinct_positive_events": 5,
+    "meets_training_support_floors": false,
+    "minimum_distinct_negative_companies": 20,
+    "minimum_distinct_positive_events": 5,
+    "purged_label_unavailable": 2,
+    "purged_prior_observations": 2,
+    "remaining_negative_companies": 18,
+    "remaining_positive_events": 0,
+    "structurally_admitted_prior_observations": 9,
+    "test_start_year": 2023,
+    "training_cutoff_at": "2022-12-31T23:59:59+00:00"
+  },
+  "reviewed_annual_financial_records": 38,
+  "reviewed_negative_corpus_issuers": 4,
+  "reviewed_negative_corpus_windows": 8,
+  "schema_version": "historical-panel-assembly-v1",
+  "source_limitations": [
+    "The complete100-member historical entry cohort is preserved, including later acquisitions and source failures.",
+    "Currently surviving issuer pages are not proof that historical pages were never removed or revised.",
+    "Agent-reviewed source corpora are distinct from independently audited labels and complete training observations.",
+    "The latest verified annual report may be old; fiscal period and publication cutoff remain explicit."
+  ],
+  "status": "adjudicated_panel_ready_for_training_checks",
+  "training_eligibility_semantics": "admitted to the structural input contract; each historical fold separately purges immature or unavailable labels",
+  "validated_predictive_edge": false
+}

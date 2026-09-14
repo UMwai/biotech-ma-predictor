@@ -1,0 +1,81 @@
+{
+  "approved_membership_valid_from": "2020-09-30T00:00:00+00:00",
+  "as_known_at_observation_verified": false,
+  "cohort_entry_at": "2020-12-21T00:00:00+00:00",
+  "cohort_selection_changed": false,
+  "document_filer_cik": 1807901,
+  "evidence_paraphrase": "The issuer's FY2020 Item 5 identifies PAND common stock on Nasdaq and explicitly states that it has been publicly traded since July 17, 2020. The same section distinguishes the actual trading history from the registration and IPO closing dates. The stated historical interval covers the required September 30-December 30, 2020 lookback.",
+  "historical_identity_reconstruction": true,
+  "immutable_document_uri": "https://www.sec.gov/Archives/edgar/data/1807901/000156459021012895/pand-10k_20201231.htm",
+  "independent_human_review": false,
+  "issuer": {
+    "cik": 1807901,
+    "company_name": "Pandion Therapeutics, Inc.",
+    "ticker": "PAND"
+  },
+  "labels_or_outcome_clocks_changed": false,
+  "limitations": [
+    "Actual review and capture occurred in September 2026; this is retrospective identity adjudication, not a contemporaneous archived review.",
+    "The archived bytes are the actual web-tool representation, not original SEC HTML. Immutable accession-specific SEC URLs identify the original disclosures.",
+    "The interval establishes reviewed common-security identity and exchange history; it does not assert uninterrupted executable liquidity, complete corporate-action coverage or daily absence of trading halts.",
+    "Post-observation filing text is used only to reconstruct historical security identity. No offer prices, acquisition terms or later financial disclosures are market-feature values."
+  ],
+  "original_publisher_bytes_archived": false,
+  "original_source_sha256": null,
+  "preserved_membership_valid_until": "2021-03-04T00:00:00+00:00",
+  "primary_source_uri": "https://www.sec.gov/Archives/edgar/data/1807901/000156459021012895/pand-10k_20201231.htm",
+  "prior_membership_review": {
+    "source_bytes": 2889,
+    "source_relative_path": "positive_reviews/listing_lookback_20260913/PAND_membership_review_prior_ce529f7c2d61b068bcf920ec525f6a0b41e039319b03e2685c16897f825131a1.json",
+    "source_sha256": "ce529f7c2d61b068bcf920ec525f6a0b41e039319b03e2685c16897f825131a1",
+    "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/PAND_membership_review_prior_ce529f7c2d61b068bcf920ec525f6a0b41e039319b03e2685c16897f825131a1.json"
+  },
+  "publication_date": null,
+  "publication_time_limitation": "Document dateline/signature was reviewed; an independently accessible filing-index publication or acceptance time was not obtained. No publication clock is backdated from this review.",
+  "publication_timestamp_precision": "unverified",
+  "raw_download_probe": {
+    "source_bytes": 322,
+    "source_relative_path": "positive_reviews/listing_lookback_20260913/PAND_raw_probe.json",
+    "source_sha256": "defade79f09688d74630aa26fc07b30beebbcf9aaceee4c0900b04b35a483baf",
+    "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/PAND_raw_probe.json"
+  },
+  "requested_lookback_end_date": "2020-12-30",
+  "requested_lookback_start_date": "2020-09-30",
+  "review_scope": "Retrospective same-issuer common-equity listing and ticker identity for the bounded market-feature lookback, using explicit historical trading disclosures. Not a new outcome or pending-transaction review.",
+  "reviewed_at": "2026-09-13T16:15:03.687486+00:00",
+  "reviewer": "Codex-primary-source-review",
+  "schema_version": "reviewed-listing-lookback-v1",
+  "source_captures": [
+    {
+      "original_publisher_bytes_archived": false,
+      "original_source_sha256": null,
+      "retrieval_timestamp_basis": "Conservative current-session capture upper bound; exact HTTP retrieval time not exposed by web tool.",
+      "retrieved_at": "2026-09-13T16:13:05Z",
+      "source_bytes": 32743,
+      "source_content_format": "browser_extract",
+      "source_relative_path": "positive_reviews/listing_lookback_20260913/listing_final_PAND_capture.json",
+      "source_sha256": "eb4b9c07b4043569e54f22feec3211a8e60d695945e3e3ef33434eeaf7820d19",
+      "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/listing_final_PAND_capture.json",
+      "transport_representation": "web_tool_extracted_text_response"
+    },
+    {
+      "original_publisher_bytes_archived": false,
+      "original_source_sha256": null,
+      "retrieval_timestamp_basis": "Conservative current-session capture upper bound; exact HTTP retrieval time not exposed by web tool.",
+      "retrieved_at": "2026-09-13T16:13:05Z",
+      "source_bytes": 33284,
+      "source_content_format": "browser_extract",
+      "source_relative_path": "positive_reviews/listing_lookback_20260913/listing_identity_dates_20260913_capture.json",
+      "source_sha256": "86ba0a9607eaca80f96b166310965e9e3bd8a53265c36e4f3889fe8f3d9b6df3",
+      "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/listing_identity_dates_20260913_capture.json",
+      "transport_representation": "web_tool_extracted_text_response"
+    }
+  ],
+  "source_content_format": "browser_extract",
+  "source_document_date": "2021-03-12",
+  "source_document_date_basis": "10-K signature date, browser line 3163; separate SEC index filing/acceptance date unavailable",
+  "source_document_date_precision": "date",
+  "source_locator": "FY2020 Form 10-K Item 5, printed page 89, browser lines 2517-2525; signature line 3163",
+  "source_sha256_kind": "source_review_receipt",
+  "subject_cik": 1807901
+}

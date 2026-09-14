@@ -1,0 +1,17 @@
+{
+  "records": [
+    {
+      "archive": {
+        "source_bytes": 121946,
+        "source_relative_path": "arqt_archive_followup.json",
+        "source_sha256": "4b30aa621756702cf7c0673d694f85833f39b73ddf870c2d687aced8ecacb408"
+      },
+      "listing": {
+        "source_bytes": 2554,
+        "source_relative_path": "arqt_listing_review.json",
+        "source_sha256": "6f046a1288503d622de67897186ec19468b982de8147c73f9d8d919c4fdf4eb9"
+      }
+    }
+  ],
+  "schema_version": "reviewed-control-inputs-v1"
+}

@@ -1,0 +1,76 @@
+{
+  "cohort_sampling_frame_sha256": "e69a4a6babeddc0e2334551a0125b2d60b0d2223652b5e60f40d9bdb95185a76",
+  "frozen_acquisition_labels_sha256": "8e28d32782f9d8079d9e2c1e2c9594d794c4e57f9e280cc485d077c9466d6bd2",
+  "non_membership_observation_fields_unchanged": true,
+  "observations_retained": 18,
+  "outcome_labels_and_clocks_unchanged": true,
+  "prior_adjudications_sha256": "9719bc4bcae6d3b19abffb3910d72131d1557c1e94461d904ae6bfe993d765c8",
+  "schema_version": "listing-extension-join-verification-v1",
+  "updated_adjudications_sha256": "03640a4500459f3817e004863c3dbb46097b6b099405007c711dcd20f79c52e3",
+  "updated_identity_intervals": [
+    {
+      "cik": 1200375,
+      "new_valid_from": "2020-09-30T00:00:00Z",
+      "observation_at": "2021-01-01T00:00:00+00:00",
+      "old_valid_from": "2020-12-21T00:00:00Z",
+      "review_source_sha256": "f7a8d64088f29523f634ec18d3a0143f73ed1605bfe3640aaf9160c397f9431e",
+      "review_source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/negative_reviews/CDXS_STRO_membership_reviews_2021-f7a8d64088f29523f634ec18d3a0143f73ed1605bfe3640aaf9160c397f9431e.json",
+      "ticker": "CDXS"
+    },
+    {
+      "cik": 1434418,
+      "new_valid_from": "2020-09-30T00:00:00+00:00",
+      "observation_at": "2021-01-01T00:00:00+00:00",
+      "old_valid_from": "2020-12-21T00:00:00+00:00",
+      "review_source_sha256": "332afcbfb464ed3d12b9a9f36de6b90caa98f072f742c037e1bb963b440abccd",
+      "review_source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/CNST_membership_review_332afcbfb464ed3d12b9a9f36de6b90caa98f072f742c037e1bb963b440abccd.json",
+      "ticker": "CNST"
+    },
+    {
+      "cik": 1175505,
+      "new_valid_from": "2020-09-30T00:00:00+00:00",
+      "observation_at": "2021-01-01T00:00:00+00:00",
+      "old_valid_from": "2020-12-21T00:00:00+00:00",
+      "review_source_sha256": "b9e750d03338a4310887245712bd552538352418fb4d500356a45e1e10d945dc",
+      "review_source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/FPRX_membership_review_b9e750d03338a4310887245712bd552538352418fb4d500356a45e1e10d945dc.json",
+      "ticker": "FPRX"
+    },
+    {
+      "cik": 1557142,
+      "new_valid_from": "2020-09-30T00:00:00+00:00",
+      "observation_at": "2021-01-01T00:00:00+00:00",
+      "old_valid_from": "2020-12-21T00:00:00+00:00",
+      "review_source_sha256": "a665adfb234689532e659b41f41a2118927115eae412444ab54b5c5d80d5f259",
+      "review_source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/KDMN_membership_review_a665adfb234689532e659b41f41a2118927115eae412444ab54b5c5d80d5f259.json",
+      "ticker": "KDMN"
+    },
+    {
+      "cik": 1807901,
+      "new_valid_from": "2020-09-30T00:00:00+00:00",
+      "observation_at": "2021-01-01T00:00:00+00:00",
+      "old_valid_from": "2020-12-21T00:00:00+00:00",
+      "review_source_sha256": "48bb6137e09bc9208bb3055705ff11449605175bafd186a4b0ccd919a07604ea",
+      "review_source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/PAND_membership_review_48bb6137e09bc9208bb3055705ff11449605175bafd186a4b0ccd919a07604ea.json",
+      "ticker": "PAND"
+    },
+    {
+      "cik": 1382101,
+      "new_valid_from": "2020-09-30T00:00:00Z",
+      "observation_at": "2021-01-01T00:00:00+00:00",
+      "old_valid_from": "2020-12-21T00:00:00Z",
+      "review_source_sha256": "f7a8d64088f29523f634ec18d3a0143f73ed1605bfe3640aaf9160c397f9431e",
+      "review_source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/negative_reviews/CDXS_STRO_membership_reviews_2021-f7a8d64088f29523f634ec18d3a0143f73ed1605bfe3640aaf9160c397f9431e.json",
+      "ticker": "STRO"
+    },
+    {
+      "cik": 1734517,
+      "new_valid_from": "2020-09-30T00:00:00+00:00",
+      "observation_at": "2021-01-01T00:00:00+00:00",
+      "old_valid_from": "2020-12-21T00:00:00+00:00",
+      "review_source_sha256": "6ac1965534bcdd342a04f3d87e25a88e23d4ff75596b8528d6fe0e00eb3b6f59",
+      "review_source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/listing_lookback_20260913/VIE_membership_review_6ac1965534bcdd342a04f3d87e25a88e23d4ff75596b8528d6fe0e00eb3b6f59.json",
+      "ticker": "VIE"
+    }
+  ],
+  "verified_at": "2026-09-13T16:17:15.574256+00:00"
+}

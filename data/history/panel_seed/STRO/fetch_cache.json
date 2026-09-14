@@ -1,0 +1,794 @@
+{
+  "https://ir.sutrobio.com/press-releases": {
+    "url": "https://ir.sutrobio.com/press-releases",
+    "resolved_url": "https://ir.sutrobio.com/press-releases",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:14.309395+00:00",
+    "source_sha256": "7f7f2c1d366c371ca217a646b970f8fb157eeba467b2ec333ce21e629e305d03",
+    "source_bytes": 79291,
+    "source_relative_path": "raw_sources/7f7f2c1d366c371ca217a646b970f8fb157eeba467b2ec333ce21e629e305d03.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=2": {
+    "url": "https://ir.sutrobio.com/press-releases?page=2",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=2",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:48.161890+00:00",
+    "source_sha256": "7670e09d1d3407ace19857c3eac7a57654d45d07fb14488bfa3e86af03760c7f",
+    "source_bytes": 79747,
+    "source_relative_path": "raw_sources/7670e09d1d3407ace19857c3eac7a57654d45d07fb14488bfa3e86af03760c7f.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=3": {
+    "url": "https://ir.sutrobio.com/press-releases?page=3",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=3",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:48.670567+00:00",
+    "source_sha256": "07803cf56fa5a49843b8be475571d6c2b662cf4a990a6b3978127d3f720683df",
+    "source_bytes": 80071,
+    "source_relative_path": "raw_sources/07803cf56fa5a49843b8be475571d6c2b662cf4a990a6b3978127d3f720683df.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=4": {
+    "url": "https://ir.sutrobio.com/press-releases?page=4",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=4",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:49.125853+00:00",
+    "source_sha256": "2431ec6dc008b68f2ae23a8d5f4c87688e867ee18a4ee4456f2cbb7d5bf9f58c",
+    "source_bytes": 80091,
+    "source_relative_path": "raw_sources/2431ec6dc008b68f2ae23a8d5f4c87688e867ee18a4ee4456f2cbb7d5bf9f58c.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=5": {
+    "url": "https://ir.sutrobio.com/press-releases?page=5",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=5",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:49.626341+00:00",
+    "source_sha256": "e106d951cf277d464768581590b9748e602c4f5473111269e8508ddb1fda1576",
+    "source_bytes": 80049,
+    "source_relative_path": "raw_sources/e106d951cf277d464768581590b9748e602c4f5473111269e8508ddb1fda1576.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=6": {
+    "url": "https://ir.sutrobio.com/press-releases?page=6",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=6",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:50.108828+00:00",
+    "source_sha256": "72253bad2e337ea8eabc44d37cabc60b86a23695d298fb7ff4e9788a4a9c5e1e",
+    "source_bytes": 80354,
+    "source_relative_path": "raw_sources/72253bad2e337ea8eabc44d37cabc60b86a23695d298fb7ff4e9788a4a9c5e1e.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=7": {
+    "url": "https://ir.sutrobio.com/press-releases?page=7",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=7",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:50.600642+00:00",
+    "source_sha256": "3aa0e547692f337f7c5be5bcf5cc821e1adfdcaa36ca92afa30e499b15b2537d",
+    "source_bytes": 80193,
+    "source_relative_path": "raw_sources/3aa0e547692f337f7c5be5bcf5cc821e1adfdcaa36ca92afa30e499b15b2537d.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=8": {
+    "url": "https://ir.sutrobio.com/press-releases?page=8",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=8",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:50.984348+00:00",
+    "source_sha256": "11cda9b57181cbe75e7ba4f8ca94b125720fd6b2ed109b70c4f96760a079956d",
+    "source_bytes": 80548,
+    "source_relative_path": "raw_sources/11cda9b57181cbe75e7ba4f8ca94b125720fd6b2ed109b70c4f96760a079956d.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=9": {
+    "url": "https://ir.sutrobio.com/press-releases?page=9",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=9",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:51.448634+00:00",
+    "source_sha256": "487525d0e2e250f55008951ffd50bbbaeedc46ec7dbd4ffa77a2b7b70add6a7e",
+    "source_bytes": 80257,
+    "source_relative_path": "raw_sources/487525d0e2e250f55008951ffd50bbbaeedc46ec7dbd4ffa77a2b7b70add6a7e.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=10": {
+    "url": "https://ir.sutrobio.com/press-releases?page=10",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=10",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:51.848649+00:00",
+    "source_sha256": "f860f32bcdf03b6aca4ca61772c529c146da8bf2a23e349b2880ad25262cb2d0",
+    "source_bytes": 80626,
+    "source_relative_path": "raw_sources/f860f32bcdf03b6aca4ca61772c529c146da8bf2a23e349b2880ad25262cb2d0.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=11": {
+    "url": "https://ir.sutrobio.com/press-releases?page=11",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=11",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:52.236787+00:00",
+    "source_sha256": "179aeb217cca1817622e60494293a1bcf325e6622947c57cbc377a73084cc726",
+    "source_bytes": 80134,
+    "source_relative_path": "raw_sources/179aeb217cca1817622e60494293a1bcf325e6622947c57cbc377a73084cc726.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=12": {
+    "url": "https://ir.sutrobio.com/press-releases?page=12",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=12",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:52.751033+00:00",
+    "source_sha256": "5ef4a95733d8cc6860cf38a0f158ef827e8c44c994de254c07aa9da9e58552d7",
+    "source_bytes": 80424,
+    "source_relative_path": "raw_sources/5ef4a95733d8cc6860cf38a0f158ef827e8c44c994de254c07aa9da9e58552d7.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=13": {
+    "url": "https://ir.sutrobio.com/press-releases?page=13",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=13",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:53.141060+00:00",
+    "source_sha256": "9aad08ccd7f2e50f7c5b341047ad9b99756fa822f5eef37053d4fbb916b67b0b",
+    "source_bytes": 80404,
+    "source_relative_path": "raw_sources/9aad08ccd7f2e50f7c5b341047ad9b99756fa822f5eef37053d4fbb916b67b0b.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=14": {
+    "url": "https://ir.sutrobio.com/press-releases?page=14",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=14",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:53.561126+00:00",
+    "source_sha256": "4aa01f509ccd99cbeda9330a284bfcf766d2c10f5e1975461bf9082487ce2370",
+    "source_bytes": 80673,
+    "source_relative_path": "raw_sources/4aa01f509ccd99cbeda9330a284bfcf766d2c10f5e1975461bf9082487ce2370.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=15": {
+    "url": "https://ir.sutrobio.com/press-releases?page=15",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=15",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:54.014623+00:00",
+    "source_sha256": "f85d5742c9e3917892ff0f9dfc59ac34c97c49f35a4dc78143c3a7e02d96b187",
+    "source_bytes": 81265,
+    "source_relative_path": "raw_sources/f85d5742c9e3917892ff0f9dfc59ac34c97c49f35a4dc78143c3a7e02d96b187.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=16": {
+    "url": "https://ir.sutrobio.com/press-releases?page=16",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=16",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:54.467194+00:00",
+    "source_sha256": "19d276877646c8bc1d4ef1e4f1e830442b33abad191b35097325f138a7a39ae7",
+    "source_bytes": 80590,
+    "source_relative_path": "raw_sources/19d276877646c8bc1d4ef1e4f1e830442b33abad191b35097325f138a7a39ae7.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=17": {
+    "url": "https://ir.sutrobio.com/press-releases?page=17",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=17",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:54.860722+00:00",
+    "source_sha256": "e3c20e75145cd8a9f93676f24ea8b306a0ed6af67f39a242185a54a9985f7eef",
+    "source_bytes": 80617,
+    "source_relative_path": "raw_sources/e3c20e75145cd8a9f93676f24ea8b306a0ed6af67f39a242185a54a9985f7eef.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=18": {
+    "url": "https://ir.sutrobio.com/press-releases?page=18",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=18",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:55.245773+00:00",
+    "source_sha256": "cc1796051a81fe123e32af60c736f82aa58fc3bd7f47b901afb9d9e7af32353a",
+    "source_bytes": 80044,
+    "source_relative_path": "raw_sources/cc1796051a81fe123e32af60c736f82aa58fc3bd7f47b901afb9d9e7af32353a.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=19": {
+    "url": "https://ir.sutrobio.com/press-releases?page=19",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=19",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:55.722337+00:00",
+    "source_sha256": "94eb5f9a2241399514947e2dee02b04001e160784f88a40d0375fb2e3e148aef",
+    "source_bytes": 79665,
+    "source_relative_path": "raw_sources/94eb5f9a2241399514947e2dee02b04001e160784f88a40d0375fb2e3e148aef.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=20": {
+    "url": "https://ir.sutrobio.com/press-releases?page=20",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=20",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:56.227863+00:00",
+    "source_sha256": "55b91059f78374018d2b59a47d3029b93d76a94abd6cbb6a19807d4d6d2410c1",
+    "source_bytes": 79713,
+    "source_relative_path": "raw_sources/55b91059f78374018d2b59a47d3029b93d76a94abd6cbb6a19807d4d6d2410c1.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=21": {
+    "url": "https://ir.sutrobio.com/press-releases?page=21",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=21",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:56.635983+00:00",
+    "source_sha256": "7b1238153d5e05338446024c5b2b38519804aaf3cf33c7ff5c8ad257495be27d",
+    "source_bytes": 80090,
+    "source_relative_path": "raw_sources/7b1238153d5e05338446024c5b2b38519804aaf3cf33c7ff5c8ad257495be27d.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=22": {
+    "url": "https://ir.sutrobio.com/press-releases?page=22",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=22",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:57.017557+00:00",
+    "source_sha256": "c9b53afd79a04b02e232f6b841920c2350cd0d967dc6c05818077c0b50b032de",
+    "source_bytes": 79931,
+    "source_relative_path": "raw_sources/c9b53afd79a04b02e232f6b841920c2350cd0d967dc6c05818077c0b50b032de.html"
+  },
+  "https://ir.sutrobio.com/press-releases?page=23": {
+    "url": "https://ir.sutrobio.com/press-releases?page=23",
+    "resolved_url": "https://ir.sutrobio.com/press-releases?page=23",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:57.454587+00:00",
+    "source_sha256": "079adbaea2474464d2f9de2ef59c285b3943ba6a19193568e30c18599949b3cd",
+    "source_bytes": 79360,
+    "source_relative_path": "raw_sources/079adbaea2474464d2f9de2ef59c285b3943ba6a19193568e30c18599949b3cd.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/134/fred-hutchinson-cancer-research-center-in-partnership-with-sutro-biopharma-to-present-at-ash-2021": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/134/fred-hutchinson-cancer-research-center-in-partnership-with-sutro-biopharma-to-present-at-ash-2021",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/134/fred-hutchinson-cancer-research-center-in-partnership-with-sutro-biopharma-to-present-at-ash-2021",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:57.949835+00:00",
+    "source_sha256": "5b9d3497b0402dfc4eaf7840dcf809e06763061494a275898f5e012821d5ff23",
+    "source_bytes": 74037,
+    "source_relative_path": "raw_sources/5b9d3497b0402dfc4eaf7840dcf809e06763061494a275898f5e012821d5ff23.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/135/sutro-biopharma-announces-company-kol-virtual-event-to-provide-interim-dose-expansion-data-for-antibody-drug-conjugate-program-stro-002-for-treatment-of-advanced-ovarian-cancer": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/135/sutro-biopharma-announces-company-kol-virtual-event-to-provide-interim-dose-expansion-data-for-antibody-drug-conjugate-program-stro-002-for-treatment-of-advanced-ovarian-cancer",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/135/sutro-biopharma-announces-company-kol-virtual-event-to-provide-interim-dose-expansion-data-for-antibody-drug-conjugate-program-stro-002-for-treatment-of-advanced-ovarian-cancer",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:57.975535+00:00",
+    "source_sha256": "691f0280526492c25f8fe290d0d103caf97c3f8c713f46ef32035da15faacec5",
+    "source_bytes": 74504,
+    "source_relative_path": "raw_sources/691f0280526492c25f8fe290d0d103caf97c3f8c713f46ef32035da15faacec5.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/136/sutro-biopharma-and-tasly-biopharmaceuticals-enter-into-exclusive-license-agreement-for-stro-002-in-greater-china": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/136/sutro-biopharma-and-tasly-biopharmaceuticals-enter-into-exclusive-license-agreement-for-stro-002-in-greater-china",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/136/sutro-biopharma-and-tasly-biopharmaceuticals-enter-into-exclusive-license-agreement-for-stro-002-in-greater-china",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:57.990901+00:00",
+    "source_sha256": "5f7a92934de1e5ea90fc541d8e5ea4aecb67f0e1f689b9ddf8b73752684c3618",
+    "source_bytes": 75208,
+    "source_relative_path": "raw_sources/5f7a92934de1e5ea90fc541d8e5ea4aecb67f0e1f689b9ddf8b73752684c3618.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/133/sutro-biopharma-to-participate-in-two-upcoming-investor-conferences": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/133/sutro-biopharma-to-participate-in-two-upcoming-investor-conferences",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/133/sutro-biopharma-to-participate-in-two-upcoming-investor-conferences",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:58.356709+00:00",
+    "source_sha256": "25959b20172db215eb5beb32dcc3e25fdbb9dabf7cda1b1714f21cb7b1fecd14",
+    "source_bytes": 71579,
+    "source_relative_path": "raw_sources/25959b20172db215eb5beb32dcc3e25fdbb9dabf7cda1b1714f21cb7b1fecd14.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/132/sutro-biopharma-announces-appointment-of-heidi-hunter-to-board-of-directors": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/132/sutro-biopharma-announces-appointment-of-heidi-hunter-to-board-of-directors",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/132/sutro-biopharma-announces-appointment-of-heidi-hunter-to-board-of-directors",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:58.376964+00:00",
+    "source_sha256": "74b0ead41c724e4fbca6277e476661b7d88352f8a15a1b3894c636aec32bae83",
+    "source_bytes": 72751,
+    "source_relative_path": "raw_sources/74b0ead41c724e4fbca6277e476661b7d88352f8a15a1b3894c636aec32bae83.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/131/sutro-biopharma-reports-third-quarter-2021-financial-results-business-highlights-and-anticipated-2021-milestones": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/131/sutro-biopharma-reports-third-quarter-2021-financial-results-business-highlights-and-anticipated-2021-milestones",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/131/sutro-biopharma-reports-third-quarter-2021-financial-results-business-highlights-and-anticipated-2021-milestones",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:58.465634+00:00",
+    "source_sha256": "a8498961a822d550788b8c3b55f094596409cc5fc3b29273ea2b1067d97934e7",
+    "source_bytes": 112043,
+    "source_relative_path": "raw_sources/a8498961a822d550788b8c3b55f094596409cc5fc3b29273ea2b1067d97934e7.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/129/sutro-biopharma-and-bionova-pharmaceuticals-enter-into-collaboration-for-stro-001-in-greater-china": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/129/sutro-biopharma-and-bionova-pharmaceuticals-enter-into-collaboration-for-stro-001-in-greater-china",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/129/sutro-biopharma-and-bionova-pharmaceuticals-enter-into-collaboration-for-stro-001-in-greater-china",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:58.875974+00:00",
+    "source_sha256": "5fa0ceccdbdc89b3382398fde1bf59036e50c011b8db153ab51ef1a3456ccbef",
+    "source_bytes": 75492,
+    "source_relative_path": "raw_sources/5fa0ceccdbdc89b3382398fde1bf59036e50c011b8db153ab51ef1a3456ccbef.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/130/sutro-biopharma-to-participate-in-three-upcoming-investor-conferences": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/130/sutro-biopharma-to-participate-in-three-upcoming-investor-conferences",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/130/sutro-biopharma-to-participate-in-three-upcoming-investor-conferences",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:58.877781+00:00",
+    "source_sha256": "5add54cbc9cbe4b04e155c3d2fa668a8ec0fa68dba7e6e2452d193e67fe3111f",
+    "source_bytes": 69386,
+    "source_relative_path": "raw_sources/5add54cbc9cbe4b04e155c3d2fa668a8ec0fa68dba7e6e2452d193e67fe3111f.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/128/sutro-biopharma-announces-extension-of-cytokine-derivative-research-program-under-collaboration-with-merck": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/128/sutro-biopharma-announces-extension-of-cytokine-derivative-research-program-under-collaboration-with-merck",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/128/sutro-biopharma-announces-extension-of-cytokine-derivative-research-program-under-collaboration-with-merck",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:58.879187+00:00",
+    "source_sha256": "61d116640f6386cdb7485e72d17ed775d5b10eb02eb1c76704aad6f82a7a904f",
+    "source_bytes": 72771,
+    "source_relative_path": "raw_sources/61d116640f6386cdb7485e72d17ed775d5b10eb02eb1c76704aad6f82a7a904f.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/127/sutro-biopharma-announces-inducement-grants-under-nasdaq-listing-rule-5635c4": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/127/sutro-biopharma-announces-inducement-grants-under-nasdaq-listing-rule-5635c4",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/127/sutro-biopharma-announces-inducement-grants-under-nasdaq-listing-rule-5635c4",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:59.261005+00:00",
+    "source_sha256": "b74dd54959b773eaa6c7d8e8375a347148fe0253409edb5430b56a69a8b6a1d9",
+    "source_bytes": 69932,
+    "source_relative_path": "raw_sources/b74dd54959b773eaa6c7d8e8375a347148fe0253409edb5430b56a69a8b6a1d9.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/126/sutro-biopharma-announces-expansion-of-leadership-team": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/126/sutro-biopharma-announces-expansion-of-leadership-team",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/126/sutro-biopharma-announces-expansion-of-leadership-team",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:59.269048+00:00",
+    "source_sha256": "6050f070b08c0f1eef0c67cc773e825149f1d0afbdd283e2b4c9f39672b49d87",
+    "source_bytes": 74557,
+    "source_relative_path": "raw_sources/6050f070b08c0f1eef0c67cc773e825149f1d0afbdd283e2b4c9f39672b49d87.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/125/sutro-biopharma-to-participate-in-the-2021-wells-fargo-virtual-healthcare-conference": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/125/sutro-biopharma-to-participate-in-the-2021-wells-fargo-virtual-healthcare-conference",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/125/sutro-biopharma-to-participate-in-the-2021-wells-fargo-virtual-healthcare-conference",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:59.347217+00:00",
+    "source_sha256": "208d8b352be6911aa9d0f9202a5d7bf3c85e93dc9167ead1cceb65ab143fd627",
+    "source_bytes": 69088,
+    "source_relative_path": "raw_sources/208d8b352be6911aa9d0f9202a5d7bf3c85e93dc9167ead1cceb65ab143fd627.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/123/sutro-biopharma-reports-second-quarter-2021-financial-results-business-highlights-and-anticipated-second-half-2021-milestones": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/123/sutro-biopharma-reports-second-quarter-2021-financial-results-business-highlights-and-anticipated-second-half-2021-milestones",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/123/sutro-biopharma-reports-second-quarter-2021-financial-results-business-highlights-and-anticipated-second-half-2021-milestones",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:59.690349+00:00",
+    "source_sha256": "8f9cb4a6fae52a2a16da2ab59cee6becd9cb404ac98ad23361060e5ea701e796",
+    "source_bytes": 111862,
+    "source_relative_path": "raw_sources/8f9cb4a6fae52a2a16da2ab59cee6becd9cb404ac98ad23361060e5ea701e796.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/124/sutro-biopharma-announces-stro-002-fda-fast-track-designation-for-patients-with-advanced-ovarian-cancer": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/124/sutro-biopharma-announces-stro-002-fda-fast-track-designation-for-patients-with-advanced-ovarian-cancer",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/124/sutro-biopharma-announces-stro-002-fda-fast-track-designation-for-patients-with-advanced-ovarian-cancer",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:59.722410+00:00",
+    "source_sha256": "5402fc44b05f752e56beaff6eb47c8e420fa977ff707a1ced7e91549f8831eb1",
+    "source_bytes": 73483,
+    "source_relative_path": "raw_sources/5402fc44b05f752e56beaff6eb47c8e420fa977ff707a1ced7e91549f8831eb1.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/122/sutro-biopharma-appoints-jane-chung-as-chief-commercial-officer": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/122/sutro-biopharma-appoints-jane-chung-as-chief-commercial-officer",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/122/sutro-biopharma-appoints-jane-chung-as-chief-commercial-officer",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:59.803439+00:00",
+    "source_sha256": "ac88cce14073acf4c3e86c342fbedf1f06c2a7d1880340d9ca494197e7c3c0d9",
+    "source_bytes": 74559,
+    "source_relative_path": "raw_sources/ac88cce14073acf4c3e86c342fbedf1f06c2a7d1880340d9ca494197e7c3c0d9.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/121/sutro-biopharma-to-participate-in-the-12th-annual-wedbush-pacgrow-healthcare-virtual-conference": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/121/sutro-biopharma-to-participate-in-the-12th-annual-wedbush-pacgrow-healthcare-virtual-conference",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/121/sutro-biopharma-to-participate-in-the-12th-annual-wedbush-pacgrow-healthcare-virtual-conference",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:00.096358+00:00",
+    "source_sha256": "6f299bcc27b6dfe799923fefdbd253a317a73d41df9053b7639252794b9edd33",
+    "source_bytes": 69367,
+    "source_relative_path": "raw_sources/6f299bcc27b6dfe799923fefdbd253a317a73d41df9053b7639252794b9edd33.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/120/sutro-biopharma-to-participate-in-two-virtual-investor-conferences-in-june": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/120/sutro-biopharma-to-participate-in-two-virtual-investor-conferences-in-june",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/120/sutro-biopharma-to-participate-in-two-virtual-investor-conferences-in-june",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:00.120690+00:00",
+    "source_sha256": "dbd1bfbcd9b15a3a63aff1c6cea2356ab2e2cda8141f6653e872f7995bb9af08",
+    "source_bytes": 69458,
+    "source_relative_path": "raw_sources/dbd1bfbcd9b15a3a63aff1c6cea2356ab2e2cda8141f6653e872f7995bb9af08.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/119/sutro-biopharma-earns-milestone-payment-from-bispecific-antibody-drug-conjugate-collaboration-with-merck-kgaa-darmstadt-germany": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/119/sutro-biopharma-earns-milestone-payment-from-bispecific-antibody-drug-conjugate-collaboration-with-merck-kgaa-darmstadt-germany",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/119/sutro-biopharma-earns-milestone-payment-from-bispecific-antibody-drug-conjugate-collaboration-with-merck-kgaa-darmstadt-germany",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:00.233829+00:00",
+    "source_sha256": "55162f302efcd84155e875aa5c4167255ad372e3c285ace694d140ceb2a1fb6e",
+    "source_bytes": 73524,
+    "source_relative_path": "raw_sources/55162f302efcd84155e875aa5c4167255ad372e3c285ace694d140ceb2a1fb6e.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/118/sutro-biopharma-announces-additional-data-for-dose-escalation-phase-1-study-of-stro-002-to-be-presented-at-asco-2021": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/118/sutro-biopharma-announces-additional-data-for-dose-escalation-phase-1-study-of-stro-002-to-be-presented-at-asco-2021",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/118/sutro-biopharma-announces-additional-data-for-dose-escalation-phase-1-study-of-stro-002-to-be-presented-at-asco-2021",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:00.525788+00:00",
+    "source_sha256": "df4f35a705d2aa2cb43b5ef24ccaeef5285be1c9ae46c35ef1b5ec88fc919fb5",
+    "source_bytes": 77613,
+    "source_relative_path": "raw_sources/df4f35a705d2aa2cb43b5ef24ccaeef5285be1c9ae46c35ef1b5ec88fc919fb5.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/117/sutro-biopharma-to-participate-in-upcoming-virtual-investor-conferences": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/117/sutro-biopharma-to-participate-in-upcoming-virtual-investor-conferences",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/117/sutro-biopharma-to-participate-in-upcoming-virtual-investor-conferences",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:00.528358+00:00",
+    "source_sha256": "f19ef5343866557c0ce5b71bfd546cab15c6d68230913056917f872aaa1a752c",
+    "source_bytes": 69317,
+    "source_relative_path": "raw_sources/f19ef5343866557c0ce5b71bfd546cab15c6d68230913056917f872aaa1a752c.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/116/sutro-biopharma-reports-first-quarter-2021-financial-results-business-highlights-and-2021-anticipated-milestones": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/116/sutro-biopharma-reports-first-quarter-2021-financial-results-business-highlights-and-2021-anticipated-milestones",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/116/sutro-biopharma-reports-first-quarter-2021-financial-results-business-highlights-and-2021-anticipated-milestones",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:00.681675+00:00",
+    "source_sha256": "5762a716c69b35a042b220d441723f76156135f6969cf4564137849987538bba",
+    "source_bytes": 105719,
+    "source_relative_path": "raw_sources/5762a716c69b35a042b220d441723f76156135f6969cf4564137849987538bba.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/114/sutro-biopharma-earns-milestone-payment-from-cytokine-derivatives-collaboration-with-merck": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/114/sutro-biopharma-earns-milestone-payment-from-cytokine-derivatives-collaboration-with-merck",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/114/sutro-biopharma-earns-milestone-payment-from-cytokine-derivatives-collaboration-with-merck",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:00.919949+00:00",
+    "source_sha256": "afb8455c793677945ab2568bae1907e336a7c757c9edecb663ecfd41875f5974",
+    "source_bytes": 72813,
+    "source_relative_path": "raw_sources/afb8455c793677945ab2568bae1907e336a7c757c9edecb663ecfd41875f5974.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/115/sutro-biopharma-promotes-trevor-hallam-ph-d-to-president-of-research-and-chief-scientific-officer": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/115/sutro-biopharma-promotes-trevor-hallam-ph-d-to-president-of-research-and-chief-scientific-officer",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/115/sutro-biopharma-promotes-trevor-hallam-ph-d-to-president-of-research-and-chief-scientific-officer",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:00.948710+00:00",
+    "source_sha256": "4e40b61441b1c036206e634d8e2a1f095da85770be18321753d92daf561d6d51",
+    "source_bytes": 73809,
+    "source_relative_path": "raw_sources/4e40b61441b1c036206e634d8e2a1f095da85770be18321753d92daf561d6d51.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/113/sutro-biopharma-to-present-at-two-upcoming-investor-conferences": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/113/sutro-biopharma-to-present-at-two-upcoming-investor-conferences",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/113/sutro-biopharma-to-present-at-two-upcoming-investor-conferences",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:01.123749+00:00",
+    "source_sha256": "89fa7225ca933a2f9d427f59718865778c98978786d7b12546b7e8946ea5ab41",
+    "source_bytes": 69187,
+    "source_relative_path": "raw_sources/89fa7225ca933a2f9d427f59718865778c98978786d7b12546b7e8946ea5ab41.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/112/sutro-biopharma-strengthens-leadership-through-management-promotions-and-expansion-of-clinical-advisory-board": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/112/sutro-biopharma-strengthens-leadership-through-management-promotions-and-expansion-of-clinical-advisory-board",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/112/sutro-biopharma-strengthens-leadership-through-management-promotions-and-expansion-of-clinical-advisory-board",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:01.364323+00:00",
+    "source_sha256": "064c1a68f90972b03165a5f355b616ffac36ddffc775690a143d489a69e97090",
+    "source_bytes": 77001,
+    "source_relative_path": "raw_sources/064c1a68f90972b03165a5f355b616ffac36ddffc775690a143d489a69e97090.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/111/sutro-biopharma-reports-full-year-2020-financial-results-and-provides-business-highlights-and-2021-anticipated-milestones": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/111/sutro-biopharma-reports-full-year-2020-financial-results-and-provides-business-highlights-and-2021-anticipated-milestones",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/111/sutro-biopharma-reports-full-year-2020-financial-results-and-provides-business-highlights-and-2021-anticipated-milestones",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:01.436254+00:00",
+    "source_sha256": "320fc6fd5d7d4c5c133d04b0d8b41e43df79209cf8b58f19645c9153dd0cbf18",
+    "source_bytes": 106846,
+    "source_relative_path": "raw_sources/320fc6fd5d7d4c5c133d04b0d8b41e43df79209cf8b58f19645c9153dd0cbf18.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/110/sutro-biopharma-to-participate-in-the-cowen-41st-annual-healthcare-conference": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/110/sutro-biopharma-to-participate-in-the-cowen-41st-annual-healthcare-conference",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/110/sutro-biopharma-to-participate-in-the-cowen-41st-annual-healthcare-conference",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:01.607174+00:00",
+    "source_sha256": "615e5862ecb64b096e0e85d1b37de8140a3cd31f700d6f9f51623c5156f5c4a7",
+    "source_bytes": 68338,
+    "source_relative_path": "raw_sources/615e5862ecb64b096e0e85d1b37de8140a3cd31f700d6f9f51623c5156f5c4a7.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/109/sutro-biopharma-announces-first-patient-dosed-in-the-dose-expansion-study-of-stro-002-in-patients-with-ovarian-cancer": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/109/sutro-biopharma-announces-first-patient-dosed-in-the-dose-expansion-study-of-stro-002-in-patients-with-ovarian-cancer",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/109/sutro-biopharma-announces-first-patient-dosed-in-the-dose-expansion-study-of-stro-002-in-patients-with-ovarian-cancer",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:01.823508+00:00",
+    "source_sha256": "07850025de3d9446e61be1dc4e29f186ab674ceb8adbb6b7f823174dab09c1fa",
+    "source_bytes": 73948,
+    "source_relative_path": "raw_sources/07850025de3d9446e61be1dc4e29f186ab674ceb8adbb6b7f823174dab09c1fa.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/108/sutro-biopharma-to-present-at-the-39th-annual-j-p-morgan-virtual-healthcare-conference": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/108/sutro-biopharma-to-present-at-the-39th-annual-j-p-morgan-virtual-healthcare-conference",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/108/sutro-biopharma-to-present-at-the-39th-annual-j-p-morgan-virtual-healthcare-conference",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:01.841757+00:00",
+    "source_sha256": "985078fe03d28de3b6f8de93db9ad39f18096be30c7a79e5952f03500cbc0499",
+    "source_bytes": 70882,
+    "source_relative_path": "raw_sources/985078fe03d28de3b6f8de93db9ad39f18096be30c7a79e5952f03500cbc0499.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/107/sutro-biopharma-announces-closing-of-upsized-144-9-million-public-offering-including-full-exercise-of-the-underwriters-option-to-purchase-additional-shares": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/107/sutro-biopharma-announces-closing-of-upsized-144-9-million-public-offering-including-full-exercise-of-the-underwriters-option-to-purchase-additional-shares",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/107/sutro-biopharma-announces-closing-of-upsized-144-9-million-public-offering-including-full-exercise-of-the-underwriters-option-to-purchase-additional-shares",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:02.046379+00:00",
+    "source_sha256": "f10638c6f73c0cc8e6e30bd75a401119d7cee65d3812cd10be3dd6727b4f5eb6",
+    "source_bytes": 73710,
+    "source_relative_path": "raw_sources/f10638c6f73c0cc8e6e30bd75a401119d7cee65d3812cd10be3dd6727b4f5eb6.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/106/sutro-biopharma-announces-pricing-of-126-0-million-public-offering": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/106/sutro-biopharma-announces-pricing-of-126-0-million-public-offering",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/106/sutro-biopharma-announces-pricing-of-126-0-million-public-offering",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:02.231639+00:00",
+    "source_sha256": "5fe2337f5446e37c7de53c1f3b855cd901784b0c4a657c42f1bbaa51a1c2d578",
+    "source_bytes": 73744,
+    "source_relative_path": "raw_sources/5fe2337f5446e37c7de53c1f3b855cd901784b0c4a657c42f1bbaa51a1c2d578.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/105/sutro-biopharma-announces-proposed-public-offering-of-5-million-shares-of-common-stock": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/105/sutro-biopharma-announces-proposed-public-offering-of-5-million-shares-of-common-stock",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/105/sutro-biopharma-announces-proposed-public-offering-of-5-million-shares-of-common-stock",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:02.269953+00:00",
+    "source_sha256": "741bb3816b1637ce14c399c767884d2148e4a9733c1b8cf1fb9e5c8a7b101d5b",
+    "source_bytes": 73686,
+    "source_relative_path": "raw_sources/741bb3816b1637ce14c399c767884d2148e4a9733c1b8cf1fb9e5c8a7b101d5b.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/104/sutro-biopharma-presents-data-from-ongoing-phase-1-dose-escalation-study-for-stro-001-for-the-treatment-of-b-cell-non-hodgkin-lymphoma-at-the-62nd-american-society-of-hematology-annual-meeting": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/104/sutro-biopharma-presents-data-from-ongoing-phase-1-dose-escalation-study-for-stro-001-for-the-treatment-of-b-cell-non-hodgkin-lymphoma-at-the-62nd-american-society-of-hematology-annual-meeting",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/104/sutro-biopharma-presents-data-from-ongoing-phase-1-dose-escalation-study-for-stro-001-for-the-treatment-of-b-cell-non-hodgkin-lymphoma-at-the-62nd-american-society-of-hematology-annual-meeting",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:02.447802+00:00",
+    "source_sha256": "edee0ff08edb45e03a003aa37e431a5a8c09777c84b590904793d9784311c129",
+    "source_bytes": 79185,
+    "source_relative_path": "raw_sources/edee0ff08edb45e03a003aa37e431a5a8c09777c84b590904793d9784311c129.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/102/sutro-biopharma-announces-appointment-of-jon-m-wigginton-m-d-to-board-of-directors": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/102/sutro-biopharma-announces-appointment-of-jon-m-wigginton-m-d-to-board-of-directors",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/102/sutro-biopharma-announces-appointment-of-jon-m-wigginton-m-d-to-board-of-directors",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:02.668052+00:00",
+    "source_sha256": "ee411aceb3e8e0026ff9dd13d648de71f0e0e6d075fc98ae8a2ba7f42cd74080",
+    "source_bytes": 73444,
+    "source_relative_path": "raw_sources/ee411aceb3e8e0026ff9dd13d648de71f0e0e6d075fc98ae8a2ba7f42cd74080.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/103/sutro-biopharma-announces-encouraging-interim-data-on-stro-002-phase-1-dose-escalation-study-for-patients-with-ovarian-cancer": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/103/sutro-biopharma-announces-encouraging-interim-data-on-stro-002-phase-1-dose-escalation-study-for-patients-with-ovarian-cancer",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/103/sutro-biopharma-announces-encouraging-interim-data-on-stro-002-phase-1-dose-escalation-study-for-patients-with-ovarian-cancer",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:02.670363+00:00",
+    "source_sha256": "eaa5d4cd9d937c05fa9cebcc900e5a03caa4a39b377e8ea582207310b0c0c6ee",
+    "source_bytes": 77621,
+    "source_relative_path": "raw_sources/eaa5d4cd9d937c05fa9cebcc900e5a03caa4a39b377e8ea582207310b0c0c6ee.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/101/sutro-biopharma-to-host-a-virtual-kol-event-to-provide-clinical-update-on-antibody-drug-conjugate-stro-002-in-ovarian-cancer": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/101/sutro-biopharma-to-host-a-virtual-kol-event-to-provide-clinical-update-on-antibody-drug-conjugate-stro-002-in-ovarian-cancer",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/101/sutro-biopharma-to-host-a-virtual-kol-event-to-provide-clinical-update-on-antibody-drug-conjugate-stro-002-in-ovarian-cancer",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:02.852555+00:00",
+    "source_sha256": "7e738fe63cf7b67b8bcc54481d200a7d9318453188db1d2f485d310c02f00a41",
+    "source_bytes": 73750,
+    "source_relative_path": "raw_sources/7e738fe63cf7b67b8bcc54481d200a7d9318453188db1d2f485d310c02f00a41.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/100/sutro-biopharma-announces-the-appointment-of-diana-landa-as-vice-president-of-regulatory-affairs-and-annie-chang-as-head-of-investor-relations": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/100/sutro-biopharma-announces-the-appointment-of-diana-landa-as-vice-president-of-regulatory-affairs-and-annie-chang-as-head-of-investor-relations",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/100/sutro-biopharma-announces-the-appointment-of-diana-landa-as-vice-president-of-regulatory-affairs-and-annie-chang-as-head-of-investor-relations",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:03.100903+00:00",
+    "source_sha256": "e38ef67db18d8dae73ea32c313f7dedfddddad05a4257e8f0d902bdf268e7fc3",
+    "source_bytes": 73947,
+    "source_relative_path": "raw_sources/e38ef67db18d8dae73ea32c313f7dedfddddad05a4257e8f0d902bdf268e7fc3.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/99/sutro-biopharma-to-participate-in-four-upcoming-investor-conferences": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/99/sutro-biopharma-to-participate-in-four-upcoming-investor-conferences",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/99/sutro-biopharma-to-participate-in-four-upcoming-investor-conferences",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:03.107934+00:00",
+    "source_sha256": "212bd11449a5684b95fe81f04c6b4ddf6eb6a2f18e8b6519dd3fb8dda33b1fa9",
+    "source_bytes": 71803,
+    "source_relative_path": "raw_sources/212bd11449a5684b95fe81f04c6b4ddf6eb6a2f18e8b6519dd3fb8dda33b1fa9.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/98/sutro-biopharma-reports-third-quarter-2020-financial-results-and-provides-business-highlights-and-developments": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/98/sutro-biopharma-reports-third-quarter-2020-financial-results-and-provides-business-highlights-and-developments",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/98/sutro-biopharma-reports-third-quarter-2020-financial-results-and-provides-business-highlights-and-developments",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:03.309544+00:00",
+    "source_sha256": "25e20376970d9c9b2879aaac3b2c24ef90c65ff15e92b3c85abd30e43b964474",
+    "source_bytes": 111927,
+    "source_relative_path": "raw_sources/25e20376970d9c9b2879aaac3b2c24ef90c65ff15e92b3c85abd30e43b964474.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/97/sutro-biopharma-named-best-new-drug-developer-at-the-7th-annual-world-adc": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/97/sutro-biopharma-named-best-new-drug-developer-at-the-7th-annual-world-adc",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/97/sutro-biopharma-named-best-new-drug-developer-at-the-7th-annual-world-adc",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:03.548348+00:00",
+    "source_sha256": "cd3bac3609619b95120409bcbddb4de28841e51aafc8abf5ebff838e29107a99",
+    "source_bytes": 72473,
+    "source_relative_path": "raw_sources/cd3bac3609619b95120409bcbddb4de28841e51aafc8abf5ebff838e29107a99.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/96/sutro-biopharma-presents-promising-stro-002-interim-phase-1-clinical-data-in-ovarian-cancer-at-the-2020-igcs-annual-global-meeting": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/96/sutro-biopharma-presents-promising-stro-002-interim-phase-1-clinical-data-in-ovarian-cancer-at-the-2020-igcs-annual-global-meeting",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/96/sutro-biopharma-presents-promising-stro-002-interim-phase-1-clinical-data-in-ovarian-cancer-at-the-2020-igcs-annual-global-meeting",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:03.550951+00:00",
+    "source_sha256": "187535217cf0570a1f192f9578dc77299b44af52a5ea1c73f0532d3a1e93ee2c",
+    "source_bytes": 77849,
+    "source_relative_path": "raw_sources/187535217cf0570a1f192f9578dc77299b44af52a5ea1c73f0532d3a1e93ee2c.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/95/sutro-biopharma-to-present-at-two-upcoming-investor-conferences": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/95/sutro-biopharma-to-present-at-two-upcoming-investor-conferences",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/95/sutro-biopharma-to-present-at-two-upcoming-investor-conferences",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:03.770711+00:00",
+    "source_sha256": "d6c5b0df4e5dd92396f03e6cf2e9fc7ef247d44e25e16d9d6a866000b7b0e442",
+    "source_bytes": 71871,
+    "source_relative_path": "raw_sources/d6c5b0df4e5dd92396f03e6cf2e9fc7ef247d44e25e16d9d6a866000b7b0e442.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/94/sutro-biopharma-announces-promising-stro-002-interim-phase-1-clinical-data-in-ovarian-cancer-and-presentation-at-the-2020-igcs-annual-global-meeting": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/94/sutro-biopharma-announces-promising-stro-002-interim-phase-1-clinical-data-in-ovarian-cancer-and-presentation-at-the-2020-igcs-annual-global-meeting",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/94/sutro-biopharma-announces-promising-stro-002-interim-phase-1-clinical-data-in-ovarian-cancer-and-presentation-at-the-2020-igcs-annual-global-meeting",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:04.014540+00:00",
+    "source_sha256": "22ab2f17592d30cce8ac80558e73fdd0b88a9ba61b201962dcc00f9aa0b7527d",
+    "source_bytes": 76675,
+    "source_relative_path": "raw_sources/22ab2f17592d30cce8ac80558e73fdd0b88a9ba61b201962dcc00f9aa0b7527d.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/93/sutro-biopharma-earns-clinical-supply-milestone-payment-from-merck-kgaa-darmstadt-germany-for-novel-bispecific-antibody-drug-conjugate-targeting-solid-tumors": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/93/sutro-biopharma-earns-clinical-supply-milestone-payment-from-merck-kgaa-darmstadt-germany-for-novel-bispecific-antibody-drug-conjugate-targeting-solid-tumors",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/93/sutro-biopharma-earns-clinical-supply-milestone-payment-from-merck-kgaa-darmstadt-germany-for-novel-bispecific-antibody-drug-conjugate-targeting-solid-tumors",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:04.022051+00:00",
+    "source_sha256": "8c81107be9d3189165b96cba63ea0109744d84185c8f8c132b37954507c97926",
+    "source_bytes": 74525,
+    "source_relative_path": "raw_sources/8c81107be9d3189165b96cba63ea0109744d84185c8f8c132b37954507c97926.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/5/sutro-biopharma-announces-two-executive-promotions-to-vice-president-of-quality-and-vice-president-of-manufacturing": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/5/sutro-biopharma-announces-two-executive-promotions-to-vice-president-of-quality-and-vice-president-of-manufacturing",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/5/sutro-biopharma-announces-two-executive-promotions-to-vice-president-of-quality-and-vice-president-of-manufacturing",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:04.283047+00:00",
+    "source_sha256": "11cc6fb2997ec707e381d086f649e36b8b904eef3eaf5b8340da1a99e4c58a2d",
+    "source_bytes": 73919,
+    "source_relative_path": "raw_sources/11cc6fb2997ec707e381d086f649e36b8b904eef3eaf5b8340da1a99e4c58a2d.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/7/sutro-biopharma-reports-second-quarter-2020-financial-results-and-provides-business-highlights-and-developments": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/7/sutro-biopharma-reports-second-quarter-2020-financial-results-and-provides-business-highlights-and-developments",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/7/sutro-biopharma-reports-second-quarter-2020-financial-results-and-provides-business-highlights-and-developments",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:04.442614+00:00",
+    "source_sha256": "d3e463f2eeedab787b3b52c30bdead97744e947953a18e91d5308925276b5e43",
+    "source_bytes": 114231,
+    "source_relative_path": "raw_sources/d3e463f2eeedab787b3b52c30bdead97744e947953a18e91d5308925276b5e43.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/6/sutro-biopharma-to-present-at-the-2020-wedbush-pacgrow-healthcare-virtual-conference": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/6/sutro-biopharma-to-present-at-the-2020-wedbush-pacgrow-healthcare-virtual-conference",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/6/sutro-biopharma-to-present-at-the-2020-wedbush-pacgrow-healthcare-virtual-conference",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:04.459306+00:00",
+    "source_sha256": "b4a957760043bd24a07d2fe7dc51452a765bb5741f54624d48b7847a622a697b",
+    "source_bytes": 71650,
+    "source_relative_path": "raw_sources/b4a957760043bd24a07d2fe7dc51452a765bb5741f54624d48b7847a622a697b.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/8/sutro-biopharma-presents-new-preclinical-data-at-2020-aacr-virtual-annual-meeting-ii-suggesting-synergy-between-its-stro-002-antibody-drug-conjugate-and-immune-checkpoint-inhibitors-resulting-in-tumor-regression-and-adaptive-anti-tumor-immunity": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/8/sutro-biopharma-presents-new-preclinical-data-at-2020-aacr-virtual-annual-meeting-ii-suggesting-synergy-between-its-stro-002-antibody-drug-conjugate-and-immune-checkpoint-inhibitors-resulting-in-tumor-regression-and-adaptive-anti-tumor-immunity",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/8/sutro-biopharma-presents-new-preclinical-data-at-2020-aacr-virtual-annual-meeting-ii-suggesting-synergy-between-its-stro-002-antibody-drug-conjugate-and-immune-checkpoint-inhibitors-resulting-in-tumor-regression-and-adaptive-anti-tumor-immunity",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:04.683972+00:00",
+    "source_sha256": "7ad3e3cdf28476486bc9864aada571aea0f8f416089766ffce4aacebd60e8238",
+    "source_bytes": 77707,
+    "source_relative_path": "raw_sources/7ad3e3cdf28476486bc9864aada571aea0f8f416089766ffce4aacebd60e8238.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/9/sutro-biopharma-to-present-new-preclinical-data-on-its-stro-002-antibody-drug-conjugate-at-the-upcoming-aacr-2020-virtual-meeting-on-june-22-2020": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/9/sutro-biopharma-to-present-new-preclinical-data-on-its-stro-002-antibody-drug-conjugate-at-the-upcoming-aacr-2020-virtual-meeting-on-june-22-2020",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/9/sutro-biopharma-to-present-new-preclinical-data-on-its-stro-002-antibody-drug-conjugate-at-the-upcoming-aacr-2020-virtual-meeting-on-june-22-2020",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:04.873290+00:00",
+    "source_sha256": "4b090d7910b7cbbc84315022a24f325d175f4eda2612f42ef689c5c36768fe5e",
+    "source_bytes": 75952,
+    "source_relative_path": "raw_sources/4b090d7910b7cbbc84315022a24f325d175f4eda2612f42ef689c5c36768fe5e.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/10/sutro-biopharma-expands-senior-management-with-the-additions-of-vice-president-of-clinical-development-and-vice-president-of-finance-and-controller": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/10/sutro-biopharma-expands-senior-management-with-the-additions-of-vice-president-of-clinical-development-and-vice-president-of-finance-and-controller",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/10/sutro-biopharma-expands-senior-management-with-the-additions-of-vice-president-of-clinical-development-and-vice-president-of-finance-and-controller",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:04.889446+00:00",
+    "source_sha256": "157b1ec44ff61e4e5368466d7d64db96dabc3c56b00f4deb92e2ad7b32555c69",
+    "source_bytes": 74015,
+    "source_relative_path": "raw_sources/157b1ec44ff61e4e5368466d7d64db96dabc3c56b00f4deb92e2ad7b32555c69.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/11/sutro-biopharma-adds-two-exceptional-leaders-to-advisory-boards---carlos-paya-md-phd-and-lainie-martin-md": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/11/sutro-biopharma-adds-two-exceptional-leaders-to-advisory-boards---carlos-paya-md-phd-and-lainie-martin-md",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/11/sutro-biopharma-adds-two-exceptional-leaders-to-advisory-boards---carlos-paya-md-phd-and-lainie-martin-md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:05.105673+00:00",
+    "source_sha256": "ed6b0fbff0b479cafb6d0b06d9235abd8996d93a2b572e5172cfd3800dd37723",
+    "source_bytes": 73579,
+    "source_relative_path": "raw_sources/ed6b0fbff0b479cafb6d0b06d9235abd8996d93a2b572e5172cfd3800dd37723.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/12/sutro-biopharma-announces-closing-of-98-0-million-public-offering-including-full-exercise-of-the-underwriters-option-to-purchase-additional-shares": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/12/sutro-biopharma-announces-closing-of-98-0-million-public-offering-including-full-exercise-of-the-underwriters-option-to-purchase-additional-shares",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/12/sutro-biopharma-announces-closing-of-98-0-million-public-offering-including-full-exercise-of-the-underwriters-option-to-purchase-additional-shares",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:05.293179+00:00",
+    "source_sha256": "64bf82d4dfd43c9605366ec1f099192e66e5b3c8578aeba9b13c8a8738242d3d",
+    "source_bytes": 74217,
+    "source_relative_path": "raw_sources/64bf82d4dfd43c9605366ec1f099192e66e5b3c8578aeba9b13c8a8738242d3d.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/13/sutro-biopharma-announces-pricing-of-85-3-million-public-offering": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/13/sutro-biopharma-announces-pricing-of-85-3-million-public-offering",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/13/sutro-biopharma-announces-pricing-of-85-3-million-public-offering",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:05.315811+00:00",
+    "source_sha256": "f11779bd9e1c9a17f8b998a8b556ebfd0b92b3cfe223623954f11114512ef1d5",
+    "source_bytes": 74074,
+    "source_relative_path": "raw_sources/f11779bd9e1c9a17f8b998a8b556ebfd0b92b3cfe223623954f11114512ef1d5.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/14/sutro-biopharma-reports-first-quarter-2020-financial-results-and-recent-business-highlights-and-developments": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/14/sutro-biopharma-reports-first-quarter-2020-financial-results-and-recent-business-highlights-and-developments",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/14/sutro-biopharma-reports-first-quarter-2020-financial-results-and-recent-business-highlights-and-developments",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:05.544837+00:00",
+    "source_sha256": "837502728aa43c1d0d54769d19dd808015cc29e1d64f168a2b6aa235e3e69947",
+    "source_bytes": 103680,
+    "source_relative_path": "raw_sources/837502728aa43c1d0d54769d19dd808015cc29e1d64f168a2b6aa235e3e69947.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/15/sutro-biopharma-announces-proposed-public-offering": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/15/sutro-biopharma-announces-proposed-public-offering",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/15/sutro-biopharma-announces-proposed-public-offering",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:05.724323+00:00",
+    "source_sha256": "760346b2bdcbbe893ef0661ceb8d196c66940237327496e3e79cddf895d2d576",
+    "source_bytes": 73788,
+    "source_relative_path": "raw_sources/760346b2bdcbbe893ef0661ceb8d196c66940237327496e3e79cddf895d2d576.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/16/sutro-biopharma-announces-encouraging-interim-phase-1-clinical-data-for-a-dose-escalation-study-of-stro-002-antibody-drug-conjugate-in-ovarian-cancer": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/16/sutro-biopharma-announces-encouraging-interim-phase-1-clinical-data-for-a-dose-escalation-study-of-stro-002-antibody-drug-conjugate-in-ovarian-cancer",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/16/sutro-biopharma-announces-encouraging-interim-phase-1-clinical-data-for-a-dose-escalation-study-of-stro-002-antibody-drug-conjugate-in-ovarian-cancer",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:05.784000+00:00",
+    "source_sha256": "adb412b9ec14aad6049eb9b7962b31c95e6003ad8dca95ccbd6e961c402f1db7",
+    "source_bytes": 80363,
+    "source_relative_path": "raw_sources/adb412b9ec14aad6049eb9b7962b31c95e6003ad8dca95ccbd6e961c402f1db7.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/17/sutro-biopharma-to-host-conference-call-on-april-27-2020-to-provide-clinical-update-on-its-stro-002-antibody-drug-conjugate": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/17/sutro-biopharma-to-host-conference-call-on-april-27-2020-to-provide-clinical-update-on-its-stro-002-antibody-drug-conjugate",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/17/sutro-biopharma-to-host-conference-call-on-april-27-2020-to-provide-clinical-update-on-its-stro-002-antibody-drug-conjugate",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:05.994798+00:00",
+    "source_sha256": "9532d6be855b937289ee4ec763545578debbf75572227942c47a213b172d456f",
+    "source_bytes": 74875,
+    "source_relative_path": "raw_sources/9532d6be855b937289ee4ec763545578debbf75572227942c47a213b172d456f.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/18/sutro-biopharma-to-present-updated-clinical-data-for-its-stro-002-antibody-drug-conjugate-at-the-aacr-virtual-annual-meeting-on-april-27-2020": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/18/sutro-biopharma-to-present-updated-clinical-data-for-its-stro-002-antibody-drug-conjugate-at-the-aacr-virtual-annual-meeting-on-april-27-2020",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/18/sutro-biopharma-to-present-updated-clinical-data-for-its-stro-002-antibody-drug-conjugate-at-the-aacr-virtual-annual-meeting-on-april-27-2020",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:06.139032+00:00",
+    "source_sha256": "7aa17cd721e51fa50865fd6838396df9f0fbb01e25c1fd24101065e971a7a306",
+    "source_bytes": 73509,
+    "source_relative_path": "raw_sources/7aa17cd721e51fa50865fd6838396df9f0fbb01e25c1fd24101065e971a7a306.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/19/sutro-biopharma-reports-full-year-2019-financial-results-and-recent-business-highlights-and-developments": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/19/sutro-biopharma-reports-full-year-2019-financial-results-and-recent-business-highlights-and-developments",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/19/sutro-biopharma-reports-full-year-2019-financial-results-and-recent-business-highlights-and-developments",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:06.211767+00:00",
+    "source_sha256": "ae3409392186e63dddca8adb0aad4cf9f7d419a882cd721e6853d4198a295d55",
+    "source_bytes": 106785,
+    "source_relative_path": "raw_sources/ae3409392186e63dddca8adb0aad4cf9f7d419a882cd721e6853d4198a295d55.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/20/sutro-biopharma-announces-extension-of-first-cytokine-derivative-research-program-under-collaboration-with-merck": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/20/sutro-biopharma-announces-extension-of-first-cytokine-derivative-research-program-under-collaboration-with-merck",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/20/sutro-biopharma-announces-extension-of-first-cytokine-derivative-research-program-under-collaboration-with-merck",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:06.392249+00:00",
+    "source_sha256": "1750b2a0d3ba288adacc869770854febea1404b2d3ee9e9ba8e42e073e801681",
+    "source_bytes": 72523,
+    "source_relative_path": "raw_sources/1750b2a0d3ba288adacc869770854febea1404b2d3ee9e9ba8e42e073e801681.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/21/sutro-biopharma-to-present-innovative-cancer-therapy-approach-using-precise-tumor-targeted-immunostimulants-at-world-adc-london": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/21/sutro-biopharma-to-present-innovative-cancer-therapy-approach-using-precise-tumor-targeted-immunostimulants-at-world-adc-london",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/21/sutro-biopharma-to-present-innovative-cancer-therapy-approach-using-precise-tumor-targeted-immunostimulants-at-world-adc-london",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:06.561713+00:00",
+    "source_sha256": "7d52d82173c92294c3c847b41104d405d934f5be42d77c7d360f9aefd202ffb8",
+    "source_bytes": 73021,
+    "source_relative_path": "raw_sources/7d52d82173c92294c3c847b41104d405d934f5be42d77c7d360f9aefd202ffb8.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/22/sutro-biopharma-to-present-at-the-cowen-and-company-40th-annual-health-care-conference": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/22/sutro-biopharma-to-present-at-the-cowen-and-company-40th-annual-health-care-conference",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/22/sutro-biopharma-to-present-at-the-cowen-and-company-40th-annual-health-care-conference",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:06.656834+00:00",
+    "source_sha256": "f6a5d89c86707590419aef42d7fcb5a63ff0ac8505adac58dc4ae8d620e6b3f7",
+    "source_bytes": 71497,
+    "source_relative_path": "raw_sources/f6a5d89c86707590419aef42d7fcb5a63ff0ac8505adac58dc4ae8d620e6b3f7.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/23/sutro-biopharma-expands-senior-management-team-with-the-appointments-of-vice-president-of-immunobiology-and-vice-president-of-business-development": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/23/sutro-biopharma-expands-senior-management-team-with-the-appointments-of-vice-president-of-immunobiology-and-vice-president-of-business-development",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/23/sutro-biopharma-expands-senior-management-team-with-the-appointments-of-vice-president-of-immunobiology-and-vice-president-of-business-development",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:06.824840+00:00",
+    "source_sha256": "4aac2380b800866e9dfa2f0b2ecbc372aaf338dce16d6759adcc8b41ddb5282f",
+    "source_bytes": 73278,
+    "source_relative_path": "raw_sources/4aac2380b800866e9dfa2f0b2ecbc372aaf338dce16d6759adcc8b41ddb5282f.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/24/sutro-biopharma-to-present-at-38th-annual-j-p-morgan-healthcare-conference": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/24/sutro-biopharma-to-present-at-38th-annual-j-p-morgan-healthcare-conference",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/24/sutro-biopharma-to-present-at-38th-annual-j-p-morgan-healthcare-conference",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:06.993129+00:00",
+    "source_sha256": "9bfc76e30f77273d15d4e42d257859a9d47d533153aa8a5c66e24459dbef36b3",
+    "source_bytes": 71383,
+    "source_relative_path": "raw_sources/9bfc76e30f77273d15d4e42d257859a9d47d533153aa8a5c66e24459dbef36b3.html"
+  },
+  "https://ir.sutrobio.com/press-releases/detail/25/sutro-biopharma-appoints-james-panek-to-board-of-directors": {
+    "url": "https://ir.sutrobio.com/press-releases/detail/25/sutro-biopharma-appoints-james-panek-to-board-of-directors",
+    "resolved_url": "https://ir.sutrobio.com/press-releases/detail/25/sutro-biopharma-appoints-james-panek-to-board-of-directors",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:07.080947+00:00",
+    "source_sha256": "6e1b4be9a76ca16489b09755473fa49d41540b254d4b0b6f1964f6e495b65112",
+    "source_bytes": 72494,
+    "source_relative_path": "raw_sources/6e1b4be9a76ca16489b09755473fa49d41540b254d4b0b6f1964f6e495b65112.html"
+  }
+}

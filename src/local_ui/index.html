@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biotech · Research Desk</title>
+  <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+  <link rel="stylesheet" href="/static/desk.css"><script src="/static/desk.js" defer></script>
+</head>
+<body>
+  <header class="masthead"><a class="wordmark" href="/">BIOTECH <span>RESEARCH DESK</span></a><span class="local">● LOCAL / READ ONLY</span></header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">THE ACQUISITION RESEARCH FILE</p><h1>Evidence before<br><em>conviction.</em></h1></div><div class="intro-note"><p>A working desk for the public biotech universe. Explore research rankings, inspect the underlying assets, and see where diligence is still missing.</p><p class="small">Scores describe a saved research cross-section. They are not acquisition probabilities or forecasts of return.</p></div></section>
+    <div id="notice" class="notice" role="status">Reading local research artifacts…</div>
+    <section class="provenance" aria-label="Prediction model progress"><div class="section-head"><h2>Learning from acquisition history</h2><span class="small">12-month announcement horizon</span></div><p id="training-status" class="small">Reading historical training evidence…</p><p id="panel-status" class="small">Reading historical cohort coverage…</p><p class="small"><a id="coverage-download" href="/api/v1/research/historical-coverage" hidden>Download historical coverage and remaining gaps</a></p><p class="small">The watchlist currently uses a heuristic baseline. Historical model estimates will appear after training and evaluation.</p></section>
+    <section class="metrics" aria-label="Research coverage"><div><span id="count-companies">—</span><p>companies in snapshot</p></div><div><span id="count-eligible">—</span><p>eligible for research ranking</p></div><div><span id="count-evidence">—</span><p>with company-specific evidence</p></div><div><span id="count-unscreened">—</span><p>still unscreened for risk</p></div></section>
+    <section class="desk">
+      <div class="universe"><div class="section-head"><h2>The research universe</h2><span id="as-of" class="small"></span></div>
+        <form id="filters" class="filters"><label class="search">Find a company<input id="search" type="search" placeholder="Ticker, company, or industry" maxlength="100"></label><label>Risk set<select id="eligibility"><option value="eligible">Eligible companies</option><option value="excluded">Excluded companies</option><option value="all">All companies</option></select></label><label>Evidence coverage<select id="coverage"><option value="all">All coverage</option><option value="screened">Company-specific evidence</option><option value="unscreened">Unscreened / unavailable</option></select></label><label>Minimum score<input id="min-score" type="number" min="0" max="100" step="1" value="0"></label><button type="submit">Apply filters ↗</button></form>
+        <p id="result-summary" class="small" aria-live="polite"></p>
+        <div class="table-wrap"><table><thead><tr><th scope="col">Company</th><th scope="col">Research score</th><th scope="col">Risk coverage</th><th scope="col">Risk set</th></tr></thead><tbody id="companies"></tbody></table></div>
+        <div class="pagination"><button id="prev" type="button" disabled>← Previous</button><span id="page-label" class="small"></span><button id="next" type="button" disabled>Next →</button></div>
+      </div>
+      <aside id="detail" class="detail" aria-live="polite"><p class="eyebrow">COMPANY FILE</p><h2>Follow the evidence.</h2><p>Select a company to inspect its score drivers, matched assets, source documents, and diligence coverage.</p><div class="empty-mark" aria-hidden="true">↗</div></aside>
+    </section>
+    <section class="provenance"><div class="section-head"><h2>About these snapshots</h2><span class="small">Evidence cutoff and retrieval provenance, kept separate</span></div><p class="small">A missing risk signal means unscreened, not low risk. Source links open only when you choose them. This desk does not refresh data or send alerts.</p><div id="sources" class="source-grid"></div></section>
+  </main>
+  <footer><span>BIOTECH / RESEARCH DESK</span><span>Local research. Traceable evidence.</span></footer>
+</body>
+</html>

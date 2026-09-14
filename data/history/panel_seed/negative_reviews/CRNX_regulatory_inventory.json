@@ -1,0 +1,3054 @@
+{
+  "schema_version": "efts-regulatory-inventory-discovery-v1",
+  "ticker": "CRNX",
+  "cik": 1658247,
+  "inventory_complete": true,
+  "inventory_scope": "All EDGAR full-text search indexed filings associated with the exact padded subject CIK for2020,2021 andQ1,2022. This is a current search-index census, not proof that no filing was ever removed or misindexed.",
+  "windows": [
+    {
+      "start_date": "2020-01-01",
+      "end_date": "2020-12-31",
+      "hit_count": 51
+    },
+    {
+      "start_date": "2021-01-01",
+      "end_date": "2021-12-31",
+      "hit_count": 72
+    },
+    {
+      "start_date": "2022-01-01",
+      "end_date": "2022-03-31",
+      "hit_count": 39
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?ciks=0001658247&dateRange=custom&startdt=2020-01-01&enddt=2020-12-31&from=0&size=100",
+      "retrieved_at": "2026-09-08T19:51:46.997545+00:00",
+      "start_date": "2020-01-01",
+      "end_date": "2020-12-31",
+      "from": 0,
+      "path": "CRNX_efts_2020-01-01_2020-12-31_0_8d6ef89ea5d9442762e0561ca94ad0f3d2bfcd071620d844f3323b41c0f3246b.json",
+      "sha256": "8d6ef89ea5d9442762e0561ca94ad0f3d2bfcd071620d844f3323b41c0f3246b",
+      "size_bytes": 38872,
+      "total": {
+        "value": 51,
+        "relation": "eq"
+      },
+      "returned": 51
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?ciks=0001658247&dateRange=custom&startdt=2021-01-01&enddt=2021-12-31&from=0&size=100",
+      "retrieved_at": "2026-09-08T19:50:26.820832+00:00",
+      "path": "CRNX_efts_2021_a811c87e4df95ac67eaf63e81b332e5d3befb1e1505f152052ff4199e5607306.json",
+      "sha256": "a811c87e4df95ac67eaf63e81b332e5d3befb1e1505f152052ff4199e5607306",
+      "size_bytes": 50593,
+      "total": {
+        "value": 72,
+        "relation": "eq"
+      },
+      "returned": 72,
+      "start_date": "2021-01-01",
+      "end_date": "2021-12-31",
+      "from": 0
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?ciks=0001658247&dateRange=custom&startdt=2022-01-01&enddt=2022-03-31&from=0&size=100",
+      "retrieved_at": "2026-09-08T19:51:47.622783+00:00",
+      "start_date": "2022-01-01",
+      "end_date": "2022-03-31",
+      "from": 0,
+      "path": "CRNX_efts_2022-01-01_2022-03-31_0_0541d476e9a3c6d732f0edbcc71b5cdbd97399697643d3f2c15cab8b410d9f47.json",
+      "sha256": "0541d476e9a3c6d732f0edbcc71b5cdbd97399697643d3f2c15cab8b410d9f47",
+      "size_bytes": 28325,
+      "total": {
+        "value": 39,
+        "relation": "eq"
+      },
+      "returned": 39
+    }
+  ],
+  "all_form_inventory": [
+    {
+      "hit_id": "0001213900-20-002314:ownership.xml",
+      "accession_number": "0001213900-20-002314",
+      "form": "4",
+      "publication_date": "2020-01-31",
+      "document_name": "ownership.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000121390020002314/ownership.xml",
+      "ciks": [
+        "0001618789",
+        "0001618788",
+        "0001628048",
+        "0001728970",
+        "0001726403",
+        "0001658247"
+      ],
+      "display_names": [
+        "Vivo Capital VIII, LLC  (CIK 0001618789)",
+        "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+        "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+        "Vivo Opportunity, LLC  (CIK 0001728970)",
+        "Vivo Opportunity Fund, L.P.  (CIK 0001726403)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001104659-20-011470:a20-5745_2sc13ga.htm",
+      "accession_number": "0001104659-20-011470",
+      "form": "SC 13G/A",
+      "publication_date": "2020-02-06",
+      "document_name": "a20-5745_2sc13ga.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000110465920011470/a20-5745_2sc13ga.htm",
+      "ciks": [
+        "0001658247",
+        "0001589315"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "5AM Ventures IV, L.P.  (CIK 0001589315)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001213900-20-002831:ownership.xml",
+      "accession_number": "0001213900-20-002831",
+      "form": "4",
+      "publication_date": "2020-02-06",
+      "document_name": "ownership.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000121390020002831/ownership.xml",
+      "ciks": [
+        "0001618789",
+        "0001618788",
+        "0001628048",
+        "0001728970",
+        "0001726403",
+        "0001658247"
+      ],
+      "display_names": [
+        "Vivo Capital VIII, LLC  (CIK 0001618789)",
+        "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+        "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+        "Vivo Opportunity, LLC  (CIK 0001728970)",
+        "Vivo Opportunity Fund, L.P.  (CIK 0001726403)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000315066-20-000861:filing.txt",
+      "accession_number": "0000315066-20-000861",
+      "form": "SC 13G/A",
+      "publication_date": "2020-02-07",
+      "document_name": "filing.txt",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000031506620000861/filing.txt",
+      "ciks": [
+        "0001658247",
+        "0000315066"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-008269:doc5.xml",
+      "accession_number": "0001209191-20-008269",
+      "form": "5",
+      "publication_date": "2020-02-11",
+      "document_name": "doc5.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120008269/doc5.xml",
+      "ciks": [
+        "0001702265",
+        "0001658247"
+      ],
+      "display_names": [
+        "Wilson Marc  (CIK 0001702265)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-008272:doc5.xml",
+      "accession_number": "0001209191-20-008272",
+      "form": "5",
+      "publication_date": "2020-02-11",
+      "document_name": "doc5.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120008272/doc5.xml",
+      "ciks": [
+        "0001435775",
+        "0001658247"
+      ],
+      "display_names": [
+        "Krasner Alan Seth  (CIK 0001435775)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-008280:doc5.xml",
+      "accession_number": "0001209191-20-008280",
+      "form": "5",
+      "publication_date": "2020-02-11",
+      "document_name": "doc5.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120008280/doc5.xml",
+      "ciks": [
+        "0001746298",
+        "0001658247"
+      ],
+      "display_names": [
+        "Struthers Richard Scott  (CIK 0001746298)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001213900-20-003326:ownership.xml",
+      "accession_number": "0001213900-20-003326",
+      "form": "4",
+      "publication_date": "2020-02-11",
+      "document_name": "ownership.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000121390020003326/ownership.xml",
+      "ciks": [
+        "0001618789",
+        "0001618788",
+        "0001628048",
+        "0001728970",
+        "0001726403",
+        "0001658247"
+      ],
+      "display_names": [
+        "Vivo Capital VIII, LLC  (CIK 0001618789)",
+        "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+        "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+        "Vivo Opportunity, LLC  (CIK 0001728970)",
+        "Vivo Opportunity Fund, L.P.  (CIK 0001726403)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-20-004205:crnx-sc13g.htm",
+      "accession_number": "0001564590-20-004205",
+      "form": "SC 13G",
+      "publication_date": "2020-02-11",
+      "document_name": "crnx-sc13g.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459020004205/crnx-sc13g.htm",
+      "ciks": [
+        "0001658247",
+        "0001746298"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Struthers Richard Scott  (CIK 0001746298)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001213900-20-003601:sc13g0220a1vivocap8_crine.htm",
+      "accession_number": "0001213900-20-003601",
+      "form": "SC 13G/A",
+      "publication_date": "2020-02-13",
+      "document_name": "sc13g0220a1vivocap8_crine.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000121390020003601/sc13g0220a1vivocap8_crine.htm",
+      "ciks": [
+        "0001658247",
+        "0001618789"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Vivo Capital VIII, LLC  (CIK 0001618789)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001104659-20-021136:a20-8045_1sc13ga.htm",
+      "accession_number": "0001104659-20-021136",
+      "form": "SC 13G/A",
+      "publication_date": "2020-02-14",
+      "document_name": "a20-8045_1sc13ga.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000110465920021136/a20-8045_1sc13ga.htm",
+      "ciks": [
+        "0001658247",
+        "0001589097"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Versant Venture Capital V, L.P.  (CIK 0001589097)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001172661-20-000650:orbimed-crnx123119.htm",
+      "accession_number": "0001172661-20-000650",
+      "form": "SC 13G",
+      "publication_date": "2020-02-14",
+      "document_name": "orbimed-crnx123119.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000117266120000650/orbimed-crnx123119.htm",
+      "ciks": [
+        "0001658247",
+        "0001055951"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-012974:doc4.xml",
+      "accession_number": "0001209191-20-012974",
+      "form": "4",
+      "publication_date": "2020-02-26",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120012974/doc4.xml",
+      "ciks": [
+        "0001746298",
+        "0001658247"
+      ],
+      "display_names": [
+        "Struthers Richard Scott  (CIK 0001746298)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-012987:doc4.xml",
+      "accession_number": "0001209191-20-012987",
+      "form": "4",
+      "publication_date": "2020-02-26",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120012987/doc4.xml",
+      "ciks": [
+        "0001702265",
+        "0001658247"
+      ],
+      "display_names": [
+        "Wilson Marc  (CIK 0001702265)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-012997:doc4.xml",
+      "accession_number": "0001209191-20-012997",
+      "form": "4",
+      "publication_date": "2020-02-26",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120012997/doc4.xml",
+      "ciks": [
+        "0001435775",
+        "0001658247"
+      ],
+      "display_names": [
+        "Krasner Alan Seth  (CIK 0001435775)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-20-009362:crnx-8k_20200309.htm",
+      "accession_number": "0001564590-20-009362",
+      "form": "8-K",
+      "publication_date": "2020-03-09",
+      "document_name": "crnx-8k_20200309.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459020009362/crnx-8k_20200309.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-20-009365:crnx-10k_20191231.htm",
+      "accession_number": "0001564590-20-009365",
+      "form": "10-K",
+      "publication_date": "2020-03-09",
+      "document_name": "crnx-10k_20191231.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459020009365/crnx-10k_20191231.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001213900-20-006030:ownership.xml",
+      "accession_number": "0001213900-20-006030",
+      "form": "4",
+      "publication_date": "2020-03-11",
+      "document_name": "ownership.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000121390020006030/ownership.xml",
+      "ciks": [
+        "0001618789",
+        "0001618788",
+        "0001628048",
+        "0001728970",
+        "0001726403",
+        "0001658247"
+      ],
+      "display_names": [
+        "Vivo Capital VIII, LLC  (CIK 0001618789)",
+        "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+        "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+        "Vivo Opportunity, LLC  (CIK 0001728970)",
+        "Vivo Opportunity Fund, L.P.  (CIK 0001726403)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-021372:doc3.xml",
+      "accession_number": "0001209191-20-021372",
+      "form": "3",
+      "publication_date": "2020-03-27",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120021372/doc3.xml",
+      "ciks": [
+        "0001807856",
+        "0001658247"
+      ],
+      "display_names": [
+        "Madan Ajay  (CIK 0001807856)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-20-099551:d777789d8k.htm",
+      "accession_number": "0001193125-20-099551",
+      "form": "8-K",
+      "publication_date": "2020-04-06",
+      "document_name": "d777789d8k.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000119312520099551/d777789d8k.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001213900-20-008792:ownership.xml",
+      "accession_number": "0001213900-20-008792",
+      "form": "4",
+      "publication_date": "2020-04-07",
+      "document_name": "ownership.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000121390020008792/ownership.xml",
+      "ciks": [
+        "0001628048",
+        "0001618788",
+        "0001618789",
+        "0001658247"
+      ],
+      "display_names": [
+        "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+        "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+        "Vivo Capital VIII, LLC  (CIK 0001618789)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-20-107151:d864567d424b5.htm",
+      "accession_number": "0001193125-20-107151",
+      "form": "424B5",
+      "publication_date": "2020-04-14",
+      "document_name": "d864567d424b5.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000119312520107151/d864567d424b5.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-20-107156:d850306d8k.htm",
+      "accession_number": "0001193125-20-107156",
+      "form": "8-K",
+      "publication_date": "2020-04-14",
+      "document_name": "d850306d8k.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000119312520107156/d850306d8k.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "5.03",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-20-108092:d866892d8k.htm",
+      "accession_number": "0001193125-20-108092",
+      "form": "8-K",
+      "publication_date": "2020-04-15",
+      "document_name": "d866892d8k.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000119312520108092/d866892d8k.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-20-108096:d864567d424b5.htm",
+      "accession_number": "0001193125-20-108096",
+      "form": "424B5",
+      "publication_date": "2020-04-15",
+      "document_name": "d864567d424b5.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000119312520108096/d864567d424b5.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001213900-20-009500:ownership.xml",
+      "accession_number": "0001213900-20-009500",
+      "form": "4",
+      "publication_date": "2020-04-17",
+      "document_name": "ownership.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000121390020009500/ownership.xml",
+      "ciks": [
+        "0001618789",
+        "0001618788",
+        "0001628048",
+        "0001658247"
+      ],
+      "display_names": [
+        "Vivo Capital VIII, LLC  (CIK 0001618789)",
+        "Vivo Capital Fund VIII, L.P.  (CIK 0001618788)",
+        "Vivo Capital Surplus Fund VIII, L.P.  (CIK 0001628048)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000899243-20-010940:doc4.xml",
+      "accession_number": "0000899243-20-010940",
+      "form": "4",
+      "publication_date": "2020-04-20",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000089924320010940/doc4.xml",
+      "ciks": [
+        "0001224962",
+        "0001249675",
+        "0001164426",
+        "0001658247"
+      ],
+      "display_names": [
+        "PERCEPTIVE ADVISORS LLC  (CIK 0001224962)",
+        "PERCEPTIVE LIFE SCIENCES MASTER FUND LTD  (CIK 0001249675)",
+        "EDELMAN JOSEPH  (CIK 0001164426)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-20-111625:d910763dsc13da.htm",
+      "accession_number": "0001193125-20-111625",
+      "form": "SC 13D/A",
+      "publication_date": "2020-04-20",
+      "document_name": "d910763dsc13da.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000119312520111625/d910763dsc13da.htm",
+      "ciks": [
+        "0001658247",
+        "0001224962"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "PERCEPTIVE ADVISORS LLC  (CIK 0001224962)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-20-019202:crnx-def14a_20200619.htm",
+      "accession_number": "0001564590-20-019202",
+      "form": "DEF 14A",
+      "publication_date": "2020-04-28",
+      "document_name": "crnx-def14a_20200619.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459020019202/crnx-def14a_20200619.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-20-019210:crnx-defa14a_20200623.htm",
+      "accession_number": "0001564590-20-019210",
+      "form": "DEFA14A",
+      "publication_date": "2020-04-28",
+      "document_name": "crnx-defa14a_20200623.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459020019210/crnx-defa14a_20200623.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-20-026196:doc4.xml",
+      "accession_number": "0001209191-20-026196",
+      "form": "4",
+      "publication_date": "2020-04-29",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120026196/doc4.xml",
+      "ciks": [
+        "0001235945",
+        "0001658247"
+      ],
+      "display_names": [
+        "WIERENGA WENDALL  (CIK 0001235945)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-20-023260:crnx-8k_20200508.htm",
+      "accession_number": "0001564590-20-023260",
+      "form": "8-K",
+      "publication_date": "2020-05-08",
+      "document_name": "crnx-8k_20200508.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459020023260/crnx-8k_20200508.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-20-023265:crnx-10q_20200331.htm",
+      "accession_number": "0001564590-20-023265",
+      "form": "10-Q",
+      "publication_date": "2020-05-08",
+      "document_name": "crnx-10q_20200331.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459020023265/crnx-10q_20200331.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001213900-20-014709:ea122945-sc13ga2vivo_crine.htm",
+      "accession_number": "0001213900-20-014709",
+      "form": "SC 13G/A",
+      "publication_date": "2020-06-11",
+      "document_name": "ea122945-sc13ga2vivo_crine.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000121390020014709/ea122945-sc13ga2vivo_crine.htm",
+      "ciks": [
+        "0001658247",
+        "0001618789"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Vivo Capital VIII, LLC  (CIK 0001618789)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-038153:doc4.xml",
+      "accession_number": "0001209191-20-038153",
+      "form": "4",
+      "publication_date": "2020-06-22",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120038153/doc4.xml",
+      "ciks": [
+        "0001235945",
+        "0001658247"
+      ],
+      "display_names": [
+        "WIERENGA WENDALL  (CIK 0001235945)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-038161:doc4.xml",
+      "accession_number": "0001209191-20-038161",
+      "form": "4",
+      "publication_date": "2020-06-22",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120038161/doc4.xml",
+      "ciks": [
+        "0001742616",
+        "0001658247"
+      ],
+      "display_names": [
+        "Okey Stephanie  (CIK 0001742616)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-038166:doc4.xml",
+      "accession_number": "0001209191-20-038166",
+      "form": "4",
+      "publication_date": "2020-06-22",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120038166/doc4.xml",
+      "ciks": [
+        "0001746376",
+        "0001658247"
+      ],
+      "display_names": [
+        "Nichols Weston  (CIK 0001746376)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-038172:doc4.xml",
+      "accession_number": "0001209191-20-038172",
+      "form": "4",
+      "publication_date": "2020-06-22",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120038172/doc4.xml",
+      "ciks": [
+        "0001507502",
+        "0001658247"
+      ],
+      "display_names": [
+        "Kaldor Stephen W  (CIK 0001507502)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-038179:doc4.xml",
+      "accession_number": "0001209191-20-038179",
+      "form": "4",
+      "publication_date": "2020-06-22",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120038179/doc4.xml",
+      "ciks": [
+        "0001397266",
+        "0001658247"
+      ],
+      "display_names": [
+        "Fust Matthew K  (CIK 0001397266)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-20-030117:crnx-8k_20200619.htm",
+      "accession_number": "0001564590-20-030117",
+      "form": "8-K",
+      "publication_date": "2020-06-22",
+      "document_name": "crnx-8k_20200619.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459020030117/crnx-8k_20200619.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "5.07"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-20-042897:doc4.xml",
+      "accession_number": "0001209191-20-042897",
+      "form": "4",
+      "publication_date": "2020-07-17",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120042897/doc4.xml",
+      "ciks": [
+        "0001746298",
+        "0001658247"
+      ],
+      "display_names": [
+        "Struthers Richard Scott  (CIK 0001746298)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-20-038067:crnx-8k_20200807.htm",
+      "accession_number": "0001564590-20-038067",
+      "form": "8-K",
+      "publication_date": "2020-08-07",
+      "document_name": "crnx-8k_20200807.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459020038067/crnx-8k_20200807.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-20-038069:crnx-10q_20200630.htm",
+      "accession_number": "0001564590-20-038069",
+      "form": "10-Q",
+      "publication_date": "2020-08-07",
+      "document_name": "crnx-10q_20200630.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459020038069/crnx-10q_20200630.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-20-049508:doc3.xml",
+      "accession_number": "0001209191-20-049508",
+      "form": "3",
+      "publication_date": "2020-09-03",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120049508/doc3.xml",
+      "ciks": [
+        "0001326969",
+        "0001658247"
+      ],
+      "display_names": [
+        "Bedrosian Camille L  (CIK 0001326969)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-20-049518:doc4.xml",
+      "accession_number": "0001209191-20-049518",
+      "form": "4",
+      "publication_date": "2020-09-03",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120049518/doc4.xml",
+      "ciks": [
+        "0001326969",
+        "0001658247"
+      ],
+      "display_names": [
+        "Bedrosian Camille L  (CIK 0001326969)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-20-042431:crnx-8k_20200831.htm",
+      "accession_number": "0001564590-20-042431",
+      "form": "8-K",
+      "publication_date": "2020-09-03",
+      "document_name": "crnx-8k_20200831.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459020042431/crnx-8k_20200831.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "5.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-20-044046:crnx-8k_20200921.htm",
+      "accession_number": "0001564590-20-044046",
+      "form": "8-K",
+      "publication_date": "2020-09-21",
+      "document_name": "crnx-8k_20200921.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459020044046/crnx-8k_20200921.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-20-047499:crnx-8k_20201026.htm",
+      "accession_number": "0001564590-20-047499",
+      "form": "8-K",
+      "publication_date": "2020-10-26",
+      "document_name": "crnx-8k_20201026.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459020047499/crnx-8k_20201026.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-20-051684:crnx-8k_20201106.htm",
+      "accession_number": "0001564590-20-051684",
+      "form": "8-K",
+      "publication_date": "2020-11-06",
+      "document_name": "crnx-8k_20201106.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459020051684/crnx-8k_20201106.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-20-051686:crnx-10q_20200930.htm",
+      "accession_number": "0001564590-20-051686",
+      "form": "10-Q",
+      "publication_date": "2020-11-06",
+      "document_name": "crnx-10q_20200930.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459020051686/crnx-10q_20200930.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-20-061822:doc4.xml",
+      "accession_number": "0001209191-20-061822",
+      "form": "4",
+      "publication_date": "2020-12-04",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919120061822/doc4.xml",
+      "ciks": [
+        "0001746298",
+        "0001658247"
+      ],
+      "display_names": [
+        "Struthers Richard Scott  (CIK 0001746298)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-21-000325:crnx-8k_20210106.htm",
+      "accession_number": "0001564590-21-000325",
+      "form": "8-K",
+      "publication_date": "2021-01-06",
+      "document_name": "crnx-8k_20210106.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021000325/crnx-8k_20210106.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000834237-21-006955:us22663k1079_020221.txt",
+      "accession_number": "0000834237-21-006955",
+      "form": "SC 13G",
+      "publication_date": "2021-02-02",
+      "document_name": "us22663k1079_020221.txt",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000083423721006955/us22663k1079_020221.txt",
+      "ciks": [
+        "0001658247",
+        "0001364742"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-21-003931:crnx-8k_20210203.htm",
+      "accession_number": "0001564590-21-003931",
+      "form": "8-K",
+      "publication_date": "2021-02-03",
+      "document_name": "crnx-8k_20210203.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021003931/crnx-8k_20210203.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-21-004179:crnx-8k_20210204.htm",
+      "accession_number": "0001564590-21-004179",
+      "form": "8-K",
+      "publication_date": "2021-02-04",
+      "document_name": "crnx-8k_20210204.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021004179/crnx-8k_20210204.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-21-008100:doc5.xml",
+      "accession_number": "0001209191-21-008100",
+      "form": "5",
+      "publication_date": "2021-02-05",
+      "document_name": "doc5.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121008100/doc5.xml",
+      "ciks": [
+        "0001702265",
+        "0001658247"
+      ],
+      "display_names": [
+        "Wilson Marc  (CIK 0001702265)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-008108:doc5.xml",
+      "accession_number": "0001209191-21-008108",
+      "form": "5",
+      "publication_date": "2021-02-05",
+      "document_name": "doc5.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121008108/doc5.xml",
+      "ciks": [
+        "0001435775",
+        "0001658247"
+      ],
+      "display_names": [
+        "Krasner Alan Seth  (CIK 0001435775)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-008120:doc5.xml",
+      "accession_number": "0001209191-21-008120",
+      "form": "5",
+      "publication_date": "2021-02-05",
+      "document_name": "doc5.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121008120/doc5.xml",
+      "ciks": [
+        "0001807856",
+        "0001658247"
+      ],
+      "display_names": [
+        "Madan Ajay  (CIK 0001807856)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-21-004487:crnx-sc13ga.htm",
+      "accession_number": "0001564590-21-004487",
+      "form": "SC 13G/A",
+      "publication_date": "2021-02-05",
+      "document_name": "crnx-sc13ga.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021004487/crnx-sc13ga.htm",
+      "ciks": [
+        "0001658247",
+        "0001746298"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Struthers Richard Scott  (CIK 0001746298)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000315066-21-000924:filing.txt",
+      "accession_number": "0000315066-21-000924",
+      "form": "SC 13G/A",
+      "publication_date": "2021-02-08",
+      "document_name": "filing.txt",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000031506621000924/filing.txt",
+      "ciks": [
+        "0001658247",
+        "0000315066"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000947871-21-000170:ss192008_sc13ga.htm",
+      "accession_number": "0000947871-21-000170",
+      "form": "SC 13G/A",
+      "publication_date": "2021-02-12",
+      "document_name": "ss192008_sc13ga.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000094787121000170/ss192008_sc13ga.htm",
+      "ciks": [
+        "0001658247",
+        "0001055951"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001213900-21-009012:ea135459-13ga3vivo8_crinetic.htm",
+      "accession_number": "0001213900-21-009012",
+      "form": "SC 13G/A",
+      "publication_date": "2021-02-12",
+      "document_name": "ea135459-13ga3vivo8_crinetic.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000121390021009012/ea135459-13ga3vivo8_crinetic.htm",
+      "ciks": [
+        "0001658247",
+        "0001618789"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Vivo Capital VIII, LLC  (CIK 0001618789)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001104659-21-022607:a21-6693_3sc13ga.htm",
+      "accession_number": "0001104659-21-022607",
+      "form": "SC 13G/A",
+      "publication_date": "2021-02-16",
+      "document_name": "a21-6693_3sc13ga.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000110465921022607/a21-6693_3sc13ga.htm",
+      "ciks": [
+        "0001658247",
+        "0001589315"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "5AM Ventures IV, L.P.  (CIK 0001589315)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001104659-21-024241:tm216584d30_sc13ga.htm",
+      "accession_number": "0001104659-21-024241",
+      "form": "SC 13G/A",
+      "publication_date": "2021-02-16",
+      "document_name": "tm216584d30_sc13ga.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000110465921024241/tm216584d30_sc13ga.htm",
+      "ciks": [
+        "0001658247",
+        "0001346824"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "RA CAPITAL MANAGEMENT, L.P.  (CIK 0001346824)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-21-042112:d124736dsc13ga.htm",
+      "accession_number": "0001193125-21-042112",
+      "form": "SC 13G/A",
+      "publication_date": "2021-02-16",
+      "document_name": "d124736dsc13ga.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000119312521042112/d124736dsc13ga.htm",
+      "ciks": [
+        "0001658247",
+        "0001589097"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Versant Venture Capital V, L.P.  (CIK 0001589097)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-016245:doc4.xml",
+      "accession_number": "0001209191-21-016245",
+      "form": "4",
+      "publication_date": "2021-03-02",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121016245/doc4.xml",
+      "ciks": [
+        "0001746298",
+        "0001658247"
+      ],
+      "display_names": [
+        "Struthers Richard Scott  (CIK 0001746298)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-016263:doc4.xml",
+      "accession_number": "0001209191-21-016263",
+      "form": "4",
+      "publication_date": "2021-03-02",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121016263/doc4.xml",
+      "ciks": [
+        "0001702265",
+        "0001658247"
+      ],
+      "display_names": [
+        "Wilson Marc  (CIK 0001702265)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-016278:doc4.xml",
+      "accession_number": "0001209191-21-016278",
+      "form": "4",
+      "publication_date": "2021-03-02",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121016278/doc4.xml",
+      "ciks": [
+        "0001807856",
+        "0001658247"
+      ],
+      "display_names": [
+        "Madan Ajay  (CIK 0001807856)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-016288:doc4.xml",
+      "accession_number": "0001209191-21-016288",
+      "form": "4",
+      "publication_date": "2021-03-02",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121016288/doc4.xml",
+      "ciks": [
+        "0001435775",
+        "0001658247"
+      ],
+      "display_names": [
+        "Krasner Alan Seth  (CIK 0001435775)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-21-016706:crnx-8k_20210330.htm",
+      "accession_number": "0001564590-21-016706",
+      "form": "8-K",
+      "publication_date": "2021-03-30",
+      "document_name": "crnx-8k_20210330.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021016706/crnx-8k_20210330.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-21-016719:crnx-10k_20201231.htm",
+      "accession_number": "0001564590-21-016719",
+      "form": "10-K",
+      "publication_date": "2021-03-30",
+      "document_name": "crnx-10k_20201231.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021016719/crnx-10k_20201231.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-21-016772:crnx-s8.htm",
+      "accession_number": "0001564590-21-016772",
+      "form": "S-8",
+      "publication_date": "2021-03-31",
+      "document_name": "crnx-s8.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021016772/crnx-s8.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-21-110213:d60298d424b5.htm",
+      "accession_number": "0001193125-21-110213",
+      "form": "424B5",
+      "publication_date": "2021-04-08",
+      "document_name": "d60298d424b5.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000119312521110213/d60298d424b5.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-21-110225:d155184d8k.htm",
+      "accession_number": "0001193125-21-110225",
+      "form": "8-K",
+      "publication_date": "2021-04-08",
+      "document_name": "d155184d8k.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000119312521110225/d155184d8k.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000899243-21-015456:doc4.xml",
+      "accession_number": "0000899243-21-015456",
+      "form": "4",
+      "publication_date": "2021-04-09",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000089924321015456/doc4.xml",
+      "ciks": [
+        "0001164426",
+        "0001224962",
+        "0001249675",
+        "0001658247"
+      ],
+      "display_names": [
+        "EDELMAN JOSEPH  (CIK 0001164426)",
+        "PERCEPTIVE ADVISORS LLC  (CIK 0001224962)",
+        "PERCEPTIVE LIFE SCIENCES MASTER FUND LTD  (CIK 0001249675)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001172661-21-001031:deeptrack-crnx041921.htm",
+      "accession_number": "0001172661-21-001031",
+      "form": "SC 13G",
+      "publication_date": "2021-04-22",
+      "document_name": "deeptrack-crnx041921.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000117266121001031/deeptrack-crnx041921.htm",
+      "ciks": [
+        "0001658247",
+        "0001856083"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Deep Track Capital, LP  (CIK 0001856083)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-21-022087:crnx-def14a_20210622.htm",
+      "accession_number": "0001564590-21-022087",
+      "form": "DEF 14A",
+      "publication_date": "2021-04-30",
+      "document_name": "crnx-def14a_20210622.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021022087/crnx-def14a_20210622.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-21-022094:crnx-defa14a_20210625.htm",
+      "accession_number": "0001564590-21-022094",
+      "form": "DEFA14A",
+      "publication_date": "2021-04-30",
+      "document_name": "crnx-defa14a_20210625.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021022094/crnx-defa14a_20210625.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-21-024927:crnx-10q_20210331.htm",
+      "accession_number": "0001564590-21-024927",
+      "form": "10-Q",
+      "publication_date": "2021-05-06",
+      "document_name": "crnx-10q_20210331.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021024927/crnx-10q_20210331.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-21-024928:crnx-8k_20210331.htm",
+      "accession_number": "0001564590-21-024928",
+      "form": "8-K",
+      "publication_date": "2021-05-06",
+      "document_name": "crnx-8k_20210331.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021024928/crnx-8k_20210331.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-21-042765:doc4.xml",
+      "accession_number": "0001209191-21-042765",
+      "form": "4",
+      "publication_date": "2021-06-23",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121042765/doc4.xml",
+      "ciks": [
+        "0001397266",
+        "0001658247"
+      ],
+      "display_names": [
+        "Fust Matthew K  (CIK 0001397266)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-042766:doc4.xml",
+      "accession_number": "0001209191-21-042766",
+      "form": "4",
+      "publication_date": "2021-06-23",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121042766/doc4.xml",
+      "ciks": [
+        "0001326969",
+        "0001658247"
+      ],
+      "display_names": [
+        "Bedrosian Camille L  (CIK 0001326969)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-042767:doc4.xml",
+      "accession_number": "0001209191-21-042767",
+      "form": "4",
+      "publication_date": "2021-06-23",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121042767/doc4.xml",
+      "ciks": [
+        "0001742616",
+        "0001658247"
+      ],
+      "display_names": [
+        "Okey Stephanie  (CIK 0001742616)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-042768:doc4.xml",
+      "accession_number": "0001209191-21-042768",
+      "form": "4",
+      "publication_date": "2021-06-23",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121042768/doc4.xml",
+      "ciks": [
+        "0001746376",
+        "0001658247"
+      ],
+      "display_names": [
+        "Nichols Weston  (CIK 0001746376)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-042769:doc4.xml",
+      "accession_number": "0001209191-21-042769",
+      "form": "4",
+      "publication_date": "2021-06-23",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121042769/doc4.xml",
+      "ciks": [
+        "0001235945",
+        "0001658247"
+      ],
+      "display_names": [
+        "WIERENGA WENDALL  (CIK 0001235945)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-21-034021:crnx-8k_20210622.htm",
+      "accession_number": "0001564590-21-034021",
+      "form": "8-K",
+      "publication_date": "2021-06-23",
+      "document_name": "crnx-8k_20210622.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021034021/crnx-8k_20210622.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "5.07"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-21-034687:crnx-8k_20210628.htm",
+      "accession_number": "0001564590-21-034687",
+      "form": "8-K",
+      "publication_date": "2021-06-28",
+      "document_name": "crnx-8k_20210628.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021034687/crnx-8k_20210628.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-21-046554:doc4.xml",
+      "accession_number": "0001209191-21-046554",
+      "form": "4",
+      "publication_date": "2021-07-13",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121046554/doc4.xml",
+      "ciks": [
+        "0001397266",
+        "0001658247"
+      ],
+      "display_names": [
+        "Fust Matthew K  (CIK 0001397266)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-047402:doc4.xml",
+      "accession_number": "0001209191-21-047402",
+      "form": "4",
+      "publication_date": "2021-07-20",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121047402/doc4.xml",
+      "ciks": [
+        "0001397266",
+        "0001658247"
+      ],
+      "display_names": [
+        "Fust Matthew K  (CIK 0001397266)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-048375:doc4.xml",
+      "accession_number": "0001209191-21-048375",
+      "form": "4",
+      "publication_date": "2021-07-27",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121048375/doc4.xml",
+      "ciks": [
+        "0001397266",
+        "0001658247"
+      ],
+      "display_names": [
+        "Fust Matthew K  (CIK 0001397266)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-21-039140:crnx-8k_20210728.htm",
+      "accession_number": "0001564590-21-039140",
+      "form": "8-K",
+      "publication_date": "2021-07-29",
+      "document_name": "crnx-8k_20210728.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021039140/crnx-8k_20210728.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "1.01",
+        "3.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-21-242038:d143879ds3asr.htm",
+      "accession_number": "0001193125-21-242038",
+      "form": "S-3ASR",
+      "publication_date": "2021-08-10",
+      "document_name": "d143879ds3asr.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000119312521242038/d143879ds3asr.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-21-043067:crnx-8k_20210810.htm",
+      "accession_number": "0001564590-21-043067",
+      "form": "8-K",
+      "publication_date": "2021-08-10",
+      "document_name": "crnx-8k_20210810.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021043067/crnx-8k_20210810.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "2.02",
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-21-043078:crnx-10q_20210630.htm",
+      "accession_number": "0001564590-21-043078",
+      "form": "10-Q",
+      "publication_date": "2021-08-10",
+      "document_name": "crnx-10q_20210630.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021043078/crnx-10q_20210630.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-21-054477:doc3.xml",
+      "accession_number": "0001209191-21-054477",
+      "form": "3",
+      "publication_date": "2021-09-02",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121054477/doc3.xml",
+      "ciks": [
+        "0001881007",
+        "0001658247"
+      ],
+      "display_names": [
+        "Knight Jeff E.  (CIK 0001881007)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-054490:doc4.xml",
+      "accession_number": "0001209191-21-054490",
+      "form": "4",
+      "publication_date": "2021-09-02",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121054490/doc4.xml",
+      "ciks": [
+        "0001881007",
+        "0001658247"
+      ],
+      "display_names": [
+        "Knight Jeff E.  (CIK 0001881007)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-21-046992:crnx-8k_20210830.htm",
+      "accession_number": "0001564590-21-046992",
+      "form": "8-K",
+      "publication_date": "2021-09-02",
+      "document_name": "crnx-8k_20210830.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021046992/crnx-8k_20210830.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "5.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-21-055312:doc4.xml",
+      "accession_number": "0001209191-21-055312",
+      "form": "4",
+      "publication_date": "2021-09-09",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121055312/doc4.xml",
+      "ciks": [
+        "0001746298",
+        "0001658247"
+      ],
+      "display_names": [
+        "Struthers Richard Scott  (CIK 0001746298)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-055314:doc4.xml",
+      "accession_number": "0001209191-21-055314",
+      "form": "4",
+      "publication_date": "2021-09-09",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121055314/doc4.xml",
+      "ciks": [
+        "0001397266",
+        "0001658247"
+      ],
+      "display_names": [
+        "Fust Matthew K  (CIK 0001397266)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-21-048031:crnx-8k_20210915.htm",
+      "accession_number": "0001564590-21-048031",
+      "form": "8-K",
+      "publication_date": "2021-09-15",
+      "document_name": "crnx-8k_20210915.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021048031/crnx-8k_20210915.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-21-048956:crnx-8k_20210927.htm",
+      "accession_number": "0001564590-21-048956",
+      "form": "8-K",
+      "publication_date": "2021-09-27",
+      "document_name": "crnx-8k_20210927.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021048956/crnx-8k_20210927.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-21-051031:crnx-8k_20211018.htm",
+      "accession_number": "0001564590-21-051031",
+      "form": "8-K",
+      "publication_date": "2021-10-18",
+      "document_name": "crnx-8k_20211018.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021051031/crnx-8k_20211018.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-21-060943:doc3.xml",
+      "accession_number": "0001209191-21-060943",
+      "form": "3",
+      "publication_date": "2021-10-19",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121060943/doc3.xml",
+      "ciks": [
+        "0001886575",
+        "0001658247"
+      ],
+      "display_names": [
+        "Betz Stephen F.  (CIK 0001886575)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-21-303063:d159131d424b5.htm",
+      "accession_number": "0001193125-21-303063",
+      "form": "424B5",
+      "publication_date": "2021-10-20",
+      "document_name": "d159131d424b5.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000119312521303063/d159131d424b5.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-21-303072:d195018d8k.htm",
+      "accession_number": "0001193125-21-303072",
+      "form": "8-K",
+      "publication_date": "2021-10-20",
+      "document_name": "d195018d8k.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000119312521303072/d195018d8k.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "2.02"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-21-304041:d216092d8k.htm",
+      "accession_number": "0001193125-21-304041",
+      "form": "8-K",
+      "publication_date": "2021-10-21",
+      "document_name": "d216092d8k.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000119312521304041/d216092d8k.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001193125-21-304043:d159131d424b5.htm",
+      "accession_number": "0001193125-21-304043",
+      "form": "424B5",
+      "publication_date": "2021-10-21",
+      "document_name": "d159131d424b5.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000119312521304043/d159131d424b5.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000899243-21-041399:doc4.xml",
+      "accession_number": "0000899243-21-041399",
+      "form": "4",
+      "publication_date": "2021-10-25",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000089924321041399/doc4.xml",
+      "ciks": [
+        "0001164426",
+        "0001224962",
+        "0001249675",
+        "0001658247"
+      ],
+      "display_names": [
+        "EDELMAN JOSEPH  (CIK 0001164426)",
+        "PERCEPTIVE ADVISORS LLC  (CIK 0001224962)",
+        "PERCEPTIVE LIFE SCIENCES MASTER FUND LTD  (CIK 0001249675)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-061496:doc4.xml",
+      "accession_number": "0001209191-21-061496",
+      "form": "4",
+      "publication_date": "2021-10-25",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121061496/doc4.xml",
+      "ciks": [
+        "0001886575",
+        "0001658247"
+      ],
+      "display_names": [
+        "Betz Stephen F.  (CIK 0001886575)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-061915:doc4.xml",
+      "accession_number": "0001209191-21-061915",
+      "form": "4",
+      "publication_date": "2021-10-28",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121061915/doc4.xml",
+      "ciks": [
+        "0001886575",
+        "0001658247"
+      ],
+      "display_names": [
+        "Betz Stephen F.  (CIK 0001886575)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000921895-21-002496:sc13g07422010_10292021.htm",
+      "accession_number": "0000921895-21-002496",
+      "form": "SC 13G",
+      "publication_date": "2021-10-29",
+      "document_name": "sc13g07422010_10292021.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000092189521002496/sc13g07422010_10292021.htm",
+      "ciks": [
+        "0001658247",
+        "0000918923"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "BIOTECHNOLOGY VALUE FUND L P  (CIK 0000918923)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-062263:doc4.xml",
+      "accession_number": "0001209191-21-062263",
+      "form": "4",
+      "publication_date": "2021-11-01",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121062263/doc4.xml",
+      "ciks": [
+        "0001807856",
+        "0001658247"
+      ],
+      "display_names": [
+        "Madan Ajay  (CIK 0001807856)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-062728:doc4.xml",
+      "accession_number": "0001209191-21-062728",
+      "form": "4",
+      "publication_date": "2021-11-03",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121062728/doc4.xml",
+      "ciks": [
+        "0001397266",
+        "0001658247"
+      ],
+      "display_names": [
+        "Fust Matthew K  (CIK 0001397266)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-062731:doc4.xml",
+      "accession_number": "0001209191-21-062731",
+      "form": "4",
+      "publication_date": "2021-11-03",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121062731/doc4.xml",
+      "ciks": [
+        "0001886575",
+        "0001658247"
+      ],
+      "display_names": [
+        "Betz Stephen F.  (CIK 0001886575)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-21-054746:crnx-8k_20211105.htm",
+      "accession_number": "0001564590-21-054746",
+      "form": "8-K",
+      "publication_date": "2021-11-05",
+      "document_name": "crnx-8k_20211105.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021054746/crnx-8k_20211105.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-21-054747:crnx-10q_20210930.htm",
+      "accession_number": "0001564590-21-054747",
+      "form": "10-Q",
+      "publication_date": "2021-11-05",
+      "document_name": "crnx-10q_20210930.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021054747/crnx-10q_20210930.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-21-055080:crnx-8k_20211108.htm",
+      "accession_number": "0001564590-21-055080",
+      "form": "8-K",
+      "publication_date": "2021-11-08",
+      "document_name": "crnx-8k_20211108.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021055080/crnx-8k_20211108.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-21-063679:doc4.xml",
+      "accession_number": "0001209191-21-063679",
+      "form": "4",
+      "publication_date": "2021-11-09",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121063679/doc4.xml",
+      "ciks": [
+        "0001886575",
+        "0001658247"
+      ],
+      "display_names": [
+        "Betz Stephen F.  (CIK 0001886575)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-065149:doc4.xml",
+      "accession_number": "0001209191-21-065149",
+      "form": "4",
+      "publication_date": "2021-11-17",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121065149/doc4.xml",
+      "ciks": [
+        "0001886575",
+        "0001658247"
+      ],
+      "display_names": [
+        "Betz Stephen F.  (CIK 0001886575)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-067840:doc4.xml",
+      "accession_number": "0001209191-21-067840",
+      "form": "4",
+      "publication_date": "2021-12-03",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121067840/doc4.xml",
+      "ciks": [
+        "0001886575",
+        "0001658247"
+      ],
+      "display_names": [
+        "Betz Stephen F.  (CIK 0001886575)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-21-070272:doc4.xml",
+      "accession_number": "0001209191-21-070272",
+      "form": "4",
+      "publication_date": "2021-12-17",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121070272/doc4.xml",
+      "ciks": [
+        "0001886575",
+        "0001658247"
+      ],
+      "display_names": [
+        "Betz Stephen F.  (CIK 0001886575)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-21-061145:crnx-8k_20211217.htm",
+      "accession_number": "0001564590-21-061145",
+      "form": "8-K",
+      "publication_date": "2021-12-23",
+      "document_name": "crnx-8k_20211217.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459021061145/crnx-8k_20211217.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "5.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-21-071646:doc4.xml",
+      "accession_number": "0001209191-21-071646",
+      "form": "4",
+      "publication_date": "2021-12-30",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919121071646/doc4.xml",
+      "ciks": [
+        "0001886575",
+        "0001658247"
+      ],
+      "display_names": [
+        "Betz Stephen F.  (CIK 0001886575)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-22-000431:crnx-8k_20220103.htm",
+      "accession_number": "0001564590-22-000431",
+      "form": "8-K",
+      "publication_date": "2022-01-05",
+      "document_name": "crnx-8k_20220103.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459022000431/crnx-8k_20220103.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "5.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-22-002197:doc4.xml",
+      "accession_number": "0001209191-22-002197",
+      "form": "4",
+      "publication_date": "2022-01-06",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122002197/doc4.xml",
+      "ciks": [
+        "0001886575",
+        "0001658247"
+      ],
+      "display_names": [
+        "Betz Stephen F.  (CIK 0001886575)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000315066-22-000045:filing.txt",
+      "accession_number": "0000315066-22-000045",
+      "form": "SC 13G/A",
+      "publication_date": "2022-01-10",
+      "document_name": "filing.txt",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000031506622000045/filing.txt",
+      "ciks": [
+        "0001658247",
+        "0000315066"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-002701:doc3.xml",
+      "accession_number": "0001209191-22-002701",
+      "form": "3",
+      "publication_date": "2022-01-10",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122002701/doc3.xml",
+      "ciks": [
+        "0001610381",
+        "0001658247"
+      ],
+      "display_names": [
+        "Vivaldi Coelho Rogerio  (CIK 0001610381)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-002705:doc4.xml",
+      "accession_number": "0001209191-22-002705",
+      "form": "4",
+      "publication_date": "2022-01-10",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122002705/doc4.xml",
+      "ciks": [
+        "0001610381",
+        "0001658247"
+      ],
+      "display_names": [
+        "Vivaldi Coelho Rogerio  (CIK 0001610381)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001567619-22-000888:doc1.htm",
+      "accession_number": "0001567619-22-000888",
+      "form": "SC 13G",
+      "publication_date": "2022-01-10",
+      "document_name": "doc1.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156761922000888/doc1.htm",
+      "ciks": [
+        "0001658247",
+        "0000938206"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "DRIEHAUS CAPITAL MANAGEMENT LLC  (CIK 0000938206)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-22-001071:crnx-8k_20220112.htm",
+      "accession_number": "0001564590-22-001071",
+      "form": "8-K",
+      "publication_date": "2022-01-12",
+      "document_name": "crnx-8k_20220112.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459022001071/crnx-8k_20220112.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-22-004051:doc4.xml",
+      "accession_number": "0001209191-22-004051",
+      "form": "4",
+      "publication_date": "2022-01-20",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122004051/doc4.xml",
+      "ciks": [
+        "0001886575",
+        "0001658247"
+      ],
+      "display_names": [
+        "Betz Stephen F.  (CIK 0001886575)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-004453:doc4.xml",
+      "accession_number": "0001209191-22-004453",
+      "form": "4",
+      "publication_date": "2022-01-21",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122004453/doc4.xml",
+      "ciks": [
+        "0001435775",
+        "0001658247"
+      ],
+      "display_names": [
+        "Krasner Alan Seth  (CIK 0001435775)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000834237-22-006267:us22663k1079_020322.txt",
+      "accession_number": "0000834237-22-006267",
+      "form": "SC 13G/A",
+      "publication_date": "2022-02-03",
+      "document_name": "us22663k1079_020322.txt",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000083423722006267/us22663k1079_020322.txt",
+      "ciks": [
+        "0001658247",
+        "0001364742"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-006797:doc4.xml",
+      "accession_number": "0001209191-22-006797",
+      "form": "4",
+      "publication_date": "2022-02-03",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122006797/doc4.xml",
+      "ciks": [
+        "0001886575",
+        "0001658247"
+      ],
+      "display_names": [
+        "Betz Stephen F.  (CIK 0001886575)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-007198:doc5.xml",
+      "accession_number": "0001209191-22-007198",
+      "form": "5",
+      "publication_date": "2022-02-04",
+      "document_name": "doc5.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122007198/doc5.xml",
+      "ciks": [
+        "0001807856",
+        "0001658247"
+      ],
+      "display_names": [
+        "Madan Ajay  (CIK 0001807856)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-007202:doc5.xml",
+      "accession_number": "0001209191-22-007202",
+      "form": "5",
+      "publication_date": "2022-02-04",
+      "document_name": "doc5.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122007202/doc5.xml",
+      "ciks": [
+        "0001702265",
+        "0001658247"
+      ],
+      "display_names": [
+        "Wilson Marc  (CIK 0001702265)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-008061:doc4.xml",
+      "accession_number": "0001209191-22-008061",
+      "form": "4",
+      "publication_date": "2022-02-09",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122008061/doc4.xml",
+      "ciks": [
+        "0001807856",
+        "0001658247"
+      ],
+      "display_names": [
+        "Madan Ajay  (CIK 0001807856)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001564590-22-004612:crnx-sc13ga.htm",
+      "accession_number": "0001564590-22-004612",
+      "form": "SC 13G/A",
+      "publication_date": "2022-02-10",
+      "document_name": "crnx-sc13ga.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459022004612/crnx-sc13ga.htm",
+      "ciks": [
+        "0001658247",
+        "0001746298"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Struthers Richard Scott  (CIK 0001746298)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000947871-22-000196:ss792097_sc13ga.htm",
+      "accession_number": "0000947871-22-000196",
+      "form": "SC 13G/A",
+      "publication_date": "2022-02-11",
+      "document_name": "ss792097_sc13ga.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000094787122000196/ss792097_sc13ga.htm",
+      "ciks": [
+        "0001658247",
+        "0001055951"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "ORBIMED ADVISORS LLC  (CIK 0001055951)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001193125-22-034893:d276365dsc13ga.htm",
+      "accession_number": "0001193125-22-034893",
+      "form": "SC 13G/A",
+      "publication_date": "2022-02-11",
+      "document_name": "d276365dsc13ga.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000119312522034893/d276365dsc13ga.htm",
+      "ciks": [
+        "0001658247",
+        "0001589097"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Versant Venture Capital V, L.P.  (CIK 0001589097)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001213900-22-007084:ea155473-13ga4vivo8_crinetic.htm",
+      "accession_number": "0001213900-22-007084",
+      "form": "SC 13G/A",
+      "publication_date": "2022-02-11",
+      "document_name": "ea155473-13ga4vivo8_crinetic.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000121390022007084/ea155473-13ga4vivo8_crinetic.htm",
+      "ciks": [
+        "0001658247",
+        "0001618789"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Vivo Capital VIII, LLC  (CIK 0001618789)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001172661-22-000427:deeptrack-crnx123121a1.htm",
+      "accession_number": "0001172661-22-000427",
+      "form": "SC 13G/A",
+      "publication_date": "2022-02-14",
+      "document_name": "deeptrack-crnx123121a1.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000117266122000427/deeptrack-crnx123121a1.htm",
+      "ciks": [
+        "0001658247",
+        "0001856083"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)",
+        "Deep Track Capital, LP  (CIK 0001856083)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-010784:doc4.xml",
+      "accession_number": "0001209191-22-010784",
+      "form": "4",
+      "publication_date": "2022-02-17",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122010784/doc4.xml",
+      "ciks": [
+        "0001886575",
+        "0001658247"
+      ],
+      "display_names": [
+        "Betz Stephen F.  (CIK 0001886575)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000950170-22-002172:crnx-20220225.htm",
+      "accession_number": "0000950170-22-002172",
+      "form": "8-K",
+      "publication_date": "2022-02-28",
+      "document_name": "crnx-20220225.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000095017022002172/crnx-20220225.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "1.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000950170-22-002421:crnx-20220228.htm",
+      "accession_number": "0000950170-22-002421",
+      "form": "8-K",
+      "publication_date": "2022-03-01",
+      "document_name": "crnx-20220228.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000095017022002421/crnx-20220228.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "5.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-22-015129:doc4.xml",
+      "accession_number": "0001209191-22-015129",
+      "form": "4",
+      "publication_date": "2022-03-02",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122015129/doc4.xml",
+      "ciks": [
+        "0001435775",
+        "0001658247"
+      ],
+      "display_names": [
+        "Krasner Alan Seth  (CIK 0001435775)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-015130:doc4.xml",
+      "accession_number": "0001209191-22-015130",
+      "form": "4",
+      "publication_date": "2022-03-02",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122015130/doc4.xml",
+      "ciks": [
+        "0001886575",
+        "0001658247"
+      ],
+      "display_names": [
+        "Betz Stephen F.  (CIK 0001886575)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-015131:doc4.xml",
+      "accession_number": "0001209191-22-015131",
+      "form": "4",
+      "publication_date": "2022-03-02",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122015131/doc4.xml",
+      "ciks": [
+        "0001807856",
+        "0001658247"
+      ],
+      "display_names": [
+        "Madan Ajay  (CIK 0001807856)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-015132:doc4.xml",
+      "accession_number": "0001209191-22-015132",
+      "form": "4",
+      "publication_date": "2022-03-02",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122015132/doc4.xml",
+      "ciks": [
+        "0001702265",
+        "0001658247"
+      ],
+      "display_names": [
+        "Wilson Marc  (CIK 0001702265)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-015133:doc4.xml",
+      "accession_number": "0001209191-22-015133",
+      "form": "4",
+      "publication_date": "2022-03-02",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122015133/doc4.xml",
+      "ciks": [
+        "0001881007",
+        "0001658247"
+      ],
+      "display_names": [
+        "Knight Jeff E.  (CIK 0001881007)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-015134:doc4.xml",
+      "accession_number": "0001209191-22-015134",
+      "form": "4",
+      "publication_date": "2022-03-02",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122015134/doc4.xml",
+      "ciks": [
+        "0001746298",
+        "0001658247"
+      ],
+      "display_names": [
+        "Struthers Richard Scott  (CIK 0001746298)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-017597:doc3.xml",
+      "accession_number": "0001209191-22-017597",
+      "form": "3",
+      "publication_date": "2022-03-09",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122017597/doc3.xml",
+      "ciks": [
+        "0001799357",
+        "0001658247"
+      ],
+      "display_names": [
+        "Hassard James  (CIK 0001799357)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-017938:doc4.xml",
+      "accession_number": "0001209191-22-017938",
+      "form": "4",
+      "publication_date": "2022-03-10",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122017938/doc4.xml",
+      "ciks": [
+        "0001799357",
+        "0001658247"
+      ],
+      "display_names": [
+        "Hassard James  (CIK 0001799357)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000950170-22-003510:crnx-20220311.htm",
+      "accession_number": "0000950170-22-003510",
+      "form": "8-K",
+      "publication_date": "2022-03-14",
+      "document_name": "crnx-20220311.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000095017022003510/crnx-20220311.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "5.02",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001209191-22-018563:doc3.xml",
+      "accession_number": "0001209191-22-018563",
+      "form": "3",
+      "publication_date": "2022-03-14",
+      "document_name": "doc3.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122018563/doc3.xml",
+      "ciks": [
+        "0001871152",
+        "0001658247"
+      ],
+      "display_names": [
+        "Deardorf Caren  (CIK 0001871152)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-018577:doc4.xml",
+      "accession_number": "0001209191-22-018577",
+      "form": "4",
+      "publication_date": "2022-03-14",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122018577/doc4.xml",
+      "ciks": [
+        "0001871152",
+        "0001658247"
+      ],
+      "display_names": [
+        "Deardorf Caren  (CIK 0001871152)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0001209191-22-019595:doc4.xml",
+      "accession_number": "0001209191-22-019595",
+      "form": "4",
+      "publication_date": "2022-03-17",
+      "document_name": "doc4.xml",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000120919122019595/doc4.xml",
+      "ciks": [
+        "0001886575",
+        "0001658247"
+      ],
+      "display_names": [
+        "Betz Stephen F.  (CIK 0001886575)",
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    },
+    {
+      "hit_id": "0000950170-22-004123:crnx-20220317.htm",
+      "accession_number": "0000950170-22-004123",
+      "form": "8-K",
+      "publication_date": "2022-03-18",
+      "document_name": "crnx-20220317.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000095017022004123/crnx-20220317.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000950170-22-004687:crnx-20220321.htm",
+      "accession_number": "0000950170-22-004687",
+      "form": "8-K",
+      "publication_date": "2022-03-25",
+      "document_name": "crnx-20220321.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000095017022004687/crnx-20220321.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "5.02"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000950170-22-005041:crnx-20220330.htm",
+      "accession_number": "0000950170-22-005041",
+      "form": "8-K",
+      "publication_date": "2022-03-30",
+      "document_name": "crnx-20220330.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000095017022005041/crnx-20220330.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [
+        "2.02",
+        "7.01",
+        "9.01"
+      ],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0000950170-22-005050:crnx-20211231.htm",
+      "accession_number": "0000950170-22-005050",
+      "form": "10-K",
+      "publication_date": "2022-03-30",
+      "document_name": "crnx-20211231.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000095017022005050/crnx-20211231.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": true
+    },
+    {
+      "hit_id": "0001564590-22-012715:crnx-s8.htm",
+      "accession_number": "0001564590-22-012715",
+      "form": "S-8",
+      "publication_date": "2022-03-31",
+      "document_name": "crnx-s8.htm",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1658247/000156459022012715/crnx-s8.htm",
+      "ciks": [
+        "0001658247"
+      ],
+      "display_names": [
+        "Crinetics Pharmaceuticals, Inc.  (CRNX)  (CIK 0001658247)"
+      ],
+      "items": [],
+      "retained_for_full_text_review": false
+    }
+  ],
+  "excluded_form_types": [
+    "144",
+    "3",
+    "3/A",
+    "4",
+    "4/A",
+    "5",
+    "5/A",
+    "ARS",
+    "CORRESP",
+    "CT ORDER",
+    "EFFECT",
+    "S-8",
+    "S-8 POS",
+    "SC 13G",
+    "SC 13G/A",
+    "SCHEDULE 13G",
+    "SCHEDULE 13G/A",
+    "UPLOAD"
+  ],
+  "exclusion_basis": "Insider ownership, passive ownership, routine employee-plan registration, administrative correspondence/effectiveness and duplicate annual shareholder reports excluded from material transaction-corpus selection. Active ownership13D, prospectuses/registrations, current/periodic/proxy/tender/deregistration and unrecognized forms retained. No retained form is silently discarded by its8-K item tags.",
+  "required_material_document_count": 58,
+  "outcome_label": null,
+  "full_text_review_complete": false,
+  "training_allowed": false
+}

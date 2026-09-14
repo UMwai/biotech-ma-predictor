@@ -1,0 +1,4037 @@
+{
+  "cik": 1447028,
+  "end_date": "2021-12-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:54:03.656795+00:00",
+      "returned": 59,
+      "source_bytes": 40008,
+      "source_relative_path": "raw_sources/90397f8884aa222a0e5ca6442ac8a87896a1e861a97955426db3c5ef43f48a10.json",
+      "source_sha256": "90397f8884aa222a0e5ca6442ac8a87896a1e861a97955426db3c5ef43f48a10",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001447028&dateRange=custom&startdt=2021-01-01&enddt=2021-12-31&from=0&size=100",
+      "total": 59
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001567619-21-022640",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000156761921022640/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2021-12-30",
+      "form": "D",
+      "id": "0001567619-21-022640:primary_doc.xml",
+      "items": [
+        "06B"
+      ],
+      "source_hit": {
+        "_id": "0001567619-21-022640:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001567619-21-022640",
+          "biz_locations": [
+            "Warminster, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-12-30",
+          "file_description": null,
+          "file_num": [
+            "021-427295"
+          ],
+          "file_type": "D",
+          "film_num": [
+            "211531289"
+          ],
+          "form": "D",
+          "inc_states": [
+            "A1"
+          ],
+          "items": [
+            "06B"
+          ],
+          "period_ending": null,
+          "root_forms": [
+            "D"
+          ],
+          "schema_version": "X0708",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslFormDX01"
+        },
+        "sort": [
+          1640822400000,
+          "0001567619-21-022640:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-008510",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321008510/f8k_121321.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_121321.htm",
+      "filed_date": "2021-12-14",
+      "form": "8-K",
+      "id": "0001171843-21-008510:f8k_121321.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-008510:f8k_121321.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-008510",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-12-14",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211489691"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-12-14",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1639440000000,
+          "0001171843-21-008510:f8k_121321.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-008473",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321008473/f8k_121321.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_121321.htm",
+      "filed_date": "2021-12-13",
+      "form": "8-K",
+      "id": "0001171843-21-008473:f8k_121321.htm",
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-008473:f8k_121321.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-008473",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-12-13",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211486970"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "1.01",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-12-13",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1639353600000,
+          "0001171843-21-008473:f8k_121321.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000072",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000072/abus-20211209.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "abus-20211209.htm",
+      "filed_date": "2021-12-10",
+      "form": "8-K",
+      "id": "0001447028-21-000072:abus-20211209.htm",
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001447028-21-000072:abus-20211209.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000072",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-12-10",
+          "file_description": "8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211483649"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "1.01",
+            "9.01"
+          ],
+          "period_ending": "2021-12-09",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1639094400000,
+          "0001447028-21-000072:abus-20211209.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-008357",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321008357/f8k_120721.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_120721.htm",
+      "filed_date": "2021-12-07",
+      "form": "8-K",
+      "id": "0001171843-21-008357:f8k_120721.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-008357:f8k_120721.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-008357",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-12-07",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211474677"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-12-07",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1638835200000,
+          "0001171843-21-008357:f8k_120721.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000068",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1635324/000144702821000068/wf-form4_163856535580377.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000068/wf-form4_163856535580377.xml"
+      ],
+      "ciks": [
+        "0001635324",
+        "0001447028"
+      ],
+      "display_names": [
+        "Sofia Michael J.  (CIK 0001635324)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_163856535580377.xml",
+      "filed_date": "2021-12-03",
+      "form": "4",
+      "id": "0001447028-21-000068:wf-form4_163856535580377.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000068:wf-form4_163856535580377.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000068",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001635324",
+            "0001447028"
+          ],
+          "display_names": [
+            "Sofia Michael J.  (CIK 0001635324)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-12-03",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211469948"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-12-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1638489600000,
+          "0001447028-21-000068:wf-form4_163856535580377.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-008240",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321008240/f8k_120121.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_120121.htm",
+      "filed_date": "2021-12-01",
+      "form": "8-K",
+      "id": "0001171843-21-008240:f8k_120121.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-008240:f8k_120121.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-008240",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-12-01",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211462169"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-12-01",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1638316800000,
+          "0001171843-21-008240:f8k_120121.htm"
+        ]
+      }
+    },
+    {
+      "accession": "9999999995-21-004404",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/999999999521004404/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2021-11-18",
+      "form": "EFFECT",
+      "id": "9999999995-21-004404:primary_doc.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999995-21-004404:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999995-21-004404",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-11-18",
+          "file_description": null,
+          "file_num": [
+            "333-260782"
+          ],
+          "file_type": "EFFECT",
+          "film_num": [
+            "211426289"
+          ],
+          "form": "EFFECT",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "EFFECT"
+          ],
+          "schema_version": "X0101",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslEFFECTX01"
+        },
+        "sort": [
+          1637193600000,
+          "9999999995-21-004404:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000066",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000066/filename1.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "filename1.htm",
+      "filed_date": "2021-11-16",
+      "form": "CORRESP",
+      "id": "0001447028-21-000066:filename1.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000066:filename1.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000066",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-11-16",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "CORRESP",
+          "film_num": [],
+          "form": "CORRESP",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "CORRESP"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1637020800000,
+          "0001447028-21-000066:filename1.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000000000-21-013816",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000000000021013816/filename1.pdf"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "filename1.pdf",
+      "filed_date": "2021-11-16",
+      "form": "UPLOAD",
+      "id": "0000000000-21-013816:filename1.pdf",
+      "items": [],
+      "source_hit": {
+        "_id": "0000000000-21-013816:filename1.pdf",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000000000-21-013816",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-11-16",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "LETTER",
+          "film_num": [],
+          "form": "UPLOAD",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "UPLOAD"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1637020800000,
+          "0000000000-21-013816:filename1.pdf"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000064",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1892918/000144702821000064/wf-form4_163671611466902.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000064/wf-form4_163671611466902.xml"
+      ],
+      "ciks": [
+        "0001892918",
+        "0001447028"
+      ],
+      "display_names": [
+        "Tran Tram  (CIK 0001892918)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_163671611466902.xml",
+      "filed_date": "2021-11-12",
+      "form": "4",
+      "id": "0001447028-21-000064:wf-form4_163671611466902.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000064:wf-form4_163671611466902.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000064",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001892918",
+            "0001447028"
+          ],
+          "display_names": [
+            "Tran Tram  (CIK 0001892918)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-11-12",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211399162"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-11-09",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1636675200000,
+          "0001447028-21-000064:wf-form4_163671611466902.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000062",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1892918/000144702821000062/wf-form3_163671585109918.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000062/wf-form3_163671585109918.xml"
+      ],
+      "ciks": [
+        "0001892918",
+        "0001447028"
+      ],
+      "display_names": [
+        "Tran Tram  (CIK 0001892918)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form3_163671585109918.xml",
+      "filed_date": "2021-11-12",
+      "form": "3",
+      "id": "0001447028-21-000062:wf-form3_163671585109918.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000062:wf-form3_163671585109918.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000062",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001892918",
+            "0001447028"
+          ],
+          "display_names": [
+            "Tran Tram  (CIK 0001892918)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-11-12",
+          "file_description": "FORM 3",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "211399114"
+          ],
+          "form": "3",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-11-09",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1636675200000,
+          "0001447028-21-000062:wf-form3_163671585109918.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-007863",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321007863/f8k_111121.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_111121.htm",
+      "filed_date": "2021-11-12",
+      "form": "8-K",
+      "id": "0001171843-21-007863:f8k_111121.htm",
+      "items": [
+        "5.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-007863:f8k_111121.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-007863",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-11-12",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211399576"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "5.02",
+            "9.01"
+          ],
+          "period_ending": "2021-11-09",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1636675200000,
+          "0001171843-21-007863:f8k_111121.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-007826",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321007826/f8k_111121.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_111121.htm",
+      "filed_date": "2021-11-12",
+      "form": "8-K",
+      "id": "0001171843-21-007826:f8k_111121.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-007826:f8k_111121.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-007826",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-11-12",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211398818"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-11-10",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1636675200000,
+          "0001171843-21-007826:f8k_111121.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000059",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000059/abus-20210930.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "abus-20210930.htm",
+      "filed_date": "2021-11-04",
+      "form": "10-Q",
+      "id": "0001447028-21-000059:abus-20210930.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000059:abus-20210930.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000059",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-11-04",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "211379944"
+          ],
+          "form": "10-Q",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2021-09-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1635984000000,
+          "0001447028-21-000059:abus-20210930.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-007507",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321007507/f8k_110321.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_110321.htm",
+      "filed_date": "2021-11-04",
+      "form": "8-K",
+      "id": "0001171843-21-007507:f8k_110321.htm",
+      "items": [
+        "2.02",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-007507:f8k_110321.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-007507",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-11-04",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211378025"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-11-04",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1635984000000,
+          "0001171843-21-007507:f8k_110321.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-21-134486",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000110465921134486/tm2131845-1_s3.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "tm2131845-1_s3.htm",
+      "filed_date": "2021-11-04",
+      "form": "S-3",
+      "id": "0001104659-21-134486:tm2131845-1_s3.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-21-134486:tm2131845-1_s3.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-21-134486",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-11-04",
+          "file_description": "S-3",
+          "file_num": [
+            "333-260782"
+          ],
+          "file_type": "S-3",
+          "film_num": [
+            "211381032"
+          ],
+          "form": "S-3",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-3"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1635984000000,
+          "0001104659-21-134486:tm2131845-1_s3.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000950103-21-016172",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1635088/000095010321016172/dp160070_4-rsltd.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000095010321016172/dp160070_4-rsltd.xml"
+      ],
+      "ciks": [
+        "0001635088",
+        "0001447028"
+      ],
+      "display_names": [
+        "Roivant Sciences Ltd.  (ROIV)  (CIK 0001635088)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "dp160070_4-rsltd.xml",
+      "filed_date": "2021-10-20",
+      "form": "4",
+      "id": "0000950103-21-016172:dp160070_4-rsltd.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950103-21-016172:dp160070_4-rsltd.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950103-21-016172",
+          "biz_locations": [
+            "Hamilton Hm11, D0",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "D0",
+            "A1"
+          ],
+          "ciks": [
+            "0001635088",
+            "0001447028"
+          ],
+          "display_names": [
+            "Roivant Sciences Ltd.  (ROIV)  (CIK 0001635088)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-10-20",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211334874"
+          ],
+          "form": "4",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": "2021-10-18",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1634688000000,
+          "0000950103-21-016172:dp160070_4-rsltd.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950103-21-016171",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000095010321016171/dp160071_sc13da-11.htm",
+        "https://www.sec.gov/Archives/edgar/data/1635088/000095010321016171/dp160071_sc13da-11.htm"
+      ],
+      "ciks": [
+        "0001447028",
+        "0001635088"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)",
+        "Roivant Sciences Ltd.  (ROIV)  (CIK 0001635088)"
+      ],
+      "document_name": "dp160071_sc13da-11.htm",
+      "filed_date": "2021-10-20",
+      "form": "SC 13D/A",
+      "id": "0000950103-21-016171:dp160071_sc13da-11.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950103-21-016171:dp160071_sc13da-11.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950103-21-016171",
+          "biz_locations": [
+            "Burnaby, A1",
+            "Hamilton Hm11, D0"
+          ],
+          "biz_states": [
+            "A1",
+            "D0"
+          ],
+          "ciks": [
+            "0001447028",
+            "0001635088"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)",
+            "Roivant Sciences Ltd.  (ROIV)  (CIK 0001635088)"
+          ],
+          "file_date": "2021-10-20",
+          "file_description": "AMENDMENT NO. 11",
+          "file_num": [
+            "005-85963"
+          ],
+          "file_type": "SC 13D/A",
+          "film_num": [
+            "211334864"
+          ],
+          "form": "SC 13D/A",
+          "inc_states": [
+            "D0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1634688000000,
+          "0000950103-21-016171:dp160071_sc13da-11.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-21-124625",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000110465921124625/tm2129349-1_424b5.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "tm2129349-1_424b5.htm",
+      "filed_date": "2021-10-08",
+      "form": "424B5",
+      "id": "0001104659-21-124625:tm2129349-1_424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-21-124625:tm2129349-1_424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-21-124625",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-10-08",
+          "file_description": "424B5",
+          "file_num": [
+            "333-248467"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "211315530"
+          ],
+          "form": "424B5",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1633651200000,
+          "0001104659-21-124625:tm2129349-1_424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-21-124592",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000110465921124592/tm2129349d2_8k.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "tm2129349d2_8k.htm",
+      "filed_date": "2021-10-08",
+      "form": "8-K",
+      "id": "0001104659-21-124592:tm2129349d2_8k.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-21-124592:tm2129349d2_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-21-124592",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-10-08",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211315327"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-10-08",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1633651200000,
+          "0001104659-21-124592:tm2129349d2_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000054",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000054/abus-formsx8registrationst.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "abus-formsx8registrationst.htm",
+      "filed_date": "2021-08-05",
+      "form": "S-8",
+      "id": "0001447028-21-000054:abus-formsx8registrationst.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000054:abus-formsx8registrationst.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000054",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-08-05",
+          "file_description": "S-8",
+          "file_num": [
+            "333-258494"
+          ],
+          "file_type": "S-8",
+          "film_num": [
+            "211148797"
+          ],
+          "form": "S-8",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628121600000,
+          "0001447028-21-000054:abus-formsx8registrationst.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000052",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000052/abus-20210630.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "abus-20210630.htm",
+      "filed_date": "2021-08-05",
+      "form": "10-Q",
+      "id": "0001447028-21-000052:abus-20210630.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000052:abus-20210630.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000052",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-08-05",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "211148337"
+          ],
+          "form": "10-Q",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2021-06-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628121600000,
+          "0001447028-21-000052:abus-20210630.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-005530",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321005530/f8k_080521.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_080521.htm",
+      "filed_date": "2021-08-05",
+      "form": "8-K",
+      "id": "0001171843-21-005530:f8k_080521.htm",
+      "items": [
+        "2.02",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-005530:f8k_080521.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-005530",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-08-05",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211146339"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-08-05",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628121600000,
+          "0001171843-21-005530:f8k_080521.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-004859",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321004859/f8k_071421.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_071421.htm",
+      "filed_date": "2021-07-14",
+      "form": "8-K",
+      "id": "0001171843-21-004859:f8k_071421.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-004859:f8k_071421.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-004859",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-07-14",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211089264"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-07-14",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1626220800000,
+          "0001171843-21-004859:f8k_071421.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-004761",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321004761/f8k_070621.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_070621.htm",
+      "filed_date": "2021-07-07",
+      "form": "8-K",
+      "id": "0001171843-21-004761:f8k_070621.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-004761:f8k_070621.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-004761",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-07-07",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211076217"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-07-07",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1625616000000,
+          "0001171843-21-004761:f8k_070621.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-004704",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321004704/f8k_070521.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_070521.htm",
+      "filed_date": "2021-07-06",
+      "form": "8-K",
+      "id": "0001171843-21-004704:f8k_070521.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-004704:f8k_070521.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-004704",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-07-06",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211072468"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-07-06",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1625529600000,
+          "0001171843-21-004704:f8k_070521.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-004577",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321004577/f8k_062821.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_062821.htm",
+      "filed_date": "2021-06-29",
+      "form": "8-K",
+      "id": "0001171843-21-004577:f8k_062821.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-004577:f8k_062821.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-004577",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-06-29",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211055559"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-06-29",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1624924800000,
+          "0001171843-21-004577:f8k_062821.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-004544",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321004544/f8k_062621.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_062621.htm",
+      "filed_date": "2021-06-28",
+      "form": "8-K",
+      "id": "0001171843-21-004544:f8k_062621.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-004544:f8k_062621.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-004544",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-06-28",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211049990"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-06-26",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1624838400000,
+          "0001171843-21-004544:f8k_062621.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000044",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1239650/000144702821000044/wf-form4_162309752909256.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000044/wf-form4_162309752909256.xml"
+      ],
+      "ciks": [
+        "0001239650",
+        "0001447028"
+      ],
+      "display_names": [
+        "BURGESS DANIEL D  (CIK 0001239650)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_162309752909256.xml",
+      "filed_date": "2021-06-07",
+      "form": "4",
+      "id": "0001447028-21-000044:wf-form4_162309752909256.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000044:wf-form4_162309752909256.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000044",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001239650",
+            "0001447028"
+          ],
+          "display_names": [
+            "BURGESS DANIEL D  (CIK 0001239650)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-06-07",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21999822"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-06-03",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623024000000,
+          "0001447028-21-000044:wf-form4_162309752909256.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000043",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1181178/000144702821000043/wf-form4_162309750584527.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000043/wf-form4_162309750584527.xml"
+      ],
+      "ciks": [
+        "0001181178",
+        "0001447028"
+      ],
+      "display_names": [
+        "HENRIQUES RICHARD C JR  (CIK 0001181178)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_162309750584527.xml",
+      "filed_date": "2021-06-07",
+      "form": "4",
+      "id": "0001447028-21-000043:wf-form4_162309750584527.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000043:wf-form4_162309750584527.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000043",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001181178",
+            "0001447028"
+          ],
+          "display_names": [
+            "HENRIQUES RICHARD C JR  (CIK 0001181178)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-06-07",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21999818"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-06-03",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623024000000,
+          "0001447028-21-000043:wf-form4_162309750584527.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000042",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1387521/000144702821000042/wf-form4_162309748590209.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000042/wf-form4_162309748590209.xml"
+      ],
+      "ciks": [
+        "0001387521",
+        "0001447028"
+      ],
+      "display_names": [
+        "Meyers James R  (CIK 0001387521)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_162309748590209.xml",
+      "filed_date": "2021-06-07",
+      "form": "4",
+      "id": "0001447028-21-000042:wf-form4_162309748590209.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000042:wf-form4_162309748590209.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000042",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001387521",
+            "0001447028"
+          ],
+          "display_names": [
+            "Meyers James R  (CIK 0001387521)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-06-07",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21999814"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-06-03",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623024000000,
+          "0001447028-21-000042:wf-form4_162309748590209.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000041",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1244828/000144702821000041/wf-form4_162309747011064.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000041/wf-form4_162309747011064.xml"
+      ],
+      "ciks": [
+        "0001244828",
+        "0001447028"
+      ],
+      "display_names": [
+        "MANCHESTER KEITH S  (CIK 0001244828)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_162309747011064.xml",
+      "filed_date": "2021-06-07",
+      "form": "4",
+      "id": "0001447028-21-000041:wf-form4_162309747011064.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000041:wf-form4_162309747011064.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000041",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001244828",
+            "0001447028"
+          ],
+          "display_names": [
+            "MANCHESTER KEITH S  (CIK 0001244828)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-06-07",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21999807"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-06-03",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623024000000,
+          "0001447028-21-000041:wf-form4_162309747011064.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000040",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1778307/000144702821000040/wf-form4_162309744639901.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000040/wf-form4_162309744639901.xml"
+      ],
+      "ciks": [
+        "0001778307",
+        "0001447028"
+      ],
+      "display_names": [
+        "Cheng Andrew  (CIK 0001778307)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_162309744639901.xml",
+      "filed_date": "2021-06-07",
+      "form": "4",
+      "id": "0001447028-21-000040:wf-form4_162309744639901.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000040:wf-form4_162309744639901.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000040",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001778307",
+            "0001447028"
+          ],
+          "display_names": [
+            "Cheng Andrew  (CIK 0001778307)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-06-07",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21999801"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-06-03",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623024000000,
+          "0001447028-21-000040:wf-form4_162309744639901.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000039",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1647805/000144702821000039/wf-form4_162309743051998.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000039/wf-form4_162309743051998.xml"
+      ],
+      "ciks": [
+        "0001647805",
+        "0001447028"
+      ],
+      "display_names": [
+        "Torti Frank  (CIK 0001647805)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_162309743051998.xml",
+      "filed_date": "2021-06-07",
+      "form": "4",
+      "id": "0001447028-21-000039:wf-form4_162309743051998.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000039:wf-form4_162309743051998.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000039",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001647805",
+            "0001447028"
+          ],
+          "display_names": [
+            "Torti Frank  (CIK 0001647805)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-06-07",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21999797"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-06-03",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623024000000,
+          "0001447028-21-000039:wf-form4_162309743051998.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000032",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000032/abus-20210526.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "abus-20210526.htm",
+      "filed_date": "2021-06-01",
+      "form": "8-K",
+      "id": "0001447028-21-000032:abus-20210526.htm",
+      "items": [
+        "5.02",
+        "5.07",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001447028-21-000032:abus-20210526.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000032",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-06-01",
+          "file_description": "8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21985214"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "5.02",
+            "5.07",
+            "9.01"
+          ],
+          "period_ending": "2021-05-26",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1622505600000,
+          "0001447028-21-000032:abus-20210526.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000027",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000027/abus-20210331.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "abus-20210331.htm",
+      "filed_date": "2021-05-05",
+      "form": "10-Q",
+      "id": "0001447028-21-000027:abus-20210331.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000027:abus-20210331.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000027",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-05-05",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "21893829"
+          ],
+          "form": "10-Q",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2021-03-31",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1620172800000,
+          "0001447028-21-000027:abus-20210331.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-003133",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321003133/f8k_050521.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_050521.htm",
+      "filed_date": "2021-05-05",
+      "form": "8-K",
+      "id": "0001171843-21-003133:f8k_050521.htm",
+      "items": [
+        "2.02",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-003133:f8k_050521.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-003133",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-05-05",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21891187"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-05-05",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1620172800000,
+          "0001171843-21-003133:f8k_050521.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-21-047993",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000110465921047993/tm212510d2_defa14a.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "tm212510d2_defa14a.htm",
+      "filed_date": "2021-04-08",
+      "form": "DEFA14A",
+      "id": "0001104659-21-047993:tm212510d2_defa14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-21-047993:tm212510d2_defa14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-21-047993",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-04-08",
+          "file_description": "DEFA14A",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "DEFA14A",
+          "film_num": [
+            "21814744"
+          ],
+          "form": "DEFA14A",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DEFA14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1617840000000,
+          "0001104659-21-047993:tm212510d2_defa14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-21-047991",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000110465921047991/tm212510-1_def14a.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "tm212510-1_def14a.htm",
+      "filed_date": "2021-04-08",
+      "form": "DEF 14A",
+      "id": "0001104659-21-047991:tm212510-1_def14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-21-047991:tm212510-1_def14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-21-047991",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-04-08",
+          "file_description": "DEF 14A",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "DEF 14A",
+          "film_num": [
+            "21814740"
+          ],
+          "form": "DEF 14A",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2021-05-26",
+          "root_forms": [
+            "DEF 14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1617840000000,
+          "0001104659-21-047991:tm212510-1_def14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-002226",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321002226/f8k_033121.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_033121.htm",
+      "filed_date": "2021-04-01",
+      "form": "8-K",
+      "id": "0001171843-21-002226:f8k_033121.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-002226:f8k_033121.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-002226",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-04-01",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21796035"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-04-01",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1617235200000,
+          "0001171843-21-002226:f8k_033121.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-001812",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321001812/f8k_031521.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_031521.htm",
+      "filed_date": "2021-03-16",
+      "form": "8-K",
+      "id": "0001171843-21-001812:f8k_031521.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-001812:f8k_031521.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-001812",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-03-16",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21743633"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-03-16",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1615852800000,
+          "0001171843-21-001812:f8k_031521.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000021",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000021/abus-20201231.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "abus-20201231.htm",
+      "filed_date": "2021-03-04",
+      "form": "10-K",
+      "id": "0001447028-21-000021:abus-20201231.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000021:abus-20201231.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000021",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-03-04",
+          "file_description": "10-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "21714605"
+          ],
+          "form": "10-K",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2020-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1614816000000,
+          "0001447028-21-000021:abus-20201231.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-001522",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321001522/f8k_030421.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_030421.htm",
+      "filed_date": "2021-03-04",
+      "form": "8-K",
+      "id": "0001171843-21-001522:f8k_030421.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-001522:f8k_030421.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-001522",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-03-04",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21712585"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2021-03-04",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1614816000000,
+          "0001171843-21-001522:f8k_030421.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-21-032191",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000110465921032191/tm218604d2_8k.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "tm218604d2_8k.htm",
+      "filed_date": "2021-03-04",
+      "form": "8-K",
+      "id": "0001104659-21-032191:tm218604d2_8k.htm",
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-21-032191:tm218604d2_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-21-032191",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-03-04",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21715218"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "1.01",
+            "9.01"
+          ],
+          "period_ending": "2021-03-04",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1614816000000,
+          "0001104659-21-032191:tm218604d2_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-21-032183",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000110465921032183/tm218604-1_424b5.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "tm218604-1_424b5.htm",
+      "filed_date": "2021-03-04",
+      "form": "424B5",
+      "id": "0001104659-21-032183:tm218604-1_424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-21-032183:tm218604-1_424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-21-032183",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-03-04",
+          "file_description": "424B5",
+          "file_num": [
+            "333-248467"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "21715134"
+          ],
+          "form": "424B5",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1614816000000,
+          "0001104659-21-032183:tm218604-1_424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-001364",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321001364/f8k_022621.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_022621.htm",
+      "filed_date": "2021-02-26",
+      "form": "8-K",
+      "id": "0001171843-21-001364:f8k_022621.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-001364:f8k_022621.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-001364",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-02-26",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21683788"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-02-26",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1614297600000,
+          "0001171843-21-001364:f8k_022621.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000014",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1755014/000144702821000014/wf-form4_161359969444382.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000014/wf-form4_161359969444382.xml"
+      ],
+      "ciks": [
+        "0001755014",
+        "0001447028"
+      ],
+      "display_names": [
+        "Picchio Gaston  (CIK 0001755014)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_161359969444382.xml",
+      "filed_date": "2021-02-17",
+      "form": "4",
+      "id": "0001447028-21-000014:wf-form4_161359969444382.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000014:wf-form4_161359969444382.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000014",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001755014",
+            "0001447028"
+          ],
+          "display_names": [
+            "Picchio Gaston  (CIK 0001755014)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-02-17",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21645963"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-02-13",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1613520000000,
+          "0001447028-21-000014:wf-form4_161359969444382.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000012",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1237401/000144702821000012/wf-form4_161359955145004.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000012/wf-form4_161359955145004.xml"
+      ],
+      "ciks": [
+        "0001237401",
+        "0001447028"
+      ],
+      "display_names": [
+        "HASTINGS DAVID C  (CIK 0001237401)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_161359955145004.xml",
+      "filed_date": "2021-02-17",
+      "form": "4",
+      "id": "0001447028-21-000012:wf-form4_161359955145004.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000012:wf-form4_161359955145004.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000012",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001237401",
+            "0001447028"
+          ],
+          "display_names": [
+            "HASTINGS DAVID C  (CIK 0001237401)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-02-17",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21645925"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-02-13",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1613520000000,
+          "0001447028-21-000012:wf-form4_161359955145004.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000010",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1780495/000144702821000010/wf-form4_161359921500159.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000010/wf-form4_161359921500159.xml"
+      ],
+      "ciks": [
+        "0001780495",
+        "0001447028"
+      ],
+      "display_names": [
+        "Collier William H.  (CIK 0001780495)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_161359921500159.xml",
+      "filed_date": "2021-02-17",
+      "form": "4",
+      "id": "0001447028-21-000010:wf-form4_161359921500159.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000010:wf-form4_161359921500159.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000010",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001780495",
+            "0001447028"
+          ],
+          "display_names": [
+            "Collier William H.  (CIK 0001780495)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-02-17",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21645796"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-02-13",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1613520000000,
+          "0001447028-21-000010:wf-form4_161359921500159.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000008",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1669530/000144702821000008/wf-form4_161359901972313.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000008/wf-form4_161359901972313.xml"
+      ],
+      "ciks": [
+        "0001669530",
+        "0001447028"
+      ],
+      "display_names": [
+        "Howard Elizabeth  (CIK 0001669530)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_161359901972313.xml",
+      "filed_date": "2021-02-17",
+      "form": "4",
+      "id": "0001447028-21-000008:wf-form4_161359901972313.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000008:wf-form4_161359901972313.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000008",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001669530",
+            "0001447028"
+          ],
+          "display_names": [
+            "Howard Elizabeth  (CIK 0001669530)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-02-17",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21645752"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-02-13",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1613520000000,
+          "0001447028-21-000008:wf-form4_161359901972313.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000006",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1635326/000144702821000006/wf-form4_161359884797554.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000006/wf-form4_161359884797554.xml"
+      ],
+      "ciks": [
+        "0001635326",
+        "0001447028"
+      ],
+      "display_names": [
+        "McElhaugh Michael J.  (CIK 0001635326)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_161359884797554.xml",
+      "filed_date": "2021-02-17",
+      "form": "4",
+      "id": "0001447028-21-000006:wf-form4_161359884797554.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000006:wf-form4_161359884797554.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000006",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001635326",
+            "0001447028"
+          ],
+          "display_names": [
+            "McElhaugh Michael J.  (CIK 0001635326)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-02-17",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21645701"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-02-13",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1613520000000,
+          "0001447028-21-000006:wf-form4_161359884797554.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000004",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1635324/000144702821000004/wf-form4_161359869528005.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000004/wf-form4_161359869528005.xml"
+      ],
+      "ciks": [
+        "0001635324",
+        "0001447028"
+      ],
+      "display_names": [
+        "Sofia Michael J.  (CIK 0001635324)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_161359869528005.xml",
+      "filed_date": "2021-02-17",
+      "form": "4",
+      "id": "0001447028-21-000004:wf-form4_161359869528005.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000004:wf-form4_161359869528005.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000004",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001635324",
+            "0001447028"
+          ],
+          "display_names": [
+            "Sofia Michael J.  (CIK 0001635324)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-02-17",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21645649"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-02-13",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1613520000000,
+          "0001447028-21-000004:wf-form4_161359869528005.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-21-023317",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000110465921023317/tm216635d3_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1704131/000110465921023317/tm216635d3_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001447028",
+        "0001704131"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)",
+        "Foresite Capital Fund IV, L.P.  (CIK 0001704131)"
+      ],
+      "document_name": "tm216635d3_sc13ga.htm",
+      "filed_date": "2021-02-16",
+      "form": "SC 13G/A",
+      "id": "0001104659-21-023317:tm216635d3_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-21-023317:tm216635d3_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-21-023317",
+          "biz_locations": [
+            "Burnaby, A1",
+            "San Francisco, CA"
+          ],
+          "biz_states": [
+            "A1",
+            "CA"
+          ],
+          "ciks": [
+            "0001447028",
+            "0001704131"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)",
+            "Foresite Capital Fund IV, L.P.  (CIK 0001704131)"
+          ],
+          "file_date": "2021-02-16",
+          "file_description": "SCHEDULE 13G/A",
+          "file_num": [
+            "005-85963"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21634115"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613433600000,
+          "0001104659-21-023317:tm216635d3_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001493152-21-003487",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000149315221003487/form-sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1493215/000149315221003487/form-sc13ga.htm"
+      ],
+      "ciks": [
+        "0001447028",
+        "0001493215"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)",
+        "RTW INVESTMENTS, LP  (CIK 0001493215)"
+      ],
+      "document_name": "form-sc13ga.htm",
+      "filed_date": "2021-02-12",
+      "form": "SC 13G/A",
+      "id": "0001493152-21-003487:form-sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001493152-21-003487:form-sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001493152-21-003487",
+          "biz_locations": [
+            "Burnaby, A1",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "A1",
+            "NY"
+          ],
+          "ciks": [
+            "0001447028",
+            "0001493215"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)",
+            "RTW INVESTMENTS, LP  (CIK 0001493215)"
+          ],
+          "file_date": "2021-02-12",
+          "file_description": null,
+          "file_num": [
+            "005-85963"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21623334"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613088000000,
+          "0001493152-21-003487:form-sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001447028-21-000002",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1635326/000144702821000002/wf-form4_161299476323256.xml",
+        "https://www.sec.gov/Archives/edgar/data/1447028/000144702821000002/wf-form4_161299476323256.xml"
+      ],
+      "ciks": [
+        "0001635326",
+        "0001447028"
+      ],
+      "display_names": [
+        "McElhaugh Michael J.  (CIK 0001635326)",
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "wf-form4_161299476323256.xml",
+      "filed_date": "2021-02-10",
+      "form": "4",
+      "id": "0001447028-21-000002:wf-form4_161299476323256.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001447028-21-000002:wf-form4_161299476323256.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001447028-21-000002",
+          "biz_locations": [
+            "",
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001635326",
+            "0001447028"
+          ],
+          "display_names": [
+            "McElhaugh Michael J.  (CIK 0001635326)",
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-02-10",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21614977"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-02-09",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1612915200000,
+          "0001447028-21-000002:wf-form4_161299476323256.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000895421-21-000049",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000089542121000049/Arbutus.txt",
+        "https://www.sec.gov/Archives/edgar/data/895421/000089542121000049/Arbutus.txt"
+      ],
+      "ciks": [
+        "0001447028",
+        "0000895421"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)",
+        "MORGAN STANLEY  (MS, MS-PA, MS-PE, MS-PF, MS-PI, MS-PK, MS-PL, MS-PO, MS-PP, MS-PQ, MSTLW)  (CIK 0000895421)"
+      ],
+      "document_name": "Arbutus.txt",
+      "filed_date": "2021-02-10",
+      "form": "SC 13G/A",
+      "id": "0000895421-21-000049:Arbutus.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000895421-21-000049:Arbutus.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000895421-21-000049",
+          "biz_locations": [
+            "Burnaby, A1",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "A1",
+            "NY"
+          ],
+          "ciks": [
+            "0001447028",
+            "0000895421"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)",
+            "MORGAN STANLEY  (MS, MS-PA, MS-PE, MS-PF, MS-PI, MS-PK, MS-PL, MS-PO, MS-PP, MS-PQ, MSTLW)  (CIK 0000895421)"
+          ],
+          "file_date": "2021-02-10",
+          "file_description": "MS AMENDMENT",
+          "file_num": [
+            "005-85963"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21612467"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6211"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1612915200000,
+          "0000895421-21-000049:Arbutus.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-000629",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321000629/f8k_020121.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_020121.htm",
+      "filed_date": "2021-02-01",
+      "form": "8-K",
+      "id": "0001171843-21-000629:f8k_020121.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-000629:f8k_020121.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-000629",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-02-01",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21574348"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-02-01",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1612137600000,
+          "0001171843-21-000629:f8k_020121.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001171843-21-000432",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1447028/000117184321000432/f8k_012521.htm"
+      ],
+      "ciks": [
+        "0001447028"
+      ],
+      "display_names": [
+        "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+      ],
+      "document_name": "f8k_012521.htm",
+      "filed_date": "2021-01-25",
+      "form": "8-K",
+      "id": "0001171843-21-000432:f8k_012521.htm",
+      "items": [
+        "2.02",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001171843-21-000432:f8k_012521.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001171843-21-000432",
+          "biz_locations": [
+            "Burnaby, A1"
+          ],
+          "biz_states": [
+            "A1"
+          ],
+          "ciks": [
+            "0001447028"
+          ],
+          "display_names": [
+            "Arbutus Biopharma Corp  (ABUS)  (CIK 0001447028)"
+          ],
+          "file_date": "2021-01-25",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-34949"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21547853"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-01-25",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1611532800000,
+          "0001171843-21-000432:f8k_012521.htm"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2021-01-01",
+  "ticker": "ABUS",
+  "total": 59
+}

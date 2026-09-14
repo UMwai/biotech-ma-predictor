@@ -1,0 +1,9 @@
+{
+  "ticker": "FPRX",
+  "source_uri": "https://www.sec.gov/Archives/edgar/data/318154/000119312521084994/d137966dex99a1a.htm",
+  "attempted_at": "2026-09-13T16:10:10.689514+00:00",
+  "attempts": 1,
+  "error_type": "HTTPError",
+  "error": "HTTP Error 403: Forbidden",
+  "failed_at": "2026-09-13T16:10:10.807240+00:00"
+}

@@ -1,0 +1,3502 @@
+{
+  "cik": 1367920,
+  "end_date": "2020-12-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:54:14.050248+00:00",
+      "returned": 51,
+      "source_bytes": 35681,
+      "source_relative_path": "raw_sources/569104439cbcb4e42a4f527a8029d35f4d98689dc909e6021a0c1a45edbad768.json",
+      "source_sha256": "569104439cbcb4e42a4f527a8029d35f4d98689dc909e6021a0c1a45edbad768",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001367920&dateRange=custom&startdt=2020-01-01&enddt=2020-12-31&from=0&size=100",
+      "total": 51
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001367920-20-000062",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000062/cnce-20201210.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "cnce-20201210.htm",
+      "filed_date": "2020-12-11",
+      "form": "8-K",
+      "id": "0001367920-20-000062:cnce-20201210.htm",
+      "items": [
+        "5.03",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001367920-20-000062:cnce-20201210.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000062",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-12-11",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201383617"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "5.03",
+            "9.01"
+          ],
+          "period_ending": "2020-12-10",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1607644800000,
+          "0001367920-20-000062:cnce-20201210.htm"
+        ]
+      }
+    },
+    {
+      "accession": "9999999995-20-003191",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/999999999520003191/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2020-11-16",
+      "form": "EFFECT",
+      "id": "9999999995-20-003191:primary_doc.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999995-20-003191:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999995-20-003191",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-11-16",
+          "file_description": null,
+          "file_num": [
+            "333-249862"
+          ],
+          "file_type": "EFFECT",
+          "film_num": [
+            "201319153"
+          ],
+          "form": "EFFECT",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "EFFECT"
+          ],
+          "schema_version": "X0101",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslEFFECTX01"
+        },
+        "sort": [
+          1605484800000,
+          "9999999995-20-003191:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000057",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000057/filename1.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "filename1.htm",
+      "filed_date": "2020-11-12",
+      "form": "CORRESP",
+      "id": "0001367920-20-000057:filename1.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001367920-20-000057:filename1.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000057",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-11-12",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "CORRESP",
+          "film_num": [],
+          "form": "CORRESP",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "CORRESP"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1605139200000,
+          "0001367920-20-000057:filename1.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000000000-20-010833",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000000000020010833/filename1.pdf"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "filename1.pdf",
+      "filed_date": "2020-11-12",
+      "form": "UPLOAD",
+      "id": "0000000000-20-010833:filename1.pdf",
+      "items": [],
+      "source_hit": {
+        "_id": "0000000000-20-010833:filename1.pdf",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000000000-20-010833",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-11-12",
+          "file_description": null,
+          "file_num": [],
+          "file_type": "LETTER",
+          "film_num": [],
+          "form": "UPLOAD",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "UPLOAD"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1605139200000,
+          "0000000000-20-010833:filename1.pdf"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000055",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000055/cnce-20200930.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "cnce-20200930.htm",
+      "filed_date": "2020-11-05",
+      "form": "10-Q",
+      "id": "0001367920-20-000055:cnce-20200930.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001367920-20-000055:cnce-20200930.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000055",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-11-05",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "201288478"
+          ],
+          "form": "10-Q",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2020-09-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1604534400000,
+          "0001367920-20-000055:cnce-20200930.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000053",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000053/cnce-20201105.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "cnce-20201105.htm",
+      "filed_date": "2020-11-05",
+      "form": "8-K",
+      "id": "0001367920-20-000053:cnce-20201105.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001367920-20-000053:cnce-20201105.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000053",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-11-05",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201288466"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-11-05",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1604534400000,
+          "0001367920-20-000053:cnce-20201105.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-286213",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000119312520286213/d33613ds3.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "d33613ds3.htm",
+      "filed_date": "2020-11-05",
+      "form": "S-3",
+      "id": "0001193125-20-286213:d33613ds3.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-20-286213:d33613ds3.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-286213",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-11-05",
+          "file_description": "S-3",
+          "file_num": [
+            "333-249862"
+          ],
+          "file_type": "S-3",
+          "film_num": [
+            "201288666"
+          ],
+          "form": "S-3",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-3"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1604534400000,
+          "0001193125-20-286213:d33613ds3.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000044",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000044/cnce-20201028.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "cnce-20201028.htm",
+      "filed_date": "2020-10-30",
+      "form": "8-K",
+      "id": "0001367920-20-000044:cnce-20201028.htm",
+      "items": [
+        "8.01"
+      ],
+      "source_hit": {
+        "_id": "0001367920-20-000044:cnce-20201028.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000044",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-10-30",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201274774"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01"
+          ],
+          "period_ending": "2020-10-28",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1604016000000,
+          "0001367920-20-000044:cnce-20201028.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-048893",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1171527/000120919120048893/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120048893/doc4.xml"
+      ],
+      "ciks": [
+        "0001171527",
+        "0001367920"
+      ],
+      "display_names": [
+        "HUTT PETER BARTON  (CIK 0001171527)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-09-01",
+      "form": "4",
+      "id": "0001209191-20-048893:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-048893:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-048893",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001171527",
+            "0001367920"
+          ],
+          "display_names": [
+            "HUTT PETER BARTON  (CIK 0001171527)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-09-01",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201154487"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-08-31",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1598918400000,
+          "0001209191-20-048893:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-047577",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1353528/000120919120047577/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120047577/doc4.xml"
+      ],
+      "ciks": [
+        "0001353528",
+        "0001367920"
+      ],
+      "display_names": [
+        "Cassella James V  (CIK 0001353528)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-08-19",
+      "form": "4",
+      "id": "0001209191-20-047577:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-047577:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-047577",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001353528",
+            "0001367920"
+          ],
+          "display_names": [
+            "Cassella James V  (CIK 0001353528)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-08-19",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201118006"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-08-17",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1597795200000,
+          "0001209191-20-047577:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-047575",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1618060/000120919120047575/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120047575/doc4.xml"
+      ],
+      "ciks": [
+        "0001618060",
+        "0001367920"
+      ],
+      "display_names": [
+        "Becker Marc A.  (CIK 0001618060)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-08-19",
+      "form": "4",
+      "id": "0001209191-20-047575:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-047575:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-047575",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001618060",
+            "0001367920"
+          ],
+          "display_names": [
+            "Becker Marc A.  (CIK 0001618060)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-08-19",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201118004"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-08-17",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1597795200000,
+          "0001209191-20-047575:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000039",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000039/cnce-20200630.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "cnce-20200630.htm",
+      "filed_date": "2020-08-06",
+      "form": "10-Q",
+      "id": "0001367920-20-000039:cnce-20200630.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001367920-20-000039:cnce-20200630.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000039",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-08-06",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "201079810"
+          ],
+          "form": "10-Q",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2020-06-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1596672000000,
+          "0001367920-20-000039:cnce-20200630.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000037",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000037/cnce-20200806.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "cnce-20200806.htm",
+      "filed_date": "2020-08-06",
+      "form": "8-K",
+      "id": "0001367920-20-000037:cnce-20200806.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001367920-20-000037:cnce-20200806.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000037",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-08-06",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201079776"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-08-06",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1596672000000,
+          "0001367920-20-000037:cnce-20200806.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-038683",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1594774/000120919120038683/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120038683/doc4.xml"
+      ],
+      "ciks": [
+        "0001594774",
+        "0001367920"
+      ],
+      "display_names": [
+        "Stuart Nancy  (CIK 0001594774)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-24",
+      "form": "4",
+      "id": "0001209191-20-038683:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-038683:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-038683",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001594774",
+            "0001367920"
+          ],
+          "display_names": [
+            "Stuart Nancy  (CIK 0001594774)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-06-24",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20984008"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-22",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1592956800000,
+          "0001209191-20-038683:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000028",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000028/cnce-20200611.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "cnce-20200611.htm",
+      "filed_date": "2020-06-12",
+      "form": "8-K",
+      "id": "0001367920-20-000028:cnce-20200611.htm",
+      "items": [
+        "5.07"
+      ],
+      "source_hit": {
+        "_id": "0001367920-20-000028:cnce-20200611.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000028",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-06-12",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20960527"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "5.07"
+          ],
+          "period_ending": "2020-06-11",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1591920000000,
+          "0001367920-20-000028:cnce-20200611.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-036352",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1419578/000120919120036352/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120036352/doc4.xml"
+      ],
+      "ciks": [
+        "0001419578",
+        "0001367920"
+      ],
+      "display_names": [
+        "van Heek Christi  (CIK 0001419578)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-12",
+      "form": "4",
+      "id": "0001209191-20-036352:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-036352:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-036352",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001419578",
+            "0001367920"
+          ],
+          "display_names": [
+            "van Heek Christi  (CIK 0001419578)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-06-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20961034"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591920000000,
+          "0001209191-20-036352:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-036350",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1190474/000120919120036350/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120036350/doc4.xml"
+      ],
+      "ciks": [
+        "0001190474",
+        "0001367920"
+      ],
+      "display_names": [
+        "JAEGER WILFRED E  (CIK 0001190474)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-12",
+      "form": "4",
+      "id": "0001209191-20-036350:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-036350:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-036350",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001190474",
+            "0001367920"
+          ],
+          "display_names": [
+            "JAEGER WILFRED E  (CIK 0001190474)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-06-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20961022"
+          ],
+          "form": "4",
+          "inc_states": [
+            "DE",
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591920000000,
+          "0001209191-20-036350:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-036348",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1171527/000120919120036348/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120036348/doc4.xml"
+      ],
+      "ciks": [
+        "0001171527",
+        "0001367920"
+      ],
+      "display_names": [
+        "HUTT PETER BARTON  (CIK 0001171527)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-12",
+      "form": "4",
+      "id": "0001209191-20-036348:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-036348:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-036348",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001171527",
+            "0001367920"
+          ],
+          "display_names": [
+            "HUTT PETER BARTON  (CIK 0001171527)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-06-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20960995"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591920000000,
+          "0001209191-20-036348:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-036346",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1711694/000120919120036346/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120036346/doc4.xml"
+      ],
+      "ciks": [
+        "0001711694",
+        "0001367920"
+      ],
+      "display_names": [
+        "Hoeiland Jesper  (CIK 0001711694)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-12",
+      "form": "4",
+      "id": "0001209191-20-036346:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-036346:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-036346",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001711694",
+            "0001367920"
+          ],
+          "display_names": [
+            "Hoeiland Jesper  (CIK 0001711694)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-06-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20960980"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591920000000,
+          "0001209191-20-036346:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-036344",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326330/000120919120036344/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120036344/doc4.xml"
+      ],
+      "ciks": [
+        "0001326330",
+        "0001367920"
+      ],
+      "display_names": [
+        "Barrett Ronald W  (CIK 0001326330)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-12",
+      "form": "4",
+      "id": "0001209191-20-036344:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-036344:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-036344",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001326330",
+            "0001367920"
+          ],
+          "display_names": [
+            "Barrett Ronald W  (CIK 0001326330)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-06-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20960953"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591920000000,
+          "0001209191-20-036344:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-036340",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1377820/000120919120036340/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120036340/doc4.xml"
+      ],
+      "ciks": [
+        "0001377820",
+        "0001367920"
+      ],
+      "display_names": [
+        "Auchincloss Thomas G  (CIK 0001377820)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-12",
+      "form": "4",
+      "id": "0001209191-20-036340:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-036340:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-036340",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001377820",
+            "0001367920"
+          ],
+          "display_names": [
+            "Auchincloss Thomas G  (CIK 0001377820)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-06-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20960943"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591920000000,
+          "0001209191-20-036340:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-036333",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1185039/000120919120036333/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120036333/doc4.xml"
+      ],
+      "ciks": [
+        "0001185039",
+        "0001367920"
+      ],
+      "display_names": [
+        "ALDRICH RICHARD  (CIK 0001185039)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-12",
+      "form": "4",
+      "id": "0001209191-20-036333:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-036333:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-036333",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001185039",
+            "0001367920"
+          ],
+          "display_names": [
+            "ALDRICH RICHARD  (CIK 0001185039)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-06-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20960897"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591920000000,
+          "0001209191-20-036333:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000022",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000022/q1202010-q.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "q1202010-q.htm",
+      "filed_date": "2020-04-30",
+      "form": "10-Q",
+      "id": "0001367920-20-000022:q1202010-q.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001367920-20-000022:q1202010-q.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000022",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-04-30",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "20833141"
+          ],
+          "form": "10-Q",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2020-03-31",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1588204800000,
+          "0001367920-20-000022:q1202010-q.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000021",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000021/q120earningsrelease-8xk.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "q120earningsrelease-8xk.htm",
+      "filed_date": "2020-04-30",
+      "form": "8-K",
+      "id": "0001367920-20-000021:q120earningsrelease-8xk.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001367920-20-000021:q120earningsrelease-8xk.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000021",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-04-30",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20833135"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-04-30",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1588204800000,
+          "0001367920-20-000021:q120earningsrelease-8xk.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000020",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000020/defa14acoverpage.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "defa14acoverpage.htm",
+      "filed_date": "2020-04-28",
+      "form": "DEFA14A",
+      "id": "0001367920-20-000020:defa14acoverpage.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001367920-20-000020:defa14acoverpage.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000020",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-04-28",
+          "file_description": "DEFA14A",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "DEFA14A",
+          "film_num": [
+            "20822325"
+          ],
+          "form": "DEFA14A",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DEFA14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1588032000000,
+          "0001367920-20-000020:defa14acoverpage.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000019",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000019/a2020proxy.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "a2020proxy.htm",
+      "filed_date": "2020-04-28",
+      "form": "DEF 14A",
+      "id": "0001367920-20-000019:a2020proxy.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001367920-20-000019:a2020proxy.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000019",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-04-28",
+          "file_description": "DEF 14A",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "DEF 14A",
+          "film_num": [
+            "20822324"
+          ],
+          "form": "DEF 14A",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2020-04-28",
+          "root_forms": [
+            "DEF 14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1588032000000,
+          "0001367920-20-000019:a2020proxy.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-019083",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1594857/000120919120019083/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120019083/doc4.xml"
+      ],
+      "ciks": [
+        "0001594857",
+        "0001367920"
+      ],
+      "display_names": [
+        "Tung Roger D  (CIK 0001594857)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-03-16",
+      "form": "4",
+      "id": "0001209191-20-019083:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-019083:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-019083",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001594857",
+            "0001367920"
+          ],
+          "display_names": [
+            "Tung Roger D  (CIK 0001594857)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-03-16",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20715266"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-03-13",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1584316800000,
+          "0001209191-20-019083:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-018736",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1377820/000120919120018736/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120018736/doc4.xml"
+      ],
+      "ciks": [
+        "0001377820",
+        "0001367920"
+      ],
+      "display_names": [
+        "Auchincloss Thomas G  (CIK 0001377820)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-03-13",
+      "form": "4",
+      "id": "0001209191-20-018736:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-018736:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-018736",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001377820",
+            "0001367920"
+          ],
+          "display_names": [
+            "Auchincloss Thomas G  (CIK 0001377820)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-03-13",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20711556"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-03-12",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1584057600000,
+          "0001209191-20-018736:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000014",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000014/a2020s-8.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "a2020s-8.htm",
+      "filed_date": "2020-02-27",
+      "form": "S-8",
+      "id": "0001367920-20-000014:a2020s-8.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001367920-20-000014:a2020s-8.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000014",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-02-27",
+          "file_description": "S-8",
+          "file_num": [
+            "333-236679"
+          ],
+          "file_type": "S-8",
+          "film_num": [
+            "20658475"
+          ],
+          "form": "S-8",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1582761600000,
+          "0001367920-20-000014:a2020s-8.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000013",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000013/cnce201910-k.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "cnce201910-k.htm",
+      "filed_date": "2020-02-27",
+      "form": "10-K",
+      "id": "0001367920-20-000013:cnce201910-k.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001367920-20-000013:cnce201910-k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000013",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-02-27",
+          "file_description": "10-K",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "20658471"
+          ],
+          "form": "10-K",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2019-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1582761600000,
+          "0001367920-20-000013:cnce201910-k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000012",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000012/q419earningsrelease-8xk.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "q419earningsrelease-8xk.htm",
+      "filed_date": "2020-02-27",
+      "form": "8-K",
+      "id": "0001367920-20-000012:q419earningsrelease-8xk.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001367920-20-000012:q419earningsrelease-8xk.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000012",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-02-27",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20658465"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-02-27",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1582761600000,
+          "0001367920-20-000012:q419earningsrelease-8xk.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-010527",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1703041/000120919120010527/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120010527/doc4.xml"
+      ],
+      "ciks": [
+        "0001703041",
+        "0001367920"
+      ],
+      "display_names": [
+        "Munsie Jeffrey A  (CIK 0001703041)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-02-19",
+      "form": "4",
+      "id": "0001209191-20-010527:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-010527:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-010527",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001703041",
+            "0001367920"
+          ],
+          "display_names": [
+            "Munsie Jeffrey A  (CIK 0001703041)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-02-19",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20630156"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-02-14",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1582070400000,
+          "0001209191-20-010527:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-010487",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1594857/000120919120010487/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120010487/doc4.xml"
+      ],
+      "ciks": [
+        "0001594857",
+        "0001367920"
+      ],
+      "display_names": [
+        "Tung Roger D  (CIK 0001594857)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-02-19",
+      "form": "4",
+      "id": "0001209191-20-010487:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-010487:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-010487",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001594857",
+            "0001367920"
+          ],
+          "display_names": [
+            "Tung Roger D  (CIK 0001594857)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-02-19",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20629680"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-02-14",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1582070400000,
+          "0001209191-20-010487:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-010484",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1594774/000120919120010484/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120010484/doc4.xml"
+      ],
+      "ciks": [
+        "0001594774",
+        "0001367920"
+      ],
+      "display_names": [
+        "Stuart Nancy  (CIK 0001594774)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-02-19",
+      "form": "4",
+      "id": "0001209191-20-010484:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-010484:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-010484",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001594774",
+            "0001367920"
+          ],
+          "display_names": [
+            "Stuart Nancy  (CIK 0001594774)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-02-19",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20629671"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-02-14",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1582070400000,
+          "0001209191-20-010484:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-010481",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1353528/000120919120010481/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120010481/doc4.xml"
+      ],
+      "ciks": [
+        "0001353528",
+        "0001367920"
+      ],
+      "display_names": [
+        "Cassella James V  (CIK 0001353528)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-02-19",
+      "form": "4",
+      "id": "0001209191-20-010481:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-010481:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-010481",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001353528",
+            "0001367920"
+          ],
+          "display_names": [
+            "Cassella James V  (CIK 0001353528)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-02-19",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20629636"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-02-14",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1582070400000,
+          "0001209191-20-010481:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-010479",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1618060/000120919120010479/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120010479/doc4.xml"
+      ],
+      "ciks": [
+        "0001618060",
+        "0001367920"
+      ],
+      "display_names": [
+        "Becker Marc A.  (CIK 0001618060)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-02-19",
+      "form": "4",
+      "id": "0001209191-20-010479:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-010479:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-010479",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001618060",
+            "0001367920"
+          ],
+          "display_names": [
+            "Becker Marc A.  (CIK 0001618060)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-02-19",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20629609"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-02-14",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1582070400000,
+          "0001209191-20-010479:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001567619-20-003793",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000156761920003793/doc1.htm",
+        "https://www.sec.gov/Archives/edgar/data/70858/000156761920003793/doc1.htm"
+      ],
+      "ciks": [
+        "0001367920",
+        "0000070858"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+        "BANK OF AMERICA CORP /DE/  (BAC, BAC-PB, BAC-PE, BAC-PK, BAC-PL, BAC-PM, BAC-PN, BAC-PO, BAC-PP, BML-PG, BML-PH, BML-PJ, BML-PL)  (CIK 0000070858)"
+      ],
+      "document_name": "doc1.htm",
+      "filed_date": "2020-02-14",
+      "form": "SC 13G",
+      "id": "0001567619-20-003793:doc1.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001567619-20-003793:doc1.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001567619-20-003793",
+          "biz_locations": [
+            "Lexington, MA",
+            "Charlotte, NC"
+          ],
+          "biz_states": [
+            "MA",
+            "NC"
+          ],
+          "ciks": [
+            "0001367920",
+            "0000070858"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+            "BANK OF AMERICA CORP /DE/  (BAC, BAC-PB, BAC-PE, BAC-PK, BAC-PL, BAC-PM, BAC-PN, BAC-PO, BAC-PP, BML-PG, BML-PH, BML-PJ, BML-PL)  (CIK 0000070858)"
+          ],
+          "file_date": "2020-02-14",
+          "file_description": "NONE",
+          "file_num": [
+            "005-88033"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "20617111"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6021"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581638400000,
+          "0001567619-20-003793:doc1.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001493152-20-002377",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000149315220002377/formsc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1493215/000149315220002377/formsc13ga.htm"
+      ],
+      "ciks": [
+        "0001367920",
+        "0001493215"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+        "RTW INVESTMENTS, LP  (CIK 0001493215)"
+      ],
+      "document_name": "formsc13ga.htm",
+      "filed_date": "2020-02-14",
+      "form": "SC 13G/A",
+      "id": "0001493152-20-002377:formsc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001493152-20-002377:formsc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001493152-20-002377",
+          "biz_locations": [
+            "Lexington, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001367920",
+            "0001493215"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+            "RTW INVESTMENTS, LP  (CIK 0001493215)"
+          ],
+          "file_date": "2020-02-14",
+          "file_description": null,
+          "file_num": [
+            "005-88033"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20617448"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581638400000,
+          "0001493152-20-002377:formsc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001387131-20-001846",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000138713120001846/cnce-sc13ga_123119.htm",
+        "https://www.sec.gov/Archives/edgar/data/1131399/000138713120001846/cnce-sc13ga_123119.htm"
+      ],
+      "ciks": [
+        "0001367920",
+        "0001131399"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+        "GLAXOSMITHKLINE PLC  (GSK, GLAXF)  (CIK 0001131399)"
+      ],
+      "document_name": "cnce-sc13ga_123119.htm",
+      "filed_date": "2020-02-14",
+      "form": "SC 13G/A",
+      "id": "0001387131-20-001846:cnce-sc13ga_123119.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001387131-20-001846:cnce-sc13ga_123119.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001387131-20-001846",
+          "biz_locations": [
+            "Lexington, MA",
+            "Brentford Middlesex, X0"
+          ],
+          "biz_states": [
+            "MA",
+            "X0"
+          ],
+          "ciks": [
+            "0001367920",
+            "0001131399"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+            "GLAXOSMITHKLINE PLC  (GSK, GLAXF)  (CIK 0001131399)"
+          ],
+          "file_date": "2020-02-14",
+          "file_description": "AMENDMENT TO FORM SC 13G",
+          "file_num": [
+            "005-88033"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20621586"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "X0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581638400000,
+          "0001387131-20-001846:cnce-sc13ga_123119.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-038356",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000119312520038356/d856536dsc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1224962/000119312520038356/d856536dsc13ga.htm"
+      ],
+      "ciks": [
+        "0001367920",
+        "0001224962"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+        "PERCEPTIVE ADVISORS LLC  (CIK 0001224962)"
+      ],
+      "document_name": "d856536dsc13ga.htm",
+      "filed_date": "2020-02-14",
+      "form": "SC 13G/A",
+      "id": "0001193125-20-038356:d856536dsc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-20-038356:d856536dsc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-038356",
+          "biz_locations": [
+            "Lexington, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001367920",
+            "0001224962"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+            "PERCEPTIVE ADVISORS LLC  (CIK 0001224962)"
+          ],
+          "file_date": "2020-02-14",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-88033"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20620642"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581638400000,
+          "0001193125-20-038356:d856536dsc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000921895-20-000540",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000092189520000540/sc13ga307422cnc_02142020.htm",
+        "https://www.sec.gov/Archives/edgar/data/918923/000092189520000540/sc13ga307422cnc_02142020.htm"
+      ],
+      "ciks": [
+        "0001367920",
+        "0000918923"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+        "BIOTECHNOLOGY VALUE FUND L P  (CIK 0000918923)"
+      ],
+      "document_name": "sc13ga307422cnc_02142020.htm",
+      "filed_date": "2020-02-14",
+      "form": "SC 13G/A",
+      "id": "0000921895-20-000540:sc13ga307422cnc_02142020.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000921895-20-000540:sc13ga307422cnc_02142020.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000921895-20-000540",
+          "biz_locations": [
+            "Lexington, MA",
+            "San Francisco, CA"
+          ],
+          "biz_states": [
+            "MA",
+            "CA"
+          ],
+          "ciks": [
+            "0001367920",
+            "0000918923"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+            "BIOTECHNOLOGY VALUE FUND L P  (CIK 0000918923)"
+          ],
+          "file_date": "2020-02-14",
+          "file_description": "AMENDMENT NO. 3 TO THE SCHEDULE 13G",
+          "file_num": [
+            "005-88033"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20618567"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6282"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581638400000,
+          "0000921895-20-000540:sc13ga307422cnc_02142020.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001258897-20-000885",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000125889720000885/dfs147.htm",
+        "https://www.sec.gov/Archives/edgar/data/354204/000125889720000885/dfs147.htm"
+      ],
+      "ciks": [
+        "0001367920",
+        "0000354204"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+        "DIMENSIONAL FUND ADVISORS LP  (CIK 0000354204)"
+      ],
+      "document_name": "dfs147.htm",
+      "filed_date": "2020-02-12",
+      "form": "SC 13G",
+      "id": "0001258897-20-000885:dfs147.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001258897-20-000885:dfs147.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001258897-20-000885",
+          "biz_locations": [
+            "Lexington, MA",
+            "Austin, TX"
+          ],
+          "biz_states": [
+            "MA",
+            "TX"
+          ],
+          "ciks": [
+            "0001367920",
+            "0000354204"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+            "DIMENSIONAL FUND ADVISORS LP  (CIK 0000354204)"
+          ],
+          "file_date": "2020-02-12",
+          "file_description": "SCHEDULE 13G",
+          "file_num": [
+            "005-88033"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "20601154"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "0000"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581465600000,
+          "0001258897-20-000885:dfs147.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000834237-20-009079",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000083423720009079/us2060221056_021020.txt",
+        "https://www.sec.gov/Archives/edgar/data/1364742/000083423720009079/us2060221056_021020.txt"
+      ],
+      "ciks": [
+        "0001367920",
+        "0001364742"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+        "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+      ],
+      "document_name": "us2060221056_021020.txt",
+      "filed_date": "2020-02-10",
+      "form": "SC 13G/A",
+      "id": "0000834237-20-009079:us2060221056_021020.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000834237-20-009079:us2060221056_021020.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000834237-20-009079",
+          "biz_locations": [
+            "Lexington, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001367920",
+            "0001364742"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+            "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+          ],
+          "file_date": "2020-02-10",
+          "file_description": null,
+          "file_num": [
+            "005-88033"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20591284"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6211"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581292800000,
+          "0000834237-20-009079:us2060221056_021020.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0001178913-20-000299",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000117891320000299/zk2023929.htm",
+        "https://www.sec.gov/Archives/edgar/data/1321178/000117891320000299/zk2023929.htm"
+      ],
+      "ciks": [
+        "0001367920",
+        "0001321178"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+        "Arkin Moshe  (CIK 0001321178)"
+      ],
+      "document_name": "zk2023929.htm",
+      "filed_date": "2020-02-06",
+      "form": "SC 13G",
+      "id": "0001178913-20-000299:zk2023929.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001178913-20-000299:zk2023929.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001178913-20-000299",
+          "biz_locations": [
+            "Lexington, MA",
+            ""
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920",
+            "0001321178"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+            "Arkin Moshe  (CIK 0001321178)"
+          ],
+          "file_date": "2020-02-06",
+          "file_description": "SC 13G",
+          "file_num": [
+            "005-88033"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "20582109"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1580947200000,
+          "0001178913-20-000299:zk2023929.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000834237-20-004765",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000083423720004765/us2060221056_020420.txt",
+        "https://www.sec.gov/Archives/edgar/data/1364742/000083423720004765/us2060221056_020420.txt"
+      ],
+      "ciks": [
+        "0001367920",
+        "0001364742"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+        "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+      ],
+      "document_name": "us2060221056_020420.txt",
+      "filed_date": "2020-02-05",
+      "form": "SC 13G/A",
+      "id": "0000834237-20-004765:us2060221056_020420.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000834237-20-004765:us2060221056_020420.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000834237-20-004765",
+          "biz_locations": [
+            "Lexington, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001367920",
+            "0001364742"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+            "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+          ],
+          "file_date": "2020-02-05",
+          "file_description": null,
+          "file_num": [
+            "005-88033"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20577012"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6211"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1580860800000,
+          "0000834237-20-004765:us2060221056_020420.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-006189",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1377820/000120919120006189/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1367920/000120919120006189/doc4.xml"
+      ],
+      "ciks": [
+        "0001377820",
+        "0001367920"
+      ],
+      "display_names": [
+        "Auchincloss Thomas G  (CIK 0001377820)",
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-02-04",
+      "form": "4",
+      "id": "0001209191-20-006189:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-006189:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-006189",
+          "biz_locations": [
+            "",
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001377820",
+            "0001367920"
+          ],
+          "display_names": [
+            "Auchincloss Thomas G  (CIK 0001377820)",
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-02-04",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20571234"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-02-03",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1580774400000,
+          "0001209191-20-006189:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000005",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000005/form8-kpressrelease.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "form8-kpressrelease.htm",
+      "filed_date": "2020-01-28",
+      "form": "8-K",
+      "id": "0001367920-20-000005:form8-kpressrelease.htm",
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001367920-20-000005:form8-kpressrelease.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000005",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-01-28",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20554990"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "1.01",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2020-01-28",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1580169600000,
+          "0001367920-20-000005:form8-kpressrelease.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-016954",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000119312520016954/d872832d424b5.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "d872832d424b5.htm",
+      "filed_date": "2020-01-28",
+      "form": "424B5",
+      "id": "0001193125-20-016954:d872832d424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-20-016954:d872832d424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-016954",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-01-28",
+          "file_description": "424B5",
+          "file_num": [
+            "333-223334"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "20554439"
+          ],
+          "form": "424B5",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1580169600000,
+          "0001193125-20-016954:d872832d424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-015952",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000119312520015952/d872832d424b5.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "d872832d424b5.htm",
+      "filed_date": "2020-01-28",
+      "form": "424B5",
+      "id": "0001193125-20-015952:d872832d424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-20-015952:d872832d424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-015952",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-01-28",
+          "file_description": "424B5",
+          "file_num": [
+            "333-223334"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "20551265"
+          ],
+          "form": "424B5",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1580169600000,
+          "0001193125-20-015952:d872832d424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001041885-20-000003",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000104188520000003/concert13gaisdec2019.txt",
+        "https://www.sec.gov/Archives/edgar/data/1041885/000104188520000003/concert13gaisdec2019.txt"
+      ],
+      "ciks": [
+        "0001367920",
+        "0001041885"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+        "INGALLS & SNYDER LLC  (CIK 0001041885)"
+      ],
+      "document_name": "concert13gaisdec2019.txt",
+      "filed_date": "2020-01-23",
+      "form": "SC 13G/A",
+      "id": "0001041885-20-000003:concert13gaisdec2019.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0001041885-20-000003:concert13gaisdec2019.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001041885-20-000003",
+          "biz_locations": [
+            "Lexington, MA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "MA",
+            "NY"
+          ],
+          "ciks": [
+            "0001367920",
+            "0001041885"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)",
+            "INGALLS & SNYDER LLC  (CIK 0001041885)"
+          ],
+          "file_date": "2020-01-23",
+          "file_description": null,
+          "file_num": [
+            "005-88033"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20541518"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "NY"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1579737600000,
+          "0001041885-20-000003:concert13gaisdec2019.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0001367920-20-000003",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1367920/000136792020000003/form8-kpressrelease.htm"
+      ],
+      "ciks": [
+        "0001367920"
+      ],
+      "display_names": [
+        "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+      ],
+      "document_name": "form8-kpressrelease.htm",
+      "filed_date": "2020-01-22",
+      "form": "8-K",
+      "id": "0001367920-20-000003:form8-kpressrelease.htm",
+      "items": [
+        "8.01"
+      ],
+      "source_hit": {
+        "_id": "0001367920-20-000003:form8-kpressrelease.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001367920-20-000003",
+          "biz_locations": [
+            "Lexington, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001367920"
+          ],
+          "display_names": [
+            "CONCERT PHARMACEUTICALS, INC.  (CIK 0001367920)"
+          ],
+          "file_date": "2020-01-22",
+          "file_description": "8-K CTP-543",
+          "file_num": [
+            "001-36310"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20537858"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01"
+          ],
+          "period_ending": "2020-01-22",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1579651200000,
+          "0001367920-20-000003:form8-kpressrelease.htm"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2020-01-01",
+  "ticker": "CNCE",
+  "total": 51
+}

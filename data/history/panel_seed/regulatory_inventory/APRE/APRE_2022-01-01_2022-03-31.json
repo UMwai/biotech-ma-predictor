@@ -1,0 +1,1028 @@
+{
+  "cik": 1781983,
+  "end_date": "2022-03-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:53:56.229763+00:00",
+      "returned": 14,
+      "source_bytes": 11202,
+      "source_relative_path": "raw_sources/a8402731ffe9a1ba2808c73ad0560ad8b9ebdb2a7d90774c969f494b1ed3c8c4.json",
+      "source_sha256": "a8402731ffe9a1ba2808c73ad0560ad8b9ebdb2a7d90774c969f494b1ed3c8c4",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001781983&dateRange=custom&startdt=2022-01-01&enddt=2022-03-31&from=0&size=100",
+      "total": 14
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001558370-22-003671",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1781983/000155837022003671/apre-20211231x10k.htm"
+      ],
+      "ciks": [
+        "0001781983"
+      ],
+      "display_names": [
+        "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+      ],
+      "document_name": "apre-20211231x10k.htm",
+      "filed_date": "2022-03-15",
+      "form": "10-K",
+      "id": "0001558370-22-003671:apre-20211231x10k.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001558370-22-003671:apre-20211231x10k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001558370-22-003671",
+          "biz_locations": [
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001781983"
+          ],
+          "display_names": [
+            "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+          ],
+          "file_date": "2022-03-15",
+          "file_description": "10-K",
+          "file_num": [
+            "001-39069"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "22741416"
+          ],
+          "form": "10-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1647302400000,
+          "0001558370-22-003671:apre-20211231x10k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-033954",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1781983/000110465922033954/tm229241d1_8k.htm"
+      ],
+      "ciks": [
+        "0001781983"
+      ],
+      "display_names": [
+        "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+      ],
+      "document_name": "tm229241d1_8k.htm",
+      "filed_date": "2022-03-15",
+      "form": "8-K",
+      "id": "0001104659-22-033954:tm229241d1_8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-22-033954:tm229241d1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-033954",
+          "biz_locations": [
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001781983"
+          ],
+          "display_names": [
+            "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+          ],
+          "file_date": "2022-03-15",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-39069"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22741401"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2022-03-15",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1647302400000,
+          "0001104659-22-033954:tm229241d1_8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-033393",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1214496/000110465922033393/tm229119-5_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1781983/000110465922033393/tm229119-5_4seq1.xml"
+      ],
+      "ciks": [
+        "0001214496",
+        "0001781983"
+      ],
+      "display_names": [
+        "SCHADE CHRISTIAN S  (CIK 0001214496)",
+        "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+      ],
+      "document_name": "tm229119-5_4seq1.xml",
+      "filed_date": "2022-03-14",
+      "form": "4",
+      "id": "0001104659-22-033393:tm229119-5_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-033393:tm229119-5_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-033393",
+          "biz_locations": [
+            "",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001214496",
+            "0001781983"
+          ],
+          "display_names": [
+            "SCHADE CHRISTIAN S  (CIK 0001214496)",
+            "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+          ],
+          "file_date": "2022-03-14",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-39069"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22737422"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-03-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1647216000000,
+          "0001104659-22-033393:tm229119-5_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-033392",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1789032/000110465922033392/tm229119-4_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1781983/000110465922033392/tm229119-4_4seq1.xml"
+      ],
+      "ciks": [
+        "0001789032",
+        "0001781983"
+      ],
+      "display_names": [
+        "Korbel Gregory Alan  (CIK 0001789032)",
+        "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+      ],
+      "document_name": "tm229119-4_4seq1.xml",
+      "filed_date": "2022-03-14",
+      "form": "4",
+      "id": "0001104659-22-033392:tm229119-4_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-033392:tm229119-4_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-033392",
+          "biz_locations": [
+            "",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001789032",
+            "0001781983"
+          ],
+          "display_names": [
+            "Korbel Gregory Alan  (CIK 0001789032)",
+            "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+          ],
+          "file_date": "2022-03-14",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-39069"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22737418"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-03-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1647216000000,
+          "0001104659-22-033392:tm229119-4_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-033391",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1608536/000110465922033391/tm229119-3_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1781983/000110465922033391/tm229119-3_4seq1.xml"
+      ],
+      "ciks": [
+        "0001608536",
+        "0001781983"
+      ],
+      "display_names": [
+        "Coiante Scott M  (CIK 0001608536)",
+        "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+      ],
+      "document_name": "tm229119-3_4seq1.xml",
+      "filed_date": "2022-03-14",
+      "form": "4",
+      "id": "0001104659-22-033391:tm229119-3_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-033391:tm229119-3_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-033391",
+          "biz_locations": [
+            "",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001608536",
+            "0001781983"
+          ],
+          "display_names": [
+            "Coiante Scott M  (CIK 0001608536)",
+            "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+          ],
+          "file_date": "2022-03-14",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-39069"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22737411"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-03-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1647216000000,
+          "0001104659-22-033391:tm229119-3_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-033390",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1789076/000110465922033390/tm229119-2_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1781983/000110465922033390/tm229119-2_4seq1.xml"
+      ],
+      "ciks": [
+        "0001789076",
+        "0001781983"
+      ],
+      "display_names": [
+        "Attar Eyal C.  (CIK 0001789076)",
+        "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+      ],
+      "document_name": "tm229119-2_4seq1.xml",
+      "filed_date": "2022-03-14",
+      "form": "4",
+      "id": "0001104659-22-033390:tm229119-2_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-033390:tm229119-2_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-033390",
+          "biz_locations": [
+            "",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001789076",
+            "0001781983"
+          ],
+          "display_names": [
+            "Attar Eyal C.  (CIK 0001789076)",
+            "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+          ],
+          "file_date": "2022-03-14",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-39069"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22737397"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-03-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1647216000000,
+          "0001104659-22-033390:tm229119-2_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-033389",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1789039/000110465922033389/tm229119-1_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1781983/000110465922033389/tm229119-1_4seq1.xml"
+      ],
+      "ciks": [
+        "0001789039",
+        "0001781983"
+      ],
+      "display_names": [
+        "Abrahmsen Lars B.  (CIK 0001789039)",
+        "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+      ],
+      "document_name": "tm229119-1_4seq1.xml",
+      "filed_date": "2022-03-14",
+      "form": "4",
+      "id": "0001104659-22-033389:tm229119-1_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-033389:tm229119-1_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-033389",
+          "biz_locations": [
+            "",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001789039",
+            "0001781983"
+          ],
+          "display_names": [
+            "Abrahmsen Lars B.  (CIK 0001789039)",
+            "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+          ],
+          "file_date": "2022-03-14",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-39069"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22737388"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-03-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1647216000000,
+          "0001104659-22-033389:tm229119-1_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-028767",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1214496/000110465922028767/tm227953-4_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1781983/000110465922028767/tm227953-4_4seq1.xml"
+      ],
+      "ciks": [
+        "0001214496",
+        "0001781983"
+      ],
+      "display_names": [
+        "SCHADE CHRISTIAN S  (CIK 0001214496)",
+        "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+      ],
+      "document_name": "tm227953-4_4seq1.xml",
+      "filed_date": "2022-03-01",
+      "form": "4",
+      "id": "0001104659-22-028767:tm227953-4_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-028767:tm227953-4_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-028767",
+          "biz_locations": [
+            "",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001214496",
+            "0001781983"
+          ],
+          "display_names": [
+            "SCHADE CHRISTIAN S  (CIK 0001214496)",
+            "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+          ],
+          "file_date": "2022-03-01",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-39069"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22699396"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-02-25",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1646092800000,
+          "0001104659-22-028767:tm227953-4_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-028761",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1789032/000110465922028761/tm227953-3_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1781983/000110465922028761/tm227953-3_4seq1.xml"
+      ],
+      "ciks": [
+        "0001789032",
+        "0001781983"
+      ],
+      "display_names": [
+        "Korbel Gregory Alan  (CIK 0001789032)",
+        "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+      ],
+      "document_name": "tm227953-3_4seq1.xml",
+      "filed_date": "2022-03-01",
+      "form": "4",
+      "id": "0001104659-22-028761:tm227953-3_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-028761:tm227953-3_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-028761",
+          "biz_locations": [
+            "",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001789032",
+            "0001781983"
+          ],
+          "display_names": [
+            "Korbel Gregory Alan  (CIK 0001789032)",
+            "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+          ],
+          "file_date": "2022-03-01",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-39069"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22699379"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-02-25",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1646092800000,
+          "0001104659-22-028761:tm227953-3_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-028760",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1608536/000110465922028760/tm227953-2_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1781983/000110465922028760/tm227953-2_4seq1.xml"
+      ],
+      "ciks": [
+        "0001608536",
+        "0001781983"
+      ],
+      "display_names": [
+        "Coiante Scott M  (CIK 0001608536)",
+        "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+      ],
+      "document_name": "tm227953-2_4seq1.xml",
+      "filed_date": "2022-03-01",
+      "form": "4",
+      "id": "0001104659-22-028760:tm227953-2_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-028760:tm227953-2_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-028760",
+          "biz_locations": [
+            "",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001608536",
+            "0001781983"
+          ],
+          "display_names": [
+            "Coiante Scott M  (CIK 0001608536)",
+            "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+          ],
+          "file_date": "2022-03-01",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-39069"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22699372"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-02-25",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1646092800000,
+          "0001104659-22-028760:tm227953-2_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-028757",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1789076/000110465922028757/tm227953-1_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1781983/000110465922028757/tm227953-1_4seq1.xml"
+      ],
+      "ciks": [
+        "0001789076",
+        "0001781983"
+      ],
+      "display_names": [
+        "Attar Eyal C.  (CIK 0001789076)",
+        "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+      ],
+      "document_name": "tm227953-1_4seq1.xml",
+      "filed_date": "2022-03-01",
+      "form": "4",
+      "id": "0001104659-22-028757:tm227953-1_4seq1.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-028757:tm227953-1_4seq1.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-028757",
+          "biz_locations": [
+            "",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001789076",
+            "0001781983"
+          ],
+          "display_names": [
+            "Attar Eyal C.  (CIK 0001789076)",
+            "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+          ],
+          "file_date": "2022-03-01",
+          "file_description": "OWNERSHIP DOCUMENT",
+          "file_num": [
+            "001-39069"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22699346"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2022-02-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1646092800000,
+          "0001104659-22-028757:tm227953-1_4seq1.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-023130",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1781983/000110465922023130/tm226094d19_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1425738/000110465922023130/tm226094d19_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001781983",
+        "0001425738"
+      ],
+      "display_names": [
+        "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)",
+        "Redmile Group, LLC  (CIK 0001425738)"
+      ],
+      "document_name": "tm226094d19_sc13ga.htm",
+      "filed_date": "2022-02-14",
+      "form": "SC 13G/A",
+      "id": "0001104659-22-023130:tm226094d19_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-023130:tm226094d19_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-023130",
+          "biz_locations": [
+            "Boston, MA",
+            "San Francisco, CA"
+          ],
+          "biz_states": [
+            "MA",
+            "CA"
+          ],
+          "ciks": [
+            "0001781983",
+            "0001425738"
+          ],
+          "display_names": [
+            "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)",
+            "Redmile Group, LLC  (CIK 0001425738)"
+          ],
+          "file_date": "2022-02-14",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-91159"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22634474"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644796800000,
+          "0001104659-22-023130:tm226094d19_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-22-034912",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1781983/000119312522034912/d258346dsc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1619298/000119312522034912/d258346dsc13ga.htm"
+      ],
+      "ciks": [
+        "0001781983",
+        "0001619298"
+      ],
+      "display_names": [
+        "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)",
+        "Versant Ventures V, LLC  (CIK 0001619298)"
+      ],
+      "document_name": "d258346dsc13ga.htm",
+      "filed_date": "2022-02-11",
+      "form": "SC 13G/A",
+      "id": "0001193125-22-034912:d258346dsc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-22-034912:d258346dsc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-22-034912",
+          "biz_locations": [
+            "Boston, MA",
+            "San Francisco, CA"
+          ],
+          "biz_states": [
+            "MA",
+            "CA"
+          ],
+          "ciks": [
+            "0001781983",
+            "0001619298"
+          ],
+          "display_names": [
+            "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)",
+            "Versant Ventures V, LLC  (CIK 0001619298)"
+          ],
+          "file_date": "2022-02-11",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-91159"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22616239"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644537600000,
+          "0001193125-22-034912:d258346dsc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-003797",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1781983/000110465922003797/tm222647d1_8k.htm"
+      ],
+      "ciks": [
+        "0001781983"
+      ],
+      "display_names": [
+        "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+      ],
+      "document_name": "tm222647d1_8k.htm",
+      "filed_date": "2022-01-13",
+      "form": "8-K",
+      "id": "0001104659-22-003797:tm222647d1_8k.htm",
+      "items": [
+        "2.02",
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001104659-22-003797:tm222647d1_8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-003797",
+          "biz_locations": [
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "MA"
+          ],
+          "ciks": [
+            "0001781983"
+          ],
+          "display_names": [
+            "Aprea Therapeutics, Inc.  (APRE)  (CIK 0001781983)"
+          ],
+          "file_date": "2022-01-13",
+          "file_description": "FORM 8-K",
+          "file_num": [
+            "001-39069"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22527901"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2022-01-13",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1642032000000,
+          "0001104659-22-003797:tm222647d1_8k.htm"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2022-01-01",
+  "ticker": "APRE",
+  "total": 14
+}

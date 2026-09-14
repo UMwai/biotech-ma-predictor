@@ -1,0 +1,5411 @@
+{
+  "cik": 1382101,
+  "end_date": "2020-12-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T20:00:12.169567+00:00",
+      "returned": 78,
+      "source_bytes": 53636,
+      "source_relative_path": "raw_sources/c8893d15fc58d8cd2c6b3dfbac8574c91c4ace8acb7e28e56906699d0355c0af.json",
+      "source_sha256": "c8893d15fc58d8cd2c6b3dfbac8574c91c4ace8acb7e28e56906699d0355c0af",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001382101&dateRange=custom&startdt=2020-01-01&enddt=2020-12-31&from=0&size=100",
+      "total": 78
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001209191-20-065371",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326592/000120919120065371/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120065371/doc4.xml"
+      ],
+      "ciks": [
+        "0001326592",
+        "0001382101"
+      ],
+      "display_names": [
+        "Hallam Trevor  (CIK 0001326592)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-29",
+      "form": "4",
+      "id": "0001209191-20-065371:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-065371:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-065371",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001326592",
+            "0001382101"
+          ],
+          "display_names": [
+            "Hallam Trevor  (CIK 0001326592)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-12-29",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201423094"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-12-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1609200000000,
+          "0001209191-20-065371:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-063314",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1296771/000120919120063314/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120063314/doc4.xml"
+      ],
+      "ciks": [
+        "0001296771",
+        "0001382101"
+      ],
+      "display_names": [
+        "Freund John Gordon  (CIK 0001296771)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-14",
+      "form": "4",
+      "id": "0001209191-20-063314:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-063314:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-063314",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001296771",
+            "0001382101"
+          ],
+          "display_names": [
+            "Freund John Gordon  (CIK 0001296771)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-12-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201387654"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-12-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1607904000000,
+          "0001209191-20-063314:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-056578",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020056578/stro-8k_20201208.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20201208.htm",
+      "filed_date": "2020-12-09",
+      "form": "8-K",
+      "id": "0001564590-20-056578:stro-8k_20201208.htm",
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-056578:stro-8k_20201208.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-056578",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-12-09",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201378259"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "1.01",
+            "9.01"
+          ],
+          "period_ending": "2020-12-08",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1607472000000,
+          "0001564590-20-056578:stro-8k_20201208.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-313802",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000119312520313802/d83118d424b5.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "d83118d424b5.htm",
+      "filed_date": "2020-12-09",
+      "form": "424B5",
+      "id": "0001193125-20-313802:d83118d424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-20-313802:d83118d424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-313802",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-12-09",
+          "file_description": "424B5",
+          "file_num": [
+            "333-234101"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "201377874"
+          ],
+          "form": "424B5",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1607472000000,
+          "0001193125-20-313802:d83118d424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-313041",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000119312520313041/d56877ds3mef.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "d56877ds3mef.htm",
+      "filed_date": "2020-12-08",
+      "form": "S-3MEF",
+      "id": "0001193125-20-313041:d56877ds3mef.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-20-313041:d56877ds3mef.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-313041",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-12-08",
+          "file_description": "S-3MEF",
+          "file_num": [
+            "333-251206"
+          ],
+          "file_type": "S-3MEF",
+          "film_num": [
+            "201376669"
+          ],
+          "form": "S-3MEF",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-3MEF"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1607385600000,
+          "0001193125-20-313041:d56877ds3mef.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-056289",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020056289/stro-8k_20201207.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20201207.htm",
+      "filed_date": "2020-12-07",
+      "form": "8-K",
+      "id": "0001564590-20-056289:stro-8k_20201207.htm",
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-056289:stro-8k_20201207.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-056289",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-12-07",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201372649"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "7.01",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2020-12-07",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1607299200000,
+          "0001564590-20-056289:stro-8k_20201207.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-311750",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000119312520311750/d83118d424b5.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "d83118d424b5.htm",
+      "filed_date": "2020-12-07",
+      "form": "424B5",
+      "id": "0001193125-20-311750:d83118d424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-20-311750:d83118d424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-311750",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-12-07",
+          "file_description": "424B5",
+          "file_num": [
+            "333-234101"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "201372835"
+          ],
+          "form": "424B5",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1607299200000,
+          "0001193125-20-311750:d83118d424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-056109",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020056109/stro-8k_20201203.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20201203.htm",
+      "filed_date": "2020-12-04",
+      "form": "8-K",
+      "id": "0001564590-20-056109:stro-8k_20201203.htm",
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-056109:stro-8k_20201203.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-056109",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-12-04",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201368212"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "7.01",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2020-12-03",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1607040000000,
+          "0001564590-20-056109:stro-8k_20201203.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-055673",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020055673/stro-8k_20201130.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20201130.htm",
+      "filed_date": "2020-12-01",
+      "form": "8-K",
+      "id": "0001564590-20-055673:stro-8k_20201130.htm",
+      "items": [
+        "5.02"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-055673:stro-8k_20201130.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-055673",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-12-01",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201359771"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "5.02"
+          ],
+          "period_ending": "2020-11-30",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1606780800000,
+          "0001564590-20-055673:stro-8k_20201130.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-060914",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1587487/000120919120060914/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120060914/doc4.xml"
+      ],
+      "ciks": [
+        "0001587487",
+        "0001382101"
+      ],
+      "display_names": [
+        "Wigginton Jon Marc  (CIK 0001587487)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-12-01",
+      "form": "4",
+      "id": "0001209191-20-060914:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-060914:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-060914",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001587487",
+            "0001382101"
+          ],
+          "display_names": [
+            "Wigginton Jon Marc  (CIK 0001587487)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-12-01",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201361578"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-11-30",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1606780800000,
+          "0001209191-20-060914:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-060912",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1587487/000120919120060912/doc3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120060912/doc3.xml"
+      ],
+      "ciks": [
+        "0001587487",
+        "0001382101"
+      ],
+      "display_names": [
+        "Wigginton Jon Marc  (CIK 0001587487)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc3.xml",
+      "filed_date": "2020-12-01",
+      "form": "3",
+      "id": "0001209191-20-060912:doc3.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-060912:doc3.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-060912",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001587487",
+            "0001382101"
+          ],
+          "display_names": [
+            "Wigginton Jon Marc  (CIK 0001587487)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-12-01",
+          "file_description": "FORM 3 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "201361545"
+          ],
+          "form": "3",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-11-30",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1606780800000,
+          "0001209191-20-060912:doc3.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-060756",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326592/000120919120060756/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120060756/doc4.xml"
+      ],
+      "ciks": [
+        "0001326592",
+        "0001382101"
+      ],
+      "display_names": [
+        "Hallam Trevor  (CIK 0001326592)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-11-30",
+      "form": "4",
+      "id": "0001209191-20-060756:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-060756:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-060756",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001326592",
+            "0001382101"
+          ],
+          "display_names": [
+            "Hallam Trevor  (CIK 0001326592)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-11-30",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201358937"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-11-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1606694400000,
+          "0001209191-20-060756:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-057999",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1296771/000120919120057999/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120057999/doc4.xml"
+      ],
+      "ciks": [
+        "0001296771",
+        "0001382101"
+      ],
+      "display_names": [
+        "Freund John Gordon  (CIK 0001296771)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-11-12",
+      "form": "4",
+      "id": "0001209191-20-057999:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-057999:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-057999",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001296771",
+            "0001382101"
+          ],
+          "display_names": [
+            "Freund John Gordon  (CIK 0001296771)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-11-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201307731"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-11-09",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1605139200000,
+          "0001209191-20-057999:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-057311",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326592/000120919120057311/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120057311/doc4.xml"
+      ],
+      "ciks": [
+        "0001326592",
+        "0001382101"
+      ],
+      "display_names": [
+        "Hallam Trevor  (CIK 0001326592)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-11-06",
+      "form": "4",
+      "id": "0001209191-20-057311:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-057311:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-057311",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001326592",
+            "0001382101"
+          ],
+          "display_names": [
+            "Hallam Trevor  (CIK 0001326592)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-11-06",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201295255"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-11-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1604620800000,
+          "0001209191-20-057311:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-050851",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020050851/stro-8k_20201105.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20201105.htm",
+      "filed_date": "2020-11-05",
+      "form": "8-K",
+      "id": "0001564590-20-050851:stro-8k_20201105.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-050851:stro-8k_20201105.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-050851",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-11-05",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201288626"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-11-05",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1604534400000,
+          "0001564590-20-050851:stro-8k_20201105.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-050755",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020050755/stro-10q_20200930.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-10q_20200930.htm",
+      "filed_date": "2020-11-05",
+      "form": "10-Q",
+      "id": "0001564590-20-050755:stro-10q_20200930.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-050755:stro-10q_20200930.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-050755",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-11-05",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "201288394"
+          ],
+          "form": "10-Q",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2020-09-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1604534400000,
+          "0001564590-20-050755:stro-10q_20200930.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-054025",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326592/000120919120054025/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120054025/doc4.xml"
+      ],
+      "ciks": [
+        "0001326592",
+        "0001382101"
+      ],
+      "display_names": [
+        "Hallam Trevor  (CIK 0001326592)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-10-06",
+      "form": "4",
+      "id": "0001209191-20-054025:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-054025:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-054025",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001326592",
+            "0001382101"
+          ],
+          "display_names": [
+            "Hallam Trevor  (CIK 0001326592)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-10-06",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201227305"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-10-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601942400000,
+          "0001209191-20-054025:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-052248",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1309660/000120919120052248/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120052248/doc4.xml"
+      ],
+      "ciks": [
+        "0001309660",
+        "0001382101"
+      ],
+      "display_names": [
+        "NEWELL WILLIAM J  (CIK 0001309660)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-09-28",
+      "form": "4",
+      "id": "0001209191-20-052248:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-052248:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-052248",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001309660",
+            "0001382101"
+          ],
+          "display_names": [
+            "NEWELL WILLIAM J  (CIK 0001309660)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-09-28",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201205494"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-09-25",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601251200000,
+          "0001209191-20-052248:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-052247",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1398940/000120919120052247/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120052247/doc4.xml"
+      ],
+      "ciks": [
+        "0001398940",
+        "0001382101"
+      ],
+      "display_names": [
+        "MOLINA ARTURO MD  (CIK 0001398940)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-09-28",
+      "form": "4",
+      "id": "0001209191-20-052247:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-052247:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-052247",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001398940",
+            "0001382101"
+          ],
+          "display_names": [
+            "MOLINA ARTURO MD  (CIK 0001398940)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-09-28",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201205490"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-09-25",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601251200000,
+          "0001209191-20-052247:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-052246",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326592/000120919120052246/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120052246/doc4.xml"
+      ],
+      "ciks": [
+        "0001326592",
+        "0001382101"
+      ],
+      "display_names": [
+        "Hallam Trevor  (CIK 0001326592)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-09-28",
+      "form": "4",
+      "id": "0001209191-20-052246:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-052246:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-052246",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001326592",
+            "0001382101"
+          ],
+          "display_names": [
+            "Hallam Trevor  (CIK 0001326592)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-09-28",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201205489"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-09-25",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601251200000,
+          "0001209191-20-052246:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-052245",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1188953/000120919120052245/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120052245/doc4.xml"
+      ],
+      "ciks": [
+        "0001188953",
+        "0001382101"
+      ],
+      "display_names": [
+        "FITZPATRICK LINDA A  (CIK 0001188953)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-09-28",
+      "form": "4",
+      "id": "0001209191-20-052245:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-052245:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-052245",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001188953",
+            "0001382101"
+          ],
+          "display_names": [
+            "FITZPATRICK LINDA A  (CIK 0001188953)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-09-28",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201205488"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-09-25",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601251200000,
+          "0001209191-20-052245:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-052244",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1751728/000120919120052244/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120052244/doc4.xml"
+      ],
+      "ciks": [
+        "0001751728",
+        "0001382101"
+      ],
+      "display_names": [
+        "Shabbir Anik  (CIK 0001751728)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-09-28",
+      "form": "4",
+      "id": "0001209191-20-052244:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-052244:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-052244",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001751728",
+            "0001382101"
+          ],
+          "display_names": [
+            "Shabbir Anik  (CIK 0001751728)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-09-28",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201205484"
+          ],
+          "form": "4",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2020-09-25",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601251200000,
+          "0001209191-20-052244:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-052243",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1240014/000120919120052243/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120052243/doc4.xml"
+      ],
+      "ciks": [
+        "0001240014",
+        "0001382101"
+      ],
+      "display_names": [
+        "ALBINI EDWARD C  (CIK 0001240014)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-09-28",
+      "form": "4",
+      "id": "0001209191-20-052243:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-052243:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-052243",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001240014",
+            "0001382101"
+          ],
+          "display_names": [
+            "ALBINI EDWARD C  (CIK 0001240014)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-09-28",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201205482"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-09-25",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1601251200000,
+          "0001209191-20-052243:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-051490",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1296771/000120919120051490/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120051490/doc4.xml"
+      ],
+      "ciks": [
+        "0001296771",
+        "0001382101"
+      ],
+      "display_names": [
+        "Freund John Gordon  (CIK 0001296771)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-09-22",
+      "form": "4",
+      "id": "0001209191-20-051490:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-051490:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-051490",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001296771",
+            "0001382101"
+          ],
+          "display_names": [
+            "Freund John Gordon  (CIK 0001296771)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-09-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201190047"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-09-18",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1600732800000,
+          "0001209191-20-051490:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-050511",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1296771/000120919120050511/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120050511/doc4.xml"
+      ],
+      "ciks": [
+        "0001296771",
+        "0001382101"
+      ],
+      "display_names": [
+        "Freund John Gordon  (CIK 0001296771)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-09-15",
+      "form": "4",
+      "id": "0001209191-20-050511:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-050511:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-050511",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001296771",
+            "0001382101"
+          ],
+          "display_names": [
+            "Freund John Gordon  (CIK 0001296771)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-09-15",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201176730"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-09-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1600128000000,
+          "0001209191-20-050511:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-043014",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020043014/stro-8k_20200909.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20200909.htm",
+      "filed_date": "2020-09-09",
+      "form": "8-K",
+      "id": "0001564590-20-043014:stro-8k_20200909.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-043014:stro-8k_20200909.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-043014",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-09-09",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201167190"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2020-09-09",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1599609600000,
+          "0001564590-20-043014:stro-8k_20200909.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-042563",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020042563/stro-8k_20200903.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20200903.htm",
+      "filed_date": "2020-09-04",
+      "form": "8-K",
+      "id": "0001564590-20-042563:stro-8k_20200903.htm",
+      "items": [
+        "1.01",
+        "2.03"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-042563:stro-8k_20200903.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-042563",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-09-04",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201160320"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "1.01",
+            "2.03"
+          ],
+          "period_ending": "2020-09-03",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1599177600000,
+          "0001564590-20-042563:stro-8k_20200903.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000935836-20-000485",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000093583620000485/stro13g2.htm",
+        "https://www.sec.gov/Archives/edgar/data/1587114/000093583620000485/stro13g2.htm"
+      ],
+      "ciks": [
+        "0001382101",
+        "0001587114"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)",
+        "EcoR1 Capital, LLC  (CIK 0001587114)"
+      ],
+      "document_name": "stro13g2.htm",
+      "filed_date": "2020-08-28",
+      "form": "SC 13G",
+      "id": "0000935836-20-000485:stro13g2.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000935836-20-000485:stro13g2.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000935836-20-000485",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101",
+            "0001587114"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)",
+            "EcoR1 Capital, LLC  (CIK 0001587114)"
+          ],
+          "file_date": "2020-08-28",
+          "file_description": null,
+          "file_num": [
+            "005-90656"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "201147919"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1598572800000,
+          "0000935836-20-000485:stro13g2.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-048538",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326592/000120919120048538/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120048538/doc4.xml"
+      ],
+      "ciks": [
+        "0001326592",
+        "0001382101"
+      ],
+      "display_names": [
+        "Hallam Trevor  (CIK 0001326592)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-08-27",
+      "form": "4",
+      "id": "0001209191-20-048538:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-048538:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-048538",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001326592",
+            "0001382101"
+          ],
+          "display_names": [
+            "Hallam Trevor  (CIK 0001326592)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-08-27",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201143863"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-08-26",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1598486400000,
+          "0001209191-20-048538:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-098064",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000110465920098064/tm2028901d1_sc13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/1423994/000110465920098064/tm2028901d1_sc13g.htm"
+      ],
+      "ciks": [
+        "0001382101",
+        "0001423994"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)",
+        "Ridgeback Capital Investments L.P.  (CIK 0001423994)"
+      ],
+      "document_name": "tm2028901d1_sc13g.htm",
+      "filed_date": "2020-08-25",
+      "form": "SC 13G",
+      "id": "0001104659-20-098064:tm2028901d1_sc13g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-098064:tm2028901d1_sc13g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-098064",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Miami Beach, FL"
+          ],
+          "biz_states": [
+            "CA",
+            "FL"
+          ],
+          "ciks": [
+            "0001382101",
+            "0001423994"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)",
+            "Ridgeback Capital Investments L.P.  (CIK 0001423994)"
+          ],
+          "file_date": "2020-08-25",
+          "file_description": "SC 13G",
+          "file_num": [
+            "005-90656"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "201129090"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "E9"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1598313600000,
+          "0001104659-20-098064:tm2028901d1_sc13g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-047981",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1296771/000120919120047981/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120047981/doc4.xml"
+      ],
+      "ciks": [
+        "0001296771",
+        "0001382101"
+      ],
+      "display_names": [
+        "Freund John Gordon  (CIK 0001296771)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-08-21",
+      "form": "4",
+      "id": "0001209191-20-047981:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-047981:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-047981",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001296771",
+            "0001382101"
+          ],
+          "display_names": [
+            "Freund John Gordon  (CIK 0001296771)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-08-21",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201124182"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-08-19",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1597968000000,
+          "0001209191-20-047981:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-037231",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020037231/stro-8k_20200806.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20200806.htm",
+      "filed_date": "2020-08-06",
+      "form": "8-K",
+      "id": "0001564590-20-037231:stro-8k_20200806.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-037231:stro-8k_20200806.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-037231",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-08-06",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "201079747"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-08-06",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1596672000000,
+          "0001564590-20-037231:stro-8k_20200806.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-036997",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020036997/stro-10q_20200630.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-10q_20200630.htm",
+      "filed_date": "2020-08-06",
+      "form": "10-Q",
+      "id": "0001564590-20-036997:stro-10q_20200630.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-036997:stro-10q_20200630.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-036997",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-08-06",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "201078904"
+          ],
+          "form": "10-Q",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2020-06-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1596672000000,
+          "0001564590-20-036997:stro-10q_20200630.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-043857",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326592/000120919120043857/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120043857/doc4.xml"
+      ],
+      "ciks": [
+        "0001326592",
+        "0001382101"
+      ],
+      "display_names": [
+        "Hallam Trevor  (CIK 0001326592)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-07-28",
+      "form": "4",
+      "id": "0001209191-20-043857:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-043857:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-043857",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001326592",
+            "0001382101"
+          ],
+          "display_names": [
+            "Hallam Trevor  (CIK 0001326592)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-07-28",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "201054660"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-07-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1595894400000,
+          "0001209191-20-043857:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-039220",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326592/000120919120039220/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120039220/doc4.xml"
+      ],
+      "ciks": [
+        "0001326592",
+        "0001382101"
+      ],
+      "display_names": [
+        "Hallam Trevor  (CIK 0001326592)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-29",
+      "form": "4",
+      "id": "0001209191-20-039220:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-039220:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-039220",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001326592",
+            "0001382101"
+          ],
+          "display_names": [
+            "Hallam Trevor  (CIK 0001326592)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-06-29",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20998949"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-26",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1593388800000,
+          "0001209191-20-039220:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-029235",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020029235/stro-8k_20200615.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20200615.htm",
+      "filed_date": "2020-06-15",
+      "form": "8-K",
+      "id": "0001564590-20-029235:stro-8k_20200615.htm",
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-029235:stro-8k_20200615.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-029235",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-06-15",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20961901"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2020-06-15",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1592179200000,
+          "0001564590-20-029235:stro-8k_20200615.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-035058",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1217412/000120919120035058/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120035058/doc4.xml"
+      ],
+      "ciks": [
+        "0001217412",
+        "0001382101"
+      ],
+      "display_names": [
+        "PANEK JAMES P  (CIK 0001217412)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-08",
+      "form": "4",
+      "id": "0001209191-20-035058:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-035058:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-035058",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001217412",
+            "0001382101"
+          ],
+          "display_names": [
+            "PANEK JAMES P  (CIK 0001217412)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-06-08",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20950218"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591574400000,
+          "0001209191-20-035058:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-035037",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1377202/000120919120035037/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120035037/doc4.xml"
+      ],
+      "ciks": [
+        "0001377202",
+        "0001382101"
+      ],
+      "display_names": [
+        "Sharp Shalini  (CIK 0001377202)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-08",
+      "form": "4",
+      "id": "0001209191-20-035037:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-035037:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-035037",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001377202",
+            "0001382101"
+          ],
+          "display_names": [
+            "Sharp Shalini  (CIK 0001377202)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-06-08",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20950171"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591574400000,
+          "0001209191-20-035037:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-035036",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1294939/000120919120035036/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120035036/doc4.xml"
+      ],
+      "ciks": [
+        "0001294939",
+        "0001382101"
+      ],
+      "display_names": [
+        "Petree Daniel H  (CIK 0001294939)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-08",
+      "form": "4",
+      "id": "0001209191-20-035036:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-035036:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-035036",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001294939",
+            "0001382101"
+          ],
+          "display_names": [
+            "Petree Daniel H  (CIK 0001294939)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-06-08",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20950163"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591574400000,
+          "0001209191-20-035036:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-035030",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1236537/000120919120035030/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120035030/doc4.xml"
+      ],
+      "ciks": [
+        "0001236537",
+        "0001382101"
+      ],
+      "display_names": [
+        "MATSUI CONNIE  (CIK 0001236537)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-08",
+      "form": "4",
+      "id": "0001209191-20-035030:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-035030:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-035030",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001236537",
+            "0001382101"
+          ],
+          "display_names": [
+            "MATSUI CONNIE  (CIK 0001236537)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-06-08",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20950107"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591574400000,
+          "0001209191-20-035030:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-035028",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1536193/000120919120035028/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120035028/doc4.xml"
+      ],
+      "ciks": [
+        "0001536193",
+        "0001382101"
+      ],
+      "display_names": [
+        "Lobacki Joseph M  (CIK 0001536193)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-08",
+      "form": "4",
+      "id": "0001209191-20-035028:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-035028:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-035028",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001536193",
+            "0001382101"
+          ],
+          "display_names": [
+            "Lobacki Joseph M  (CIK 0001536193)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-06-08",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20950097"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591574400000,
+          "0001209191-20-035028:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-035027",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1296771/000120919120035027/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120035027/doc4.xml"
+      ],
+      "ciks": [
+        "0001296771",
+        "0001382101"
+      ],
+      "display_names": [
+        "Freund John Gordon  (CIK 0001296771)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-08",
+      "form": "4",
+      "id": "0001209191-20-035027:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-035027:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-035027",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001296771",
+            "0001382101"
+          ],
+          "display_names": [
+            "Freund John Gordon  (CIK 0001296771)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-06-08",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20950089"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591574400000,
+          "0001209191-20-035027:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-035026",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1601264/000120919120035026/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120035026/doc4.xml"
+      ],
+      "ciks": [
+        "0001601264",
+        "0001382101"
+      ],
+      "display_names": [
+        "Dybbs Michael  (CIK 0001601264)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-06-08",
+      "form": "4",
+      "id": "0001209191-20-035026:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-035026:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-035026",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001601264",
+            "0001382101"
+          ],
+          "display_names": [
+            "Dybbs Michael  (CIK 0001601264)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-06-08",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20950082"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-06-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1591574400000,
+          "0001209191-20-035026:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-028506",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020028506/stro-8k_20200605.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20200605.htm",
+      "filed_date": "2020-06-05",
+      "form": "8-K",
+      "id": "0001564590-20-028506:stro-8k_20200605.htm",
+      "items": [
+        "5.07"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-028506:stro-8k_20200605.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-028506",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-06-05",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20946863"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "5.07"
+          ],
+          "period_ending": "2020-06-05",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1591315200000,
+          "0001564590-20-028506:stro-8k_20200605.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-032414",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326592/000120919120032414/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120032414/doc4.xml"
+      ],
+      "ciks": [
+        "0001326592",
+        "0001382101"
+      ],
+      "display_names": [
+        "Hallam Trevor  (CIK 0001326592)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-05-27",
+      "form": "4",
+      "id": "0001209191-20-032414:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-032414:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-032414",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001326592",
+            "0001382101"
+          ],
+          "display_names": [
+            "Hallam Trevor  (CIK 0001326592)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-05-27",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20916544"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-05-26",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1590537600000,
+          "0001209191-20-032414:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000921895-20-001581",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000092189520001581/sc13g07422sut_05222020.htm",
+        "https://www.sec.gov/Archives/edgar/data/918923/000092189520001581/sc13g07422sut_05222020.htm"
+      ],
+      "ciks": [
+        "0001382101",
+        "0000918923"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)",
+        "BIOTECHNOLOGY VALUE FUND L P  (CIK 0000918923)"
+      ],
+      "document_name": "sc13g07422sut_05222020.htm",
+      "filed_date": "2020-05-22",
+      "form": "SC 13G",
+      "id": "0000921895-20-001581:sc13g07422sut_05222020.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000921895-20-001581:sc13g07422sut_05222020.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000921895-20-001581",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101",
+            "0000918923"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)",
+            "BIOTECHNOLOGY VALUE FUND L P  (CIK 0000918923)"
+          ],
+          "file_date": "2020-05-22",
+          "file_description": "THE SCHEDULE 13G",
+          "file_num": [
+            "005-90656"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "20907131"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836",
+            "6282"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1590105600000,
+          "0000921895-20-001581:sc13g07422sut_05222020.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-029246",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1309660/000120919120029246/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120029246/doc4.xml"
+      ],
+      "ciks": [
+        "0001309660",
+        "0001382101"
+      ],
+      "display_names": [
+        "NEWELL WILLIAM J  (CIK 0001309660)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-05-14",
+      "form": "4",
+      "id": "0001209191-20-029246:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-029246:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-029246",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001309660",
+            "0001382101"
+          ],
+          "display_names": [
+            "NEWELL WILLIAM J  (CIK 0001309660)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-05-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20879209"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-05-14",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1589414400000,
+          "0001209191-20-029246:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-029244",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1398940/000120919120029244/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120029244/doc4.xml"
+      ],
+      "ciks": [
+        "0001398940",
+        "0001382101"
+      ],
+      "display_names": [
+        "MOLINA ARTURO MD  (CIK 0001398940)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-05-14",
+      "form": "4",
+      "id": "0001209191-20-029244:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-029244:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-029244",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001398940",
+            "0001382101"
+          ],
+          "display_names": [
+            "MOLINA ARTURO MD  (CIK 0001398940)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-05-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20879177"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-05-14",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1589414400000,
+          "0001209191-20-029244:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-029243",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1188953/000120919120029243/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120029243/doc4.xml"
+      ],
+      "ciks": [
+        "0001188953",
+        "0001382101"
+      ],
+      "display_names": [
+        "FITZPATRICK LINDA A  (CIK 0001188953)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-05-14",
+      "form": "4",
+      "id": "0001209191-20-029243:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-029243:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-029243",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001188953",
+            "0001382101"
+          ],
+          "display_names": [
+            "FITZPATRICK LINDA A  (CIK 0001188953)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-05-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20879160"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-05-14",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1589414400000,
+          "0001209191-20-029243:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-024736",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020024736/stro-8k_20200511.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20200511.htm",
+      "filed_date": "2020-05-12",
+      "form": "8-K",
+      "id": "0001564590-20-024736:stro-8k_20200511.htm",
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-024736:stro-8k_20200511.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-024736",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-05-12",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20870051"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "1.01",
+            "9.01"
+          ],
+          "period_ending": "2020-05-11",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1589241600000,
+          "0001564590-20-024736:stro-8k_20200511.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-140570",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000119312520140570/d921730d424b5.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "d921730d424b5.htm",
+      "filed_date": "2020-05-12",
+      "form": "424B5",
+      "id": "0001193125-20-140570:d921730d424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-20-140570:d921730d424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-140570",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-05-12",
+          "file_description": "424B5",
+          "file_num": [
+            "333-234101"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "20869931"
+          ],
+          "form": "424B5",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1589241600000,
+          "0001193125-20-140570:d921730d424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-024242",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020024242/stro-8k_20200511.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20200511.htm",
+      "filed_date": "2020-05-11",
+      "form": "8-K",
+      "id": "0001564590-20-024242:stro-8k_20200511.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-024242:stro-8k_20200511.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-024242",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-05-11",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20865233"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-05-11",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1589155200000,
+          "0001564590-20-024242:stro-8k_20200511.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-023689",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020023689/stro-10q_20200331.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-10q_20200331.htm",
+      "filed_date": "2020-05-11",
+      "form": "10-Q",
+      "id": "0001564590-20-023689:stro-10q_20200331.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-023689:stro-10q_20200331.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-023689",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-05-11",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "20862081"
+          ],
+          "form": "10-Q",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2020-03-31",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1589155200000,
+          "0001564590-20-023689:stro-10q_20200331.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-20-139053",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000119312520139053/d921730d424b5.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "d921730d424b5.htm",
+      "filed_date": "2020-05-11",
+      "form": "424B5",
+      "id": "0001193125-20-139053:d921730d424b5.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-20-139053:d921730d424b5.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-20-139053",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-05-11",
+          "file_description": "424B5",
+          "file_num": [
+            "333-234101"
+          ],
+          "file_type": "424B5",
+          "film_num": [
+            "20864901"
+          ],
+          "form": "424B5",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "424B5"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1589155200000,
+          "0001193125-20-139053:d921730d424b5.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-020872",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020020872/stro-10ka_20191231.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-10ka_20191231.htm",
+      "filed_date": "2020-05-04",
+      "form": "10-K/A",
+      "id": "0001564590-20-020872:stro-10ka_20191231.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-020872:stro-10ka_20191231.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-020872",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-05-04",
+          "file_description": "10-K/A",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "10-K/A",
+          "film_num": [
+            "20845812"
+          ],
+          "form": "10-K/A",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2019-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1588550400000,
+          "0001564590-20-020872:stro-10ka_20191231.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-018684",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020018684/stro-8k_20200427.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20200427.htm",
+      "filed_date": "2020-04-27",
+      "form": "8-K",
+      "id": "0001564590-20-018684:stro-8k_20200427.htm",
+      "items": [
+        "2.02",
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-018684:stro-8k_20200427.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-018684",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-04-27",
+          "file_description": "8-K AACR",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20817277"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "7.01",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2020-04-27",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1587945600000,
+          "0001564590-20-018684:stro-8k_20200427.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-025882",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326592/000120919120025882/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120025882/doc4.xml"
+      ],
+      "ciks": [
+        "0001326592",
+        "0001382101"
+      ],
+      "display_names": [
+        "Hallam Trevor  (CIK 0001326592)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-04-27",
+      "form": "4",
+      "id": "0001209191-20-025882:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-025882:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-025882",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001326592",
+            "0001382101"
+          ],
+          "display_names": [
+            "Hallam Trevor  (CIK 0001326592)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-04-27",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20821938"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-04-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1587945600000,
+          "0001209191-20-025882:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-018532",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020018532/stro-def14a_20200605.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-def14a_20200605.htm",
+      "filed_date": "2020-04-24",
+      "form": "DEF 14A",
+      "id": "0001564590-20-018532:stro-def14a_20200605.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-018532:stro-def14a_20200605.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-018532",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-04-24",
+          "file_description": "DEF 14A",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "DEF 14A",
+          "film_num": [
+            "20815423"
+          ],
+          "form": "DEF 14A",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2020-06-05",
+          "root_forms": [
+            "DEF 14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1587686400000,
+          "0001564590-20-018532:stro-def14a_20200605.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-021438",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326592/000120919120021438/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120021438/doc4.xml"
+      ],
+      "ciks": [
+        "0001326592",
+        "0001382101"
+      ],
+      "display_names": [
+        "Hallam Trevor  (CIK 0001326592)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-03-27",
+      "form": "4",
+      "id": "0001209191-20-021438:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-021438:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-021438",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001326592",
+            "0001382101"
+          ],
+          "display_names": [
+            "Hallam Trevor  (CIK 0001326592)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-03-27",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20753112"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-03-26",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1585267200000,
+          "0001209191-20-021438:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-011175",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020011175/stro-s8.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-s8.htm",
+      "filed_date": "2020-03-16",
+      "form": "S-8",
+      "id": "0001564590-20-011175:stro-s8.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-011175:stro-s8.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-011175",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-03-16",
+          "file_description": "S-8",
+          "file_num": [
+            "333-237202"
+          ],
+          "file_type": "S-8",
+          "film_num": [
+            "20717625"
+          ],
+          "form": "S-8",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1584316800000,
+          "0001564590-20-011175:stro-s8.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-010955",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020010955/stro-8k_20200316.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20200316.htm",
+      "filed_date": "2020-03-16",
+      "form": "8-K",
+      "id": "0001564590-20-010955:stro-8k_20200316.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-010955:stro-8k_20200316.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-010955",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-03-16",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20715132"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2020-03-16",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1584316800000,
+          "0001564590-20-010955:stro-8k_20200316.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-010890",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020010890/stro-10k_20191231.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-10k_20191231.htm",
+      "filed_date": "2020-03-16",
+      "form": "10-K",
+      "id": "0001564590-20-010890:stro-10k_20191231.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-20-010890:stro-10k_20191231.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-010890",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-03-16",
+          "file_description": "10-K",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "20714457"
+          ],
+          "form": "10-K",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2019-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1584316800000,
+          "0001564590-20-010890:stro-10k_20191231.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-008232",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020008232/stro-8k_20200331.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20200331.htm",
+      "filed_date": "2020-03-03",
+      "form": "8-K",
+      "id": "0001564590-20-008232:stro-8k_20200331.htm",
+      "items": [
+        "1.01",
+        "2.03",
+        "3.02"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-008232:stro-8k_20200331.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-008232",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-03-03",
+          "file_description": "8-K LOAN AGREEMENT",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20679362"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "1.01",
+            "2.03",
+            "3.02"
+          ],
+          "period_ending": "2020-02-28",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1583193600000,
+          "0001564590-20-008232:stro-8k_20200331.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-013478",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326592/000120919120013478/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120013478/doc4.xml"
+      ],
+      "ciks": [
+        "0001326592",
+        "0001382101"
+      ],
+      "display_names": [
+        "Hallam Trevor  (CIK 0001326592)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-02-27",
+      "form": "4",
+      "id": "0001209191-20-013478:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-013478:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-013478",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001326592",
+            "0001382101"
+          ],
+          "display_names": [
+            "Hallam Trevor  (CIK 0001326592)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-02-27",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20664082"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-02-26",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1582761600000,
+          "0001209191-20-013478:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-021714",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000110465920021714/tm206921d10_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1423053/000110465920021714/tm206921d10_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001382101",
+        "0001423053"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)",
+        "CITADEL ADVISORS LLC  (CIK 0001423053)"
+      ],
+      "document_name": "tm206921d10_sc13ga.htm",
+      "filed_date": "2020-02-14",
+      "form": "SC 13G/A",
+      "id": "0001104659-20-021714:tm206921d10_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-021714:tm206921d10_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-021714",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Chicago, IL"
+          ],
+          "biz_states": [
+            "CA",
+            "IL"
+          ],
+          "ciks": [
+            "0001382101",
+            "0001423053"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)",
+            "CITADEL ADVISORS LLC  (CIK 0001423053)"
+          ],
+          "file_date": "2020-02-14",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-90656"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20619592"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581638400000,
+          "0001104659-20-021714:tm206921d10_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-020195",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000110465920020195/tm207332d3_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1575852/000110465920020195/tm207332d3_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001382101",
+        "0001575852"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)",
+        "Lilly Ventures Fund I LLC  (CIK 0001575852)"
+      ],
+      "document_name": "tm207332d3_sc13ga.htm",
+      "filed_date": "2020-02-13",
+      "form": "SC 13G/A",
+      "id": "0001104659-20-020195:tm207332d3_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-020195:tm207332d3_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-020195",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Indianapolis, IN"
+          ],
+          "biz_states": [
+            "CA",
+            "IN"
+          ],
+          "ciks": [
+            "0001382101",
+            "0001575852"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)",
+            "Lilly Ventures Fund I LLC  (CIK 0001575852)"
+          ],
+          "file_date": "2020-02-13",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-90656"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "20610794"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581552000000,
+          "0001104659-20-020195:tm207332d3_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-019043",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000110465920019043/a20-7672_1sc13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/1419187/000110465920019043/a20-7672_1sc13g.htm"
+      ],
+      "ciks": [
+        "0001382101",
+        "0001419187"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)",
+        "Skyline Venture Partners V LP  (CIK 0001419187)"
+      ],
+      "document_name": "a20-7672_1sc13g.htm",
+      "filed_date": "2020-02-12",
+      "form": "SC 13G",
+      "id": "0001104659-20-019043:a20-7672_1sc13g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-019043:a20-7672_1sc13g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-019043",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Palo Alto, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101",
+            "0001419187"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)",
+            "Skyline Venture Partners V LP  (CIK 0001419187)"
+          ],
+          "file_date": "2020-02-12",
+          "file_description": "SC 13G",
+          "file_num": [
+            "005-90656"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "20603344"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581465600000,
+          "0001104659-20-019043:a20-7672_1sc13g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-20-013796",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000110465920013796/tv537825_sc13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/816284/000110465920013796/tv537825_sc13g.htm"
+      ],
+      "ciks": [
+        "0001382101",
+        "0000816284"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)",
+        "CELGENE CORP /DE/  (CIK 0000816284)"
+      ],
+      "document_name": "tv537825_sc13g.htm",
+      "filed_date": "2020-02-10",
+      "form": "SC 13G",
+      "id": "0001104659-20-013796:tv537825_sc13g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-20-013796:tv537825_sc13g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-20-013796",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Summit, NJ"
+          ],
+          "biz_states": [
+            "CA",
+            "NJ"
+          ],
+          "ciks": [
+            "0001382101",
+            "0000816284"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)",
+            "CELGENE CORP /DE/  (CIK 0000816284)"
+          ],
+          "file_date": "2020-02-10",
+          "file_description": "SC 13G",
+          "file_num": [
+            "005-90656"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "20593076"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836",
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1581292800000,
+          "0001104659-20-013796:tv537825_sc13g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-005814",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1309660/000120919120005814/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120005814/doc4.xml"
+      ],
+      "ciks": [
+        "0001309660",
+        "0001382101"
+      ],
+      "display_names": [
+        "NEWELL WILLIAM J  (CIK 0001309660)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-01-31",
+      "form": "4",
+      "id": "0001209191-20-005814:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-005814:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-005814",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001309660",
+            "0001382101"
+          ],
+          "display_names": [
+            "NEWELL WILLIAM J  (CIK 0001309660)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-01-31",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20566046"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-01-29",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1580428800000,
+          "0001209191-20-005814:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-005812",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1398940/000120919120005812/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120005812/doc4.xml"
+      ],
+      "ciks": [
+        "0001398940",
+        "0001382101"
+      ],
+      "display_names": [
+        "MOLINA ARTURO MD  (CIK 0001398940)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-01-31",
+      "form": "4",
+      "id": "0001209191-20-005812:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-005812:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-005812",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001398940",
+            "0001382101"
+          ],
+          "display_names": [
+            "MOLINA ARTURO MD  (CIK 0001398940)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-01-31",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20566011"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-01-29",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1580428800000,
+          "0001209191-20-005812:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-005810",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326592/000120919120005810/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120005810/doc4.xml"
+      ],
+      "ciks": [
+        "0001326592",
+        "0001382101"
+      ],
+      "display_names": [
+        "Hallam Trevor  (CIK 0001326592)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-01-31",
+      "form": "4",
+      "id": "0001209191-20-005810:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-005810:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-005810",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001326592",
+            "0001382101"
+          ],
+          "display_names": [
+            "Hallam Trevor  (CIK 0001326592)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-01-31",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20565990"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-01-29",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1580428800000,
+          "0001209191-20-005810:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-005808",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1188953/000120919120005808/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120005808/doc4.xml"
+      ],
+      "ciks": [
+        "0001188953",
+        "0001382101"
+      ],
+      "display_names": [
+        "FITZPATRICK LINDA A  (CIK 0001188953)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-01-31",
+      "form": "4",
+      "id": "0001209191-20-005808:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-005808:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-005808",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001188953",
+            "0001382101"
+          ],
+          "display_names": [
+            "FITZPATRICK LINDA A  (CIK 0001188953)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-01-31",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20565969"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-01-29",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1580428800000,
+          "0001209191-20-005808:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-005806",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1751728/000120919120005806/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120005806/doc4.xml"
+      ],
+      "ciks": [
+        "0001751728",
+        "0001382101"
+      ],
+      "display_names": [
+        "Shabbir Anik  (CIK 0001751728)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-01-31",
+      "form": "4",
+      "id": "0001209191-20-005806:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-005806:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-005806",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001751728",
+            "0001382101"
+          ],
+          "display_names": [
+            "Shabbir Anik  (CIK 0001751728)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-01-31",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20565956"
+          ],
+          "form": "4",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2020-01-29",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1580428800000,
+          "0001209191-20-005806:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-005798",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1240014/000120919120005798/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120005798/doc4.xml"
+      ],
+      "ciks": [
+        "0001240014",
+        "0001382101"
+      ],
+      "display_names": [
+        "ALBINI EDWARD C  (CIK 0001240014)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-01-31",
+      "form": "4",
+      "id": "0001209191-20-005798:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-005798:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-005798",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001240014",
+            "0001382101"
+          ],
+          "display_names": [
+            "ALBINI EDWARD C  (CIK 0001240014)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-01-31",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20565904"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-01-29",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1580428800000,
+          "0001209191-20-005798:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-005159",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1326592/000120919120005159/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120005159/doc4.xml"
+      ],
+      "ciks": [
+        "0001326592",
+        "0001382101"
+      ],
+      "display_names": [
+        "Hallam Trevor  (CIK 0001326592)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-01-28",
+      "form": "4",
+      "id": "0001209191-20-005159:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-005159:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-005159",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001326592",
+            "0001382101"
+          ],
+          "display_names": [
+            "Hallam Trevor  (CIK 0001326592)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-01-28",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20555044"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-01-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1580169600000,
+          "0001209191-20-005159:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-20-000514",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1382101/000156459020000514/stro-8k_20200108.htm"
+      ],
+      "ciks": [
+        "0001382101"
+      ],
+      "display_names": [
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "stro-8k_20200108.htm",
+      "filed_date": "2020-01-08",
+      "form": "8-K",
+      "id": "0001564590-20-000514:stro-8k_20200108.htm",
+      "items": [
+        "5.02"
+      ],
+      "source_hit": {
+        "_id": "0001564590-20-000514:stro-8k_20200108.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-20-000514",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001382101"
+          ],
+          "display_names": [
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-01-08",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "20516221"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "5.02"
+          ],
+          "period_ending": "2020-01-07",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1578441600000,
+          "0001564590-20-000514:stro-8k_20200108.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-002569",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1217412/000120919120002569/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120002569/doc4.xml"
+      ],
+      "ciks": [
+        "0001217412",
+        "0001382101"
+      ],
+      "display_names": [
+        "PANEK JAMES P  (CIK 0001217412)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2020-01-08",
+      "form": "4",
+      "id": "0001209191-20-002569:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-002569:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-002569",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001217412",
+            "0001382101"
+          ],
+          "display_names": [
+            "PANEK JAMES P  (CIK 0001217412)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-01-08",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "20516480"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-01-07",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1578441600000,
+          "0001209191-20-002569:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001209191-20-002565",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1217412/000120919120002565/doc3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1382101/000120919120002565/doc3.xml"
+      ],
+      "ciks": [
+        "0001217412",
+        "0001382101"
+      ],
+      "display_names": [
+        "PANEK JAMES P  (CIK 0001217412)",
+        "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+      ],
+      "document_name": "doc3.xml",
+      "filed_date": "2020-01-08",
+      "form": "3",
+      "id": "0001209191-20-002565:doc3.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001209191-20-002565:doc3.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001209191-20-002565",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001217412",
+            "0001382101"
+          ],
+          "display_names": [
+            "PANEK JAMES P  (CIK 0001217412)",
+            "SUTRO BIOPHARMA, INC.  (STRO)  (CIK 0001382101)"
+          ],
+          "file_date": "2020-01-08",
+          "file_description": "FORM 3 SUBMISSION",
+          "file_num": [
+            "001-38662"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "20516465"
+          ],
+          "form": "3",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2020-01-07",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1578441600000,
+          "0001209191-20-002565:doc3.xml"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2020-01-01",
+  "ticker": "STRO",
+  "total": 78
+}

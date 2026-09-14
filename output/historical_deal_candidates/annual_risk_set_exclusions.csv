@@ -1,0 +1,246 @@
+observation_date,cik,company_name,ticker_candidates,reason
+2018-12-31,821995,JUNIPER PHARMACEUTICALS INC,[],transaction candidate signal 59b8cc0b3f426532a04e on 2018-07-17
+2018-12-31,861838,"IDERA PHARMACEUTICALS, INC.",[],transaction candidate signal dc691407d6ec10924c8d on 2018-03-29
+2018-12-31,1003642,IMPAX LABORATORIES INC,[],transaction candidate signal d2bf98d72dde398b3a83 on 2018-02-12
+2018-12-31,1094038,TAPIMMUNE INC.,"[""MRKR""]",transaction candidate signal e2e7d96bc254fadd94e5 on 2018-09-14
+2018-12-31,1235007,ENDOCYTE INC,[],transaction candidate signal 6caf3165110b98f3102d on 2018-11-16
+2018-12-31,1412067,"Cascadian Therapeutics, Inc.",[],transaction candidate signal f2cb6536654ff119b7a4 on 2018-02-08
+2018-12-31,1491576,"TESARO, Inc.",[],transaction candidate signal aafbd9d78eab19226b90 on 2018-12-14
+2018-12-31,1544227,"OvaScience, Inc.","[""TPST""]",transaction candidate signal 3b629fdd497cb70a259b on 2018-11-06
+2018-12-31,1581987,TiGenix NV,[],transaction candidate signal 74e33203d7dea1794a81 on 2018-04-30
+2018-12-31,1594864,"Juno Therapeutics, Inc.",[],transaction candidate signal d67f9dbe8d11eaa277c4 on 2018-01-23
+2018-12-31,1617582,Ablynx NV,[],transaction candidate signal 70b455548e9af8f5375e on 2018-04-04
+2018-12-31,1619087,SteadyMed Ltd.,[],transaction candidate signal 64506aaf93dcf822369d on 2018-06-25
+2018-12-31,1644963,"AVENUE THERAPEUTICS, INC.","[""ATXI""]",transaction candidate signal 41a057053ec16d332f71 on 2018-12-21
+2018-12-31,1652923,"AveXis, Inc.",[],transaction candidate signal 2e452227fb747b577bf6 on 2018-04-17
+2018-12-31,1681689,Bioverativ Inc.,[],transaction candidate signal 082936b63ff85fe5824b on 2018-02-08
+2018-12-31,1693664,"ARMO BioSciences, Inc.",[],transaction candidate signal fba0161264e48891a521 on 2018-05-23
+2019-12-31,357097,"Fibrocell Science, Inc.",[],transaction candidate signal 3785ada8330a1e0a297d on 2019-10-28
+2019-12-31,816284,CELGENE CORP /DE/,[],transaction candidate signal ef18db548786ad4b9db4 on 2019-02-22
+2019-12-31,820081,CAMBREX CORP,[],transaction candidate signal 5d6146cfb834da537fe3 on 2019-09-23
+2019-12-31,921114,AmpliPhi Biosciences Corp,"[""ARMP""]",transaction candidate signal f73b22ef8c2932ac7973 on 2019-04-04
+2019-12-31,1070336,ACHILLION PHARMACEUTICALS INC,[],transaction candidate signal 9808302131c3787e0458 on 2019-11-21
+2019-12-31,1138776,"Aevi Genomic Medicine, Inc.",[],transaction candidate signal b1359d1f26a40da7210f on 2019-12-31
+2019-12-31,1302573,OncoMed Pharmaceuticals Inc,[],transaction candidate signal e4ef58aba61055e0d4ce on 2019-03-20
+2019-12-31,1343304,AVEDRO INC,[],transaction candidate signal 4071b1d6896f1da812d7 on 2019-10-17
+2019-12-31,1360886,"OSIRIS THERAPEUTICS, INC.",[],transaction candidate signal c568d44e0b36b37b3f2c on 2019-03-20
+2019-12-31,1423824,ALDER BIOPHARMACEUTICALS INC,[],transaction candidate signal 14355e7da2b6860bb5da on 2019-09-23
+2019-12-31,1437786,IMMUNE DESIGN CORP.,[],transaction candidate signal b2eecc683d683cb682e3 on 2019-03-05
+2019-12-31,1481512,"Ra Pharmaceuticals, Inc.",[],transaction candidate signal 99aee86afc34ac2e03e7 on 2019-11-15
+2019-12-31,1509190,"ARATANA THERAPEUTICS, INC.",[],transaction candidate signal 566b012e9d87cad1e110 on 2019-06-17
+2019-12-31,1578845,Allergan plc,[],transaction candidate signal c1899dc9d0de44c14bb2 on 2019-09-16
+2019-12-31,1609351,"Spark Therapeutics, Inc.",[],transaction candidate signal 2a8e6cb3e0f728913216 on 2019-03-07
+2019-12-31,1609727,"Synthorx, Inc.",[],transaction candidate signal ae3162c261da92721673 on 2019-12-23
+2019-12-31,1628738,"Audentes Therapeutics, Inc.",[],transaction candidate signal 3c8a29fb7cb948712212 on 2019-12-16
+2019-12-31,1668397,"Medpace Holdings, Inc.","[""MEDP""]",transaction candidate signal 222298e4d8828ffda2a3 on 2019-08-08
+2019-12-31,1685071,Dova Pharmaceuticals Inc.,[],transaction candidate signal 80afa13946bc0eed8a18 on 2019-10-11
+2019-12-31,1711675,Nightstar Therapeutics plc,[],transaction candidate signal b4586231f8ba8e9427b8 on 2019-04-09
+2020-12-31,771856,"CHAMPIONS ONCOLOGY, INC.","[""CSBR""]",transaction candidate signal 6d6df0ab6491c35531ab on 2020-09-11
+2020-12-31,792977,"AMAG PHARMACEUTICALS, INC.",[],transaction candidate signal bafadd0c86e941a72373 on 2020-10-15
+2020-12-31,875622,BIOSPECIFICS TECHNOLOGIES CORP,[],transaction candidate signal 272ea24b8477a044255c on 2020-11-02
+2020-12-31,1015820,QIAGEN N.V.,"[""QGEN""]",transaction candidate signal fe871fff4da61064e45d on 2020-05-18
+2020-12-31,1126234,"LUMOS PHARMA, INC.","[""LUMO""]",transaction candidate signal d930d6161f85509c8cbd on 2020-02-10
+2020-12-31,1264587,STEMLINE THERAPEUTICS INC,[],transaction candidate signal a661706e069d4ca463d0 on 2020-05-12
+2020-12-31,1269021,PORTOLA PHARMACEUTICALS INC,[],transaction candidate signal 016765da728d01b67146 on 2020-05-27
+2020-12-31,1373707,TETRAPHASE PHARMACEUTICALS INC,[],transaction candidate signal ad5d4b52138d440d1e7a on 2020-04-24
+2020-12-31,1374690,"ZAFGEN, INC.","[""LRMR""]",transaction candidate signal 4841a0ff798465e0882b on 2020-04-29
+2020-12-31,1378624,"Cellular Biomedicine Group, Inc.",[],transaction candidate signal 7d1f5840898f8939a5c6 on 2020-12-29
+2020-12-31,1478121,Pfenex Inc.,[],transaction candidate signal f0296384983fac0b9a6b on 2020-08-31
+2020-12-31,1510487,Principia Biopharma Inc.,[],transaction candidate signal ad719b72d6d9c8b98fa2 on 2020-08-28
+2020-12-31,1513856,"Neurotrope, Inc.",[],transaction candidate signal 7f9d9ae96a44c70dc2fe on 2020-11-02
+2020-12-31,1552451,MyoKardia Inc,[],transaction candidate signal aec80d20f651f5da2f44 on 2020-10-19
+2020-12-31,1606645,Foamix Pharmaceuticals Ltd.,[],transaction candidate signal 5aa5957098b67fa52958 on 2020-01-07
+2020-12-31,1622229,Unum Therapeutics Inc.,"[""COGT""]",transaction candidate signal 3ddc9ca1e131cbbca327 on 2020-10-09
+2020-12-31,1631650,"Aimmune Therapeutics, Inc.",[],transaction candidate signal 227440a04f14c4f1b475 on 2020-09-14
+2020-12-31,1662524,"AKCEA THERAPEUTICS, INC.",[],transaction candidate signal d3ba6dac22df9ff65d4b on 2020-09-14
+2020-12-31,1667633,"Forty Seven, Inc.",[],transaction candidate signal abd186656d91339c7d4b on 2020-03-10
+2020-12-31,1694187,"Neon Therapeutics, Inc.",[],transaction candidate signal eb9897491b43fd54569e on 2020-04-02
+2020-12-31,1714798,Prevail Therapeutics Inc.,[],transaction candidate signal fffeb3f31514fba47b56 on 2020-12-22
+2020-12-31,1731831,"Eidos Therapeutics, Inc.",[],transaction candidate signal 5d151c55b3b41e65401c on 2020-12-15
+2020-12-31,1743881,"BridgeBio Pharma, Inc.","[""BBIO""]",transaction candidate signal 3cdc9501926ffd4f6a58 on 2020-12-15
+2021-12-31,1100397,"Advaxis, Inc.","[""ADXS""]",transaction candidate signal b2e943c0dddafdfa9dfe on 2021-10-21
+2021-12-31,1175505,"FIVE PRIME THERAPEUTICS, INC.",[],transaction candidate signal 1dbbd5563e1fc3c82d94 on 2021-03-18
+2021-12-31,1280600,ACCELERON PHARMA INC,[],transaction candidate signal f4ee39bac6223c55988e on 2021-10-12
+2021-12-31,1326110,"NantKwest, Inc.","[""IBRX""]",transaction candidate signal c74ece601619826181de on 2021-02-02
+2021-12-31,1328143,Adamas Pharmaceuticals Inc,[],transaction candidate signal f24f12c8e688e6041d1c on 2021-10-12
+2021-12-31,1339469,"CHIASMA, INC",[],transaction candidate signal 50e3eeb1cb584cda3a2a on 2021-07-02
+2021-12-31,1346302,XERIS PHARMACEUTICALS INC,[],transaction candidate signal 11adff52fa04833aec0a on 2021-07-29
+2021-12-31,1351288,GW PHARMACEUTICALS PLC,[],transaction candidate signal fa65c5740cc2fbc3383f on 2021-03-15
+2021-12-31,1399529,Dicerna Pharmaceuticals Inc,[],transaction candidate signal b134354b7923c92728b2 on 2021-11-24
+2021-12-31,1419600,Flexion Therapeutics Inc,[],transaction candidate signal 99b542235ad9508c8916 on 2021-10-22
+2021-12-31,1422142,"Aerpio Pharmaceuticals, Inc.","[""AADI""]",transaction candidate signal a288d08fb06b44494baf on 2021-07-08
+2021-12-31,1434418,CONSTELLATION PHARMACEUTICALS INC,[],transaction candidate signal 6a5a1e6d99e311985717 on 2021-06-16
+2021-12-31,1439222,"AGIOS PHARMACEUTICALS, INC.","[""AGIO""]",transaction candidate signal eb8ac53a9d17030cbd0c on 2021-02-11
+2021-12-31,1557142,"Kadmon Holdings, Inc.",[],transaction candidate signal 5a89615f983a03665b04 on 2021-10-04
+2021-12-31,1561743,"Kindred Biosciences, Inc.",[],transaction candidate signal 90a0383386b5e4735a57 on 2021-07-21
+2021-12-31,1613859,"PRA Health Sciences, Inc.",[],transaction candidate signal e67d16e3c2d5e10f6cc6 on 2021-04-28
+2021-12-31,1616212,Trillium Therapeutics Inc.,[],transaction candidate signal 89bc1c29a436df09e29b on 2021-09-27
+2021-12-31,1634432,Strongbridge Biopharma plc,[],transaction candidate signal 9bde7933d1324b0b3295 on 2021-07-29
+2021-12-31,1638381,Intec Pharma Ltd.,[],transaction candidate signal 4d5f2b3d4dd3284c833c on 2021-05-14
+2021-12-31,1693415,"Translate Bio, Inc.",[],transaction candidate signal af6291dd827fb2f433f6 on 2021-08-16
+2021-12-31,1731348,"Tilray, Inc.","[""TLRY""]",transaction candidate signal 9d3fc483bb95f0c712cd on 2021-03-12
+2021-12-31,1734517,"Viela Bio, Inc.",[],transaction candidate signal 0b9ee9435fb42ac3557a on 2021-02-12
+2021-12-31,1807901,"Pandion Therapeutics, Inc.",[],transaction candidate signal 93e780a5fa3f8209e539 on 2021-03-04
+2022-12-31,25743,"TherapeuticsMD, Inc.","[""TXMD""]",transaction candidate signal 520029b12f1a295409f3 on 2022-06-13
+2022-12-31,920465,LA JOLLA PHARMACEUTICAL CO,[],transaction candidate signal acc638866fb11450bcb3 on 2022-07-25
+2022-12-31,1103021,BIODELIVERY SCIENCES INTERNATIONAL INC,[],transaction candidate signal 590309d813c7bcebf9f3 on 2022-02-14
+2022-12-31,1273636,APPLIED GENETIC TECHNOLOGIES CORP,[],transaction candidate signal 23d609a41c048e753ee5 on 2022-10-26
+2022-12-31,1290149,"Sierra Oncology, Inc.",[],transaction candidate signal ef1d9e40cc12c092058e on 2022-05-16
+2022-12-31,1325879,"AVEO PHARMACEUTICALS, INC.",[],transaction candidate signal 8b03ee1c84094ea87051 on 2022-11-25
+2022-12-31,1337553,AERIE PHARMACEUTICALS INC,[],transaction candidate signal 25270b0a93a9a194b2e7 on 2022-10-07
+2022-12-31,1340652,"ChemoCentryx, Inc.",[],transaction candidate signal ebb7e458002c72a2f8d3 on 2022-09-14
+2022-12-31,1375151,"ZOGENIX, INC.",[],transaction candidate signal 1cf9f4eb25ca4a90bff6 on 2022-02-01
+2022-12-31,1403752,Zymeworks Inc.,[],transaction candidate signal 6eb004060197d8798de0 on 2022-09-02
+2022-12-31,1428522,"Radius Health, Inc.",[],transaction candidate signal eadabd492158adb79b06 on 2022-07-13
+2022-12-31,1537917,"TYME TECHNOLOGIES, INC.",[],transaction candidate signal 001c8b47a50390877ece on 2022-08-09
+2022-12-31,1538927,"Forma Therapeutics Holdings, Inc.",[],transaction candidate signal 4879c93e7039c967cc37 on 2022-09-15
+2022-12-31,1566373,"F-star Therapeutics, Inc.",[],transaction candidate signal 2a68b1c6e56d848e74bd on 2022-07-07
+2022-12-31,1571498,"Epizyme, Inc.",[],transaction candidate signal 5c911a699ab8a9fe3a5d on 2022-07-12
+2022-12-31,1595893,"Turning Point Therapeutics, Inc.",[],transaction candidate signal 73a8c2b1e6498ead30ec on 2022-06-17
+2022-12-31,1623715,"Imago BioSciences, Inc.",[],transaction candidate signal 696cbe77a4819c73fd44 on 2022-12-12
+2022-12-31,1629137,"Global Blood Therapeutics, Inc.",[],transaction candidate signal e5f920d89c2dc143c857 on 2022-08-29
+2022-12-31,1634379,"Metacrine, Inc.",[],transaction candidate signal 513f790f3928d7316799 on 2022-11-10
+2022-12-31,1645842,Zymergen Inc.,[],transaction candidate signal df833bb1bb21cc7b0b4b on 2022-09-14
+2022-12-31,1651431,"Checkmate Pharmaceuticals, Inc.",[],transaction candidate signal 7fffc70f5fe46d2cb037 on 2022-05-02
+2022-12-31,1664106,"LogicBio Therapeutics, Inc.",[],transaction candidate signal 59c69b2f0ca9c6039c1a on 2022-10-18
+2022-12-31,1671858,"Silverback Therapeutics, Inc.","[""SPRY""]",transaction candidate signal 75e0b98bf558f99018e8 on 2022-10-06
+2022-12-31,1672619,IMARA Inc.,"[""ELVN""]",transaction candidate signal a92772ad2a21d8b1c47f on 2022-10-07
+2022-12-31,1689813,Biohaven Pharmaceutical Holding Co Ltd.,[],transaction candidate signal 2a4abfcf9d2d57a394fa on 2022-08-30
+2022-12-31,1707502,Solid Biosciences Inc.,"[""SLDB""]",transaction candidate signal 24476d6dbd4b9b6d1b99 on 2022-11-07
+2022-12-31,1720725,"Oyster Point Pharma, Inc.",[],transaction candidate signal 70b6378b0f9c0039e44e on 2022-12-01
+2022-12-31,1722271,"Akouos, Inc.",[],transaction candidate signal 534764babbb24bde76d0 on 2022-10-31
+2022-12-31,1724344,Entasis Therapeutics Holdings Inc.,[],transaction candidate signal 6e052ba417facd77d0b4 on 2022-06-07
+2022-12-31,1797336,"Ayala Pharmaceuticals, Inc.",[],transaction candidate signal cf806e51f2463f8eacc4 on 2022-12-12
+2022-12-31,1799850,"Renovacor, Inc.",[],transaction candidate signal 7cdb2a55d99391926a83 on 2022-10-31
+2022-12-31,1819253,Haymaker Acquisition Corp. III,"[""BTMD""]",transaction candidate signal bc010704f11c18e5000e on 2022-05-05
+2022-12-31,1821586,Helix Acquisition Corp,"[""MLTX""]",transaction candidate signal bfccaadcd10e8249fd2c on 2022-02-14
+2022-12-31,1828443,Ortho Clinical Diagnostics Holdings plc,[],transaction candidate signal 126c8b0a7c9f4eeafa3f on 2022-04-11
+2022-12-31,1850270,Social Capital Suvretta Holdings Corp. III,"[""PROK""]",transaction candidate signal aee3c940cbe5977d525e on 2022-06-10
+2022-12-31,1854270,Dynamics Special Purpose Corp.,"[""SNTI""]",transaction candidate signal 7888330a5d22a0a7a80e on 2022-05-13
+2023-12-31,831547,SPECTRUM PHARMACEUTICALS INC,[],transaction candidate signal 2c2ff546dec5450f8854 on 2023-06-15
+2023-12-31,887247,Adamis Pharmaceuticals Corp,"[""DMKPQ""]",transaction candidate signal 004d1b5d4cb957a8e7da on 2023-04-13
+2023-12-31,1069308,Acer Therapeutics Inc.,[],transaction candidate signal 920ac23734aa2570565a on 2023-10-10
+2023-12-31,1084201,SINOVAC BIOTECH LTD,"[""SVA""]",transaction candidate signal 598b5ebc7eb311549443 on 2023-09-05
+2023-12-31,1092662,"CHEMBIO DIAGNOSTICS, INC.",[],transaction candidate signal 9c68ddfe3cb9f6d2457c on 2023-02-14
+2023-12-31,1178711,"Paratek Pharmaceuticals, Inc.",[],transaction candidate signal 86f98c9533f599d7e85d on 2023-08-02
+2023-12-31,1270073,"INTERCEPT PHARMACEUTICALS, INC.",[],transaction candidate signal b94c0d80efe4d46e8d10 on 2023-10-11
+2023-12-31,1358762,REATA PHARMACEUTICALS INC,[],transaction candidate signal 4f654f63784bda324046 on 2023-08-22
+2023-12-31,1410939,"IVERIC bio, Inc.",[],transaction candidate signal 00c2f2b3fd51ec03d1e3 on 2023-06-05
+2023-12-31,1435049,"CHINOOK THERAPEUTICS, INC.",[],transaction candidate signal 5582a0c07e30aa9055a5 on 2023-07-10
+2023-12-31,1492426,Horizon Therapeutics Public Ltd Co,[],transaction candidate signal c937ed8052ee3490403e on 2023-01-23
+2023-12-31,1496671,"Calithera Biosciences, Inc.","[""CALA""]",transaction candidate signal 9273ad5779622f0b7f7b on 2023-06-05
+2023-12-31,1504167,"Timber Pharmaceuticals, Inc.",[],transaction candidate signal 41647ebede55140cf629 on 2023-09-12
+2023-12-31,1527096,Miromatrix Medical Inc.,[],transaction candidate signal 56cec21112ccab4286d9 on 2023-11-13
+2023-12-31,1534133,"CalciMedica, Inc.","[""CALC""]",transaction candidate signal b33534019fc79c76334f on 2023-02-09
+2023-12-31,1576263,"Mirati Therapeutics, Inc.",[],transaction candidate signal a402f1930d1e2b477f7e on 2023-11-02
+2023-12-31,1610950,"Syneos Health, Inc.",[],transaction candidate signal a3c7a7e040a0e5f6f766 on 2023-06-27
+2023-12-31,1621443,"Zynerba Pharmaceuticals, Inc.",[],transaction candidate signal 893ea9dcf9dd69421575 on 2023-08-28
+2023-12-31,1628171,"Revolution Medicines, Inc.","[""RVMD"", ""RVMDW""]",transaction candidate signal 40e8073f3d9c2af65e88 on 2023-09-29
+2023-12-31,1640455,"Jounce Therapeutics, Inc.",[],transaction candidate signal 97fb3f8fbb92b761a0e7 on 2023-03-27
+2023-12-31,1645569,"DICE Therapeutics, Inc.",[],transaction candidate signal 6443e54a16f70942c839 on 2023-06-30
+2023-12-31,1656536,"Decibel Therapeutics, Inc.",[],transaction candidate signal 374cd551df51f0fa3c37 on 2023-08-25
+2023-12-31,1662244,"Cyteir Therapeutics, Inc.",[],transaction candidate signal a76adad447825ce2de0e on 2023-10-12
+2023-12-31,1692830,"Satsuma Pharmaceuticals, Inc.",[],transaction candidate signal b27e416a0dd83cdc39ad on 2023-05-05
+2023-12-31,1695357,"Provention Bio, Inc.",[],transaction candidate signal 9ad4cc25e845241a16af on 2023-03-24
+2023-12-31,1718108,"Surface Oncology, Inc.",[],transaction candidate signal 40e65e337d5f226f8969 on 2023-07-26
+2023-12-31,1718852,"Prometheus Biosciences, Inc.",[],transaction candidate signal dd0ae7a2ea1a933eaf9c on 2023-05-16
+2023-12-31,1724979,Rain Oncology Inc.,[],transaction candidate signal 01b4e292a9f669824bbe on 2023-12-14
+2023-12-31,1748907,Orchard Therapeutics plc,[],transaction candidate signal d0352d5519e2f6e35259 on 2023-11-16
+2023-12-31,1750019,TCR2 THERAPEUTICS INC.,[],transaction candidate signal 12da705e859c126b8b62 on 2023-04-20
+2023-12-31,1755237,"Cyclerion Therapeutics, Inc.","[""CYCN""]",transaction candidate signal 30bc90d53ae7f803b5ad on 2023-06-20
+2023-12-31,1786255,"Icosavax, Inc.",[],transaction candidate signal a244abc25872eaae2e02 on 2023-12-27
+2023-12-31,1801777,Applied Molecular Transport Inc.,[],transaction candidate signal 31aad72ad431bddc2a90 on 2023-11-21
+2023-12-31,1811764,POINT Biopharma Global Inc.,[],transaction candidate signal e10aa211479d2757861a on 2023-10-13
+2023-12-31,1814140,"Apexigen, Inc.",[],transaction candidate signal e689b2d6858caeecf583 on 2023-06-30
+2023-12-31,1821323,"Sigilon Therapeutics, Inc.",[],transaction candidate signal 4f9e8d2de44f300ea593 on 2023-07-13
+2023-12-31,1822691,"GreenLight Biosciences Holdings, PBC",[],transaction candidate signal 20a0cc179140720727d8 on 2023-06-21
+2023-12-31,1822711,"PARDES BIOSCIENCES, INC.",[],transaction candidate signal 1060ea3ea20feab6fec5 on 2023-07-28
+2023-12-31,1836056,Ambrx Biopharma Inc.,[],transaction candidate signal 0c1baa2b083d57007ab7 on 2023-09-15
+2023-12-31,1836379,VectivBio Holding AG,[],transaction candidate signal 1a0f414aeab293c0fb11 on 2023-05-31
+2023-12-31,1837412,"SomaLogic, Inc.",[],transaction candidate signal fa0bc211f89e7228089a on 2023-12-01
+2023-12-31,1837607,Priveterra Acquisition Corp.,"[""AEON""]",transaction candidate signal edca86245722b33ead14 on 2023-05-12
+2023-12-31,1843762,"EQRx, Inc.",[],transaction candidate signal 7a88b9c9fcf8d1cc8bf2 on 2023-09-29
+2023-12-31,1844280,"Thorne Healthtech, Inc.",[],transaction candidate signal b52034f4a9cb666d9d72 on 2023-09-14
+2024-12-31,704562,"Avid Bioservices, Inc.","[""CDMO""]",transaction candidate signal b23ecbf7edc33f9e58ca on 2024-12-18
+2024-12-31,1042074,"CymaBay Therapeutics, Inc.",[],transaction candidate signal 7ef843d60949dbaafdac on 2024-02-23
+2024-12-31,1126234,"LUMOS PHARMA, INC.","[""LUMO""]",transaction candidate signal 902f5543ad67abaebdc4 on 2024-11-14
+2024-12-31,1261249,AGILE THERAPEUTICS INC,"[""AGRX"", ""AGXRW""]",transaction candidate signal 29ba6ed3dfcd8753f6dd on 2024-07-25
+2024-12-31,1267602,ALIMERA SCIENCES INC,"[""ALIM""]",transaction candidate signal e9a7569942cd33812d6d on 2024-08-08
+2024-12-31,1340243,MorphoSys AG,"[""MPSYF""]",transaction candidate signal 536dcf5a3eed08aea51b on 2024-04-11
+2024-12-31,1389545,"NovaBay Pharmaceuticals, Inc.","[""NBY""]",transaction candidate signal 0f2b06c701d884b571e7 on 2024-10-16
+2024-12-31,1426332,NGM BIOPHARMACEUTICALS INC,[],transaction candidate signal abbefb4ab5309115d731 on 2024-03-08
+2024-12-31,1479290,"Revance Therapeutics, Inc.","[""RVNC""]",transaction candidate signal c27caf6cf1cfad4b3b48 on 2024-12-12
+2024-12-31,1527728,RENOVARO INC.,"[""RENB""]",transaction candidate signal ca967615fc777d7d29c2 on 2024-01-03
+2024-12-31,1560241,"G1 Therapeutics, Inc.","[""GTHX""]",transaction candidate signal 6f60f86a01c069c4fc93 on 2024-08-20
+2024-12-31,1588972,"Societal CDMO, Inc.",[],transaction candidate signal e7a9f5f8d16b191588b2 on 2024-03-11
+2024-12-31,1596783,"Catalent, Inc.","[""CTLT""]",transaction candidate signal 99d1d6622bb44f6d0e71 on 2024-04-15
+2024-12-31,1601830,"RECURSION PHARMACEUTICALS, INC.","[""RXRX""]",transaction candidate signal 28e703f07eef2874bf9e on 2024-10-10
+2024-12-31,1609809,"Seres Therapeutics, Inc.","[""MCRB""]",transaction candidate signal f9ce693f0f5f89b00e66 on 2024-08-26
+2024-12-31,1626199,"ALPINE IMMUNE SCIENCES, INC.",[],transaction candidate signal ad8ff11f51925f72784d on 2024-04-22
+2024-12-31,1642375,"Guardion Health Sciences, Inc.","[""GHSI""]",transaction candidate signal 1fe988c219bf3eb62d23 on 2024-04-08
+2024-12-31,1654151,"Deciphera Pharmaceuticals, Inc.",[],transaction candidate signal 1fad96cf185d53c3e9e4 on 2024-05-13
+2024-12-31,1661460,"Poseida Therapeutics, Inc.","[""PSTX""]",transaction candidate signal d634825e2491ed8a20cb on 2024-12-09
+2024-12-31,1679363,"Morphic Holding, Inc.",[],transaction candidate signal c59bb0682594152249ab on 2024-07-19
+2024-12-31,1739614,"Inhibrx, Inc.",[],transaction candidate signal dca61a348237d47dd6f4 on 2024-04-26
+2024-12-31,1768446,"Eliem Therapeutics, Inc.","[""ELYM""]",transaction candidate signal f40b5609b0878311efb4 on 2024-06-04
+2024-12-31,1771917,"Karuna Therapeutics, Inc.",[],transaction candidate signal 0920385c85e0c2b66ced on 2024-02-05
+2024-12-31,1785345,"Landos Biopharma, Inc.",[],transaction candidate signal f78f53fa1c834863bded on 2024-04-25
+2024-12-31,1795579,Calliditas Therapeutics AB,"[""CALT""]",transaction candidate signal f42179245d3726c97ac9 on 2024-07-22
+2024-12-31,1797768,Kinnate Biopharma Inc.,[],transaction candidate signal fe23a96fea7d2938ed6f on 2024-03-04
+2024-12-31,1805387,"Cerevel Therapeutics Holdings, Inc.",[],transaction candidate signal 46b5d8b26ac3606edfb5 on 2024-01-18
+2024-12-31,1805890,Fusion Pharmaceuticals Inc.,[],transaction candidate signal a7b9ed8e557924e5c6ae on 2024-04-25
+2024-12-31,1832168,"Longboard Pharmaceuticals, Inc.","[""LBPH""]",transaction candidate signal eb36d968356d0e967eb2 on 2024-10-30
+2024-12-31,1834645,"Peak Bio, Inc.","[""PKBO"", ""PKBOW""]",transaction candidate signal f439678c5bfaf5eb9732 on 2024-10-11
+2024-12-31,1870404,"CERO THERAPEUTICS HOLDINGS, INC.","[""CERO"", ""CEROW""]",transaction candidate signal 9ed40a60034f95689955 on 2024-01-22
+2024-12-31,1907223,Redwoods Acquisition Corp.,"[""WENA"", ""WENAW""]",transaction candidate signal b2146f14b938e9102e41 on 2024-02-20
+2025-12-31,910267,TITAN PHARMACEUTICALS INC,"[""TTNP""]",transaction candidate signal b57423068ece916dbf86 on 2025-07-22
+2025-12-31,1012477,AVADEL PHARMACEUTICALS PLC,"[""AVDL""]",transaction candidate signal 876095886001a023bfeb on 2025-12-03
+2025-12-31,1106838,"Sonnet BioTherapeutics Holdings, Inc.",[],transaction candidate signal 084af7080a305244a2c3 on 2025-10-27
+2025-12-31,1117480,CHIMERIX INC,"[""CMRX""]",transaction candidate signal 31ae9c8d991880bd401b on 2025-03-21
+2025-12-31,1293971,"bluebird bio, Inc.","[""BLUE""]",transaction candidate signal 12d75b69a4da0d7ba686 on 2025-03-07
+2025-12-31,1403708,Evoke Pharma Inc,"[""EVOK""]",transaction candidate signal d1a71782fbcdf10d7bf8 on 2025-11-17
+2025-12-31,1422142,"Whitehawk Therapeutics, Inc.","[""AADI"", ""WHWK""]",transaction candidate signal d1651e83a52f34a96a84 on 2025-01-31
+2025-12-31,1442836,"Mersana Therapeutics, Inc.","[""MRSN""]",transaction candidate signal 1c15b80807398b198fcd on 2025-12-05
+2025-12-31,1445283,"KINETA, INC./DE","[""KANT""]",transaction candidate signal 98f8f610571ccd3ff2d9 on 2025-05-23
+2025-12-31,1454789,"Astria Therapeutics, Inc.","[""ATXS""]",transaction candidate signal c0c7f9de2196c8bc9c01 on 2025-12-18
+2025-12-31,1494650,"OptiNose, Inc.","[""OPTN""]",transaction candidate signal e6c7606aaaf1474a3aef on 2025-04-15
+2025-12-31,1496323,"IGM Biosciences, Inc.","[""IGMS""]",transaction candidate signal f1f1028c215ffe0eb67d on 2025-07-16
+2025-12-31,1501756,"Adverum Biotechnologies, Inc.","[""ADVM""]",transaction candidate signal 8be3e3fd5656157ded9f on 2025-11-07
+2025-12-31,1505512,Regulus Therapeutics Inc.,"[""RGLS""]",transaction candidate signal b1983ee3f73a13305cbb on 2025-05-27
+2025-12-31,1512762,"Coherus BioSciences, Inc.","[""CHRS""]",transaction candidate signal 40e41585c7469cadac1d on 2025-01-28
+2025-12-31,1564824,Allakos Inc.,"[""ALLK""]",transaction candidate signal 7970936f9ad685acc037 on 2025-04-15
+2025-12-31,1567514,"Intra-Cellular Therapies, Inc.","[""ITCI""]",transaction candidate signal 211cf2bbd42e865993bb on 2025-02-18
+2025-12-31,1597264,Blueprint Medicines Corp,"[""BPMC""]",transaction candidate signal 548641f45fec2c571914 on 2025-06-17
+2025-12-31,1597553,"Sage Therapeutics, Inc.","[""SAGE""]",transaction candidate signal 9f4e25c13b17104b33f3 on 2025-07-02
+2025-12-31,1604950,scPharmaceuticals Inc.,"[""SCPH""]",transaction candidate signal e2045f75e6e67396f93d on 2025-09-08
+2025-12-31,1610618,"Cidara Therapeutics, Inc.","[""CDTX""]",transaction candidate signal 2131c1ce020e10ba827f on 2025-12-05
+2025-12-31,1618835,"Evofem Biosciences, Inc.","[""EVFM""]",transaction candidate signal 7d0bafa7e3148c21ba90 on 2025-09-08
+2025-12-31,1651311,Merus N.V.,"[""MRUS""]",transaction candidate signal 8820d63ae0af0fadf072 on 2025-10-21
+2025-12-31,1651407,"Checkpoint Therapeutics, Inc.","[""CKPT""]",transaction candidate signal 0357b8b04db8ace803bd on 2025-04-23
+2025-12-31,1657312,Verona Pharma plc,"[""VRNA""]",transaction candidate signal 840bc07ac325f571fc41 on 2025-08-18
+2025-12-31,1693011,"Inozyme Pharma, Inc.","[""INZY""]",transaction candidate signal 923949f0178d41e6d4fc on 2025-06-02
+2025-12-31,1697532,"Applied Therapeutics, Inc.","[""APLT""]",transaction candidate signal 8d21d3868374eca39a61 on 2025-12-29
+2025-12-31,1722964,"Y-mAbs Therapeutics, Inc.","[""YMAB""]",transaction candidate signal 620dd0e4239df9e57561 on 2025-08-18
+2025-12-31,1741830,"Kronos Bio, Inc.","[""KRON""]",transaction candidate signal f8d2f3520156b1907287 on 2025-05-15
+2025-12-31,1744659,"Akero Therapeutics, Inc.","[""AKRO""]",transaction candidate signal 0e250ec1297d92fdbd18 on 2025-11-07
+2025-12-31,1760542,HOOKIPA Pharma Inc.,"[""HOOK""]",transaction candidate signal 689da78a73e7a00ddf62 on 2025-07-03
+2025-12-31,1764974,Turnstone Biologics Corp.,"[""TSBX""]",transaction candidate signal 2129a69a9a70edb66dd3 on 2025-07-11
+2025-12-31,1773427,"SpringWorks Therapeutics, Inc.","[""SWTX""]",transaction candidate signal da67b596de618839bde7 on 2025-05-28
+2025-12-31,1783032,"Elevation Oncology, Inc.","[""ELEV""]",transaction candidate signal fa8f038263eddf343700 on 2025-06-23
+2025-12-31,1785173,"89bio, Inc.","[""ETNB""]",transaction candidate signal c1f5136ea2f9f7e5a70c on 2025-10-01
+2025-12-31,1802768,Royalty Pharma plc,"[""RPRX""]",transaction candidate signal 5c145f5d28f74d52ad7a on 2025-04-11
+2025-12-31,1808158,Repare Therapeutics Inc.,"[""RPTX""]",transaction candidate signal 1a3ada162944c926efdc on 2025-12-15
+2025-12-31,1808865,"iTeos Therapeutics, Inc.","[""ITOS""]",transaction candidate signal e217552f662eb9e83b1e on 2025-08-01
+2025-12-31,1809122,CureVac N.V.,"[""CVAC""]",transaction candidate signal 10cdadfcaa6a6b899585 on 2025-10-21
+2025-12-31,1827087,"Vigil Neuroscience, Inc.","[""VIGL""]",transaction candidate signal 370a39813aa0fd8f1f6f on 2025-06-30
+2025-12-31,1827506,"Tourmaline Bio, Inc.","[""TRML""]",transaction candidate signal bf2773742dd090c33632 on 2025-09-29
+2025-12-31,1840574,"Verve Therapeutics, Inc.","[""VERV""]",transaction candidate signal b2f48fe8f936077bb891 on 2025-06-25
+2025-12-31,1840748,LAVA Therapeutics NV,"[""LVTX""]",transaction candidate signal 62c53ce038ff4abb7e9d on 2025-08-15
+2025-12-31,1840904,ATAI Life Sciences N.V.,"[""ATAI""]",transaction candidate signal 1328969bb6afb4a7bfa4 on 2025-09-24
+2025-12-31,1860782,"2seventy bio, Inc.","[""TSVT""]",transaction candidate signal 02b9764d5c067a2a835a on 2025-04-14
+2025-12-31,1888012,"HilleVax, Inc.","[""HLVX""]",transaction candidate signal 631b3d73bb55d6115a19 on 2025-08-18
+2025-12-31,1904286,"MIRA PHARMACEUTICALS, INC.","[""MIRA""]",transaction candidate signal fc5e2096bc92d08326d2 on 2025-08-08
+2025-12-31,1962918,"ACELYRIN, Inc.","[""SLRN""]",transaction candidate signal f2cff96d6e6db5cf4bbb on 2025-04-04
+2025-12-31,1966494,"CARGO Therapeutics, Inc.","[""CRGX""]",transaction candidate signal b0cfeaaf98cf870f8df3 on 2025-07-23
+2025-12-31,1971543,Mural Oncology plc,"[""MURA""]",transaction candidate signal e719f5d728c6c530255a on 2025-09-23
+2025-12-31,2040807,"Metsera, Inc.","[""MTSR""]",transaction candidate signal 44a1f9f3bb6b31d001c3 on 2025-10-17

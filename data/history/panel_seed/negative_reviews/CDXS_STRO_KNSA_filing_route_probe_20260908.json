@@ -1,0 +1,17 @@
+{
+  "attempted_at": "2026-09-08T20:26:47.544082+00:00",
+  "automatic_retry_allowed": false,
+  "complete_material_corpus_archived": false,
+  "discovery_evidence": "panel_financials/KNSA_2019_review.json; original annual filing-date evidence",
+  "effective_url": null,
+  "error": "The read operation timed out",
+  "error_type": "TimeoutError",
+  "full_text_review_complete": false,
+  "http_status": null,
+  "outcome_label": null,
+  "schema_version": "bounded-issuer-filing-route-probe-v1",
+  "source_bytes_archived": false,
+  "source_uri": "https://investors.kiniksa.com/sec-filings/sec-filing/10-k/0001558370-20-002081",
+  "status": "fetch_failed",
+  "ticker": "KNSA"
+}

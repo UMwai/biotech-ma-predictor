@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-07-23T03:03:33+00:00",
+  "start_date": "2018-01-01",
+  "end_date": "2026-07-22",
+  "dataset_version": "sec-biotech-deal-candidates-0.1.0",
+  "semantics": "transaction candidate/adjudication queue; not frozen model labels",
+  "coverage": {
+    "sec_documents": 4077,
+    "candidate_clusters": 336,
+    "tender_offer_target_candidates": 150,
+    "merger_proxy_review_candidates": 186,
+    "model_label_eligible": 0,
+    "annual_report_documents": 71131,
+    "annual_risk_set_rows": 5366,
+    "annual_risk_set_exclusions": 245,
+    "complete_outcome_rows": 4653,
+    "censored_outcome_rows": 713,
+    "provisional_forward_tender_offer_signals": 123,
+    "provisional_forward_any_transaction_signals": 263
+  },
+  "validation": {
+    "rows": 336,
+    "unique_candidate_ids": 336,
+    "unique_cik_signal_dates": 336
+  },
+  "biotech_sic_codes": [
+    "2833",
+    "2834",
+    "2835",
+    "2836",
+    "8731"
+  ],
+  "label_gate": {
+    "required_fields": [
+      "reviewed target identity",
+      "first public announcement timestamp",
+      "change-of-control classification",
+      "transaction outcome class"
+    ],
+    "training_allowed": false,
+    "risk_set_semantics": "contemporaneous annual SEC reporting-company proxy; not historical exchange membership"
+  },
+  "sources": [
+    "SEC EDGAR full-text search: SC 14D9 and DEFM14A",
+    "SEC EDGAR Archives primary filing documents"
+  ],
+  "outputs": {
+    "candidates": "candidates.csv",
+    "adjudication_template": "adjudication_template.csv",
+    "annual_risk_set": "annual_risk_set.csv",
+    "annual_risk_set_exclusions": "annual_risk_set_exclusions.csv",
+    "summary": "summary.md"
+  }
+}

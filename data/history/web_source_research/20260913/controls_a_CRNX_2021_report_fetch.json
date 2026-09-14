@@ -1,0 +1,11 @@
+{
+  "attempted_at": "2026-09-13T16:07:16.168102+00:00",
+  "automatic_retry_allowed": false,
+  "error": "HTTP Error 404: Not Found",
+  "error_type": "HTTPError",
+  "http_status": 404,
+  "name": "CRNX_2021_report",
+  "outcome_label": null,
+  "source_url": "https://ir.crinetics.com/static-files/f2ab73b2-87cd-4ae1-9f60-aab453a3b245",
+  "status": "failed"
+}

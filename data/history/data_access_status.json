@@ -1,0 +1,31 @@
+{
+  "schema_version": "historical-data-access-status-v1",
+  "recorded_at": "2026-09-08T14:13:32.667735+00:00",
+  "sec_financial_api": {
+    "status": "blocked",
+    "http_status": 403,
+    "endpoint": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000882095.json",
+    "request_identity": "BiotechMAPredictor public repository identifier; no private email used",
+    "attempts": 1,
+    "financial_payload_received": false,
+    "next_step": "Provide SEC contact header or import saved SEC companyfacts/submissions exports; contact does not guarantee network access"
+  },
+  "historical_listing_api": {
+    "provider": "Alpha Vantage",
+    "status": "requested_dates_unavailable_with_demo",
+    "tested_dates": [
+      "2018-01-02",
+      "2021-01-04"
+    ],
+    "http_status": 200,
+    "payload": "{}",
+    "eligible_rows": 0,
+    "next_step": "Configure an individual provider API key or supply historical listing exports; published demo only supplied its fixed example"
+  },
+  "comparison_outcomes": {
+    "status": "incomplete",
+    "reviewed_negative_windows": 0,
+    "unknown_windows": 18,
+    "positive_windows": 2
+  }
+}

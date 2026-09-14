@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://efts.sec.gov/LATEST/search-index?ciks=0001787306&dateRange=custom&startdt=2022-01-01&enddt=2022-03-31&from=0&size=100",
+    "retrieved_at": "2026-09-08T19:51:47.312845+00:00",
+    "start_date": "2022-01-01",
+    "end_date": "2022-03-31",
+    "from": 0,
+    "path": "ARQT_efts_2022-01-01_2022-03-31_0_e96890daf922bd574e975fcd0935fd13d4d3c71d61def22c58977818216e8e25.json",
+    "sha256": "e96890daf922bd574e975fcd0935fd13d4d3c71d61def22c58977818216e8e25",
+    "size_bytes": 22209,
+    "total": {
+      "value": 30,
+      "relation": "eq"
+    },
+    "returned": 30
+  }
+]

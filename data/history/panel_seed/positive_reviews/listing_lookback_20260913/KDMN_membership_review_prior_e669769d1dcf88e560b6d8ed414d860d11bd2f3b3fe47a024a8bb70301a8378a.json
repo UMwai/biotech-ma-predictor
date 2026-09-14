@@ -1,0 +1,43 @@
+{
+  "records": [
+    {
+      "baseline_review": {
+        "source_sha256": "3dd8b1e2d615c7ccdec5234c109cebf06fccdf77d41c5d2f434dc42208a7e05b",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/KDMN_baseline_review.json"
+      },
+      "biotech_eligible": true,
+      "biotech_source_uri": "https://www.sec.gov/Archives/edgar/data/1557142/000114036121030604/ny20000665x1_ex99-1.htm",
+      "cik": 1557142,
+      "company_name": "Kadmon Holdings, Inc.",
+      "evidence_paraphrase": "The archived exchange addition table names KDMN among operating biotechnology issuers effective December 21, 2020. The preliminary proxy identifies listed Nasdaq KDMN common stock. The SEC index dates its public filing September 21, 2021. The conservative interval ends at the start of that documented listed day; this is not a delisting-date assertion.",
+      "exchange": "Nasdaq",
+      "exchange_frame_source": {
+        "bytes": 157264,
+        "content_type": "text/html; charset=UTF-8",
+        "resolved_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+        "retrieved_at": "2026-09-08T17:20:38.390390+00:00",
+        "source_relative_path": "raw/923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955.html",
+        "source_sha256": "923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955",
+        "source_uri": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6"
+      },
+      "identity_source_locator": "Target company named on filing cover, common-stock class, subject issuer CIK in immutable SEC accession path; announcement exhibit explicitly names historical Nasdaq ticker.",
+      "identity_source_uri": "https://www.sec.gov/Archives/edgar/data/1557142/000114036121031968/ny20000668x1_prem14a.htm",
+      "independent_human_review": false,
+      "interval_method": "Conservative retrospective membership interval from actual exchange membership through a subsequently evidenced listed date; no claim of continuous current index membership or daily executable liquidity.",
+      "kind": "historical_exchange_membership",
+      "original_source_sha256": null,
+      "pending_transaction_review_complete": true,
+      "primary_source_uri": "https://www.sec.gov/Archives/edgar/data/1557142/000114036121031968/ny20000668x1_prem14a.htm",
+      "raw_bytes_archived": false,
+      "reviewed_at": "2026-09-08T18:23:26.321520+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "security_type": "common_equity",
+      "source_locator": "Nasdaq December 2020 addition table, KDMN row, plus Parties to the Merger, page 1 and page 18; lines 240-242 and 708; SEC accession index filing date September 21",
+      "ticker": "KDMN",
+      "valid_from": "2020-12-21T00:00:00+00:00",
+      "valid_until": "2021-09-21T00:00:00+00:00"
+    }
+  ],
+  "reviewed_at": "2026-09-08T18:23:26.321520+00:00",
+  "schema_version": "reviewed-historical-membership-v1"
+}

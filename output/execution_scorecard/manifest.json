@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-07-28",
+  "companies": 760,
+  "coverage_counts": {
+    "company_specific_evidence": 2,
+    "market_only_risk_unscreened": 281,
+    "sparse_risk_unscreened": 477
+  },
+  "generated_at": "2026-07-28T08:19:26+00:00",
+  "interpretation": "Research triage scores, not calibrated probabilities or findings of incompetence, fraud, or individual culpability.",
+  "markers": 7,
+  "outcome_labels_used_as_features": false,
+  "outlook_counts": {
+    "downside_led": 2,
+    "insufficient_risk_evidence": 696,
+    "upside_proxy_risk_unscreened": 62
+  },
+  "schema_version": "execution-scorecard-v1"
+}

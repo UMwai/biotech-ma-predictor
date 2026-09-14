@@ -1,0 +1,1352 @@
+{
+  "cik": 1711279,
+  "end_date": "2022-03-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:54:32.787197+00:00",
+      "returned": 19,
+      "source_bytes": 14637,
+      "source_relative_path": "raw_sources/0b5a09e4c438c700b941c82cc7772e86557c709d64a4b2b59d2dcb77f6516eda.json",
+      "source_sha256": "0b5a09e4c438c700b941c82cc7772e86557c709d64a4b2b59d2dcb77f6516eda",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001711279&dateRange=custom&startdt=2022-01-01&enddt=2022-03-31&from=0&size=100",
+      "total": 19
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001193125-22-086630",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1711279/000119312522086630/d287446d8k.htm"
+      ],
+      "ciks": [
+        "0001711279"
+      ],
+      "display_names": [
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+      ],
+      "document_name": "d287446d8k.htm",
+      "filed_date": "2022-03-28",
+      "form": "8-K",
+      "id": "0001193125-22-086630:d287446d8k.htm",
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-22-086630:d287446d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-22-086630",
+          "biz_locations": [
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001711279"
+          ],
+          "display_names": [
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+          ],
+          "file_date": "2022-03-28",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38210"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22775508"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2022-03-26",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1648425600000,
+          "0001193125-22-086630:d287446d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001711279-22-000010",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1711279/000171127922000010/krys-20220322.htm"
+      ],
+      "ciks": [
+        "0001711279"
+      ],
+      "display_names": [
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+      ],
+      "document_name": "krys-20220322.htm",
+      "filed_date": "2022-03-22",
+      "form": "8-K",
+      "id": "0001711279-22-000010:krys-20220322.htm",
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001711279-22-000010:krys-20220322.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001711279-22-000010",
+          "biz_locations": [
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001711279"
+          ],
+          "display_names": [
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+          ],
+          "file_date": "2022-03-22",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38210"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22760155"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2022-03-22",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1647907200000,
+          "0001711279-22-000010:krys-20220322.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-22-076041",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1711279/000119312522076041/d336267d8k.htm"
+      ],
+      "ciks": [
+        "0001711279"
+      ],
+      "display_names": [
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+      ],
+      "document_name": "d336267d8k.htm",
+      "filed_date": "2022-03-15",
+      "form": "8-K",
+      "id": "0001193125-22-076041:d336267d8k.htm",
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-22-076041:d336267d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-22-076041",
+          "biz_locations": [
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001711279"
+          ],
+          "display_names": [
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+          ],
+          "file_date": "2022-03-15",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38210"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22741240"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2022-03-15",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1647302400000,
+          "0001193125-22-076041:d336267d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001860010-22-000002",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1860010/000186001022000002/wf-form4_164618775853736.xml",
+        "https://www.sec.gov/Archives/edgar/data/1711279/000186001022000002/wf-form4_164618775853736.xml"
+      ],
+      "ciks": [
+        "0001860010",
+        "0001711279"
+      ],
+      "display_names": [
+        "ORTH ANDREW C.  (CIK 0001860010)",
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+      ],
+      "document_name": "wf-form4_164618775853736.xml",
+      "filed_date": "2022-03-01",
+      "form": "4",
+      "id": "0001860010-22-000002:wf-form4_164618775853736.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001860010-22-000002:wf-form4_164618775853736.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001860010-22-000002",
+          "biz_locations": [
+            "",
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001860010",
+            "0001711279"
+          ],
+          "display_names": [
+            "ORTH ANDREW C.  (CIK 0001860010)",
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+          ],
+          "file_date": "2022-03-01",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-38210"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22701020"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2022-02-28",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1646092800000,
+          "0001860010-22-000002:wf-form4_164618775853736.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001801385-22-000005",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1801385/000180138522000005/wf-form4_164618791185342.xml",
+        "https://www.sec.gov/Archives/edgar/data/1711279/000180138522000005/wf-form4_164618791185342.xml"
+      ],
+      "ciks": [
+        "0001801385",
+        "0001711279"
+      ],
+      "display_names": [
+        "Romano Kathryn  (CIK 0001801385)",
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+      ],
+      "document_name": "wf-form4_164618791185342.xml",
+      "filed_date": "2022-03-01",
+      "form": "4",
+      "id": "0001801385-22-000005:wf-form4_164618791185342.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001801385-22-000005:wf-form4_164618791185342.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001801385-22-000005",
+          "biz_locations": [
+            "",
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001801385",
+            "0001711279"
+          ],
+          "display_names": [
+            "Romano Kathryn  (CIK 0001801385)",
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+          ],
+          "file_date": "2022-03-01",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-38210"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22701036"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2022-02-26",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1646092800000,
+          "0001801385-22-000005:wf-form4_164618791185342.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001298711-22-000003",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1298711/000129871122000003/wf-form4_164618760010701.xml",
+        "https://www.sec.gov/Archives/edgar/data/1711279/000129871122000003/wf-form4_164618760010701.xml"
+      ],
+      "ciks": [
+        "0001298711",
+        "0001711279"
+      ],
+      "display_names": [
+        "Krishnan Suma  (CIK 0001298711)",
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+      ],
+      "document_name": "wf-form4_164618760010701.xml",
+      "filed_date": "2022-03-01",
+      "form": "4",
+      "id": "0001298711-22-000003:wf-form4_164618760010701.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001298711-22-000003:wf-form4_164618760010701.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001298711-22-000003",
+          "biz_locations": [
+            "",
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001298711",
+            "0001711279"
+          ],
+          "display_names": [
+            "Krishnan Suma  (CIK 0001298711)",
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+          ],
+          "file_date": "2022-03-01",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-38210"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22701006"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2022-02-26",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1646092800000,
+          "0001298711-22-000003:wf-form4_164618760010701.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001298709-22-000003",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1298709/000129870922000003/wf-form4_164618746275382.xml",
+        "https://www.sec.gov/Archives/edgar/data/1711279/000129870922000003/wf-form4_164618746275382.xml"
+      ],
+      "ciks": [
+        "0001298709",
+        "0001711279"
+      ],
+      "display_names": [
+        "Krishnan Krish S  (CIK 0001298709)",
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+      ],
+      "document_name": "wf-form4_164618746275382.xml",
+      "filed_date": "2022-03-01",
+      "form": "4",
+      "id": "0001298709-22-000003:wf-form4_164618746275382.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001298709-22-000003:wf-form4_164618746275382.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001298709-22-000003",
+          "biz_locations": [
+            "",
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001298709",
+            "0001711279"
+          ],
+          "display_names": [
+            "Krishnan Krish S  (CIK 0001298709)",
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+          ],
+          "file_date": "2022-03-01",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-38210"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22700992"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2022-02-26",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1646092800000,
+          "0001298709-22-000003:wf-form4_164618746275382.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001711279-22-000007",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1711279/000171127922000007/krys-20220225.htm"
+      ],
+      "ciks": [
+        "0001711279"
+      ],
+      "display_names": [
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+      ],
+      "document_name": "krys-20220225.htm",
+      "filed_date": "2022-02-28",
+      "form": "8-K",
+      "id": "0001711279-22-000007:krys-20220225.htm",
+      "items": [
+        "2.02",
+        "5.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001711279-22-000007:krys-20220225.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001711279-22-000007",
+          "biz_locations": [
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001711279"
+          ],
+          "display_names": [
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+          ],
+          "file_date": "2022-02-28",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38210"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22691307"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "2.02",
+            "5.02",
+            "9.01"
+          ],
+          "period_ending": "2022-02-25",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1646006400000,
+          "0001711279-22-000007:krys-20220225.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001711279-22-000004",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1711279/000171127922000004/krys-20211231.htm"
+      ],
+      "ciks": [
+        "0001711279"
+      ],
+      "display_names": [
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+      ],
+      "document_name": "krys-20211231.htm",
+      "filed_date": "2022-02-28",
+      "form": "10-K",
+      "id": "0001711279-22-000004:krys-20211231.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001711279-22-000004:krys-20211231.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001711279-22-000004",
+          "biz_locations": [
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001711279"
+          ],
+          "display_names": [
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+          ],
+          "file_date": "2022-02-28",
+          "file_description": "10-K",
+          "file_num": [
+            "001-38210"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "22683916"
+          ],
+          "form": "10-K",
+          "inc_states": [],
+          "items": [],
+          "period_ending": "2021-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1646006400000,
+          "0001711279-22-000004:krys-20211231.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-22-045526",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1711279/000119312522045526/d319130ds8.htm"
+      ],
+      "ciks": [
+        "0001711279"
+      ],
+      "display_names": [
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+      ],
+      "document_name": "d319130ds8.htm",
+      "filed_date": "2022-02-17",
+      "form": "S-8",
+      "id": "0001193125-22-045526:d319130ds8.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-22-045526:d319130ds8.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-22-045526",
+          "biz_locations": [
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001711279"
+          ],
+          "display_names": [
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+          ],
+          "file_date": "2022-02-17",
+          "file_description": "FORM S-8",
+          "file_num": [
+            "333-262825"
+          ],
+          "file_type": "S-8",
+          "film_num": [
+            "22648990"
+          ],
+          "form": "S-8",
+          "inc_states": [],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1645056000000,
+          "0001193125-22-045526:d319130ds8.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-22-023140",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1711279/000110465922023140/tm226094d28_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1425738/000110465922023140/tm226094d28_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001711279",
+        "0001425738"
+      ],
+      "display_names": [
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)",
+        "Redmile Group, LLC  (CIK 0001425738)"
+      ],
+      "document_name": "tm226094d28_sc13ga.htm",
+      "filed_date": "2022-02-14",
+      "form": "SC 13G/A",
+      "id": "0001104659-22-023140:tm226094d28_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-22-023140:tm226094d28_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-22-023140",
+          "biz_locations": [
+            "Pittsburgh, PA",
+            "San Francisco, CA"
+          ],
+          "biz_states": [
+            "PA",
+            "CA"
+          ],
+          "ciks": [
+            "0001711279",
+            "0001425738"
+          ],
+          "display_names": [
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)",
+            "Redmile Group, LLC  (CIK 0001425738)"
+          ],
+          "file_date": "2022-02-14",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-90133"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22634493"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644796800000,
+          "0001104659-22-023140:tm226094d28_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899140-22-000342",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1711279/000089914022000342/k020822a.htm",
+        "https://www.sec.gov/Archives/edgar/data/1603466/000089914022000342/k020822a.htm"
+      ],
+      "ciks": [
+        "0001711279",
+        "0001603466"
+      ],
+      "display_names": [
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)",
+        "Point72 Asset Management, L.P.  (CIK 0001603466)"
+      ],
+      "document_name": "k020822a.htm",
+      "filed_date": "2022-02-14",
+      "form": "SC 13G/A",
+      "id": "0000899140-22-000342:k020822a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899140-22-000342:k020822a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899140-22-000342",
+          "biz_locations": [
+            "Pittsburgh, PA",
+            "Stamford, CT"
+          ],
+          "biz_states": [
+            "PA",
+            "CT"
+          ],
+          "ciks": [
+            "0001711279",
+            "0001603466"
+          ],
+          "display_names": [
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)",
+            "Point72 Asset Management, L.P.  (CIK 0001603466)"
+          ],
+          "file_date": "2022-02-14",
+          "file_description": "SCHEDULE 13G (AMENDMENT NO. 1)",
+          "file_num": [
+            "005-90133"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22633787"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644796800000,
+          "0000899140-22-000342:k020822a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000315066-22-001049",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1711279/000031506622001049/filing.txt",
+        "https://www.sec.gov/Archives/edgar/data/315066/000031506622001049/filing.txt"
+      ],
+      "ciks": [
+        "0001711279",
+        "0000315066"
+      ],
+      "display_names": [
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "document_name": "filing.txt",
+      "filed_date": "2022-02-09",
+      "form": "SC 13G/A",
+      "id": "0000315066-22-001049:filing.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000315066-22-001049:filing.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000315066-22-001049",
+          "biz_locations": [
+            "Pittsburgh, PA",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "PA",
+            "MA"
+          ],
+          "ciks": [
+            "0001711279",
+            "0000315066"
+          ],
+          "display_names": [
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)",
+            "FMR LLC  (CIK 0000315066)"
+          ],
+          "file_date": "2022-02-09",
+          "file_description": null,
+          "file_num": [
+            "005-90133"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22604413"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836",
+            "0000"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1644364800000,
+          "0000315066-22-001049:filing.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0000834237-22-006360",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1711279/000083423722006360/us5011471027_020322.txt",
+        "https://www.sec.gov/Archives/edgar/data/1364742/000083423722006360/us5011471027_020322.txt"
+      ],
+      "ciks": [
+        "0001711279",
+        "0001364742"
+      ],
+      "display_names": [
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)",
+        "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+      ],
+      "document_name": "us5011471027_020322.txt",
+      "filed_date": "2022-02-03",
+      "form": "SC 13G/A",
+      "id": "0000834237-22-006360:us5011471027_020322.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000834237-22-006360:us5011471027_020322.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000834237-22-006360",
+          "biz_locations": [
+            "Pittsburgh, PA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "PA",
+            "NY"
+          ],
+          "ciks": [
+            "0001711279",
+            "0001364742"
+          ],
+          "display_names": [
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)",
+            "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+          ],
+          "file_date": "2022-02-03",
+          "file_description": null,
+          "file_num": [
+            "005-90133"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "22589099"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836",
+            "6211"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1643846400000,
+          "0000834237-22-006360:us5011471027_020322.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0001062993-22-002225",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1198325/000106299322002225/form5.xml",
+        "https://www.sec.gov/Archives/edgar/data/1711279/000106299322002225/form5.xml"
+      ],
+      "ciks": [
+        "0001198325",
+        "0001711279"
+      ],
+      "display_names": [
+        "JANNEY DANIEL  (CIK 0001198325)",
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+      ],
+      "document_name": "form5.xml",
+      "filed_date": "2022-02-02",
+      "form": "5",
+      "id": "0001062993-22-002225:form5.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001062993-22-002225:form5.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001062993-22-002225",
+          "biz_locations": [
+            "",
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001198325",
+            "0001711279"
+          ],
+          "display_names": [
+            "JANNEY DANIEL  (CIK 0001198325)",
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+          ],
+          "file_date": "2022-02-02",
+          "file_description": "ANNUAL STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP",
+          "file_num": [
+            "001-38210"
+          ],
+          "file_type": "5",
+          "film_num": [
+            "22584250"
+          ],
+          "form": "5",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2021-12-30",
+          "root_forms": [
+            "5"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1643760000000,
+          "0001062993-22-002225:form5.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001852880-22-000002",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1852880/000185288022000002/wf-form4_164366560575664.xml",
+        "https://www.sec.gov/Archives/edgar/data/1711279/000185288022000002/wf-form4_164366560575664.xml"
+      ],
+      "ciks": [
+        "0001852880",
+        "0001711279"
+      ],
+      "display_names": [
+        "Sutherland Everett Rand  (CIK 0001852880)",
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+      ],
+      "document_name": "wf-form4_164366560575664.xml",
+      "filed_date": "2022-01-31",
+      "form": "4",
+      "id": "0001852880-22-000002:wf-form4_164366560575664.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001852880-22-000002:wf-form4_164366560575664.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001852880-22-000002",
+          "biz_locations": [
+            "",
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001852880",
+            "0001711279"
+          ],
+          "display_names": [
+            "Sutherland Everett Rand  (CIK 0001852880)",
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+          ],
+          "file_date": "2022-01-31",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-38210"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22574631"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2022-01-31",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1643587200000,
+          "0001852880-22-000002:wf-form4_164366560575664.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001834528-22-000003",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1834528/000183452822000003/wf-form4_164366801686527.xml",
+        "https://www.sec.gov/Archives/edgar/data/1711279/000183452822000003/wf-form4_164366801686527.xml"
+      ],
+      "ciks": [
+        "0001834528",
+        "0001711279"
+      ],
+      "display_names": [
+        "Marantz Jing L.  (CIK 0001834528)",
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+      ],
+      "document_name": "wf-form4_164366801686527.xml",
+      "filed_date": "2022-01-31",
+      "form": "4",
+      "id": "0001834528-22-000003:wf-form4_164366801686527.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001834528-22-000003:wf-form4_164366801686527.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001834528-22-000003",
+          "biz_locations": [
+            "",
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001834528",
+            "0001711279"
+          ],
+          "display_names": [
+            "Marantz Jing L.  (CIK 0001834528)",
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+          ],
+          "file_date": "2022-01-31",
+          "file_description": "FORM 4",
+          "file_num": [
+            "001-38210"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "22575279"
+          ],
+          "form": "4",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2022-01-31",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1643587200000,
+          "0001834528-22-000003:wf-form4_164366801686527.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001062993-22-001614",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1852880/000106299322001614/form3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1711279/000106299322001614/form3.xml"
+      ],
+      "ciks": [
+        "0001852880",
+        "0001711279"
+      ],
+      "display_names": [
+        "Sutherland Everett Rand  (CIK 0001852880)",
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+      ],
+      "document_name": "form3.xml",
+      "filed_date": "2022-01-26",
+      "form": "3",
+      "id": "0001062993-22-001614:form3.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001062993-22-001614:form3.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001062993-22-001614",
+          "biz_locations": [
+            "",
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001852880",
+            "0001711279"
+          ],
+          "display_names": [
+            "Sutherland Everett Rand  (CIK 0001852880)",
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+          ],
+          "file_date": "2022-01-26",
+          "file_description": "INITIAL STATEMENT OF BENEFICIAL OWNERSHIP OF SECURITIES",
+          "file_num": [
+            "001-38210"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "22558658"
+          ],
+          "form": "3",
+          "inc_states": [
+            ""
+          ],
+          "items": [],
+          "period_ending": "2022-01-18",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1643155200000,
+          "0001062993-22-001614:form3.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-22-011224",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1711279/000119312522011224/d294817d8k.htm"
+      ],
+      "ciks": [
+        "0001711279"
+      ],
+      "display_names": [
+        "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+      ],
+      "document_name": "d294817d8k.htm",
+      "filed_date": "2022-01-18",
+      "form": "8-K",
+      "id": "0001193125-22-011224:d294817d8k.htm",
+      "items": [
+        "5.02",
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-22-011224:d294817d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-22-011224",
+          "biz_locations": [
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "PA"
+          ],
+          "ciks": [
+            "0001711279"
+          ],
+          "display_names": [
+            "Krystal Biotech, Inc.  (KRYS)  (CIK 0001711279)"
+          ],
+          "file_date": "2022-01-18",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38210"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "22535230"
+          ],
+          "form": "8-K",
+          "inc_states": [],
+          "items": [
+            "5.02",
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2022-01-18",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1642464000000,
+          "0001193125-22-011224:d294817d8k.htm"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2022-01-01",
+  "ticker": "KRYS",
+  "total": 19
+}

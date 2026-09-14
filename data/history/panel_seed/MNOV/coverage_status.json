@@ -1,0 +1,13 @@
+{
+  "attempt_times_not_recorded_individually": true,
+  "detail": "Public Year=None archive returned 307 entries: 24 dated 2020 and 28 dated 2021. Sixteen 2021 bodies were reviewed; no 2020 bodies were reviewed. Twelve 2021 bodies remain without a complete archived review. Filtered 2020 and 2022 archive requests timed out; the all-years inventory recovered those enumeration gaps.",
+  "individual_attempt_at": null,
+  "later_retrieval_recorded_as_historical_review": false,
+  "negative_label_assigned": false,
+  "recorded_at": "2026-09-08T18:01:10.121815+00:00",
+  "reviewed_outcome_window_count": 0,
+  "schema_version": "issuer-coverage-status-v1",
+  "status": "unknown_incomplete_source_coverage",
+  "ticker": "MNOV",
+  "training_allowed": false
+}

@@ -16,7 +16,6 @@ from sqlalchemy.ext.asyncio import (
     async_sessionmaker,
     create_async_engine,
 )
-from sqlalchemy.pool import NullPool, QueuePool
 
 from src.config import settings
 
@@ -75,7 +74,6 @@ class DatabaseManager:
         instance._engine = create_async_engine(
             settings.postgres_dsn,
             echo=echo,
-            poolclass=QueuePool,
             pool_size=pool_size,
             max_overflow=max_overflow,
             pool_timeout=pool_timeout,

@@ -1,0 +1,33 @@
+{
+  "archive_year": 2025,
+  "earliest_indexed_date": "2025-01-06",
+  "full_year_archive_complete": false,
+  "issuer": "ARQT",
+  "limitation": "First2025page count did not reconcile because featured/inventory overlap; this receipt only captures the terminal oldest entries for boundary review.",
+  "page": 5,
+  "rows": [
+    {
+      "date": "2025-01-12",
+      "title": "Arcutis Announces Preliminary Unaudited Fourth Quarter Product Revenue and Full-Year 2024 Product Revenues of Approximately $63 Million and $160 Million",
+      "url": "https://www.arcutis.com/arcutis-announces-preliminary-unaudited-fourth-quarter-product-revenue-and-full-year-2024-product-revenues-of-approximately-63-million-and-160-million/"
+    },
+    {
+      "date": "2025-01-06",
+      "title": "Arcutis Biotherapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "url": "https://www.arcutis.com/arcutis-biotherapeutics-reports-inducement-grants-under-nasdaq-listing-rule-5635c4-32/"
+    }
+  ],
+  "schema_version": "issuer-boundary-page-v1",
+  "source": {
+    "content_type": "text/html; charset=UTF-8",
+    "http_status": 200,
+    "resolved_url": "https://www.arcutis.com/news-media/?_publications_year=2025&_paged=5",
+    "retrieved_at": "2026-09-08T17:58:17.776843+00:00",
+    "source_bytes": 154671,
+    "source_relative_path": "raw_sources/8de1d425c8fcf5fbb723e8b5af95c4a976aae44cbac756f8424d45fdfaac01ba.html",
+    "source_sha256": "8de1d425c8fcf5fbb723e8b5af95c4a976aae44cbac756f8424d45fdfaac01ba",
+    "url": "https://www.arcutis.com/news-media/?_publications_year=2025&_paged=5"
+  },
+  "terminal_page": true,
+  "total_pages": 5
+}

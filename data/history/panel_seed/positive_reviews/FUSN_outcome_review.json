@@ -1,0 +1,35 @@
+{
+  "records": [
+    {
+      "acquirer_name": "AstraZeneca",
+      "announced_at": null,
+      "announcement_date": "2024-03-19",
+      "announcement_lower_at": "2024-03-18T10:00:00+00:00",
+      "announcement_upper_at": "2024-03-20T12:00:00+00:00",
+      "baseline_review": {
+        "source_sha256": "61026e95ed529a622a43bd1f0e1d354d1208102c4af3df1245c8eba90df51df8",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/FUSN_baseline_review.json"
+      },
+      "change_of_control_percent": 100.0,
+      "event_id": "1805890:2024-03-19",
+      "label": "definitive_change_of_control_announcement",
+      "original_source_sha256": null,
+      "primary_source_url": "https://www.sec.gov/Archives/edgar/data/1805890/000119312524070701/d739068dex992.htm",
+      "raw_bytes_archived": false,
+      "review_notes": "The 2020 AstraZeneca collaboration concerned radioconjugate programs. Private discussions with another party in 2023 ceased without a proposal. A December 26 request to meet led to January 2024 collaboration discussions; AstraZeneca first expressed acquisition interest January 26. Private bidding, competing-party outreach, diligence and exclusivity followed in February. The board approved and the parties executed the arrangement March 18, then publicly announced March 19 before UK and US markets opened. The pre-cutoff collaboration and preliminary contacts were not an executed or publicly definitive whole-company sale.",
+      "review_scope": "Whole-company definitive public announcement, checked against the complete disclosed merger chronology. Proposed ownership is not completed ownership. Agent source review, not an independent human or exhaustive first-news audit.",
+      "reviewed_at": "2026-09-08T20:02:58.622812+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "source_retrieved_at": "2026-09-08T20:02:58.622812+00:00",
+      "target_cik": 1805890,
+      "target_name": "Fusion Pharmaceuticals Inc.",
+      "target_ticker": "FUSN",
+      "timestamp_precision": "date",
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2024-03-19",
+      "transaction_structure": "merger"
+    }
+  ],
+  "reviewed_at": "2026-09-08T20:02:58.622812+00:00",
+  "schema_version": "reviewed-positive-control-event-v1"
+}

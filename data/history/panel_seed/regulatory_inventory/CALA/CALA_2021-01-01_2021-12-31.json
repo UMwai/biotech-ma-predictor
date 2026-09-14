@@ -1,0 +1,4504 @@
+{
+  "cik": 1496671,
+  "end_date": "2021-12-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T19:53:50.781888+00:00",
+      "returned": 63,
+      "source_bytes": 45259,
+      "source_relative_path": "raw_sources/bf3cd71963e7b378f1229c7df4ec14a997fdf3a4b84509c8e3fd946bf8503cbc.json",
+      "source_sha256": "bf3cd71963e7b378f1229c7df4ec14a997fdf3a4b84509c8e3fd946bf8503cbc",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001496671&dateRange=custom&startdt=2021-01-01&enddt=2021-12-31&from=0&size=100",
+      "total": 63
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001193125-21-370585",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000119312521370585/d281999d8k.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "d281999d8k.htm",
+      "filed_date": "2021-12-30",
+      "form": "8-K",
+      "id": "0001193125-21-370585:d281999d8k.htm",
+      "items": [
+        "3.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-370585:d281999d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-370585",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-12-30",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211532909"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "3.01"
+          ],
+          "period_ending": "2021-12-30",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1640822400000,
+          "0001193125-21-370585:d281999d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001623632-21-001557",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000162363221001557/form18510.htm",
+        "https://www.sec.gov/Archives/edgar/data/1056288/000162363221001557/form18510.htm"
+      ],
+      "ciks": [
+        "0001496671",
+        "0001056288"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+        "FEDERATED HERMES, INC.  (FHI)  (CIK 0001056288)"
+      ],
+      "document_name": "form18510.htm",
+      "filed_date": "2021-12-10",
+      "form": "SC 13G/A",
+      "id": "0001623632-21-001557:form18510.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001623632-21-001557:form18510.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001623632-21-001557",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "CA",
+            "PA"
+          ],
+          "ciks": [
+            "0001496671",
+            "0001056288"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+            "FEDERATED HERMES, INC.  (FHI)  (CIK 0001056288)"
+          ],
+          "file_date": "2021-12-10",
+          "file_description": null,
+          "file_num": [
+            "005-88349"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "211484586"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "PA"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6282"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1639094400000,
+          "0001623632-21-001557:form18510.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-21-142470",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000110465921142470/tm2133620d1_sc13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/1423053/000110465921142470/tm2133620d1_sc13g.htm"
+      ],
+      "ciks": [
+        "0001496671",
+        "0001423053"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+        "CITADEL ADVISORS LLC  (CIK 0001423053)"
+      ],
+      "document_name": "tm2133620d1_sc13g.htm",
+      "filed_date": "2021-11-22",
+      "form": "SC 13G",
+      "id": "0001104659-21-142470:tm2133620d1_sc13g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-21-142470:tm2133620d1_sc13g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-21-142470",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Chicago, IL"
+          ],
+          "biz_states": [
+            "CA",
+            "IL"
+          ],
+          "ciks": [
+            "0001496671",
+            "0001423053"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+            "CITADEL ADVISORS LLC  (CIK 0001423053)"
+          ],
+          "file_date": "2021-11-22",
+          "file_description": "CALITHERA BIOSCIENCES, INC.",
+          "file_num": [
+            "005-88349"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "211432529"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1637539200000,
+          "0001104659-21-142470:tm2133620d1_sc13g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-044426",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1670740/000089924321044426/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321044426/doc4.xml"
+      ],
+      "ciks": [
+        "0001670740",
+        "0001496671"
+      ],
+      "display_names": [
+        "Orford Keith  (CIK 0001670740)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-11-12",
+      "form": "4",
+      "id": "0000899243-21-044426:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-044426:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-044426",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001670740",
+            "0001496671"
+          ],
+          "display_names": [
+            "Orford Keith  (CIK 0001670740)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-11-12",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211405065"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1636675200000,
+          "0000899243-21-044426:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-044154",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1553389/000089924321044154/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321044154/doc4.xml"
+      ],
+      "ciks": [
+        "0001553389",
+        "0001496671"
+      ],
+      "display_names": [
+        "Molineaux Susan  (CIK 0001553389)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-11-10",
+      "form": "4",
+      "id": "0000899243-21-044154:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-044154:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-044154",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001553389",
+            "0001496671"
+          ],
+          "display_names": [
+            "Molineaux Susan  (CIK 0001553389)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-11-10",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211398473"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1636502400000,
+          "0000899243-21-044154:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-044150",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1588467/000089924321044150/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321044150/doc4.xml"
+      ],
+      "ciks": [
+        "0001588467",
+        "0001496671"
+      ],
+      "display_names": [
+        "DRACHMAN JONATHAN G  (CIK 0001588467)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-11-10",
+      "form": "4",
+      "id": "0000899243-21-044150:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-044150:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-044150",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001588467",
+            "0001496671"
+          ],
+          "display_names": [
+            "DRACHMAN JONATHAN G  (CIK 0001588467)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-11-10",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211398467"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1636502400000,
+          "0000899243-21-044150:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-044145",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1618120/000089924321044145/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321044145/doc4.xml"
+      ],
+      "ciks": [
+        "0001618120",
+        "0001496671"
+      ],
+      "display_names": [
+        "Molineaux Christopher  (CIK 0001618120)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-11-10",
+      "form": "4",
+      "id": "0000899243-21-044145:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-044145:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-044145",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001618120",
+            "0001496671"
+          ],
+          "display_names": [
+            "Molineaux Christopher  (CIK 0001618120)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-11-10",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211398455"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-10",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1636502400000,
+          "0000899243-21-044145:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-324529",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000119312521324529/d322459d8k.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "d322459d8k.htm",
+      "filed_date": "2021-11-09",
+      "form": "8-K",
+      "id": "0001193125-21-324529:d322459d8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-324529:d322459d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-324529",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-11-09",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211392720"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2021-11-09",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1636416000000,
+          "0001193125-21-324529:d322459d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-21-003783",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000095017021003783/cala-20210930.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "cala-20210930.htm",
+      "filed_date": "2021-11-09",
+      "form": "10-Q",
+      "id": "0000950170-21-003783:cala-20210930.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-21-003783:cala-20210930.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-21-003783",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-11-09",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "211392913"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-09-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1636416000000,
+          "0000950170-21-003783:cala-20210930.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-043693",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1670740/000089924321043693/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321043693/doc4.xml"
+      ],
+      "ciks": [
+        "0001670740",
+        "0001496671"
+      ],
+      "display_names": [
+        "Orford Keith  (CIK 0001670740)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-11-09",
+      "form": "4",
+      "id": "0000899243-21-043693:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-043693:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-043693",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001670740",
+            "0001496671"
+          ],
+          "display_names": [
+            "Orford Keith  (CIK 0001670740)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-11-09",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211393819"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1636416000000,
+          "0000899243-21-043693:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-043692",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1618120/000089924321043692/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321043692/doc4.xml"
+      ],
+      "ciks": [
+        "0001618120",
+        "0001496671"
+      ],
+      "display_names": [
+        "Molineaux Christopher  (CIK 0001618120)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-11-09",
+      "form": "4",
+      "id": "0000899243-21-043692:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-043692:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-043692",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001618120",
+            "0001496671"
+          ],
+          "display_names": [
+            "Molineaux Christopher  (CIK 0001618120)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-11-09",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211393814"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1636416000000,
+          "0000899243-21-043692:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-043688",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1618119/000089924321043688/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321043688/doc4.xml"
+      ],
+      "ciks": [
+        "0001618119",
+        "0001496671"
+      ],
+      "display_names": [
+        "Sjogren Eric  (CIK 0001618119)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-11-09",
+      "form": "4",
+      "id": "0000899243-21-043688:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-043688:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-043688",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001618119",
+            "0001496671"
+          ],
+          "display_names": [
+            "Sjogren Eric  (CIK 0001618119)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-11-09",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211393809"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1636416000000,
+          "0000899243-21-043688:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-043687",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1555744/000089924321043687/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321043687/doc4.xml"
+      ],
+      "ciks": [
+        "0001555744",
+        "0001496671"
+      ],
+      "display_names": [
+        "Wong Stephanie  (CIK 0001555744)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-11-09",
+      "form": "4",
+      "id": "0000899243-21-043687:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-043687:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-043687",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001555744",
+            "0001496671"
+          ],
+          "display_names": [
+            "Wong Stephanie  (CIK 0001555744)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-11-09",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211393806"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1636416000000,
+          "0000899243-21-043687:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-043686",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1579629/000089924321043686/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321043686/doc4.xml"
+      ],
+      "ciks": [
+        "0001579629",
+        "0001496671"
+      ],
+      "display_names": [
+        "Ray Sumita  (CIK 0001579629)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-11-09",
+      "form": "4",
+      "id": "0000899243-21-043686:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-043686:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-043686",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001579629",
+            "0001496671"
+          ],
+          "display_names": [
+            "Ray Sumita  (CIK 0001579629)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-11-09",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211393804"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1636416000000,
+          "0000899243-21-043686:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-043684",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1892413/000089924321043684/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321043684/doc4.xml"
+      ],
+      "ciks": [
+        "0001892413",
+        "0001496671"
+      ],
+      "display_names": [
+        "Kuriakose Emil  (CIK 0001892413)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-11-09",
+      "form": "4",
+      "id": "0000899243-21-043684:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-043684:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-043684",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001892413",
+            "0001496671"
+          ],
+          "display_names": [
+            "Kuriakose Emil  (CIK 0001892413)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-11-09",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211393803"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1636416000000,
+          "0000899243-21-043684:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-043680",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1690533/000089924321043680/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321043680/doc4.xml"
+      ],
+      "ciks": [
+        "0001690533",
+        "0001496671"
+      ],
+      "display_names": [
+        "Parlati Francesco  (CIK 0001690533)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-11-09",
+      "form": "4",
+      "id": "0000899243-21-043680:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-043680:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-043680",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001690533",
+            "0001496671"
+          ],
+          "display_names": [
+            "Parlati Francesco  (CIK 0001690533)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-11-09",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211393797"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-05",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1636416000000,
+          "0000899243-21-043680:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-043678",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1892413/000089924321043678/doc3.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321043678/doc3.xml"
+      ],
+      "ciks": [
+        "0001892413",
+        "0001496671"
+      ],
+      "display_names": [
+        "Kuriakose Emil  (CIK 0001892413)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc3.xml",
+      "filed_date": "2021-11-09",
+      "form": "3",
+      "id": "0000899243-21-043678:doc3.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-043678:doc3.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-043678",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001892413",
+            "0001496671"
+          ],
+          "display_names": [
+            "Kuriakose Emil  (CIK 0001892413)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-11-09",
+          "file_description": "FORM 3 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "211393793"
+          ],
+          "form": "3",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-11-05",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1636416000000,
+          "0000899243-21-043678:doc3.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-320821",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000119312521320821/d233634d8k.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "d233634d8k.htm",
+      "filed_date": "2021-11-05",
+      "form": "8-K",
+      "id": "0001193125-21-320821:d233634d8k.htm",
+      "items": [
+        "5.02",
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-320821:d233634d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-320821",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-11-05",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211382204"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.02",
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2021-11-02",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1636070400000,
+          "0001193125-21-320821:d233634d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-042073",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1618119/000089924321042073/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321042073/doc4.xml"
+      ],
+      "ciks": [
+        "0001618119",
+        "0001496671"
+      ],
+      "display_names": [
+        "Sjogren Eric  (CIK 0001618119)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-10-29",
+      "form": "4",
+      "id": "0000899243-21-042073:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-042073:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-042073",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001618119",
+            "0001496671"
+          ],
+          "display_names": [
+            "Sjogren Eric  (CIK 0001618119)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-10-29",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211364770"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-10-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1635465600000,
+          "0000899243-21-042073:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-042070",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1670740/000089924321042070/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321042070/doc4.xml"
+      ],
+      "ciks": [
+        "0001670740",
+        "0001496671"
+      ],
+      "display_names": [
+        "Orford Keith  (CIK 0001670740)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-10-29",
+      "form": "4",
+      "id": "0000899243-21-042070:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-042070:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-042070",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001670740",
+            "0001496671"
+          ],
+          "display_names": [
+            "Orford Keith  (CIK 0001670740)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-10-29",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211364758"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-10-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1635465600000,
+          "0000899243-21-042070:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-042069",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1618120/000089924321042069/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321042069/doc4.xml"
+      ],
+      "ciks": [
+        "0001618120",
+        "0001496671"
+      ],
+      "display_names": [
+        "Molineaux Christopher  (CIK 0001618120)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-10-29",
+      "form": "4",
+      "id": "0000899243-21-042069:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-042069:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-042069",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001618120",
+            "0001496671"
+          ],
+          "display_names": [
+            "Molineaux Christopher  (CIK 0001618120)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-10-29",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211364757"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-10-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1635465600000,
+          "0000899243-21-042069:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-042068",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1555744/000089924321042068/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321042068/doc4.xml"
+      ],
+      "ciks": [
+        "0001555744",
+        "0001496671"
+      ],
+      "display_names": [
+        "Wong Stephanie  (CIK 0001555744)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-10-29",
+      "form": "4",
+      "id": "0000899243-21-042068:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-042068:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-042068",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001555744",
+            "0001496671"
+          ],
+          "display_names": [
+            "Wong Stephanie  (CIK 0001555744)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-10-29",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211364754"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-10-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1635465600000,
+          "0000899243-21-042068:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-042063",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1579629/000089924321042063/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321042063/doc4.xml"
+      ],
+      "ciks": [
+        "0001579629",
+        "0001496671"
+      ],
+      "display_names": [
+        "Ray Sumita  (CIK 0001579629)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-10-29",
+      "form": "4",
+      "id": "0000899243-21-042063:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-042063:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-042063",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001579629",
+            "0001496671"
+          ],
+          "display_names": [
+            "Ray Sumita  (CIK 0001579629)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-10-29",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211364752"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-10-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1635465600000,
+          "0000899243-21-042063:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-042062",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1690533/000089924321042062/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321042062/doc4.xml"
+      ],
+      "ciks": [
+        "0001690533",
+        "0001496671"
+      ],
+      "display_names": [
+        "Parlati Francesco  (CIK 0001690533)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-10-29",
+      "form": "4",
+      "id": "0000899243-21-042062:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-042062:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-042062",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001690533",
+            "0001496671"
+          ],
+          "display_names": [
+            "Parlati Francesco  (CIK 0001690533)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-10-29",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211364751"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-10-27",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1635465600000,
+          "0000899243-21-042062:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-301484",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000119312521301484/d198828d8k.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "d198828d8k.htm",
+      "filed_date": "2021-10-19",
+      "form": "8-K",
+      "id": "0001193125-21-301484:d198828d8k.htm",
+      "items": [
+        "1.01",
+        "2.02",
+        "3.02",
+        "3.03",
+        "5.03",
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-301484:d198828d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-301484",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-10-19",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211329579"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "1.01",
+            "2.02",
+            "3.02",
+            "3.03",
+            "5.03",
+            "7.01",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-10-18",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1634601600000,
+          "0001193125-21-301484:d198828d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-275099",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000119312521275099/d227243d8k.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "d227243d8k.htm",
+      "filed_date": "2021-09-16",
+      "form": "8-K",
+      "id": "0001193125-21-275099:d227243d8k.htm",
+      "items": [
+        "8.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-275099:d227243d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-275099",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-09-16",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211257930"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01"
+          ],
+          "period_ending": "2021-09-14",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1631750400000,
+          "0001193125-21-275099:d227243d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-237799",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000119312521237799/d216607d8k.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "d216607d8k.htm",
+      "filed_date": "2021-08-05",
+      "form": "8-K",
+      "id": "0001193125-21-237799:d216607d8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-237799:d216607d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-237799",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-08-05",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211148946"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2021-08-05",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628121600000,
+          "0001193125-21-237799:d216607d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-21-000955",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000095017021000955/cala-20210630.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "cala-20210630.htm",
+      "filed_date": "2021-08-05",
+      "form": "10-Q",
+      "id": "0000950170-21-000955:cala-20210630.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-21-000955:cala-20210630.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-21-000955",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-08-05",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "211149020"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-30",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1628121600000,
+          "0000950170-21-000955:cala-20210630.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000834237-21-008779",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000083423721008779/us13089p1012_071021.txt",
+        "https://www.sec.gov/Archives/edgar/data/1364742/000083423721008779/us13089p1012_071021.txt"
+      ],
+      "ciks": [
+        "0001496671",
+        "0001364742"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+        "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+      ],
+      "document_name": "us13089p1012_071021.txt",
+      "filed_date": "2021-07-12",
+      "form": "SC 13G/A",
+      "id": "0000834237-21-008779:us13089p1012_071021.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000834237-21-008779:us13089p1012_071021.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000834237-21-008779",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "CA",
+            "NY"
+          ],
+          "ciks": [
+            "0001496671",
+            "0001364742"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+            "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+          ],
+          "file_date": "2021-07-12",
+          "file_description": null,
+          "file_num": [
+            "005-88349"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "211084445"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6211"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1626048000000,
+          "0000834237-21-008779:us13089p1012_071021.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0000921895-21-001826",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000092189521001826/sc13ga607422010_07082021.htm",
+        "https://www.sec.gov/Archives/edgar/data/918923/000092189521001826/sc13ga607422010_07082021.htm"
+      ],
+      "ciks": [
+        "0001496671",
+        "0000918923"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+        "BIOTECHNOLOGY VALUE FUND L P  (CIK 0000918923)"
+      ],
+      "document_name": "sc13ga607422010_07082021.htm",
+      "filed_date": "2021-07-08",
+      "form": "SC 13G/A",
+      "id": "0000921895-21-001826:sc13ga607422010_07082021.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000921895-21-001826:sc13ga607422010_07082021.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000921895-21-001826",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671",
+            "0000918923"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+            "BIOTECHNOLOGY VALUE FUND L P  (CIK 0000918923)"
+          ],
+          "file_date": "2021-07-08",
+          "file_description": null,
+          "file_num": [
+            "005-88349"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "211080838"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6282"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1625702400000,
+          "0000921895-21-001826:sc13ga607422010_07082021.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-190037",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000119312521190037/d190360d8k.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "d190360d8k.htm",
+      "filed_date": "2021-06-14",
+      "form": "8-K",
+      "id": "0001193125-21-190037:d190360d8k.htm",
+      "items": [
+        "5.07"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-190037:d190360d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-190037",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-06-14",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "211014715"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.07"
+          ],
+          "period_ending": "2021-06-11",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1623628800000,
+          "0001193125-21-190037:d190360d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-023543",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1654446/000089924321023543/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321023543/doc4.xml"
+      ],
+      "ciks": [
+        "0001654446",
+        "0001496671"
+      ],
+      "display_names": [
+        "Wise Blake  (CIK 0001654446)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-14",
+      "form": "4",
+      "id": "0000899243-21-023543:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-023543:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-023543",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001654446",
+            "0001496671"
+          ],
+          "display_names": [
+            "Wise Blake  (CIK 0001654446)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-06-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211014640"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623628800000,
+          "0000899243-21-023543:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-023542",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1302390/000089924321023542/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321023542/doc4.xml"
+      ],
+      "ciks": [
+        "0001302390",
+        "0001496671"
+      ],
+      "display_names": [
+        "Wolff Henry Ward  (CIK 0001302390)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-14",
+      "form": "4",
+      "id": "0000899243-21-023542:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-023542:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-023542",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001302390",
+            "0001496671"
+          ],
+          "display_names": [
+            "Wolff Henry Ward  (CIK 0001302390)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-06-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211014633"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623628800000,
+          "0000899243-21-023542:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-023541",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1588467/000089924321023541/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321023541/doc4.xml"
+      ],
+      "ciks": [
+        "0001588467",
+        "0001496671"
+      ],
+      "display_names": [
+        "DRACHMAN JONATHAN G  (CIK 0001588467)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-14",
+      "form": "4",
+      "id": "0000899243-21-023541:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-023541:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-023541",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001588467",
+            "0001496671"
+          ],
+          "display_names": [
+            "DRACHMAN JONATHAN G  (CIK 0001588467)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-06-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211014631"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623628800000,
+          "0000899243-21-023541:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-023539",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1270734/000089924321023539/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321023539/doc4.xml"
+      ],
+      "ciks": [
+        "0001270734",
+        "0001496671"
+      ],
+      "display_names": [
+        "PAKIANATHAN DEEPIKA  (CIK 0001270734)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-14",
+      "form": "4",
+      "id": "0000899243-21-023539:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-023539:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-023539",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001270734",
+            "0001496671"
+          ],
+          "display_names": [
+            "PAKIANATHAN DEEPIKA  (CIK 0001270734)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-06-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211014629"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623628800000,
+          "0000899243-21-023539:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-023537",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1533228/000089924321023537/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321023537/doc4.xml"
+      ],
+      "ciks": [
+        "0001533228",
+        "0001496671"
+      ],
+      "display_names": [
+        "Garland J. Scott  (CIK 0001533228)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-14",
+      "form": "4",
+      "id": "0000899243-21-023537:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-023537:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-023537",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001533228",
+            "0001496671"
+          ],
+          "display_names": [
+            "Garland J. Scott  (CIK 0001533228)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-06-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211014626"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623628800000,
+          "0000899243-21-023537:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-023536",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1681218/000089924321023536/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321023536/doc4.xml"
+      ],
+      "ciks": [
+        "0001681218",
+        "0001496671"
+      ],
+      "display_names": [
+        "JONES SUZY  (CIK 0001681218)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-14",
+      "form": "4",
+      "id": "0000899243-21-023536:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-023536:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-023536",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001681218",
+            "0001496671"
+          ],
+          "display_names": [
+            "JONES SUZY  (CIK 0001681218)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-06-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211014622"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623628800000,
+          "0000899243-21-023536:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-023535",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1616640/000089924321023535/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321023535/doc4.xml"
+      ],
+      "ciks": [
+        "0001616640",
+        "0001496671"
+      ],
+      "display_names": [
+        "AGARWAL SUNIL  (CIK 0001616640)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-14",
+      "form": "4",
+      "id": "0000899243-21-023535:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-023535:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-023535",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001616640",
+            "0001496671"
+          ],
+          "display_names": [
+            "AGARWAL SUNIL  (CIK 0001616640)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-06-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211014623"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623628800000,
+          "0000899243-21-023535:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-023533",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1291804/000089924321023533/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321023533/doc4.xml"
+      ],
+      "ciks": [
+        "0001291804",
+        "0001496671"
+      ],
+      "display_names": [
+        "George Jean  (CIK 0001291804)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-06-14",
+      "form": "4",
+      "id": "0000899243-21-023533:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-023533:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-023533",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001291804",
+            "0001496671"
+          ],
+          "display_names": [
+            "George Jean  (CIK 0001291804)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-06-14",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "211014624"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1623628800000,
+          "0000899243-21-023533:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-21-025043",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000156459021025043/cala-10q_20210331.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "cala-10q_20210331.htm",
+      "filed_date": "2021-05-06",
+      "form": "10-Q",
+      "id": "0001564590-21-025043:cala-10q_20210331.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-21-025043:cala-10q_20210331.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-21-025043",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-05-06",
+          "file_description": "10-Q",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "10-Q",
+          "film_num": [
+            "21898366"
+          ],
+          "form": "10-Q",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-03-31",
+          "root_forms": [
+            "10-Q"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1620259200000,
+          "0001564590-21-025043:cala-10q_20210331.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-153295",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000119312521153295/d183392d8k.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "d183392d8k.htm",
+      "filed_date": "2021-05-06",
+      "form": "8-K",
+      "id": "0001193125-21-153295:d183392d8k.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-153295:d183392d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-153295",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-05-06",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21897990"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "period_ending": "2021-05-06",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1620259200000,
+          "0001193125-21-153295:d183392d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-129000",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000119312521129000/d120605ddefa14a.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "d120605ddefa14a.htm",
+      "filed_date": "2021-04-23",
+      "form": "DEFA14A",
+      "id": "0001193125-21-129000:d120605ddefa14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-129000:d120605ddefa14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-129000",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-04-23",
+          "file_description": "DEFINITIVE ADDITIONAL MATERIALS",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "DEFA14A",
+          "film_num": [
+            "21849814"
+          ],
+          "form": "DEFA14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DEFA14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1619136000000,
+          "0001193125-21-129000:d120605ddefa14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-128983",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000119312521128983/d122933ddef14a.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "d122933ddef14a.htm",
+      "filed_date": "2021-04-23",
+      "form": "DEF 14A",
+      "id": "0001193125-21-128983:d122933ddef14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-128983:d122933ddef14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-128983",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-04-23",
+          "file_description": "DEFINITIVE PROXY STATEMENT",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "DEF 14A",
+          "film_num": [
+            "21849738"
+          ],
+          "form": "DEF 14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-06-11",
+          "root_forms": [
+            "DEF 14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1619136000000,
+          "0001193125-21-128983:d122933ddef14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001564590-21-013599",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000156459021013599/cala-10k_20201231.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "cala-10k_20201231.htm",
+      "filed_date": "2021-03-16",
+      "form": "10-K",
+      "id": "0001564590-21-013599:cala-10k_20201231.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001564590-21-013599:cala-10k_20201231.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001564590-21-013599",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-03-16",
+          "file_description": "10-K",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "10-K",
+          "film_num": [
+            "21746214"
+          ],
+          "form": "10-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2020-12-31",
+          "root_forms": [
+            "10-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1615852800000,
+          "0001564590-21-013599:cala-10k_20201231.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-082911",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000119312521082911/d129784ds8.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "d129784ds8.htm",
+      "filed_date": "2021-03-16",
+      "form": "S-8",
+      "id": "0001193125-21-082911:d129784ds8.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-21-082911:d129784ds8.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-082911",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-03-16",
+          "file_description": "S-8",
+          "file_num": [
+            "333-254351"
+          ],
+          "file_type": "S-8",
+          "film_num": [
+            "21746423"
+          ],
+          "form": "S-8",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1615852800000,
+          "0001193125-21-082911:d129784ds8.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-082897",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000119312521082897/d227782d8k.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "d227782d8k.htm",
+      "filed_date": "2021-03-16",
+      "form": "8-K",
+      "id": "0001193125-21-082897:d227782d8k.htm",
+      "items": [
+        "2.02",
+        "5.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-082897:d227782d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-082897",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-03-16",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21746322"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "5.02",
+            "9.01"
+          ],
+          "period_ending": "2021-03-12",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1615852800000,
+          "0001193125-21-082897:d227782d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899140-21-000308",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089914021000308/b021221a.htm",
+        "https://www.sec.gov/Archives/edgar/data/1603466/000089914021000308/b021221a.htm"
+      ],
+      "ciks": [
+        "0001496671",
+        "0001603466"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+        "Point72 Asset Management, L.P.  (CIK 0001603466)"
+      ],
+      "document_name": "b021221a.htm",
+      "filed_date": "2021-02-16",
+      "form": "SC 13G/A",
+      "id": "0000899140-21-000308:b021221a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899140-21-000308:b021221a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899140-21-000308",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Stamford, CT"
+          ],
+          "biz_states": [
+            "CA",
+            "CT"
+          ],
+          "ciks": [
+            "0001496671",
+            "0001603466"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+            "Point72 Asset Management, L.P.  (CIK 0001603466)"
+          ],
+          "file_date": "2021-02-16",
+          "file_description": "SCHEDULE 13G (AMENDMENT #1)",
+          "file_num": [
+            "005-88349"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21637169"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613433600000,
+          "0000899140-21-000308:b021221a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001623632-21-000228",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000162363221000228/formcalithera.htm",
+        "https://www.sec.gov/Archives/edgar/data/1056288/000162363221000228/formcalithera.htm"
+      ],
+      "ciks": [
+        "0001496671",
+        "0001056288"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+        "FEDERATED HERMES, INC.  (FHI)  (CIK 0001056288)"
+      ],
+      "document_name": "formcalithera.htm",
+      "filed_date": "2021-02-12",
+      "form": "SC 13G/A",
+      "id": "0001623632-21-000228:formcalithera.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001623632-21-000228:formcalithera.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001623632-21-000228",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Pittsburgh, PA"
+          ],
+          "biz_states": [
+            "CA",
+            "PA"
+          ],
+          "ciks": [
+            "0001496671",
+            "0001056288"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+            "FEDERATED HERMES, INC.  (FHI)  (CIK 0001056288)"
+          ],
+          "file_date": "2021-02-12",
+          "file_description": null,
+          "file_num": [
+            "005-88349"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21625142"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "PA"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6282"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613088000000,
+          "0001623632-21-000228:formcalithera.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-21-021515",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000110465921021515/tm214754d4_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/763212/000110465921021515/tm214754d4_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001496671",
+        "0000763212"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+        "PRIMECAP MANAGEMENT CO/CA/  (CIK 0000763212)"
+      ],
+      "document_name": "tm214754d4_sc13ga.htm",
+      "filed_date": "2021-02-12",
+      "form": "SC 13G/A",
+      "id": "0001104659-21-021515:tm214754d4_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-21-021515:tm214754d4_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-21-021515",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Pasadena, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671",
+            "0000763212"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+            "PRIMECAP MANAGEMENT CO/CA/  (CIK 0000763212)"
+          ],
+          "file_date": "2021-02-12",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-88349"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21624598"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613088000000,
+          "0001104659-21-021515:tm214754d4_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000921895-21-000339",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000092189521000339/sc13ga507422cala_02122021.htm",
+        "https://www.sec.gov/Archives/edgar/data/918923/000092189521000339/sc13ga507422cala_02122021.htm"
+      ],
+      "ciks": [
+        "0001496671",
+        "0000918923"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+        "BIOTECHNOLOGY VALUE FUND L P  (CIK 0000918923)"
+      ],
+      "document_name": "sc13ga507422cala_02122021.htm",
+      "filed_date": "2021-02-11",
+      "form": "SC 13G/A",
+      "id": "0000921895-21-000339:sc13ga507422cala_02122021.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000921895-21-000339:sc13ga507422cala_02122021.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000921895-21-000339",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671",
+            "0000918923"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+            "BIOTECHNOLOGY VALUE FUND L P  (CIK 0000918923)"
+          ],
+          "file_date": "2021-02-11",
+          "file_description": "AMENDMENT NO. 5 TO THE SCHEDULE 13G",
+          "file_num": [
+            "005-88349"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21621080"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6282"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1613001600000,
+          "0000921895-21-000339:sc13ga507422cala_02122021.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-21-017660",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000110465921017660/tv0448-calitherabiosciencesi.htm",
+        "https://www.sec.gov/Archives/edgar/data/102909/000110465921017660/tv0448-calitherabiosciencesi.htm"
+      ],
+      "ciks": [
+        "0001496671",
+        "0000102909"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+        "VANGUARD GROUP INC  (CIK 0000102909)"
+      ],
+      "document_name": "tv0448-calitherabiosciencesi.htm",
+      "filed_date": "2021-02-10",
+      "form": "SC 13G",
+      "id": "0001104659-21-017660:tv0448-calitherabiosciencesi.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-21-017660:tv0448-calitherabiosciencesi.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-21-017660",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Valley Forge, PA"
+          ],
+          "biz_states": [
+            "CA",
+            "PA"
+          ],
+          "ciks": [
+            "0001496671",
+            "0000102909"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+            "VANGUARD GROUP INC  (CIK 0000102909)"
+          ],
+          "file_date": "2021-02-10",
+          "file_description": "SCHEDULE 13G",
+          "file_num": [
+            "005-88349"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "21610266"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "PA"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1612915200000,
+          "0001104659-21-017660:tv0448-calitherabiosciencesi.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000834237-21-002800",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000083423721002800/us13089p1012_012821.txt",
+        "https://www.sec.gov/Archives/edgar/data/1364742/000083423721002800/us13089p1012_012821.txt"
+      ],
+      "ciks": [
+        "0001496671",
+        "0001364742"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+        "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+      ],
+      "document_name": "us13089p1012_012821.txt",
+      "filed_date": "2021-01-29",
+      "form": "SC 13G/A",
+      "id": "0000834237-21-002800:us13089p1012_012821.txt",
+      "items": [],
+      "source_hit": {
+        "_id": "0000834237-21-002800:us13089p1012_012821.txt",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000834237-21-002800",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "CA",
+            "NY"
+          ],
+          "ciks": [
+            "0001496671",
+            "0001364742"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+            "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+          ],
+          "file_date": "2021-01-29",
+          "file_description": null,
+          "file_num": [
+            "005-88349"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "21566739"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "6211"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1611878400000,
+          "0000834237-21-002800:us13089p1012_012821.txt"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-017834",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000119312521017834/d116517d8k.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "d116517d8k.htm",
+      "filed_date": "2021-01-26",
+      "form": "8-K",
+      "id": "0001193125-21-017834:d116517d8k.htm",
+      "items": [
+        "5.02",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-017834:d116517d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-017834",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-01-26",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21554946"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.02",
+            "9.01"
+          ],
+          "period_ending": "2021-01-20",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1611619200000,
+          "0001193125-21-017834:d116517d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000902664-21-000504",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000090266421000504/p21-0160sc13g.htm",
+        "https://www.sec.gov/Archives/edgar/data/1165408/000090266421000504/p21-0160sc13g.htm"
+      ],
+      "ciks": [
+        "0001496671",
+        "0001165408"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+        "ADAGE CAPITAL PARTNERS GP, L.L.C.  (CIK 0001165408)"
+      ],
+      "document_name": "p21-0160sc13g.htm",
+      "filed_date": "2021-01-25",
+      "form": "SC 13G",
+      "id": "0000902664-21-000504:p21-0160sc13g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000902664-21-000504:p21-0160sc13g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000902664-21-000504",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "CA",
+            "MA"
+          ],
+          "ciks": [
+            "0001496671",
+            "0001165408"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)",
+            "ADAGE CAPITAL PARTNERS GP, L.L.C.  (CIK 0001165408)"
+          ],
+          "file_date": "2021-01-25",
+          "file_description": "CALITHERA BIOSCIENCES, INC.",
+          "file_num": [
+            "005-88349"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "21549713"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1611532800000,
+          "0000902664-21-000504:p21-0160sc13g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-003055",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1618121/000089924321003055/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321003055/doc4.xml"
+      ],
+      "ciks": [
+        "0001618121",
+        "0001496671"
+      ],
+      "display_names": [
+        "Hecht Curtis  (CIK 0001618121)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-01-22",
+      "form": "4",
+      "id": "0000899243-21-003055:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-003055:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-003055",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001618121",
+            "0001496671"
+          ],
+          "display_names": [
+            "Hecht Curtis  (CIK 0001618121)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-01-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21547611"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611273600000,
+          "0000899243-21-003055:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-003053",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1618120/000089924321003053/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321003053/doc4.xml"
+      ],
+      "ciks": [
+        "0001618120",
+        "0001496671"
+      ],
+      "display_names": [
+        "Molineaux Christopher  (CIK 0001618120)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-01-22",
+      "form": "4",
+      "id": "0000899243-21-003053:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-003053:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-003053",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001618120",
+            "0001496671"
+          ],
+          "display_names": [
+            "Molineaux Christopher  (CIK 0001618120)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-01-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21547607"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611273600000,
+          "0000899243-21-003053:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-003050",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1553389/000089924321003050/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321003050/doc4.xml"
+      ],
+      "ciks": [
+        "0001553389",
+        "0001496671"
+      ],
+      "display_names": [
+        "Molineaux Susan  (CIK 0001553389)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-01-22",
+      "form": "4",
+      "id": "0000899243-21-003050:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-003050:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-003050",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001553389",
+            "0001496671"
+          ],
+          "display_names": [
+            "Molineaux Susan  (CIK 0001553389)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-01-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21547586"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611273600000,
+          "0000899243-21-003050:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-003049",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1579629/000089924321003049/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321003049/doc4.xml"
+      ],
+      "ciks": [
+        "0001579629",
+        "0001496671"
+      ],
+      "display_names": [
+        "Ray Sumita  (CIK 0001579629)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-01-22",
+      "form": "4",
+      "id": "0000899243-21-003049:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-003049:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-003049",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001579629",
+            "0001496671"
+          ],
+          "display_names": [
+            "Ray Sumita  (CIK 0001579629)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-01-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21547584"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611273600000,
+          "0000899243-21-003049:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-003045",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1670740/000089924321003045/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321003045/doc4.xml"
+      ],
+      "ciks": [
+        "0001670740",
+        "0001496671"
+      ],
+      "display_names": [
+        "Orford Keith  (CIK 0001670740)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-01-22",
+      "form": "4",
+      "id": "0000899243-21-003045:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-003045:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-003045",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001670740",
+            "0001496671"
+          ],
+          "display_names": [
+            "Orford Keith  (CIK 0001670740)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-01-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21547581"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611273600000,
+          "0000899243-21-003045:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-003043",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1690533/000089924321003043/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321003043/doc4.xml"
+      ],
+      "ciks": [
+        "0001690533",
+        "0001496671"
+      ],
+      "display_names": [
+        "Parlati Francesco  (CIK 0001690533)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-01-22",
+      "form": "4",
+      "id": "0000899243-21-003043:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-003043:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-003043",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001690533",
+            "0001496671"
+          ],
+          "display_names": [
+            "Parlati Francesco  (CIK 0001690533)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-01-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21547574"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611273600000,
+          "0000899243-21-003043:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-003038",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1618119/000089924321003038/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321003038/doc4.xml"
+      ],
+      "ciks": [
+        "0001618119",
+        "0001496671"
+      ],
+      "display_names": [
+        "Sjogren Eric  (CIK 0001618119)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-01-22",
+      "form": "4",
+      "id": "0000899243-21-003038:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-003038:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-003038",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001618119",
+            "0001496671"
+          ],
+          "display_names": [
+            "Sjogren Eric  (CIK 0001618119)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-01-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21547554"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611273600000,
+          "0000899243-21-003038:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000899243-21-003037",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1555744/000089924321003037/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1496671/000089924321003037/doc4.xml"
+      ],
+      "ciks": [
+        "0001555744",
+        "0001496671"
+      ],
+      "display_names": [
+        "Wong Stephanie  (CIK 0001555744)",
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "doc4.xml",
+      "filed_date": "2021-01-22",
+      "form": "4",
+      "id": "0000899243-21-003037:doc4.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000899243-21-003037:doc4.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000899243-21-003037",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001555744",
+            "0001496671"
+          ],
+          "display_names": [
+            "Wong Stephanie  (CIK 0001555744)",
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-01-22",
+          "file_description": "FORM 4 SUBMISSION",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "21547551"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2021-01-20",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0306",
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": "xslF345X03"
+        },
+        "sort": [
+          1611273600000,
+          "0000899243-21-003037:doc4.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-21-000213",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1496671/000119312521000213/d34379d8k.htm"
+      ],
+      "ciks": [
+        "0001496671"
+      ],
+      "display_names": [
+        "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+      ],
+      "document_name": "d34379d8k.htm",
+      "filed_date": "2021-01-04",
+      "form": "8-K",
+      "id": "0001193125-21-000213:d34379d8k.htm",
+      "items": [
+        "2.02",
+        "2.05",
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-21-000213:d34379d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-21-000213",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001496671"
+          ],
+          "display_names": [
+            "Calithera Biosciences, Inc.  (CALA)  (CIK 0001496671)"
+          ],
+          "file_date": "2021-01-04",
+          "file_description": "8-K",
+          "file_num": [
+            "001-36644"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "21500138"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "2.05",
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2021-01-04",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1609718400000,
+          "0001193125-21-000213:d34379d8k.htm"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2021-01-01",
+  "ticker": "CALA",
+  "total": 63
+}

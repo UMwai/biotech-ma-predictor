@@ -1,0 +1,226 @@
+{
+  "created_at": "2026-09-08T20:09:07.941107+00:00",
+  "integrity": {
+    "candidate_input_path": "output/historical_deal_candidates/candidates.csv",
+    "candidate_input_sha256": "8637f8ba3613970d630e6839d75c48a308be54ca9d745f5f447e589d19fd6c7a",
+    "historical_point_in_time_retrieval_claimed": false,
+    "raw_provider_payloads_archived": false,
+    "review_record_hash_semantics": "SHA256 of canonical UTF-8 JSON for each evidence record excluding review_record_sha256; this hashes the review receipt, not source HTML/PDF.",
+    "reviews_csv_path": "data/history/reviews_2023_2024_cohort.csv",
+    "reviews_csv_sha256": "ff04a66e05494d4d251f9ac5471850b28af147e994c3b07eec5a254f7d2ab227"
+  },
+  "limitations": [
+    "Primary pages were accessed during the 2026 review, not collected contemporaneously; their historical datelines are evidence about the event, not proof of immutable historical availability.",
+    "Date-only rows have no invented timestamp. Exact rows retain a printed timezone-backed release time; earliest dissemination still needs independent audit.",
+    "All transaction statuses describe the proposed deal at announcement, not current completion or termination outcomes.",
+    "100 percent means intended post-transaction whole-company ownership, not minimum tender conditions, acceptance rate or incremental shares purchased.",
+    "CIK lineage comes from the existing SEC candidate ledger and name match; primary announcements establish issuer identity/listing and control terms.",
+    "This is an agent-produced review seed. Independent label audit, complete event ascertainment, delisted-inclusive risk sets and historical point-in-time feature data remain necessary before training."
+  ],
+  "records": [
+    {
+      "acquirer_name": "Sun Pharmaceutical Industries Limited",
+      "additional_review_notes": "",
+      "announcement_date": "2023-01-19",
+      "candidate_id": "bc6bd48ec7b7000c08d5",
+      "cash_per_share_usd": "8.00",
+      "contingent_max_cash_per_share_usd": "3.50",
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2023-01-19",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1367920/000119312523010719/d433505dex991.htm",
+        "ticker": "CNCE"
+      },
+      "primary_evidence_paraphrase": "Sun Pharma and Nasdaq-listed Concert announce a definitive tender offer for all Concert common shares, followed by a second-step merger. The consideration is USD8 cash plus a nontradeable contingent right for up to USD3.50, conditional on later sales milestones. The proposed ownership is the whole company; no contingent payout or closing is asserted.",
+      "review_record_sha256": "11121543c6f3915ebab53f6c9b3d124e350dfd2d0ff42bffdfc0595910bdf72b",
+      "reviewed_at": "2026-09-08T20:09:07.941107+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-23-022165",
+          "0001193125-23-048726",
+          "0001193125-23-060809"
+        ],
+        "candidate_id": "bc6bd48ec7b7000c08d5",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1367920/000119312523022165/d360970dsc14d9.htm",
+          "https://www.sec.gov/Archives/edgar/data/1367920/000119312523048726/d448602dsc14d9a.htm",
+          "https://www.sec.gov/Archives/edgar/data/1367920/000119312523060809/d398848dsc14d9a.htm"
+        ],
+        "filer_name": "CONCERT PHARMACEUTICALS, INC.",
+        "filing_forms": [
+          "SC 14D9",
+          "SC 14D9/A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2023-02-02",
+        "target_cik": 1367920
+      },
+      "sources": [
+        {
+          "locator": "Joint January19 release opening and Transaction Terms and Timeline to Closing",
+          "published_date": "2023-01-19",
+          "publisher_role": "issuer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T20:09:07.941107+00:00",
+          "title": "Sun Pharma to Acquire Concert Pharmaceuticals",
+          "url": "https://www.sec.gov/Archives/edgar/data/1367920/000119312523010719/d433505dex991.htm"
+        }
+      ],
+      "target_cik": 1367920,
+      "target_name": "Concert Pharmaceuticals, Inc.",
+      "target_ticker": "CNCE",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2023-01-19",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "tender_offer"
+    },
+    {
+      "acquirer_name": "AstraZeneca",
+      "additional_review_notes": "",
+      "announcement_date": "2024-03-19",
+      "candidate_id": "a7b9ed8e557924e5c6ae",
+      "cash_per_share_usd": "21.00",
+      "contingent_max_cash_per_share_usd": "3.00",
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2024-03-19",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1805890/000119312524070701/d739068dex992.htm",
+        "ticker": "FUSN"
+      },
+      "primary_evidence_paraphrase": "Nasdaq-listed Fusion announces its definitive acquisition by AstraZeneca. The statutory plan of arrangement covers all outstanding shares for USD21 cash plus a USD3 contingent cash right tied to a regulatory milestone. The announcement remains distinct from later shareholder approval, regulatory clearance and completion.",
+      "review_record_sha256": "8dd3b46c8c18ef385deef4c614be8a0e777c72bb6bf6fe1d83bf535411eb3a7d",
+      "reviewed_at": "2026-09-08T20:09:07.941107+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-24-113909"
+        ],
+        "candidate_id": "a7b9ed8e557924e5c6ae",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1805890/000119312524113909/d794805ddefm14a.htm"
+        ],
+        "filer_name": "Fusion Pharmaceuticals Inc.",
+        "filing_forms": [
+          "DEFM14A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2024-04-25",
+        "target_cik": 1805890
+      },
+      "sources": [
+        {
+          "locator": "March19 issuer release opening, Financial Considerations and wholly owned subsidiary statement",
+          "published_date": "2024-03-19",
+          "publisher_role": "issuer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T20:09:07.941107+00:00",
+          "title": "Fusion Pharmaceuticals to be Acquired by AstraZeneca",
+          "url": "https://www.sec.gov/Archives/edgar/data/1805890/000119312524070701/d739068dex992.htm"
+        }
+      ],
+      "target_cik": 1805890,
+      "target_name": "Fusion Pharmaceuticals Inc.",
+      "target_ticker": "FUSN",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2024-03-19",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "cash"
+    },
+    {
+      "acquirer_name": "Merck & Co., Inc.",
+      "additional_review_notes": "",
+      "announcement_date": "2024-01-08",
+      "candidate_id": "1a63723bafe2a95ca3c8",
+      "cash_per_share_usd": "23.00",
+      "contingent_max_cash_per_share_usd": null,
+      "current_transaction_status": "not_reviewed",
+      "decision": "include",
+      "first_public_announcement_at": null,
+      "incremental_interest_purchased_percent": null,
+      "intended_post_transaction_control_percent": 100,
+      "listing_evidence": {
+        "as_of": "2024-01-08",
+        "exchange": "NASDAQ",
+        "scope": "Issuer/acquirer statement of contemporaneous target listing; not a reconstructed exchange membership history.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1708493/000119312524003927/d715256dex992.htm",
+        "ticker": "HARP"
+      },
+      "primary_evidence_paraphrase": "Merck and Nasdaq-listed Harpoon announce a definitive agreement covering all outstanding Harpoon shares for USD23 cash per share. This is a whole-company merger even though Merck describes its accounting treatment as an asset acquisition. Closing remains subject to shareholder approval and regulatory conditions.",
+      "review_record_sha256": "6ab63a5bf0ce5870f9731205d827b023820d74786598226499d644d2354b8362",
+      "reviewed_at": "2026-09-08T20:09:07.941107+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "reviewer_is_independent_human": false,
+      "sec_candidate_lineage": {
+        "accession_numbers": [
+          "0001193125-24-027505"
+        ],
+        "candidate_id": "1a63723bafe2a95ca3c8",
+        "candidate_source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1708493/000119312524027505/d734477ddefm14a.htm"
+        ],
+        "filer_name": "Harpoon Therapeutics, Inc.",
+        "filing_forms": [
+          "DEFM14A"
+        ],
+        "lineage_scope": "Links the existing SEC candidate ledger to the reviewed issuer by CIK and name. These filing URLs are ledger provenance, not a claim that every filing was opened in this review.",
+        "sec_signal_date": "2024-02-08",
+        "target_cik": 1708493
+      },
+      "sources": [
+        {
+          "locator": "January8 joint release opening and all-outstanding-shares transaction terms",
+          "published_date": "2024-01-08",
+          "publisher_role": "issuer_or_joint_release",
+          "raw_content_archived": false,
+          "raw_content_sha256": null,
+          "retrieval_method": "web_browser_access",
+          "retrieval_timestamp_semantics": "review receipt recorded after primary page access in this research session",
+          "retrieved_at": "2026-09-08T20:09:07.941107+00:00",
+          "title": "Merck to Acquire Harpoon Therapeutics, Further Diversifying Oncology Pipeline",
+          "url": "https://www.sec.gov/Archives/edgar/data/1708493/000119312524003927/d715256dex992.htm"
+        }
+      ],
+      "target_cik": 1708493,
+      "target_name": "Harpoon Therapeutics, Inc.",
+      "target_ticker": "HARP",
+      "timestamp_precision": "date",
+      "timing_evidence": "Only announcement date is adopted; no intraday announcement time is inferred.",
+      "timing_scope": "Definitive deal public announcement; not earlier rumors, private signing, SEC filing time or completion. Independently auditing earliest dissemination remains required.",
+      "training_allowed": false,
+      "transaction_status_as_of": "2024-01-08",
+      "transaction_status_at_announcement": "pending",
+      "transaction_structure": "cash"
+    }
+  ],
+  "research_scope": "Three source-reviewed whole-company announcements in the fixed historical cohort; no fitting or promotion authority.",
+  "reviewer": "Codex-primary-source-review",
+  "reviewer_is_independent_human": false,
+  "schema_version": "primary-source-deal-review-evidence-v1"
+}

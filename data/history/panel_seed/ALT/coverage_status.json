@@ -1,0 +1,24 @@
+{
+  "browser_evidence_kind": "source_review_receipt",
+  "browser_source": "https://altimmune.com/",
+  "cik": 1326190,
+  "cik_identity_basis": "existing primary-source financial record; no new independent CIK verification claimed in this discovery receipt",
+  "detail": "The corporate homepage explicitly links its current Press Releases archive at /investors/press-releases. Both stale and current archive raw requests timed out. The browser shows a year selector, but no historical year-filter schema or complete inventory was obtained.",
+  "independent_human_review": false,
+  "negative_label_assigned": false,
+  "original_source_sha256": null,
+  "outcome_2021": null,
+  "raw_failure_receipt_path": "fetch_failures.json",
+  "recorded_at": "2026-09-08T18:01:55.779212+00:00",
+  "reviewed_outcome_window_count": 0,
+  "reviewer": "Codex-primary-source-review",
+  "risk_set_eligible": null,
+  "schema_version": "issuer-coverage-status-v1",
+  "sources": [
+    "https://ir.altimmune.com/news-releases/",
+    "https://ir.altimmune.com/investors/press-releases"
+  ],
+  "status": "unknown_incomplete_source_coverage",
+  "ticker": "ALT",
+  "training_allowed": false
+}

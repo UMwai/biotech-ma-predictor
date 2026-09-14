@@ -1,0 +1,229 @@
+{
+  "https://ir.krystalbio.com/news-releases": {
+    "url": "https://ir.krystalbio.com/news-releases",
+    "resolved_url": "https://ir.krystalbio.com/news-releases",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:26:10.060602+00:00",
+    "source_sha256": "71f49afed2b026578aa56d2715ef4fb6a09f4c9fd7ffb212a4d36bb2d9aef032",
+    "source_bytes": 53779,
+    "source_relative_path": "raw_sources/71f49afed2b026578aa56d2715ef4fb6a09f4c9fd7ffb212a4d36bb2d9aef032.html"
+  },
+  "https://ir.krystalbio.com/news-releases?field_nir_news_date_value%5Bmin%5D=2020&items_per_page=50": {
+    "url": "https://ir.krystalbio.com/news-releases?field_nir_news_date_value%5Bmin%5D=2020&items_per_page=50",
+    "resolved_url": "https://ir.krystalbio.com/news-releases?field_nir_news_date_value%5Bmin%5D=2020&items_per_page=50",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:27:41.353100+00:00",
+    "source_sha256": "54aec0374042a79c55e651add0240b474006feaae311d42f5587de97feda8b64",
+    "source_bytes": 69350,
+    "source_relative_path": "raw_sources/54aec0374042a79c55e651add0240b474006feaae311d42f5587de97feda8b64.html"
+  },
+  "https://ir.krystalbio.com/news-releases?field_nir_news_date_value%5Bmin%5D=2021&items_per_page=50": {
+    "url": "https://ir.krystalbio.com/news-releases?field_nir_news_date_value%5Bmin%5D=2021&items_per_page=50",
+    "resolved_url": "https://ir.krystalbio.com/news-releases?field_nir_news_date_value%5Bmin%5D=2021&items_per_page=50",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:30:09.318035+00:00",
+    "source_sha256": "1979b8cbca64808c7ef63becbe83817e64983713666c781eec900be745d31277",
+    "source_bytes": 81762,
+    "source_relative_path": "raw_sources/1979b8cbca64808c7ef63becbe83817e64983713666c781eec900be745d31277.html"
+  },
+  "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-announces-proposed-200-million-public-offering": {
+    "url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-announces-proposed-200-million-public-offering",
+    "resolved_url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-announces-proposed-200-million-public-offering",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:32:09.786943+00:00",
+    "source_sha256": "c3c34045b1040db0440b30df42ccec1ae90b5051a749bfee310256592afc4ffe",
+    "source_bytes": 44386,
+    "source_relative_path": "raw_sources/c3c34045b1040db0440b30df42ccec1ae90b5051a749bfee310256592afc4ffe.html"
+  },
+  "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-announces-completion-gem-3-pivotal-phase-3-study": {
+    "url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-announces-completion-gem-3-pivotal-phase-3-study",
+    "resolved_url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-announces-completion-gem-3-pivotal-phase-3-study",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:33:00.006737+00:00",
+    "source_sha256": "61c2d77cd8f95061673264fe5c5542e73d9ac019712a6a37d5f677a9af0645ca",
+    "source_bytes": 46218,
+    "source_relative_path": "raw_sources/61c2d77cd8f95061673264fe5c5542e73d9ac019712a6a37d5f677a9af0645ca.html"
+  },
+  "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-announces-virtual-presentation-pre-clinical-0": {
+    "url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-announces-virtual-presentation-pre-clinical-0",
+    "resolved_url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-announces-virtual-presentation-pre-clinical-0",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:33:00.954491+00:00",
+    "source_sha256": "4873371d97be781dec0143a9a36e4be763bef4cd73f7524415ca1e6366296d1d",
+    "source_bytes": 45134,
+    "source_relative_path": "raw_sources/4873371d97be781dec0143a9a36e4be763bef4cd73f7524415ca1e6366296d1d.html"
+  },
+  "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-present-data-deb-and-b-vec-debra-international": {
+    "url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-present-data-deb-and-b-vec-debra-international",
+    "resolved_url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-present-data-deb-and-b-vec-debra-international",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:33:52.436667+00:00",
+    "source_sha256": "48770046cd97c24b3b490071b8416629e5b7314f9eedaa3e174f82529e486245",
+    "source_bytes": 44162,
+    "source_relative_path": "raw_sources/48770046cd97c24b3b490071b8416629e5b7314f9eedaa3e174f82529e486245.html"
+  },
+  "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-reports-first-quarter-2021-financial-results-and": {
+    "url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-reports-first-quarter-2021-financial-results-and",
+    "resolved_url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-reports-first-quarter-2021-financial-results-and",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:32.096593+00:00",
+    "source_sha256": "9e2dc02da3d54c8d3eedd33ed20ed288d2b36acbb1c4175d13f466ca43f039fd",
+    "source_bytes": 68375,
+    "source_relative_path": "raw_sources/9e2dc02da3d54c8d3eedd33ed20ed288d2b36acbb1c4175d13f466ca43f039fd.html"
+  },
+  "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-appoints-andy-orth-chief-commercial-officer": {
+    "url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-appoints-andy-orth-chief-commercial-officer",
+    "resolved_url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-appoints-andy-orth-chief-commercial-officer",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:32.785011+00:00",
+    "source_sha256": "d994708466b821fdd6a30b417bbd85a903170b6ce61ee2f39d47c28e04ee0c9d",
+    "source_bytes": 42338,
+    "source_relative_path": "raw_sources/d994708466b821fdd6a30b417bbd85a903170b6ce61ee2f39d47c28e04ee0c9d.html"
+  },
+  "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-announces-virtual-presentation-data-its-vector": {
+    "url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-announces-virtual-presentation-data-its-vector",
+    "resolved_url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-announces-virtual-presentation-data-its-vector",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:35:33.549456+00:00",
+    "source_sha256": "a0dd82603d5bb2dbff6b686337c2d41c304a722526b112d961ab97f08f48035d",
+    "source_bytes": 42764,
+    "source_relative_path": "raw_sources/a0dd82603d5bb2dbff6b686337c2d41c304a722526b112d961ab97f08f48035d.html"
+  },
+  "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-announces-completion-patient-enrollment-gem-3": {
+    "url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-announces-completion-patient-enrollment-gem-3",
+    "resolved_url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-announces-completion-patient-enrollment-gem-3",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:21.382487+00:00",
+    "source_sha256": "f1e97c3b4b32801e96ad0f89fe25fead9431a12dfbfe0c7c8dbab1df546b11fe",
+    "source_bytes": 43553,
+    "source_relative_path": "raw_sources/f1e97c3b4b32801e96ad0f89fe25fead9431a12dfbfe0c7c8dbab1df546b11fe.html"
+  },
+  "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-participate-upcoming-investor-conferences": {
+    "url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-participate-upcoming-investor-conferences",
+    "resolved_url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-participate-upcoming-investor-conferences",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:22.295034+00:00",
+    "source_sha256": "e31375ac960dd8ce5aa2954c16f1baf1a0412e505029a47fd1a4a52da2ebd3f3",
+    "source_bytes": 42449,
+    "source_relative_path": "raw_sources/e31375ac960dd8ce5aa2954c16f1baf1a0412e505029a47fd1a4a52da2ebd3f3.html"
+  },
+  "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-provides-update-operational-progress-and-reports": {
+    "url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-provides-update-operational-progress-and-reports",
+    "resolved_url": "https://ir.krystalbio.com/news-releases/news-release-details/krystal-biotech-provides-update-operational-progress-and-reports",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:36:24.294147+00:00",
+    "source_sha256": "107bd677525e60547106f4cf75f90e495dcf2adc3f71cf770d6fc29113b5f4bb",
+    "source_bytes": 68285,
+    "source_relative_path": "raw_sources/107bd677525e60547106f4cf75f90e495dcf2adc3f71cf770d6fc29113b5f4bb.html"
+  },
+  "https://ir.krystalbio.com/node/7711/pdf": {
+    "url": "https://ir.krystalbio.com/node/7711/pdf",
+    "resolved_url": "https://ir.krystalbio.com/node/7711/pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:51:20.875683+00:00",
+    "content_type": "application/pdf",
+    "source_sha256": "2421133860429d2ca5e3917765e21efc59a37480016c48666a6745bde16eab9f",
+    "source_bytes": 20329,
+    "source_relative_path": "raw_sources/2421133860429d2ca5e3917765e21efc59a37480016c48666a6745bde16eab9f.pdf"
+  },
+  "https://ir.krystalbio.com/node/7601/pdf": {
+    "url": "https://ir.krystalbio.com/node/7601/pdf",
+    "resolved_url": "https://ir.krystalbio.com/node/7601/pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:52:11.886299+00:00",
+    "content_type": "application/pdf",
+    "source_sha256": "c254a0c8bdfcb3a05be33df3a72b5a3a0ba11388ad638cc41a7586a54da47119",
+    "source_bytes": 31171,
+    "source_relative_path": "raw_sources/c254a0c8bdfcb3a05be33df3a72b5a3a0ba11388ad638cc41a7586a54da47119.pdf"
+  },
+  "https://ir.krystalbio.com/node/7596/pdf": {
+    "url": "https://ir.krystalbio.com/node/7596/pdf",
+    "resolved_url": "https://ir.krystalbio.com/node/7596/pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:52:12.705057+00:00",
+    "content_type": "application/pdf",
+    "source_sha256": "9986ed84225e61026294d3543a6f828ff6658c506dde8f9dfb7d93ab242916da",
+    "source_bytes": 29900,
+    "source_relative_path": "raw_sources/9986ed84225e61026294d3543a6f828ff6658c506dde8f9dfb7d93ab242916da.pdf"
+  },
+  "https://ir.krystalbio.com/node/7546/pdf": {
+    "url": "https://ir.krystalbio.com/node/7546/pdf",
+    "resolved_url": "https://ir.krystalbio.com/node/7546/pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:53:01.632206+00:00",
+    "content_type": "application/pdf",
+    "source_sha256": "4ca319653e6260e59131bd0f449ceb10551b62466627a11d2b023ee392507d4b",
+    "source_bytes": 28065,
+    "source_relative_path": "raw_sources/4ca319653e6260e59131bd0f449ceb10551b62466627a11d2b023ee392507d4b.pdf"
+  },
+  "https://ir.krystalbio.com/node/7346/pdf": {
+    "url": "https://ir.krystalbio.com/node/7346/pdf",
+    "resolved_url": "https://ir.krystalbio.com/node/7346/pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:55:32.659430+00:00",
+    "content_type": "application/pdf",
+    "source_sha256": "ec01fc6eb9b297e9fa9cc86462f21f81880df50a3113b52c3ce04ba3cd0d0129",
+    "source_bytes": 28342,
+    "source_relative_path": "raw_sources/ec01fc6eb9b297e9fa9cc86462f21f81880df50a3113b52c3ce04ba3cd0d0129.pdf"
+  },
+  "https://ir.krystalbio.com/node/8316/pdf": {
+    "url": "https://ir.krystalbio.com/node/8316/pdf",
+    "resolved_url": "https://ir.krystalbio.com/node/8316/pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:55:34.753279+00:00",
+    "content_type": "application/pdf",
+    "source_sha256": "a87fbf29be6f6c9748e16a1913d71760d53ebcbe3fb0c434da6fa6d5f30d74d7",
+    "source_bytes": 32816,
+    "source_relative_path": "raw_sources/a87fbf29be6f6c9748e16a1913d71760d53ebcbe3fb0c434da6fa6d5f30d74d7.pdf"
+  },
+  "https://ir.krystalbio.com/node/8166/pdf": {
+    "url": "https://ir.krystalbio.com/node/8166/pdf",
+    "resolved_url": "https://ir.krystalbio.com/node/8166/pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:57:14.358223+00:00",
+    "content_type": "application/pdf",
+    "source_sha256": "ffd09e6a5034dc95ffe3f56a5a2116ac59371ffeb889a53b965744b7ba6f5ce9",
+    "source_bytes": 25037,
+    "source_relative_path": "raw_sources/ffd09e6a5034dc95ffe3f56a5a2116ac59371ffeb889a53b965744b7ba6f5ce9.pdf"
+  },
+  "https://ir.krystalbio.com/node/8161/pdf": {
+    "url": "https://ir.krystalbio.com/node/8161/pdf",
+    "resolved_url": "https://ir.krystalbio.com/node/8161/pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:57:14.372993+00:00",
+    "content_type": "application/pdf",
+    "source_sha256": "d587736adaf29864c37a0cbaf3a47f6b00283a16675e844062b73cfa1a49c981",
+    "source_bytes": 33433,
+    "source_relative_path": "raw_sources/d587736adaf29864c37a0cbaf3a47f6b00283a16675e844062b73cfa1a49c981.pdf"
+  },
+  "https://ir.krystalbio.com/node/8141/pdf": {
+    "url": "https://ir.krystalbio.com/node/8141/pdf",
+    "resolved_url": "https://ir.krystalbio.com/node/8141/pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:57:14.952406+00:00",
+    "content_type": "application/pdf",
+    "source_sha256": "658278b185962c3db5aec2d73b86fec9541c8841b5b051ea41bbe811756b58ab",
+    "source_bytes": 25764,
+    "source_relative_path": "raw_sources/658278b185962c3db5aec2d73b86fec9541c8841b5b051ea41bbe811756b58ab.pdf"
+  },
+  "https://ir.krystalbio.com/node/8096/pdf": {
+    "url": "https://ir.krystalbio.com/node/8096/pdf",
+    "resolved_url": "https://ir.krystalbio.com/node/8096/pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:57:15.592503+00:00",
+    "content_type": "application/pdf",
+    "source_sha256": "84f62a6a66d8337b6b32770ee5480225df4e91099ac29eb7eccc07d0522a9d57",
+    "source_bytes": 44736,
+    "source_relative_path": "raw_sources/84f62a6a66d8337b6b32770ee5480225df4e91099ac29eb7eccc07d0522a9d57.pdf"
+  },
+  "https://ir.krystalbio.com/node/7941/pdf": {
+    "url": "https://ir.krystalbio.com/node/7941/pdf",
+    "resolved_url": "https://ir.krystalbio.com/node/7941/pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-09-08T17:58:06.572759+00:00",
+    "content_type": "application/pdf",
+    "source_sha256": "6f4e932830ad1425033d91101845c6b077f0fe09cf0e1ef4bad6026164e02a67",
+    "source_bytes": 91900,
+    "source_relative_path": "raw_sources/6f4e932830ad1425033d91101845c6b077f0fe09cf0e1ef4bad6026164e02a67.pdf"
+  }
+}

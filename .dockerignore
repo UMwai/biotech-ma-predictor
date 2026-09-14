@@ -1,0 +1,13 @@
+.git
+.venv
+.env
+config
+data
+output
+reports
+terraform
+docs
+logs
+__pycache__
+.pytest_cache
+.ruff_cache

@@ -1,0 +1,2158 @@
+{
+  "schema_version": "sec-efts-inventory-v1",
+  "ticker": "ARQT",
+  "cik": 1787306,
+  "start_date": "2022-01-01",
+  "end_date": "2022-03-31",
+  "pages": [
+    {
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001787306&dateRange=custom&startdt=2022-01-01&enddt=2022-03-31&from=0&size=100",
+      "source_relative_path": "ARQT_efts_2022-01-01_2022-03-31_0_e96890daf922bd574e975fcd0935fd13d4d3c71d61def22c58977818216e8e25.json",
+      "source_sha256": "e96890daf922bd574e975fcd0935fd13d4d3c71d61def22c58977818216e8e25",
+      "source_bytes": 22209,
+      "retrieved_at": "2026-09-08T19:51:47.312845+00:00",
+      "offset": 0,
+      "total": 30,
+      "returned": 30
+    }
+  ],
+  "total": 30,
+  "records": [
+    {
+      "id": "0001567619-22-007727:doc1.xml",
+      "accession": "0001567619-22-007727",
+      "document_name": "doc1.xml",
+      "form": "4/A",
+      "filed_date": "2022-03-30",
+      "ciks": [
+        "0001801045",
+        "0001787306"
+      ],
+      "display_names": [
+        "Turney Patricia A.  (CIK 0001801045)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1801045/000156761922007727/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922007727/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-007727:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001801045",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-23",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Turney Patricia A.  (CIK 0001801045)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-30",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4/A",
+          "adsh": "0001567619-22-007727",
+          "film_num": [
+            "22788636"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4/A",
+          "file_description": "FORM 4/A",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1648598400000,
+          "0001567619-22-007727:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-007534:doc1.xml",
+      "accession": "0001567619-22-007534",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-03-25",
+      "ciks": [
+        "0001801045",
+        "0001787306"
+      ],
+      "display_names": [
+        "Turney Patricia A.  (CIK 0001801045)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1801045/000156761922007534/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922007534/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-007534:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001801045",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-23",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Turney Patricia A.  (CIK 0001801045)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-25",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-007534",
+          "film_num": [
+            "22771462"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1648166400000,
+          "0001567619-22-007534:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0000899243-22-010801:doc4.xml",
+      "accession": "0000899243-22-010801",
+      "document_name": "doc4.xml",
+      "form": "4",
+      "filed_date": "2022-03-11",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1801061/000089924322010801/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000089924322010801/doc4.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0000899243-22-010801:doc4.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001801061",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-09",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Watanabe Todd Franklin  (CIK 0001801061)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-11",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0000899243-22-010801",
+          "film_num": [
+            "22734960"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4 SUBMISSION",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1646956800000,
+          "0000899243-22-010801:doc4.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-006498:doc1.xml",
+      "accession": "0001567619-22-006498",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-03-07",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1801061/000156761922006498/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006498/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-006498:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001801061",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-03",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Watanabe Todd Franklin  (CIK 0001801061)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-07",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-006498",
+          "film_num": [
+            "22720144"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1646611200000,
+          "0001567619-22-006498:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-006497:doc1.xml",
+      "accession": "0001567619-22-006497",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-03-07",
+      "ciks": [
+        "0001741987",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burnett Patrick  (CIK 0001741987)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1741987/000156761922006497/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006497/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-006497:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001741987",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-03",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Burnett Patrick  (CIK 0001741987)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-07",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-006497",
+          "film_num": [
+            "22720129"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1646611200000,
+          "0001567619-22-006497:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-006496:doc1.xml",
+      "accession": "0001567619-22-006496",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-03-07",
+      "ciks": [
+        "0001798679",
+        "0001787306"
+      ],
+      "display_names": [
+        "Matsuda Masaru  (CIK 0001798679)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1798679/000156761922006496/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006496/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-006496:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001798679",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-03",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Matsuda Masaru  (CIK 0001798679)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-07",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-006496",
+          "film_num": [
+            "22720126"
+          ],
+          "biz_locations": [
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1646611200000,
+          "0001567619-22-006496:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-006495:doc1.xml",
+      "accession": "0001567619-22-006495",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-03-07",
+      "ciks": [
+        "0001801047",
+        "0001787306"
+      ],
+      "display_names": [
+        "Lock Kenneth A.  (CIK 0001801047)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1801047/000156761922006495/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006495/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-006495:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001801047",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-03",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Lock Kenneth A.  (CIK 0001801047)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-07",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-006495",
+          "film_num": [
+            "22720122"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1646611200000,
+          "0001567619-22-006495:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-006494:doc1.xml",
+      "accession": "0001567619-22-006494",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-03-07",
+      "ciks": [
+        "0001853327",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burrows Scott L  (CIK 0001853327)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1853327/000156761922006494/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006494/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-006494:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001853327",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-03",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Burrows Scott L  (CIK 0001853327)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-07",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-006494",
+          "film_num": [
+            "22720121"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1646611200000,
+          "0001567619-22-006494:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-006493:doc1.xml",
+      "accession": "0001567619-22-006493",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-03-07",
+      "ciks": [
+        "0001801045",
+        "0001787306"
+      ],
+      "display_names": [
+        "Turney Patricia A.  (CIK 0001801045)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1801045/000156761922006493/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006493/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-006493:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001801045",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-03",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Turney Patricia A.  (CIK 0001801045)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-07",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-006493",
+          "film_num": [
+            "22720120"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1646611200000,
+          "0001567619-22-006493:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-006492:doc1.xml",
+      "accession": "0001567619-22-006492",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-03-07",
+      "ciks": [
+        "0001252999",
+        "0001787306"
+      ],
+      "display_names": [
+        "OSBORNE DAVID W  (CIK 0001252999)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1252999/000156761922006492/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006492/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-006492:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001252999",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-03",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "OSBORNE DAVID W  (CIK 0001252999)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-07",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-006492",
+          "film_num": [
+            "22720117"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1646611200000,
+          "0001567619-22-006492:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-006491:doc1.xml",
+      "accession": "0001567619-22-006491",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-03-07",
+      "ciks": [
+        "0001840191",
+        "0001787306"
+      ],
+      "display_names": [
+        "Moore Matthew Richard  (CIK 0001840191)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1840191/000156761922006491/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006491/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-006491:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001840191",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-03",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Moore Matthew Richard  (CIK 0001840191)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-07",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-006491",
+          "film_num": [
+            "22720115"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1646611200000,
+          "0001567619-22-006491:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001787306-22-000014:arqt-20211231.htm",
+      "accession": "0001787306-22-000014",
+      "document_name": "arqt-20211231.htm",
+      "form": "10-K/A",
+      "filed_date": "2022-03-03",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1787306/000178730622000014/arqt-20211231.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001787306-22-000014:arqt-20211231.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001787306"
+          ],
+          "period_ending": "2021-12-31",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "10-K"
+          ],
+          "file_date": "2022-03-03",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "10-K/A",
+          "adsh": "0001787306-22-000014",
+          "film_num": [
+            "22708757"
+          ],
+          "biz_locations": [
+            "Westlake Village, CA"
+          ],
+          "file_type": "10-K/A",
+          "file_description": "10-K/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1646265600000,
+          "0001787306-22-000014:arqt-20211231.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-006230:doc1.xml",
+      "accession": "0001567619-22-006230",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-03-03",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1801061/000156761922006230/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006230/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-006230:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001801061",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-01",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Watanabe Todd Franklin  (CIK 0001801061)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-03",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-006230",
+          "film_num": [
+            "22709021"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1646265600000,
+          "0001567619-22-006230:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-006229:doc1.xml",
+      "accession": "0001567619-22-006229",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-03-03",
+      "ciks": [
+        "0001252999",
+        "0001787306"
+      ],
+      "display_names": [
+        "OSBORNE DAVID W  (CIK 0001252999)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1252999/000156761922006229/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006229/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-006229:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001252999",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-01",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "OSBORNE DAVID W  (CIK 0001252999)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-03",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-006229",
+          "film_num": [
+            "22709007"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1646265600000,
+          "0001567619-22-006229:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-006228:doc1.xml",
+      "accession": "0001567619-22-006228",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-03-03",
+      "ciks": [
+        "0001853327",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burrows Scott L  (CIK 0001853327)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1853327/000156761922006228/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006228/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-006228:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001853327",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-01",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Burrows Scott L  (CIK 0001853327)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-03",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-006228",
+          "film_num": [
+            "22708989"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1646265600000,
+          "0001567619-22-006228:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-006227:doc1.xml",
+      "accession": "0001567619-22-006227",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-03-03",
+      "ciks": [
+        "0001801045",
+        "0001787306"
+      ],
+      "display_names": [
+        "Turney Patricia A.  (CIK 0001801045)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1801045/000156761922006227/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006227/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-006227:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001801045",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-01",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Turney Patricia A.  (CIK 0001801045)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-03",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-006227",
+          "film_num": [
+            "22708942"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1646265600000,
+          "0001567619-22-006227:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-006226:doc1.xml",
+      "accession": "0001567619-22-006226",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-03-03",
+      "ciks": [
+        "0001801047",
+        "0001787306"
+      ],
+      "display_names": [
+        "Lock Kenneth A.  (CIK 0001801047)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1801047/000156761922006226/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922006226/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-006226:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001801047",
+            "0001787306"
+          ],
+          "period_ending": "2022-03-01",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Lock Kenneth A.  (CIK 0001801047)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-03-03",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-006226",
+          "film_num": [
+            "22708915"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1646265600000,
+          "0001567619-22-006226:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001787306-22-000011:arcutiss-8xfebruary2022.htm",
+      "accession": "0001787306-22-000011",
+      "document_name": "arcutiss-8xfebruary2022.htm",
+      "form": "S-8",
+      "filed_date": "2022-02-22",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1787306/000178730622000011/arcutiss-8xfebruary2022.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001787306-22-000011:arcutiss-8xfebruary2022.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001787306"
+          ],
+          "period_ending": null,
+          "file_num": [
+            "333-262902"
+          ],
+          "display_names": [
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "S-8"
+          ],
+          "file_date": "2022-02-22",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "S-8",
+          "adsh": "0001787306-22-000011",
+          "film_num": [
+            "22658365"
+          ],
+          "biz_locations": [
+            "Westlake Village, CA"
+          ],
+          "file_type": "S-8",
+          "file_description": "S-8",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1645488000000,
+          "0001787306-22-000011:arcutiss-8xfebruary2022.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001787306-22-000009:arqt-20211231.htm",
+      "accession": "0001787306-22-000009",
+      "document_name": "arqt-20211231.htm",
+      "form": "10-K",
+      "filed_date": "2022-02-22",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1787306/000178730622000009/arqt-20211231.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001787306-22-000009:arqt-20211231.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001787306"
+          ],
+          "period_ending": "2021-12-31",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "10-K"
+          ],
+          "file_date": "2022-02-22",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "10-K",
+          "adsh": "0001787306-22-000009",
+          "film_num": [
+            "22658113"
+          ],
+          "biz_locations": [
+            "Westlake Village, CA"
+          ],
+          "file_type": "10-K",
+          "file_description": "10-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1645488000000,
+          "0001787306-22-000009:arqt-20211231.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001787306-22-000008:arqt-20220222.htm",
+      "accession": "0001787306-22-000008",
+      "document_name": "arqt-20220222.htm",
+      "form": "8-K",
+      "filed_date": "2022-02-22",
+      "ciks": [
+        "0001787306"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1787306/000178730622000008/arqt-20220222.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001787306-22-000008:arqt-20220222.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001787306"
+          ],
+          "period_ending": "2022-02-22",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "8-K"
+          ],
+          "file_date": "2022-02-22",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "8-K",
+          "adsh": "0001787306-22-000008",
+          "film_num": [
+            "22658014"
+          ],
+          "biz_locations": [
+            "Westlake Village, CA"
+          ],
+          "file_type": "8-K",
+          "file_description": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "2.02",
+            "9.01"
+          ]
+        },
+        "sort": [
+          1645488000000,
+          "0001787306-22-000008:arqt-20220222.htm"
+        ]
+      }
+    },
+    {
+      "id": "0000899140-22-000305:a011822a.htm",
+      "accession": "0000899140-22-000305",
+      "document_name": "a011822a.htm",
+      "form": "SC 13G/A",
+      "filed_date": "2022-02-14",
+      "ciks": [
+        "0001787306",
+        "0001603466"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "Point72 Asset Management, L.P.  (CIK 0001603466)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1787306/000089914022000305/a011822a.htm",
+        "https://www.sec.gov/Archives/edgar/data/1603466/000089914022000305/a011822a.htm"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0000899140-22-000305:a011822a.htm",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001787306",
+            "0001603466"
+          ],
+          "period_ending": null,
+          "file_num": [
+            "005-91349"
+          ],
+          "display_names": [
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+            "Point72 Asset Management, L.P.  (CIK 0001603466)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "file_date": "2022-02-14",
+          "biz_states": [
+            "CA",
+            "CT"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "SC 13G/A",
+          "adsh": "0000899140-22-000305",
+          "film_num": [
+            "22632785"
+          ],
+          "biz_locations": [
+            "Westlake Village, CA",
+            "Stamford, CT"
+          ],
+          "file_type": "SC 13G/A",
+          "file_description": "SCHEDULE 13G (AMENDMENT #1)",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1644796800000,
+          "0000899140-22-000305:a011822a.htm"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-003692:doc1.xml",
+      "accession": "0001567619-22-003692",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-02-11",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1801061/000156761922003692/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922003692/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-003692:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001801061",
+            "0001787306"
+          ],
+          "period_ending": "2022-02-09",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Watanabe Todd Franklin  (CIK 0001801061)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-02-11",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-003692",
+          "film_num": [
+            "22623246"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1644537600000,
+          "0001567619-22-003692:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0000315066-22-000791:filing.txt",
+      "accession": "0000315066-22-000791",
+      "document_name": "filing.txt",
+      "form": "SC 13G/A",
+      "filed_date": "2022-02-09",
+      "ciks": [
+        "0001787306",
+        "0000315066"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "FMR LLC  (CIK 0000315066)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1787306/000031506622000791/filing.txt",
+        "https://www.sec.gov/Archives/edgar/data/315066/000031506622000791/filing.txt"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0000315066-22-000791:filing.txt",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001787306",
+            "0000315066"
+          ],
+          "period_ending": null,
+          "file_num": [
+            "005-91349"
+          ],
+          "display_names": [
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+            "FMR LLC  (CIK 0000315066)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "file_date": "2022-02-09",
+          "biz_states": [
+            "CA",
+            "MA"
+          ],
+          "sics": [
+            "2834",
+            "0000"
+          ],
+          "form": "SC 13G/A",
+          "adsh": "0000315066-22-000791",
+          "film_num": [
+            "22604100"
+          ],
+          "biz_locations": [
+            "Westlake Village, CA",
+            "Boston, MA"
+          ],
+          "file_type": "SC 13G/A",
+          "file_description": null,
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1644364800000,
+          "0000315066-22-000791:filing.txt"
+        ]
+      }
+    },
+    {
+      "id": "0000834237-22-006328:us03969k1088_020322.txt",
+      "accession": "0000834237-22-006328",
+      "document_name": "us03969k1088_020322.txt",
+      "form": "SC 13G/A",
+      "filed_date": "2022-02-03",
+      "ciks": [
+        "0001787306",
+        "0001364742"
+      ],
+      "display_names": [
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+        "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1787306/000083423722006328/us03969k1088_020322.txt",
+        "https://www.sec.gov/Archives/edgar/data/1364742/000083423722006328/us03969k1088_020322.txt"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0000834237-22-006328:us03969k1088_020322.txt",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001787306",
+            "0001364742"
+          ],
+          "period_ending": null,
+          "file_num": [
+            "005-91349"
+          ],
+          "display_names": [
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)",
+            "BlackRock Inc.  (BLK)  (CIK 0001364742)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "file_date": "2022-02-03",
+          "biz_states": [
+            "CA",
+            "NY"
+          ],
+          "sics": [
+            "2834",
+            "6211"
+          ],
+          "form": "SC 13G/A",
+          "adsh": "0000834237-22-006328",
+          "film_num": [
+            "22589057"
+          ],
+          "biz_locations": [
+            "Westlake Village, CA",
+            "New York, NY"
+          ],
+          "file_type": "SC 13G/A",
+          "file_description": null,
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1643846400000,
+          "0000834237-22-006328:us03969k1088_020322.txt"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-000851:doc1.xml",
+      "accession": "0001567619-22-000851",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-01-07",
+      "ciks": [
+        "0001801061",
+        "0001787306"
+      ],
+      "display_names": [
+        "Watanabe Todd Franklin  (CIK 0001801061)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1801061/000156761922000851/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922000851/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-000851:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001801061",
+            "0001787306"
+          ],
+          "period_ending": "2022-01-05",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Watanabe Todd Franklin  (CIK 0001801061)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-01-07",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-000851",
+          "film_num": [
+            "22518347"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1641513600000,
+          "0001567619-22-000851:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-000671:doc1.xml",
+      "accession": "0001567619-22-000671",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-01-05",
+      "ciks": [
+        "0001798679",
+        "0001787306"
+      ],
+      "display_names": [
+        "Matsuda Masaru  (CIK 0001798679)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1798679/000156761922000671/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922000671/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-000671:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001798679",
+            "0001787306"
+          ],
+          "period_ending": "2022-01-03",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Matsuda Masaru  (CIK 0001798679)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-01-05",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-000671",
+          "film_num": [
+            "22513185"
+          ],
+          "biz_locations": [
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1641340800000,
+          "0001567619-22-000671:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-000669:doc1.xml",
+      "accession": "0001567619-22-000669",
+      "document_name": "doc1.xml",
+      "form": "3",
+      "filed_date": "2022-01-05",
+      "ciks": [
+        "0001798679",
+        "0001787306"
+      ],
+      "display_names": [
+        "Matsuda Masaru  (CIK 0001798679)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1798679/000156761922000669/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922000669/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-000669:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001798679",
+            "0001787306"
+          ],
+          "period_ending": "2022-01-03",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Matsuda Masaru  (CIK 0001798679)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X02",
+          "schema_version": "X0206",
+          "sequence": 1,
+          "root_forms": [
+            "3"
+          ],
+          "file_date": "2022-01-05",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "3",
+          "adsh": "0001567619-22-000669",
+          "film_num": [
+            "22513178"
+          ],
+          "biz_locations": [
+            "Westlake Village, CA"
+          ],
+          "file_type": "3",
+          "file_description": "FORM 3",
+          "inc_states": [
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1641340800000,
+          "0001567619-22-000669:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-000625:doc1.xml",
+      "accession": "0001567619-22-000625",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-01-05",
+      "ciks": [
+        "0001801050",
+        "0001787306"
+      ],
+      "display_names": [
+        "Welgus Howard G.  (CIK 0001801050)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1801050/000156761922000625/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922000625/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-000625:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001801050",
+            "0001787306"
+          ],
+          "period_ending": "2022-01-03",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Welgus Howard G.  (CIK 0001801050)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-01-05",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-000625",
+          "film_num": [
+            "22512323"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1641340800000,
+          "0001567619-22-000625:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-000389:doc1.xml",
+      "accession": "0001567619-22-000389",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-01-04",
+      "ciks": [
+        "0001741987",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burnett Patrick  (CIK 0001741987)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1741987/000156761922000389/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922000389/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-000389:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001741987",
+            "0001787306"
+          ],
+          "period_ending": "2021-12-30",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Burnett Patrick  (CIK 0001741987)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-01-04",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-000389",
+          "film_num": [
+            "22508606"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1641254400000,
+          "0001567619-22-000389:doc1.xml"
+        ]
+      }
+    },
+    {
+      "id": "0001567619-22-000388:doc1.xml",
+      "accession": "0001567619-22-000388",
+      "document_name": "doc1.xml",
+      "form": "4",
+      "filed_date": "2022-01-04",
+      "ciks": [
+        "0001853327",
+        "0001787306"
+      ],
+      "display_names": [
+        "Burrows Scott L  (CIK 0001853327)",
+        "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+      ],
+      "items": [],
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1853327/000156761922000388/doc1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1787306/000156761922000388/doc1.xml"
+      ],
+      "source_hit": {
+        "_index": "edgar_file",
+        "_id": "0001567619-22-000388:doc1.xml",
+        "_score": null,
+        "_source": {
+          "ciks": [
+            "0001853327",
+            "0001787306"
+          ],
+          "period_ending": "2021-12-30",
+          "file_num": [
+            "001-39186"
+          ],
+          "display_names": [
+            "Burrows Scott L  (CIK 0001853327)",
+            "Arcutis Biotherapeutics, Inc.  (ARQT)  (CIK 0001787306)"
+          ],
+          "xsl": "xslF345X03",
+          "schema_version": "X0306",
+          "sequence": 1,
+          "root_forms": [
+            "4"
+          ],
+          "file_date": "2022-01-04",
+          "biz_states": [
+            "CA"
+          ],
+          "sics": [
+            "2834"
+          ],
+          "form": "4",
+          "adsh": "0001567619-22-000388",
+          "film_num": [
+            "22508599"
+          ],
+          "biz_locations": [
+            "",
+            "Westlake Village, CA"
+          ],
+          "file_type": "4",
+          "file_description": "FORM 4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": []
+        },
+        "sort": [
+          1641254400000,
+          "0001567619-22-000388:doc1.xml"
+        ]
+      }
+    }
+  ],
+  "inventory_complete": true,
+  "outcome_label": null,
+  "limitations": [
+    "Complete currently observed SEC full-text search response for the declared exact CIK and dates; historical corrections, removed or misindexed filings remain possible.",
+    "Search results establish an inventory, not negative outcomes or document full-text review."
+  ]
+}

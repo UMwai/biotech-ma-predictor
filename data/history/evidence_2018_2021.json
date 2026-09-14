@@ -1,0 +1,1194 @@
+{
+  "schema_version": "historical-primary-source-review-v1",
+  "scope": "2018-2021 SEC candidate clusters; 25 selected substantive announcements, not a complete deal census.",
+  "reviewer": "Codex-primary-source-review",
+  "independent_human_review": false,
+  "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+  "retrieval_timestamp_semantics": "retrieved_at records completion of the web primary-source review batch; individual HTTP transfer timestamps were not captured.",
+  "label_definition": "Definitive whole-company change-of-control announcement. Agreement execution, offer commencement, rumors, nonbinding proposals and completion are distinct events.",
+  "model_feature_policy": "Acquisition announcements and later corroborating documents may establish labels and identity only. They must never supply historical pre-announcement feature values.",
+  "negative_control_policy": "No nonacquired controls are created in this review file. Unreviewed candidates and missing deal matches are not negative labels.",
+  "coverage": {
+    "reviewed_candidates": 25,
+    "positive_announcement_reviews": 25,
+    "excluded_reviews": 0,
+    "by_announcement_year": {
+      "2018": 7,
+      "2019": 6,
+      "2020": 6,
+      "2021": 6
+    }
+  },
+  "candidate_file": "output/historical_deal_candidates/candidates.csv",
+  "candidate_sha256": "8637f8ba3613970d630e6839d75c48a308be54ca9d745f5f447e589d19fd6c7a",
+  "review_csv_sha256": "617e27bf749ce6e03eee347288352dfe63256245c0897a9e8082962c9d1f01da",
+  "records": [
+    {
+      "evidence_record_id": "primary-d67f9dbe8d11eaa277c4",
+      "candidate_id": "d67f9dbe8d11eaa277c4",
+      "target_cik": "1594864",
+      "target_name": "Juno Therapeutics, Inc.",
+      "target_ticker": "JUNO",
+      "acquirer_name": "Celgene Corporation",
+      "announcement_date": "2018-01-22",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2018-01-22",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1594864/000119312518015255/d531432dex991.htm",
+        "title": "Celgene Corporation to Acquire Juno Therapeutics, Inc., Advancing Global Leadership in Cellular Immunotherapy",
+        "source_date": "2018-01-22",
+        "source_type": "sec_filed_issuer_release",
+        "reviewed_content_locator": "Opening dateline and Terms of the Agreement",
+        "evidence_paraphrase": "The joint release announces a board-approved definitive merger agreement at $87 per share in cash. The terms specify a tender for every outstanding Juno common share, including a plan to buy shares not already held by Celgene; the stated prior Celgene interest is about 9.7%."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "JUNO",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1594864/000119312518015255/d531432dex991.htm",
+        "evidence": "The contemporaneous issuer release explicitly identifies Juno Therapeutics, Inc. as Nasdaq JUNO."
+      },
+      "target_identity": {
+        "cik": "1594864",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1594864/000119312518017233/d526690dsc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-082936b63ff85fe5824b",
+      "candidate_id": "082936b63ff85fe5824b",
+      "target_cik": "1681689",
+      "target_name": "Bioverativ Inc.",
+      "target_ticker": "BIVV",
+      "acquirer_name": "Sanofi",
+      "announcement_date": "2018-01-22",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2018-01-22",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.globenewswire.com/news-release/2018/01/22/1298161/0/en/sanofi-to-acquire-bioverativ-for-11-6-billion.html",
+        "title": "Sanofi to Acquire Bioverativ for $11.6 Billion",
+        "source_date": "2018-01-22",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Dateline, Transaction Terms, and About Bioverativ",
+        "evidence_paraphrase": "Sanofi announces a definitive agreement to purchase Bioverativ at $105 cash per share. The tender offer seeks every outstanding common share; a subsequent merger converts untendered shares to the same cash consideration."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "BIVV",
+        "source_url": "https://www.globenewswire.com/news-release/2018/01/22/1298161/0/en/sanofi-to-acquire-bioverativ-for-11-6-billion.html",
+        "evidence": "The contemporaneous issuer release explicitly identifies Bioverativ Inc. as Nasdaq BIVV."
+      },
+      "target_identity": {
+        "cik": "1681689",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1681689/000104746918000655/a2234467zsc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-70b455548e9af8f5375e",
+      "candidate_id": "70b455548e9af8f5375e",
+      "target_cik": "1617582",
+      "target_name": "Ablynx NV",
+      "target_ticker": "ABLX",
+      "acquirer_name": "Sanofi",
+      "announcement_date": "2018-01-29",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2018-01-29",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.globenewswire.com/news-release/2018/01/29/1313307/0/en/SANOFI-TO-ACQUIRE-ABLYNX-FOR-3-9-BILLION.html",
+        "title": "Sanofi to Acquire Ablynx for EUR 3.9 Billion",
+        "source_date": "2018-01-29",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and Transaction Terms",
+        "evidence_paraphrase": "The joint announcement identifies a definitive board-approved agreement for cash public offers covering the entire ordinary-share capital, ADSs, warrants and convertible bonds at EUR45 per share. The 75% acceptance condition is not the intended ownership percentage."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "ABLX",
+        "source_url": "https://www.globenewswire.com/news-release/2018/01/29/1313307/0/en/SANOFI-TO-ACQUIRE-ABLYNX-FOR-3-9-BILLION.html",
+        "evidence": "The contemporaneous issuer release explicitly identifies Ablynx NV as Nasdaq ABLX."
+      },
+      "target_identity": {
+        "cik": "1617582",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1617582/000119312518106848/d535295dsc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-2e452227fb747b577bf6",
+      "candidate_id": "2e452227fb747b577bf6",
+      "target_cik": "1652923",
+      "target_name": "AveXis, Inc.",
+      "target_ticker": "AVXS",
+      "acquirer_name": "Novartis AG",
+      "announcement_date": "2018-04-09",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2018-04-09",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.novartis.com/news/media-releases/novartis-enters-agreement-acquire-avexis-inc-usd-87-bn-transform-care-sma-and-expand-position-gene-therapy-and-neuroscience-leader",
+        "title": "Novartis enters agreement to acquire AveXis Inc. for USD 8.7 bn",
+        "source_date": "2018-04-09",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and Transaction Details",
+        "evidence_paraphrase": "Novartis announces a merger agreement to buy the Nasdaq-listed company at $218 cash per share. Transaction Details specifies a tender covering the complete outstanding share capital followed by a merger converting untendered shares to cash. April 9 is the public release date, not the earlier agreement-signing date."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "AVXS",
+        "source_url": "https://www.novartis.com/news/media-releases/avexis-reports-first-quarter-2018-financial-and-operating-results",
+        "evidence": "The April 9 acquisition release identifies AveXis as Nasdaq-listed; the May 3, 2018 issuer earnings release explicitly supplies Nasdaq AVXS while the offer remained pending."
+      },
+      "target_identity": {
+        "cik": "1652923",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1652923/000095015718000452/sc14d9a.htm"
+      },
+      "supporting_primary_sources": [
+        {
+          "url": "https://www.novartis.com/news/media-releases/avexis-reports-first-quarter-2018-financial-and-operating-results",
+          "title": "AveXis Reports First Quarter 2018 Financial and Operating Results",
+          "source_date": "2018-05-03",
+          "purpose": "Historical ticker identity; not used to date the announcement."
+        }
+      ],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-fba0161264e48891a521",
+      "candidate_id": "fba0161264e48891a521",
+      "target_cik": "1693664",
+      "target_name": "ARMO BioSciences, Inc.",
+      "target_ticker": "ARMO",
+      "acquirer_name": "Eli Lilly and Company",
+      "announcement_date": "2018-05-10",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2018-05-10",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-announces-agreement-acquire-armo-biosciences",
+        "title": "Lilly Announces Agreement To Acquire ARMO BioSciences",
+        "source_date": "2018-05-10",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and transaction-terms paragraphs",
+        "evidence_paraphrase": "The joint announcement states a definitive $50-per-share cash acquisition. Lilly plans a tender for the entire share capital followed by a second-step merger for any untendered shares; closing remains conditional."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "ARMO",
+        "source_url": "https://investor.lilly.com/news-releases/news-release-details/lilly-announces-agreement-acquire-armo-biosciences",
+        "evidence": "The contemporaneous issuer release explicitly identifies ARMO BioSciences, Inc. as Nasdaq ARMO."
+      },
+      "target_identity": {
+        "cik": "1693664",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1693664/000119312518171498/d586082dsc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-6caf3165110b98f3102d",
+      "candidate_id": "6caf3165110b98f3102d",
+      "target_cik": "1235007",
+      "target_name": "Endocyte, Inc.",
+      "target_ticker": "ECYT",
+      "acquirer_name": "Novartis AG",
+      "announcement_date": "2018-10-18",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "cash",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2018-10-18",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.novartis.com/news/media-releases/novartis-announces-planned-acquisition-endocyte-expand-expertise-radiopharmaceuticals-and-build-commitment-transformational-therapeutic-platforms",
+        "title": "Novartis announces planned acquisition of Endocyte",
+        "source_date": "2018-10-18",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and merger consideration paragraph",
+        "evidence_paraphrase": "Novartis announces an agreement and plan of merger providing $24 in cash for every outstanding Endocyte common share. The target-issued same-day announcement identifies Endocyte as Nasdaq ECYT. Public announcement date is October 18, distinct from agreement execution."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "ECYT",
+        "source_url": "https://www.globenewswire.com/news-release/2018/10/18/1623094/14452/en/Endocyte-Enters-Into-Agreement-to-be-Acquired-by-Novartis-AG-for-2-1-Billion.html",
+        "evidence": "The contemporaneous issuer release explicitly identifies Endocyte, Inc. as Nasdaq ECYT."
+      },
+      "target_identity": {
+        "cik": "1235007",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1235007/000104746918007270/a2237105zdefm14a.htm"
+      },
+      "supporting_primary_sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2018/10/18/1623094/14452/en/Endocyte-Enters-Into-Agreement-to-be-Acquired-by-Novartis-AG-for-2-1-Billion.html",
+          "title": "Endocyte Enters Into Agreement to be Acquired by Novartis AG for $2.1 Billion",
+          "source_date": "2018-10-18",
+          "purpose": "Contemporaneous Nasdaq ECYT identity and cash acquisition confirmation."
+        }
+      ],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-aafbd9d78eab19226b90",
+      "candidate_id": "aafbd9d78eab19226b90",
+      "target_cik": "1491576",
+      "target_name": "TESARO, Inc.",
+      "target_ticker": "TSRO",
+      "acquirer_name": "GlaxoSmithKline plc",
+      "announcement_date": "2018-12-03",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2018-12-03",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-reaches-agreement-to-acquire-tesaro-an-oncology-focused-biopharmaceutical-company/",
+        "title": "GSK reaches agreement to acquire TESARO, an oncology focused biopharmaceutical company",
+        "source_date": "2018-12-03",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening paragraph and Structure and Terms of the Transaction",
+        "evidence_paraphrase": "GSK and TESARO announce a definitive agreement. A GSK subsidiary is to offer $75 cash for every issued common share, with remaining shares acquired by a second-step merger. The release anticipates closing in first-quarter 2019 rather than asserting completion."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "TSRO",
+        "source_url": "https://www.gsk.com/en-gb/media/press-releases/gsk-reaches-agreement-to-acquire-tesaro-an-oncology-focused-biopharmaceutical-company/",
+        "evidence": "The contemporaneous issuer release explicitly identifies TESARO, Inc. as Nasdaq TSRO."
+      },
+      "target_identity": {
+        "cik": "1491576",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1491576/000104746918007661/a2237269zsc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-4cb9fd79cb439bde776a",
+      "candidate_id": "4cb9fd79cb439bde776a",
+      "target_cik": "1581720",
+      "target_name": "Loxo Oncology, Inc.",
+      "target_ticker": "LOXO",
+      "acquirer_name": "Eli Lilly and Company",
+      "announcement_date": "2019-01-07",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2019-01-07",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-announces-agreement-acquire-loxo-oncology",
+        "title": "Lilly Announces Agreement To Acquire Loxo Oncology",
+        "source_date": "2019-01-07",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and transaction terms",
+        "evidence_paraphrase": "The dated joint release announces a definitive $235-per-share cash acquisition of Nasdaq LOXO. The offer seeks every outstanding share and is subject to customary closing requirements."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "LOXO",
+        "source_url": "https://investor.lilly.com/news-releases/news-release-details/lilly-announces-agreement-acquire-loxo-oncology",
+        "evidence": "The contemporaneous issuer release explicitly identifies Loxo Oncology, Inc. as Nasdaq LOXO."
+      },
+      "target_identity": {
+        "cik": "1581720",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1581720/000119312519010967/d632967dsc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-b2eecc683d683cb682e3",
+      "candidate_id": "b2eecc683d683cb682e3",
+      "target_cik": "1437786",
+      "target_name": "Immune Design Corp.",
+      "target_ticker": "IMDZ",
+      "acquirer_name": "Merck & Co., Inc.",
+      "announcement_date": "2019-02-21",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2019-02-21",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.merck.com/news/merck-to-acquire-immune-design/",
+        "title": "Merck to Acquire Immune Design",
+        "source_date": "2019-02-21",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and acquisition-terms paragraph",
+        "evidence_paraphrase": "Merck and Nasdaq IMDZ announce a definitive agreement for $5.85 cash per share. A subsidiary will offer for the entire outstanding share capital and acquire untendered shares through a second-step merger."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "IMDZ",
+        "source_url": "https://www.merck.com/news/merck-to-acquire-immune-design/",
+        "evidence": "The contemporaneous issuer release explicitly identifies Immune Design Corp. as Nasdaq IMDZ."
+      },
+      "target_identity": {
+        "cik": "1437786",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1437786/000119312519063377/d680204dsc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-2a8e6cb3e0f728913216",
+      "candidate_id": "2a8e6cb3e0f728913216",
+      "target_cik": "1609351",
+      "target_name": "Spark Therapeutics, Inc.",
+      "target_ticker": "ONCE",
+      "acquirer_name": "Roche Holdings, Inc.",
+      "announcement_date": "2019-02-25",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2019-02-25",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.roche.com/media/releases/med-cor-2019-02-25",
+        "title": "Roche enters into definitive merger agreement to acquire Spark Therapeutics",
+        "source_date": "2019-02-25",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and merger-agreement paragraph",
+        "evidence_paraphrase": "The Roche group and Nasdaq ONCE announce a definitive agreement for full acquisition at $114.50 cash per share. The release specifies a tender for the entire outstanding common-share capital; conditions remain outstanding."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "ONCE",
+        "source_url": "https://www.roche.com/media/releases/med-cor-2019-02-25",
+        "evidence": "The contemporaneous issuer release explicitly identifies Spark Therapeutics, Inc. as Nasdaq ONCE."
+      },
+      "target_identity": {
+        "cik": "1609351",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1609351/000119312519066393/d720810dsc14d9.htm"
+      },
+      "supporting_primary_sources": [
+        {
+          "url": "https://www.roche.com/investors/updates/inv-update-2019-12-16d",
+          "title": "Roche and Spark announce FTC clearance and expiration of waiting period",
+          "source_date": "2019-12-16",
+          "purpose": "Identifies legal buyer Roche Holdings, Inc.; not a pre-announcement feature."
+        }
+      ],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-f32d56addd0fb2c0c2d1",
+      "candidate_id": "f32d56addd0fb2c0c2d1",
+      "target_cik": "1100412",
+      "target_name": "Array BioPharma Inc.",
+      "target_ticker": "ARRY",
+      "acquirer_name": "Pfizer Inc.",
+      "announcement_date": "2019-06-17",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2019-06-17",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer_to_acquire_array_biopharma",
+        "title": "Pfizer to Acquire Array BioPharma",
+        "source_date": "2019-06-17",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and transaction terms",
+        "evidence_paraphrase": "The joint release announces a definitive merger agreement for Pfizer to purchase Nasdaq ARRY at $48 cash per share. A tender for every outstanding common share is followed by a second-step merger acquiring remaining shares."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "ARRY",
+        "source_url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer_to_acquire_array_biopharma",
+        "evidence": "The contemporaneous issuer release explicitly identifies Array BioPharma Inc. as Nasdaq ARRY."
+      },
+      "target_identity": {
+        "cik": "1100412",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1100412/000119312519185664/d614423dsc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-2cde08601f3197d7e300",
+      "candidate_id": "2cde08601f3197d7e300",
+      "target_cik": "1113481",
+      "target_name": "The Medicines Company",
+      "target_ticker": "MDCO",
+      "acquirer_name": "Novartis AG",
+      "announcement_date": "2019-11-24",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2019-11-24",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.novartis.com/news/media-releases/novartis-acquire-medicines-company-usd-97-bn-adding-inclisiran-potentially-transformational-investigational-cholesterol-lowering-therapy-address-leading-global-cause-death",
+        "title": "Novartis to acquire The Medicines Company for USD 9.7 bn",
+        "source_date": "2019-11-24",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and Transaction Details",
+        "evidence_paraphrase": "Novartis announces its merger agreement with Nasdaq MDCO at $85 cash per share. Transaction Details calls for a tender covering every outstanding share and a merger making the target an indirect wholly owned subsidiary."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "MDCO",
+        "source_url": "https://www.novartis.com/news/media-releases/novartis-acquire-medicines-company-usd-97-bn-adding-inclisiran-potentially-transformational-investigational-cholesterol-lowering-therapy-address-leading-global-cause-death",
+        "evidence": "The contemporaneous issuer release explicitly identifies The Medicines Company as Nasdaq MDCO."
+      },
+      "target_identity": {
+        "cik": "1113481",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1113481/000095014219002354/eh1901278_14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-c8efa94de60e1314cced",
+      "candidate_id": "c8efa94de60e1314cced",
+      "target_cik": "1019695",
+      "target_name": "ArQule, Inc.",
+      "target_ticker": "ARQL",
+      "acquirer_name": "Merck & Co., Inc.",
+      "announcement_date": "2019-12-09",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2019-12-09",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.merck.com/news/merck-to-acquire-arqule-advancing-leadership-in-oncology/",
+        "title": "Merck to Acquire ArQule, Advancing Leadership in Oncology",
+        "source_date": "2019-12-09",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and acquisition-terms paragraphs",
+        "evidence_paraphrase": "The companies announce a definitive $20-per-share cash agreement for Nasdaq ARQL. Merck will tender for the whole outstanding share capital, then merge its subsidiary into ArQule and cash out remaining shares."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "ARQL",
+        "source_url": "https://www.merck.com/news/merck-to-acquire-arqule-advancing-leadership-in-oncology/",
+        "evidence": "The contemporaneous issuer release explicitly identifies ArQule, Inc. as Nasdaq ARQL."
+      },
+      "target_identity": {
+        "cik": "1019695",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1019695/000110465919073484/tv534682-sc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-536b6d92c91f369bba0a",
+      "candidate_id": "536b6d92c91f369bba0a",
+      "target_cik": "1557883",
+      "target_name": "Dermira, Inc.",
+      "target_ticker": "DERM",
+      "acquirer_name": "Eli Lilly and Company",
+      "announcement_date": "2020-01-10",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2020-01-10",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-announces-agreement-acquire-dermira",
+        "title": "Lilly Announces Agreement to Acquire Dermira",
+        "source_date": "2020-01-10",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and transaction-terms paragraph",
+        "evidence_paraphrase": "Lilly and Nasdaq DERM announce a definitive agreement at $18.75 cash per share. Lilly proposes a tender covering every outstanding Dermira share; the release describes a conditional, not completed, transaction."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "DERM",
+        "source_url": "https://investor.lilly.com/news-releases/news-release-details/lilly-announces-agreement-acquire-dermira",
+        "evidence": "The contemporaneous issuer release explicitly identifies Dermira, Inc. as Nasdaq DERM."
+      },
+      "target_identity": {
+        "cik": "1557883",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1557883/000162828020000450/dermirasc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-abd186656d91339c7d4b",
+      "candidate_id": "abd186656d91339c7d4b",
+      "target_cik": "1667633",
+      "target_name": "Forty Seven, Inc.",
+      "target_ticker": "FTSV",
+      "acquirer_name": "Gilead Sciences, Inc.",
+      "announcement_date": "2020-03-02",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2020-03-02",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.gilead.com/news/news-details/2020/gilead-to-acquire-forty-seven-for-49-billion",
+        "title": "Gilead to Acquire Forty Seven for $4.9 Billion",
+        "source_date": "2020-03-02",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening paragraph and Terms of the Transaction; later primary completion notice corroborates announcement date",
+        "evidence_paraphrase": "The joint release announces a definitive $95.50-per-share cash agreement for Nasdaq FTSV. Gilead plans to purchase the entire share capital through a tender and second-step merger. Gilead later explicitly identifies March 2 as the announcement date."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "FTSV",
+        "source_url": "https://www.gilead.com/news/news-details/2020/gilead-to-acquire-forty-seven-for-49-billion",
+        "evidence": "The contemporaneous issuer release explicitly identifies Forty Seven, Inc. as Nasdaq FTSV."
+      },
+      "target_identity": {
+        "cik": "1667633",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1667633/000104746920001349/a2240913zsc14d9.htm"
+      },
+      "supporting_primary_sources": [
+        {
+          "url": "https://www.gilead.com/news/news-details/2020/gilead-completes-acquisition-of-forty-seven-inc",
+          "title": "Gilead acquisition completion release",
+          "source_date": "2020-04-07",
+          "purpose": "Retrospectively corroborates the explicit first definitive-announcement date; no outcome information used as features."
+        }
+      ],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-016765da728d01b67146",
+      "candidate_id": "016765da728d01b67146",
+      "target_cik": "1269021",
+      "target_name": "Portola Pharmaceuticals, Inc.",
+      "target_ticker": "PTLA",
+      "acquirer_name": "Alexion Pharmaceuticals, Inc.",
+      "announcement_date": "2020-05-05",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2020-05-05",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/899866/000110465920056508/tm2018594d2_ex99-1.htm",
+        "title": "Alexion to Acquire Portola",
+        "source_date": "2020-05-05",
+        "source_type": "sec_filed_issuer_release",
+        "reviewed_content_locator": "Opening dateline and merger-terms paragraph",
+        "evidence_paraphrase": "The SEC-filed joint release announces a definitive merger agreement for Alexion to purchase Nasdaq PTLA. The stated terms cover every outstanding Portola common share at $18 cash per share and leave closing subject to conditions."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "PTLA",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/899866/000110465920056508/tm2018594d2_ex99-1.htm",
+        "evidence": "The contemporaneous issuer release explicitly identifies Portola Pharmaceuticals, Inc. as Nasdaq PTLA."
+      },
+      "target_identity": {
+        "cik": "1269021",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1269021/000104746920003216/a2241700zsc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-566e3809eb6da2d6fcd4",
+      "candidate_id": "566e3809eb6da2d6fcd4",
+      "target_cik": "1235010",
+      "target_name": "Momenta Pharmaceuticals, Inc.",
+      "target_ticker": "MNTA",
+      "acquirer_name": "Johnson & Johnson",
+      "announcement_date": "2020-08-19",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2020-08-19",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.globenewswire.com/news-release/2020/08/19/2080519/0/en/Momenta-Enters-Definitive-Agreement-with-Johnson-Johnson.html",
+        "title": "Momenta Enters Definitive Agreement with Johnson & Johnson",
+        "source_date": "2020-08-19",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and About the Agreement",
+        "evidence_paraphrase": "The target-issued release announces a board-approved definitive agreement for Nasdaq MNTA at $52.50 cash per share. J&J subsidiary Vigor Sub will tender for the complete outstanding common-share capital and merge with Momenta to acquire remaining shares."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "MNTA",
+        "source_url": "https://www.globenewswire.com/news-release/2020/08/19/2080519/0/en/Momenta-Enters-Definitive-Agreement-with-Johnson-Johnson.html",
+        "evidence": "The contemporaneous issuer release explicitly identifies Momenta Pharmaceuticals, Inc. as Nasdaq MNTA."
+      },
+      "target_identity": {
+        "cik": "1235010",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1235010/000119312520237583/d65757dsc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-f4271df2d7f6b9b16e9c",
+      "candidate_id": "f4271df2d7f6b9b16e9c",
+      "target_cik": "722830",
+      "target_name": "Immunomedics, Inc.",
+      "target_ticker": "IMMU",
+      "acquirer_name": "Gilead Sciences, Inc.",
+      "announcement_date": "2020-09-13",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2020-09-13",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.gilead.com/news/news-details/2020/gilead-sciences-to-acquire-immunomedics",
+        "title": "Gilead Sciences to Acquire Immunomedics",
+        "source_date": "2020-09-13",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening paragraph and transaction terms; later primary completion notice corroborates announcement date",
+        "evidence_paraphrase": "The joint release announces a definitive agreement for Nasdaq IMMU at $88 cash per share, with a tender covering every outstanding common share and a merger for remaining shares. Gilead subsequently confirms September 13 as the definitive-announcement date."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "IMMU",
+        "source_url": "https://www.gilead.com/news/news-details/2020/gilead-sciences-to-acquire-immunomedics",
+        "evidence": "The contemporaneous issuer release explicitly identifies Immunomedics, Inc. as Nasdaq IMMU."
+      },
+      "target_identity": {
+        "cik": "722830",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/722830/000110465920108121/tm2030753-2_sc14d9.htm"
+      },
+      "supporting_primary_sources": [
+        {
+          "url": "https://www.gilead.com/news/news-details/2020/gilead-sciences-completes-acquisition-of-immunomedics-inc",
+          "title": "Gilead acquisition completion release",
+          "source_date": "2020-10-23",
+          "purpose": "Retrospectively corroborates the explicit first definitive-announcement date; no outcome information used as features."
+        }
+      ],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-aec80d20f651f5da2f44",
+      "candidate_id": "aec80d20f651f5da2f44",
+      "target_cik": "1552451",
+      "target_name": "MyoKardia, Inc.",
+      "target_ticker": "MYOK",
+      "acquirer_name": "Bristol Myers Squibb Company",
+      "announcement_date": "2020-10-05",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2020-10-05",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://news.bms.com/news/details/2020/Bristol-Myers-Squibb-to-Acquire-MyoKardia-for-13.1-Billion-in-Cash/default.aspx",
+        "title": "Bristol Myers Squibb to Acquire MyoKardia for $13.1 Billion in Cash",
+        "source_date": "2020-10-05",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Release date, opening paragraph, and Transaction Terms and Financing",
+        "evidence_paraphrase": "The dated joint release identifies Nasdaq MYOK and a definitive $225-per-share cash merger agreement. The terms provide for a tender covering the entire outstanding common-share capital followed by a second-step merger."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "MYOK",
+        "source_url": "https://news.bms.com/news/details/2020/Bristol-Myers-Squibb-to-Acquire-MyoKardia-for-13.1-Billion-in-Cash/default.aspx",
+        "evidence": "The contemporaneous issuer release explicitly identifies MyoKardia, Inc. as Nasdaq MYOK."
+      },
+      "target_identity": {
+        "cik": "1552451",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1552451/000119312520271661/d82229dsc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-93e780a5fa3f8209e539",
+      "candidate_id": "93e780a5fa3f8209e539",
+      "target_cik": "1807901",
+      "target_name": "Pandion Therapeutics, Inc.",
+      "target_ticker": "PAND",
+      "acquirer_name": "Merck & Co., Inc.",
+      "announcement_date": "2021-02-25",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2021-02-25",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.merck.com/news/merck-to-acquire-pandion-therapeutics/",
+        "title": "Merck to Acquire Pandion Therapeutics",
+        "source_date": "2021-02-25",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and acquisition-terms paragraphs",
+        "evidence_paraphrase": "The companies announce a definitive cash agreement for Nasdaq PAND at $60 per share. Merck will tender for the entire outstanding share capital, then merge its subsidiary into Pandion and pay the same price for remaining shares."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "PAND",
+        "source_url": "https://www.merck.com/news/merck-to-acquire-pandion-therapeutics/",
+        "evidence": "The contemporaneous issuer release explicitly identifies Pandion Therapeutics, Inc. as Nasdaq PAND."
+      },
+      "target_identity": {
+        "cik": "1807901",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1807901/000119312521069722/d112288dsc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-1dbbd5563e1fc3c82d94",
+      "candidate_id": "1dbbd5563e1fc3c82d94",
+      "target_cik": "1175505",
+      "target_name": "Five Prime Therapeutics, Inc.",
+      "target_ticker": "FPRX",
+      "acquirer_name": "Amgen Inc.",
+      "announcement_date": "2021-03-04",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2021-03-04",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.amgen.com/newsroom/press-releases/2021/03/amgen-to-acquire-five-prime-therapeutics-for-%241-9-billion-in-cash",
+        "title": "Amgen To Acquire Five Prime Therapeutics For $1.9 Billion in Cash",
+        "source_date": "2021-03-04",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and Transaction Terms",
+        "evidence_paraphrase": "Amgen and Nasdaq FPRX announce a board-approved merger agreement at $38 cash per share. The terms call for a tender for every outstanding common share, followed by a merger converting untendered shares to the same cash price."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "FPRX",
+        "source_url": "https://www.amgen.com/newsroom/press-releases/2021/03/amgen-to-acquire-five-prime-therapeutics-for-%241-9-billion-in-cash",
+        "evidence": "The contemporaneous issuer release explicitly identifies Five Prime Therapeutics, Inc. as Nasdaq FPRX."
+      },
+      "target_identity": {
+        "cik": "1175505",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1175505/000119312521085017/d150014dsc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-6a5a1e6d99e311985717",
+      "candidate_id": "6a5a1e6d99e311985717",
+      "target_cik": "1434418",
+      "target_name": "Constellation Pharmaceuticals, Inc.",
+      "target_ticker": "CNST",
+      "acquirer_name": "MorphoSys AG",
+      "announcement_date": "2021-06-02",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2021-06-02",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1434418/000119312521180060/d182948dex992.htm",
+        "title": "MorphoSys to Acquire Constellation Pharmaceuticals and Enter into Strategic Funding Partnership with Royalty Pharma",
+        "source_date": "2021-06-02",
+        "source_type": "sec_filed_issuer_release",
+        "reviewed_content_locator": "Opening dateline and Transaction Details",
+        "evidence_paraphrase": "The SEC-filed release announces a definitive agreement for MorphoSys to purchase Nasdaq CNST at $34 cash per share. Transaction Details specifies a tender for every outstanding common share followed by a merger for untendered shares. Royalty Pharma is a financing partner, not the target acquirer."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "CNST",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1434418/000119312521180060/d182948dex992.htm",
+        "evidence": "The contemporaneous issuer release explicitly identifies Constellation Pharmaceuticals, Inc. as Nasdaq CNST."
+      },
+      "target_identity": {
+        "cik": "1434418",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1434418/000119312521192262/d148389dsc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-af6291dd827fb2f433f6",
+      "candidate_id": "af6291dd827fb2f433f6",
+      "target_cik": "1693415",
+      "target_name": "Translate Bio, Inc.",
+      "target_ticker": "TBIO",
+      "acquirer_name": "Sanofi",
+      "announcement_date": "2021-08-03",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2021-08-03",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.sanofi.com/en/media-room/press-releases/2021/2021-08-03-05-00-00-2273307",
+        "title": "Sanofi to acquire Translate Bio; advances deployment of mRNA technology across vaccines and therapeutics development",
+        "source_date": "2021-08-03",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and Transaction Terms",
+        "evidence_paraphrase": "Sanofi announces a definitive agreement for Nasdaq TBIO at $38 cash per share. The transaction seeks the whole outstanding share capital. Existing share ownership and support commitments amounting to about 30% are distinguished from the proposed full-company acquisition."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "TBIO",
+        "source_url": "https://www.sanofi.com/en/media-room/press-releases/2021/2021-08-03-05-00-00-2273307",
+        "evidence": "The contemporaneous issuer release explicitly identifies Translate Bio, Inc. as Nasdaq TBIO."
+      },
+      "target_identity": {
+        "cik": "1693415",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1693415/000119312521247021/d117934dsc14d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-f4ee39bac6223c55988e",
+      "candidate_id": "f4ee39bac6223c55988e",
+      "target_cik": "1280600",
+      "target_name": "Acceleron Pharma Inc.",
+      "target_ticker": "XLRN",
+      "acquirer_name": "Merck & Co., Inc.",
+      "announcement_date": "2021-09-30",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2021-09-30",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.merck.com/news/merck-to-acquire-acceleron-pharma-inc/",
+        "title": "Merck to Acquire Acceleron Pharma Inc.",
+        "source_date": "2021-09-30",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Opening dateline and acquisition-terms paragraphs",
+        "evidence_paraphrase": "Merck and Nasdaq XLRN announce a definitive acquisition agreement at $180 cash per share. The terms provide for a tender for the complete outstanding share capital followed by a merger converting remaining shares to the same cash consideration."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "XLRN",
+        "source_url": "https://www.merck.com/news/merck-to-acquire-acceleron-pharma-inc/",
+        "evidence": "The contemporaneous issuer release explicitly identifies Acceleron Pharma Inc. as Nasdaq XLRN."
+      },
+      "target_identity": {
+        "cik": "1280600",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1280600/000090266421004561/p21-2315sc13d9.htm"
+      },
+      "supporting_primary_sources": [],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    },
+    {
+      "evidence_record_id": "primary-b134354b7923c92728b2",
+      "candidate_id": "b134354b7923c92728b2",
+      "target_cik": "1399529",
+      "target_name": "Dicerna Pharmaceuticals, Inc.",
+      "target_ticker": "DRNA",
+      "acquirer_name": "Novo Nordisk A/S",
+      "announcement_date": "2021-11-18",
+      "timestamp_precision": "date",
+      "first_public_announcement_at": null,
+      "transaction_structure": "tender_offer",
+      "proposed_post_transaction_control_percent": 100,
+      "definitive_full_company_acquisition": true,
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2021-11-18",
+      "reviewer": "Codex-primary-source-review",
+      "independent_human_review": false,
+      "reviewed_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieved_at": "2026-09-08T12:11:44.825318+00:00",
+      "retrieval_timestamp_precision": "review_batch_completion",
+      "primary_source": {
+        "url": "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=87435",
+        "title": "Novo Nordisk to acquire Dicerna Pharmaceuticals including the RNAi research technology platform",
+        "source_date": "2021-11-18",
+        "source_type": "issuer_authored_release",
+        "reviewed_content_locator": "Release dateline, acquisition terms, and About Dicerna",
+        "evidence_paraphrase": "Novo Nordisk announces a definitive agreement and $38.25 cash tender for the whole Dicerna share capital, followed by a merger for remaining shares. The release identifies Nasdaq DRNA. The target SEC filing distinguishes the November 17 agreement signing from its November 18 public announcement."
+      },
+      "public_listing": {
+        "status": "listed_at_announcement",
+        "exchange": "Nasdaq",
+        "ticker": "DRNA",
+        "source_url": "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=87435",
+        "evidence": "The contemporaneous issuer release explicitly identifies Dicerna Pharmaceuticals, Inc. as Nasdaq DRNA."
+      },
+      "target_identity": {
+        "cik": "1399529",
+        "basis": "SEC candidate filer identity and archive CIK, matched by legal company name to reviewed announcement; not inferred from current ticker mappings.",
+        "candidate_filing_url": "https://www.sec.gov/Archives/edgar/data/1399529/000119312521340461/d262144dsc14d9.htm"
+      },
+      "supporting_primary_sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1399529/000119312521333677/d260606dsc14d9c.htm",
+          "title": "Dicerna SEC-filed current report and acquisition announcement",
+          "source_date": "2021-11-18",
+          "purpose": "Target CIK, Nasdaq DRNA, wholly owned outcome structure, and separation of signing from announcement."
+        }
+      ],
+      "limitations": [
+        "Source-reviewed by Codex; not independently adjudicated by a human. Date is the sourced definitive-announcement calendar date; intraday publication time and exhaustive earliest-publication search were not established. Status is pending as described at announcement, not a present-day deal-status claim. Control percent means proposed post-transaction ownership, not acceptance threshold or the incremental stake purchased. Announcement evidence is a label only, never a pre-event feature."
+      ]
+    }
+  ]
+}

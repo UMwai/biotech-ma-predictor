@@ -1,0 +1,167 @@
+{
+  "schema_version": "bounded-official-filing-route-discovery-v1",
+  "reviewed_at": "2026-09-08T20:29:41.570070+00:00",
+  "reviewer": "Codex bounded source-route review",
+  "independent_human_review": false,
+  "scope": "Six issuer routes; one direct attempt per new distinct route; existing exact timeout/denial receipts reused. No retries, network bypass, outcome classification or complete-corpus assertion.",
+  "browser_discovery_receipt": {
+    "source_relative_path": "data/history/panel_seed/negative_reviews/BEAM_ARQT_CRNX_ALT_APLT_CALA_route_discovery_browser.json",
+    "source_sha256": "332cf5a345bf83b2efb0f00fbbc24560ec7b8e7ae86f4d5437720e4279b53740",
+    "source_bytes": 94665
+  },
+  "issuers": [
+    {
+      "ticker": "BEAM",
+      "discovered_inventory_route": "https://investors.beamtx.com/financials-filings/sec-filings",
+      "probe_receipt": {
+        "source_relative_path": "data/history/panel_seed/negative_reviews/BEAM_filing_route_probe_20260908.json",
+        "source_sha256": "ee7b15e7903fa4baeffa77a6063b9a5983c2ca54829ea5c521fe7037fa581249",
+        "source_bytes": 669
+      },
+      "probe_status": "unavailable",
+      "assessment": "Drupal/Kaleidoscope archive indicated by primary browser rendering; native index timed out. Previously tested gcs hostname also timed out.",
+      "compatible_full_accession_mirror_demonstrated": false,
+      "complete_material_corpus_verified": false,
+      "outcome_label": null,
+      "reused_evidence": [
+        {
+          "source_relative_path": "data/history/panel_seed/negative_reviews/BEAM_sources/fetch_failures.json",
+          "source_sha256": "c3042bc2a61b9f8d8be4b30c8be2fb99ef8fa0f780aa19097110a73809c1e3a4",
+          "source_bytes": 364
+        }
+      ]
+    },
+    {
+      "ticker": "ARQT",
+      "discovered_inventory_route": "https://investors.arcutis.com/financial-information/sec-filings/",
+      "probe_receipt": {
+        "source_relative_path": "data/history/panel_seed/negative_reviews/ARQT_filing_route_probe_20260908.json",
+        "source_sha256": "75ad892ba4d5c0266980ec715ab5ab43bb2235e175809807ad5c92984aa71a86",
+        "source_bytes": 670
+      },
+      "probe_status": "unavailable",
+      "assessment": "Archived original 10-K filing-details page supplies a public /node/8916/html View HTML link; that body timed out. Prior index timeout preserved. Original annual PDFs already archived for financial facts do not establish complete material filings/exhibits.",
+      "compatible_full_accession_mirror_demonstrated": false,
+      "complete_material_corpus_verified": false,
+      "outcome_label": null,
+      "reused_evidence": [
+        {
+          "source_relative_path": "data/history/panel_seed/negative_reviews/ARQT_filing_index_fetch.json",
+          "source_sha256": "fac8f91539c89fe44bc2e9ca332bb5dd6dbcc689b8b17e4ecd51f394a7c22db0",
+          "source_bytes": 186
+        }
+      ],
+      "archived_primary_navigation": {
+        "source_relative_path": "data/history/panel_financials/publication_sources/ARQT_2021_filing.html",
+        "source_sha256": "c9e6764256ab9b18921037fcc860167692b3e9479327229fa1a6ded3b645dbec",
+        "source_bytes": 51453,
+        "locator": "/node/8916/html",
+        "character_offset_zero_based": 28894
+      }
+    },
+    {
+      "ticker": "CRNX",
+      "discovered_inventory_route": "https://ir.crinetics.com/investor-resources/sec-filings",
+      "probe_receipt": {
+        "source_relative_path": "data/history/panel_seed/negative_reviews/CRNX_filing_route_probe_20260908.json",
+        "source_sha256": "915841dc5ae513acdc96aa21e823ee1733db3eeba47eec5aeb807ec2bdaa21ec",
+        "source_bytes": 875
+      },
+      "probe_status": "success",
+      "assessment": "Corporate investor page is accessible and links the old SEC-filings route. Prior normal browser navigation redirected this to /financials/sec-filings/default.aspx; exact Q4 route previously returned 403 and was not retried. Corporate HTML is not a filing body.",
+      "compatible_full_accession_mirror_demonstrated": false,
+      "complete_material_corpus_verified": false,
+      "outcome_label": null,
+      "reused_evidence": [
+        {
+          "source_relative_path": "data/history/panel_seed/negative_reviews/CRNX_filing_index_fetch.json",
+          "source_sha256": "a3147ffdd21243a50652a4c4d05542a52bc4fe639564f9dde00eca5bdb2fbb59",
+          "source_bytes": 179
+        },
+        {
+          "source_relative_path": "data/history/panel_seed/negative_reviews/ARQT_CRNX_discovery_browser_capture.json",
+          "source_sha256": "d4a16744c8194dfa40ddbd5d397ac88c0580b065590b45f00c212c3c80d499d4",
+          "source_bytes": 31583
+        }
+      ],
+      "probe_source_bytes": {
+        "source_relative_path": "data/history/panel_seed/negative_reviews/CRNX_route_sources/6f4f9ea51a76cfb9197cca4151e5f61d71e100c60b70360e428b0f29a8c04e03.bin",
+        "source_sha256": "6f4f9ea51a76cfb9197cca4151e5f61d71e100c60b70360e428b0f29a8c04e03",
+        "source_bytes": 142299
+      },
+      "archived_primary_navigation": {
+        "source_relative_path": "data/history/panel_seed/negative_reviews/CRNX_route_sources/6f4f9ea51a76cfb9197cca4151e5f61d71e100c60b70360e428b0f29a8c04e03.bin",
+        "source_sha256": "6f4f9ea51a76cfb9197cca4151e5f61d71e100c60b70360e428b0f29a8c04e03",
+        "source_bytes": 142299,
+        "locator": "https://ir.crinetics.com/investor-resources/sec-filings",
+        "character_offset_zero_based": 116535
+      }
+    },
+    {
+      "ticker": "ALT",
+      "discovered_inventory_route": "https://ir.altimmune.com/investors/financials/sec-filings",
+      "probe_receipt": {
+        "source_relative_path": "data/history/panel_seed/negative_reviews/ALT_filing_route_probe_20260908.json",
+        "source_sha256": "ae60012cdce1eb3a43b5d7b03853d279081f0e4a765b67f434a797c5626683d4",
+        "source_bytes": 655
+      },
+      "probe_status": "unavailable",
+      "assessment": "SEC index route is linked from archived original issuer FY2019 filing-details HTML; one new index attempt timed out. Previously archived original annual PDF supports annual financial facts only.",
+      "compatible_full_accession_mirror_demonstrated": false,
+      "complete_material_corpus_verified": false,
+      "outcome_label": null,
+      "reused_evidence": [],
+      "archived_primary_navigation": {
+        "source_relative_path": "data/history/panel_financials/publication_sources/ALT_2019_filing.html",
+        "source_sha256": "89c4d26b3f11adb6f7b1161e57daba1a260cf1351e444aafd6162c65aa8e9832",
+        "source_bytes": 67914,
+        "locator": "/investors/financials/sec-filings",
+        "character_offset_zero_based": 17405
+      }
+    },
+    {
+      "ticker": "APLT",
+      "discovered_inventory_route": "https://ir.appliedtherapeutics.com/financial-information/sec-filings",
+      "probe_receipt": {
+        "source_relative_path": "data/history/panel_seed/negative_reviews/APLT_filing_route_probe_20260908.json",
+        "source_sha256": "6f1700922679f8eeb9033d02ba882f6b49e638d3270cd3db611fb46809f34367",
+        "source_bytes": 686
+      },
+      "probe_status": "unavailable",
+      "assessment": "Primary issuer search renders a Drupal/Kaleidoscope filing index under the gcs-web hostname and native issuer filing-details pages; one native index attempt timed out. No complete material filing corpus acquired.",
+      "compatible_full_accession_mirror_demonstrated": false,
+      "complete_material_corpus_verified": false,
+      "outcome_label": null,
+      "reused_evidence": []
+    },
+    {
+      "ticker": "CALA",
+      "discovered_inventory_route": "https://ir.calithera.com/financial-information/sec-filings",
+      "probe_receipt": {
+        "source_relative_path": "data/history/panel_seed/negative_reviews/CALA_filing_route_probe_20260908.json",
+        "source_sha256": "936f4706ec1889665dc2c8451b9fa138dea430a76ee2ca935c835c364dcef481",
+        "source_bytes": 721
+      },
+      "probe_status": "unavailable",
+      "assessment": "Historical issuer IR filing route no longer resolves in this probe. Original SEC proxy corroborates historical IR annual-report sibling path; secondary syndicated issuer 8-K names exact filing route. No live archive/body obtained.",
+      "compatible_full_accession_mirror_demonstrated": false,
+      "complete_material_corpus_verified": false,
+      "outcome_label": null,
+      "reused_evidence": []
+    }
+  ],
+  "summary": {
+    "issuers": 6,
+    "new_network_attempts": 6,
+    "complete_filing_bodies_acquired": 0,
+    "timeout_count": 4,
+    "dns_failure_count": 1,
+    "corporate_navigation_only_success_count": 1,
+    "new_equisolve_compatible_archives_demonstrated": 0
+  },
+  "limitations": [
+    "Failure is specific to these recorded routes and attempts, not proof that no lawful source exists.",
+    "Search-tool representations and current corporate navigation are separately identified from publisher filing bytes.",
+    "Existing complete SEC EFTS filing metadata inventories remain discovery evidence only; unknown outcomes remain unknown."
+  ]
+}

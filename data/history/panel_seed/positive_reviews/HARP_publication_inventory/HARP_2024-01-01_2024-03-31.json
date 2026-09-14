@@ -1,0 +1,4689 @@
+{
+  "cik": 1708493,
+  "end_date": "2024-03-31",
+  "inventory_complete": true,
+  "limitations": [
+    "Search metadata is not a full-text outcome review or proof of historical listing.",
+    "Current SEC indexes may reflect post-acceptance corrections or removals.",
+    "Candidate document URIs require original-document subject identity verification; associated CIKs are not automatically filers."
+  ],
+  "outcome_label": null,
+  "pages": [
+    {
+      "offset": 0,
+      "retrieved_at": "2026-09-08T20:01:44.569993+00:00",
+      "returned": 66,
+      "source_bytes": 47522,
+      "source_relative_path": "raw_sources/b83cc0f61a59a2fae75a8392c163ac09077eaa1073d143073b8c3ac6b259cc9f.json",
+      "source_sha256": "b83cc0f61a59a2fae75a8392c163ac09077eaa1073d143073b8c3ac6b259cc9f",
+      "source_uri": "https://efts.sec.gov/LATEST/search-index?ciks=0001708493&dateRange=custom&startdt=2024-01-01&enddt=2024-03-31&from=0&size=100",
+      "total": 66
+    }
+  ],
+  "records": [
+    {
+      "accession": "0001193125-24-073818",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524073818/d798525d1512g.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d798525d1512g.htm",
+      "filed_date": "2024-03-21",
+      "form": "15-12G",
+      "id": "0001193125-24-073818:d798525d1512g.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-073818:d798525d1512g.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-073818",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-21",
+          "file_description": "15-12G",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "15-12G",
+          "film_num": [
+            "24771211"
+          ],
+          "form": "15-12G",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "15-12G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1710979200000,
+          "0001193125-24-073818:d798525d1512g.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001076809-24-000080",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000107680924000080/harp20240308.htm",
+        "https://www.sec.gov/Archives/edgar/data/1076809/000107680924000080/harp20240308.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0001076809"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "GLAZER CAPITAL, LLC  (CIK 0001076809)"
+      ],
+      "document_name": "harp20240308.htm",
+      "filed_date": "2024-03-18",
+      "form": "SC 13G",
+      "id": "0001076809-24-000080:harp20240308.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001076809-24-000080:harp20240308.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001076809-24-000080",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "CA",
+            "NY"
+          ],
+          "ciks": [
+            "0001708493",
+            "0001076809"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "GLAZER CAPITAL, LLC  (CIK 0001076809)"
+          ],
+          "file_date": "2024-03-18",
+          "file_description": null,
+          "file_num": [
+            "005-90935"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "24760265"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1710720000000,
+          "0001076809-24-000080:harp20240308.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000807249-24-000032",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000080724924000032/harp_00.htm",
+        "https://www.sec.gov/Archives/edgar/data/807249/000080724924000032/harp_00.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0000807249"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "GAMCO INVESTORS, INC. ET AL  (CIK 0000807249)"
+      ],
+      "document_name": "harp_00.htm",
+      "filed_date": "2024-03-13",
+      "form": "SC 13D/A",
+      "id": "0000807249-24-000032:harp_00.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000807249-24-000032:harp_00.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000807249-24-000032",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Greenwich, CT"
+          ],
+          "biz_states": [
+            "CA",
+            "CT"
+          ],
+          "ciks": [
+            "0001708493",
+            "0000807249"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "GAMCO INVESTORS, INC. ET AL  (CIK 0000807249)"
+          ],
+          "file_date": "2024-03-13",
+          "file_description": null,
+          "file_num": [
+            "005-90935"
+          ],
+          "file_type": "SC 13D/A",
+          "film_num": [
+            "24746072"
+          ],
+          "form": "SC 13D/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836",
+            "0000"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1710288000000,
+          "0000807249-24-000032:harp_00.htm"
+        ]
+      }
+    },
+    {
+      "accession": "9999999995-24-000641",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/999999999524000641/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2024-03-11",
+      "form": "EFFECT",
+      "id": "9999999995-24-000641:primary_doc.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999995-24-000641:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999995-24-000641",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": null,
+          "file_num": [
+            "333-275958"
+          ],
+          "file_type": "EFFECT",
+          "film_num": [
+            "24740102"
+          ],
+          "form": "EFFECT",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "EFFECT"
+          ],
+          "schema_version": "X0101",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslEFFECTX01"
+        },
+        "sort": [
+          1710115200000,
+          "9999999995-24-000641:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "9999999995-24-000639",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/999999999524000639/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2024-03-11",
+      "form": "EFFECT",
+      "id": "9999999995-24-000639:primary_doc.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999995-24-000639:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999995-24-000639",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": null,
+          "file_num": [
+            "333-272064"
+          ],
+          "file_type": "EFFECT",
+          "film_num": [
+            "24740095"
+          ],
+          "form": "EFFECT",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "EFFECT"
+          ],
+          "schema_version": "X0101",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslEFFECTX01"
+        },
+        "sort": [
+          1710115200000,
+          "9999999995-24-000639:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "9999999995-24-000638",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/999999999524000638/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2024-03-11",
+      "form": "EFFECT",
+      "id": "9999999995-24-000638:primary_doc.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "9999999995-24-000638:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "9999999995-24-000638",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": null,
+          "file_num": [
+            "333-271400"
+          ],
+          "file_type": "EFFECT",
+          "film_num": [
+            "24740101"
+          ],
+          "form": "EFFECT",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "EFFECT"
+          ],
+          "schema_version": "X0101",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslEFFECTX01"
+        },
+        "sort": [
+          1710115200000,
+          "9999999995-24-000638:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001354457-24-000134",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000135445724000134/primary_doc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1354457/000135445724000134/primary_doc.xml"
+      ],
+      "ciks": [
+        "0001708493",
+        "0001354457"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "Nasdaq Stock Market LLC  (CIK 0001354457)"
+      ],
+      "document_name": "primary_doc.xml",
+      "filed_date": "2024-03-11",
+      "form": "25-NSE",
+      "id": "0001354457-24-000134:primary_doc.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0001354457-24-000134:primary_doc.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001354457-24-000134",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "CA",
+            "NY"
+          ],
+          "ciks": [
+            "0001708493",
+            "0001354457"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "Nasdaq Stock Market LLC  (CIK 0001354457)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": null,
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "25-NSE",
+          "film_num": [
+            "24736877"
+          ],
+          "form": "25-NSE",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "25-NSE"
+          ],
+          "schema_version": "X0203",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF25X02"
+        },
+        "sort": [
+          1710115200000,
+          "0001354457-24-000134:primary_doc.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-064741",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524064741/d794405dsc13da.htm",
+        "https://www.sec.gov/Archives/edgar/data/64978/000119312524064741/d794405dsc13da.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0000064978"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "MERCK SHARP & DOHME LLC  (CIK 0000064978)"
+      ],
+      "document_name": "d794405dsc13da.htm",
+      "filed_date": "2024-03-11",
+      "form": "SC 13D/A",
+      "id": "0001193125-24-064741:d794405dsc13da.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-064741:d794405dsc13da.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-064741",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Whitehouse Station, NJ"
+          ],
+          "biz_states": [
+            "CA",
+            "NJ"
+          ],
+          "ciks": [
+            "0001708493",
+            "0000064978"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "MERCK SHARP & DOHME LLC  (CIK 0000064978)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "SC 13D/A",
+          "file_num": [
+            "005-90935"
+          ],
+          "file_type": "SC 13D/A",
+          "film_num": [
+            "24737727"
+          ],
+          "form": "SC 13D/A",
+          "inc_states": [
+            "DE",
+            "NJ"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836",
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1710115200000,
+          "0001193125-24-064741:d794405dsc13da.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-064465",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524064465/d803945dposam.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d803945dposam.htm",
+      "filed_date": "2024-03-11",
+      "form": "POS AM",
+      "id": "0001193125-24-064465:d803945dposam.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-064465:d803945dposam.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-064465",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "POS AM",
+          "file_num": [
+            "333-271400"
+          ],
+          "file_type": "POS AM",
+          "film_num": [
+            "24736830"
+          ],
+          "form": "POS AM",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "POS AM"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1710115200000,
+          "0001193125-24-064465:d803945dposam.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-064463",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524064463/d803945dposam.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d803945dposam.htm",
+      "filed_date": "2024-03-11",
+      "form": "POS AM",
+      "id": "0001193125-24-064463:d803945dposam.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-064463:d803945dposam.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-064463",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "POS AM",
+          "file_num": [
+            "333-272064"
+          ],
+          "file_type": "POS AM",
+          "film_num": [
+            "24736824"
+          ],
+          "form": "POS AM",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "POS AM"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1710115200000,
+          "0001193125-24-064463:d803945dposam.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-064460",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524064460/d803945dposam.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d803945dposam.htm",
+      "filed_date": "2024-03-11",
+      "form": "POS AM",
+      "id": "0001193125-24-064460:d803945dposam.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-064460:d803945dposam.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-064460",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "POS AM",
+          "file_num": [
+            "333-275958"
+          ],
+          "file_type": "POS AM",
+          "film_num": [
+            "24736819"
+          ],
+          "form": "POS AM",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "POS AM"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1710115200000,
+          "0001193125-24-064460:d803945dposam.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-064457",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524064457/d763376ds8pos.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d763376ds8pos.htm",
+      "filed_date": "2024-03-11",
+      "form": "S-8 POS",
+      "id": "0001193125-24-064457:d763376ds8pos.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-064457:d763376ds8pos.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-064457",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "S-8 POS",
+          "file_num": [
+            "333-229592"
+          ],
+          "file_type": "S-8 POS",
+          "film_num": [
+            "24736812"
+          ],
+          "form": "S-8 POS",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8 POS"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1710115200000,
+          "0001193125-24-064457:d763376ds8pos.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-064455",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524064455/d763376ds8pos.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d763376ds8pos.htm",
+      "filed_date": "2024-03-11",
+      "form": "S-8 POS",
+      "id": "0001193125-24-064455:d763376ds8pos.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-064455:d763376ds8pos.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-064455",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "S-8 POS",
+          "file_num": [
+            "333-237173"
+          ],
+          "file_type": "S-8 POS",
+          "film_num": [
+            "24736807"
+          ],
+          "form": "S-8 POS",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8 POS"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1710115200000,
+          "0001193125-24-064455:d763376ds8pos.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-064453",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524064453/d763376ds8pos.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d763376ds8pos.htm",
+      "filed_date": "2024-03-11",
+      "form": "S-8 POS",
+      "id": "0001193125-24-064453:d763376ds8pos.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-064453:d763376ds8pos.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-064453",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "S-8 POS",
+          "file_num": [
+            "333-254098"
+          ],
+          "file_type": "S-8 POS",
+          "film_num": [
+            "24736802"
+          ],
+          "form": "S-8 POS",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8 POS"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1710115200000,
+          "0001193125-24-064453:d763376ds8pos.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-064449",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524064449/d763376ds8pos.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d763376ds8pos.htm",
+      "filed_date": "2024-03-11",
+      "form": "S-8 POS",
+      "id": "0001193125-24-064449:d763376ds8pos.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-064449:d763376ds8pos.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-064449",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "S-8 POS",
+          "file_num": [
+            "333-263453"
+          ],
+          "file_type": "S-8 POS",
+          "film_num": [
+            "24736799"
+          ],
+          "form": "S-8 POS",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8 POS"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1710115200000,
+          "0001193125-24-064449:d763376ds8pos.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-064448",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524064448/d763376ds8pos.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d763376ds8pos.htm",
+      "filed_date": "2024-03-11",
+      "form": "S-8 POS",
+      "id": "0001193125-24-064448:d763376ds8pos.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-064448:d763376ds8pos.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-064448",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "S-8 POS",
+          "file_num": [
+            "333-266747"
+          ],
+          "file_type": "S-8 POS",
+          "film_num": [
+            "24736789"
+          ],
+          "form": "S-8 POS",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8 POS"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1710115200000,
+          "0001193125-24-064448:d763376ds8pos.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-064446",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524064446/d763376ds8pos.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d763376ds8pos.htm",
+      "filed_date": "2024-03-11",
+      "form": "S-8 POS",
+      "id": "0001193125-24-064446:d763376ds8pos.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-064446:d763376ds8pos.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-064446",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "S-8 POS",
+          "file_num": [
+            "333-270883"
+          ],
+          "file_type": "S-8 POS",
+          "film_num": [
+            "24736787"
+          ],
+          "form": "S-8 POS",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8 POS"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1710115200000,
+          "0001193125-24-064446:d763376ds8pos.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-064436",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524064436/d763376ds8pos.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d763376ds8pos.htm",
+      "filed_date": "2024-03-11",
+      "form": "S-8 POS",
+      "id": "0001193125-24-064436:d763376ds8pos.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-064436:d763376ds8pos.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-064436",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "S-8 POS",
+          "file_num": [
+            "333-276408"
+          ],
+          "file_type": "S-8 POS",
+          "film_num": [
+            "24736769"
+          ],
+          "form": "S-8 POS",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8 POS"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1710115200000,
+          "0001193125-24-064436:d763376ds8pos.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-064395",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524064395/d808382d8k.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d808382d8k.htm",
+      "filed_date": "2024-03-11",
+      "form": "8-K",
+      "id": "0001193125-24-064395:d808382d8k.htm",
+      "items": [
+        "1.02",
+        "2.01",
+        "3.01",
+        "3.03",
+        "5.01",
+        "5.02",
+        "5.03",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-24-064395:d808382d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-064395",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "24736691"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "1.02",
+            "2.01",
+            "3.01",
+            "3.03",
+            "5.01",
+            "5.02",
+            "5.03",
+            "9.01"
+          ],
+          "period_ending": "2024-03-11",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1710115200000,
+          "0001193125-24-064395:d808382d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-029449",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1340806/000095017024029449/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1625653/000095017024029449/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1625656/000095017024029449/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1740783/000095017024029449/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1625657/000095017024029449/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1735293/000095017024029449/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1740755/000095017024029449/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024029449/ownership.xml"
+      ],
+      "ciks": [
+        "0001340806",
+        "0001625653",
+        "0001625656",
+        "0001740783",
+        "0001625657",
+        "0001735293",
+        "0001740755",
+        "0001708493"
+      ],
+      "display_names": [
+        "Lathi Vijay K  (CIK 0001340806)",
+        "New Leaf Ventures III, L.P.  (CIK 0001625653)",
+        "New Leaf Venture Associates III, L.P.  (CIK 0001625656)",
+        "New Leaf BPO Associates II, L.P.  (CIK 0001740783)",
+        "New Leaf Venture Management III, L.L.C.  (CIK 0001625657)",
+        "New Leaf Biopharma Opportunities II, L.P.  (CIK 0001735293)",
+        "New Leaf BPO Management II, L.L.C  (CIK 0001740755)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-03-11",
+      "form": "4",
+      "id": "0000950170-24-029449:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-029449:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-029449",
+          "biz_locations": [
+            "",
+            "New York, NY",
+            "New York, NY",
+            "New York, NY",
+            "New York, NY",
+            "New York, NY",
+            "New York, NY",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "NY",
+            "CA"
+          ],
+          "ciks": [
+            "0001340806",
+            "0001625653",
+            "0001625656",
+            "0001740783",
+            "0001625657",
+            "0001735293",
+            "0001740755",
+            "0001708493"
+          ],
+          "display_names": [
+            "Lathi Vijay K  (CIK 0001340806)",
+            "New Leaf Ventures III, L.P.  (CIK 0001625653)",
+            "New Leaf Venture Associates III, L.P.  (CIK 0001625656)",
+            "New Leaf BPO Associates II, L.P.  (CIK 0001740783)",
+            "New Leaf Venture Management III, L.L.C.  (CIK 0001625657)",
+            "New Leaf Biopharma Opportunities II, L.P.  (CIK 0001735293)",
+            "New Leaf BPO Management II, L.L.C  (CIK 0001740755)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "4",
+          "file_num": [
+            "001-38800",
+            "001-38800",
+            "001-38800",
+            "001-38800",
+            "001-38800",
+            "001-38800",
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24739256",
+            "24739261",
+            "24739260",
+            "24739258",
+            "24739259",
+            "24739262",
+            "24739257"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE",
+            "DE",
+            "DE",
+            "DE",
+            "DE",
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-03-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1710115200000,
+          "0000950170-24-029449:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-029447",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1225755/000095017024029447/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024029447/ownership.xml"
+      ],
+      "ciks": [
+        "0001225755",
+        "0001708493"
+      ],
+      "display_names": [
+        "SILVERNAIL LAUREN P  (CIK 0001225755)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-03-11",
+      "form": "4",
+      "id": "0000950170-24-029447:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-029447:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-029447",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001225755",
+            "0001708493"
+          ],
+          "display_names": [
+            "SILVERNAIL LAUREN P  (CIK 0001225755)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24739225"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-03-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1710115200000,
+          "0000950170-24-029447:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-029446",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1247851/000095017024029446/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024029446/ownership.xml"
+      ],
+      "ciks": [
+        "0001247851",
+        "0001708493"
+      ],
+      "display_names": [
+        "HUNT RONALD  (CIK 0001247851)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-03-11",
+      "form": "4",
+      "id": "0000950170-24-029446:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-029446:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-029446",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001247851",
+            "0001708493"
+          ],
+          "display_names": [
+            "HUNT RONALD  (CIK 0001247851)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24739224"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-03-08",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1710115200000,
+          "0000950170-24-029446:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-029445",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1701440/000095017024029445/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024029445/ownership.xml"
+      ],
+      "ciks": [
+        "0001701440",
+        "0001708493"
+      ],
+      "display_names": [
+        "Walker Luke Nathaniel  (CIK 0001701440)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-03-11",
+      "form": "4",
+      "id": "0000950170-24-029445:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-029445:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-029445",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001701440",
+            "0001708493"
+          ],
+          "display_names": [
+            "Walker Luke Nathaniel  (CIK 0001701440)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24739218"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-03-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1710115200000,
+          "0000950170-24-029445:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-029443",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1356256/000095017024029443/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024029443/ownership.xml"
+      ],
+      "ciks": [
+        "0001356256",
+        "0001708493"
+      ],
+      "display_names": [
+        "Myers Scott Dunseth  (CIK 0001356256)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-03-11",
+      "form": "4",
+      "id": "0000950170-24-029443:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-029443:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-029443",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001356256",
+            "0001708493"
+          ],
+          "display_names": [
+            "Myers Scott Dunseth  (CIK 0001356256)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24739210"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-03-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1710115200000,
+          "0000950170-24-029443:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-029439",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1734389/000095017024029439/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024029439/ownership.xml"
+      ],
+      "ciks": [
+        "0001734389",
+        "0001708493"
+      ],
+      "display_names": [
+        "Chin Mark  (CIK 0001734389)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-03-11",
+      "form": "4",
+      "id": "0000950170-24-029439:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-029439:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-029439",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001734389",
+            "0001708493"
+          ],
+          "display_names": [
+            "Chin Mark  (CIK 0001734389)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24739195"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-03-08",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1710115200000,
+          "0000950170-24-029439:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-029434",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1588467/000095017024029434/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024029434/ownership.xml"
+      ],
+      "ciks": [
+        "0001588467",
+        "0001708493"
+      ],
+      "display_names": [
+        "DRACHMAN JONATHAN G  (CIK 0001588467)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-03-11",
+      "form": "4",
+      "id": "0000950170-24-029434:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-029434:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-029434",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001588467",
+            "0001708493"
+          ],
+          "display_names": [
+            "DRACHMAN JONATHAN G  (CIK 0001588467)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24739154"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-03-08",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1710115200000,
+          "0000950170-24-029434:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-029433",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1590157/000095017024029433/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024029433/ownership.xml"
+      ],
+      "ciks": [
+        "0001590157",
+        "0001708493"
+      ],
+      "display_names": [
+        "Robbins Andrew R  (CIK 0001590157)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-03-11",
+      "form": "4",
+      "id": "0000950170-24-029433:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-029433:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-029433",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001590157",
+            "0001708493"
+          ],
+          "display_names": [
+            "Robbins Andrew R  (CIK 0001590157)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24739149"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-03-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1710115200000,
+          "0000950170-24-029433:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-029431",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1624055/000095017024029431/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024029431/ownership.xml"
+      ],
+      "ciks": [
+        "0001624055",
+        "0001708493"
+      ],
+      "display_names": [
+        "Lanza Frank J  (CIK 0001624055)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-03-11",
+      "form": "4",
+      "id": "0000950170-24-029431:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-029431:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-029431",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001624055",
+            "0001708493"
+          ],
+          "display_names": [
+            "Lanza Frank J  (CIK 0001624055)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24739135"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-03-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1710115200000,
+          "0000950170-24-029431:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-029430",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1500189/000095017024029430/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024029430/ownership.xml"
+      ],
+      "ciks": [
+        "0001500189",
+        "0001708493"
+      ],
+      "display_names": [
+        "EASTLAND JULIA MARIE  (CIK 0001500189)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-03-11",
+      "form": "4",
+      "id": "0000950170-24-029430:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-029430:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-029430",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001500189",
+            "0001708493"
+          ],
+          "display_names": [
+            "EASTLAND JULIA MARIE  (CIK 0001500189)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24739130"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-03-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1710115200000,
+          "0000950170-24-029430:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-029429",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1201039/000095017024029429/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024029429/ownership.xml"
+      ],
+      "ciks": [
+        "0001201039",
+        "0001708493"
+      ],
+      "display_names": [
+        "BAILES JOSEPH S  (CIK 0001201039)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-03-11",
+      "form": "4",
+      "id": "0000950170-24-029429:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-029429:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-029429",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001201039",
+            "0001708493"
+          ],
+          "display_names": [
+            "BAILES JOSEPH S  (CIK 0001201039)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24739129"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-03-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1710115200000,
+          "0000950170-24-029429:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-029425",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1664928/000095017024029425/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024029425/ownership.xml"
+      ],
+      "ciks": [
+        "0001664928",
+        "0001708493"
+      ],
+      "display_names": [
+        "Bucher James B  (CIK 0001664928)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-03-11",
+      "form": "4",
+      "id": "0000950170-24-029425:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-029425:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-029425",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001664928",
+            "0001708493"
+          ],
+          "display_names": [
+            "Bucher James B  (CIK 0001664928)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24739110"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-03-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1710115200000,
+          "0000950170-24-029425:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-029165",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/64978/000095017024029165/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/310158/000095017024029165/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024029165/ownership.xml"
+      ],
+      "ciks": [
+        "0000064978",
+        "0000310158",
+        "0001708493"
+      ],
+      "display_names": [
+        "MERCK SHARP & DOHME LLC  (CIK 0000064978)",
+        "Merck & Co., Inc.  (MRK)  (CIK 0000310158)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-03-11",
+      "form": "4",
+      "id": "0000950170-24-029165:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-029165:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-029165",
+          "biz_locations": [
+            "Whitehouse Station, NJ",
+            "Kenilworth, NJ",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "NJ",
+            "CA"
+          ],
+          "ciks": [
+            "0000064978",
+            "0000310158",
+            "0001708493"
+          ],
+          "display_names": [
+            "MERCK SHARP & DOHME LLC  (CIK 0000064978)",
+            "Merck & Co., Inc.  (MRK)  (CIK 0000310158)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-11",
+          "file_description": "4",
+          "file_num": [
+            "001-38800",
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24737783",
+            "24737784"
+          ],
+          "form": "4",
+          "inc_states": [
+            "NJ",
+            "NJ",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-03-11",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "2834",
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1710115200000,
+          "0000950170-24-029165:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-063629",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524063629/d751961d8k.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d751961d8k.htm",
+      "filed_date": "2024-03-08",
+      "form": "8-K",
+      "id": "0001193125-24-063629:d751961d8k.htm",
+      "items": [
+        "5.07"
+      ],
+      "source_hit": {
+        "_id": "0001193125-24-063629:d751961d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-063629",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-03-08",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "24734268"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.07"
+          ],
+          "period_ending": "2024-03-08",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1709856000000,
+          "0001193125-24-063629:d751961d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-049211",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524049211/d755462ddefa14a.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d755462ddefa14a.htm",
+      "filed_date": "2024-02-28",
+      "form": "DEFA14A",
+      "id": "0001193125-24-049211:d755462ddefa14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-049211:d755462ddefa14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-049211",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-02-28",
+          "file_description": "DEFA14A",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "DEFA14A",
+          "film_num": [
+            "24690193"
+          ],
+          "form": "DEFA14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DEFA14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1709078400000,
+          "0001193125-24-049211:d755462ddefa14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-049205",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524049205/d744870d8k.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d744870d8k.htm",
+      "filed_date": "2024-02-28",
+      "form": "8-K",
+      "id": "0001193125-24-049205:d744870d8k.htm",
+      "items": [
+        "8.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-24-049205:d744870d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-049205",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-02-28",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "24690188"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01"
+          ],
+          "period_ending": "2024-02-28",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1709078400000,
+          "0001193125-24-049205:d744870d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000807249-24-000027",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000080724924000027/harp_00.htm",
+        "https://www.sec.gov/Archives/edgar/data/807249/000080724924000027/harp_00.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0000807249"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "GAMCO INVESTORS, INC. ET AL  (CIK 0000807249)"
+      ],
+      "document_name": "harp_00.htm",
+      "filed_date": "2024-02-27",
+      "form": "SC 13D",
+      "id": "0000807249-24-000027:harp_00.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0000807249-24-000027:harp_00.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000807249-24-000027",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Greenwich, CT"
+          ],
+          "biz_states": [
+            "CA",
+            "CT"
+          ],
+          "ciks": [
+            "0001708493",
+            "0000807249"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "GAMCO INVESTORS, INC. ET AL  (CIK 0000807249)"
+          ],
+          "file_date": "2024-02-27",
+          "file_description": null,
+          "file_num": [
+            "005-90935"
+          ],
+          "file_type": "SC 13D",
+          "film_num": [
+            "24686364"
+          ],
+          "form": "SC 13D",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836",
+            "0000"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1708992000000,
+          "0000807249-24-000027:harp_00.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-042136",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524042136/d750403ddefa14a.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d750403ddefa14a.htm",
+      "filed_date": "2024-02-22",
+      "form": "DEFA14A",
+      "id": "0001193125-24-042136:d750403ddefa14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-042136:d750403ddefa14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-042136",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-02-22",
+          "file_description": "DEFA14A",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "DEFA14A",
+          "film_num": [
+            "24662421"
+          ],
+          "form": "DEFA14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DEFA14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1708560000000,
+          "0001193125-24-042136:d750403ddefa14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-042133",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524042133/d750279d8k.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d750279d8k.htm",
+      "filed_date": "2024-02-22",
+      "form": "8-K",
+      "id": "0001193125-24-042133:d750279d8k.htm",
+      "items": [
+        "8.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-24-042133:d750279d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-042133",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-02-22",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "24662415"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01"
+          ],
+          "period_ending": "2024-02-21",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1708560000000,
+          "0001193125-24-042133:d750279d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-041534",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524041534/d754838dsc13da.htm",
+        "https://www.sec.gov/Archives/edgar/data/1700449/000119312524041534/d754838dsc13da.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0001700449"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "Arix Bioscience plc  (CIK 0001700449)"
+      ],
+      "document_name": "d754838dsc13da.htm",
+      "filed_date": "2024-02-21",
+      "form": "SC 13D/A",
+      "id": "0001193125-24-041534:d754838dsc13da.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-041534:d754838dsc13da.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-041534",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "London, X0"
+          ],
+          "biz_states": [
+            "CA",
+            "X0"
+          ],
+          "ciks": [
+            "0001708493",
+            "0001700449"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "Arix Bioscience plc  (CIK 0001700449)"
+          ],
+          "file_date": "2024-02-21",
+          "file_description": "SC 13D/A",
+          "file_num": [
+            "005-90935"
+          ],
+          "file_type": "SC 13D/A",
+          "film_num": [
+            "24660451"
+          ],
+          "form": "SC 13D/A",
+          "inc_states": [
+            "DE",
+            "X0"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1708473600000,
+          "0001193125-24-041534:d754838dsc13da.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-24-024108",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000110465924024108/tm245287d1_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1423053/000110465924024108/tm245287d1_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0001423053"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "CITADEL ADVISORS LLC  (CIK 0001423053)"
+      ],
+      "document_name": "tm245287d1_sc13ga.htm",
+      "filed_date": "2024-02-14",
+      "form": "SC 13G/A",
+      "id": "0001104659-24-024108:tm245287d1_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-24-024108:tm245287d1_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-24-024108",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Miami, FL"
+          ],
+          "biz_states": [
+            "CA",
+            "FL"
+          ],
+          "ciks": [
+            "0001708493",
+            "0001423053"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "CITADEL ADVISORS LLC  (CIK 0001423053)"
+          ],
+          "file_date": "2024-02-14",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-90935"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "24641181"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1707868800000,
+          "0001104659-24-024108:tm245287d1_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-24-024011",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000110465924024011/tm246065d24_sc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1346824/000110465924024011/tm246065d24_sc13ga.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0001346824"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "RA CAPITAL MANAGEMENT, L.P.  (CIK 0001346824)"
+      ],
+      "document_name": "tm246065d24_sc13ga.htm",
+      "filed_date": "2024-02-14",
+      "form": "SC 13G/A",
+      "id": "0001104659-24-024011:tm246065d24_sc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-24-024011:tm246065d24_sc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-24-024011",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Boston, MA"
+          ],
+          "biz_states": [
+            "CA",
+            "MA"
+          ],
+          "ciks": [
+            "0001708493",
+            "0001346824"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "RA CAPITAL MANAGEMENT, L.P.  (CIK 0001346824)"
+          ],
+          "file_date": "2024-02-14",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-90935"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "24640152"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1707868800000,
+          "0001104659-24-024011:tm246065d24_sc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-034432",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524034432/d767272dsc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1625653/000119312524034432/d767272dsc13ga.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0001625653"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "New Leaf Ventures III, L.P.  (CIK 0001625653)"
+      ],
+      "document_name": "d767272dsc13ga.htm",
+      "filed_date": "2024-02-13",
+      "form": "SC 13G/A",
+      "id": "0001193125-24-034432:d767272dsc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-034432:d767272dsc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-034432",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "CA",
+            "NY"
+          ],
+          "ciks": [
+            "0001708493",
+            "0001625653"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "New Leaf Ventures III, L.P.  (CIK 0001625653)"
+          ],
+          "file_date": "2024-02-13",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-90935"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "24631539"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1707782400000,
+          "0001193125-24-034432:d767272dsc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001104659-24-021079",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000110465924021079/tv01077-harpoontherapeuticsi.htm",
+        "https://www.sec.gov/Archives/edgar/data/102909/000110465924021079/tv01077-harpoontherapeuticsi.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0000102909"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "VANGUARD GROUP INC  (CIK 0000102909)"
+      ],
+      "document_name": "tv01077-harpoontherapeuticsi.htm",
+      "filed_date": "2024-02-13",
+      "form": "SC 13G",
+      "id": "0001104659-24-021079:tv01077-harpoontherapeuticsi.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001104659-24-021079:tv01077-harpoontherapeuticsi.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001104659-24-021079",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Valley Forge, PA"
+          ],
+          "biz_states": [
+            "CA",
+            "PA"
+          ],
+          "ciks": [
+            "0001708493",
+            "0000102909"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "VANGUARD GROUP INC  (CIK 0000102909)"
+          ],
+          "file_date": "2024-02-13",
+          "file_description": "SCHEDULE 13G",
+          "file_num": [
+            "005-90935"
+          ],
+          "file_type": "SC 13G",
+          "film_num": [
+            "24628499"
+          ],
+          "form": "SC 13G",
+          "inc_states": [
+            "DE",
+            "PA"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1707782400000,
+          "0001104659-24-021079:tv01077-harpoontherapeuticsi.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-032037",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524032037/d777936dsc13da.htm",
+        "https://www.sec.gov/Archives/edgar/data/1609492/000119312524032037/d777936dsc13da.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0001609492"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "MPM BioVentures 2014, L.P.  (CIK 0001609492)"
+      ],
+      "document_name": "d777936dsc13da.htm",
+      "filed_date": "2024-02-12",
+      "form": "SC 13D/A",
+      "id": "0001193125-24-032037:d777936dsc13da.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-032037:d777936dsc13da.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-032037",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Cambridge, MA"
+          ],
+          "biz_states": [
+            "CA",
+            "MA"
+          ],
+          "ciks": [
+            "0001708493",
+            "0001609492"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "MPM BioVentures 2014, L.P.  (CIK 0001609492)"
+          ],
+          "file_date": "2024-02-12",
+          "file_description": "SC 13D/A",
+          "file_num": [
+            "005-90935"
+          ],
+          "file_type": "SC 13D/A",
+          "film_num": [
+            "24619951"
+          ],
+          "form": "SC 13D/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1707696000000,
+          "0001193125-24-032037:d777936dsc13da.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-030287",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524030287/d771216dsc13ga.htm",
+        "https://www.sec.gov/Archives/edgar/data/1218180/000119312524030287/d771216dsc13ga.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0001218180"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "Artal International S.C.A.  (CIK 0001218180)"
+      ],
+      "document_name": "d771216dsc13ga.htm",
+      "filed_date": "2024-02-09",
+      "form": "SC 13G/A",
+      "id": "0001193125-24-030287:d771216dsc13ga.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-030287:d771216dsc13ga.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-030287",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Luxembourg, N4"
+          ],
+          "biz_states": [
+            "CA",
+            "N4"
+          ],
+          "ciks": [
+            "0001708493",
+            "0001218180"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "Artal International S.C.A.  (CIK 0001218180)"
+          ],
+          "file_date": "2024-02-09",
+          "file_description": "SC 13G/A",
+          "file_num": [
+            "005-90935"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "24616083"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1707436800000,
+          "0001193125-24-030287:d771216dsc13ga.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-027505",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524027505/d734477ddefm14a.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d734477ddefm14a.htm",
+      "filed_date": "2024-02-08",
+      "form": "DEFM14A",
+      "id": "0001193125-24-027505:d734477ddefm14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-027505:d734477ddefm14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-027505",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-02-08",
+          "file_description": "DEFM14A",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "DEFM14A",
+          "film_num": [
+            "24606827"
+          ],
+          "form": "DEFM14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DEFM14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1707350400000,
+          "0001193125-24-027505:d734477ddefm14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001213900-24-010560",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000121390024010560/ea192956-13ga1soleus3_har.htm",
+        "https://www.sec.gov/Archives/edgar/data/1955982/000121390024010560/ea192956-13ga1soleus3_har.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0001955982"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "Soleus Private Equity Fund III, L.P.  (CIK 0001955982)"
+      ],
+      "document_name": "ea192956-13ga1soleus3_har.htm",
+      "filed_date": "2024-02-06",
+      "form": "SC 13G/A",
+      "id": "0001213900-24-010560:ea192956-13ga1soleus3_har.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001213900-24-010560:ea192956-13ga1soleus3_har.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001213900-24-010560",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Greenwich, CT"
+          ],
+          "biz_states": [
+            "CA",
+            "CT"
+          ],
+          "ciks": [
+            "0001708493",
+            "0001955982"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "Soleus Private Equity Fund III, L.P.  (CIK 0001955982)"
+          ],
+          "file_date": "2024-02-06",
+          "file_description": "AMENDMENT NO. 1 TO SCHEDULE 13G",
+          "file_num": [
+            "005-90935"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "24600448"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1707177600000,
+          "0001213900-24-010560:ea192956-13ga1soleus3_har.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-018222",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524018222/d734477dprem14a.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d734477dprem14a.htm",
+      "filed_date": "2024-01-29",
+      "form": "PREM14A",
+      "id": "0001193125-24-018222:d734477dprem14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-018222:d734477dprem14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-018222",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-01-29",
+          "file_description": "PREM14A",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "PREM14A",
+          "film_num": [
+            "24574363"
+          ],
+          "form": "PREM14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-01-29",
+          "root_forms": [
+            "PREM14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1706486400000,
+          "0001193125-24-018222:d734477dprem14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-018159",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524018159/d687029d8k.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d687029d8k.htm",
+      "filed_date": "2024-01-29",
+      "form": "8-K",
+      "id": "0001193125-24-018159:d687029d8k.htm",
+      "items": [
+        "5.03",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-24-018159:d687029d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-018159",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-01-29",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "24574080"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "5.03",
+            "9.01"
+          ],
+          "period_ending": "2024-01-26",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1706486400000,
+          "0001193125-24-018159:d687029d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-015670",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524015670/d734068d8k.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d734068d8k.htm",
+      "filed_date": "2024-01-26",
+      "form": "8-K",
+      "id": "0001193125-24-015670:d734068d8k.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-24-015670:d734068d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-015670",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-01-26",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "24563638"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "period_ending": "2024-01-25",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1706227200000,
+          "0001193125-24-015670:d734068d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001319244-24-000005",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000131924424000005/HARP_SC13GA1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1319244/000131924424000005/HARP_SC13GA1.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0001319244"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "INTEGRATED CORE STRATEGIES (US) LLC  (CIK 0001319244)"
+      ],
+      "document_name": "HARP_SC13GA1.htm",
+      "filed_date": "2024-01-19",
+      "form": "SC 13G/A",
+      "id": "0001319244-24-000005:HARP_SC13GA1.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001319244-24-000005:HARP_SC13GA1.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001319244-24-000005",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "New York, NY"
+          ],
+          "biz_states": [
+            "CA",
+            "NY"
+          ],
+          "ciks": [
+            "0001708493",
+            "0001319244"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "INTEGRATED CORE STRATEGIES (US) LLC  (CIK 0001319244)"
+          ],
+          "file_date": "2024-01-19",
+          "file_description": null,
+          "file_num": [
+            "005-90935"
+          ],
+          "file_type": "SC 13G/A",
+          "film_num": [
+            "24545831"
+          ],
+          "form": "SC 13G/A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13G"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1705622400000,
+          "0001319244-24-000005:HARP_SC13GA1.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-009344",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524009344/d658382dsc13d.htm",
+        "https://www.sec.gov/Archives/edgar/data/64978/000119312524009344/d658382dsc13d.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0000064978"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "MERCK SHARP & DOHME LLC  (CIK 0000064978)"
+      ],
+      "document_name": "d658382dsc13d.htm",
+      "filed_date": "2024-01-18",
+      "form": "SC 13D",
+      "id": "0001193125-24-009344:d658382dsc13d.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-009344:d658382dsc13d.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-009344",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Whitehouse Station, NJ"
+          ],
+          "biz_states": [
+            "CA",
+            "NJ"
+          ],
+          "ciks": [
+            "0001708493",
+            "0000064978"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "MERCK SHARP & DOHME LLC  (CIK 0000064978)"
+          ],
+          "file_date": "2024-01-18",
+          "file_description": "SC 13D",
+          "file_num": [
+            "005-90935"
+          ],
+          "file_type": "SC 13D",
+          "film_num": [
+            "24539538"
+          ],
+          "form": "SC 13D",
+          "inc_states": [
+            "DE",
+            "NJ"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "SC 13D"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836",
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1705536000000,
+          "0001193125-24-009344:d658382dsc13d.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-005090",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/64978/000095017024005090/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/310158/000095017024005090/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024005090/ownership.xml"
+      ],
+      "ciks": [
+        "0000064978",
+        "0000310158",
+        "0001708493"
+      ],
+      "display_names": [
+        "MERCK SHARP & DOHME LLC  (CIK 0000064978)",
+        "Merck & Co., Inc.  (MRK)  (CIK 0000310158)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-01-17",
+      "form": "3",
+      "id": "0000950170-24-005090:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-005090:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-005090",
+          "biz_locations": [
+            "Whitehouse Station, NJ",
+            "Kenilworth, NJ",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "NJ",
+            "CA"
+          ],
+          "ciks": [
+            "0000064978",
+            "0000310158",
+            "0001708493"
+          ],
+          "display_names": [
+            "MERCK SHARP & DOHME LLC  (CIK 0000064978)",
+            "Merck & Co., Inc.  (MRK)  (CIK 0000310158)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-01-17",
+          "file_description": "3",
+          "file_num": [
+            "001-38800",
+            "001-38800"
+          ],
+          "file_type": "3",
+          "film_num": [
+            "24539555",
+            "24539556"
+          ],
+          "form": "3",
+          "inc_states": [
+            "NJ",
+            "NJ",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-01-07",
+          "root_forms": [
+            "3"
+          ],
+          "schema_version": "X0206",
+          "sequence": 1,
+          "sics": [
+            "2834",
+            "2834",
+            "2836"
+          ],
+          "xsl": "xslF345X02"
+        },
+        "sort": [
+          1705449600000,
+          "0000950170-24-005090:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-006017",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524006017/d678605ddfan14a.htm",
+        "https://www.sec.gov/Archives/edgar/data/64978/000119312524006017/d678605ddfan14a.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0000064978"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "MERCK SHARP & DOHME LLC  (CIK 0000064978)"
+      ],
+      "document_name": "d678605ddfan14a.htm",
+      "filed_date": "2024-01-10",
+      "form": "DFAN14A",
+      "id": "0001193125-24-006017:d678605ddfan14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-006017:d678605ddfan14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-006017",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Whitehouse Station, NJ"
+          ],
+          "biz_states": [
+            "CA",
+            "NJ"
+          ],
+          "ciks": [
+            "0001708493",
+            "0000064978"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "MERCK SHARP & DOHME LLC  (CIK 0000064978)"
+          ],
+          "file_date": "2024-01-10",
+          "file_description": "DFAN14A",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "DFAN14A",
+          "film_num": [
+            "24527210"
+          ],
+          "form": "DFAN14A",
+          "inc_states": [
+            "DE",
+            "NJ"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DFAN14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836",
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1704844800000,
+          "0001193125-24-006017:d678605ddfan14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-003369",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1701440/000095017024003369/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024003369/ownership.xml"
+      ],
+      "ciks": [
+        "0001701440",
+        "0001708493"
+      ],
+      "display_names": [
+        "Walker Luke Nathaniel  (CIK 0001701440)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-01-09",
+      "form": "4",
+      "id": "0000950170-24-003369:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-003369:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-003369",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001701440",
+            "0001708493"
+          ],
+          "display_names": [
+            "Walker Luke Nathaniel  (CIK 0001701440)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-01-09",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24523626"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-01-07",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1704758400000,
+          "0000950170-24-003369:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-003367",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1624055/000095017024003367/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024003367/ownership.xml"
+      ],
+      "ciks": [
+        "0001624055",
+        "0001708493"
+      ],
+      "display_names": [
+        "Lanza Frank J  (CIK 0001624055)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-01-09",
+      "form": "4",
+      "id": "0000950170-24-003367:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-003367:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-003367",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001624055",
+            "0001708493"
+          ],
+          "display_names": [
+            "Lanza Frank J  (CIK 0001624055)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-01-09",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24523623"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-01-07",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1704758400000,
+          "0000950170-24-003367:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-003365",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1500189/000095017024003365/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024003365/ownership.xml"
+      ],
+      "ciks": [
+        "0001500189",
+        "0001708493"
+      ],
+      "display_names": [
+        "EASTLAND JULIA MARIE  (CIK 0001500189)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-01-09",
+      "form": "4",
+      "id": "0000950170-24-003365:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-003365:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-003365",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001500189",
+            "0001708493"
+          ],
+          "display_names": [
+            "EASTLAND JULIA MARIE  (CIK 0001500189)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-01-09",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24523621"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-01-07",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1704758400000,
+          "0000950170-24-003365:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-004553",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524004553/d694952ddefa14a.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d694952ddefa14a.htm",
+      "filed_date": "2024-01-08",
+      "form": "DEFA14A",
+      "id": "0001193125-24-004553:d694952ddefa14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-004553:d694952ddefa14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-004553",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-01-08",
+          "file_description": "DEFA14A",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "DEFA14A",
+          "film_num": [
+            "24521090"
+          ],
+          "form": "DEFA14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DEFA14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1704672000000,
+          "0001193125-24-004553:d694952ddefa14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-004549",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524004549/d685905ddefa14a.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d685905ddefa14a.htm",
+      "filed_date": "2024-01-08",
+      "form": "DEFA14A",
+      "id": "0001193125-24-004549:d685905ddefa14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-004549:d685905ddefa14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-004549",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-01-08",
+          "file_description": "DEFA14A",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "DEFA14A",
+          "film_num": [
+            "24521052"
+          ],
+          "form": "DEFA14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DEFA14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1704672000000,
+          "0001193125-24-004549:d685905ddefa14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-004544",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524004544/d700701ddfan14a.htm",
+        "https://www.sec.gov/Archives/edgar/data/64978/000119312524004544/d700701ddfan14a.htm"
+      ],
+      "ciks": [
+        "0001708493",
+        "0000064978"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+        "MERCK SHARP & DOHME LLC  (CIK 0000064978)"
+      ],
+      "document_name": "d700701ddfan14a.htm",
+      "filed_date": "2024-01-08",
+      "form": "DFAN14A",
+      "id": "0001193125-24-004544:d700701ddfan14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-004544:d700701ddfan14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-004544",
+          "biz_locations": [
+            "South San Francisco, CA",
+            "Whitehouse Station, NJ"
+          ],
+          "biz_states": [
+            "CA",
+            "NJ"
+          ],
+          "ciks": [
+            "0001708493",
+            "0000064978"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)",
+            "MERCK SHARP & DOHME LLC  (CIK 0000064978)"
+          ],
+          "file_date": "2024-01-08",
+          "file_description": "DFAN14A",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "DFAN14A",
+          "film_num": [
+            "24521040"
+          ],
+          "form": "DFAN14A",
+          "inc_states": [
+            "DE",
+            "NJ"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DFAN14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836",
+            "2834"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1704672000000,
+          "0001193125-24-004544:d700701ddfan14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-003930",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524003930/d715256ddefa14a.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d715256ddefa14a.htm",
+      "filed_date": "2024-01-08",
+      "form": "DEFA14A",
+      "id": "0001193125-24-003930:d715256ddefa14a.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-003930:d715256ddefa14a.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-003930",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-01-08",
+          "file_description": "DEFA14A",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "DEFA14A",
+          "film_num": [
+            "24518424"
+          ],
+          "form": "DEFA14A",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "DEFA14A"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1704672000000,
+          "0001193125-24-003930:d715256ddefa14a.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-003927",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524003927/d715256d8k.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d715256d8k.htm",
+      "filed_date": "2024-01-08",
+      "form": "8-K",
+      "id": "0001193125-24-003927:d715256d8k.htm",
+      "items": [
+        "1.01",
+        "5.02",
+        "7.01",
+        "9.01"
+      ],
+      "source_hit": {
+        "_id": "0001193125-24-003927:d715256d8k.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-003927",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-01-08",
+          "file_description": "8-K",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "8-K",
+          "film_num": [
+            "24518406"
+          ],
+          "form": "8-K",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [
+            "1.01",
+            "5.02",
+            "7.01",
+            "9.01"
+          ],
+          "period_ending": "2024-01-07",
+          "root_forms": [
+            "8-K"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1704672000000,
+          "0001193125-24-003927:d715256d8k.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0001193125-24-003458",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1708493/000119312524003458/d703784ds8.htm"
+      ],
+      "ciks": [
+        "0001708493"
+      ],
+      "display_names": [
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "d703784ds8.htm",
+      "filed_date": "2024-01-05",
+      "form": "S-8",
+      "id": "0001193125-24-003458:d703784ds8.htm",
+      "items": [],
+      "source_hit": {
+        "_id": "0001193125-24-003458:d703784ds8.htm",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0001193125-24-003458",
+          "biz_locations": [
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001708493"
+          ],
+          "display_names": [
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-01-05",
+          "file_description": "S-8",
+          "file_num": [
+            "333-276408"
+          ],
+          "file_type": "S-8",
+          "film_num": [
+            "24517410"
+          ],
+          "form": "S-8",
+          "inc_states": [
+            "DE"
+          ],
+          "items": [],
+          "period_ending": null,
+          "root_forms": [
+            "S-8"
+          ],
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": null
+        },
+        "sort": [
+          1704412800000,
+          "0001193125-24-003458:d703784ds8.htm"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-000962",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1356256/000095017024000962/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024000962/ownership.xml"
+      ],
+      "ciks": [
+        "0001356256",
+        "0001708493"
+      ],
+      "display_names": [
+        "Myers Scott Dunseth  (CIK 0001356256)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-01-03",
+      "form": "4",
+      "id": "0000950170-24-000962:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-000962:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-000962",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001356256",
+            "0001708493"
+          ],
+          "display_names": [
+            "Myers Scott Dunseth  (CIK 0001356256)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-01-03",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24507057"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-01-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1704240000000,
+          "0000950170-24-000962:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-000960",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1247851/000095017024000960/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024000960/ownership.xml"
+      ],
+      "ciks": [
+        "0001247851",
+        "0001708493"
+      ],
+      "display_names": [
+        "HUNT RONALD  (CIK 0001247851)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-01-03",
+      "form": "4",
+      "id": "0000950170-24-000960:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-000960:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-000960",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001247851",
+            "0001708493"
+          ],
+          "display_names": [
+            "HUNT RONALD  (CIK 0001247851)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-01-03",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24507043"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-01-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1704240000000,
+          "0000950170-24-000960:ownership.xml"
+        ]
+      }
+    },
+    {
+      "accession": "0000950170-24-000959",
+      "candidate_document_uris": [
+        "https://www.sec.gov/Archives/edgar/data/1734389/000095017024000959/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1708493/000095017024000959/ownership.xml"
+      ],
+      "ciks": [
+        "0001734389",
+        "0001708493"
+      ],
+      "display_names": [
+        "Chin Mark  (CIK 0001734389)",
+        "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+      ],
+      "document_name": "ownership.xml",
+      "filed_date": "2024-01-03",
+      "form": "4",
+      "id": "0000950170-24-000959:ownership.xml",
+      "items": [],
+      "source_hit": {
+        "_id": "0000950170-24-000959:ownership.xml",
+        "_index": "edgar_file",
+        "_score": null,
+        "_source": {
+          "adsh": "0000950170-24-000959",
+          "biz_locations": [
+            "",
+            "South San Francisco, CA"
+          ],
+          "biz_states": [
+            "CA"
+          ],
+          "ciks": [
+            "0001734389",
+            "0001708493"
+          ],
+          "display_names": [
+            "Chin Mark  (CIK 0001734389)",
+            "Harpoon Therapeutics, Inc.  (CIK 0001708493)"
+          ],
+          "file_date": "2024-01-03",
+          "file_description": "4",
+          "file_num": [
+            "001-38800"
+          ],
+          "file_type": "4",
+          "film_num": [
+            "24507028"
+          ],
+          "form": "4",
+          "inc_states": [
+            "",
+            "DE"
+          ],
+          "items": [],
+          "period_ending": "2024-01-01",
+          "root_forms": [
+            "4"
+          ],
+          "schema_version": "X0508",
+          "sequence": 1,
+          "sics": [
+            "2836"
+          ],
+          "xsl": "xslF345X05"
+        },
+        "sort": [
+          1704240000000,
+          "0000950170-24-000959:ownership.xml"
+        ]
+      }
+    }
+  ],
+  "schema_version": "sec-efts-inventory-v1",
+  "scope": "Every result in the exact unfiltered padded-CIK and filing-date EFTS query; no search-term exclusion.",
+  "start_date": "2024-01-01",
+  "ticker": "HARP",
+  "total": 66
+}

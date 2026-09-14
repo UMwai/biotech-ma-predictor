@@ -1,0 +1,13 @@
+{
+  "attempt_times_not_recorded_individually": true,
+  "detail": "The first 2021 archive page has 10 entries and requires a next page that timed out; one of ten body requests succeeded. The 2020 baseline remains unavailable.",
+  "individual_attempt_at": null,
+  "later_retrieval_recorded_as_historical_review": false,
+  "negative_label_assigned": false,
+  "recorded_at": "2026-09-08T18:01:10.121815+00:00",
+  "reviewed_outcome_window_count": 0,
+  "schema_version": "issuer-coverage-status-v1",
+  "status": "unknown_incomplete_source_coverage",
+  "ticker": "MDGL",
+  "training_allowed": false
+}

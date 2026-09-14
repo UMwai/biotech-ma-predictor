@@ -1,0 +1,35 @@
+{
+  "records": [
+    {
+      "acquirer_name": "Sun Pharmaceutical Industries Ltd.",
+      "announced_at": null,
+      "announcement_date": "2023-01-19",
+      "announcement_lower_at": "2023-01-18T10:00:00+00:00",
+      "announcement_upper_at": "2023-01-20T12:00:00+00:00",
+      "baseline_review": {
+        "source_sha256": "12fd29974c6c5e3f1fc4f6fe383c4fd6a30315a6dbfab84cf2b78245921b79d4",
+        "source_uri": "file:///home/umwai/biotech-ma-predictor/data/history/panel_seed/positive_reviews/CNCE_baseline_review.json"
+      },
+      "change_of_control_percent": 100.0,
+      "event_id": "1367920:2023-01-19",
+      "label": "definitive_change_of_control_announcement",
+      "original_source_sha256": null,
+      "primary_source_url": "https://www.sec.gov/Archives/edgar/data/1367920/000119312523010719/d433505dex991.htm",
+      "raw_bytes_archived": false,
+      "review_notes": "The full chronology distinguishes 2021-2022 drug-program partnering from a private November 23, 2022 whole-company proposal. Sun raised its nonbinding proposal in December; a December 16 exclusivity agreement was followed by ongoing diligence and unexecuted merger drafts across January 1. Final terms and board approval came January 18, 2023; the merger agreement was executed January 19 and publicly announced before market opening that day. Private exclusivity at the cutoff was not a publicly definitive control agreement. The review is bounded to the complete disclosed chronology.",
+      "review_scope": "Whole-company definitive public announcement, checked against the complete disclosed merger chronology. Proposed ownership is not completed ownership. Agent source review, not an independent human or exhaustive first-news audit.",
+      "reviewed_at": "2026-09-08T20:02:58.622812+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "source_retrieved_at": "2026-09-08T20:02:58.622812+00:00",
+      "target_cik": 1367920,
+      "target_name": "Concert Pharmaceuticals, Inc.",
+      "target_ticker": "CNCE",
+      "timestamp_precision": "date",
+      "transaction_status": "pending",
+      "transaction_status_as_of": "2023-01-19",
+      "transaction_structure": "tender_offer"
+    }
+  ],
+  "reviewed_at": "2026-09-08T20:02:58.622812+00:00",
+  "schema_version": "reviewed-positive-control-event-v1"
+}

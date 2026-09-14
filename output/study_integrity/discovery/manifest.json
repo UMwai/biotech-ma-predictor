@@ -1,0 +1,16 @@
+{
+  "clinicaltrials_public_sponsor_matches": 0,
+  "clinicaltrials_records_resolved": 33,
+  "generated_at": "2026-07-28T07:49:09+00:00",
+  "included_lower_confidence_name_matches": false,
+  "interpretation": "Discovery candidates only. Matching does not establish that the asset owner sponsored the publication or committed misconduct.",
+  "market_clinical_assets": 16788,
+  "market_companies": 760,
+  "matched_review_candidates": 33,
+  "pubmed_records_retrieved": 9999,
+  "pubmed_reported_nct_ids": 34,
+  "pubmed_total_records": 37166,
+  "schema_version": "study-integrity-discovery-v1",
+  "source": "NCBI PubMed E-utilities",
+  "source_query": "\"Retracted Publication\"[Publication Type] OR \"Expression of Concern\"[Publication Type]"
+}
