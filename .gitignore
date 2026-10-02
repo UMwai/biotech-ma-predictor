@@ -87,6 +87,14 @@ output/historical_financials/
 output/historical_panels/
 output/alpaca_market_data/
 output/alpaca_panels/
+# Local historical-price payloads and parsed vendor quotes are not redistributed.
+# The public evidence snapshot retains hashes; replay requires these local inputs.
+data/research/ma_evidence_20261002/inputs/fc9e99f768ee578355b6e261a3a07fcbf8990e7faa5b9142d49bd208617ca885.json
+data/research/ma_evidence_20261002/inputs/00b1305d777709f356ec49bf67688583ac2e2518fc7c15a76723222dc9209b72.json
+data/research/ma_evidence_20261002/inputs/8911c6ce9d180d4a6dfc4dd42b700fbd9c18a6ad072cbad319ceff7464b4b8ec.json
+data/research/ma_evidence_20261002/inputs/0fafe5e876b8e4fb43f0999d114526e64c230ff92982afe5b9e69e079d979644.json
+data/research/ma_evidence_20261002/inputs/849ab129b8d60d4a2238f671cbe086e25a60ff92ad2c9aa83e7885a013d8d270.json
+data/research/ma_evidence_20261002/inputs/56ea5518ed23fb9b12ea2c5c09268b73145d9a925cc17137476eab026e64a236.json
 output/sec_corpus/
 output/local_verification/
 output/backtest_results.json

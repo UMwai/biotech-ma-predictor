@@ -1,0 +1,62 @@
+{
+  "records": [
+    {
+      "biotech_eligible": true,
+      "cik": 1787306,
+      "company_name": "Arcutis Biotherapeutics, Inc.",
+      "evidence_paraphrase": "Issuer explicitly states ARQT common stock has traded on Nasdaq since its January31,2020 IPO. The2024 annual report retrospectively establishes this trading history; it is used only to reconstruct membership, never as a2021 financial feature. Original IPO day uncertainty is conservatively excluded.",
+      "independent_human_review": false,
+      "kind": "historical_exchange_membership",
+      "original_source_sha256": null,
+      "pending_transaction_review_complete": false,
+      "raw_bytes_archived": false,
+      "reviewed_at": "2026-09-08T18:00:54.668363+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "security_type": "common_equity",
+      "source_locator": "Item5 Market Information, printed page92; cover common equity registration",
+      "source_uri": "https://www.sec.gov/Archives/edgar/data/1787306/000178730625000029/arqt-20241231.htm",
+      "ticker": "ARQT",
+      "valid_from": "2020-02-02T00:00:00Z",
+      "valid_until": "2024-12-31T00:00:00Z"
+    },
+    {
+      "biotech_eligible": true,
+      "cik": 1658247,
+      "company_name": "Crinetics Pharmaceuticals, Inc.",
+      "evidence_paraphrase": "The2024 original annual report identifies Nasdaq CRNX common stock, states that trading began July18,2018, and supplies a common-stock return history throughDecember31,2024. Membership is reconstructed from actual trading statements, not from the mere existence of an annual filing.",
+      "independent_human_review": false,
+      "kind": "historical_exchange_membership",
+      "original_source_sha256": null,
+      "pending_transaction_review_complete": false,
+      "raw_bytes_archived": false,
+      "reviewed_at": "2026-09-08T18:00:54.668363+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "security_type": "common_equity",
+      "source_locator": "Item5 Market Information and Stock Performance Graph, printed page71; cover common-equity registration",
+      "source_uri": "https://www.sec.gov/Archives/edgar/data/1658247/000095017025029050/crnx-20241231.htm",
+      "ticker": "CRNX",
+      "valid_from": "2018-07-20T00:00:00Z",
+      "valid_until": "2024-12-31T00:00:00Z"
+    },
+    {
+      "biotech_eligible": true,
+      "cik": 1200375,
+      "company_name": "Codexis, Inc.",
+      "evidence_paraphrase": "Original2021 report identifies common stock listed as Nasdaq CDXS, includes common-stock returns throughout2016\u20132021, and identifies outstanding common shares as ofFebruary24,2022. The2020 Nasdaq entry notice and reviewed2020/2021 issuer archive support continuity in the intervening study window. This is an explicit reconstruction from these sources; not independently audited exchange history.",
+      "independent_human_review": false,
+      "kind": "historical_exchange_membership",
+      "original_source_sha256": null,
+      "pending_transaction_review_complete": false,
+      "raw_bytes_archived": false,
+      "reviewed_at": "2026-09-08T18:00:54.668363+00:00",
+      "reviewer": "Codex-primary-source-review",
+      "security_type": "common_equity",
+      "source_locator": "Item5 Market Information and Stock Price Performance Graph, printed pages56-57; cover",
+      "source_uri": "https://www.sec.gov/Archives/edgar/data/1200375/000120037522000010/cdxs-20211231.htm",
+      "ticker": "CDXS",
+      "valid_from": "2020-12-21T00:00:00Z",
+      "valid_until": "2022-02-24T00:00:00Z"
+    }
+  ],
+  "schema_version": "reviewed-historical-membership-v1"
+}

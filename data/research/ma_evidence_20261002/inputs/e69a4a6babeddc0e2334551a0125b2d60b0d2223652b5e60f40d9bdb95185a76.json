@@ -1,0 +1,746 @@
+{
+  "announced_effective_date": "2020-12-21",
+  "cohort_plan": {
+    "feature_plan": "Original annual cash, assets, operating cash flow and R&D, selecting the latest verified annual report available before each cutoff; missing values remain null.",
+    "fit_plan": "L2 logistic C=1 with train-only transforms and expanding annual folds; no hyperparameter search.",
+    "horizon_days": 365,
+    "observation_dates": [
+      "2021-01-01",
+      "2023-01-01",
+      "2024-01-01"
+    ],
+    "population_scope": "Closed historical entry cohort; incomplete source coverage must be reported. Results are not the full contemporary biotech market.",
+    "test_start_year": 2023
+  },
+  "created_at": "2026-09-08T17:21:27.297541+00:00",
+  "frame_id": "nasdaq-nbi-announced-additions-2020-12-21",
+  "frame_size": 100,
+  "historical_sampling_frame": {
+    "includes_subsequently_delisted": true,
+    "population_as_of_at": "2020-12-21T00:00:00Z",
+    "retrieved_at": "2026-09-08T17:20:38.390390+00:00",
+    "reviewed_at": "2026-09-08T17:21:27.297541+00:00",
+    "selection_basis": "predeclared_historical_sampling_frame",
+    "selection_rule": "All 100 named additions in the dated Nasdaq notice; never remove a name for later delisting, acquisition, missing data or source failure. Observation eligibility is assessed separately and coverage reported.",
+    "source_locator": "Table headed The following 100 securities will be added to the Index",
+    "source_sha256": "923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955",
+    "source_uri": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+    "uses_current_listing_status": false,
+    "uses_future_outcomes": false
+  },
+  "records": [
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Arbutus Biopharma Corporation",
+      "historical_ticker": "ABUS",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Adaptimmune Therapeutics plc",
+      "historical_ticker": "ADAP",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Akouos, Inc.",
+      "historical_ticker": "AKUS",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Altimmune, Inc.",
+      "historical_ticker": "ALT",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "AlloVir, Inc.",
+      "historical_ticker": "ALVR",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "ALX Oncology Holdings Inc.",
+      "historical_ticker": "ALXO",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Applied Molecular Transport Inc.",
+      "historical_ticker": "AMTI",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Annexon, Inc.",
+      "historical_ticker": "ANNX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Applied Therapeutics, Inc.",
+      "historical_ticker": "APLT",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Aprea Therapeutics, Inc.",
+      "historical_ticker": "APRE",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Arcturus Therapeutics Holdings Inc.",
+      "historical_ticker": "ARCT",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Arcutis Biotherapeutics, Inc.",
+      "historical_ticker": "ARQT",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Avadel Pharmaceuticals plc",
+      "historical_ticker": "AVDL",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "AstraZeneca PLC",
+      "historical_ticker": "AZN",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Black Diamond Therapeutics, Inc.",
+      "historical_ticker": "BDTX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Beam Therapeutics Inc.",
+      "historical_ticker": "BEAM",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "BioNTech SE",
+      "historical_ticker": "BNTX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Cabaletta Bio, Inc.",
+      "historical_ticker": "CABA",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Calithera Biosciences, Inc.",
+      "historical_ticker": "CALA",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Codexis, Inc.",
+      "historical_ticker": "CDXS",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Clovis Oncology, Inc.",
+      "historical_ticker": "CLVS",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Concert Pharmaceuticals, Inc.",
+      "historical_ticker": "CNCE",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Constellation Pharmaceuticals, Inc.",
+      "historical_ticker": "CNST",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Crinetics Pharmaceuticals, Inc.",
+      "historical_ticker": "CRNX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Cortexyme, Inc.",
+      "historical_ticker": "CRTX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Forma Therapeutics Holdings, Inc.",
+      "historical_ticker": "FMTX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Five Prime Therapeutics, Inc.",
+      "historical_ticker": "FPRX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Frequency Therapeutics, Inc.",
+      "historical_ticker": "FREQ",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Fulcrum Therapeutics, Inc.",
+      "historical_ticker": "FULC",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Fusion Pharmaceuticals Inc.",
+      "historical_ticker": "FUSN",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Generation Bio Co.",
+      "historical_ticker": "GBIO",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Gamida Cell Ltd.",
+      "historical_ticker": "GMDA",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Harpoon Therapeutics, Inc.",
+      "historical_ticker": "HARP",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "IDEAYA Biosciences, Inc.",
+      "historical_ticker": "IDYA",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "IGM Biosciences, Inc.",
+      "historical_ticker": "IGMS",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "I-MAB",
+      "historical_ticker": "IMAB",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Immunic, Inc.",
+      "historical_ticker": "IMUX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Immunovant, Inc.",
+      "historical_ticker": "IMVT",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Inozyme Pharma, Inc.",
+      "historical_ticker": "INZY",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "IVERIC bio, Inc.",
+      "historical_ticker": "ISEE",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "iTeos Therapeutics, Inc.",
+      "historical_ticker": "ITOS",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Jounce Therapeutics, Inc.",
+      "historical_ticker": "JNCE",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Kala Pharmaceuticals, Inc.",
+      "historical_ticker": "KALA",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "KalVista Pharmaceuticals, Inc.",
+      "historical_ticker": "KALV",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Kadmon Holdings, Inc.",
+      "historical_ticker": "KDMN",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Chinook Therapeutics, Inc.",
+      "historical_ticker": "KDNY",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Kaleido Biosciences, Inc.",
+      "historical_ticker": "KLDO",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Kamada Ltd.",
+      "historical_ticker": "KMDA",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Kiniksa Pharmaceuticals, Ltd.",
+      "historical_ticker": "KNSA",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Keros Therapeutics, Inc.",
+      "historical_ticker": "KROS",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Krystal Biotech, Inc.",
+      "historical_ticker": "KRYS",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Kezar Life Sciences, Inc.",
+      "historical_ticker": "KZR",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Legend Biotech Corporation",
+      "historical_ticker": "LEGN",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Larimar Therapeutics, Inc.",
+      "historical_ticker": "LRMR",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Madrigal Pharmaceuticals, Inc.",
+      "historical_ticker": "MDGL",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "MediciNova, Inc.",
+      "historical_ticker": "MNOV",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Marinus Pharmaceuticals, Inc.",
+      "historical_ticker": "MRNS",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Mersana Therapeutics, Inc.",
+      "historical_ticker": "MRSN",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "NantKwest, Inc.",
+      "historical_ticker": "NK",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Nkarta, Inc.",
+      "historical_ticker": "NKTX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Neoleukin Therapeutics, Inc.",
+      "historical_ticker": "NLTX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Nurix Therapeutics, Inc.",
+      "historical_ticker": "NRIX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Novavax, Inc.",
+      "historical_ticker": "NVAX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "NextCure, Inc.",
+      "historical_ticker": "NXTC",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Ocular Therapeutix, Inc.",
+      "historical_ticker": "OCUL",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Odonate Therapeutics, Inc.",
+      "historical_ticker": "ODT",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Oric Pharmaceuticals, Inc.",
+      "historical_ticker": "ORIC",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Ovid Therapeutics Inc.",
+      "historical_ticker": "OVID",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Phibro Animal Health Corporation",
+      "historical_ticker": "PAHC",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Pandion Therapeutics Inc.",
+      "historical_ticker": "PAND",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Passage Bio, Inc.",
+      "historical_ticker": "PASG",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Vaxcyte, Inc.",
+      "historical_ticker": "PCVX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Pliant Therapeutics, Inc.",
+      "historical_ticker": "PLRX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Paratek Pharmaceuticals, Inc.",
+      "historical_ticker": "PRTK",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Provention Bio, Inc.",
+      "historical_ticker": "PRVB",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Poseida Therapeutics, Inc.",
+      "historical_ticker": "PSTX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "RAPT Therapeutics, Inc.",
+      "historical_ticker": "RAPT",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Redhill Biopharma Ltd.",
+      "historical_ticker": "RDHL",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Replimune Group, Inc.",
+      "historical_ticker": "REPL",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Relay Therapeutics, Inc.",
+      "historical_ticker": "RLAY",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Relmada Therapeutics, Inc.",
+      "historical_ticker": "RLMD",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Avidity Biosciences, Inc.",
+      "historical_ticker": "RNA",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Royalty Pharma plc",
+      "historical_ticker": "RPRX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Repare Therapeutics Inc.",
+      "historical_ticker": "RPTX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Revolution Medicines, Inc.",
+      "historical_ticker": "RVMD",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Selecta Biosciences, Inc.",
+      "historical_ticker": "SELB",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Summit Therapeutics Inc.",
+      "historical_ticker": "SMMT",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Syndax Pharmaceuticals, Inc.",
+      "historical_ticker": "SNDX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Spero Therapeutics, Inc.",
+      "historical_ticker": "SPRO",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Sutro Biopharma, Inc.",
+      "historical_ticker": "STRO",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Surface Oncology, Inc.",
+      "historical_ticker": "SURF",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "SpringWorks Therapeutics, Inc.",
+      "historical_ticker": "SWTX",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "TCR2 Therapeutics Inc.",
+      "historical_ticker": "TCRR",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Viela Bio, Inc.",
+      "historical_ticker": "VIE",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Vir Biotechnology, Inc.",
+      "historical_ticker": "VIR",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Verastem, Inc.",
+      "historical_ticker": "VSTM",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "VYNE Therapeutics Inc.",
+      "historical_ticker": "VYNE",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Xenon Pharmaceuticals Inc.",
+      "historical_ticker": "XENE",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "ZIOPHARM Oncology Inc",
+      "historical_ticker": "ZIOP",
+      "identity_status": "unverified"
+    },
+    {
+      "cik": null,
+      "exchange": "Nasdaq",
+      "historical_issuer_name": "Zentalis Pharmaceuticals, Inc.",
+      "historical_ticker": "ZNTL",
+      "identity_status": "unverified"
+    }
+  ],
+  "schema_version": "historical-sampling-frame-v1",
+  "selection_rule": "All 100 named securities from the dated exchange addition notice, preserved without selecting on later acquisition or survival. Each observation independently requires actual historical operating biotech common-equity eligibility, source-supported original features and a reviewed mature outcome; unknown or unavailable evidence stays in the coverage ledger. The notice does not establish actual index execution or continuous exchange listing.",
+  "source_publication_date": "2020-12-11",
+  "source_receipt": {
+    "bytes": 157264,
+    "content_type": "text/html; charset=UTF-8",
+    "resolved_url": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6",
+    "retrieved_at": "2026-09-08T17:20:38.390390+00:00",
+    "source_relative_path": "raw/923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955.html",
+    "source_sha256": "923baca63fe933a5443db8c153837df4f85178d9ff931bc8d01a8d1a240a4955",
+    "source_uri": "https://ir.nasdaq.com/news-releases/news-release-details/annual-changes-nasdaq-biotechnology-index-6"
+  },
+  "training_allowed": false
+}

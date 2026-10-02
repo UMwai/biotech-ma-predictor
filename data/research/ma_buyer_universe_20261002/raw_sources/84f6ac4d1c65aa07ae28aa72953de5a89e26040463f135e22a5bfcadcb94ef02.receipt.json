@@ -1,0 +1,12 @@
+{
+  "source_uri": "https://www.sec.gov/Archives/edgar/data/1137360/000093041323002544/0000930413-23-002544.txt",
+  "resolved_uri": "https://www.sec.gov/Archives/edgar/data/1137360/000093041323002544/0000930413-23-002544.txt",
+  "http_status": 200,
+  "attempted_at": "2026-10-02T19:28:49.294881+00:00",
+  "retrieved_at": "2026-10-02T19:28:49.554849+00:00",
+  "source_sha256": "c400d5c11f89e648797674979554922c06791bca765ce7ea039c59b2f5b3d319",
+  "source_bytes": 4415815,
+  "source_path": "/tmp/biotech-ma-evidence-20261002-gxcbzh98/buyer_universe_probe/c400d5c11f89e648797674979554922c06791bca765ce7ea039c59b2f5b3d319.txt",
+  "automatic_retry_performed": false,
+  "as_accepted_byte_identity_verified": false
+}
