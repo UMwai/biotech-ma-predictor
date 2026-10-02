@@ -1,0 +1,46 @@
+{
+  "schema_version": "ma-diligence-parameters-v1",
+  "model_version": "ma-diligence-v1",
+  "rubric_version": "ma-diligence-v1",
+  "event": "change_of_control_announcement",
+  "horizon_days": 365,
+  "test_start_year": 2023,
+  "primary_metric": "mean_cohort_lift_at_5",
+  "k": 5,
+  "regularization_c": 1.0,
+  "weights": {
+    "clinical_evidence": 0.2,
+    "clinical_differentiation": 0.15,
+    "asset_rights": 0.1,
+    "buyer_fit": 0.2,
+    "buyer_capacity": 0.1,
+    "public_engagement": 0.1,
+    "valuation_attractiveness": 0.15
+  },
+  "execution_risk_penalty": 0.2,
+  "buyer_selection_rule": "max_.20_fit_plus_.10_capacity_tie_buyer_id_ascending",
+  "score_families": {
+    "full": [
+      "clinical_evidence",
+      "clinical_differentiation",
+      "asset_rights",
+      "buyer_fit",
+      "buyer_capacity",
+      "public_engagement",
+      "valuation_attractiveness",
+      "execution_risk"
+    ],
+    "science_only": [
+      "clinical_evidence",
+      "clinical_differentiation",
+      "asset_rights"
+    ],
+    "buyer_only": [
+      "buyer_fit",
+      "buyer_capacity"
+    ]
+  },
+  "ablation_policy": "retained_full_weights_without_renormalization_no_execution_penalty",
+  "top_k_tie_policy": "observation_id_ascending",
+  "undefined_metric_policy": "omit_zero_positive_cohorts_report_support"
+}
