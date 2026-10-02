@@ -1,0 +1,13 @@
+{
+  "source_uri": "https://www.sec.gov/Archives/edgar/data/1137360/000093041323002544/c107342_ncsr.htm",
+  "attempted_at": "2026-10-02T19:19:26.923780+00:00",
+  "automatic_retry_allowed": false,
+  "observation_year": 2024,
+  "role": "report",
+  "http_status": 200,
+  "effective_url": "https://www.sec.gov/Archives/edgar/data/1137360/000093041323002544/c107342_ncsr.htm",
+  "source_sha256": "efdef6bcaac16e380fd06e476cce57386f4f8284fa3743a35d4283bfbdfb7b92",
+  "source_bytes": 2994622,
+  "source_relative_path": "efdef6bcaac16e380fd06e476cce57386f4f8284fa3743a35d4283bfbdfb7b92.html",
+  "retrieved_at": "2026-10-02T19:19:27.359707+00:00"
+}

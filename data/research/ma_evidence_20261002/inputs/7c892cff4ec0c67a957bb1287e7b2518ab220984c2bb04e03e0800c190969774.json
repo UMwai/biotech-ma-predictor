@@ -1,0 +1,68 @@
+{
+  "adjustment": "raw",
+  "broker_operations_performed": false,
+  "collection_mode": "authenticated_read_only",
+  "created_at": "2026-10-02T19:09:22.907372+00:00",
+  "feed": "sip",
+  "frame_sha256": "e69a4a6babeddc0e2334551a0125b2d60b0d2223652b5e60f40d9bdb95185a76",
+  "original_vendor_vintage_archived": false,
+  "requested_companies": 100,
+  "results": [
+    {
+      "manifest_path": "/tmp/biotech-ma-evidence-20261002-gxcbzh98/valuation_probe/2021/alpaca-stock-bars-fc9e99f768ee578355b6e261a3a07fcbf8990e7faa5b9142d49bd208617ca885.json",
+      "manifest_sha256": "fc9e99f768ee578355b6e261a3a07fcbf8990e7faa5b9142d49bd208617ca885",
+      "observation_year": 2021,
+      "original_vendor_vintage_archived": false,
+      "status": "vendor_snapshot_captured",
+      "verification_keys": [
+        "bars_by_symbol",
+        "limitations",
+        "original_vendor_vintage_archived",
+        "outcome_label",
+        "pages",
+        "query_complete",
+        "request",
+        "retrieved_at",
+        "schema_version"
+      ]
+    },
+    {
+      "manifest_path": "/tmp/biotech-ma-evidence-20261002-gxcbzh98/valuation_probe/2023/alpaca-stock-bars-00b1305d777709f356ec49bf67688583ac2e2518fc7c15a76723222dc9209b72.json",
+      "manifest_sha256": "00b1305d777709f356ec49bf67688583ac2e2518fc7c15a76723222dc9209b72",
+      "observation_year": 2023,
+      "original_vendor_vintage_archived": false,
+      "status": "vendor_snapshot_captured",
+      "verification_keys": [
+        "bars_by_symbol",
+        "limitations",
+        "original_vendor_vintage_archived",
+        "outcome_label",
+        "pages",
+        "query_complete",
+        "request",
+        "retrieved_at",
+        "schema_version"
+      ]
+    },
+    {
+      "manifest_path": "/tmp/biotech-ma-evidence-20261002-gxcbzh98/valuation_probe/2024/alpaca-stock-bars-8911c6ce9d180d4a6dfc4dd42b700fbd9c18a6ad072cbad319ceff7464b4b8ec.json",
+      "manifest_sha256": "8911c6ce9d180d4a6dfc4dd42b700fbd9c18a6ad072cbad319ceff7464b4b8ec",
+      "observation_year": 2024,
+      "original_vendor_vintage_archived": false,
+      "status": "vendor_snapshot_captured",
+      "verification_keys": [
+        "bars_by_symbol",
+        "limitations",
+        "original_vendor_vintage_archived",
+        "outcome_label",
+        "pages",
+        "query_complete",
+        "request",
+        "retrieved_at",
+        "schema_version"
+      ]
+    }
+  ],
+  "schema_version": "ma-valuation-source-probe-v1",
+  "valuation_ratings_assigned": false
+}

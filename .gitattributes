@@ -1,2 +1,16 @@
 # Reviewed CSV bytes are hash-bound evidence; preserve their original line endings.
 data/history/**/*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Content-addressed research evidence keeps its captured bytes on every checkout.
+# https://git-scm.com/docs/gitattributes
+# Metadata remains text-diffable; captured upstream source bodies use binary diffs.
+data/research/ma_buyer_strategy_leads_20261002/** -text
+data/research/ma_buyer_universe_20261002/** -text
+data/research/ma_evidence_20261002/** -text
+reports/ma_buyer_universe_20261002/** -text
+reports/ma_evidence_20261002/** -text
+data/research/ma_buyer_strategy_leads_20261002/raw/** -diff
+data/research/ma_buyer_universe_20261002/raw_sources/*.html -diff
+data/research/ma_buyer_universe_20261002/raw_sources/*.txt -diff
+data/research/ma_evidence_20261002/abus_2021/issuer_archive/raw/** -diff
+data/research/ma_evidence_20261002/inputs/*.html -diff

@@ -1,0 +1,13 @@
+{
+  "source_uri": "https://www.sec.gov/Archives/edgar/data/1137360/000093041322002023/0000930413-22-002023-index.html",
+  "attempted_at": "2026-10-02T19:19:25.789588+00:00",
+  "automatic_retry_allowed": false,
+  "observation_year": 2023,
+  "role": "index",
+  "http_status": 200,
+  "effective_url": "https://www.sec.gov/Archives/edgar/data/1137360/000093041322002023/0000930413-22-002023-index.html",
+  "source_sha256": "ca5706506456f38fddce105734d4e444a331697e5cfc9c20eedef24497bd52d5",
+  "source_bytes": 37224,
+  "source_relative_path": "ca5706506456f38fddce105734d4e444a331697e5cfc9c20eedef24497bd52d5.html",
+  "retrieved_at": "2026-10-02T19:19:25.923157+00:00"
+}
