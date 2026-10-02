@@ -224,7 +224,7 @@ def _historical_label_timing(label: dict[str, Any], *, policy: str, cik: int,
             evidence = _provenance(source.get(field), f"{name}.{field}")
             _text(evidence.get("source_locator"), f"{name}.{field}.source_locator")
         _require(isinstance(source.get("publication_basis"), str)
-                 and source["publication_basis"] in {"issuer_publication", "regulator_acceptance", "exchange_publication"},
+                 and source["publication_basis"] in {"issuer_publication", "regulator_acceptance", "regulator_publication", "exchange_publication"},
                  f"{name}: original public disclosure date required; period ends and signatures are insufficient")
         _require(isinstance(source.get("publication_timestamp_precision"), str)
                  and source["publication_timestamp_precision"] in {"date", "timestamp"},
