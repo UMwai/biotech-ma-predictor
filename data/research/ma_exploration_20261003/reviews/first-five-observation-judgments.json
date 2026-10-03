@@ -1,0 +1,618 @@
+{
+ "schema_version": "ma-exploration-first-five-judgments-v1",
+ "authored_at": "2026-10-03T03:38:47.057360+00:00",
+ "author": "Claude Opus 5.5 (claude-opus-5-5) implementer session; agent judgment, not independent human review",
+ "independent_human_review": false,
+ "outcome_exposed": true,
+ "label_admission_allowed": false,
+ "issuers": {
+  "ABUS": {
+   "cik": 1447028,
+   "instrument": "Common shares without par value (British Columbia company; Nasdaq)",
+   "initial_listing": {
+    "accession": "0001193125-10-247803",
+    "document_name": "d8a12b.htm"
+   },
+   "identity_note": "EDGAR former names Tekmira Pharmaceuticals Corp (to 2015-08-03); 8-A signed as Tekmira Pharmaceuticals, Inc. 2010-11-04.",
+   "route": {
+    "issuer_ir": "Drupal nir-widget issuer archive (inherited ABUS v2 packet)",
+    "issuer_ir_binder_compatible": false,
+    "issuer_filing_route_probe": "2026-09-08 issuer SEC-filings page probe timed out (CDXS_STRO_ABUS_filing_route_probe_20260908.json)"
+   }
+  },
+  "ADAP": {
+   "cik": 1621227,
+   "instrument": "American Depositary Shares, each representing 6 ordinary shares £0.001 (ADS listed on Nasdaq; ordinary shares registered for listing not for trading)",
+   "initial_listing": {
+    "accession": "0001104659-15-032500",
+    "document_name": "a15-10300_18a12b.htm"
+   },
+   "identity_note": "England and Wales plc; EDGAR former name Adaptimmune Ltd (2014-2015); current EDGAR tickers/exchanges empty (later-period status not reviewed).",
+   "route": {
+    "issuer_ir": "not probed this pass",
+    "issuer_ir_binder_compatible": null
+   }
+  },
+  "AKUS": {
+   "cik": 1722271,
+   "instrument": "Common stock $0.0001 (Nasdaq Global Select Market)",
+   "initial_listing": {
+    "accession": "0001104659-20-075574",
+    "document_name": "a20-11888_88a12b.htm"
+   },
+   "identity_note": "Akouos, Inc. (Delaware); acquired by Eli Lilly and Company 2022-12-01.",
+   "route": {
+    "issuer_ir": "not probed this pass",
+    "issuer_ir_binder_compatible": null
+   }
+  },
+  "ALT": {
+   "cik": 1326190,
+   "instrument": "Common stock $0.0001 (The NASDAQ Global Market)",
+   "initial_listing": {
+    "accession": "0001144204-17-024611",
+    "document_name": "v466091_8a12b.htm"
+   },
+   "identity_note": "EDGAR former names PharmAthene, Inc. (to 2017-05-03) and Healthcare Acquisition Corp; 2017 Altimmune/PharmAthene reverse merger with PharmAthene as legal survivor (S-4/425 2017 history listed in submissions, not reviewed); Form 25 voluntary withdrawal 2017-05-05.",
+   "route": {
+    "issuer_ir": "2026-09-08 assessment: SEC index route linked from issuer filing-details HTML; compatible_full_accession_mirror_demonstrated false",
+    "issuer_ir_binder_compatible": false
+   }
+  },
+  "ALVR": {
+   "cik": 1754068,
+   "instrument": "Common stock $0.0001 (Nasdaq Global Market at IPO per 8-A; Global Select per 2022-2023 covers; Capital Market per Nov 2024 8-K cover)",
+   "initial_listing": {
+    "accession": "0001193125-20-199661",
+    "document_name": "d235530d8a12b.htm"
+   },
+   "identity_note": "AlloVir, Inc. (Delaware), former name ViraCyte; EDGAR now Kalaris Therapeutics, Inc. (KLRS) after the 2025 merger close (post-horizon, not reviewed).",
+   "route": {
+    "issuer_ir": "not probed this pass",
+    "issuer_ir_binder_compatible": null
+   }
+  }
+ },
+ "rows": [
+  {
+   "ticker": "ABUS",
+   "observation_date": "2021-01-01",
+   "membership_before": {
+    "accession": "0001447028-20-000150",
+    "document_name": "abus-20200930.htm"
+   },
+   "membership_after": {
+    "accession": "0001447028-21-000021",
+    "document_name": "abus-20201231.htm"
+   },
+   "window": {
+    "screened": [
+     {
+      "accession": "0001104659-21-032191",
+      "document_name": "tm218604d2_8k.htm"
+     },
+     {
+      "accession": "0001104659-21-047993",
+      "document_name": "tm212510d2_defa14a.htm"
+     },
+     {
+      "accession": "0000950103-21-016171",
+      "document_name": "dp160071_sc13da-11.htm"
+     },
+     {
+      "accession": "0001447028-21-000072",
+      "document_name": "abus-20211209.htm"
+     },
+     {
+      "accession": "0001171843-21-008473",
+      "document_name": "f8k_121321.htm"
+     }
+    ],
+    "control_candidates": [],
+    "engagement": [
+     {
+      "accession": "0000950103-21-016171",
+      "document_name": "dp160071_sc13da-11.htm"
+     }
+    ],
+    "note": "Screened forms show ATM amendment, Genevant cross-license amendment, Qilu AB-729 license and Roivant 29.1% holding after preferred conversion with standstill expiry (no Item 4 plan). Inherited ABUS 2021 partial packet 9cc529b1 remains partial (graphics/unsupported payloads open)."
+   },
+   "membership_status": "dated_listing_evidence_before_and_after_observation_continuity_unreviewed",
+   "prior_control_exclusion": "none_found_in_screened_prior_forms (screen, not complete corpus)",
+   "label_status": "unknown"
+  },
+  {
+   "ticker": "ABUS",
+   "observation_date": "2023-01-01",
+   "membership_before": {
+    "accession": "0001447028-22-000055",
+    "document_name": "abus-20220930.htm"
+   },
+   "membership_after": {
+    "accession": "0001447028-23-000018",
+    "document_name": "abus-20221231.htm"
+   },
+   "window": {
+    "screened": [
+     {
+      "accession": "0001140361-23-017995",
+      "document_name": "ny20006745x2_defa14a.htm"
+     }
+    ],
+    "control_candidates": [],
+    "engagement": [],
+    "note": "Only a DEFA14A matched the screen; body content open."
+   },
+   "membership_status": "dated_listing_evidence_before_and_after_observation_continuity_unreviewed",
+   "prior_control_exclusion": "none_found_in_screened_prior_forms (screen, not complete corpus)",
+   "label_status": "unknown"
+  },
+  {
+   "ticker": "ABUS",
+   "observation_date": "2024-01-01",
+   "membership_before": {
+    "accession": "0001447028-23-000090",
+    "document_name": "abus-20230930.htm"
+   },
+   "membership_after": {
+    "accession": "0001447028-24-000035",
+    "document_name": "abus-20231231.htm"
+   },
+   "window": {
+    "screened": [
+     {
+      "accession": "0001140361-24-019095",
+      "document_name": "ny20020406x2_defa14a.htm"
+     },
+     {
+      "accession": "0001193805-24-000619",
+      "document_name": "sc13d14125002_05062024.htm"
+     },
+     {
+      "accession": "0001193805-24-000672",
+      "document_name": "sc13da114125002_05172024.htm"
+     }
+    ],
+    "control_candidates": [],
+    "engagement": [
+     {
+      "accession": "0001193805-24-000619",
+      "document_name": "sc13d14125002_05062024.htm"
+     },
+     {
+      "accession": "0001193805-24-000672",
+      "document_name": "sc13da114125002_05172024.htm"
+     }
+    ],
+    "note": "Whitefort Capital 6.8% activist 13D (May 2024) urges strategic options for the HBV portfolio: engagement signal, not a control agreement. Whitefort 13D/A EX-99.1 is a PDF left unread."
+   },
+   "membership_status": "dated_listing_evidence_before_and_after_observation_continuity_unreviewed",
+   "prior_control_exclusion": "none_found_in_screened_prior_forms (screen, not complete corpus)",
+   "label_status": "unknown"
+  },
+  {
+   "ticker": "ADAP",
+   "observation_date": "2021-01-01",
+   "membership_before": {
+    "accession": "0001558370-20-012867",
+    "document_name": "adap-20200930x10q.htm"
+   },
+   "membership_after": {
+    "accession": "0001558370-21-001827",
+    "document_name": "adap-20201231x10k.htm"
+   },
+   "window": {
+    "screened": [
+     {
+      "accession": "0001558370-21-011688",
+      "document_name": "adap-20210813x8k.htm"
+     },
+     {
+      "accession": "0001558370-21-011988",
+      "document_name": "adap-20210820x8k.htm"
+     },
+     {
+      "accession": "0001558370-21-012236",
+      "document_name": "adap-20210903x8k.htm"
+     }
+    ],
+    "control_candidates": [],
+    "engagement": [],
+    "note": "Lease variations and Genentech collaboration/license; no control transaction in screened forms."
+   },
+   "membership_status": "dated_listing_evidence_before_and_after_observation_continuity_unreviewed",
+   "prior_control_exclusion": "none_found_in_screened_prior_forms (screen, not complete corpus)",
+   "label_status": "unknown",
+   "ads_mapping_to_common_equity": "UNDECIDED (returned to root). Listed instrument: ADS, each representing 6 ordinary shares £0.001; ordinary shares registered for listing not trading. No share-count, market-cap or valuation conversion is implied."
+  },
+  {
+   "ticker": "ADAP",
+   "observation_date": "2023-01-01",
+   "membership_before": {
+    "accession": "0001558370-22-016869",
+    "document_name": "adap-20220930x10q.htm"
+   },
+   "membership_after": {
+    "accession": "0001558370-23-002907",
+    "document_name": "adap-20221231x10k.htm"
+   },
+   "window": {
+    "screened": [
+     {
+      "accession": "0001104659-23-028734",
+      "document_name": "tm238549d1_8k.htm"
+     },
+     {
+      "accession": "0001104659-23-028734",
+      "document_name": "tm238549d1_ex99-1.htm"
+     },
+     {
+      "accession": "0001558370-23-005713",
+      "document_name": "adap-20230406x8k.htm"
+     },
+     {
+      "accession": "0001104659-23-067030",
+      "document_name": "tm2317177d3_8k.htm"
+     },
+     {
+      "accession": "0001558370-23-015390",
+      "document_name": "adap-20230831x8k.htm"
+     }
+    ],
+    "control_candidates": [],
+    "engagement": [],
+    "acquirer_side": [
+     {
+      "accession": "0001104659-23-028734",
+      "document_name": "tm238549d1_8k.htm"
+     }
+    ],
+    "note": "TCR2 combination: Adaptimmune is legal acquirer; Adaptimmune holders ~75% post-close; not a >50% control transfer of ADAP. Nasdaq minimum-bid notice Aug 31, 2023 (no immediate delisting). S-4 and 425s captured but unread."
+   },
+   "membership_status": "dated_listing_evidence_before_and_after_observation_continuity_unreviewed",
+   "prior_control_exclusion": "none_found_in_screened_prior_forms (screen, not complete corpus)",
+   "label_status": "unknown",
+   "ads_mapping_to_common_equity": "UNDECIDED (returned to root). Listed instrument: ADS, each representing 6 ordinary shares £0.001; ordinary shares registered for listing not trading. No share-count, market-cap or valuation conversion is implied."
+  },
+  {
+   "ticker": "ADAP",
+   "observation_date": "2024-01-01",
+   "membership_before": {
+    "accession": "0001558370-23-018265",
+    "document_name": "adap-20230930x10q.htm"
+   },
+   "membership_after": {
+    "accession": "0001558370-24-002537",
+    "document_name": "adap-20231231x10k.htm"
+   },
+   "window": {
+    "screened": [
+     {
+      "accession": "0001558370-24-001304",
+      "document_name": "adap-20240216x8k.htm"
+     },
+     {
+      "accession": "0001558370-24-008208",
+      "document_name": "adap-20240514x8k.htm"
+     },
+     {
+      "accession": "0001558370-24-008778",
+      "document_name": "adap-20240530x8k.htm"
+     },
+     {
+      "accession": "0001558370-24-012960",
+      "document_name": "adap-20240923x8k.htm"
+     },
+     {
+      "accession": "0001558370-24-014148",
+      "document_name": "adap-20241101x8k.htm"
+     }
+    ],
+    "control_candidates": [],
+    "engagement": [],
+    "note": "Compliance regained Feb 2024; Hercules loan; Galapagos option/license; Genentech termination settlement; new bid-price notice Nov 1, 2024. No control transaction in screened forms."
+   },
+   "membership_status": "dated_listing_evidence_before_and_after_observation_continuity_unreviewed",
+   "prior_control_exclusion": "none_found_in_screened_prior_forms (screen, not complete corpus)",
+   "label_status": "unknown",
+   "ads_mapping_to_common_equity": "UNDECIDED (returned to root). Listed instrument: ADS, each representing 6 ordinary shares £0.001; ordinary shares registered for listing not trading. No share-count, market-cap or valuation conversion is implied."
+  },
+  {
+   "ticker": "AKUS",
+   "observation_date": "2021-01-01",
+   "membership_before": {
+    "accession": "0001558370-20-013596",
+    "document_name": "akus-20200930x10q.htm"
+   },
+   "membership_after": {
+    "accession": "0001558370-21-003583",
+    "document_name": "akus-20201231x10k.htm"
+   },
+   "window": {
+    "screened": [
+     {
+      "accession": "0001104659-21-012260",
+      "document_name": "tm214965d1_8k.htm"
+     },
+     {
+      "accession": "0001558370-21-005068",
+      "document_name": "tmb-20210428xdefa14a.htm"
+     }
+    ],
+    "control_candidates": [],
+    "engagement": [],
+    "note": "Screened forms in window show a lease amendment and annual-meeting notice only. Lilly definitive agreement (Oct 17-18, 2022) is after this horizon end (2022-01-01); outcome-exposed. Label unknown (no complete corpus)."
+   },
+   "membership_status": "dated_listing_evidence_before_and_after_observation_continuity_unreviewed",
+   "prior_control_exclusion": "none_found_in_screened_prior_forms (screen, not complete corpus)",
+   "label_status": "unknown"
+  },
+  {
+   "ticker": "AKUS",
+   "observation_date": "2023-01-01",
+   "membership_before": {
+    "accession": "0001558370-22-017568",
+    "document_name": "akus-20220930x10q.htm"
+   },
+   "membership_after": null,
+   "window": {
+    "screened": [],
+    "control_candidates": [],
+    "engagement": [],
+    "note": "Not listed at observation: see membership exclusion."
+   },
+   "membership_status": "risk_set_exclusion_not_listed_at_observation",
+   "membership_exclusion_sources": [
+    {
+     "accession": "0001193125-22-296537",
+     "document_name": "d431190d8k.htm"
+    },
+    {
+     "accession": "0001354457-22-000674",
+     "document_name": "primary_doc.xml",
+     "source_sha256": "57420a6f952e12d6efc12cf3d8204cec38d35b9825cef634f15a8a3c32074e74"
+    },
+    {
+     "accession": "0001193125-22-302746",
+     "document_name": "d412684d1512g.htm"
+    }
+   ],
+   "membership_exclusion_basis": "Lilly tender accepted 2022-11-30 and Section 251(h) merger effective 2022-12-01 (Akouos became wholly owned subsidiary); Nasdaq trading suspension requested from 8:00 p.m. ET 2022-11-30; Form 25-NSE by Nasdaq dated 2022-12-01; Form 15 filed 2022-12-12. All before the observation date.",
+   "prior_control_exclusion": "not_applicable_superseded_by_membership_exclusion (prior definitive agreement Oct 17, 2022 already completed before observation)",
+   "label_status": "membership_exclusion_not_a_negative_not_censored"
+  },
+  {
+   "ticker": "AKUS",
+   "observation_date": "2024-01-01",
+   "membership_before": {
+    "accession": "0001558370-22-017568",
+    "document_name": "akus-20220930x10q.htm"
+   },
+   "membership_after": null,
+   "window": {
+    "screened": [],
+    "control_candidates": [],
+    "engagement": [],
+    "note": "Not listed at observation: see membership exclusion."
+   },
+   "membership_status": "risk_set_exclusion_not_listed_at_observation",
+   "membership_exclusion_sources": [
+    {
+     "accession": "0001193125-22-296537",
+     "document_name": "d431190d8k.htm"
+    },
+    {
+     "accession": "0001354457-22-000674",
+     "document_name": "primary_doc.xml",
+     "source_sha256": "57420a6f952e12d6efc12cf3d8204cec38d35b9825cef634f15a8a3c32074e74"
+    },
+    {
+     "accession": "0001193125-22-302746",
+     "document_name": "d412684d1512g.htm"
+    }
+   ],
+   "membership_exclusion_basis": "Lilly tender accepted 2022-11-30 and Section 251(h) merger effective 2022-12-01 (Akouos became wholly owned subsidiary); Nasdaq trading suspension requested from 8:00 p.m. ET 2022-11-30; Form 25-NSE by Nasdaq dated 2022-12-01; Form 15 filed 2022-12-12. All before the observation date.",
+   "prior_control_exclusion": "not_applicable_superseded_by_membership_exclusion (prior definitive agreement Oct 17, 2022 already completed before observation)",
+   "label_status": "membership_exclusion_not_a_negative_not_censored"
+  },
+  {
+   "ticker": "ALT",
+   "observation_date": "2021-01-01",
+   "membership_before": {
+    "accession": "0001564590-20-052524",
+    "document_name": "alt-10q_20200930.htm"
+   },
+   "membership_after": {
+    "accession": "0001564590-21-008422",
+    "document_name": "alt-10k_20201231.htm"
+   },
+   "window": {
+    "screened": [
+     {
+      "accession": "0001564590-21-008419",
+      "document_name": "alt-8k_20210225.htm"
+     },
+     {
+      "accession": "0001193125-21-056940",
+      "document_name": "d146142d8k.htm"
+     },
+     {
+      "accession": "0001193125-21-078521",
+      "document_name": "d113879d8k.htm"
+     }
+    ],
+    "control_candidates": [],
+    "engagement": [],
+    "note": "Venrock share/pre-funded-warrant exchange, $125M ATM, Lonza AdCOVID SOW. No control transaction in screened forms."
+   },
+   "membership_status": "dated_listing_evidence_before_and_after_observation_continuity_unreviewed",
+   "prior_control_exclusion": "none_found_in_screened_prior_forms (screen, not complete corpus)",
+   "label_status": "unknown"
+  },
+  {
+   "ticker": "ALT",
+   "observation_date": "2023-01-01",
+   "membership_before": {
+    "accession": "0001326190-22-000013",
+    "document_name": "alt-20220930x10q.htm"
+   },
+   "membership_after": {
+    "accession": "0001326190-23-000008",
+    "document_name": "alt-20221231x10k.htm"
+   },
+   "window": {
+    "screened": [],
+    "control_candidates": [],
+    "engagement": [],
+    "note": "No filing in the window matched the control-form screen; this is not a negative."
+   },
+   "membership_status": "dated_listing_evidence_before_and_after_observation_continuity_unreviewed",
+   "prior_control_exclusion": "none_found_in_screened_prior_forms (screen, not complete corpus)",
+   "label_status": "unknown"
+  },
+  {
+   "ticker": "ALT",
+   "observation_date": "2024-01-01",
+   "membership_before": {
+    "accession": "0001326190-23-000047",
+    "document_name": "alt-20230930x10q.htm"
+   },
+   "membership_after": {
+    "accession": "0001326190-24-000010",
+    "document_name": "alt-20231231x10k.htm"
+   },
+   "window": {
+    "screened": [],
+    "control_candidates": [],
+    "engagement": [],
+    "note": "No filing in the window matched the control-form screen; this is not a negative."
+   },
+   "membership_status": "dated_listing_evidence_before_and_after_observation_continuity_unreviewed",
+   "prior_control_exclusion": "none_found_in_screened_prior_forms (screen, not complete corpus)",
+   "label_status": "unknown"
+  },
+  {
+   "ticker": "ALVR",
+   "observation_date": "2021-01-01",
+   "membership_before": {
+    "accession": "0001564590-20-053036",
+    "document_name": "alvr-10q_20200930.htm"
+   },
+   "membership_after": {
+    "accession": "0001564590-21-005652",
+    "document_name": "alvr-10k_20201231.htm"
+   },
+   "window": {
+    "screened": [
+     {
+      "accession": "0001193125-21-271445",
+      "document_name": "d216131d8k.htm"
+     }
+    ],
+    "control_candidates": [],
+    "engagement": [],
+    "note": "Waltham sublease/lease; DEFA14A captured but unread."
+   },
+   "membership_status": "dated_listing_evidence_before_and_after_observation_continuity_unreviewed",
+   "prior_control_exclusion": "none_found_in_screened_prior_forms (screen, not complete corpus)",
+   "label_status": "unknown"
+  },
+  {
+   "ticker": "ALVR",
+   "observation_date": "2023-01-01",
+   "membership_before": {
+    "accession": "0000950170-22-021829",
+    "document_name": "alvr-20220930.htm"
+   },
+   "membership_after": {
+    "accession": "0000950170-23-002830",
+    "document_name": "alvr-20221231.htm"
+   },
+   "window": {
+    "screened": [
+     {
+      "accession": "0001193125-23-175095",
+      "document_name": "d472315d8k.htm"
+     }
+    ],
+    "control_candidates": [],
+    "engagement": [],
+    "note": "$70.2M underwritten offering June 2023; DEFA14A captured but unread. The Dec 22, 2023 release (inside this window) reports DSMB futility stops of three Phase 3 posoleucel studies with no safety concerns identified and a review of strategic alternatives: an engagement signal, not a control agreement.",
+    "engagement_in_window": [
+     {
+      "accession": "0001193125-23-301777",
+      "document_name": "d671953dex991.htm"
+     }
+    ]
+   },
+   "membership_status": "dated_listing_evidence_before_and_after_observation_continuity_unreviewed",
+   "prior_control_exclusion": "none_found_in_screened_prior_forms (screen, not complete corpus)",
+   "label_status": "unknown"
+  },
+  {
+   "ticker": "ALVR",
+   "observation_date": "2024-01-01",
+   "membership_before": {
+    "accession": "0000950170-23-058145",
+    "document_name": "alvr-20230930.htm"
+   },
+   "membership_after": {
+    "accession": "0000950170-24-031879",
+    "document_name": "alvr-20231231.htm"
+   },
+   "window": {
+    "screened": [
+     {
+      "accession": "0001193125-24-032160",
+      "document_name": "d764004d8k.htm"
+     },
+     {
+      "accession": "0001193125-24-253747",
+      "document_name": "d870301d8k.htm"
+     },
+     {
+      "accession": "0001193125-24-253747",
+      "document_name": "d870301dex991.htm"
+     }
+    ],
+    "control_candidates": [
+     {
+      "accession": "0001193125-24-253747",
+      "document_name": "d870301d8k.htm"
+     }
+    ],
+    "engagement": [
+     {
+      "accession": "0001193125-23-301777",
+      "document_name": "d671953dex991.htm"
+     }
+    ],
+    "note": "Nov 7/8, 2024 AlloVir-Kalaris merger agreement inside horizon (ends 2024-12-31). Prior public strategic-alternatives review announced Dec 22, 2023 (before cutoff). Feb 2024 Nasdaq bid-price notice; Nov 2024 cover shows Nasdaq Capital Market."
+   },
+   "membership_status": "dated_listing_evidence_before_and_after_observation_continuity_unreviewed",
+   "prior_control_exclusion": "none_found_in_screened_prior_forms (screen, not complete corpus)",
+   "label_status": "reverse_merger_control_candidate_unadjudicated",
+   "control_subtype": {
+    "tag": "reverse_merger_control_candidate",
+    "legal_survivor_and_listed_issuer": "AlloVir, Inc. (parent; Merger Sub merges into Kalaris, Kalaris becomes AlloVir subsidiary)",
+    "economic_ownership": "pre-merger Kalaris holders ~74.95%, AlloVir holders ~25.05% fully diluted, before bridge financing and excluding new award reserve; adjustable by AlloVir net cash (8-K Item 1.01 exact sentence)",
+    "board_control": "expected nine directors: six Kalaris designees, two AlloVir, one mutual (8-K); AlloVir chair Hallal to chair combined board (EX-99.1)",
+    "operating_business_continuity": "combined company renamed Kalaris Therapeutics (KLRS), led by Kalaris CEO, focused on Kalaris TH103; AlloVir described as an immunotherapy company that was focused on virus-specific T cells (EX-99.1)",
+    "announcement": "8-K accepted 2024-11-08 08:26:55 EDGAR display; event date Nov 7, 2024; release dated Nov 8, 2024 (filing internally cites Nov 7 and Nov 8)",
+    "auto_admission_to_whole_company_acquisition_class": false
+   }
+  }
+ ],
+ "common_remaining_gaps": [
+  "complete_designated_primary_corpus_not_reviewed (screened control-relevant forms only; no-hit is not negative)",
+  "direct_sec_admission_binder_not_implemented",
+  "financial_feature_original_source_not_rebuilt_this_pass",
+  "science_ordinal_ratings_not_assigned",
+  "buyer_universe_candidate_ratings_not_assigned",
+  "valuation_not_supported (no licensed quote content used)",
+  "non_text_items_open (graphics, XBRL data files, complete submission text files)",
+  "independent_human_review_absent"
+ ],
+ "rules_applied": "finalized-plan-addendum precommitted_rules (membership_listing, risk_set_exclusion, prior_control_exclusion, ads_mapping, reverse_merger_test, no_hit, horizon)",
+ "revision_note": "re-authored after the collector correction; prior authored_at 2026-10-03T03:19:32.675134+00:00; references now bind ambiguous names by source_sha256"
+}

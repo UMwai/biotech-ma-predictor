@@ -1,0 +1,57 @@
+{
+ "schema_version": "ma-exploration-sec-plan-v1",
+ "name": "submissions",
+ "purpose": "Current EDGAR submissions JSON per issuer: identity, former names, filing list incl. subject-company filings, acceptance timestamps. Current view; not historical vintage.",
+ "accessions": [],
+ "urls": [
+  {
+   "id": "ARQT-submissions",
+   "ticker": "ARQT",
+   "cik": 1787306,
+   "url": "https://data.sec.gov/submissions/CIK0001787306.json",
+   "role": "current_submissions_index"
+  },
+  {
+   "id": "CRNX-submissions",
+   "ticker": "CRNX",
+   "cik": 1658247,
+   "url": "https://data.sec.gov/submissions/CIK0001658247.json",
+   "role": "current_submissions_index"
+  },
+  {
+   "id": "ABUS-submissions",
+   "ticker": "ABUS",
+   "cik": 1447028,
+   "url": "https://data.sec.gov/submissions/CIK0001447028.json",
+   "role": "current_submissions_index"
+  },
+  {
+   "id": "ADAP-submissions",
+   "ticker": "ADAP",
+   "cik": 1621227,
+   "url": "https://data.sec.gov/submissions/CIK0001621227.json",
+   "role": "current_submissions_index"
+  },
+  {
+   "id": "AKUS-submissions",
+   "ticker": "AKUS",
+   "cik": 1722271,
+   "url": "https://data.sec.gov/submissions/CIK0001722271.json",
+   "role": "current_submissions_index"
+  },
+  {
+   "id": "ALT-submissions",
+   "ticker": "ALT",
+   "cik": 1326190,
+   "url": "https://data.sec.gov/submissions/CIK0001326190.json",
+   "role": "current_submissions_index"
+  },
+  {
+   "id": "ALVR-submissions",
+   "ticker": "ALVR",
+   "cik": 1754068,
+   "url": "https://data.sec.gov/submissions/CIK0001754068.json",
+   "role": "current_submissions_index"
+  }
+ ]
+}

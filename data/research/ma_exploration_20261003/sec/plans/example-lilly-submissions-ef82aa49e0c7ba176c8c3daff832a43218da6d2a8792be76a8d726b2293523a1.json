@@ -1,0 +1,15 @@
+{
+ "schema_version": "ma-exploration-sec-plan-v1",
+ "name": "example-lilly-submissions",
+ "purpose": "Optional example C: Lilly (declared universe member) submissions index to locate the pre-2021-cutoff Prevail Therapeutics acquisition announcement. Chosen after the AKUS outcome was known.",
+ "accessions": [],
+ "urls": [
+  {
+   "id": "LLY-submissions",
+   "ticker": "LLY",
+   "cik": 59478,
+   "url": "https://data.sec.gov/submissions/CIK0000059478.json",
+   "role": "current_submissions_index"
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+  "base_revision": "1b43bd13e8de3db13fcc097be78d55a7cb7b1fee",
+  "canonical_inputs": {
+    "observation_adjudications_sha256": "5da40c2e1cae5a9b5646869f853dff2a8ba0726d07fcfbd6c7b1f9655e726c3e",
+    "panel_sha256": "147059f3a23c43c23a54df3151d3cb87e5d0fed85c9c30202ed03dc8ffdd7954"
+  },
+  "earlier_current_turn_public_source_access": [
+    "SEC ARQT2021 annual accession0001787306-22-000009",
+    "SEC CRNX2021 annual accession0000950170-22-005050"
+  ],
+  "existing_review_timing_audit": [
+    "ARQT-2021-01-01",
+    "CRNX-2021-01-01"
+  ],
+  "fixed_order_batch": [
+    "ABUS",
+    "ADAP",
+    "AKUS",
+    "ALT",
+    "ALVR"
+  ],
+  "heldout_years": [
+    2023,
+    2024
+  ],
+  "independent_confirmation": false,
+  "k": 5,
+  "minimum_train_negative_companies": 20,
+  "minimum_train_positive_events": 5,
+  "no_inferred_negative_from_search_no_hit": true,
+  "no_source_admission_by_this_registration": true,
+  "observation_dates": [
+    "2021-01-01",
+    "2023-01-01",
+    "2024-01-01"
+  ],
+  "outcome_exposed": true,
+  "parameter_sha256": "779a39668677b74bb5f75b0c125fc38e7c6827106d76a1375b78b9df37de79c4",
+  "prior_collection_protocol_sha256": "8ae4550ecf5bd7c8483d4b4ab60f701011f34bd667b6e82bd3595b1d8851b2e0",
+  "registered_at": "2026-10-03T02:36:58.011276+00:00",
+  "registration_scope": "Present-day exploration continuation, registered after inspection of prior outcomes and existing reviews. First-five target order inherited from prior registration. Two existing-review audits are separate from new cohort selection. No historical preregistration, independent confirmation or historical-sealed holdout claim.",
+  "sampling_frame_sha256": "e69a4a6babeddc0e2334551a0125b2d60b0d2223652b5e60f40d9bdb95185a76",
+  "schema_version": "ma-source-exploration-continuation-v1",
+  "unchanged_actual_review_clocks": true,
+  "validated_predictive_edge": false
+}

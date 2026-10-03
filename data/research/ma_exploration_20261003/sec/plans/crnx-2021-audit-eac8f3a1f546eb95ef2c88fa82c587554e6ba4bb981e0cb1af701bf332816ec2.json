@@ -1,0 +1,555 @@
+{
+ "schema_version": "ma-exploration-sec-plan-v1",
+ "name": "crnx-2021-audit",
+ "purpose": "CRNX 2021 negative-label timing audit: initial listing, FY2019 annual, and all retained 2021-01-01..2022-03-31 material parents (EXCLUDED_FORMS policy of src/research/regulatory_corpus.py) from inherited EFTS inventories, in filing-date/accession order.",
+ "inventory_inputs": [
+  {
+   "relative_path_repo": "data/history/panel_seed/negative_reviews/CRNX_regulatory_inventory_2020-01-01_2020-12-31.json"
+  },
+  {
+   "relative_path_repo": "data/history/panel_seed/negative_reviews/CRNX_regulatory_inventory_2021-01-01_2021-12-31.json"
+  },
+  {
+   "relative_path_repo": "data/history/panel_seed/negative_reviews/CRNX_regulatory_inventory_2022-01-01_2022-03-31.json"
+  }
+ ],
+ "accessions": [
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001193125-18-216421",
+   "inventory_form": "8-A12B",
+   "inventory_filed_date": "2018-07-12",
+   "scope": "full",
+   "purpose": "initial_listing_registration"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001193125-18-220701",
+   "inventory_form": "424B4",
+   "inventory_filed_date": "2018-07-18",
+   "scope": "primary_only",
+   "purpose": "ipo_final_prospectus"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-20-009365",
+   "inventory_form": "10-K",
+   "inventory_filed_date": "2020-03-09",
+   "scope": "full",
+   "purpose": "fy2019_annual_membership_anchor"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-000325",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-01-06",
+   "inventory_document_name": "crnx-8k_20210106.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-003931",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-02-03",
+   "inventory_document_name": "crnx-8k_20210203.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-004179",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-02-04",
+   "inventory_document_name": "crnx-8k_20210204.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-016706",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-03-30",
+   "inventory_document_name": "crnx-8k_20210330.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-016719",
+   "inventory_form": "10-K",
+   "inventory_filed_date": "2021-03-30",
+   "inventory_document_name": "crnx-10k_20201231.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001193125-21-110213",
+   "inventory_form": "424B5",
+   "inventory_filed_date": "2021-04-08",
+   "inventory_document_name": "d60298d424b5.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001193125-21-110225",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-04-08",
+   "inventory_document_name": "d155184d8k.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-022087",
+   "inventory_form": "DEF 14A",
+   "inventory_filed_date": "2021-04-30",
+   "inventory_document_name": "crnx-def14a_20210622.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-022094",
+   "inventory_form": "DEFA14A",
+   "inventory_filed_date": "2021-04-30",
+   "inventory_document_name": "crnx-defa14a_20210625.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-024927",
+   "inventory_form": "10-Q",
+   "inventory_filed_date": "2021-05-06",
+   "inventory_document_name": "crnx-10q_20210331.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-024928",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-05-06",
+   "inventory_document_name": "crnx-8k_20210331.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-034021",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-06-23",
+   "inventory_document_name": "crnx-8k_20210622.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-034687",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-06-28",
+   "inventory_document_name": "crnx-8k_20210628.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-039140",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-07-29",
+   "inventory_document_name": "crnx-8k_20210728.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001193125-21-242038",
+   "inventory_form": "S-3ASR",
+   "inventory_filed_date": "2021-08-10",
+   "inventory_document_name": "d143879ds3asr.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-043067",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-08-10",
+   "inventory_document_name": "crnx-8k_20210810.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-043078",
+   "inventory_form": "10-Q",
+   "inventory_filed_date": "2021-08-10",
+   "inventory_document_name": "crnx-10q_20210630.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-046992",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-09-02",
+   "inventory_document_name": "crnx-8k_20210830.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-048031",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-09-15",
+   "inventory_document_name": "crnx-8k_20210915.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-048956",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-09-27",
+   "inventory_document_name": "crnx-8k_20210927.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-051031",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-10-18",
+   "inventory_document_name": "crnx-8k_20211018.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001193125-21-303063",
+   "inventory_form": "424B5",
+   "inventory_filed_date": "2021-10-20",
+   "inventory_document_name": "d159131d424b5.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001193125-21-303072",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-10-20",
+   "inventory_document_name": "d195018d8k.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001193125-21-304041",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-10-21",
+   "inventory_document_name": "d216092d8k.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001193125-21-304043",
+   "inventory_form": "424B5",
+   "inventory_filed_date": "2021-10-21",
+   "inventory_document_name": "d159131d424b5.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-054746",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-11-05",
+   "inventory_document_name": "crnx-8k_20211105.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-054747",
+   "inventory_form": "10-Q",
+   "inventory_filed_date": "2021-11-05",
+   "inventory_document_name": "crnx-10q_20210930.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-055080",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-11-08",
+   "inventory_document_name": "crnx-8k_20211108.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-061145",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-12-23",
+   "inventory_document_name": "crnx-8k_20211217.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-22-000431",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2022-01-05",
+   "inventory_document_name": "crnx-8k_20220103.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-22-001071",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2022-01-12",
+   "inventory_document_name": "crnx-8k_20220112.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0000950170-22-002172",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2022-02-28",
+   "inventory_document_name": "crnx-20220225.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0000950170-22-002421",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2022-03-01",
+   "inventory_document_name": "crnx-20220228.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0000950170-22-003510",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2022-03-14",
+   "inventory_document_name": "crnx-20220311.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0000950170-22-004123",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2022-03-18",
+   "inventory_document_name": "crnx-20220317.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0000950170-22-004687",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2022-03-25",
+   "inventory_document_name": "crnx-20220321.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0000950170-22-005041",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2022-03-30",
+   "inventory_document_name": "crnx-20220330.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0000950170-22-005050",
+   "inventory_form": "10-K",
+   "inventory_filed_date": "2022-03-30",
+   "inventory_document_name": "crnx-20211231.htm",
+   "inventory_ciks": [
+    "0001658247"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  }
+ ],
+ "urls": [
+  {
+   "id": "CRNX-2019-annual-thirdparty-pdf",
+   "ticker": "CRNX",
+   "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NASDAQ_CRNX_2019.pdf",
+   "role": "issuer_or_thirdparty_annual_pdf_refetch",
+   "prior_capture_sha256": "5b2f090459cda0798c25c1f2e553a1dd24609d86c57c7e9b5c592618f7490b41"
+  },
+  {
+   "id": "CRNX-2021-annual-issuer-pdf",
+   "ticker": "CRNX",
+   "url": "https://s206.q4cdn.com/492797646/files/doc_financials/2021/q4/40923809-2ce3-4ea1-8963-eb6bede59668.pdf",
+   "role": "issuer_or_thirdparty_annual_pdf_refetch",
+   "prior_capture_sha256": "ab05afb24ea1e1521e473e502a3f4dd7904085e1e987c474ff2728694628977b"
+  }
+ ]
+}

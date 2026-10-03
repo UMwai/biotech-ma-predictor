@@ -1,0 +1,15 @@
+{
+ "schema_version": "ma-exploration-sec-plan-v1",
+ "name": "example-akouos-q3-2020",
+ "purpose": "Optional example C (root lead): Akouos 8-K furnishing its Q3 2020 results release (dated 2020-11-12), a pre-2020-12-31 primary source for AK-OTOF plans. Chosen after the AKUS outcome was known.",
+ "accessions": [
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001558370-20-013595",
+   "scope": "full",
+   "purpose": "example_target_pre_cutoff_science"
+  }
+ ],
+ "urls": []
+}
