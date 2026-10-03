@@ -14,3 +14,8 @@ data/research/ma_buyer_universe_20261002/raw_sources/*.html -diff
 data/research/ma_buyer_universe_20261002/raw_sources/*.txt -diff
 data/research/ma_evidence_20261002/abus_2021/issuer_archive/raw/** -diff
 data/research/ma_evidence_20261002/inputs/*.html -diff
+
+# 2026-10-03 exploration: source bodies, receipts and reports keep their hash-bound bytes.
+data/research/ma_exploration_20261003/** -text
+reports/ma_exploration_20261003/** -text
+data/research/ma_exploration_20261003/sec/raw/** -diff

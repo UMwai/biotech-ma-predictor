@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<notificationOfRemoval>
+
+    <schemaVersion>X0203</schemaVersion>
+
+    <exchange>
+        <cik>0001354457</cik>
+        <entityName>Nasdaq Stock Market LLC</entityName>
+    </exchange>
+
+    <issuer>
+        <cik>0001722271</cik>
+        <entityName>Akouos, Inc.</entityName>
+        <fileNumber>001-39343</fileNumber>
+        <address>
+            <street1>645 Summer Street</street1>
+            <street2>Suite 200</street2>
+            <city>Boston</city>
+            <stateOrCountryCode>MA</stateOrCountryCode>
+            <stateOrCountry>MASSACHUSETTS</stateOrCountry>
+            <zipCode>02210</zipCode>
+        </address>
+        <telephoneNumber>857-410-1818</telephoneNumber>
+    </issuer>
+
+    <descriptionClassSecurity>Common Stock</descriptionClassSecurity>
+
+    <ruleProvision>17 CFR 240.12d2-2(a)(3)</ruleProvision>
+
+    <signatureData>
+        <signatureName>Tara Petta</signatureName>
+        <signatureTitle>Vice President</signatureTitle>
+        <signatureDate>2022-12-01</signatureDate>
+    </signatureData>
+</notificationOfRemoval>

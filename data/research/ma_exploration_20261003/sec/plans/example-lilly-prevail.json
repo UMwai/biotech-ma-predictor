@@ -1,0 +1,15 @@
+{
+ "schema_version": "ma-exploration-sec-plan-v1",
+ "name": "example-lilly-prevail",
+ "purpose": "Optional example C: Lilly SC TO-C (Dec 15, 2020) for the Prevail Therapeutics gene-therapy acquisition, a pre-2020-12-31-cutoff public signal of Lilly genetic-medicine investment. Selected after the AKUS outcome was known.",
+ "accessions": [
+  {
+   "ticker": "LLY",
+   "archive_cik": 59478,
+   "accession": "0001193125-20-317452",
+   "scope": "full",
+   "purpose": "example_buyer_pre_cutoff_signal"
+  }
+ ],
+ "urls": []
+}

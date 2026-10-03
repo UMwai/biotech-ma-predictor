@@ -1,0 +1,455 @@
+{
+ "schema_version": "ma-exploration-sec-plan-v1",
+ "name": "arqt-2021-audit",
+ "purpose": "ARQT 2021 negative-label timing audit: initial listing, FY2019 annual, and all retained 2021-01-01..2022-03-31 material parents (EXCLUDED_FORMS policy of src/research/regulatory_corpus.py) from inherited EFTS inventories, in filing-date/accession order.",
+ "inventory_inputs": [
+  {
+   "relative_path_repo": "data/history/panel_seed/negative_reviews/ARQT_regulatory_inventory_2020-01-01_2020-12-31.json"
+  },
+  {
+   "relative_path_repo": "data/history/panel_seed/negative_reviews/ARQT_regulatory_inventory_2021-01-01_2021-12-31.json"
+  },
+  {
+   "relative_path_repo": "data/history/panel_seed/negative_reviews/ARQT_regulatory_inventory_2022-01-01_2022-03-31.json"
+  }
+ ],
+ "accessions": [
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001193125-20-011069",
+   "inventory_form": "8-A12B",
+   "inventory_filed_date": "2020-01-21",
+   "scope": "full",
+   "purpose": "initial_listing_registration"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001193125-20-021681",
+   "inventory_form": "424B4",
+   "inventory_filed_date": "2020-01-31",
+   "scope": "primary_only",
+   "purpose": "ipo_final_prospectus"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001787306-20-000005",
+   "inventory_form": "10-K",
+   "inventory_filed_date": "2020-03-19",
+   "scope": "full",
+   "purpose": "fy2019_annual_membership_anchor"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001193125-21-010203",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-01-15",
+   "inventory_document_name": "d13467d8k.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001628280-21-001202",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-02-01",
+   "inventory_document_name": "arqt-20210201.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001628280-21-001224",
+   "inventory_form": "S-3ASR",
+   "inventory_filed_date": "2021-02-01",
+   "inventory_document_name": "arcutis-sx3asr.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001628280-21-001226",
+   "inventory_form": "424B5",
+   "inventory_filed_date": "2021-02-01",
+   "inventory_document_name": "arcutis424b5preliminarypro.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001628280-21-001479",
+   "inventory_form": "424B5",
+   "inventory_filed_date": "2021-02-04",
+   "inventory_document_name": "arcutis424b5finalprospectu.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001628280-21-001524",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-02-05",
+   "inventory_document_name": "arqt-20210201.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001193125-21-032458",
+   "inventory_form": "SC 13D/A",
+   "inventory_filed_date": "2021-02-08",
+   "inventory_document_name": "d125128dsc13da.htm",
+   "inventory_ciks": [
+    "0001787306",
+    "0001687968"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0000947871-21-000140",
+   "inventory_form": "SC 13D/A",
+   "inventory_filed_date": "2021-02-09",
+   "inventory_document_name": "ss191817_sc13da.htm",
+   "inventory_ciks": [
+    "0001787306",
+    "0001055951"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001193125-21-033691",
+   "inventory_form": "SC 13D/A",
+   "inventory_filed_date": "2021-02-09",
+   "inventory_document_name": "d68462dsc13da.htm",
+   "inventory_ciks": [
+    "0001787306",
+    "0001655827"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001628280-21-002256",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-02-16",
+   "inventory_document_name": "arqt-20210216.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001628280-21-002272",
+   "inventory_form": "10-K",
+   "inventory_filed_date": "2021-02-16",
+   "inventory_document_name": "arqt-20201231.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001193125-21-095392",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-03-26",
+   "inventory_document_name": "d69581d8k.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001628280-21-007750",
+   "inventory_form": "DEF 14A",
+   "inventory_filed_date": "2021-04-27",
+   "inventory_document_name": "a2021arcutisbiotherapeutic.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001628280-21-007751",
+   "inventory_form": "DEFA14A",
+   "inventory_filed_date": "2021-04-27",
+   "inventory_document_name": "a2021defa14a.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001628280-21-008912",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-05-04",
+   "inventory_document_name": "arqt-20210504.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001628280-21-009291",
+   "inventory_form": "10-Q",
+   "inventory_filed_date": "2021-05-06",
+   "inventory_document_name": "arqt-20210331.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001628280-21-009303",
+   "inventory_form": "424B5",
+   "inventory_filed_date": "2021-05-06",
+   "inventory_document_name": "arcutis-424b5.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001193125-21-159339",
+   "inventory_form": "SC 13D/A",
+   "inventory_filed_date": "2021-05-12",
+   "inventory_document_name": "d143227dsc13da.htm",
+   "inventory_ciks": [
+    "0001787306",
+    "0001655827"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001193125-21-189048",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-06-14",
+   "inventory_document_name": "d32115d8k.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001787306-21-000006",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-08-05",
+   "inventory_document_name": "arqt-20210805.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001787306-21-000008",
+   "inventory_form": "10-Q",
+   "inventory_filed_date": "2021-08-05",
+   "inventory_document_name": "arqt-20210630.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001787306-21-000013",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-09-07",
+   "inventory_document_name": "arqt-20210903.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001787306-21-000018",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-09-28",
+   "inventory_document_name": "arqt-20210922.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001787306-21-000021",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-10-04",
+   "inventory_document_name": "arqt-20211004.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001787306-21-000029",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-11-04",
+   "inventory_document_name": "arqt-20211104.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001787306-21-000030",
+   "inventory_form": "10-Q",
+   "inventory_filed_date": "2021-11-04",
+   "inventory_document_name": "arqt-20210930.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001787306-21-000033",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2021-12-23",
+   "inventory_document_name": "arqt-20211222.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001787306-22-000008",
+   "inventory_form": "8-K",
+   "inventory_filed_date": "2022-02-22",
+   "inventory_document_name": "arqt-20220222.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001787306-22-000009",
+   "inventory_form": "10-K",
+   "inventory_filed_date": "2022-02-22",
+   "inventory_document_name": "arqt-20211231.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  },
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001787306-22-000014",
+   "inventory_form": "10-K/A",
+   "inventory_filed_date": "2022-03-03",
+   "inventory_document_name": "arqt-20211231.htm",
+   "inventory_ciks": [
+    "0001787306"
+   ],
+   "scope": "full",
+   "purpose": "retained_material_parent_2021_2022q1"
+  }
+ ],
+ "urls": [
+  {
+   "id": "ARQT-2019-annual-issuer-pdf",
+   "ticker": "ARQT",
+   "url": "https://investors.arcutis.com/static-files/a263d342-2425-4c11-872f-d71977270e22",
+   "role": "issuer_or_thirdparty_annual_pdf_refetch",
+   "prior_capture_sha256": "e022ca5fdd71e7a06dc13ac4f0237388d0a5c95c4c4b4b93ab89b52c983bac1f"
+  },
+  {
+   "id": "ARQT-2021-annual-issuer-pdf",
+   "ticker": "ARQT",
+   "url": "https://investors.arcutis.com/static-files/b2ab76f9-8f0b-42b5-81fa-2112d9fb9b13",
+   "role": "issuer_or_thirdparty_annual_pdf_refetch",
+   "prior_capture_sha256": "df853cb061e392953a38b4e3fc8d2397cf4ec2ddc3fb492109487274280b6c3e"
+  }
+ ]
+}

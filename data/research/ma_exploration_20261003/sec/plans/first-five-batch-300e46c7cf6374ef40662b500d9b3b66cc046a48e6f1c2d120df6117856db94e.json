@@ -1,0 +1,618 @@
+{
+ "schema_version": "ma-exploration-sec-plan-v1",
+ "name": "first-five-batch",
+ "purpose": "First-five fixed-frame batch (ABUS, ADAP, AKUS, ALT, ALVR): listing registrations, nearest dated 10-Q/10-K membership evidence around each observation, prior-control and delisting sources, and every control-relevant form in each 365-day window selected from the archived submissions JSON by a fixed form/item rule (8-K items 1.01/2.01/3.01/3.03/5.01; SC TO/14D9/13E3/13D; DEFM/PREM14A; DEFA14A; 425; S-4; 25; 15). Selection rule is a screen, not a complete corpus; no-hit is not a negative.",
+ "selection_source": "sec/raw submissions JSON referenced by sec-collection-submissions-*.json",
+ "accessions": [
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0001193125-10-247803",
+   "scope": "full",
+   "purpose": "initial_listing_registration"
+  },
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0001447028-20-000150",
+   "scope": "primary_only",
+   "purpose": "membership_2021_before"
+  },
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0001447028-21-000021",
+   "scope": "primary_only",
+   "purpose": "membership_2021_after"
+  },
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0001104659-21-032191",
+   "scope": "full",
+   "purpose": "window_2021_control_screen"
+  },
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0001104659-21-047993",
+   "scope": "primary_only",
+   "purpose": "window_2021_control_screen"
+  },
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0000950103-21-016171",
+   "scope": "primary_only",
+   "purpose": "window_2021_control_screen"
+  },
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0001447028-21-000072",
+   "scope": "full",
+   "purpose": "window_2021_control_screen"
+  },
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0001171843-21-008473",
+   "scope": "full",
+   "purpose": "window_2021_control_screen"
+  },
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0001447028-22-000055",
+   "scope": "primary_only",
+   "purpose": "membership_2023_before"
+  },
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0001447028-23-000018",
+   "scope": "primary_only",
+   "purpose": "membership_2023_after"
+  },
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0001140361-23-017995",
+   "scope": "primary_only",
+   "purpose": "window_2023_control_screen"
+  },
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0001447028-23-000090",
+   "scope": "primary_only",
+   "purpose": "membership_2024_before"
+  },
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0001447028-24-000035",
+   "scope": "primary_only",
+   "purpose": "membership_2024_after"
+  },
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0001140361-24-019095",
+   "scope": "primary_only",
+   "purpose": "window_2024_control_screen"
+  },
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0001193805-24-000619",
+   "scope": "full",
+   "purpose": "window_2024_control_screen"
+  },
+  {
+   "ticker": "ABUS",
+   "archive_cik": 1447028,
+   "accession": "0001193805-24-000672",
+   "scope": "full",
+   "purpose": "window_2024_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001104659-15-032500",
+   "scope": "full",
+   "purpose": "initial_listing_registration"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001047469-15-004459",
+   "scope": "primary_only",
+   "purpose": "ipo_final_prospectus"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-20-012867",
+   "scope": "primary_only",
+   "purpose": "membership_2021_before"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-21-001827",
+   "scope": "primary_only",
+   "purpose": "membership_2021_after"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-21-011688",
+   "scope": "full",
+   "purpose": "window_2021_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-21-011988",
+   "scope": "full",
+   "purpose": "window_2021_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-21-012236",
+   "scope": "full",
+   "purpose": "window_2021_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-22-016869",
+   "scope": "primary_only",
+   "purpose": "membership_2023_before"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-23-002907",
+   "scope": "primary_only",
+   "purpose": "membership_2023_after"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001104659-23-028734",
+   "scope": "full",
+   "purpose": "window_2023_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001104659-23-028735",
+   "scope": "primary_only",
+   "purpose": "window_2023_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001104659-23-042202",
+   "scope": "primary_only",
+   "purpose": "window_2023_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-23-005713",
+   "scope": "full",
+   "purpose": "window_2023_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001104659-23-067030",
+   "scope": "full",
+   "purpose": "window_2023_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-23-015390",
+   "scope": "full",
+   "purpose": "window_2023_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001072613-23-000276",
+   "scope": "primary_only",
+   "purpose": "window_2023_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-23-018265",
+   "scope": "primary_only",
+   "purpose": "membership_2024_before"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-24-002537",
+   "scope": "primary_only",
+   "purpose": "membership_2024_after"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-24-001304",
+   "scope": "full",
+   "purpose": "window_2024_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001072613-24-000360",
+   "scope": "primary_only",
+   "purpose": "window_2024_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-24-008208",
+   "scope": "full",
+   "purpose": "window_2024_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-24-008778",
+   "scope": "full",
+   "purpose": "window_2024_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-24-012960",
+   "scope": "full",
+   "purpose": "window_2024_control_screen"
+  },
+  {
+   "ticker": "ADAP",
+   "archive_cik": 1621227,
+   "accession": "0001558370-24-014148",
+   "scope": "full",
+   "purpose": "window_2024_control_screen"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001104659-20-075574",
+   "scope": "full",
+   "purpose": "initial_listing_registration"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001047469-20-003878",
+   "scope": "primary_only",
+   "purpose": "ipo_final_prospectus"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001558370-20-013596",
+   "scope": "primary_only",
+   "purpose": "membership_2021_before"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001558370-21-003583",
+   "scope": "primary_only",
+   "purpose": "membership_2021_after"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001104659-21-012260",
+   "scope": "full",
+   "purpose": "window_2021_control_screen"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001558370-21-005068",
+   "scope": "primary_only",
+   "purpose": "window_2021_control_screen"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001558370-22-017568",
+   "scope": "primary_only",
+   "purpose": "membership_2023_before"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001193125-22-264106",
+   "scope": "primary_only",
+   "purpose": "prior_control_2023"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001104659-22-109512",
+   "scope": "full",
+   "purpose": "prior_control_2023"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001104659-22-109727",
+   "scope": "primary_only",
+   "purpose": "prior_control_2023"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001193125-22-273104",
+   "scope": "primary_only",
+   "purpose": "prior_control_2023"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001193125-22-273114",
+   "scope": "primary_only",
+   "purpose": "prior_control_2023"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001193125-22-294887",
+   "scope": "primary_only",
+   "purpose": "prior_control_2023"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001354457-22-000674",
+   "scope": "full",
+   "purpose": "delisting_2023"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001193125-22-296537",
+   "scope": "full",
+   "purpose": "control_completion_2023"
+  },
+  {
+   "ticker": "AKUS",
+   "archive_cik": 1722271,
+   "accession": "0001193125-22-302746",
+   "scope": "full",
+   "purpose": "deregistration_2023"
+  },
+  {
+   "ticker": "ALT",
+   "archive_cik": 1326190,
+   "accession": "0001144204-17-024611",
+   "scope": "full",
+   "purpose": "listing_registration_current_nasdaq"
+  },
+  {
+   "ticker": "ALT",
+   "archive_cik": 1326190,
+   "accession": "0001144204-17-024770",
+   "scope": "full",
+   "purpose": "prior_listing_removal_2017"
+  },
+  {
+   "ticker": "ALT",
+   "archive_cik": 1326190,
+   "accession": "0001144204-15-068096",
+   "scope": "full",
+   "purpose": "prior_listing_registration_2015"
+  },
+  {
+   "ticker": "ALT",
+   "archive_cik": 1326190,
+   "accession": "0001564590-20-052524",
+   "scope": "primary_only",
+   "purpose": "membership_2021_before"
+  },
+  {
+   "ticker": "ALT",
+   "archive_cik": 1326190,
+   "accession": "0001564590-21-008422",
+   "scope": "primary_only",
+   "purpose": "membership_2021_after"
+  },
+  {
+   "ticker": "ALT",
+   "archive_cik": 1326190,
+   "accession": "0001564590-21-008419",
+   "scope": "full",
+   "purpose": "window_2021_control_screen"
+  },
+  {
+   "ticker": "ALT",
+   "archive_cik": 1326190,
+   "accession": "0001193125-21-056940",
+   "scope": "full",
+   "purpose": "window_2021_control_screen"
+  },
+  {
+   "ticker": "ALT",
+   "archive_cik": 1326190,
+   "accession": "0001193125-21-078521",
+   "scope": "full",
+   "purpose": "window_2021_control_screen"
+  },
+  {
+   "ticker": "ALT",
+   "archive_cik": 1326190,
+   "accession": "0001326190-22-000013",
+   "scope": "primary_only",
+   "purpose": "membership_2023_before"
+  },
+  {
+   "ticker": "ALT",
+   "archive_cik": 1326190,
+   "accession": "0001326190-23-000008",
+   "scope": "primary_only",
+   "purpose": "membership_2023_after"
+  },
+  {
+   "ticker": "ALT",
+   "archive_cik": 1326190,
+   "accession": "0001326190-23-000047",
+   "scope": "primary_only",
+   "purpose": "membership_2024_before"
+  },
+  {
+   "ticker": "ALT",
+   "archive_cik": 1326190,
+   "accession": "0001326190-24-000010",
+   "scope": "primary_only",
+   "purpose": "membership_2024_after"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0001193125-20-199661",
+   "scope": "full",
+   "purpose": "initial_listing_registration"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0001193125-20-202157",
+   "scope": "full",
+   "purpose": "initial_listing_registration_amendment"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0001193125-20-204368",
+   "scope": "primary_only",
+   "purpose": "ipo_final_prospectus"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0001564590-20-053036",
+   "scope": "primary_only",
+   "purpose": "membership_2021_before"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0001564590-21-005652",
+   "scope": "primary_only",
+   "purpose": "membership_2021_after"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0001193125-21-113165",
+   "scope": "primary_only",
+   "purpose": "window_2021_control_screen"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0001193125-21-271445",
+   "scope": "full",
+   "purpose": "window_2021_control_screen"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0000950170-22-021829",
+   "scope": "primary_only",
+   "purpose": "membership_2023_before"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0000950170-23-002830",
+   "scope": "primary_only",
+   "purpose": "membership_2023_after"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0001193125-23-088090",
+   "scope": "primary_only",
+   "purpose": "window_2023_control_screen"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0001193125-23-175095",
+   "scope": "full",
+   "purpose": "window_2023_control_screen"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0001193125-23-301777",
+   "scope": "full",
+   "purpose": "prior_engagement_2024"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0000950170-23-058145",
+   "scope": "primary_only",
+   "purpose": "membership_2024_before"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0000950170-24-031879",
+   "scope": "primary_only",
+   "purpose": "membership_2024_after"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0001193125-24-032160",
+   "scope": "full",
+   "purpose": "window_2024_control_screen"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0001193125-24-106981",
+   "scope": "primary_only",
+   "purpose": "window_2024_control_screen"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0001193125-24-253747",
+   "scope": "full",
+   "purpose": "window_2024_control_candidate"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0001193125-24-253752",
+   "scope": "primary_only",
+   "purpose": "window_2024_control_candidate"
+  },
+  {
+   "ticker": "ALVR",
+   "archive_cik": 1754068,
+   "accession": "0001193125-24-272655",
+   "scope": "primary_only",
+   "purpose": "window_2024_control_candidate"
+  }
+ ],
+ "urls": []
+}

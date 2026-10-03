@@ -1,0 +1,76 @@
+{
+ "admission_authority": {
+  "ceiling_if_all_seven_2021_candidates_admitted": "11/20 (cannot unblock training)",
+  "complete_designated_primary_corpus_attested": false,
+  "coverage_receipts_authored": false,
+  "expected_new_admissions": 0,
+  "first_fold_negative_support": "4/20 unchanged",
+  "historical_evidence_timing_attested": false,
+  "k5_degenerate_heldout_issue": "open",
+  "label_admission_allowed": false
+ },
+ "already_seen_discovery_before_this_addendum": [
+  {
+   "issuer": "AKUS",
+   "lead": "Eli Lilly definitive agreement to acquire Akouos announced 2022-10-18 (tender offer + merger; merger agreement dated 2022-10-17)",
+   "seen_via": "root_web_leads/first-batch-web-discovery-8559a88c4cd5f8dca8efd5adf902bc9a6770c555214bd29e8e3e86f0f713a4f4.json"
+  },
+  {
+   "issuer": "ALVR",
+   "lead": "AlloVir/Kalaris merger agreement 8-K accession 0001193125-24-253747; pre-merger Kalaris holders ~74.95%, AlloVir holders ~25.05% fully diluted",
+   "seen_via": "root_web_leads/allovir-transaction-web-capture-760edbf59dcc665fb5fb2e8a876a7a306579ede5e8f6eec413a9d144c6fefc97.json"
+  },
+  {
+   "issuer": "ADAP",
+   "lead": "implementer prior knowledge (unverified at writing): Adaptimmune was acquirer in a 2023 all-stock TCR2 Therapeutics transaction",
+   "seen_via": "model background knowledge; must be verified from primary bytes before use"
+  }
+ ],
+ "clock_basis": "measured UTC when this addendum was written, after outcome inspection and before substantive SEC collection for this pass",
+ "consultation": {
+  "disposition": "root accepted R1-R6 (R4, R6 with qualification); deferred SEC-direct binder, full non-text census, issuer-news version reconstruction, remaining 95 issuers, ratings and valuation",
+  "model": "claude-fable-5-1",
+  "relative_path": "inputs/consultation-cli-result-13102720394b2674ca50626e3219686cdbca07e341f1a7b7e5f23c1e1962c454.json",
+  "session_id": "6a1499a0-7128-47de-83ad-0c512ef8911a",
+  "sha256": "13102720394b2674ca50626e3219686cdbca07e341f1a7b7e5f23c1e1962c454",
+  "verdict": "REQUEST_CHANGES"
+ },
+ "historical_preregistration": false,
+ "independent_confirmation": false,
+ "inherited_inputs_policy": "Inherited artifacts in this repository (frame ledger c4cdf8060874505cd965b80ba7344c484c335e0344e63bd1f32783e14af1bf99, ABUS v2 packet 9cc529b1dfb06507192f3657bfa2d526858b5ca9ed4c7cea721e8ea15f198f8d, panel 147059f3..., adjudications 5da40c2e..., ARQT/CRNX inventories and progress receipts) are referenced by repository-relative path plus SHA-256 as read-only inputs, not copied. Original-checkout-only inputs are re-fetched from their recorded public URL or copied with explicit provenance; the original checkout is never written.",
+ "outcome_exposed": true,
+ "precommitted_rules": {
+  "acceptance_time": "SEC index Accepted timestamps are recorded verbatim as EDGAR-displayed values (EDGAR operates on US Eastern time); no silent timezone conversion.",
+  "acquirer_filed_documents": "Acquirer- or third-party-filed documents record filer CIK and subject CIK separately from the SEC index company blocks.",
+  "ads_mapping": "For ADS issuers, record the listed instrument, ADS-to-ordinary ratio and underlying class from the primary cover/registration source. Whether an ADS satisfies the panel common_equity membership contract is NOT decided in this pass; it is returned to root as a design question. No share-count/valuation conversion is implied.",
+  "horizon": "observation_date + 365 calendar days including leap-year effect: 2021-01-01->2022-01-01, 2023-01-01->2024-01-01, 2024-01-01->2024-12-31.",
+  "issuer_copies": "A current issuer IR copy or PDF matching an earlier 2026 capture hash shows unchanged bytes since that capture only; it is not original-version evidence. 8-K EX-99 is the original-version anchor; IR copies are corroboration, never a second independent disclosure.",
+  "membership_listing": "A 10-K/10-Q cover Section 12(b) table is dated exchange-listing evidence for its own filing date only; it never alone establishes IPO date or uninterrupted listing. Initial listing prefers Form 8-A12B / 424B4 / effectiveness. Membership status per observation records the nearest dated evidence before and after the observation date and leaves continuity unresolved unless a change source (Form 25, 8-K Item 3.01, Form 15) is reviewed.",
+  "no_hit": "A search or filing-list absence is never a negative. Labels remain unknown unless a separately reviewed admission passes.",
+  "non_text_items": "Frame-wide: every GRAPHIC, XBRL data file, PDF or other non-HTML/non-text item listed in an SEC filing index is recorded as a census item. Data files are listed from the index and not fetched. Graphics/PDFs may be fetched and hash-bound but remain open (unreviewed) unless a recorded visual/format review exists. Successful decoding or text extraction is never a complete material-corpus review.",
+  "prior_control_exclusion": "Listed at observation date but a definitive whole-company control agreement was already announced and not yet terminated before the observation date.",
+  "reverse_merger_test": "For a merger where the listed issuer is legal survivor and target holders receive a majority: record separately (i) legal survivor/issuer, (ii) pro forma economic ownership with its exact primary-source sentence and basis (fully diluted, pre-adjustment), (iii) board/management control terms if stated, (iv) operating-business continuity (whose pipeline continues). Tag reverse_merger_control_candidate; never auto-admit to the whole-company pharma acquisition class, never a positive or negative label in this pass.",
+  "review_depth": "Per document: full_text_read (entire extracted text read by the reviewer), targeted_sections_only (named sections read; remainder open), captured_unread (open), or not_captured (open). Only full_text_read closes a document. No category implies corpus completeness.",
+  "risk_set_exclusion": "Third category distinct from negative and censored: issuer not an exchange-listed member at the observation date, evidenced by a primary delisting/deregistration source (Form 25, 8-K Item 3.01/5.01/2.01 completion, Form 15) dated before the observation date.",
+  "uk_takeover_code": "A UK Takeover Code firm-offer (Rule 2.7) or scheme announcement is a discovery lead only until the existing definitive-control contract is independently satisfied."
+ },
+ "registration": {
+  "copied_byte_identically": true,
+  "relative_path": "inputs/exploration-registration-00c456c3d71c4a44a7f12eac62fa98fb0a6c1d08bd466a4c26c2331a5aa07763.json",
+  "sha256": "00c456c3d71c4a44a7f12eac62fa98fb0a6c1d08bd466a4c26c2331a5aa07763"
+ },
+ "root_reconciliation": {
+  "relative_path": "inputs/plan-reconciliation-8f9a3e5f08872ad5b60c127763673964b9f4547022144c8cc77b14e546265d58.md",
+  "sha256": "8f9a3e5f08872ad5b60c127763673964b9f4547022144c8cc77b14e546265d58"
+ },
+ "root_web_leads_policy": "Web-tool extracted-text captures copied byte-identically under root_web_leads/; original_document_bytes_archived=false; used only as discovery leads and for what their text shows; retrieval clocks limited to their recorded start/end strings.",
+ "schema_version": "ma-exploration-finalized-plan-addendum-v1",
+ "transport": {
+  "basis": "www.sec.gov Archives returned HTTP 403 to the contact-free project agent at 2026-10-03 ~02:45Z; the repository owner's own prior SEC receipts (11 recorded) used this exact agent string; data.sec.gov returned 200 with the contact-free agent.",
+  "pacing": "<=5 requests/second, no automatic retries, no redirects followed",
+  "sec_www_user_agent": "BiotechMAPredictor/0.1 waiy392f@gmail.com"
+ },
+ "validated_predictive_edge": false,
+ "written_at": "2026-10-03T02:53:05.038002+00:00",
+ "written_by": "Claude Opus 5.5 (claude-opus-5-5) implementer session; agent, not independent human"
+}

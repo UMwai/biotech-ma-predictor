@@ -1,0 +1,22 @@
+{
+ "schema_version": "ma-exploration-sec-plan-v1",
+ "name": "designated-material-accessions",
+ "purpose": "One designated material 2021 accession per audited company captured with every listed document and data file, so the accession can be reviewed with no unreached listed item. Same accessions as the 2026-09-08 web-extract examples, enabling a bytes-vs-extract comparison.",
+ "accessions": [
+  {
+   "ticker": "ARQT",
+   "archive_cik": 1787306,
+   "accession": "0001787306-21-000033",
+   "scope": "full_with_data_files",
+   "purpose": "designated_material_accession"
+  },
+  {
+   "ticker": "CRNX",
+   "archive_cik": 1658247,
+   "accession": "0001564590-21-039140",
+   "scope": "full_with_data_files",
+   "purpose": "designated_material_accession"
+  }
+ ],
+ "urls": []
+}

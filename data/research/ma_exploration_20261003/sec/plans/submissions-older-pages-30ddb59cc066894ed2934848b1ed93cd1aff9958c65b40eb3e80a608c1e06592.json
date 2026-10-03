@@ -1,0 +1,22 @@
+{
+ "schema_version": "ma-exploration-sec-plan-v1",
+ "name": "submissions-older-pages",
+ "purpose": "Older EDGAR submissions pages for ABUS and ALT (filings before 2011) to locate original listing registrations.",
+ "accessions": [],
+ "urls": [
+  {
+   "id": "ABUS-submissions-001",
+   "ticker": "ABUS",
+   "cik": 1447028,
+   "url": "https://data.sec.gov/submissions/CIK0001447028-submissions-001.json",
+   "role": "current_submissions_index_older_page"
+  },
+  {
+   "id": "ALT-submissions-001",
+   "ticker": "ALT",
+   "cik": 1326190,
+   "url": "https://data.sec.gov/submissions/CIK0001326190-submissions-001.json",
+   "role": "current_submissions_index_older_page"
+  }
+ ]
+}
